@@ -2,7 +2,7 @@
 <FORM Revision="$Revision: 1.1 $" State="modified">
   <PARENT Filename="fmftm1.creature"/>
   <PARENT Filename="_fame_none.creature"/>
-  <PARENT Filename="drill_zohc3.creature"/>
+  <PARENT Filename="lost_ucikara.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="Level" Value="5"/>
