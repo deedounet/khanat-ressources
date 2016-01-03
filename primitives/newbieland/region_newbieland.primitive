@@ -86,7 +86,7 @@
           <STRING>safe_zones_10</STRING>
         </PROPERTY>
         <CHILD TYPE="CPrimPoint">
-          <PT X="8788.535156" Y="-11199.533203" Z="0.000000"/>
+          <PT X="8788.569336" Y="-11199.395508" Z="0.000000"/>
           <PROPERTY TYPE="string">
             <NAME>class</NAME>
             <STRING>safe_zone</STRING>
@@ -237,8 +237,8 @@
           </PROPERTY>
         </CHILD>
         <CHILD TYPE="CPrimPoint">
-          <PT X="10430.746094" Y="-11666.378906" Z="0.000000"/>
-          <ANGLE VALUE="-2.316925"/>
+          <PT X="8878.440430" Y="-10591.541016" Z="0.000000"/>
+          <ANGLE VALUE="-0.687224"/>
           <PROPERTY TYPE="string">
             <NAME>class</NAME>
             <STRING>teleport_spawn_zone</STRING>
@@ -249,7 +249,7 @@
           </PROPERTY>
           <PROPERTY TYPE="string">
             <NAME>radius</NAME>
-            <STRING>6.687500</STRING>
+            <STRING>5.939597</STRING>
           </PROPERTY>
           <PROPERTY TYPE="string">
             <NAME>type</NAME>
@@ -257,8 +257,8 @@
           </PROPERTY>
         </CHILD>
         <CHILD TYPE="CPrimPoint">
-          <PT X="10409.519531" Y="-11869.596680" Z="0.000000"/>
-          <ANGLE VALUE="2.022400"/>
+          <PT X="8873.162109" Y="-10597.514648" Z="0.000000"/>
+          <ANGLE VALUE="5.144358"/>
           <PROPERTY TYPE="string">
             <NAME>class</NAME>
             <STRING>teleport_spawn_zone</STRING>
@@ -269,7 +269,7 @@
           </PROPERTY>
           <PROPERTY TYPE="string">
             <NAME>radius</NAME>
-            <STRING>6.937500</STRING>
+            <STRING>5.636719</STRING>
           </PROPERTY>
           <PROPERTY TYPE="string">
             <NAME>type</NAME>
@@ -277,8 +277,8 @@
           </PROPERTY>
         </CHILD>
         <CHILD TYPE="CPrimPoint">
-          <PT X="10304.768555" Y="-11725.426758" Z="0.000000"/>
-          <ANGLE VALUE="-4.574944"/>
+          <PT X="8864.492188" Y="-10592.253906" Z="0.000000"/>
+          <ANGLE VALUE="-6.872234"/>
           <PROPERTY TYPE="string">
             <NAME>class</NAME>
             <STRING>teleport_spawn_zone</STRING>
@@ -289,7 +289,7 @@
           </PROPERTY>
           <PROPERTY TYPE="string">
             <NAME>radius</NAME>
-            <STRING>5</STRING>
+            <STRING>5.309766</STRING>
           </PROPERTY>
           <PROPERTY TYPE="string">
             <NAME>type</NAME>
@@ -454,33 +454,6 @@
             <NAME>name</NAME>
             <STRING>alias</STRING>
           </PROPERTY>
-        </CHILD>
-        <CHILD TYPE="CPrimPath">
-          <PT X="9405.142578" Y="-11257.110352" Z="0.000000"/>
-          <PT X="9402.992188" Y="-11342.409180" Z="0.000000"/>
-          <PT X="9472.522461" Y="-11410.505859" Z="0.000000"/>
-          <PT X="9483.297852" Y="-11564.946289" Z="0.000000" SELECTED="true"/>
-          <PT X="9478.256836" Y="-11413.373047" Z="0.000000"/>
-          <PT X="9615.882813" Y="-11403.337891" Z="0.000000"/>
-          <PROPERTY TYPE="string">
-            <NAME>class</NAME>
-            <STRING>goo_border</STRING>
-          </PROPERTY>
-          <PROPERTY TYPE="string">
-            <NAME>name</NAME>
-            <STRING>goo_border_newbieland</STRING>
-          </PROPERTY>
-          <CHILD TYPE="CPrimAlias">
-            <ALIAS VALUE="28"/>
-            <PROPERTY TYPE="string">
-              <NAME>class</NAME>
-              <STRING>alias</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>name</NAME>
-              <STRING>alias</STRING>
-            </PROPERTY>
-          </CHILD>
         </CHILD>
       </CHILD>
     </CHILD>

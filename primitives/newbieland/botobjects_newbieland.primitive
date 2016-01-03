@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="990"/>
+    <ALIAS LAST_GENERATED="992"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -73,22 +73,49 @@
             </PROPERTY>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="10302.816406" Y="-11711.168945" Z="0.000000"/>
-            <ANGLE VALUE="-7.677267"/>
+            <PT X="8872.437500" Y="-10591.335938" Z="0.000000"/>
+            <ANGLE VALUE="-9.994192"/>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
               <STRING>npc_bot</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>watchtower</STRING>
+              <STRING>minaret</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>object_watch_tower</STRING>
+              <STRING>minaret</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="490"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8828.504883" Y="-10600.044922" Z="0.000000"/>
+            <ANGLE VALUE="-0.883573"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>firecamp</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>feudecamp</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="991"/>
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
                 <STRING>alias</STRING>
