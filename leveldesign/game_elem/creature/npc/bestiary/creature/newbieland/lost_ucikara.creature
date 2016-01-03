@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.2 $" State="modified">
-  <PARENT Filename="_zorai_male.creature"/>
-  <PARENT Filename="_fame_zorai.creature"/>
+  <PARENT Filename="_fyros_male.creature"/>
+  <PARENT Filename="_fame_none.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
       <STRUCT Name="Equipment">
@@ -35,7 +35,7 @@
           <ATOM Name="Color" Value="Beige"/>
         </STRUCT>
         <STRUCT Name="Face">
-          <ATOM Name="Item" Value="zo_visage.item"/>
+          <ATOM Name="Item" Value="fys_visage.item"/>
           <ATOM Name="Texture" Value="Lacustre/Low Quality/Young"/>
           <ATOM Name="Color" Value="Beige"/>
         </STRUCT>
