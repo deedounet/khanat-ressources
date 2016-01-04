@@ -364,8 +364,8 @@
             </PROPERTY>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="8830.653320" Y="-10597.674805" Z="0.000000"/>
-            <ANGLE VALUE="-8.619746"/>
+            <PT X="8814.795898" Y="-10630.995117" Z="0.000000"/>
+            <ANGLE VALUE="-8.158325"/>
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
               <STRING>shop : RM_ITEM_PART_SOLD:RM_NEWBIELAND_LEVEL</STRING>
@@ -405,7 +405,7 @@
             </CHILD>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="8825.685547" Y="-10599.646484" Z="0.000000"/>
+            <PT X="8810.023438" Y="-10634.111328" Z="0.000000"/>
             <ANGLE VALUE="6.037747"/>
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>

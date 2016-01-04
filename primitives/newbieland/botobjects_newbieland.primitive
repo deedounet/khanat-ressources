@@ -100,7 +100,7 @@
             </CHILD>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="8828.504883" Y="-10600.044922" Z="0.000000"/>
+            <PT X="8813.634766" Y="-10634.638672" Z="0.000000"/>
             <ANGLE VALUE="-0.883573"/>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
