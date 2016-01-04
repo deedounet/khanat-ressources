@@ -376,11 +376,9 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>CHANDS : 1</STRING>
-              <STRING>CBODY : 3</STRING>
-              <STRING>CLEGS : 3</STRING>
-              <STRING>CFEETS : 3</STRING>
-              <STRING>CARMS : 1</STRING>
+              <STRING>VPA:4132100001106210</STRING>
+              <STRING>VPB:000000C0BC090000</STRING>
+              <STRING>VPC:001AA3804D830824</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>is_stuck</NAME>
@@ -412,18 +410,30 @@
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
               <STRING>shop : NEWBIELAND_LARMOR_ALL</STRING>
-              <STRING>item : icmalb.sitem 10</STRING>
-              <STRING>item : icmalb.sitem 20</STRING>
-              <STRING>item : icmalb.sitem 50</STRING>
-              <STRING>item : icfalb.sitem 10</STRING>
-              <STRING>item : icfalb.sitem 20</STRING>
-              <STRING>item : icfalb.sitem 50</STRING>
-              <STRING>item : ictalb.sitem 10</STRING>
-              <STRING>item : ictalb.sitem 20</STRING>
-              <STRING>item : ictalb.sitem 50</STRING>
-              <STRING>item : iczalb.sitem 10</STRING>
-              <STRING>item : iczalb.sitem 20</STRING>
-              <STRING>item : iczalb.sitem 50</STRING>
+              <STRING>item : icrava.sitem 10</STRING>
+              <STRING>item : icrave.sitem 10</STRING>
+              <STRING>item : icravg.sitem 10</STRING>
+              <STRING>item : icravr.sitem 10</STRING>
+              <STRING>item : icravt.sitem 10</STRING>
+              <STRING>item : icravu.sitem 10</STRING>
+              <STRING>item : icravv.sitem 10</STRING>
+              <STRING>item : icravw.sitem 10</STRING>
+              <STRING>item : icrasa.sitem 10</STRING>
+              <STRING>item : icrase.sitem 10</STRING>
+              <STRING>item : icrasg.sitem 10</STRING>
+              <STRING>item : icrasr.sitem 10</STRING>
+              <STRING>item : icrast.sitem 10</STRING>
+              <STRING>item : icrasu.sitem 10</STRING>
+              <STRING>item : icrasv.sitem 10</STRING>
+              <STRING>item : icrasw.sitem 10</STRING>
+              <STRING>item : icrapa.sitem 10</STRING>
+              <STRING>item : icrape.sitem 10</STRING>
+              <STRING>item : icrapg.sitem 10</STRING>
+              <STRING>item : icrapr.sitem 10</STRING>
+              <STRING>item : icrapt.sitem 10</STRING>
+              <STRING>item : icrapu.sitem 10</STRING>
+              <STRING>item : icrapv.sitem 10</STRING>
+              <STRING>item : icrapw.sitem 10</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
@@ -431,11 +441,9 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>CHANDS : 1</STRING>
-              <STRING>CBODY : 3</STRING>
-              <STRING>CLEGS : 3</STRING>
-              <STRING>CFEETS : 3</STRING>
-              <STRING>CARMS : 1</STRING>
+              <STRING>VPA:212C120000901209</STRING>
+              <STRING>VPB:000000C0BC090000</STRING>
+              <STRING>VPC:000000381396B8AD</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -443,7 +451,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>welcome_ra</STRING>
+              <STRING>welcome_ra_f</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="146"/>

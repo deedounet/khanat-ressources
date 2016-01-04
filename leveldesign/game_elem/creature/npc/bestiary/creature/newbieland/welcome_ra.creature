@@ -4,6 +4,7 @@
   <PARENT Filename="_fame_none.creature"/>
   <PARENT Filename="lost_ucikara.creature"/>
   <STRUCT>
+	<ATOM Name="r2_npc" Value="true"/>
     <STRUCT Name="Basics">
       <ATOM Name="Level" Value="5"/>
       <ATOM Name="PlayerSkillLevel" Value="50"/>

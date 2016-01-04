@@ -35,7 +35,7 @@
           <ATOM Name="Color" Value="Beige"/>
         </STRUCT>
         <STRUCT Name="Face">
-          <ATOM Name="Item" Value="fys_visage.item"/>
+          <ATOM Name="Item" Value="fy_visage.item"/>
           <ATOM Name="Texture" Value="Lacustre/Low Quality/Young"/>
           <ATOM Name="Color" Value="Beige"/>
         </STRUCT>
