@@ -3,11 +3,11 @@
   <STRUCT>
     <STRUCT Name="StartEquipment1">
       <STRUCT Name="Body">
-        <ATOM Name="Item" Value="aagaaaaa.sitem"/>
+        <ATOM Name="Item" Value="ic_v_oub.sitem"/>
         <ATOM Name="Quality" Value="1"/>
       </STRUCT>
       <STRUCT Name="Legs">
-        <ATOM Name="Item" Value="aahaaaaa.sitem"/>
+        <ATOM Name="Item" Value="ic_r_oub.sitem"/>
         <ATOM Name="Quality" Value="1"/>
       </STRUCT>
       <STRUCT Name="Arms">

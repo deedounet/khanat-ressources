@@ -18,7 +18,7 @@
       <ATOM Name="Tool type" Value="ArmorTool"/>
       <ATOM Name="Item Max Level" Value="100"/>
       <STRUCT Name="Create">
-        <ATOM Name="Crafted Item" Value="icrave.sitem"/>
+        <ATOM Name="Crafted Item" Value="ic_v_oub.sitem"/>
         <ATOM Name="Nb built items" Value="1"/>
         <ATOM Name="MP 1" Value="Raw Material for Armor shell"/>
         <ATOM Name="Quantity 1" Value="1"/>

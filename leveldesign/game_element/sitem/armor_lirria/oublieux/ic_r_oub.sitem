@@ -13,8 +13,8 @@
       <ATOM Name="CraftPlan" Value="bcraea41.sbrick"/>
     </STRUCT>
     <STRUCT Name="3d">
-      <ATOM Name="shape" Value="TR_HOM_refugee_pantabottes.shape"/>
-      <ATOM Name="shape_female" Value="TR_HOF_refugee_pantabottes.shape"/>
+      <ATOM Name="shape" Value="ZO_HOM_caster01_pantabottes.shape"/> 
+      <ATOM Name="shape_female" Value="ZO_HOF_caster01_pantabottes.shape"/>
       <ATOM Name="map_variant" Value="Low Quality"/>
       <ATOM Name="icon" Value="AR_pantabotte.tga"/>
       <ATOM Name="icon background" Value="BK_generic.tga"/>
