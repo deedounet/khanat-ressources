@@ -1,0 +1,31 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 1765
+/* OLD VALUE : [
+	OPS_WELCOME ()
+	{
+				[&AROUND&Welcome to Ryzom !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	OPS_WELCOME ()
+	{
+				[&AROUND&Welcome to Ryzom !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 06FFD7653E74BC6D
+OPS_WELCOME ()
+{
+			[&AROUND&Welcome to Khanat !]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

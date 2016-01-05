@@ -14655,20 +14655,10 @@ OPS_TEAM_MAX_SIZE_REACHED ()
 
 }
 
-/* OLD VALUE : [
-	OPS_WELCOME ()
-	{
-				[&AROUND&Welcome to Ryzom !]
-	
-	}
-	
-
-] */
-// Clause 0 : text changed.
-// HASH_VALUE 06FFD7653E74BC6D
+// HASH_VALUE 8F4FDB117FE5148F
 OPS_WELCOME ()
 {
-			[&AROUND&Welcome to Khanat !]
+			[&AROUND&Welcome to Ryzom !]
 
 }
 

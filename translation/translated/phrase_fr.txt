@@ -16597,10 +16597,30 @@ OPS_TEAM_MAX_SIZE_REACHED ()
 
 }
 
-// HASH_VALUE 8F4FDB117FE5148F
+/* OLD VALUE : [
+	OPS_WELCOME ()
+	{
+				[&AROUND&Welcome to Ryzom !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	OPS_WELCOME ()
+	{
+				[&AROUND&Bienvenue dans Ryzom !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 06FFD7653E74BC6D
 OPS_WELCOME ()
 {
-			[&AROUND&Bienvenue dans Ryzom !]
+			[&AROUND&Bienvenue sur Khanat !]
 
 }
 
@@ -17404,18 +17424,18 @@ PROGRESS_MAX_DAMAGE_TRANSFERED (entity e)
 
 }
 
-/*PROGRESS_MUCH_GAIN(skill s)
+//*PROGRESS_MUCH_GAIN(skill s)
 //{
 //	progress_much_gain [&JA&You gain much experience in '$s$'.]
 //}
 // HASH_VALUE DD283493C0E876AD
 PROGRESS_MISSION_GAIN (skill s)
 {
-		progress_mission_gain	[&TSK&La réussite de cette mission vous permet d'obtenir de l'expérience dans la compétence ""$s$"".]
+		progress_mission_gain	[&TSK&La réussite de cette mission vous permet d'obtenir de l'expérience dans la compétence "$s$".]
 
 }
 
-/PROGRESS_LITTLE_GAIN(skill s)
+//PROGRESS_LITTLE_GAIN(skill s)
 //{
 //	progress_little_gain [&RG&You gain a little experience in '$s$'.]
 //}
@@ -17438,32 +17458,32 @@ PROGRESS_NORMAL_GAIN (skill s, int i)
 // HASH_VALUE 2C430A38E09E2BEA
 PROGRESS_NO_GAIN (skill s)
 {
-		progress_no_gain	[&CHK&Vous n'obtenez pas d'expérience dans la compétence ""$s$"", cette action est trop simple.]
+		progress_no_gain	[&CHK&Vous n'obtenez pas d'expérience dans la compétence "$s$", cette action est trop simple.]
 
 }
 
-// HASH_VALUE 692BC5AD5D68582A	
+// HASH_VALUE 692BC5AD5D68582A
 PROGRESS_SAP ()
 {
 		progress_sap	[&XP&Votre sève augmente.]
 
 }
 
-// HASH_VALUE 75D5D39DF074B2B0	
+// HASH_VALUE 75D5D39DF074B2B0
 PROGRESS_SKILL (skill s, int i)
 {
-		progress_skill	[&XP&Votre compétence ""$s$"" atteint le niveau $i$.]
+		progress_skill	[&XP&Votre compétence "$s$" atteint le niveau $i$.]
 
 }
 
-// HASH_VALUE C1D1A939B47AED7C	
+// HASH_VALUE C1D1A939B47AED7C
 PROGRESS_STA ()
 {
 		progress_sta	[&XP&Votre Endurance augmente.]
 
 }
 
-/PROGRESS_RESIST(??)
+//PROGRESS_RESIST(??)
 //{
 //	progress_resist	[&JA&]
 //}
@@ -17474,35 +17494,35 @@ PROGRESS_UNLOCK_SKILL (skill s, int i)
 
 }
 
-// HASH_VALUE 080085FCBF8B1B77	
+// HASH_VALUE 080085FCBF8B1B77
 PVP_CANT_ATTACK_ALLY ()
 {
 			[&CHKCB&Vous ne pouvez pas attaquer votre allié.]
 
 }
 
-// HASH_VALUE A586866EA35571EF	
+// HASH_VALUE A586866EA35571EF
 PVP_CANT_ATTACK_NEUTRAL ()
 {
 			[&CHKCB&Vous ne pouvez pas attaquer un personnage neutre.]
 
 }
 
-// HASH_VALUE E63AA8516B6848FD	
+// HASH_VALUE E63AA8516B6848FD
 PVP_CANT_HELP_ENEMY ()
 {
 			[&CHKCB&Vous ne pouvez pas aider un ennemi.]
 
 }
 
-// HASH_VALUE A5029176553B7BAE	
+// HASH_VALUE A5029176553B7BAE
 PVP_CANT_HELP_NEUTRAL_PVP ()
 {
 			[&CHKCB&Vous ne pouvez pas aider un personnage joueur qui est impliqué dans un conflit PvP qui ne vous concerne pas.]
 
 }
 
-// HASH_VALUE 24C6714EACE83322	
+// HASH_VALUE 24C6714EACE83322
 PVP_CANT_HELP_UNKNOWN ()
 {
 			[&CHKCB&Vous ne pouvez pas aider cette entité.]
@@ -17512,6 +17532,16 @@ PVP_CANT_HELP_UNKNOWN ()
 ////////////////////////////////////////////////////////////////////////////////////
 // PVP
 ////////////////////////////////////////////////////////////////////////////////////
+/* OLD VALUE : [
+	PVP_CHALLENGE_DISABLED ()
+	{
+				[&CHK&Le défi PvP a été désactivé.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
 // HASH_VALUE 654875749FF66485
 PVP_CHALLENGE_DISABLED ()
 {
@@ -17519,21 +17549,21 @@ PVP_CHALLENGE_DISABLED ()
 
 }
 
-// HASH_VALUE 7133344CD1189919	
+// HASH_VALUE 7133344CD1189919
 PVP_CHALLENGE_INVITATION ( player p )
 {
 			[$p$ et son équipe vous lancent un défi ainsi qu'à votre équipe.]
 
 }
 
-// HASH_VALUE 1C17EB2210350F63	
+// HASH_VALUE 1C17EB2210350F63
 PVP_DUEL_DISABLED ()
 {
 			[&CHK&Le duel PvP a été désactivé.]
 
 }
 
-// HASH_VALUE 0E806A4D3681F739	
+// HASH_VALUE 0E806A4D3681F739
 PVP_FLAG_ALREADY_IN_THIS_MODE ( int i )
 {
 	(i = 0) 
@@ -17544,21 +17574,21 @@ PVP_FLAG_ALREADY_IN_THIS_MODE ( int i )
 
 }
 
-// HASH_VALUE 6F3E3746CE442268	
+// HASH_VALUE 6F3E3746CE442268
 PVP_FLAG_RESET_NEED_NO_RECENT_PVP_ACTION ( time totalTimer, time timerLeft )
 {
 			[&CHK&Vous ne pouvez pas enlever votre Tag PvP car vous avez fait une action PvP de faction il y a moins de $totalTimer$. Il vous reste $timerLeft$ avant de pouvoir enlever votre Tag.]
 
 }
 
-// HASH_VALUE 5A474B944FCAD6D5	
+// HASH_VALUE 5A474B944FCAD6D5
 PVP_FLAG_RESET_TAG_MINIMAL_TIME ( time totalTimer, time timerLeft )
 {
 			[&CHK&Vous ne pouvez pas enlever votre Tag PvP car il a été activé il y a moins de $totalTimer$. Il vous reste $timerLeft$ avant de pouvoir enlever votre Tag.]
 
 }
 
-// HASH_VALUE 4E8D7A0549676282	
+// HASH_VALUE 4E8D7A0549676282
 PVP_FLAG_WAIT_FOR_TIMER ( int i )
 {
 	(i = 0) 
@@ -17569,35 +17599,35 @@ PVP_FLAG_WAIT_FOR_TIMER ( int i )
 
 }
 
-// HASH_VALUE 1B9DE79359A2793C	
+// HASH_VALUE 1B9DE79359A2793C
 PVP_FREE_ZONE_ENTER ()
 {
 			[&CHK&Vous êtes dans une Zone PVP Libre : il n'y a plus de règles.. soyez prudent(e) !]
 
 }
 
-// HASH_VALUE F13EB2E858803E74	
+// HASH_VALUE F13EB2E858803E74
 PVP_GUILD_ZONE_ENTER ()
 {
 			[&CHK&Vous êtes dans une Zone PVP de Guilde : les guildes peuvent s'affronter ici.]
 
 }
 
-// HASH_VALUE A63AFD02B6E83493	
+// HASH_VALUE A63AFD02B6E83493
 PVP_SAFE_ZONE ()
 {
 			[&CHK&Vous êtes dans une zone protégée du PvP, tant que vous y restez ou que vous ne faites pas d'action PvP après l'avoir quittée, vous y serez protégé.]
 
 }
 
-// HASH_VALUE 4115BE85DA05DB2C	
+// HASH_VALUE 4115BE85DA05DB2C
 PVP_SPIRE_ATTACKED (place region_name, faction faction)
 {
 			[&SYS&La spire $faction$ dans $region_name.da$ $region_name$ est attaquée !]
 
 }
 
-// HASH_VALUE C68BD2805BBC36F7	
+// HASH_VALUE C68BD2805BBC36F7
 PVP_SPIRE_BUILD_FINISHED (place region_name, faction f, int audience)
 {
 	(audience = 0) 
@@ -17608,7 +17638,7 @@ PVP_SPIRE_BUILD_FINISHED (place region_name, faction f, int audience)
 
 }
 
-// HASH_VALUE E3542E9264BB1F30	
+// HASH_VALUE E3542E9264BB1F30
 PVP_SPIRE_DESTROYED (place region_name, faction f, int audience)
 {
 	(audience = 0) 
@@ -17619,14 +17649,14 @@ PVP_SPIRE_DESTROYED (place region_name, faction f, int audience)
 
 }
 
-// HASH_VALUE 933322C3C560D13A	
+// HASH_VALUE 933322C3C560D13A
 PVP_SPIRE_FACTION_POINT (int q)
 {
 			[&XP&Vous avez détruit une spire ennemie ! Vous gagnez $q$ points de faction.]
 
 }
 
-// HASH_VALUE B551AE9F55A92A05	
+// HASH_VALUE B551AE9F55A92A05
 PVP_SPIRE_REBUILD_DELAY (int m, int s)
 {
 	(m > 0) 
@@ -17654,6 +17684,21 @@ PVP_SPIRE_SPEND_FACTION_POINT (int q)
 
 ] */
 // Clause list changed.
+/* OLD VALUE : [
+	
+	PVP_SPIRE_START_BUILDING (place region_name, faction f, int m, int s)
+	{
+		(s != 0) 
+				[&ZON&Une spire $f$ apparaîtra dans $region_name.da$ $region_name$ dans $m$ minutes $s$ secondes.]
+	
+		(s = 0) 
+				[&ZON&Une spire $f$ apparaîtra dans $region_name.da$ $region_name$ dans $m$ minutes.]
+	
+	}
+	
+
+] */
+// WARNING : Hash code changed ! check translation workflow.
 // HASH_VALUE 3FC9E1C8175230F5
 PVP_SPIRE_START_BUILDING (place region_name, faction f, int m, int s)
 {

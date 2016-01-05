@@ -413,7 +413,7 @@ EGS_CANT_CONSTRUCT_ANYTHING ()
 
 OPS_WELCOME ()
 {
-	[&AROUND&Welcome to Ryzom !]
+	[&AROUND&Welcome to Khanat !]
 }
 
 EGS_USE_LAST_AMMO ()

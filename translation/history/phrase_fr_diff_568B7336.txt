@@ -1,0 +1,60 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 1765
+/* OLD VALUE : [
+	OPS_WELCOME ()
+	{
+				[&AROUND&Welcome to Ryzom !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	OPS_WELCOME ()
+	{
+				[&AROUND&Bienvenue dans Ryzom !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 06FFD7653E74BC6D
+OPS_WELCOME ()
+{
+			[&AROUND&Bienvenue sur Khanat !]
+
+}
+
+// DIFF CHANGED 1878
+////////////////////////////////////////////////////////////////////////////////////
+// PVP
+////////////////////////////////////////////////////////////////////////////////////
+/* OLD VALUE : [
+	PVP_CHALLENGE_DISABLED ()
+	{
+				[&CHK&Le défi PvP a été désactivé.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 654875749FF66485
+PVP_CHALLENGE_DISABLED ()
+{
+			[&CHK&Le défi PvP a été désactivé.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 7133344CD1189919
+PVP_CHALLENGE_INVITATION ( player p )
+{
+			[$p$ et son équipe vous lancent un défi ainsi qu'à votre équipe.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE
