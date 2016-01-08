@@ -364,7 +364,7 @@
             </PROPERTY>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="8814.795898" Y="-10630.995117" Z="0.000000"/>
+            <PT X="8815.139648" Y="-10631.029297" Z="0.000000"/>
             <ANGLE VALUE="-8.158325"/>
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
@@ -387,6 +387,10 @@
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
               <STRING>welcome_ra</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>vertical_pos</NAME>
+              <STRING>auto</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="142"/>
