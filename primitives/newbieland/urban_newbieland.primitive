@@ -381,10 +381,6 @@
               <STRING>VPC:001AA3804D830824</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
-              <NAME>is_stuck</NAME>
-              <STRING>true</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
               <NAME>name</NAME>
               <STRING>bland_marchand_rm$fct_rm_merchant$</STRING>
             </PROPERTY>
