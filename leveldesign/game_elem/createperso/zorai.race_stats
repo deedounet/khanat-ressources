@@ -28,7 +28,7 @@
         <ATOM Name="DefaultFace" Value="zo_visage.sitem"/>
         <ATOM Name="DefaultChest" Value="igzvu.sitem"/>
         <ATOM Name="DefaultArms" Value="igzau.sitem"/>
-        <ATOM Name="DefaultLegs" Value="igzpu.sitem"/>
+        <ATOM Name="DefaultLegs" Value="igtpu.sitem"/>
         <ATOM Name="DefaultHands" Value="igzgu.sitem"/>
         <ATOM Name="DefaultFeet" Value="igzbu.sitem"/>
         <ATOM Name="DefaultHair" Value="zo_cheveux_medium01.sitem"/>
@@ -42,9 +42,9 @@
         <ATOM Name="AnimSetBaseName" Value="fy_hom"/>
         <ATOM Name="LodCharacterName" Value="ZO_HOM_LOD"/>
         <ATOM Name="DefaultFace" Value="zo_visage.sitem"/>
-        <ATOM Name="DefaultChest" Value="igzvu.sitem"/>
+        <ATOM Name="DefaultChest" Value="igtvu.sitem"/>
         <ATOM Name="DefaultArms" Value="igzau.sitem"/>
-        <ATOM Name="DefaultLegs" Value="igzpu.sitem"/>
+        <ATOM Name="DefaultLegs" Value="igtpu.sitem"/>
         <ATOM Name="DefaultHands" Value="igzgu.sitem"/>
         <ATOM Name="DefaultFeet" Value="igzbu.sitem"/>
         <ATOM Name="DefaultHair" Value="zo_cheveux_medium01.sitem"/>

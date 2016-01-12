@@ -26,7 +26,7 @@
         <ATOM Name="DefaultFace" Value="fy_visage.sitem"/>
         <ATOM Name="DefaultChest" Value="igfvu.sitem"/>
         <ATOM Name="DefaultArms" Value="igfau.sitem"/>
-        <ATOM Name="DefaultLegs" Value="igfpu.sitem"/>
+        <ATOM Name="DefaultLegs" Value="igtpu.sitem"/>
         <ATOM Name="DefaultHands" Value="igfgu.sitem"/>
         <ATOM Name="DefaultFeet" Value="igfbu.sitem"/>
         <ATOM Name="DefaultHair" Value="fy_cheveux_medium01.sitem"/>
@@ -47,9 +47,9 @@
         <ATOM Name="AnimSetBaseName" Value="fy_hom"/>
         <ATOM Name="LodCharacterName" Value="FY_HOM_LOD"/>
         <ATOM Name="DefaultFace" Value="fy_visage.sitem"/>
-        <ATOM Name="DefaultChest" Value="igfvu.sitem"/>
+        <ATOM Name="DefaultChest" Value="igtvu.sitem"/>
         <ATOM Name="DefaultArms" Value="igfau.sitem"/>
-        <ATOM Name="DefaultLegs" Value="igfpu.sitem"/>
+        <ATOM Name="DefaultLegs" Value="igtpu.sitem"/>
         <ATOM Name="DefaultHands" Value="igfgu.sitem"/>
         <ATOM Name="DefaultFeet" Value="igfbu.sitem"/>
         <ATOM Name="DefaultHair" Value="fy_cheveux_medium01.sitem"/>
