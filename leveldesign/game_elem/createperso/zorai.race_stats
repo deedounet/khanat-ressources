@@ -22,11 +22,11 @@
     <STRUCT Name="DefaultEquipment">
       <STRUCT Name="Female equipment">
         <ATOM Name="Skel" Value="ZO_HOF_skel.skel"/>
-        <ATOM Name="CharacterScalePos" Value="1.15"/>
+        <ATOM Name="CharacterScalePos" Value="1.25"/>
         <ATOM Name="AnimSetBaseName" Value="fy_hof"/>
         <ATOM Name="LodCharacterName" Value="ZO_HOF_LOD"/>
         <ATOM Name="DefaultFace" Value="zo_visage.sitem"/>
-        <ATOM Name="DefaultChest" Value="igzvu.sitem"/>
+        <ATOM Name="DefaultChest" Value="igtvu.sitem"/>
         <ATOM Name="DefaultArms" Value="igzau.sitem"/>
         <ATOM Name="DefaultLegs" Value="igtpu.sitem"/>
         <ATOM Name="DefaultHands" Value="igzgu.sitem"/>
@@ -38,11 +38,11 @@
       </STRUCT>
       <STRUCT Name="Male equipment">
         <ATOM Name="Skel" Value="ZO_HOM_skel.skel"/>
-        <ATOM Name="CharacterScalePos" Value="1.15"/>
+        <ATOM Name="CharacterScalePos" Value="1.25"/>
         <ATOM Name="AnimSetBaseName" Value="fy_hom"/>
         <ATOM Name="LodCharacterName" Value="ZO_HOM_LOD"/>
         <ATOM Name="DefaultFace" Value="zo_visage.sitem"/>
-        <ATOM Name="DefaultChest" Value="igtvu.sitem"/>
+        <ATOM Name="DefaultChest" Value="igzvu.sitem"/>
         <ATOM Name="DefaultArms" Value="igzau.sitem"/>
         <ATOM Name="DefaultLegs" Value="igtpu.sitem"/>
         <ATOM Name="DefaultHands" Value="igzgu.sitem"/>

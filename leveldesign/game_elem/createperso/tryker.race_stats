@@ -22,7 +22,7 @@
     <STRUCT Name="DefaultEquipment">
       <STRUCT Name="Female equipment">
         <ATOM Name="Skel" Value="TR_HOF_skel.skel"/>
-        <ATOM Name="CharacterScalePos" Value="0.68"/>
+        <ATOM Name="CharacterScalePos" Value="0.88"/>
         <ATOM Name="AnimSetBaseName" Value="fy_hof"/>
         <ATOM Name="LodCharacterName" Value="TR_HOF_LOD"/>
         <ATOM Name="DefaultFace" Value="tr_visage.sitem"/>

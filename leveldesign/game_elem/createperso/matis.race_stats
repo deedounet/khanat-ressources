@@ -27,7 +27,7 @@
         <ATOM Name="AnimSetBaseName" Value="fy_hof"/>
         <ATOM Name="LodCharacterName" Value="MA_HOF_LOD"/>
         <ATOM Name="DefaultFace" Value="ma_visage.sitem"/>
-        <ATOM Name="DefaultChest" Value="igmvu.sitem"/>
+        <ATOM Name="DefaultChest" Value="igtvu.sitem"/>
         <ATOM Name="DefaultArms" Value="igmau.sitem"/>
         <ATOM Name="DefaultLegs" Value="igtpu.sitem"/>
         <ATOM Name="DefaultHands" Value="igmgu.sitem"/>
@@ -51,7 +51,7 @@
         <ATOM Name="AnimSetBaseName" Value="fy_hom"/>
         <ATOM Name="LodCharacterName" Value="MA_HOM_LOD"/>
         <ATOM Name="DefaultFace" Value="ma_visage.sitem"/>
-        <ATOM Name="DefaultChest" Value="igtvu.sitem"/>
+        <ATOM Name="DefaultChest" Value="igmvu.sitem"/>
         <ATOM Name="DefaultArms" Value="igmau.sitem"/>
         <ATOM Name="DefaultLegs" Value="igtpu.sitem"/>
         <ATOM Name="DefaultHands" Value="igmgu.sitem"/>
