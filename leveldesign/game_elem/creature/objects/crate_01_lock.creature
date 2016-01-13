@@ -12,8 +12,8 @@
     <STRUCT Name="Collision">
       <ATOM Name="CollisionRadius" Value="0"/>
       <ATOM Name="Length" Value="1.5"/>
-      <ATOM Name="Width" Value="1.1"/>
-      <ATOM Name="Height" Value="0.85"/>
+      <ATOM Name="Width" Value="0.85"/>
+      <ATOM Name="Height" Value="1.1"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>
