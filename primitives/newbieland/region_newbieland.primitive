@@ -2,6 +2,10 @@
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
     <ALIAS LAST_GENERATED="69"/>
+    <PROPERTY TYPE="string">
+      <NAME>name</NAME>
+      <STRING></STRING>
+    </PROPERTY>
     <CHILD TYPE="CPrimZone">
       <PT X="8151.677734" Y="-10235.128906" Z="0.000000"/>
       <PT X="8152.669434" Y="-12102.017578" Z="0.000000"/>
@@ -148,14 +152,6 @@
         <PROPERTY TYPE="string">
           <NAME>class</NAME>
           <STRING>place</STRING>
-        </PROPERTY>
-        <PROPERTY TYPE="string">
-          <NAME>displayed</NAME>
-          <STRING>true</STRING>
-        </PROPERTY>
-        <PROPERTY TYPE="string">
-          <NAME>main place</NAME>
-          <STRING>true</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>name</NAME>

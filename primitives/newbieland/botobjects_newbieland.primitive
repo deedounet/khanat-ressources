@@ -2,6 +2,10 @@
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
     <ALIAS LAST_GENERATED="998"/>
+    <PROPERTY TYPE="string">
+      <NAME>name</NAME>
+      <STRING></STRING>
+    </PROPERTY>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -143,60 +147,6 @@
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="993"/>
-              <PROPERTY TYPE="string">
-                <NAME>class</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string">
-                <NAME>name</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-            </CHILD>
-          </CHILD>
-          <CHILD TYPE="CPrimPoint">
-            <PT X="8618.135742" Y="-10265.680664" Z="0.000000"/>
-            <ANGLE VALUE="-5.615598"/>
-            <PROPERTY TYPE="string">
-              <NAME>class</NAME>
-              <STRING>npc_bot</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>name</NAME>
-              <STRING>crate</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>sheet_client</NAME>
-              <STRING>crate_01_lock</STRING>
-            </PROPERTY>
-            <CHILD TYPE="CPrimAlias">
-              <ALIAS VALUE="994"/>
-              <PROPERTY TYPE="string">
-                <NAME>class</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string">
-                <NAME>name</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-            </CHILD>
-          </CHILD>
-          <CHILD TYPE="CPrimPoint">
-            <PT X="8614.835938" Y="-10262.930664" Z="0.000000"/>
-            <ANGLE VALUE="-5.036366"/>
-            <PROPERTY TYPE="string">
-              <NAME>class</NAME>
-              <STRING>npc_bot</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>name</NAME>
-              <STRING>crate</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>sheet_client</NAME>
-              <STRING>crate_01_lock</STRING>
-            </PROPERTY>
-            <CHILD TYPE="CPrimAlias">
-              <ALIAS VALUE="998"/>
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
                 <STRING>alias</STRING>

@@ -11,10 +11,19 @@
           <NAME>class</NAME>
           <STRING>landscape</STRING>
         </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING></STRING>
+        </PROPERTY>
       </ROOT_PRIMITIVE>
     </PRIMITIVES>
   </DATABASE_ELEMENT>
   <DATABASE_ELEMENT FILENAME="E:\khaganat\depots_data\khaganat-data\primitives\newbieland\region_newbieland.primitive" TYPE="primitive"/>
   <DATABASE_ELEMENT FILENAME="E:\khaganat\depots_data\khaganat-data\primitives\newbieland\urban_newbieland.primitive" TYPE="primitive"/>
   <DATABASE_ELEMENT FILENAME="E:\khaganat\depots_data\khaganat-data\primitives\newbieland\botobjects_newbieland.primitive" TYPE="primitive"/>
+  <DATABASE_ELEMENT FILENAME="E:\khaganat\depots_data\khaganat-data\primitives\newbieland\missions_newbieland.primitive" TYPE="primitive"/>
+  <DATABASE_ELEMENT FILENAME="E:\khaganat\depots_data\khaganat-data\primitives\newbieland\deposit_ecotype_newbie.primitive" TYPE="primitive"/>
+  <DATABASE_ELEMENT FILENAME="E:\khaganat\depots_data\khaganat-data\primitives\newbieland\deposit_newbieland.primitive" TYPE="primitive"/>
+  <DATABASE_ELEMENT FILENAME="E:\khaganat\depots_data\khaganat-data\primitives\newbieland\fauna_newbieland.primitive" TYPE="primitive"/>
+  <DATABASE_ELEMENT FILENAME="E:\khaganat\depots_data\khaganat-data\primitives\newbieland\guild_missions.primitive" TYPE="primitive"/>
 </NEL_WORLD_EDITOR_PROJECT>

@@ -2,6 +2,10 @@
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
     <ALIAS LAST_GENERATED="1260"/>
+    <PROPERTY TYPE="string">
+      <NAME>name</NAME>
+      <STRING></STRING>
+    </PROPERTY>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -9,7 +13,7 @@
       </PROPERTY>
       <PROPERTY TYPE="string">
         <NAME>name</NAME>
-        <STRING>rangers_starting_city</STRING>
+        <STRING> starting_camp</STRING>
       </PROPERTY>
       <CHILD TYPE="CPrimAlias">
         <ALIAS VALUE="139"/>
