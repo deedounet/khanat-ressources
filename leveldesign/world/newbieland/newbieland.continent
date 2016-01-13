@@ -1,13 +1,23 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.6 $" State="modified">
-  <PARENT Filename="lesfalaises.continent"/>
   <STRUCT>
     <ATOM Name="Name" Value="newbieland"/>
     <STRUCT Name="LightLandscapeDay">
+      <STRUCT Name="Direction">
+        <ATOM Name="X" Value="-0.77"/>
+        <ATOM Name="Y" Value="0.21"/>
+        <ATOM Name="Z" Value="-0.59"/>
+      </STRUCT>
       <STRUCT Name="Ambiant">
-        <ATOM Name="A" Value="0"/>
+        <ATOM Name="R" Value="100"/>
+        <ATOM Name="G" Value="100"/>
+        <ATOM Name="B" Value="100"/>
+        <ATOM Name="A" Value="100"/>
       </STRUCT>
       <STRUCT Name="Diffuse">
+        <ATOM Name="R" Value="255"/>
+        <ATOM Name="G" Value="255"/>
+        <ATOM Name="B" Value="255"/>
         <ATOM Name="A" Value="255"/>
       </STRUCT>
       <STRUCT Name="Specular">
@@ -23,6 +33,16 @@
         <ATOM Name="Y" Value="0.21"/>
         <ATOM Name="Z" Value="-0.59"/>
       </STRUCT>
+      <STRUCT Name="Ambiant">
+        <ATOM Name="R" Value="80"/>
+        <ATOM Name="G" Value="120"/>
+        <ATOM Name="B" Value="170"/>
+      </STRUCT>
+      <STRUCT Name="Diffuse">
+        <ATOM Name="R" Value="80"/>
+        <ATOM Name="G" Value="120"/>
+        <ATOM Name="B" Value="170"/>
+      </STRUCT>
       <STRUCT Name="Specular">
         <ATOM Name="R" Value="31"/>
         <ATOM Name="G" Value="87"/>
@@ -30,6 +50,20 @@
       </STRUCT>
     </STRUCT>
     <STRUCT Name="LightLandscapeDusk">
+      <STRUCT Name="Direction">
+        <ATOM Name="X" Value="-0.77"/>
+        <ATOM Name="Y" Value="0.21"/>
+        <ATOM Name="Z" Value="-0.59"/>
+      </STRUCT>
+      <STRUCT Name="Ambiant">
+        <ATOM Name="R" Value="79"/>
+        <ATOM Name="G" Value="46"/>
+      </STRUCT>
+      <STRUCT Name="Diffuse">
+        <ATOM Name="R" Value="171"/>
+        <ATOM Name="G" Value="106"/>
+        <ATOM Name="B" Value="42"/>
+      </STRUCT>
       <STRUCT Name="Specular">
         <ATOM Name="R" Value="243"/>
         <ATOM Name="G" Value="160"/>
@@ -43,9 +77,15 @@
         <ATOM Name="Z" Value="-0.59"/>
       </STRUCT>
       <STRUCT Name="Ambiant">
+        <ATOM Name="R" Value="100"/>
+        <ATOM Name="G" Value="100"/>
+        <ATOM Name="B" Value="100"/>
         <ATOM Name="A" Value="0"/>
       </STRUCT>
       <STRUCT Name="Diffuse">
+        <ATOM Name="R" Value="255"/>
+        <ATOM Name="G" Value="255"/>
+        <ATOM Name="B" Value="255"/>
         <ATOM Name="A" Value="255"/>
       </STRUCT>
       <STRUCT Name="Specular">
@@ -56,6 +96,20 @@
       </STRUCT>
     </STRUCT>
     <STRUCT Name="LightEntityDusk">
+      <STRUCT Name="Direction">
+        <ATOM Name="X" Value="-0.77"/>
+        <ATOM Name="Y" Value="0.21"/>
+        <ATOM Name="Z" Value="-0.59"/>
+      </STRUCT>
+      <STRUCT Name="Ambiant">
+        <ATOM Name="R" Value="79"/>
+        <ATOM Name="G" Value="46"/>
+      </STRUCT>
+      <STRUCT Name="Diffuse">
+        <ATOM Name="R" Value="171"/>
+        <ATOM Name="G" Value="106"/>
+        <ATOM Name="B" Value="42"/>
+      </STRUCT>
       <STRUCT Name="Specular">
         <ATOM Name="R" Value="243"/>
         <ATOM Name="G" Value="160"/>
@@ -67,6 +121,16 @@
         <ATOM Name="X" Value="-0.77"/>
         <ATOM Name="Y" Value="0.21"/>
         <ATOM Name="Z" Value="-0.59"/>
+      </STRUCT>
+      <STRUCT Name="Ambiant">
+        <ATOM Name="R" Value="40"/>
+        <ATOM Name="G" Value="83"/>
+        <ATOM Name="B" Value="107"/>
+      </STRUCT>
+      <STRUCT Name="Diffuse">
+        <ATOM Name="R" Value="60"/>
+        <ATOM Name="G" Value="100"/>
+        <ATOM Name="B" Value="120"/>
       </STRUCT>
       <STRUCT Name="Specular">
         <ATOM Name="R" Value="31"/>
@@ -81,9 +145,15 @@
         <ATOM Name="Z" Value="-0.59"/>
       </STRUCT>
       <STRUCT Name="Ambiant">
+        <ATOM Name="R" Value="89"/>
+        <ATOM Name="G" Value="89"/>
+        <ATOM Name="B" Value="89"/>
         <ATOM Name="A" Value="0"/>
       </STRUCT>
       <STRUCT Name="Diffuse">
+        <ATOM Name="R" Value="255"/>
+        <ATOM Name="G" Value="255"/>
+        <ATOM Name="B" Value="255"/>
         <ATOM Name="A" Value="255"/>
       </STRUCT>
       <STRUCT Name="Specular">
@@ -94,6 +164,20 @@
       </STRUCT>
     </STRUCT>
     <STRUCT Name="LightRootDusk">
+      <STRUCT Name="Direction">
+        <ATOM Name="X" Value="-0.77"/>
+        <ATOM Name="Y" Value="0.21"/>
+        <ATOM Name="Z" Value="-0.59"/>
+      </STRUCT>
+      <STRUCT Name="Ambiant">
+        <ATOM Name="R" Value="79"/>
+        <ATOM Name="G" Value="46"/>
+      </STRUCT>
+      <STRUCT Name="Diffuse">
+        <ATOM Name="R" Value="171"/>
+        <ATOM Name="G" Value="106"/>
+        <ATOM Name="B" Value="42"/>
+      </STRUCT>
       <STRUCT Name="Specular">
         <ATOM Name="R" Value="243"/>
         <ATOM Name="G" Value="160"/>
@@ -105,6 +189,16 @@
         <ATOM Name="X" Value="-0.77"/>
         <ATOM Name="Y" Value="0.21"/>
         <ATOM Name="Z" Value="-0.59"/>
+      </STRUCT>
+      <STRUCT Name="Ambiant">
+        <ATOM Name="R" Value="40"/>
+        <ATOM Name="G" Value="83"/>
+        <ATOM Name="B" Value="107"/>
+      </STRUCT>
+      <STRUCT Name="Diffuse">
+        <ATOM Name="R" Value="60"/>
+        <ATOM Name="G" Value="100"/>
+        <ATOM Name="B" Value="120"/>
       </STRUCT>
       <STRUCT Name="Specular">
         <ATOM Name="R" Value="31"/>
@@ -124,7 +218,6 @@
     <ATOM Name="LandscapeIG" Value="newbieland_ig.txt"/>
     <ATOM Name="SkyDay" Value="ma_sky_day.shape"/>
     <ATOM Name="SkyNight" Value="ma_sky_day.shape"/>
-    <ATOM Name="SkyIg" Value="canope_newbieland.ig"/>
     <ARRAY Name="Villages">
       <STRUCT Name="village ruines">
         <ATOM Name="Zone" Value="70_cj"/>
@@ -158,7 +251,7 @@
         </ARRAY>
       </STRUCT>
       <STRUCT Name="start_village_newbieland">
-        <ATOM Name="Zone" Value="74_cm"/>
+        <ATOM Name="Zone" Value="67_cd"/>
         <ATOM Name="CenterY" Value="80"/>
         <ARRAY Name="IgList">
           <STRUCT Name="ge_newbieland_starting_village.ig">
@@ -178,6 +271,8 @@
     <ATOM Name="NoRainMap" Value="newbieland_no_rain.tga"/>
     <ATOM Name="ZoneMin" Value="65_bz"/>
     <ATOM Name="ZoneMax" Value="77_cs"/>
+    <ATOM Name="FogStart" Value="30"/>
+    <ATOM Name="FogEnd" Value="400"/>
     <ATOM Name="RootFogStart" Value="100000"/>
     <ATOM Name="RootFogEnd" Value="100000"/>
     <STRUCT Name="SpringWeatherFunction">
