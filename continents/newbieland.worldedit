@@ -11,10 +11,6 @@
           <NAME>class</NAME>
           <STRING>landscape</STRING>
         </PROPERTY>
-        <PROPERTY TYPE="string">
-          <NAME>name</NAME>
-          <STRING></STRING>
-        </PROPERTY>
       </ROOT_PRIMITIVE>
     </PRIMITIVES>
   </DATABASE_ELEMENT>

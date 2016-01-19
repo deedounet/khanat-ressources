@@ -1,11 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="1260"/>
-    <PROPERTY TYPE="string">
-      <NAME>name</NAME>
-      <STRING></STRING>
-    </PROPERTY>
+    <ALIAS LAST_GENERATED="1264"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -368,47 +364,6 @@
             </PROPERTY>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="8815.139648" Y="-10631.029297" Z="0.000000"/>
-            <ANGLE VALUE="-8.158325"/>
-            <PROPERTY TYPE="string_array">
-              <NAME>chat_parameters</NAME>
-              <STRING>shop : RM_ITEM_PART_SOLD:RM_NEWBIELAND_LEVEL</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>class</NAME>
-              <STRING>npc_bot</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string_array">
-              <NAME>equipment</NAME>
-              <STRING>VPA:4132100001106210</STRING>
-              <STRING>VPB:000000C0BC090000</STRING>
-              <STRING>VPC:001AA3804D830824</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>name</NAME>
-              <STRING>bland_marchand_rm$fct_rm_merchant$</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>sheet_client</NAME>
-              <STRING>welcome_ra</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>vertical_pos</NAME>
-              <STRING>auto</STRING>
-            </PROPERTY>
-            <CHILD TYPE="CPrimAlias">
-              <ALIAS VALUE="142"/>
-              <PROPERTY TYPE="string">
-                <NAME>class</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string">
-                <NAME>name</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-            </CHILD>
-          </CHILD>
-          <CHILD TYPE="CPrimPoint">
             <PT X="8810.023438" Y="-10634.111328" Z="0.000000"/>
             <ANGLE VALUE="6.037747"/>
             <PROPERTY TYPE="string_array">
@@ -459,6 +414,123 @@
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="146"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimZone">
+        <PT X="8823.722656" Y="-10624.966797" Z="0.000000"/>
+        <PT X="8824.273438" Y="-10630.328125" Z="0.000000"/>
+        <PT X="8817.674805" Y="-10631.703125" Z="0.000000"/>
+        <PT X="8814.373047" Y="-10629.916016" Z="0.000000"/>
+        <PT X="8806.673828" Y="-10634.178711" Z="0.000000"/>
+        <PT X="8810.248047" Y="-10639.128906" Z="0.000000"/>
+        <PT X="8819.048828" Y="-10650.816406" Z="0.000000"/>
+        <PT X="8820.973633" Y="-10661.266602" Z="0.000000"/>
+        <PT X="8826.335938" Y="-10674.878906" Z="0.000000"/>
+        <PT X="8832.798828" Y="-10677.354492" Z="0.000000"/>
+        <PT X="8838.710938" Y="-10664.290039" Z="0.000000"/>
+        <PT X="8842.423828" Y="-10656.454102" Z="0.000000"/>
+        <PT X="8848.199219" Y="-10645.453125" Z="0.000000"/>
+        <PT X="8854.111328" Y="-10639.678711" Z="0.000000"/>
+        <PT X="8865.661133" Y="-10631.703125" Z="0.000000"/>
+        <PT X="8866.486328" Y="-10621.391602" Z="0.000000"/>
+        <PT X="8860.298828" Y="-10611.490234" Z="0.000000"/>
+        <PT X="8853.561523" Y="-10606.127930" Z="0.000000"/>
+        <PT X="8848.611328" Y="-10603.653320" Z="0.000000"/>
+        <PT X="8837.473633" Y="-10606.678711" Z="0.000000"/>
+        <PT X="8831.699219" Y="-10609.015625" Z="0.000000"/>
+        <PT X="8832.798828" Y="-10613.416992" Z="0.000000" SELECTED="true"/>
+        <PT X="8831.561523" Y="-10618.916992" Z="0.000000"/>
+        <PT X="8828.810547" Y="-10622.216797" Z="0.000000"/>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>npc_zone</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>zone_balade_dispensaire</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="1262"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>rm_marchand</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="1263"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8815.139648" Y="-10631.029297" Z="0.000000"/>
+            <ANGLE VALUE="-8.158325"/>
+            <PROPERTY TYPE="string_array">
+              <NAME>chat_parameters</NAME>
+              <STRING>shop : RM_ITEM_PART_SOLD:RM_NEWBIELAND_LEVEL</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>equipment</NAME>
+              <STRING>VPA:4132100001106210</STRING>
+              <STRING>VPB:000000C0BC090000</STRING>
+              <STRING>VPC:001AA3804D830824</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>bland_marchand_rm$fct_rm_merchant$</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>welcome_ra</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>vertical_pos</NAME>
+              <STRING>auto</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="142"/>
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
                 <STRING>alias</STRING>
