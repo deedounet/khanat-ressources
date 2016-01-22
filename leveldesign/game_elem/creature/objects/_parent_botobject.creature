@@ -23,10 +23,6 @@
       <ATOM Name="Curativable" Value="false"/>
       <ATOM Name="Turn" Value="false"/>
     </STRUCT>
-    <ATOM Name="attack_list0" Value="magic_cur_homin.attack_list"/>
-    <ATOM Name="attack_list1" Value="magic_off_homin.attack_list"/>
-    <ATOM Name="attack_list2" Value="melee.attack_list"/>
-    <ATOM Name="attack_list3" Value="range.attack_list"/>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>
