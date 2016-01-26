@@ -1,8 +1,8 @@
-﻿// HASH_VALUE 6B09AC86E0363C89
+﻿// Application basics
+// HASH_VALUE 6B09AC86E0363C89
 // INDEX 0
 LanguageName	[English]
 
-/* OLD VALUE : [Ryzom Core] */
 // HASH_VALUE 6DF6CC58EC94FC6E
 // INDEX 1
 TheSagaOfRyzom	[Khanat]
@@ -11,7 +11,6 @@ TheSagaOfRyzom	[Khanat]
 // INDEX 2
 PropertyNotFound	[Property not found.]
 
-/* OLD VALUE : [Quit Ryzom Core] */
 // HASH_VALUE DEF5CC7315C8285E
 // INDEX 3
 uittQuitRyzom	[Quit Khanat]
@@ -296,7 +295,6 @@ uiUnpack	[BNP Unpacking:]
 // INDEX 73
 uiUnpackErrHead	[Cannot read bnp header:]
 
-/* OLD VALUE : [Ryzom Core will now relaunch. Please wait until Ryzom Core is fully restarted.] */
 // HASH_VALUE 3363341608F0BAB1
 // INDEX 74
 uiRebootConfirm	[Khanat will now relaunch. Please wait until Khanat is fully restarted.]
@@ -369,7 +367,6 @@ uiCrashing2	[If you have just left the game then please wait 30 seconds]
 // INDEX 91
 uiCrashing3	[for your previous character to be disconnected and try again.]
 
-/* OLD VALUE : [Please grant firewall permission for Ryzom Core] */
 // HASH_VALUE 0825E627C11B8092
 // INDEX 92
 uiFirewallAlert	[Please grant firewall permission for Khanat]
@@ -434,6 +431,7 @@ uiSkipIntro	[Skip Intro]
 // INDEX 107
 uiClose	[Close]
 
+// Technical
 // HASH_VALUE EAA366ECE145D30F
 // INDEX 108
 agp_trouble	[The driver has failed to allocate AGP memory. This may result in performance and display issues.\n
@@ -463,6 +461,7 @@ can_t_create_a_fullscreen_display	[Cannot create a fullscreen display]
 // INDEX 114
 bits	[bits]
 
+// Chat
 // HASH_VALUE 259366239FBBC8B4
 // INDEX 115
 Whisper	[Whisper: ]
@@ -475,6 +474,7 @@ Say	[Say: ]
 // INDEX 117
 Shout	[Shout: ]
 
+// Mount
 // HASH_VALUE C8648901DCFF44DE
 // INDEX 118
 NoCastOnMount	[Impossible to cast a spell when mounted.]
@@ -491,6 +491,7 @@ NoTeleportOnMount	[Impossible to teleport a player when mounted.]
 // INDEX 121
 NoMountWhenSpell	[Impossible to mount when creating or casting a spell.]
 
+// Compass
 // HASH_VALUE 87A8142AE949CC6B
 // INDEX 122
 uiDistanceto	[Distance to Compass Target]
@@ -499,6 +500,7 @@ uiDistanceto	[Distance to Compass Target]
 // INDEX 123
 uiRange	[Range]
 
+// Team
 // HASH_VALUE 9C55746512B7044F
 // INDEX 124
 uittLead	[Team Leader]
@@ -511,6 +513,7 @@ uittSuccessor	[Team Successor]
 // INDEX 126
 ___faber_skill_sep___	[--------------------------------]
 
+// Item types
 // HASH_VALUE 6E074C942238548F
 // INDEX 127
 ifARMOR	[Armor]
@@ -599,6 +602,7 @@ ifTELEPORT	[Teleport]
 // INDEX 148
 ifUNDEFINED	[Undefined]
 
+// Item origins
 // HASH_VALUE EE09DC9C65D7A4A9
 // INDEX 149
 ioUnknown	[Unknown]
@@ -639,6 +643,7 @@ ioKaravan	[Karavan]
 // INDEX 158
 ioKami	[Kami]
 
+// Armor classifiers
 // HASH_VALUE EE09DC9C65D7A4A9
 // INDEX 159
 atUNKNOWN	[Unknown]
@@ -655,6 +660,7 @@ atMEDIUM	[Medium]
 // INDEX 162
 atLIGHT	[Light]
 
+// Weapon classifiers
 // HASH_VALUE 6A5644916017488F
 // INDEX 163
 wtLIGHT	[Light]
@@ -687,6 +693,7 @@ wtHEAVY_GUN	[Heavy gun]
 // INDEX 170
 wtUNKNOWN	[Unknown]
 
+// Shield classifiers
 // HASH_VALUE 6498F4386498F438
 // INDEX 171
 stNONE	[None]
@@ -699,6 +706,7 @@ stSMALL_SHIELD	[Small shield]
 // INDEX 173
 stLARGE_SHIELD	[Large shield]
 
+// Damage types
 // HASH_VALUE 7058C44C649894A0
 // INDEX 174
 dtSLASHING	[Slashing]
@@ -743,6 +751,7 @@ dtSHOCK	[Shockwave]
 // INDEX 184
 dtUNDEFINED	[Undefined]
 
+// Ecosystems
 // HASH_VALUE EE09DC9C65D7A4A9
 // INDEX 185
 ecosysUnknown	[Unknown]
@@ -775,6 +784,7 @@ ecosysGoo	[Goo]
 // INDEX 192
 ecosysPrimaryRoot	[Prime Roots]
 
+// Raw material categories (UnuseD
 // HASH_VALUE 62C7348CE738649D
 // INDEX 193
 mpcatUndefined	[Undefined]
@@ -791,6 +801,7 @@ mpcatFaber	[Crafter]
 // INDEX 196
 mpcatUpgrade	[Upgrade]
 
+// Player stats
 // HASH_VALUE D9A8E875D866AF80
 // INDEX 197
 scoreHitPoints	[Hit Points]
@@ -831,6 +842,7 @@ scoreFearResist	[Fear resistance]
 // INDEX 206
 scoreUnknown	[Unknown]
 
+// Brick types
 // HASH_VALUE 63F6E47ADE96EC80
 // INDEX 207
 bricktMAGIC	[Magic]
@@ -863,6 +875,7 @@ bricktMISCELLANEOUS	[Miscellaneous]
 // INDEX 214
 bricktUNKNOWN	[Unknown]
 
+// Tool types
 // HASH_VALUE EE09DC9C65D7A4A9
 // INDEX 215
 toolNone	[Unknown]
@@ -891,6 +904,7 @@ toolToolMaker	[Tool Crafting Tool]
 // INDEX 221
 toolMeleeWeaponTool	[Melee Weapon Crafting Tool]
 
+// Raw material targets
 // HASH_VALUE E546D4771C56E06C
 // INDEX 222
 mpftMpL	[Blade]
@@ -999,6 +1013,7 @@ mpftMpMF	[Magic Focus]
 // INDEX 248
 mpft	[Undefined Raw Material Target]
 
+// Raw material qualities
 // HASH_VALUE 8D999734D693746B
 // INDEX 249
 mpfqSlightly	[Mediocre %p]
@@ -1019,6 +1034,7 @@ mpfqQuite	[Very Good %p]
 // INDEX 253
 mpfqExtremely	[Excellent %p]
 
+// Raw material colors
 // HASH_VALUE 9A07046D5FE60080
 // INDEX 254
 mpcolRed	[Red]
@@ -1051,6 +1067,7 @@ mpcolWhite	[White]
 // INDEX 261
 mpcolBlack	[Black]
 
+// Raw material sap load
 // HASH_VALUE DEA8887EA6F5A8A1
 // INDEX 262
 mpsapload0	[Low]
@@ -1067,6 +1084,7 @@ mpsapload2	[High]
 // INDEX 265
 mpsapload3	[Very High]
 
+// Raw material stats
 // HASH_VALUE 6D7804866957E48C
 // INDEX 266
 mpstat0	[Durability]
@@ -1203,6 +1221,7 @@ mpstat32	[Healing Cast Speed]
 // INDEX 299
 mpstat33	[Healing Power]
 
+// Raw material qualifiers
 // HASH_VALUE 1FB5049096993C70
 // INDEX 300
 mpstatItemQualifier0	[of Durability]
@@ -1339,6 +1358,7 @@ mpstatItemQualifier32	[of Healing Cast Speed]
 // INDEX 333
 mpstatItemQualifier33	[of Healing Power]
 
+// Spell types
 // HASH_VALUE 6418F40C6418F40C
 // INDEX 334
 ptCold	[Cold]
@@ -1371,6 +1391,7 @@ ptElectricity	[Electricity]
 // INDEX 341
 ptNone	[None]
 
+// Regions
 // HASH_VALUE 28D9906D28E6CC9B
 // INDEX 342
 rsDesert	[Desert]
@@ -1395,6 +1416,7 @@ rsPrimaryRoot	[Prime Roots]
 // INDEX 347
 rsNone	[None]
 
+// Emotes
 // HASH_VALUE 5190081E8FF0201E
 // INDEX 348
 uiEmoteTitle	[EMOTES]
@@ -2639,6 +2661,7 @@ uiCommerceTitle	[COMMERCE]
 // INDEX 658
 uittEval	[Evaluate raw material price]
 
+// Wind directions
 // HASH_VALUE 54D4745C54D4745C
 // INDEX 659
 uiW	[W]
@@ -2871,6 +2894,7 @@ uittDropItRef	[Drop an item here to refine]
 // INDEX 716
 uittStartFaRefine	[Start Crafter refine]
 
+// User Interface Game Configuration
 // HASH_VALUE 6C08D4806C08D480
 // INDEX 717
 uigcUnitMeters	[ m]
@@ -2959,9 +2983,6 @@ uigcScreenRatio169	[16:9]
 // INDEX 738
 uigcScreenRatioCustom	[Custom]
 
-/* OLD VALUE : [The @{6F6F}Aspect Ratio@{FFFF} of your monitor.
-Change this if you don't have a standard 4:3 monitor.
-Note: There is no need to worry about the pixel resolution (even if you have adjusted the size of your window). Ryzom Core will take care of it.] */
 // HASH_VALUE 809E7BF6406CBC22
 // INDEX 739
 uigcttScreenRatio	[The @{6F6F}Aspect Ratio@{FFFF} of your monitor.\n
@@ -3036,7 +3057,6 @@ uigcRussian	[RUSSIAN]
 // INDEX 756
 uigcSpanish	[SPANISH]
 
-/* OLD VALUE : [Ryzom Core needs to be restarted to apply the changes. Restart now?] */
 // HASH_VALUE 90F5662FCE2C23B4
 // INDEX 757
 uigcRequestReboot	[Khanat needs to be restarted to apply the changes. Restart now?]
@@ -4031,6 +4051,7 @@ uiVRGeneral	[Virtual Reality Options]
 // INDEX 1004
 uiVREnable	[Enable VR]
 
+// Context menu
 // HASH_VALUE 649CF434649CF434
 // INDEX 1005
 uimGcmMove	[Move]
@@ -4159,6 +4180,7 @@ uimGcmFree	[Free]
 // INDEX 1036
 uimGcmEnterStable	[Enter stable]
 
+// Guild
 // HASH_VALUE 12093C362A356B7D
 // INDEX 1037
 uiQuitGuild	[Leave Guild]
@@ -5046,6 +5068,7 @@ uiStable	[Stable]
 // INDEX 1236
 uittBack	[Back]
 
+// Spell links
 // HASH_VALUE 8B4068214CFD7036
 // INDEX 1237
 uiLinksTitle	[ACTIVE LINKS]
@@ -5062,6 +5085,7 @@ uiStopLinkSpell	[STOP SPELL]
 // INDEX 1240
 uiLinkInfo	[Details]
 
+// Looting
 // HASH_VALUE EE1834D82CB0E2BA
 // INDEX 1241
 uiTIWaitLoot	[Looting, wait...]
@@ -5126,6 +5150,7 @@ uiTICrystallize	[Crystallized Spell]
 // INDEX 1256
 uiTIError	[Items]
 
+// Help
 // HASH_VALUE 8BD3A835C7E3803B
 // INDEX 1257
 uihIntro	[INTRODUCTION]
@@ -5326,6 +5351,7 @@ uihHarvestTool	[Harvesting Tools]
 // INDEX 1306
 uihItemMisc	[Miscellaneous]
 
+// Stats
 // HASH_VALUE 6498943064989430
 // INDEX 1307
 uiLife	[Life]
@@ -5420,6 +5446,7 @@ uiWishMax	[Focus Max]
 // INDEX 1328
 uiWishReg	[Focus Reg]
 
+// Fame
 // HASH_VALUE D433345651734C4C
 // INDEX 1329
 uitabFameYou	[YOU]
@@ -6361,6 +6388,7 @@ uiPvPEffect_region_nexus_Bonus	[@{FE7F}Nexus @{FFFF}:\n
 uiPvPEffect_region_nexus_Malus	[@{FE7F}Nexus @{FFFF}:\n
 	No effect]
 
+// Stats
 // HASH_VALUE A60FAAB9FBB2576B
 // INDEX 1527
 uiHPDesc	[@{6F6F}HP@{FFFF}, \n
@@ -6705,7 +6733,6 @@ uimRemoveUserChat	[REMOVE USER CHAT]
 // INDEX 1609
 uimDismiss	[Dismiss]
 
-/* OLD VALUE : [Set Successor] */
 // HASH_VALUE 140A78472EF8379C
 // INDEX 1610
 uimSetSuccesor	[Set Successor]
@@ -7881,6 +7908,7 @@ uimAssignKey	[Assign Key]
 // INDEX 1901
 uiCategory	[Category]
 
+// Debug
 // HASH_VALUE 2717CC855F361882
 // INDEX 1902
 uiDebug	[Debug]
@@ -9022,6 +9050,7 @@ uittSeed4	[Dry Dead Seed]
 // INDEX 2183
 uiDefmcwCol	[CHOOSE COLOR]
 
+// Character creation
 // HASH_VALUE 5A387B986B346094
 // INDEX 2184
 uiReturnCharSel	[Return to Character Selection]
@@ -9046,7 +9075,6 @@ uiSurName	[SURNAME]
 // INDEX 2189
 uiDeleteTitle	[DO YOU REALLY WANT TO DELETE?]
 
-/* OLD VALUE : [WELCOME TO Ryzom Core - Beta 2] */
 // HASH_VALUE FB0D9A3F0B755C45
 // INDEX 2190
 uiSelectTitle	[WELCOME TO Khanat - Beta 2]
@@ -9669,6 +9697,7 @@ uiMoreRTr	[TRYKER RANGER: THE SHADOW HUNTER]
 // INDEX 2338
 uiMoreRZo	[ZORAÏ RANGER: THE GUARDIAN OF ATYS]
 
+// Chat
 // HASH_VALUE 09F2BC313A8EC7F3
 // INDEX 2339
 uiTeamChatTitle	[TEAM CHAT]
@@ -9729,6 +9758,7 @@ uiSAY	[SAY]
 // INDEX 2353
 uiSHOUT	[SHOUT]
 
+// Window
 // HASH_VALUE 7058542C7058542C
 // INDEX 2354
 uiKeepInfoButton	[Keep]
@@ -10813,7 +10843,6 @@ msgUserIsSitting	[&SYS&You sit.]
 // INDEX 2535
 msgUserIsStanding	[&SYS&You stand up.]
 
-/* OLD VALUE : [&BC&You have been permanently banned from Ryzom Core.] */
 // HASH_VALUE 89F3006A4C26CDE5
 // INDEX 2536
 msgPermanentlyBanned	[&BC&You have been permanently banned from Khanat.]
@@ -13741,12 +13770,10 @@ uiFrontSelectionEnnemy	[Enemies]
 // INDEX 3262
 uiTeamSelectNotInVision	[This team member is too far to select.]
 
-/* OLD VALUE : [Refugee] */
 // HASH_VALUE 6C98543C785C54A4
 // INDEX 3263
 Refugee	[Oublieux]
 
-/* OLD VALUE : [Homin] */
 // HASH_VALUE 6094144860941448
 // INDEX 3264
 Homin	[Ra]
@@ -14425,9 +14452,6 @@ uiCP_Job_C2	[1- Armor Crafting Tool\n
 	4- Crafting Plan for Boots\n
 	5- Crafting Plan for Gloves]
 
-/* OLD VALUE : [Enter a Name
-Each character in Ryzom Core has a unique name which allows you to recognize and communicate with other players. Names must follow the rules of the Naming Policy (see www.ryzomcore.org) and must be a single word composed of the letters A to Z with no accents, spaces, numbers or special characters.
-] */
 // HASH_VALUE A89060E211663737
 // INDEX 3428
 uiCP_Name_Enter	[Enter a Name\n
@@ -14695,7 +14719,6 @@ uiMK_Game_8	[GAME CONFIGURATION]
 // INDEX 3493
 uiMK_Game_Desk	[DESKTOPS]
 
-/* OLD VALUE : [Ryzom Core Configuration] */
 // HASH_VALUE 6074D08F1DA50082
 // INDEX 3494
 uiConfigTitle	[Khanat Configuration]
@@ -14724,7 +14747,6 @@ uiConfigOK	[&OK]
 // INDEX 3500
 uiConfigCancel	[&Cancel]
 
-/* OLD VALUE : [Play Ryzom Core] */
 // HASH_VALUE DF75BC6AD3080855
 // INDEX 3501
 uiConfigLaunch	[Play Khanat]
@@ -14829,7 +14851,6 @@ uiConfigTracks	[Tracks]
 // INDEX 3526
 uiConfigDriver	[Driver]
 
-/* OLD VALUE : [Specify if Ryzom Core is to be run in OpenGL or Direct3D:] */
 // HASH_VALUE 573E7D832E100649
 // INDEX 3527
 uiConfigOpenGLOrD3D	[Specify if Khanat is to be run in OpenGL or Direct3D:]
@@ -14838,7 +14859,6 @@ uiConfigOpenGLOrD3D	[Specify if Khanat is to be run in OpenGL or Direct3D:]
 // INDEX 3528
 uiConfigParameters	[Parameters]
 
-/* OLD VALUE : [Specify if Ryzom Core is to be run in fullscreen or window mode:] */
 // HASH_VALUE C1E8BA58FDD5F361
 // INDEX 3529
 uiConfigWindowedOrFullscreen	[Specify if Khanat is to be run in fullscreen or window mode:]
@@ -14939,12 +14959,10 @@ uiConfigEnableFMod	[Use FMod mode]
 // INDEX 3553
 uiConfigSoundForceSoftware	[Software Sound (may increase FPS)]
 
-/* OLD VALUE : [About Ryzom Core Configuration] */
 // HASH_VALUE 6F96A0771738E775
 // INDEX 3554
 uiConfigAboutRyzomConfiguration	[About Khanat Configuration]
 
-/* OLD VALUE : [Ryzom Core Configuration Version 0.9] */
 // HASH_VALUE 2B68A4A11261BF08
 // INDEX 3555
 uiConfigRyzomConfigurationVersion	[Khanat Configuration Version 0.9]
@@ -14985,7 +15003,6 @@ uiConfigDisableAGP	[Disable AGP for vertices]
 // INDEX 3564
 uiConfigDisableTextureShader	[Disable pixel shaders]
 
-/* OLD VALUE : [&About Ryzom Core Configuration...] */
 // HASH_VALUE 9788E0651AAED28C
 // INDEX 3565
 uiConfigMenuAbout	[&About Khanat Configuration...]
@@ -15054,7 +15071,6 @@ uiUpdateDisplayDriversCard	[Device: ]
 // INDEX 3581
 uiUseATID3D	[You are running with an ATI under OpenGL. We strongly recommend D3D. Do you want to change to D3D?]
 
-/* OLD VALUE : [To run Ryzom Core in windowed mode, the desktop must be set to 32-bit mode.] */
 // HASH_VALUE 29DFC330278ED38B
 // INDEX 3582
 uiDesktopNotIn32	[To run Khanat in windowed mode, the desktop must be set to 32-bit mode.]
@@ -15542,7 +15558,6 @@ uiItemMpNoCraft	[Cannot be used to craft]
 // INDEX 3702
 uiItemMpCraftRequirement	[Required for the crafting of special items]
 
-/* OLD VALUE : [Leaving Ryzom Core...] */
 // HASH_VALUE E80894E5F785B4AE
 // INDEX 3703
 uiQuitingRyzom	[Leaving Khanat...]
@@ -15556,8 +15571,6 @@ uiQuitingRules	[Note: If you move or are hit, the exit will be canceled.\n
 // INDEX 3705
 uiQuitNow	[Quit Now]
 
-/* OLD VALUE : [For a limited time the Ryzom Core licence is free!
-Subscribe now for full access to Ryzom Core and pay only the monthly subscription fee.] */
 // HASH_VALUE 06CF34CC1D1012AA
 // INDEX 3706
 uiPayingAccount	[For a limited time the Khanat licence is free!\n
@@ -16294,10 +16307,6 @@ A confirmation e-mail has been sent to you at the following address:
 You have succeeded in creating a Khanat account.
 A confirmation e-mail has been sent to you at the following address:
 ] */
-/* OLD VALUE : [Congratulations!
-You have succeeded in creating a Ryzom Core account
-An e-mail has been sent to you at the following address:
-] */
 // HASH_VALUE 5AC2EA9604DAEA39
 // INDEX 3875
 uiSubmitSucces1	[Congratulations!\n
@@ -16317,9 +16326,6 @@ You must activate your account before you can log in.] */
 uiSubmitSucces2	[\n
 	You can now click on the CONNECT button below to log in.]
 
-/* OLD VALUE : [Welcome!
-Please fill in these fields to create your new Ryzom Core account.
-] */
 // HASH_VALUE 5C779920FA4B4426
 // INDEX 3877
 uiCreateAccountWelcome	[Welcome!\n
@@ -16503,275 +16509,221 @@ uiTextCommandFT3	[]
 // INDEX 3921
 uiTextCommandFT4	[]
 
-/* OLD VALUE : [Installing ninja Yubos...] */
 // HASH_VALUE 91725D64F37B5853
 // INDEX 3922
-uiLoadingString0	[Have you some dentelle for Pendorid ?]
+uiLoadingString0	[Avez-vous prévu de la dentelle pour Pendorid ?]
 
-/* OLD VALUE : [Facepainting support staff...] */
 // HASH_VALUE 0F5162D3E17801C0
 // INDEX 3923
-uiLoadingString1	[Weather forecasting is expecting raining liria-esque axes]
+uiLoadingString1	[La météo annonce des chutes de haches liriesques]
 
-/* OLD VALUE : [Distracting the Ragus...] */
 // HASH_VALUE 46DACB4E36507A0D
 // INDEX 3924
-uiLoadingString2	[Beware. There could be some hallucinogenic mushrooms in the tea]
+uiLoadingString2	[Des champignons hallucinogènes auraient été malencontreusement mis dans le thé. Attention à vous]
 
-/* OLD VALUE : [Calculating the gravitational constant of Atys...] */
 // HASH_VALUE D7F77BE96A8844D1
 // INDEX 3925
-uiLoadingString3	[The Red Queen can be around, beware]
+uiLoadingString3	[On aurait vu la Reine rouge dans les environs, gare à vous]
 
-/* OLD VALUE : [Powering secret underground military facilities...] */
 // HASH_VALUE E7D30622F0F64798
 // INDEX 3926
-uiLoadingString4	[Dreaming is good, as a group, it is better]
+uiLoadingString4	[Rêver, c'est bien, à plusieurs, c'est mieux]
 
-/* OLD VALUE : [Brewing Zoraï ale...] */
 // HASH_VALUE F42197F2AD1567FE
 // INDEX 3927
-uiLoadingString5	[Do you have your Meh-Teh comb ?]
+uiLoadingString5	[Avez-vous pris votre peigne à Meh-teh ?]
 
-/* OLD VALUE : [Where am I? ] */
 // HASH_VALUE E5D11A920D183E9D
 // INDEX 3928
-uiLoadingString6	[Thank you so much for volunteering in The Salt Legion]
+uiLoadingString6	[Bravo de vous être porté volontaire pour entrer dans la Légion de Sel]
 
-/* OLD VALUE : [Hiding stuff in the ground...] */
 // HASH_VALUE 4C41AB4BCBE6F1FF
 // INDEX 3929
-uiLoadingString7	[Installing Crypt spying software]
+uiLoadingString7	[Installation du logiciel d'espionnage de la Crypte]
 
-/* OLD VALUE : [Annoying the Gingos for improved aggressiveness...] */
 // HASH_VALUE F48D53ED1FE8A61E
 // INDEX 3930
-uiLoadingString8	[Have you read the forum today ?]
+uiLoadingString8	[Avez-vous lu le forum aujourd'hui ?]
 
-/* OLD VALUE : [Raytracing sunlight beams...] */
 // HASH_VALUE 5A47A3BF8FD5E1B0
 // INDEX 3931
 uiLoadingString9	[L'Unité Mémorielle 1 n'attend que vous pour s'enrichir]
 
-/* OLD VALUE : [Growing grass...] */
 // HASH_VALUE EFB80512934B1942
 // INDEX 3932
 uiLoadingString10	[On dirait bien que la Police des Rêves... AH non rien]
 
-/* OLD VALUE : [Checking water temperature...] */
 // HASH_VALUE E1F19688C8F6DBE3
 // INDEX 3933
-uiLoadingString11	[Deleting all datas because of the Fog]
+uiLoadingString11	[Effacement de toutes vos données par les Brumes]
 
-/* OLD VALUE : [Loading random loading messages...] */
 // HASH_VALUE D3807D974EBCA22C
 // INDEX 3934
-uiLoadingString12	[Looking for controls of a first grade Ra]
+uiLoadingString12	[Recherche de contrôle d'un Ra de première catégorie]
 
-/* OLD VALUE : [Soaking up system resources...] */
 // HASH_VALUE 21FF2C1F522B97AF
 // INDEX 3935
-uiLoadingString13	[Drawing the next Khan, sorry for you : you loose]
+uiLoadingString13	[Tirage au sort du prochain Khan, désolé pour vous : perdu]
 
-/* OLD VALUE : [Growing vines...] */
 // HASH_VALUE E101225AAA82A82F
 // INDEX 3936
-uiLoadingString14	[Broom for eveybody : big cleaning day today]
+uiLoadingString14	[Distribution de balai : grand nettoyage en cours]
 
-/* OLD VALUE : [Releasing Kitins...] */
 // HASH_VALUE 37839CB1AE308645
 // INDEX 3937
-uiLoadingString15	[Thanks for giving all your belongings to the Dispensary. Forgetings will appreciate]
+uiLoadingString15	[Enregistrement du don de toutes vos possessions au Dispensaire. les Oublieux apprécieront]
 
-/* OLD VALUE : [Teasing Frahars...] */
 // HASH_VALUE 80A45F1AF43BD1F9
 // INDEX 3938
-uiLoadingString16	[Transfering all your clothes to Pendorid's kitchen]
+uiLoadingString16	[Transfert de votre garde-robe dans le garde-manger de pendorid]
 
-/* OLD VALUE : [Careplanning server...] */
 // HASH_VALUE 5F68650EFC59DF9D
 // INDEX 3939
-uiLoadingString17	[Perfect choice : digger in Salargug, a job for the Future]
+uiLoadingString17	[Excellent choix : mineur à Salargug, un métier d'avenir]
 
-/* OLD VALUE : [Distributing Ma-Duk...] */
 // HASH_VALUE 37296C569D2B7CF5
 // INDEX 3940
-uiLoadingString18	[If it moves, it's Culno, if it's cold, it's Ratmidju - Hoslet saying]
+uiLoadingString18	[Si ça bouge, c'est culno, si c'est froid c'est ratmidju - Proverbe d'Hoslet]
 
-/* OLD VALUE : [Installing Jena...] */
 // HASH_VALUE 89E44B8C9F49B841
 // INDEX 3941
-uiLoadingString19	[Wait a minute, we are telling the Njébé their food is coming]
+uiLoadingString19	[Un petit instant, on prépare les Njébé que le repas arrive]
 
-/* OLD VALUE : [Training skills...] */
 // HASH_VALUE B3890171A387FFF6
 // INDEX 3942
-uiLoadingString20	[Transfering Fog in your reality to clean a it Khanat]
+uiLoadingString20	[Transfert des Brumes dans votre réalité pour nettoyer un peu le Khanat]
 
-/* OLD VALUE : [Gaining XP...] */
 // HASH_VALUE 3193C9537E4F718D
 // INDEX 3943
-uiLoadingString21	[Grafting a branaz nose on you ra : in progress...]
+uiLoadingString21	[Greffe d'un nez de branaz sur votre ra : en cours...]
 
-/* OLD VALUE : [Putting masks on all the Zoraïs...] */
 // HASH_VALUE FEC96B934EF29D13
 // INDEX 3944
-uiLoadingString22	[On IRC - Freenode/#khanat, you can be kicked if you are obedient]
+uiLoadingString22	[Sur IRC - Freenode/#khanat, vous pouvez vous faire kicker si vous êtes sage]
 
-/* OLD VALUE : [Shrinking Trykers...] */
 // HASH_VALUE BCD6F33CBA6AAB4C
 // INDEX 3945
-uiLoadingString23	[Taming your cauna'i for your next fly expected in... far future]
+uiLoadingString23	[Domptage de votre cauna'i pour votre vol prévu...dans très longtemps]
 
-/* OLD VALUE : [Dry cleaning Fairhaven...] */
 // HASH_VALUE 1CD4D1243B88DD33
 // INDEX 3946
 uiLoadingString24	[Ce soir au menu : omelette d'oeufs de salamandre]
 
-/* OLD VALUE : [Vacuuming Pyr...] */
 // HASH_VALUE 5FB84A2DAD88D7A7
 // INDEX 3947
-uiLoadingString25	[Seems some tupas are expecting for you]
+uiLoadingString25	[Il semble qu'un certain nombre de tupas en pincent pour vous]
 
-/* OLD VALUE : [Telling the Kinchers to eat some Homins...] */
 // HASH_VALUE FD0A15FC0325CAA7
 // INDEX 3948
-uiLoadingString26	[Teleportation to the Frosted Bay, don't forget your swimsuit]
+uiLoadingString26	[Téléportation à la Baie de Givre, n'oubliez pas vore maillot]
 
-/* OLD VALUE : [Just making something...] */
 // HASH_VALUE AFDED895ADDFAFB2
 // INDEX 3949
-uiLoadingString27	[Displaying of a Wanted poster about you in all place of Natca]
+uiLoadingString27	[Affichage d'un avis de recherche à votre nom dans tout Natca]
 
-/* OLD VALUE : [Writing Fyros battle hymns...] */
 // HASH_VALUE A1F9F9FF90DB4F76
 // INDEX 3950
-uiLoadingString28	[Preparation of secrete datas of the Dream Police]
+uiLoadingString28	[Mise en place des données secrètes de la Police des Rêves]
 
-/* OLD VALUE : [Singing Tryker sleeping songs...] */
 // HASH_VALUE 3D82DABA2D11B6EA
 // INDEX 3951
-uiLoadingString29	[Registering your application to become a gladiator in the Arena]
+uiLoadingString29	[Enregistrement de votre candidature de gladiateur des Arènes]
 
-/* OLD VALUE : [Planting Jublas...] */
 // HASH_VALUE 8AEF3507B5DB9172
 // INDEX 3952
-uiLoadingString30	[Preparation of swarms of bloody pendos]
+uiLoadingString30	[Préparation des hordes de pendos sanguinaires]
 
-/* OLD VALUE : [Stalking a Stinga...] */
 // HASH_VALUE E92F308F9BD6DB9A
 // INDEX 3953
-uiLoadingString31	[Have sweet dreams in Khanat]
+uiLoadingString31	[Faîtes de beaux rêves sur Khanat]
 
-/* OLD VALUE : [Feeding the Ybers...] */
 // HASH_VALUE 9AE9F4414DBE24AD
 // INDEX 3954
-uiLoadingString32	[Generating random characteristics for creatures...]
+uiLoadingString32	[Génération aléatoire des caractéristiques des créatures...]
 
-/* OLD VALUE : [Trading jewels...] */
 // HASH_VALUE 31CF9EA9CBB854E6
 // INDEX 3955
-uiLoadingString33	[Control from Dream Polcie : prepare the CBX74 form]
+uiLoadingString33	[Contrôle de la Polcie des Rêves :préparez le formulaire CBX74]
 
-/* OLD VALUE : [Drinking firewine...] */
 // HASH_VALUE 882DEC0F9F020647
 // INDEX 3956
-uiLoadingString34	[Beware, Liria is in a good mood today]
+uiLoadingString34	[Attention, aujourd'hui Liria est de bonne humeur]
 
-/* OLD VALUE : [Brewing Stinga rum...] */
 // HASH_VALUE BBB930A2B3DEE8E3
 // INDEX 3957
-uiLoadingString35	[Today Zatalyz told me... Na, I can't repeat that]
+uiLoadingString35	[Ce matin Zatalyz a dit... Non je n'ose pas le répéter]
 
-/* OLD VALUE : [Caffeinenating support team...] */
 // HASH_VALUE D086F092C95E4F0B
 // INDEX 3958
-uiLoadingString36	[Blunting weapons, not to harm yourself]
+uiLoadingString36	[Émoussage des armes, pour ne pas vous blesser]
 
-/* OLD VALUE : [For all the latest gossip try CeB!  ] */
 // HASH_VALUE 78097AA0CADF1E9D
 // INDEX 3959
-uiLoadingString37	[Get your cushions and pillows]
+uiLoadingString37	[Perception des coussins, des oreillers et des couettes]
 
-/* OLD VALUE : [Shrinking Trykers...] */
 // HASH_VALUE 6238FBC3F6365BF3
 // INDEX 3960
-uiLoadingString38	[Have you some hot drink with you ?]
+uiLoadingString38	[Avez-vous pensé à prendre une boisson chaude ?]
 
-/* OLD VALUE : [Vaining Matis...] */
 // HASH_VALUE 822A88B872EA700A
 // INDEX 3961
-uiLoadingString39	[Re-teturing Suzanha Breast]
+uiLoadingString39	[Re-texturage des Mamelons de Suzanha]
 
-/* OLD VALUE : [Tanning Fyros...] */
 // HASH_VALUE 67968792C94218AB
 // INDEX 3962
-uiLoadingString40	[Ophidra concert in Itsmir, soon]
+uiLoadingString40	[Concert Ophidra à Istmir bientôt]
 
-/* OLD VALUE : [Dyeing Zoraïs...] */
 // HASH_VALUE E2ADE122232C49E9
 // INDEX 3963
-uiLoadingString41	[With farespa in your head, you'll dream great]
+uiLoadingString41	[Avec du farespa, à pleins pots tu rêveras]
 
-/* OLD VALUE : [You'd load faster with more RAM and a better processor you know...] */
 // HASH_VALUE 5826FE130862253F
 // INDEX 3964
-uiLoadingString42	[Transforming Ashtarie Plains in a desert]
+uiLoadingString42	[Transformation des Plaines d'Astharie en désert]
 
-/* OLD VALUE : [Just hanging around...] */
 // HASH_VALUE 5FB49FEFD97AC378
 // INDEX 3965
-uiLoadingString43	[Oiling of Crypt's Door]
+uiLoadingString43	[Graissage des portes de la Crypte]
 
-/* OLD VALUE : [Watching who started me...] */
 // HASH_VALUE 2D8F863938B5BA2D
 // INDEX 3966
-uiLoadingString44	[Installing the lamp used as Sun...]
+uiLoadingString44	[Installation de la lampe faisant office de soleil...]
 
-/* OLD VALUE : [Hey, you're looking good today...] */
 // HASH_VALUE A63CBA95201A42F9
 // INDEX 3967
-uiLoadingString45	[Installing Look-Throught textures for clothes]
+uiLoadingString45	[Installation des textures de vêtements transparents]
 
-/* OLD VALUE : [Have a nice day on Atys...] */
 // HASH_VALUE A31E421391901A48
 // INDEX 3968
-uiLoadingString46	[CHanging texture of Krili, now they will be liquid]
+uiLoadingString46	[Changement de texture des Krili : désormais ils seront liquides]
 
-/* OLD VALUE : [Oh my god, look, a flying Yubo!  ] */
 // HASH_VALUE 8180CE0E5C381186
 // INDEX 3969
-uiLoadingString47	[You have been chosen to polish obsidian mirrors]
+uiLoadingString47	[Vous avez été désigne pour polir les miroirs d'obsidienne]
 
-/* OLD VALUE : [Spare Yubos, who knows, maybe one day, they will save your life?  ] */
 // HASH_VALUE 734A7A5A99E48147
 // INDEX 3970
-uiLoadingString48	[Spotting your dreams, thanks to the Dream Police]
+uiLoadingString48	[Surveillance de vos pensées par la Police des Rêves]
 
-/* OLD VALUE : [Yubos, probably your best friends!  ] */
 // HASH_VALUE 6136A0270A1E91E5
 // INDEX 3971
-uiLoadingString49	[Installing secret corridors in Ratmidju]
+uiLoadingString49	[Installation des couloirs secrets de ratdmiju]
 
-/* OLD VALUE : [Dum Di Dum...] */
 // HASH_VALUE E5C9890C328059DD
 // INDEX 3972
-uiLoadingString50	[Some shcolars think that the sacred language has been created recently]
+uiLoadingString50	[Certains savants pensent que la langue sacrée a été rêvée récemment en réalité]
 
-/* OLD VALUE : [If you read this twice, you might want to upgrade your system...] */
 // HASH_VALUE 5C88E88D56A5B738
 // INDEX 3973
-uiLoadingString51	[Every morning, a new Eon !]
+uiLoadingString51	[Chaque matin, un nouvel Éon !]
 
-/* OLD VALUE : [Optimizing Tryker windmill rotation algorithms...] */
 // HASH_VALUE AEAE697DA8C9758D
 // INDEX 3974
-uiLoadingString52	[Unplunging the Interfaced]
+uiLoadingString52	[Débranchement des Interfacés]
 
-/* OLD VALUE : [Refueling Fyros citygates...] */
 // HASH_VALUE C772C86EF7AF4F5A
 // INDEX 3975
-uiLoadingString53	[Opening around thirty random fenra]
+uiLoadingString53	[Ouverture d'une trentaine de fenra aléatoires]
 
 // HASH_VALUE 5E07187358A2309C
 // INDEX 3976
@@ -16999,7 +16951,6 @@ uiSessionVanishedFarTP	[The Ring Adventure you were in is now closed. We are tel
 // INDEX 4029
 uiSessionUnreachable	[The server associated with this character is closed, please try again later.]
 
-/* OLD VALUE : [Ryzom Core RING COMMANDS] */
 // HASH_VALUE 03CEE416825EE818
 // INDEX 4030
 uiR2EDActionCategory	[KHANAT RING COMMANDS]
@@ -17100,7 +17051,6 @@ uiMk_window9	[System...]
 // INDEX 4054
 uiMk_window10	[Help...]
 
-/* OLD VALUE : [Ryzom Core Ring] */
 // HASH_VALUE E4C79389A1323C57
 // INDEX 4055
 uiMk_window11	[Khanat Ring]
@@ -17266,7 +17216,6 @@ uiMk_interaction6	[Team]
 // INDEX 4091
 uiMk_interaction7	[Animals]
 
-/* OLD VALUE : [Ryzom Core Ring] */
 // HASH_VALUE E4C79389A1323C57
 // INDEX 4092
 uiMk_interaction8	[Khanat Ring]
@@ -18812,12 +18761,6 @@ uiRingLaunchScenarioTooltip	[Launch a session of the scenario you have chosen.]
 // INDEX 4450
 uiRingDescriptionScenarioTooltip	[Describe the scenario that you will launch. It will be visible by all players at each Ring Terminal.]
 
-/* OLD VALUE : [FREE TRIAL LIMITATIONS:
-You cannot join this Ring adventure with a free trial account.
-In order to gain full access to Ryzom Core Ring you need to subscribe to Ryzom Core.
-To upgrade your account see 
-www.ryzomcore.org
-] */
 // HASH_VALUE 2BA62562877E4972
 // INDEX 4451
 uiRingWarningFreeTrial	[FREE TRIAL LIMITATIONS:\n
@@ -18927,19 +18870,11 @@ uiR2EdPropertyToolTip_LoadScenario_LoadScenario_Originality	[@{6F6F}Originality 
 uiR2EdPropertyToolTip_LoadScenario_LoadScenario_Direction	[@{6F6F}Direction Rating \n
 	@{FFFF} Direction rating for the selected scenario.]
 
-/* OLD VALUE : [@{6F6F}Ryzom Core Ring Points Total 
-@{FFFF} Ryzom Core Ring Points Total for the selected scenario.] */
 // HASH_VALUE 3D7F691BF9F309F6
 // INDEX 4472
 uiR2EdPropertyToolTip_LoadScenario_LoadScenario_RRPTotal	[@{6F6F}Khanat Ring Points Total \n
 	@{FFFF} Khanat Ring Points Total for the selected scenario.]
 
-/* OLD VALUE : [@{6F6F}Examples
-@{FFFF}Example scenarios supplied with Ryzom Core. These demonstrate some of the things that can be done with Ryzom Core Ring.
-@{6F6F}Pioneer Scenarios
-@{FFFF}Provided by other players and customer support, these are not vetted.
-@{6F6F}My Files
-@{FFFF}The files that are in the 'My Scenarios' folder on your computer.] */
 // HASH_VALUE BC397727F5C50033
 // INDEX 4473
 uiR2EdPropertyToolTip_LoadScenario_LoadScenario_TreeInfo	[@{6F6F}Examples\n
@@ -19005,7 +18940,6 @@ uiR2EDProp_LoadScenario_OriginalityRating	[Originality]
 // INDEX 4487
 uiR2EDProp_LoadScenario_DirectionRating	[Direction]
 
-/* OLD VALUE : [Ryzom Core Ring Points] */
 // HASH_VALUE 58D6704827B3C779
 // INDEX 4488
 uiR2EDProp_LoadScenario_RRPTotal	[Khanat Ring Points]
@@ -19206,11 +19140,9 @@ uiR2EDMasterlessRingRatingTooltip	[@{6F6F}Organizer Rating@{FFFF}: Level: %n, Pr
 	Rating as organizer of masterless scenarios. This rating increases as people play with you in masterless scenarios that you have launched.\n
 	]
 
-/* OLD VALUE : [You cannot load a Mainland scenario while you are in the Ruins of Silan. ] */
-/* OLD VALUE : [You cannot load a Mainland scenario while you are in the Ruins of Silan. ] */
-// HASH_VALUE 3C7F1E543FF0DF3A
+// HASH_VALUE 89DE0D79C9F29C84
 // INDEX 4532
-uiRingLoadingNotARoSScenario	[You cannot load a Mainland scenario while you are in the Dispensary. ]
+uiRingLoadingNotARoSScenario	[You cannot load a Mainland scenario while you are in the Ruins of Silan. ]
 
 // HASH_VALUE B4F03AFFA31F6D0B
 // INDEX 4533
@@ -19244,29 +19176,21 @@ uittMissionCombo	[This is your mission journal, and your current mission. Click 
 // INDEX 4540
 uittMissionJournal	[This is your mission journal]
 
-/* OLD VALUE : [Ruins of Silan] */
-/* OLD VALUE : [Ruins of Silan] */
-// HASH_VALUE 2CD9C88E6908048E
+// HASH_VALUE 59798C4465B3A795
 // INDEX 4541
-uiFixedMissionEntry_Newbie	[Dispensary]
+uiFixedMissionEntry_Newbie	[Ruins of Silan]
 
-/* OLD VALUE : [Ruins of Silan/Ring] */
-/* OLD VALUE : [Ruins of Silan/Ring] */
-// HASH_VALUE 635513985F07DCAA
+// HASH_VALUE 520898FB6194839C
 // INDEX 4542
-uiFixedMissionEntry_Newbie_R2	[Dispensary/Ring]
+uiFixedMissionEntry_Newbie_R2	[Ruins of Silan/Ring]
 
-/* OLD VALUE : [Ruins of Silan/Free trial] */
-/* OLD VALUE : [Ruins of Silan/Free trial] */
-// HASH_VALUE E1A5E89A07BA28A4
+// HASH_VALUE 18D900505D80CFB6
 // INDEX 4543
-uiFixedMissionEntry_Newbie_Trial	[Dispensary/Free trial]
+uiFixedMissionEntry_Newbie_Trial	[Ruins of Silan/Free trial]
 
-/* OLD VALUE : [Ruins of Silan/Free trial/Ring] */
-/* OLD VALUE : [Ruins of Silan/Free trial/Ring] */
-// HASH_VALUE 5F03F0985508CBB6
+// HASH_VALUE 18A77350DFA39FB6
 // INDEX 4544
-uiFixedMissionEntry_Newbie_R2_Trial	[Dispensary/Free trial/Ring]
+uiFixedMissionEntry_Newbie_R2_Trial	[Ruins of Silan/Free trial/Ring]
 
 // HASH_VALUE C8A0CB926A9A2FF4
 // INDEX 4545
@@ -19284,7 +19208,6 @@ uiFixedMissionEntry_Mainland_Tryker	[Main land / Tryker]
 // INDEX 4548
 uiFixedMissionEntry_Mainland_Zorai	[Main land / Zoraï]
 
-/* OLD VALUE : [Ryzom Core ring] */
 // HASH_VALUE E4C99389A932BC57
 // INDEX 4549
 uiFixedMissionEntry_R2	[Khanat ring]
@@ -19457,7 +19380,6 @@ uittR2_Scenario_control	[Choose header color for 'Scenario control']
 // INDEX 4591
 uittR2_Player_tracking	[Choose header color for 'Player Tracking']
 
-/* OLD VALUE : [Ryzom Core Downloader] */
 // HASH_VALUE A9F968708BA598AA
 // INDEX 4592
 uiBGD_RBG	[Khanat Downloader]
@@ -19502,7 +19424,6 @@ uiBGD_CheckSuccess	[File check finished]
 // INDEX 4602
 uiBGD_Progress	[Patch progress: ]
 
-/* OLD VALUE : [Ryzom Core is up to date] */
 // HASH_VALUE 6AB677831965C33F
 // INDEX 4603
 uiBGD_PatchUpToDate	[Khanat is up to date]
@@ -19511,37 +19432,30 @@ uiBGD_PatchUpToDate	[Khanat is up to date]
 // INDEX 4604
 uiBGD_PatchError	[Patch error, please check your disk space and system settings and try again]
 
-/* OLD VALUE : [Game/Downloader communication Error. Please restart Ryzom Core or as a last resort use the Ryzom Core Downloader to repair your installation.] */
 // HASH_VALUE C10ACD58AC093545
 // INDEX 4605
 uiBGD_ProtocolError	[Game/Downloader communication Error. Please restart Khanat or as a last resort use the Khanat Downloader to repair your installation.]
 
-/* OLD VALUE : [Ryzom Core Downloader stopped, please restart Ryzom Core] */
 // HASH_VALUE 6210AE695891367F
 // INDEX 4606
 uiBGD_DownloaderDisconnected	[Khanat Downloader stopped, please restart Khanat]
 
-/* OLD VALUE : [Launching Ryzom Core Downloader...] */
 // HASH_VALUE 1D28AB376866C360
 // INDEX 4607
 uiBGD_Launching	[Launching Khanat Downloader...]
 
-/* OLD VALUE : [Failed to launch the Ryzom Core Downloader...] */
 // HASH_VALUE ED3F18DDB517FDA3
 // INDEX 4608
 uiBGD_LaunchError	[Failed to launch the Khanat Downloader...]
 
-/* OLD VALUE : [Shutting down the Ryzom Core Downloader...] */
 // HASH_VALUE 7C1E585C683947DF
 // INDEX 4609
 uiBGD_ShuttingDown	[Shutting down the Khanat Downloader...]
 
-/* OLD VALUE : [Ryzom Core Downloader is still running, but is not responding, you may need to restart your computer...] */
 // HASH_VALUE BB1F7E13BC60F0C1
 // INDEX 4610
 uiBGD_ForciblyShutdown	[Khanat Downloader is still running, but is not responding, you may need to restart your computer...]
 
-/* OLD VALUE : [Please use Ryzom Core Downloader to repair a broken Ryzom Core installation.] */
 // HASH_VALUE 5263A04C6FA48413
 // INDEX 4611
 uiBGD_InvalidCommandLine	[Please use Khanat Downloader to repair a broken Khanat installation.]
@@ -19570,7 +19484,6 @@ uiBGD_LowPriority	[Low priority]
 // INDEX 4617
 uiBGD_NormalPriority	[Normal priority]
 
-/* OLD VALUE : [Select the priority of the Ryzom Core Downloader. You may want to @{6F6F}Pause@{FFFF} the downloader if you experience slowdown. If you have a fast machine, or want to speed up the patching process, you select choose @{6F6F}Normal Priority@{FFFF}] */
 // HASH_VALUE 1948540600789D85
 // INDEX 4618
 uiBGD_PriorityTooltip	[Select the priority of the Khanat Downloader. You may want to @{6F6F}Pause@{FFFF} the downloader if you experience slowdown. If you have a fast machine, or want to speed up the patching process, you select choose @{6F6F}Normal Priority@{FFFF}]
@@ -19579,12 +19492,10 @@ uiBGD_PriorityTooltip	[Select the priority of the Khanat Downloader. You may wan
 // INDEX 4619
 uiBGD_NotUsed	[Not used]
 
-/* OLD VALUE : [Failed to shutdown the Ryzom Core Downloader, you may need to restart your computer to solve the problem] */
 // HASH_VALUE DA9BF0F86689BADC
 // INDEX 4620
 uiBGD_ShutdownFailed	[Failed to shutdown the Khanat Downloader, you may need to restart your computer to solve the problem]
 
-/* OLD VALUE : [Access to the Atys mainland and Ryzom Core Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.] */
 // HASH_VALUE DE9F40831A2B2123
 // INDEX 4621
 uiBGD_InGamePatchIncomplete	[Access to the Atys mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.]
@@ -19593,12 +19504,10 @@ uiBGD_InGamePatchIncomplete	[Access to the Atys mainland and Khanat Ring require
 // INDEX 4622
 uiBGD_InGamePatchIncompleteBC	[Please wait for patching to finish]
 
-/* OLD VALUE : [Ryzom Core is now fully patched! You can now access Ryzom Core Ring or be teleported to the mainland!] */
 // HASH_VALUE 6F8A4A3D7B6946D7
 // INDEX 4623
 uiBGD_InGamePatchCompletion	[Khanat is now fully patched! You can now access Khanat Ring or be teleported to the mainland!]
 
-/* OLD VALUE : [Failed to initiate patching process because another Ryzom Core is already running. Please close the other Ryzom Core and try again.] */
 // HASH_VALUE B8171749B1E14E8B
 // INDEX 4624
 uiBGD_MultipleRyzomInstance	[Failed to initiate patching process because another Khanat is already running. Please close the other Khanat and try again.]
@@ -19607,7 +19516,6 @@ uiBGD_MultipleRyzomInstance	[Failed to initiate patching process because another
 // INDEX 4625
 uiCP_KeysetName_bi_wow_alike	[Other 1]
 
-/* OLD VALUE : [For those used to some other MMO Games keybinding, make a smooth transition using that keyset. Applies to the game only (Ryzom Core Ring keyset remains the same).] */
 // HASH_VALUE 82DAFE45630B0596
 // INDEX 4626
 uiCP_KeysetTooltip_bi_wow_alike	[For those used to some other MMO Games keybinding, make a smooth transition using that keyset. Applies to the game only (Khanat Ring keyset remains the same).]
@@ -19628,29 +19536,23 @@ uiAutoEquipTool	[Auto Equip Mode]
 // INDEX 4630
 msgNoCastWhileMoving	[&CHK&You cannot cast a spell while moving.]
 
-/* OLD VALUE : [Ryzom Core patching has started] */
 // HASH_VALUE 8FC98C881874E0A5
 // INDEX 4631
 uiBGD_PatchStarting	[Khanat patching has started]
 
-/* OLD VALUE : [Ryzom Core background patching has started] */
 // HASH_VALUE 03FCD0F269E1790D
 // INDEX 4632
 uiBGD_BackgroundPatchStarting	[Khanat background patching has started]
 
-/* OLD VALUE : [Ryzom Core is about to be installed on your computer. You may also repair an existing version of Ryzom Core.
-] */
 // HASH_VALUE 870800E60642E9EE
 // INDEX 4633
 uiBGD_Welcome	[Khanat is about to be installed on your computer. You may also repair an existing version of Khanat.\n
 	]
 
-/* OLD VALUE : [Install Ryzom Core] */
 // HASH_VALUE F079E468DA45BB77
 // INDEX 4634
 uiBGD_NewInstall	[Install Khanat]
 
-/* OLD VALUE : [Repair Ryzom Core] */
 // HASH_VALUE 1139907C25043898
 // INDEX 4635
 uiBGD_Repair	[Repair Khanat]
@@ -19671,12 +19573,10 @@ uiBGD_ChoosePackage	[Please choose a package to install: ]
 // INDEX 4639
 uiBGD_MinimalInstall	[Minimum installation. The free trial starting island will be installed.]
 
-/* OLD VALUE : [Full Ryzom Core Install] */
 // HASH_VALUE 4FE9AC60CF85683F
 // INDEX 4640
 uiBGD_FullInstall	[Full Khanat Install]
 
-/* OLD VALUE : [Ryzom Core Downloader] */
 // HASH_VALUE A9F968708BA598AA
 // INDEX 4641
 uiBGD_RyzomInstaller	[Khanat Downloader]
@@ -19689,16 +19589,12 @@ uiBGD_Torrent	[Torrent Mode]
 // INDEX 4643
 uiBGD_InstallCongrat	[Congratulations!]
 
-/* OLD VALUE : [Ryzom Core has been successfully installed.
-We wish you great adventures on Atys!
-] */
 // HASH_VALUE 3A36E5029E8F7937
 // INDEX 4644
 uiBGD_CongratSuccessfullInstall	[Khanat has been successfully installed.\n
 	We wish you great adventures on Atys!\n
 	]
 
-/* OLD VALUE : [Start Ryzom Core now] */
 // HASH_VALUE 72581468EE547228
 // INDEX 4645
 uiBGD_StartRyzomNow	[Start Khanat now]
@@ -19715,8 +19611,6 @@ uiBGD_FinishInstall	[Finish]
 // INDEX 4648
 uiBGD_ResumeDownloadInfo	[Note: You can resume the installation at any time by double-clicking on the installer shortcut on your desktop.]
 
-/* OLD VALUE : [Ryzom Core installation
-] */
 // HASH_VALUE 7D8AB090ECD56840
 // INDEX 4649
 uiBGD_PackageTitle	[Khanat installation\n
@@ -19764,15 +19658,11 @@ uiSeeding	[Seeding]
 // INDEX 4659
 uiAllocating	[Allocating]
 
-/* OLD VALUE : [There has been an error downloading one of the Ryzom Core installation files.
-Please make sure that you have sufficient disk space and that your internet connection is operating correctly. ] */
 // HASH_VALUE D5905066BC57E649
 // INDEX 4660
 uiCanNotDownload	[There has been an error downloading one of the Khanat installation files.\n
 	Please make sure that you have sufficient disk space and that your internet connection is operating correctly. ]
 
-/* OLD VALUE : [There has been an error installing one of the Ryzom Core installation files.
-Please make sure that you have sufficient disk space for the installation.] */
 // HASH_VALUE DA16C1A88472EAA8
 // INDEX 4661
 uiCanNotInstall	[There has been an error installing one of the Khanat installation files.\n
@@ -19822,8 +19712,6 @@ uiBGD_Patch	[Downloading]
 // INDEX 4672
 uiBGD_CheckData	[Check data]
 
-/* OLD VALUE : [Installation finished.
-You can now play to Ryzom Core.] */
 // HASH_VALUE 2959476E760ED903
 // INDEX 4673
 uiBGD_InstallFinished	[Installation finished.\n
@@ -19882,7 +19770,6 @@ uiBGD_RateFormat	[ at {0}/s]
 // INDEX 4686
 uiSelectPackage	[Package selection]
 
-/* OLD VALUE : [Ryzom Core Install and Repair] */
 // HASH_VALUE DFE52C990C61C8A0
 // INDEX 4687
 uiBGD_RyzomUpdateRepair	[Khanat Install and Repair]
@@ -19891,16 +19778,11 @@ uiBGD_RyzomUpdateRepair	[Khanat Install and Repair]
 // INDEX 4688
 uiBGD_ContentStartProcessFullVersion	[You have opted to only install the minimum files required to start playing. The remaining files will be downloaded and installed while you play.]
 
-/* OLD VALUE : [You are about to download and install the latest version of Ryzom Core.
-The complete version of Ryzom Core requires {0} of disk space.] */
 // HASH_VALUE CBB6220F44405B71
 // INDEX 4689
 uiBGD_ContentStartProcessInstall	[You are about to download and install the latest version of Khanat.\n
 	The complete version of Khanat requires {0} of disk space.]
 
-/* OLD VALUE : [You are about to update your installation of Ryzom Core to the latest version.
-This operation will repair any files that are damaged or missing.
-At the end of the update the game configuration options will be reset to the default values.] */
 // HASH_VALUE A6C410A11A9995D0
 // INDEX 4690
 uiBGD_ContentStartProcessRepair	[You are about to update your installation of Khanat to the latest version.\n
@@ -19911,7 +19793,6 @@ uiBGD_ContentStartProcessRepair	[You are about to update your installation of Kh
 // INDEX 4691
 uiBGD_ContentStartProcessTorrent	['Torrent Mode' uses BitTorent technology to download from several servers at a time. Disabling 'Turbo Download' can fix some types of download problem.]
 
-/* OLD VALUE : [Welcome to the Ryzom Core Downloader] */
 // HASH_VALUE 287490AA51F25BAC
 // INDEX 4692
 uiBGD_TitleStartProcessInstall	[Welcome to the Khanat Downloader]
@@ -19920,7 +19801,6 @@ uiBGD_TitleStartProcessInstall	[Welcome to the Khanat Downloader]
 // INDEX 4693
 uiBGD_TitleInstallSuccess	[Congratulations]
 
-/* OLD VALUE : [Ryzom Core has been installed successfully] */
 // HASH_VALUE C8DD40EC570489F6
 // INDEX 4694
 uiBGD_ContentInstallSuccess	[Khanat has been installed successfully]
@@ -19929,7 +19809,6 @@ uiBGD_ContentInstallSuccess	[Khanat has been installed successfully]
 // INDEX 4695
 uiBGD_QuitInstallContent	[Do your realy want to quit the installation program.]
 
-/* OLD VALUE : [You will be able to to continue the install process where you have left it by clicking on the Ryzom Core icon on your desktop.] */
 // HASH_VALUE 9D27530E6893D0E3
 // INDEX 4696
 uiBGD_QuitInstallRestart	[You will be able to to continue the install process where you have left it by clicking on the Khanat icon on your desktop.]
@@ -19942,7 +19821,6 @@ uiBGD_QuitInstallTitle	[Quit?]
 // INDEX 4698
 uiBGD_ErrorSupportFormat	[Tips on solving common problems on the {0}]
 
-/* OLD VALUE : [http://forums.Ryzom Core.com/forum/showthread.php?t=29129] */
 // HASH_VALUE F33B4565912B7B61
 // INDEX 4699
 uiBGD_ErrorSupportUrl	[http://forums.Khanat.com/forum/showthread.php?t=29129]
@@ -19959,12 +19837,10 @@ uiRyzomErrorMsgBoxHelp	[Help]
 // INDEX 4702
 uittBrowseFaq	[Help]
 
-/* OLD VALUE : [The current desktop color depth is not supported by Ryzom Core. Please launch Ryzom Core in 16 millions color mode.] */
 // HASH_VALUE 69763C2974798BEA
 // INDEX 4703
 uiUnsupportedColorDepth	[The current desktop color depth is not supported by Khanat. Please launch Khanat in 16 millions color mode.]
 
-/* OLD VALUE : [The new desktop color depth is not supported by Ryzom Core. Please launch Ryzom Core in 16 millions color mode.] */
 // HASH_VALUE E0A857DB615077DE
 // INDEX 4704
 uiUnsupportedNewColorDepth	[The new desktop color depth is not supported by Khanat. Please launch Khanat in 16 millions color mode.]
@@ -20146,7 +20022,6 @@ uiAtysianCycle3Ordinal	[3rd]
 // INDEX 4746
 uiAtysianCycle4Ordinal	[4th]
 
-/* OLD VALUE : [has been saved in your Ryzom Core folder.] */
 // HASH_VALUE 7420E8CAA2C06FDE
 // INDEX 4747
 uiScreenshotSaved	[has been saved in your Khanat folder.]
@@ -20167,8 +20042,6 @@ uittShowTimesInChat	[If checked, displays the current time before all chat messa
 // INDEX 4751
 uiEchelon	[Grade: ]
 
-/* OLD VALUE : [Show Clock in Compass] */
-/* OLD VALUE : [Show Clock in Compass] */
 // HASH_VALUE 2E428F9A99366770
 // INDEX 4752
 uiShowClock	[Show Clock in Compass]

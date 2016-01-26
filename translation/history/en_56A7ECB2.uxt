@@ -19206,11 +19206,9 @@ uiR2EDMasterlessRingRatingTooltip	[@{6F6F}Organizer Rating@{FFFF}: Level: %n, Pr
 	Rating as organizer of masterless scenarios. This rating increases as people play with you in masterless scenarios that you have launched.\n
 	]
 
-/* OLD VALUE : [You cannot load a Mainland scenario while you are in the Ruins of Silan. ] */
-/* OLD VALUE : [You cannot load a Mainland scenario while you are in the Ruins of Silan. ] */
-// HASH_VALUE 3C7F1E543FF0DF3A
+// HASH_VALUE 89DE0D79C9F29C84
 // INDEX 4532
-uiRingLoadingNotARoSScenario	[You cannot load a Mainland scenario while you are in the Dispensary. ]
+uiRingLoadingNotARoSScenario	[You cannot load a Mainland scenario while you are in the Ruins of Silan. ]
 
 // HASH_VALUE B4F03AFFA31F6D0B
 // INDEX 4533
@@ -19244,29 +19242,21 @@ uittMissionCombo	[This is your mission journal, and your current mission. Click 
 // INDEX 4540
 uittMissionJournal	[This is your mission journal]
 
-/* OLD VALUE : [Ruins of Silan] */
-/* OLD VALUE : [Ruins of Silan] */
-// HASH_VALUE 2CD9C88E6908048E
+// HASH_VALUE 59798C4465B3A795
 // INDEX 4541
-uiFixedMissionEntry_Newbie	[Dispensary]
+uiFixedMissionEntry_Newbie	[Ruins of Silan]
 
-/* OLD VALUE : [Ruins of Silan/Ring] */
-/* OLD VALUE : [Ruins of Silan/Ring] */
-// HASH_VALUE 635513985F07DCAA
+// HASH_VALUE 520898FB6194839C
 // INDEX 4542
-uiFixedMissionEntry_Newbie_R2	[Dispensary/Ring]
+uiFixedMissionEntry_Newbie_R2	[Ruins of Silan/Ring]
 
-/* OLD VALUE : [Ruins of Silan/Free trial] */
-/* OLD VALUE : [Ruins of Silan/Free trial] */
-// HASH_VALUE E1A5E89A07BA28A4
+// HASH_VALUE 18D900505D80CFB6
 // INDEX 4543
-uiFixedMissionEntry_Newbie_Trial	[Dispensary/Free trial]
+uiFixedMissionEntry_Newbie_Trial	[Ruins of Silan/Free trial]
 
-/* OLD VALUE : [Ruins of Silan/Free trial/Ring] */
-/* OLD VALUE : [Ruins of Silan/Free trial/Ring] */
-// HASH_VALUE 5F03F0985508CBB6
+// HASH_VALUE 18A77350DFA39FB6
 // INDEX 4544
-uiFixedMissionEntry_Newbie_R2_Trial	[Dispensary/Free trial/Ring]
+uiFixedMissionEntry_Newbie_R2_Trial	[Ruins of Silan/Free trial/Ring]
 
 // HASH_VALUE C8A0CB926A9A2FF4
 // INDEX 4545
