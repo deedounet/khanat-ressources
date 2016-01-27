@@ -1,0 +1,34 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 2287
+/* OLD VALUE : [
+	
+	WELCOME_RA_5 ()
+	{
+			chiang_5	[C'est le lirri'a?]
+	
+	}
+	
+
+] */
+// Clause 0 : identifier changed.
+/* OLD VALUE : [
+	
+	
+	WELCOME_RA_5 ()
+	{
+			welcome_ra_5	[C'est le lirri'a…]
+	
+	}
+	
+
+] */
+// WARNING : Hash code changed ! check translation workflow.
+// HASH_VALUE D6F33FCF6A98DF38
+WELCOME_RA_5 ()
+{
+		welcome_ra_5	[C'est le lirri'a…]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

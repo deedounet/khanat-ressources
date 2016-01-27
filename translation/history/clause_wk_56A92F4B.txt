@@ -14409,9 +14409,10 @@ welcome_ra_3	[Avez-vous goûté le thé de Lyne ?]
 // INDEX 3343
 welcome_ra_4	[Donnez-moi une tarte aux klums ou je fais un malheur !]
 
+/* OLD VALUE : [&bbl&C'est le lirri'a?] */
 // HASH_VALUE 2B24DA2E95D0BFCB
 // INDEX 3344
-welcome_ra_5	[C'est le lirri'a…]
+chiang_5	[C'est le lirri'a…]
 
 /* OLD VALUE : [&bbl&J'ai cru voir passer un scoui?] */
 // HASH_VALUE AD58CF5086B87B1B

@@ -1,0 +1,43 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 2262
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_1 (player p)
+	{
+			text_intro_newbie_1_m	[&bbl&coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e]
+	
+	}
+	
+
+] */
+// Clause list changed.
+// HASH_VALUE B5CEB0D98EB701A2
+TEXT_INTRO_NEWBIE_1 (player p)
+{
+	(p.gender = male) 
+		text_intro_newbie_1_m	[coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+	(p.gender = female) 
+		text_intro_newbie_1_f	[coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+}
+
+// DIFF CHANGED 2263
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_2 (player p)
+	{
+			text_intro_newbie_2	[*Notice the surprise and starts again*\n
+				Hello, Forgotting. My name is Uil'i, welcome.]
+	}
+	
+
+] */
+// Clause list changed.
+// HASH_VALUE C3EA8EE303D675B4
+TEXT_INTRO_NEWBIE_2 (player p)
+	{
+			text_intro_newbie_2	[*Notice the surprise and starts again*\n
+				Hello, Forgotting. My name is Uil'i, welcome.]
+	}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

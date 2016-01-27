@@ -25395,29 +25395,26 @@ WELCOME_RA_4 ()
 }
 
 /* OLD VALUE : [
-	
 	WELCOME_RA_5 ()
 	{
-			chiang_5	[C'est le lirri'a?]
+			welcome_ra_5	[&bbl&C'est le lirri'a?]
 	
 	}
 	
 
 ] */
-// Clause 0 : identifier changed.
+// Clause 0 : text changed.
 /* OLD VALUE : [
-	
-	
 	WELCOME_RA_5 ()
 	{
-			welcome_ra_5	[C'est le lirri'a?]
+			welcome_ra_5	[&bbl&C'est le lirri'a?]
 	
 	}
 	
 
 ] */
-// WARNING : Hash code changed ! check translation workflow.
-// HASH_VALUE D6F33FCF6A98DF38
+// Clause 0 : text changed.
+// HASH_VALUE 2A087B2CD5A37BB5
 WELCOME_RA_5 ()
 {
 		welcome_ra_5	[C'est le lirri'a…]

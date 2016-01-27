@@ -1,0 +1,429 @@
+﻿// DIFF_VERSION 2
+// DIFF ADD
+// HASH_VALUE 0F6B581A93153269
+NEWBIELAND_START_MIS_DESC ()
+{
+		newbieland_start_mis_desc	[Talk to Uil'i to learn about this place.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 6A67BFE31F1D8795
+NEWBIELAND_START_MIS_TITLE ()
+{
+		newbieland_start_mis_title	[First steps in the lirri'a]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 0486F468E948F850
+NEWBIE_INTRO ()
+{
+		newbie_intro	[Talk to Uil'i]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 2706F3205AABBBAF
+OBJ_INTRO ()
+{
+		obj_intro	[Talk to Uil'i]
+
+}
+
+// DIFF CHANGED 2266
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_1 (player p)
+	{
+		(p.gender = male) 
+			text_intro_newbie_1_m	[&bbl&coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+	
+		(p.gender = female) 
+			text_intro_newbie_1_f	[&bbl&coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// Clause 1 : text changed.
+/* OLD VALUE : [
+	
+	TEXT_INTRO_NEWBIE_1 (player p)
+	{
+		(p.gender = male) 
+			text_intro_newbie_1_m	[coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+	
+		(p.gender = female) 
+			text_intro_newbie_1_f	[coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+	
+	}
+	
+
+] */
+// WARNING : Hash code changed ! check translation workflow.
+// HASH_VALUE 8F6970B22FA1CC3F
+TEXT_INTRO_NEWBIE_1 (player p)
+{
+	(p.gender = male) 
+		text_intro_newbie_1_m	[coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+	(p.gender = female) 
+		text_intro_newbie_1_f	[coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+}
+
+// DIFF CHANGED 2267
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_2 (player p)
+	{
+		(p.gender = male) 
+			text_intro_newbie_2_m	[&bbl&*Remarque l'air perplexe et reprend*\n
+				Bonjour Oublieux. On m'appelle Uil'i. Sois le bienvenu.]
+	
+		(p.gender = female) 
+			text_intro_newbie_2_f	[&bbl&*Remarque l'air perplexe et reprend*\n
+				Bonjour Oublieuse. On m'appelle Uil'i. Sois la bienvenue.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// Clause 1 : text changed.
+/* OLD VALUE : [
+	
+	TEXT_INTRO_NEWBIE_2 (player p)
+	{
+			text_intro_newbie_2	[*Notice the surprise and starts again*\n
+				Hello, Forgotting. My name is Uil'i, welcome.]
+	
+	}
+	
+
+] */
+// Clause list changed.
+// HASH_VALUE 08C3B5B68EB03DEB
+TEXT_INTRO_NEWBIE_2 (player p)
+	{
+			text_intro_newbie_2	[*Notice the surprise and starts again*\n
+				Hello, Forgotting. My name is Uil'i, welcome.]
+	
+	}
+
+// DIFF CHANGED 2268
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_3 (player p)
+	{
+			text_intro_newbie_3	[&bbl&Nous sommes dans le lirri'a, temps où tout est incertain. La réalité est mouvante, les Brumes changent tout d'un jour à l'autre.\n
+				Avec quelques ras, je tente de maintenir une petite poche de stabilité ici. Autrefois, je travaillais au Dispensaire. Je tente de le faire revivre ici ; nombre d'Oublieux arrivent depuis les poches de Brumes dans la Jungle.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_3 (player p)
+	{
+			text_intro_newbie_3	[&bbl&This is lirri'a, a time when nothing is certain. Reality is moving, Fogs change everything in a day.\n
+				With some ra, I try to maintain a small stable area around here. There was a time I was working in the Dispensary. I try to make it alive here again ; some many Forgotting are coming from Fogs in the Jungle.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE BF81952BB69E1BAB
+TEXT_INTRO_NEWBIE_3 (player p)
+{
+		text_intro_newbie_3	[This is lirri'a, a time when nothing is certain. Reality is moving, Fogs change everything in a day.\n
+				With some ra, I try to maintain a small stable area around here. There was a time I was working in the Dispensary. I try to make it alive here again ; some many Forgotting are coming from Fogs in the Jungle.]
+
+}
+
+// DIFF CHANGED 2269
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_4 (player p)
+	{
+			text_intro_newbie_4	[&bbl&Ce minaret semble fonctionnel, ainsi que la borne de revif qui lui est associée. Mais ne prend pas de risque pour autant : rien n'est sûr. C'est le lirri'a?]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_4 (player p)
+	{
+			text_intro_newbie_4	[&bbl&This minaret seems to work properly, as the reborn system associated to it. But don't take any risk, nothing is certain. This is lirri'a...]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 428F3B0587D114AF
+TEXT_INTRO_NEWBIE_4 (player p)
+{
+		text_intro_newbie_4	[This minaret seems to work properly, as the reborn system associated to it. But don't take any risk, nothing is certain. This is lirri'a...]
+
+}
+
+// DIFF CHANGED 2270
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_5 (player p)
+	{
+			text_intro_newbie_5	[&bbl&Si tu as des questions? Je te conseille de trouver Caet, l'infirmière.\n
+				Elle doit être quelque part par là? ]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_5 (player p)
+	{
+			text_intro_newbie_5	[&bbl&If you have any questions... You should go and find Caet, the nurse.\n
+				She should be around… ]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 208AB3D4121E848A
+TEXT_INTRO_NEWBIE_5 (player p)
+{
+		text_intro_newbie_5	[If you have any questions... You should go and find Caet, the nurse.\n
+				She should be around…]
+
+}
+
+// DIFF CHANGED 2283
+/* OLD VALUE : [
+	WELCOME_RA_1 ()
+	{
+			welcome_ra_1	[&bbl&Méfiez-vous des expérimentations d'Osquallo et Deed, certaines sont mortelles..]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_1 ()
+	{
+			welcome_ra_1	[&bbl&Beware of Osquallo and Deed tests, some of them are deadly...]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE FC3A5FCAB261A937
+WELCOME_RA_1 ()
+{
+		welcome_ra_1	[Beware of Osquallo and Deed tests, some of them are deadly...]
+
+}
+
+// DIFF CHANGED 2284
+/* OLD VALUE : [
+	WELCOME_RA_2 ()
+	{
+			welcome_ra_2	[&bbl&Attention au fouet de Zat !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_2 ()
+	{
+			welcome_ra_2	[&bbl&Beware Zatalyz's whip!]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE F4EC04DCA6C757F7
+WELCOME_RA_2 ()
+{
+		welcome_ra_2	[Beware Zatalyz's whip!]
+
+}
+
+// DIFF CHANGED 2285
+/* OLD VALUE : [
+	WELCOME_RA_3 ()
+	{
+			welcome_ra_3	[&bbl&Avez-vous goûté le thé de Lyne ?]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_3 ()
+	{
+			welcome_ra_3	[&bbl&Have you tasted Lyne's tea?]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE F15300E7CBE823F4
+WELCOME_RA_3 ()
+{
+		welcome_ra_3	[Have you tasted Lyne's tea?]
+
+}
+
+// DIFF CHANGED 2286
+/* OLD VALUE : [
+	WELCOME_RA_4 ()
+	{
+			welcome_ra_4	[&bbl&Donnez-moi une tarte aux klums ou je fais un malheur !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_4 ()
+	{
+			welcome_ra_4	[&bbl&Give me a klum pie or I'll break everything!]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE CB14BCA9159F22F3
+WELCOME_RA_4 ()
+{
+		welcome_ra_4	[Give me a klum pie or I'll break everything!]
+
+}
+
+// DIFF CHANGED 2287
+/* OLD VALUE : [
+	WELCOME_RA_5 ()
+	{
+			chiang_5	[&bbl&C'est le lirri'a?]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_5 ()
+	{
+			chiang_5	[&bbl&This is lirri'a…]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 2A087B2CD5A37BB5
+WELCOME_RA_5 ()
+{
+		welcome_ra_5	[This is lirri'a…]
+
+}
+
+// DIFF CHANGED 2288
+/* OLD VALUE : [
+	WELCOME_RA_6 ()
+	{
+			welcome_ra_6	[Seems to me I have seen a scoui running over there…]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_6 ()
+	{
+			welcome_ra_6	[&bbl&Seems to me I have seen a scoui running over there…]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 22CF950484AE84BF
+WELCOME_RA_6 ()
+{
+		welcome_ra_6	[Seems to me I have seen a scoui running over there…]
+
+}
+
+// DIFF CHANGED 2289
+/* OLD VALUE : [
+	WELCOME_RA_7 ()
+	{
+			welcome_ra_7	[&bbl&Et n'oubliez pas de passer le balai en fin de journée.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_7 ()
+	{
+			welcome_ra_7	[&bbl&Don't forget to clean with the broom for the evening.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE C12D8E34CE848CEF
+WELCOME_RA_7 ()
+{
+		welcome_ra_7	[Don't forget to clean with the broom for the evening.]
+
+}
+
+// DIFF CHANGED 2290
+/* OLD VALUE : [
+	WELCOME_RA_8 ()
+	{
+			welcome_ra_8	[&bbl&Gloire à K ! Gloire à K ! Euh, au Khan !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_8 ()
+	{
+			welcome_ra_8	[&bbl& Glory to the K ! Glory to the K ! Ahem, to the Khan !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE A13BB524F8AC5CD5
+WELCOME_RA_8 ()
+{
+		welcome_ra_8	[Glory to the K ! Glory to the K ! Ahem, to the Khan !]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

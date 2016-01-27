@@ -1,0 +1,96 @@
+﻿// DIFF ADD 2109 
+// HASH_VALUE CA2F961E9D0FF1E0
+// INDEX 0
+newbieland_start_mis_desc	[Parlez à uil'i pour savoir où vous avez atterri.]
+
+// DIFF ADD 2110 
+// HASH_VALUE E8A4AF556E29A0F9
+// INDEX 1
+newbieland_start_mis_title	[Premiers pas dans le lirri'a]
+
+// DIFF ADD 2111 
+// HASH_VALUE 2E853C4B003096FC
+// INDEX 2
+newbie_intro	[Parlez à Uil'i]
+
+// DIFF ADD 2119 
+// HASH_VALUE 2E853C4B003096FC
+// INDEX 3
+obj_intro	[Parlez à Uil'i]
+
+// DIFF CHANGED 3716 
+/* OLD VALUE : [&bbl&Nous sommes dans le lirri'a, temps où tout est incertain. La réalité est mouvante, les Brumes changent tout d'un jour à l'autre.
+Avec quelques ra, je tente de maintenir une petite poche de stabilité ici. Autrefois, je travaillais au Dispensaire. Je tente de le faire revivre ici ; nombre d'Oublieux arrivent depuis les poches de Brumes dans la Jungle.] */
+// HASH_VALUE 7B9F2BD320B9E2BC
+// INDEX 4
+text_intro_newbie_3	[Nous sommes dans le lirri'a, temps où tout est incertain. La réalité est mouvante, les Brumes changent tout d'un jour à l'autre.\n
+	Avec quelques ras, je tente de maintenir une petite poche de stabilité ici. Autrefois, je travaillais au Dispensaire. Je tente de le faire revivre ici ; nombre d'Oublieux arrivent depuis les poches de Brumes dans la Jungle.]
+
+// DIFF CHANGED 3717 
+/* OLD VALUE : [&bbl&Ce minaret semble fonctionnel, ainsi que la borne de revif qui lui est associée. Mais ne prend pas de risque pour autant : rien n'est sûr. C'est le lirri'a?] */
+// HASH_VALUE 1E4F25CA001939E5
+// INDEX 5
+text_intro_newbie_4	[Ce minaret semble fonctionnel, ainsi que la borne de revif qui lui est associée. Mais ne prend pas de risque pour autant : rien n'est sûr. C'est le lirri'a…]
+
+// DIFF CHANGED 3718 
+/* OLD VALUE : [&bbl&Si tu as des questions? Je te conseille de trouver Caet, l'infirmière.
+Elle doit être quelque part par là? ] */
+// HASH_VALUE 4B029437A2E96C09
+// INDEX 6
+text_intro_newbie_5	[Si tu as des questions… Je te conseille de trouver Caet, l'infirmière.\n
+	Elle doit être quelque part par là… ]
+
+// DIFF CHANGED 3726 
+/* OLD VALUE : [&bbl&Méfiez-vous des expérimentations d'Osquallo et Deed, certaines sont mortelles..] */
+// HASH_VALUE DB0BF4C8D87F45E1
+// INDEX 7
+welcome_ra_1	[Méfiez-vous des expérimentations d'Osquallo et Deed, certaines sont mortelles..]
+
+// DIFF CHANGED 3727 
+/* OLD VALUE : [&bbl&Attention au fouet de Zat !] */
+// HASH_VALUE 1F71A2882B87BB67
+// INDEX 8
+welcome_ra_2	[Attention au fouet de Zat !]
+
+// DIFF CHANGED 3728 
+/* OLD VALUE : [&bbl&Avez-vous goûté le thé de Lyne ?] */
+// HASH_VALUE F4926E854D98E6FE
+// INDEX 9
+welcome_ra_3	[Avez-vous goûté le thé de Lyne ?]
+
+// DIFF CHANGED 3729 
+/* OLD VALUE : [&bbl&Donnez-moi une tarte aux klums ou je fais un malheur !] */
+// HASH_VALUE 3E496D84E659A2C0
+// INDEX 10
+welcome_ra_4	[Donnez-moi une tarte aux klums ou je fais un malheur !]
+
+// DIFF REMOVED 3730 
+// HASH_VALUE CF20D46D68D1BB13
+// INDEX 11
+chiang_5	[&bbl&C'est le lirri'a…]
+
+// DIFF ADD 3730 
+// HASH_VALUE 2B24DA2E95D0BFCB
+// INDEX 12
+welcome_ra_5	[C'est le lirri'a…]
+
+// DIFF CHANGED 3731 
+/* OLD VALUE : [&bbl&J'ai cru voir passer un scoui?] */
+// HASH_VALUE AD58CF5086B87B1B
+// INDEX 13
+welcome_ra_6	[J'ai cru voir passer un scoui…]
+
+// DIFF CHANGED 3732 
+/* OLD VALUE : [&bbl&Et n'oubliez pas de passer le balai en fin de journée.] */
+// HASH_VALUE F72ED7801C72744B
+// INDEX 14
+welcome_ra_7	[Et n'oubliez pas de passer le balai en fin de journée.]
+
+// DIFF CHANGED 3733 
+/* OLD VALUE : [&bbl&Gloire à K ! Gloire à K ! Euh, au Khan !] */
+// HASH_VALUE 2156A766BB809B3B
+// INDEX 15
+welcome_ra_8	[Gloire à K ! Gloire à K ! Euh, au Khan !]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE
