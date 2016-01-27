@@ -469,97 +469,6 @@ CHARGE_GOT (dyn_string_id id)
 
 }
 
-/* OLD VALUE : [
-	
-	CHIANG_1 ()
-	{
-				[&bbl&The freedom to run the program, for any purpose (freedom 0).]
-	
-	}
-	
-
-] */
-// Clause 0 : identifier changed.
-// HASH_VALUE 796891D2FF0397A8
-CHIANG_1 ()
-{
-		chiang_1	[&bbl&The freedom to run the program, for any purpose (freedom 0).]
-
-}
-
-/* OLD VALUE : [
-	
-	CHIANG_2 ()
-	{
-				[&bbl&The freedom to study how the program works, and change it to make it do what you wish (freedom 1). Access to the source code is a precondition for this.]
-	
-	}
-	
-
-] */
-// Clause 0 : identifier changed.
-// HASH_VALUE CE9F5DA90A1A84FE
-CHIANG_2 ()
-{
-		chiang_2	[&bbl&The freedom to study how the program works, and change it to make it do what you wish (freedom 1). Access to the source code is a precondition for this.]
-
-}
-
-/* OLD VALUE : [
-	
-	CHIANG_3 ()
-	{
-				[&bbl&The freedom to redistribute copies so you can help your neighbor (freedom 2).]
-	
-	}
-	
-
-] */
-// Clause 0 : identifier changed.
-// HASH_VALUE 52CD13AB9A18F20B
-CHIANG_3 ()
-{
-		chiang_3	[&bbl&The freedom to redistribute copies so you can help your neighbor (freedom 2).]
-
-}
-
-/* OLD VALUE : [
-	
-	CHIANG_4 ()
-	{
-				[&bbl&The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.]
-	
-	}
-	
-
-] */
-// Clause 0 : identifier changed.
-// HASH_VALUE 4C944E02F775D491
-CHIANG_4 ()
-{
-		chiang_4	[&bbl&The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.]
-
-}
-
-/* OLD VALUE : [
-	CHIANG_WELCOME ()
-	{
-				[Greetings Freesoftware Fellow,\n
-				I'm the welcomer on this Ryzom Core shard. This server is here to do some test, tweak and hack on the source code. Happy Hacking!]
-	
-	}
-	
-
-] */
-// Clause 0 : identifier changed.
-// HASH_VALUE 5663A8D03DAC6ABA
-CHIANG_WELCOME ()
-{
-		chiang_welcome	[Greetings Freesoftware Fellow,\n
-			I'm the welcomer on this Ryzom Core shard. This server is here to do some test, tweak and hack on the source code. Happy Hacking!]
-
-}
-
 // HASH_VALUE AAB0EDFE15B088FD
 COMBAT_ACTOR_CRITICAL_HIT (entity e)
 {
@@ -23092,6 +23001,53 @@ TEST_damagetype (damagetype d)
 
 }
 
+// HASH_VALUE D968B756A8CA0C98
+TEXT_INTRO_NEWBIE_1 (player p)
+{
+	(p.gender = male) 
+		text_intro_newbie_1	[&bbl&coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+	(p.gender = female) 
+		text_intro_newbie_1	[&bbl&coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+}
+
+// HASH_VALUE AB18544F79AFDE14
+TEXT_INTRO_NEWBIE_2 (player p)
+{
+	(p.gender = male) 
+		text_intro_newbie_2	[&bbl&*Remarque l'air perplexe et reprend*\n
+			Bonjour Oublieux. On m'appelle Uil'i. Sois le bienvenu.]
+
+	(p.gender = female) 
+		text_intro_newbie_2	[&bbl&*Remarque l'air perplexe et reprend*\n
+			Bonjour Oublieuse. On m'appelle Uil'i. Sois la bienvenue.]
+
+}
+
+// HASH_VALUE 1A64AB8E3C8DB647
+TEXT_INTRO_NEWBIE_3 (player p)
+{
+		text_intro_newbie_3	[&bbl&Nous sommes dans le lirri'a, temps où tout est incertain. La réalité est mouvante, les Brumes changent tout d'un jour à l'autre.\n
+			Avec quelques ras, je tente de maintenir une petite poche de stabilité ici. Autrefois, je travaillais au Dispensaire. Je tente de le faire revivre ici ; nombre d'Oublieux arrivent depuis les poches de Brumes dans la Jungle.]
+
+}
+
+// HASH_VALUE BD24A5851CED0D70
+TEXT_INTRO_NEWBIE_4 (player p)
+{
+		text_intro_newbie_4	[&bbl&Ce minaret semble fonctionnel, ainsi que la borne de revif qui lui est associée. Mais ne prend pas de risque pour autant : rien n'est sûr. C'est le lirri'a…]
+
+}
+
+// HASH_VALUE EAE714F2BEBD4094
+TEXT_INTRO_NEWBIE_5 (player p)
+{
+		text_intro_newbie_5	[&bbl&Si tu as des questions… Je te conseille de trouver Caet, l'infirmière.\n
+			Elle doit être quelque part par là… ]
+
+}
+
 // HASH_VALUE E01C8654D93B4D04
 TOO_ENCUMBERED ()
 {
@@ -23186,17 +23142,66 @@ WEAPONS_ONLY_CAN_BEEN_RECHARGED ()
 
 }
 
-// HASH_VALUE 2C740B4DAB9A9E5F
-WELCOME_RYZOM_CORE_DESC ()
+// HASH_VALUE 5CA2437BFCA8CB09
+WELCOME_RA_1 ()
 {
-			[Kill yubo and earn money!]
+		welcome_ra_1	[&bbl&Méfiez-vous des expérimentations d'Osquallo et Deed, certaines sont mortelles..]
 
 }
 
-// HASH_VALUE 5831C8655A767F6D
-WELCOME_RYZOM_CORE_TITLE ()
+// HASH_VALUE 294D3E54BD2B0CD3
+WELCOME_RA_2 ()
 {
-			[Need Money?]
+		welcome_ra_2	[&bbl&Attention au fouet de Zat !]
+
+}
+
+// HASH_VALUE F17C3247571E3B6B
+WELCOME_RA_3 ()
+{
+		welcome_ra_3	[&bbl&Avez-vous goûté le thé de Lyne ?]
+
+}
+
+// HASH_VALUE 147E30AC5A144197
+WELCOME_RA_4 ()
+{
+		welcome_ra_4	[&bbl&Donnez-moi une tarte aux klums ou je fais un malheur !]
+
+}
+
+// HASH_VALUE 5754C46E1A63C35A
+WELCOME_RA_5 ()
+{
+		chiang_5	[&bbl&C'est le lirri'a…]
+
+}
+
+// HASH_VALUE CC015D054571AC4E
+WELCOME_RA_6 ()
+{
+		welcome_ra_6	[&bbl&J'ai cru voir passer un scoui…]
+
+}
+
+// HASH_VALUE 6428208DBD5B6F76
+WELCOME_RA_7 ()
+{
+		welcome_ra_7	[&bbl&Et n'oubliez pas de passer le balai en fin de journée.]
+
+}
+
+// HASH_VALUE 4560B500F7F0301C
+WELCOME_RA_8 ()
+{
+		welcome_ra_8	[&bbl&Gloire à K ! Gloire à K ! Euh, au Khan !]
+
+}
+
+// HASH_VALUE A72969DE18D4549F
+WELCOME_RA_WELCOME ()
+{
+		welcome_ra_welcome	[WELCOME_RA_WELCOME !]
 
 }
 
