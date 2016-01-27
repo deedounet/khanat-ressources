@@ -2,10 +2,6 @@
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
     <ALIAS LAST_GENERATED="0"/>
-    <PROPERTY TYPE="string">
-      <NAME>name</NAME>
-      <STRING></STRING>
-    </PROPERTY>
     <CHILD TYPE="CPrimNode">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -246,6 +242,10 @@
             <NAME>phrase</NAME>
             <STRING>TEXT_INTRO_NEWBIE_1</STRING>
           </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase_yes</NAME>
+            <STRING>ANSWER_WHAT</STRING>
+          </PROPERTY>
         </CHILD>
         <CHILD TYPE="CPrimNode">
           <PROPERTY TYPE="string">
@@ -281,6 +281,42 @@
           <PROPERTY TYPE="string_array">
             <NAME>phrase</NAME>
             <STRING>TEXT_INTRO_NEWBIE_3</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>INTRO_4</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>npc_name</NAME>
+            <STRING>$givervar$</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>TEXT_INTRO_NEWBIE_4</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>INTRO_5</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>npc_name</NAME>
+            <STRING>$givervar$</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>TEXT_INTRO_NEWBIE_5</STRING>
           </PROPERTY>
         </CHILD>
       </CHILD>

@@ -147,7 +147,7 @@
                 <STRING>talk_to : welcome_ra : NEWBIE_INTRO</STRING>
                 <STRING>remove_compass_npc : welcome_ra</STRING>
                 <STRING># INTRO_1</STRING>
-                <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_1 : INTRO_1_resp ANSWER_OK</STRING>
+                <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_1 : INTRO_1_resp ANSWER_WHAT</STRING>
                 <STRING>jump_point : INTRO_1_resp</STRING>
                 <STRING># INTRO_2</STRING>
                 <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_2 : INTRO_2_resp ANSWER_OK</STRING>
@@ -155,6 +155,12 @@
                 <STRING># INTRO_3</STRING>
                 <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_3 : INTRO_3_resp ANSWER_OK</STRING>
                 <STRING>jump_point : INTRO_3_resp</STRING>
+                <STRING># INTRO_4</STRING>
+                <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_4 : INTRO_4_resp ANSWER_OK</STRING>
+                <STRING>jump_point : INTRO_4_resp</STRING>
+                <STRING># INTRO_5</STRING>
+                <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_5 : INTRO_5_resp ANSWER_OK</STRING>
+                <STRING>jump_point : INTRO_5_resp</STRING>
                 <STRING></STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimAlias">

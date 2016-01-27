@@ -161,13 +161,6 @@ ANSWER_SKIP ()
 
 }
 
-// HASH_VALUE 63E83BA969B73095
-ANSWER_WHAT ()
-{
-		answer_what	[Beg your pardon ?]
-
-}
-
 // HASH_VALUE BB33F0D6DF6EA3FF
 AURA_EFFECT_BEGIN (powertype p)
 {

@@ -103,3 +103,8 @@ TEXT_INTRO_NEWBIE_5(player p)
 {
 		text_intro_newbie_5	[Si tu as des questions… Je te conseille de trouver Caet, l'infirmière.\nElle doit être quelque part par là… ]
 }
+
+ANSWER_WHAT ()
+{
+		answer_what	[Pardon ?]
+}
