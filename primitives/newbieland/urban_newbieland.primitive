@@ -294,6 +294,78 @@
                     <STRING>say: WELCOME_RA_4</STRING>
                   </PROPERTY>
                 </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_WELCOME_RA_5</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: WELCOME_RA_5</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_WELCOME_RA_6</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: WELCOME_RA_6</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_WELCOME_RA_7</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: WELCOME_RA_7</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_WELCOME_RA_8</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: WELCOME_RA_8</STRING>
+                  </PROPERTY>
+                </CHILD>
               </CHILD>
             </CHILD>
           </CHILD>
