@@ -14912,117 +14912,121 @@ template_task_visit_place_intro_3_fame_timed	[I need you to find out what's goin
 // INDEX 3328
 template_task_visit_place_intro_3_fame	[I need you to find out what's going on in $op1$, $op2$ and $op3$. If you go there, $f.mda$ $f.member$ will be very grateful to you.]
 
-/* OLD VALUE : [coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e] */
-// HASH_VALUE C58CD08BBE6E91E4
+/* OLD VALUE : [&bbl&coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e] */
+// HASH_VALUE C7FFA5E56DD040D2
 // INDEX 3329
 text_intro_newbie_1_m	[coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+// HASH_VALUE 2F43BB1CC8DDE441
+// INDEX 3330
+text_intro_newbie_1_f	[coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e]
 
 /* OLD VALUE : [&bbl&*Notice the surprise and starts again*
 Hello, Forgotting. My name is Uil'i, welcome.] */
 // HASH_VALUE F51E919159F62833
-// INDEX 3330
+// INDEX 3331
 text_intro_newbie_2	[*Notice the surprise and starts again*\n
 	Hello, Forgotting. My name is Uil'i, welcome.]
 
 /* OLD VALUE : [&bbl&This is lirri'a, a time when nothing is certain. Reality is moving, Fogs change everything in a day.
 With some ra, I try to maintain a small stable area around here. There was a time I was working in the Dispensary. I try to make it alive here again ; some many Forgotting are coming from Fogs in the Jungle.] */
 // HASH_VALUE BBE2E223B067DB57
-// INDEX 3331
+// INDEX 3332
 text_intro_newbie_3	[This is lirri'a, a time when nothing is certain. Reality is moving, Fogs change everything in a day.\n
 	With some ra, I try to maintain a small stable area around here. There was a time I was working in the Dispensary. I try to make it alive here again ; some many Forgotting are coming from Fogs in the Jungle.]
 
 /* OLD VALUE : [&bbl&This minaret seems to work properly, as the reborn system associated to it. But don't take any risk, nothing is certain. This is lirri'a...] */
 // HASH_VALUE 36D62494A6E59669
-// INDEX 3332
+// INDEX 3333
 text_intro_newbie_4	[This minaret seems to work properly, as the reborn system associated to it. But don't take any risk, nothing is certain. This is lirri'a...]
 
 /* OLD VALUE : [&bbl&If you have any questions... You should go and find Caet, the nurse.
 She should be around? ] */
 // HASH_VALUE E0838A02312C9AE0
-// INDEX 3333
+// INDEX 3334
 text_intro_newbie_5	[If you have any questions... You should go and find Caet, the nurse.\n
 	She should be around…]
 
 // HASH_VALUE 2246D66F60E66D1C
-// INDEX 3334
+// INDEX 3335
 too_encumbered	[&CHK& You are too encumbered.]
 
 // HASH_VALUE 99D1E39BF2C94345
-// INDEX 3335
+// INDEX 3336
 toxic_cloud_defender_hit	[&DMG&A toxic cloud hits you for $damage$ points of damage.]
 
 // HASH_VALUE A831EA686A6B0F51
-// INDEX 3336
+// INDEX 3337
 toxic_cloud_spectator_hit	[&SYS&A toxic cloud hits $defender$ for $damage$ damage.]
 
 // HASH_VALUE 8A0F07F107423242
-// INDEX 3337
+// INDEX 3338
 unknown_crafted_item	[&CHK&Item crafted by sentence is unknown by server! Crafting action aborted! Please report this bug with exact sentence used. Thanks!]
 
 // HASH_VALUE 5BF933972CE8035D
-// INDEX 3338
+// INDEX 3339
 weapons_only_can_been_enchanted	[&CHK&Only weapons can be enchanted.]
 
 // HASH_VALUE 5B696797E829035D
-// INDEX 3339
+// INDEX 3340
 weapons_only_can_been_recharged	[&CHK&Only weapons can be recharged.]
 
 /* OLD VALUE : [&bbl&Beware of Osquallo and Deed tests, some of them are deadly..] */
 // HASH_VALUE 20EF5E284D936F2E
-// INDEX 3340
+// INDEX 3341
 welcome_ra_1	[Beware of Osquallo and Deed tests, some of them are deadly...]
 
 /* OLD VALUE : [&bbl&Beware Zatalyz's whip!] */
 // HASH_VALUE 263AC83AE8AE6B7B
-// INDEX 3341
+// INDEX 3342
 welcome_ra_2	[Beware Zatalyz's whip!]
 
 /* OLD VALUE : [&bbl&Have you tasted Lyne's tea?] */
 // HASH_VALUE A056C0198A94201C
-// INDEX 3342
+// INDEX 3343
 welcome_ra_3	[Have you tasted Lyne's tea?]
 
 /* OLD VALUE : [&bbl&Give me a klum pie or I'll break everything!] */
 // HASH_VALUE 88FEB906E14964EB
-// INDEX 3343
+// INDEX 3344
 welcome_ra_4	[Give me a klum pie or I'll break everything!]
 
 // HASH_VALUE F07A8C80429A8212
-// INDEX 3344
+// INDEX 3345
 welcome_ra_5	[This is lirri'a…]
 
 /* OLD VALUE : [&bbl&Seems to me I have seen a scoui running over there?] */
 // HASH_VALUE 4E87A29DA445F419
-// INDEX 3345
+// INDEX 3346
 welcome_ra_6	[Seems to me I have seen a scoui running over there…]
 
 /* OLD VALUE : [&bbl&Don't forget to clean with the broom for the evening.] */
 // HASH_VALUE E8F6DF8DCA3294D8
-// INDEX 3346
+// INDEX 3347
 welcome_ra_7	[Don't forget to clean with the broom for the evening.]
 
 /* OLD VALUE : [&bbl& Glory to the K ! Glory to the K ! Ahem, to the Khan !] */
 // HASH_VALUE 2985E1F322C35C5E
-// INDEX 3347
+// INDEX 3348
 welcome_ra_8	[Glory to the K ! Glory to the K ! Ahem, to the Khan !]
 
 // HASH_VALUE C40F64454F41803D
-// INDEX 3348
+// INDEX 3349
 welcome_ra_welcome	[WELCOME_RA_WELCOME !]
 
 // HASH_VALUE 496EBDD1F11D8F50
-// INDEX 3349
+// INDEX 3350
 whoami_newbguard	[Greetings, young homin. If you get into bother come and find me and I shall rally to your defense.]
 
 // HASH_VALUE CE8BE46335B21A8A
-// INDEX 3350
+// INDEX 3351
 whoami_newbmerchant_weapon	[Greetings, young newcomer ! I sell a terrific selection of hand weapons. You'll need a weapon to fight the dangerous animals roaming the area!]
 
 // HASH_VALUE 3B4820734E6A4BC5
-// INDEX 3351
+// INDEX 3352
 you_not_have_loot_right	[&CHK&You haven't the right to loot this carcass for the moment. ]
 
 // HASH_VALUE 0A6F00E7DAEA2ECB
-// INDEX 3352
+// INDEX 3353
 you_not_have_quarter_right	[&CHK&You haven't the right to quarter this carcass for the moment.]
 

@@ -22677,25 +22677,22 @@ TEST_damagetype (damagetype d)
 }
 
 /* OLD VALUE : [
-	
 	TEXT_INTRO_NEWBIE_1 (player p)
 	{
 		(p.gender = male) 
-			text_intro_newbie_1_m	[coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+			text_intro_newbie_1_m	[&bbl&coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
 	
 		(p.gender = female) 
-			text_intro_newbie_1_f	[coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+			text_intro_newbie_1_f	[&bbl&coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
 	
 	}
 	
 
 ] */
-// Parameter list changed.
-// Clause 0 : condition changed.
-// Clause 1 : condition changed.
+// Clause 0 : text changed.
+// Clause 1 : text changed.
 /* OLD VALUE : [
 	
-	
 	TEXT_INTRO_NEWBIE_1 (player p)
 	{
 		(p.gender = male) 
@@ -22708,37 +22705,36 @@ TEST_damagetype (damagetype d)
 	
 
 ] */
-// Parameter list changed.
-// Clause 0 : condition changed.
-// Clause 1 : condition changed.
-// HASH_VALUE 1B3338BB4523DF87
-TEXT_INTRO_NEWBIE_1 ()
+// WARNING : Hash code changed ! check translation workflow.
+// HASH_VALUE 8F6970B22FA1CC3F
+TEXT_INTRO_NEWBIE_1 (player p)
 {
-		text_intro_newbie_1_m	[coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e]
+	(p.gender = male) 
+		text_intro_newbie_1_m	[coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+	(p.gender = female) 
+		text_intro_newbie_1_f	[coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
 
 }
 
 /* OLD VALUE : [
-	
 	TEXT_INTRO_NEWBIE_2 (player p)
 	{
 		(p.gender = male) 
-			text_intro_newbie_2_m	[*Remarque l'air perplexe et reprend*\n
+			text_intro_newbie_2_m	[&bbl&*Remarque l'air perplexe et reprend*\n
 				Bonjour Oublieux. On m'appelle Uil'i. Sois le bienvenu.]
 	
 		(p.gender = female) 
-			text_intro_newbie_2_f	[*Remarque l'air perplexe et reprend*\n
+			text_intro_newbie_2_f	[&bbl&*Remarque l'air perplexe et reprend*\n
 				Bonjour Oublieuse. On m'appelle Uil'i. Sois la bienvenue.]
 	
 	}
 	
 
 ] */
-// Parameter list changed.
-// Clause 0 : condition changed.
-// Clause 1 : condition changed.
+// Clause 0 : text changed.
+// Clause 1 : text changed.
 /* OLD VALUE : [
-	
 	
 	TEXT_INTRO_NEWBIE_2 (player p)
 	{
@@ -22749,10 +22745,9 @@ TEXT_INTRO_NEWBIE_1 ()
 	
 
 ] */
-// Parameter list changed.
 // Clause list changed.
-// HASH_VALUE EDE3D5B49608B101
-TEXT_INTRO_NEWBIE_2 ()
+// HASH_VALUE 08C3B5B68EB03DEB
+TEXT_INTRO_NEWBIE_2 (player p)
 {
 		text_intro_newbie_2	[*Notice the surprise and starts again*\n
 			Hello, Forgotting. My name is Uil'i, welcome.]
