@@ -9552,35 +9552,49 @@ uiSelInfos	[INFORMATION\n
 	\n
 	If there is no empty slot available then you have to delete an existing character to create a new one.]
 
-// HASH_VALUE 96B4BE683E9FBC7F
+/* OLD VALUE : [FYROS: WARRIORS OF FIRE AND MASTERS OF THE BURNING DESERT
+The Fyros are the warrior race.
+Their society rests on a strict code of honor and a common goal: the quest for the Great Dragon who has devastated entire regions of the planet.] */
+/* OLD VALUE : [FYROS: WARRIORS OF FIRE AND MASTERS OF THE BURNING DESERT
+The Fyros are the warrior race.
+Their society rests on a strict code of honor and a common goal: the quest for the Great Dragon who has devastated entire regions of the planet.] */
+// HASH_VALUE 0000000000000000
 // INDEX 2315
-uiCultFy	[FYROS: WARRIORS OF FIRE AND MASTERS OF THE BURNING DESERT\n
-	\n
-	The Fyros are the warrior race.\n
-	Their society rests on a strict code of honor and a common goal: the quest for the Great Dragon who has devastated entire regions of the planet.]
+uiCultFy	[]
 
-// HASH_VALUE BC0096C8B2D65820
+/* OLD VALUE : [MATIS: MASTER MANIPULATORS OF NATURE, AND LORDS OF THE LUSH FORESTS
+The Matis are a romantic and domineering people.
+They are obsessed with genetic mutations which are a marvel to behold.
+They seek to rebuild their lost Kingdom, but their own intrigues consume all their energy as each family vies for the crown.] */
+/* OLD VALUE : [MATIS: MASTER MANIPULATORS OF NATURE, AND LORDS OF THE LUSH FORESTS
+The Matis are a romantic and domineering people.
+They are obsessed with genetic mutations which are a marvel to behold.
+They seek to rebuild their lost Kingdom, but their own intrigues consume all their energy as each family vies for the crown.] */
+// HASH_VALUE 0000000000000000
 // INDEX 2316
-uiCultMa	[MATIS: MASTER MANIPULATORS OF NATURE, AND LORDS OF THE LUSH FORESTS\n
-	\n
-	The Matis are a romantic and domineering people.\n
-	They are obsessed with genetic mutations which are a marvel to behold.\n
-	They seek to rebuild their lost Kingdom, but their own intrigues consume all their energy as each family vies for the crown.]
+uiCultMa	[]
 
-// HASH_VALUE 398BC3117F65DC3B
+/* OLD VALUE : [TRYKER: FRIENDS TO THE WINDS AND CURRENTS, PRINCES OF THE LAKE LANDS
+The Trykers are wily hedonists forming a federation more than a single people.
+They live as free Homins.
+The other races see them as nothing more than wayward brigands. ] */
+/* OLD VALUE : [TRYKER: FRIENDS TO THE WINDS AND CURRENTS, PRINCES OF THE LAKE LANDS
+The Trykers are wily hedonists forming a federation more than a single people.
+They live as free Homins.
+The other races see them as nothing more than wayward brigands. ] */
+// HASH_VALUE 0000000000000000
 // INDEX 2317
-uiCultTr	[TRYKER: FRIENDS TO THE WINDS AND CURRENTS, PRINCES OF THE LAKE LANDS\n
-	\n
-	The Trykers are wily hedonists forming a federation more than a single people.\n
-	They live as free Homins.\n
-	The other races see them as nothing more than wayward brigands. ]
+uiCultTr	[]
 
-// HASH_VALUE 9C0D270C7B8F2D69
+/* OLD VALUE : [ZORAÏ: MAGICIANS OF THE JUNGLES OF THE SICKLANDS
+The Zoraïs are the mystics of Atys.
+They have passed master in the manipulation of magnetic fields which they use in the fabrication of weaponry and buildings.] */
+/* OLD VALUE : [ZORAÏ: MAGICIANS OF THE JUNGLES OF THE SICKLANDS
+The Zoraïs are the mystics of Atys.
+They have passed master in the manipulation of magnetic fields which they use in the fabrication of weaponry and buildings.] */
+// HASH_VALUE 0000000000000000
 // INDEX 2318
-uiCultZo	[ZORAÏ: MAGICIANS OF THE JUNGLES OF THE SICKLANDS\n
-	\n
-	The Zoraïs are the mystics of Atys.\n
-	They have passed master in the manipulation of magnetic fields which they use in the fabrication of weaponry and buildings.]
+uiCultZo	[]
 
 // HASH_VALUE 0000000000000000
 // INDEX 2319
@@ -9621,53 +9635,77 @@ uiExplM	[MAGICIAN EXPLANATIONS]
 // INDEX 2326
 uiExplR	[RANGER EXPLANATIONS]
 
-// HASH_VALUE CA0FF03289D11630
+/* OLD VALUE : [FYROS WARRIOR: THE BERSERKER] */
+/* OLD VALUE : [FYROS WARRIOR: THE BERSERKER] */
+// HASH_VALUE 0000000000000000
 // INDEX 2327
-uiMoreFFy	[FYROS WARRIOR: THE BERSERKER]
+uiMoreFFy	[]
 
-// HASH_VALUE 43E2743B9051DF2C
+/* OLD VALUE : [MATISIAN WARRIOR: THE SWORD-BEARER] */
+/* OLD VALUE : [MATISIAN WARRIOR: THE SWORD-BEARER] */
+// HASH_VALUE 0000000000000000
 // INDEX 2328
-uiMoreFMa	[MATISIAN WARRIOR: THE SWORD-BEARER]
+uiMoreFMa	[]
 
-// HASH_VALUE FC63BC31450D2032
+/* OLD VALUE : [TRYKER WARRIOR: THE SWASHBUCKLER] */
+/* OLD VALUE : [TRYKER WARRIOR: THE SWASHBUCKLER] */
+// HASH_VALUE 0000000000000000
 // INDEX 2329
-uiMoreFTr	[TRYKER WARRIOR: THE SWASHBUCKLER]
+uiMoreFTr	[]
 
-// HASH_VALUE 87412441CB0DC082
+/* OLD VALUE : [ZORAÏ WARRIOR: KAMIC FIST] */
+/* OLD VALUE : [ZORAÏ WARRIOR: KAMIC FIST] */
+// HASH_VALUE 0000000000000000
 // INDEX 2330
-uiMoreFZo	[ZORAÏ WARRIOR: KAMIC FIST]
+uiMoreFZo	[]
 
-// HASH_VALUE 7EF2EC3680310F29
+/* OLD VALUE : [FYROS MAGICIAN: THE CORRUPTER] */
+/* OLD VALUE : [FYROS MAGICIAN: THE CORRUPTER] */
+// HASH_VALUE 0000000000000000
 // INDEX 2331
-uiMoreMFy	[FYROS MAGICIAN: THE CORRUPTER]
+uiMoreMFy	[]
 
-// HASH_VALUE 8AA06F000C8E5C30
+/* OLD VALUE : [MATISIAN MAGICIAN: THE PESTILENT] */
+/* OLD VALUE : [MATISIAN MAGICIAN: THE PESTILENT] */
+// HASH_VALUE 0000000000000000
 // INDEX 2332
-uiMoreMMa	[MATISIAN MAGICIAN: THE PESTILENT]
+uiMoreMMa	[]
 
-// HASH_VALUE C6D16B4BC53EA0F5
+/* OLD VALUE : [TRYKER MAGICIAN: THE MIND-BOGGLER] */
+/* OLD VALUE : [TRYKER MAGICIAN: THE MIND-BOGGLER] */
+// HASH_VALUE 0000000000000000
 // INDEX 2333
-uiMoreMTr	[TRYKER MAGICIAN: THE MIND-BOGGLER]
+uiMoreMTr	[]
 
-// HASH_VALUE FF1103387DF023AD
+/* OLD VALUE : [ZORAÏ MAGICIAN: THE KAMIC FURY] */
+/* OLD VALUE : [ZORAÏ MAGICIAN: THE KAMIC FURY] */
+// HASH_VALUE 0000000000000000
 // INDEX 2334
-uiMoreMZo	[ZORAÏ MAGICIAN: THE KAMIC FURY]
+uiMoreMZo	[]
 
-// HASH_VALUE 8C32822D47829A1C
+/* OLD VALUE : [FYROS RANGER: THE SCARLET HUNTER] */
+/* OLD VALUE : [FYROS RANGER: THE SCARLET HUNTER] */
+// HASH_VALUE 0000000000000000
 // INDEX 2335
-uiMoreRFy	[FYROS RANGER: THE SCARLET HUNTER]
+uiMoreRFy	[]
 
-// HASH_VALUE 48DFD824C3A3900F
+/* OLD VALUE : [MATISIAN RANGER: THE GREEN HUNTER] */
+/* OLD VALUE : [MATISIAN RANGER: THE GREEN HUNTER] */
+// HASH_VALUE 0000000000000000
 // INDEX 2336
-uiMoreRMa	[MATISIAN RANGER: THE GREEN HUNTER]
+uiMoreRMa	[]
 
-// HASH_VALUE 4C8F1734109C872D
+/* OLD VALUE : [TRYKER RANGER: THE SHADOW HUNTER] */
+/* OLD VALUE : [TRYKER RANGER: THE SHADOW HUNTER] */
+// HASH_VALUE 0000000000000000
 // INDEX 2337
-uiMoreRTr	[TRYKER RANGER: THE SHADOW HUNTER]
+uiMoreRTr	[]
 
-// HASH_VALUE 0CEF6087C9C2C990
+/* OLD VALUE : [ZORAÏ RANGER: THE GUARDIAN OF ATYS] */
+/* OLD VALUE : [ZORAÏ RANGER: THE GUARDIAN OF ATYS] */
+// HASH_VALUE 0000000000000000
 // INDEX 2338
-uiMoreRZo	[ZORAÏ RANGER: THE GUARDIAN OF ATYS]
+uiMoreRZo	[]
 
 // HASH_VALUE 09F2BC313A8EC7F3
 // INDEX 2339
@@ -15472,11 +15510,15 @@ uimwEncyclopedia	[ENCYCLOPEDIA]
 // INDEX 3685
 uiEncyclopedia	[Encyclopedia]
 
-// HASH_VALUE FF9B8EFABAB9AE4C
+/* OLD VALUE : [This is your encyclopedia.
+This window is used for showing the collection of knowledge you have found on Atys. The amber cube corresponds to a theme. Themes are grouped in albums.] */
+/* OLD VALUE : [This is your encyclopedia.
+This window is used for showing the collection of knowledge you have found on Atys. The amber cube corresponds to a theme. Themes are grouped in albums.] */
+// HASH_VALUE E2870E8CDFB7E1D3
 // INDEX 3686
 uiEncyExplanation	[This is your encyclopedia.\n
 	\n
-	This window is used for showing the collection of knowledge you have found on Atys. The amber cube corresponds to a theme. Themes are grouped in albums.]
+	This window is used for showing the collection of knowledge you have found. The amber cube corresponds to a theme. Themes are grouped in albums.]
 
 // HASH_VALUE 1C09E47B1F4AB09D
 // INDEX 3687
@@ -17303,13 +17345,17 @@ uiMk_system8	[Patcher]
 // INDEX 4100
 uiMk_system7	[Quit]
 
-// HASH_VALUE 5090A496A01A34C6
+/* OLD VALUE : [Welcome to Atys!] */
+/* OLD VALUE : [Welcome to Atys!] */
+// HASH_VALUE DE8456A413B8F463
 // INDEX 4101
-uiWelcomeTitle	[Welcome to Atys!]
+uiWelcomeTitle	[Welcome to Khanat!]
 
-// HASH_VALUE 95B8AD31272E46B1
+/* OLD VALUE : [The ever evolving organic planet like a gigantic plant basking in the light of its pulsating sun.] */
+/* OLD VALUE : [The ever evolving organic planet like a gigantic plant basking in the light of its pulsating sun.] */
+// HASH_VALUE 0000000000000000
 // INDEX 4102
-uiWelcomeIntro	[The ever evolving organic planet like a gigantic plant basking in the light of its pulsating sun.]
+uiWelcomeIntro	[]
 
 // HASH_VALUE 649CF434649CF434
 // INDEX 4103
@@ -17331,9 +17377,11 @@ uiWelcomeWhat	[Follow the directions in your mission journal situated on the lef
 // INDEX 4107
 uiWelcomeCSTitle	[Contact Customer Support]
 
-// HASH_VALUE 30A940ADFDED2392
+/* OLD VALUE : [A dedicated team of customer support representatives (CSRs) keep a watchful eye over Atys day and night. They can be contacted by clicking the 'HELP' button (question mark) from the button menu (at the bottom right hand side of the screen by default), then clicking 'SUPPORT'.] */
+/* OLD VALUE : [A dedicated team of customer support representatives (CSRs) keep a watchful eye over Atys day and night. They can be contacted by clicking the 'HELP' button (question mark) from the button menu (at the bottom right hand side of the screen by default), then clicking 'SUPPORT'.] */
+// HASH_VALUE 92B24F4135DE05D2
 // INDEX 4108
-uiWelcomeCS	[A dedicated team of customer support representatives (CSRs) keep a watchful eye over Atys day and night. They can be contacted by clicking the 'HELP' button (question mark) from the button menu (at the bottom right hand side of the screen by default), then clicking 'SUPPORT'.]
+uiWelcomeCS	[A dedicated team of customer support representatives (CSRs) keep a watchful eye over Khanat day and night. They can be contacted by clicking the 'HELP' button (question mark) from the button menu (at the bottom right hand side of the screen by default), then clicking 'SUPPORT'.]
 
 // HASH_VALUE 8A5B635E743C1F8E
 // INDEX 4109
@@ -18887,10 +18935,14 @@ uiR2EdPropertyToolTip_LoadScenario_LoadScenario_Level	[@{6F6F}Difficulty\n
 uiR2EdPropertyToolTip_LoadScenario_LoadScenario_Language	[@{6F6F}Language\n
 	@{FFFF} The language of the scenario, as declared by the scenario author]
 
-// HASH_VALUE 66CEF50ED8DC276E
+/* OLD VALUE : [@{6F6F}Requirements
+@{FFFF} Indicates wether you are permitted to load this scenario. One is only permitted to load scenarios that contain content that one has access to. One gains access to additional content by exploring the mainlands of Atys.] */
+/* OLD VALUE : [@{6F6F}Requirements
+@{FFFF} Indicates wether you are permitted to load this scenario. One is only permitted to load scenarios that contain content that one has access to. One gains access to additional content by exploring the mainlands of Atys.] */
+// HASH_VALUE 254DC518D8BEF8A1
 // INDEX 4464
 uiR2EdPropertyToolTip_LoadScenario_LoadScenario_RingPointsLevel	[@{6F6F}Requirements\n
-	@{FFFF} Indicates wether you are permitted to load this scenario. One is only permitted to load scenarios that contain content that one has access to. One gains access to additional content by exploring the mainlands of Atys.]
+	@{FFFF} Indicates wether you are permitted to load this scenario. One is only permitted to load scenarios that contain content that one has access to. One gains access to additional content by exploring the mainlands of Khanat.]
 
 // HASH_VALUE 2F284F3398091766
 // INDEX 4465
@@ -19014,13 +19066,17 @@ uiR2EDProp_LoadScenario_RRPTotal	[Khanat Ring Points]
 // INDEX 4489
 uiR2EDLoadScenario_InvalidFileName	[Invalid file name]
 
-// HASH_VALUE E082DD6A29896311
+/* OLD VALUE : [You have sufficient knowledge of Atys] */
+/* OLD VALUE : [You have sufficient knowledge of Atys] */
+// HASH_VALUE DAC1056A29D0E80C
 // INDEX 4490
-uiR2EDLoadScenario_Yes	[You have sufficient knowledge of Atys]
+uiR2EDLoadScenario_Yes	[You have sufficient knowledge of Khanat]
 
-// HASH_VALUE 18577D9A4E0EA0E9
+/* OLD VALUE : [You have INSUFFICIENT knowledge of Atys] */
+/* OLD VALUE : [You have INSUFFICIENT knowledge of Atys] */
+// HASH_VALUE 9A577D0EA6BD40DD
 // INDEX 4491
-uiR2EDLoadScenario_No	[You have INSUFFICIENT knowledge of Atys]
+uiR2EDLoadScenario_No	[You have INSUFFICIENT knowledge of Khanat]
 
 // HASH_VALUE AAC8204867A84443
 // INDEX 4492
@@ -19050,9 +19106,11 @@ uiR2EDBasicSkills	[Stats]
 // INDEX 4498
 uiR2EDRingSkills	[Advanced Stats]
 
-// HASH_VALUE 0CCEFB2A4DF1CB09
+/* OLD VALUE : [KNOWLEDGE OF ATYS] */
+/* OLD VALUE : [KNOWLEDGE OF ATYS] */
+// HASH_VALUE 89A1CF233CA1BCDA
 // INDEX 4499
-uiR2EDEcosystemPointsTitle	[KNOWLEDGE OF ATYS]
+uiR2EDEcosystemPointsTitle	[KNOWLEDGE OF KHANAT]
 
 // HASH_VALUE 6879AC7F1E76E886
 // INDEX 4500
@@ -19584,10 +19642,11 @@ uiBGD_NotUsed	[Not used]
 // INDEX 4620
 uiBGD_ShutdownFailed	[Failed to shutdown the Khanat Downloader, you may need to restart your computer to solve the problem]
 
-/* OLD VALUE : [Access to the Atys mainland and Ryzom Core Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.] */
-// HASH_VALUE DE9F40831A2B2123
+/* OLD VALUE : [Access to the Atys mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.] */
+/* OLD VALUE : [Access to the Atys mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.] */
+// HASH_VALUE 91841BAD00B75925
 // INDEX 4621
-uiBGD_InGamePatchIncomplete	[Access to the Atys mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.]
+uiBGD_InGamePatchIncomplete	[Access to the Khanat mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.]
 
 // HASH_VALUE 40DA4DB418F59CA7
 // INDEX 4622
@@ -19689,13 +19748,16 @@ uiBGD_Torrent	[Torrent Mode]
 // INDEX 4643
 uiBGD_InstallCongrat	[Congratulations!]
 
-/* OLD VALUE : [Ryzom Core has been successfully installed.
+/* OLD VALUE : [Khanat has been successfully installed.
 We wish you great adventures on Atys!
 ] */
-// HASH_VALUE 3A36E5029E8F7937
+/* OLD VALUE : [Khanat has been successfully installed.
+We wish you great adventures on Atys!
+] */
+// HASH_VALUE E807869639A5DA61
 // INDEX 4644
 uiBGD_CongratSuccessfullInstall	[Khanat has been successfully installed.\n
-	We wish you great adventures on Atys!\n
+	We wish you great adventures in the Khanat!\n
 	]
 
 /* OLD VALUE : [Start Ryzom Core now] */
@@ -19973,11 +20035,17 @@ uiUnsupportedNewColorDepth	[The new desktop color depth is not supported by Khan
 // INDEX 4705
 uiDeathWarningTitle	[Coma and Death]
 
-// HASH_VALUE F1CFD5856D03AB08
+/* OLD VALUE : [You are in a coma.
+The timer shows your life energy ebbing away. When it runs critically low the Divinities of Atys will resuscitate you at the point highlighted on the map.
+You may be healed by other players in order to avoid incurring the penalties associated with death, or press the RESPAWN button to call on the divinities immediately.] */
+/* OLD VALUE : [You are in a coma.
+The timer shows your life energy ebbing away. When it runs critically low the Divinities of Atys will resuscitate you at the point highlighted on the map.
+You may be healed by other players in order to avoid incurring the penalties associated with death, or press the RESPAWN button to call on the divinities immediately.] */
+// HASH_VALUE EB0D163D6E4DEA31
 // INDEX 4706
 uiDeathWarningContent	[You are in a coma.\n
 	\n
-	The timer shows your life energy ebbing away. When it runs critically low the Divinities of Atys will resuscitate you at the point highlighted on the map.\n
+	The timer shows your life energy ebbing away. When it runs critically low you should be resuscitated you at the point highlighted on the map.\n
 	\n
 	You may be healed by other players in order to avoid incurring the penalties associated with death, or press the RESPAWN button to call on the divinities immediately.]
 
@@ -20009,9 +20077,15 @@ uiCommandNotExists	[Unknown command.]
 // INDEX 4713
 uiNightWarningTitle	[Night]
 
-// HASH_VALUE A8629F1C9812A43B
+/* OLD VALUE : [It is night on Atys.
+You can illuminate your surroundings by pressing 'L' (by default) on your keyboard.
+] */
+/* OLD VALUE : [It is night on Atys.
+You can illuminate your surroundings by pressing 'L' (by default) on your keyboard.
+] */
+// HASH_VALUE A02BBAA84810EBCC
 // INDEX 4714
-uiNightWarningContent	[It is night on Atys.\n
+uiNightWarningContent	[It is night.\n
 	\n
 	You can illuminate your surroundings by pressing 'L' (by default) on your keyboard.\n
 	]
@@ -20495,4 +20569,24 @@ uiEonSymbiose	[The Symbiosis Eon]
 // HASH_VALUE 6DF6CC58EC94FC6E
 // INDEX 4832
 uiContinentNewbieland	[Khanat]
+
+// HASH_VALUE 2689648C61373089
+// INDEX 4833
+uiCP_Specie_Race1	[Ucikara]
+
+// HASH_VALUE 24B8E88AE1A72C88
+// INDEX 4834
+uiCP_Specie_Race2	[Tcara]
+
+// HASH_VALUE 60184B8E2983BC5D
+// INDEX 4835
+uiCP_Name_Generator	[Random name]
+
+// HASH_VALUE 9E74877558D36016
+// INDEX 4836
+uiCP_Name_Generate	[Pick a name]
+
+// HASH_VALUE 7018E434C27A2C9C
+// INDEX 4837
+FACTION_EN	[English Universe]
 

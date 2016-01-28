@@ -161,7 +161,6 @@
                 <STRING># INTRO_5</STRING>
                 <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_5 : INTRO_5_resp ANSWER_OK</STRING>
                 <STRING>jump_point : INTRO_5_resp</STRING>
-                <STRING></STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimAlias">
                 <ALIAS VALUE="1260"/>

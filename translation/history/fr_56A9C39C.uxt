@@ -20448,23 +20448,3 @@ uiEonSymbiose	[L'Éon de la Symbiose]
 // INDEX 4832
 uiContinentNewbieland	[Khanat]
 
-// HASH_VALUE 2689648C61373089
-// INDEX 4833
-uiCP_Specie_Race1	[Ucikara]
-
-// HASH_VALUE 24B8E88AE1A72C88
-// INDEX 4834
-uiCP_Specie_Race2	[Tcara]
-
-// HASH_VALUE 60184B8E2983BC5D
-// INDEX 4835
-uiCP_Name_Generator	[Nom aléatoire]
-
-// HASH_VALUE 9E74877558D36016
-// INDEX 4836
-uiCP_Name_Generate	[Générer un nom]
-
-// HASH_VALUE 7018E434C27A2C9C
-// INDEX 4837
-FACTION_EN	[Univers Anglais]
-
