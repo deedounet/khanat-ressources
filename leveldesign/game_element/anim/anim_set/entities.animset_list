@@ -5,6 +5,7 @@
       <ATOM Name="fy_hof" Value="fy_hof.animset_mode"/>
       <ATOM Name="fy_hom" Value="fy_hom.animset_mode"/>
       <ATOM Name="dag" Value="dag.animset_mode"/>
+      <ATOM Name="arma" Value="arma.animset_mode"/>
     </ARRAY>
   </STRUCT>
   <STRUCT/>
