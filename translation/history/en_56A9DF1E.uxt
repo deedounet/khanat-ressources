@@ -15490,11 +15490,9 @@ uiPhraseWRHeader	[Usable Only with: ]
 // INDEX 3680
 uiPhraseWRSeparator	[, ]
 
-/* OLD VALUE : [End User Licence Agreement] */
-/* OLD VALUE : [End User Licence Agreement] */
-// HASH_VALUE D8548329E6759C81
+// HASH_VALUE 17A6C0F32AB79B83
 // INDEX 3681
-uiEula	[Khaganat Charter]
+uiEula	[End User Licence Agreement]
 
 // HASH_VALUE D9C7AB2299FF10CB
 // INDEX 3682
