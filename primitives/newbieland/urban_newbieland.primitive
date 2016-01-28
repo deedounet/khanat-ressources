@@ -529,6 +529,10 @@
         <PT X="8831.561523" Y="-10618.916992" Z="0.000000"/>
         <PT X="8828.810547" Y="-10622.216797" Z="0.000000"/>
         <PROPERTY TYPE="string">
+          <NAME>ai_movement</NAME>
+          <STRING>wander</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
           <NAME>class</NAME>
           <STRING>npc_zone</STRING>
         </PROPERTY>
