@@ -14,6 +14,14 @@
     <STRUCT Name="run">
       <ATOM Name="LodCharacterAnimation" Value="FY_HOF_A_course.anim"/>
     </STRUCT>
+    <STRUCT>
+          <STRUCT Name="drunk">
+          <ATOM Name="LodCharacterAnimation" Value="fy_hof_emote_drunk.anim"/>
+        </STRUCT>
+   <STRUCT>
+          <STRUCT Name="alert">
+          <ATOM Name="LodCharacterAnimation" Value="fy_hof_emote_alert.anim"/>
+        </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

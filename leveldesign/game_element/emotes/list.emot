@@ -2,6 +2,117 @@
 <FORM Revision="" State="modified">
   <STRUCT>
     <ARRAY Name="emot_list">
+      <ATOM Value="afk"/>
+      <ATOM Value="agree"/>
+      <ATOM Value="alert"/>
+      <ATOM Value="angry"/>
+      <ATOM Value="apologize"/>
+      <ATOM Value="applaud"/>
+      <ATOM Value="ashamed_disgusted_desillusioned_loathing_pitying"/>
+      <ATOM Value="blush"/>
+      <ATOM Value="bow"/>
+      <ATOM Value="brave_great"/>
+      <ATOM Value="burp"/>
+      <ATOM Value="bye"/>
+      <ATOM Value="calm"/>
+      <ATOM Value="cheer"/>
+      <ATOM Value="cold_contemptuous_disdainful_haughty_megalomaniac_obnoxious"/>
+      <ATOM Value="cry"/>
+      <ATOM Value="curious"/>
+      <ATOM Value="dance"/>
+      <ATOM Value="disagree"/>
+      <ATOM Value="discreet_hardsilence"/>
+      <ATOM Value="doubtful"/>
+      <ATOM Value="dramatic"/>
+      <ATOM Value="drunk"/>
+      <ATOM Value="exercise"/>
+      <ATOM Value="fearful_insecure_nervous_panic_scared"/>
+      <ATOM Value="FBT"/>
+      <ATOM Value="firm"/>
+      <ATOM Value="follow"/>
+      <ATOM Value="forgive"/>
+      <ATOM Value="gesture"/>
+      <ATOM Value="giggle"/>
+      <ATOM Value="go_away"/>
+      <ATOM Value="guilty"/>
+      <ATOM Value="heroic"/>
+      <ATOM Value="hungry"/>
+      <ATOM Value="impatient"/>
+      <ATOM Value="indifferent_neutral_noclue_resigned"/>
+      <ATOM Value="interested"/>
+      <ATOM Value="kiss"/>
+      <ATOM Value="kneel"/>
+      <ATOM Value="laugh"/>
+      <ATOM Value="lol"/>
+      <ATOM Value="none"/>
+      <ATOM Value="over"/>
+      <ATOM Value="petulant"/>
+      <ATOM Value="playful"/>
+      <ATOM Value="point"/>
+      <ATOM Value="pointback"/>
+      <ATOM Value="pointleft"/>
+      <ATOM Value="pointright"/>
+      <ATOM Value="pompous"/>
+      <ATOM Value="praying"/>
+      <ATOM Value="puzzled_thoughtful_troubled"/>
+      <ATOM Value="relaxed"/>
+      <ATOM Value="relieved_sigh"/>
+      <ATOM Value="revengeful_spitful"/>
+      <ATOM Value="rice"/>
+      <ATOM Value="righteous"/>
+      <ATOM Value="roar"/>
+      <ATOM Value="sad"/>
+      <ATOM Value="serious"/>
+      <ATOM Value="shifty"/>
+      <ATOM Value="shocked"/>
+      <ATOM Value="silly"/>
+      <ATOM Value="sincerely"/>
+      <ATOM Value="sleepy_yawn_tired"/>
+      <ATOM Value="smack"/>
+      <ATOM Value="smile"/>
+      <ATOM Value="squeamish"/>
+      <ATOM Value="surprised"/>
+      <ATOM Value="suspicious"/>
+      <ATOM Value="thank"/>
+      <ATOM Value="thirsty"/>
+      <ATOM Value="unhappy"/>
+      <ATOM Value="unwilling"/>
+      <ATOM Value="victory"/>
+      <ATOM Value="wait"/>
+      <ATOM Value="wave"/>
+      <ATOM Value="wicked"/>
+      <ATOM Value="youandme"/>
+      <ATOM Value="firework_01"/>
+      <ATOM Value="firework_02"/>
+      <ATOM Value="firework_03"/>
+      <ATOM Value="firework_04"/>
+      <ATOM Value="firework_05"/>
+      <ATOM Value="firework_06"/>
+      <ATOM Value="firework_07"/>
+      <ATOM Value="firework_08"/>
+      <ATOM Value="firework_09"/>
+      <ATOM Value="firework_10"/>
+      <ATOM Value="firework_11"/>
+      <ATOM Value="firework_12"/>
+      <ATOM Value="firework_13"/>
+      <ATOM Value="firework_14"/>
+      <ATOM Value="firework_15"/>
+      <ATOM Value="firework_16"/>
+      <ATOM Value="firework_17"/>
+      <ATOM Value="firework_18"/>
+      <ATOM Value="firework_19"/>
+      <ATOM Value="firework_20"/>
+      <ATOM Value="firework_21"/>
+      <ATOM Value="firework_22"/>
+      <ATOM Value="firework_23"/>
+      <ATOM Value="firework_24"/>
+      <ATOM Value="firework_25"/>
+      <ATOM Value="firework_26"/>
+      <ATOM Value="firework_27"/>
+      <ATOM Value="firework_28"/>
+      <ATOM Value="firework_29"/>
+      <ATOM Value="firework_30"/>
+      <ATOM Value="breakdance"/>
     </ARRAY>
   </STRUCT>
   <STRUCT/>
@@ -9,5 +120,7 @@
   <STRUCT/>
   <STRUCT/>
   <LOG>
-  </LOG>
+  
+Thu Sep 01 17:58:37 2011 (Brianna) formName Resized = 111
+</LOG>
 </FORM>
