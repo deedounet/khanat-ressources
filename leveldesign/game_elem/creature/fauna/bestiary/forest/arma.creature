@@ -5,7 +5,7 @@
   <PARENT Filename="_chdfa1_mp.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="PlayerSkillLevel" Value="1"/>
+      <ATOM Name="PlayerSkillLevel" Value="2"/>
       <ATOM Name="NbPlayers" Value="1"/>
       <ATOM Name="PlayerHpLevel" Value="1"/>
       <ATOM Name="NbHitToKillPlayer" Value="15"/>
@@ -22,7 +22,7 @@
       <ATOM Name="LifeRegen" Value="0.109589041"/>
       <ATOM Name="AttackLevel" Value="1"/>
       <ATOM Name="DefenseLevel" Value="1"/>
-      <ATOM Name="XPLevel" Value="1"/>
+      <ATOM Name="XPLevel" Value="3"/>
       <ATOM Name="TauntLevel" Value="0"/>
       <ATOM Name="MeleeReachValue" Value="0"/>
       <ATOM Name="RegionForce" Value="1"/>
