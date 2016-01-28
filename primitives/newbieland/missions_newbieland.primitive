@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<PRIMITIVES VERSION="1">
+  <ROOT_PRIMITIVE TYPE="CPrimNode">
+    <ALIAS LAST_GENERATED="0"/>
+    <CHILD TYPE="CPrimNode">
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>missions_editor</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>missions_newbieland</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>auto_remove_from_journal</NAME>
+          <STRING>true</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>automatic</NAME>
+          <STRING>true</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>mission_tree</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>fail_if_inventory_is_full</NAME>
+          <STRING>true</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>giver_primitive</NAME>
+          <STRING>urban_newbieland.primitive</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>mission_category</NAME>
+          <STRING>newbie_mission</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>mission_description</NAME>
+          <STRING>"mission de respawn points" MIS_DESC</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>mission_giver</NAME>
+          <STRING>$givervar@fullname$</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>mission_icon</NAME>
+          <STRING>generic_rite</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>mission_title</NAME>
+          <STRING>"mission de respawn points" MIS_TITLE</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>NEWBIELAND_START</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>need_validation</NAME>
+          <STRING>false</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>not_proposed</NAME>
+          <STRING>true</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>phrase_auto_menu</NAME>
+          <STRING>AUTO_MISSION_NEWBIE1</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>run_only_once</NAME>
+          <STRING>false</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>variables</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>variables</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>var_npc</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>givervar = welcome_ra (fct_dispensary_worker)</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>npc_function</NAME>
+              <STRING>fct_dispensary_worker</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>npc_name</NAME>
+              <STRING>welcome_ra</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>var_name</NAME>
+              <STRING>givervar</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>pre_requisite</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>pre_requisite</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="17"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>step</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>step_1</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>pre_actions</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>set_respawn_points</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>continent</NAME>
+                <STRING>newbieland</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>hide_others</NAME>
+                <STRING>false</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>set_respawn_points : newbieland : kami_respawn_starting_city : false</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>respawn_points</NAME>
+                <STRING>kami_respawn_starting_city</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>add_compass</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>npc_to_add</NAME>
+                <STRING>$givervar$</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>mission_objectives</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>objectives</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>talk_to</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>npc_name</NAME>
+                <STRING>$givervar$</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>overload_objective</NAME>
+                <STRING>OBJ_INTRO</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>phrase</NAME>
+                <STRING>NEWBIE_INTRO</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>post_actions</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>remove_compass</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>npc_to_remove</NAME>
+                <STRING>$givervar$</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>INTRO_1</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>npc_name</NAME>
+            <STRING>$givervar$</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>TEXT_INTRO_NEWBIE_1</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase_yes</NAME>
+            <STRING>ANSWER_WHAT</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>INTRO_2</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>npc_name</NAME>
+            <STRING>$givervar$</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>TEXT_INTRO_NEWBIE_2</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>INTRO_3</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>npc_name</NAME>
+            <STRING>$givervar$</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>TEXT_INTRO_NEWBIE_3</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>INTRO_4</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>npc_name</NAME>
+            <STRING>$givervar$</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>TEXT_INTRO_NEWBIE_4</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>INTRO_5</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>npc_name</NAME>
+            <STRING>$givervar$</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>TEXT_INTRO_NEWBIE_5</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+    </CHILD>
+  </ROOT_PRIMITIVE>
+</PRIMITIVES>

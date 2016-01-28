@@ -1,0 +1,37 @@
+﻿// DIFF CHANGED 4532 
+/* OLD VALUE : [You cannot load a Mainland scenario while you are in the Ruins of Silan. ] */
+/* OLD VALUE : [You cannot load a Mainland scenario while you are in the Ruins of Silan. ] */
+// HASH_VALUE 3C7F1E543FF0DF3A
+// INDEX 0
+uiRingLoadingNotARoSScenario	[You cannot load a Mainland scenario while you are in the Dispensary. ]
+
+// DIFF CHANGED 4541 
+/* OLD VALUE : [Ruins of Silan] */
+/* OLD VALUE : [Ruins of Silan] */
+// HASH_VALUE 2CD9C88E6908048E
+// INDEX 1
+uiFixedMissionEntry_Newbie	[Dispensary]
+
+// DIFF CHANGED 4542 
+/* OLD VALUE : [Ruins of Silan/Ring] */
+/* OLD VALUE : [Ruins of Silan/Ring] */
+// HASH_VALUE 635513985F07DCAA
+// INDEX 2
+uiFixedMissionEntry_Newbie_R2	[Dispensary/Ring]
+
+// DIFF CHANGED 4543 
+/* OLD VALUE : [Ruins of Silan/Free trial] */
+/* OLD VALUE : [Ruins of Silan/Free trial] */
+// HASH_VALUE E1A5E89A07BA28A4
+// INDEX 3
+uiFixedMissionEntry_Newbie_Trial	[Dispensary/Free trial]
+
+// DIFF CHANGED 4544 
+/* OLD VALUE : [Ruins of Silan/Free trial/Ring] */
+/* OLD VALUE : [Ruins of Silan/Free trial/Ring] */
+// HASH_VALUE 5F03F0985508CBB6
+// INDEX 4
+uiFixedMissionEntry_Newbie_R2_Trial	[Dispensary/Free trial/Ring]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

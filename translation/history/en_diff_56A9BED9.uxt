@@ -1,0 +1,246 @@
+﻿// DIFF CHANGED 2315 
+/* OLD VALUE : [FYROS: WARRIORS OF FIRE AND MASTERS OF THE BURNING DESERT
+The Fyros are the warrior race.
+Their society rests on a strict code of honor and a common goal: the quest for the Great Dragon who has devastated entire regions of the planet.] */
+/* OLD VALUE : [FYROS: WARRIORS OF FIRE AND MASTERS OF THE BURNING DESERT
+The Fyros are the warrior race.
+Their society rests on a strict code of honor and a common goal: the quest for the Great Dragon who has devastated entire regions of the planet.] */
+// HASH_VALUE 0000000000000000
+// INDEX 0
+uiCultFy	[]
+
+// DIFF CHANGED 2316 
+/* OLD VALUE : [MATIS: MASTER MANIPULATORS OF NATURE, AND LORDS OF THE LUSH FORESTS
+The Matis are a romantic and domineering people.
+They are obsessed with genetic mutations which are a marvel to behold.
+They seek to rebuild their lost Kingdom, but their own intrigues consume all their energy as each family vies for the crown.] */
+/* OLD VALUE : [MATIS: MASTER MANIPULATORS OF NATURE, AND LORDS OF THE LUSH FORESTS
+The Matis are a romantic and domineering people.
+They are obsessed with genetic mutations which are a marvel to behold.
+They seek to rebuild their lost Kingdom, but their own intrigues consume all their energy as each family vies for the crown.] */
+// HASH_VALUE 0000000000000000
+// INDEX 1
+uiCultMa	[]
+
+// DIFF CHANGED 2317 
+/* OLD VALUE : [TRYKER: FRIENDS TO THE WINDS AND CURRENTS, PRINCES OF THE LAKE LANDS
+The Trykers are wily hedonists forming a federation more than a single people.
+They live as free Homins.
+The other races see them as nothing more than wayward brigands. ] */
+/* OLD VALUE : [TRYKER: FRIENDS TO THE WINDS AND CURRENTS, PRINCES OF THE LAKE LANDS
+The Trykers are wily hedonists forming a federation more than a single people.
+They live as free Homins.
+The other races see them as nothing more than wayward brigands. ] */
+// HASH_VALUE 0000000000000000
+// INDEX 2
+uiCultTr	[]
+
+// DIFF CHANGED 2318 
+/* OLD VALUE : [ZORAÏ: MAGICIANS OF THE JUNGLES OF THE SICKLANDS
+The Zoraïs are the mystics of Atys.
+They have passed master in the manipulation of magnetic fields which they use in the fabrication of weaponry and buildings.] */
+/* OLD VALUE : [ZORAÏ: MAGICIANS OF THE JUNGLES OF THE SICKLANDS
+The Zoraïs are the mystics of Atys.
+They have passed master in the manipulation of magnetic fields which they use in the fabrication of weaponry and buildings.] */
+// HASH_VALUE 0000000000000000
+// INDEX 3
+uiCultZo	[]
+
+// DIFF CHANGED 2327 
+/* OLD VALUE : [FYROS WARRIOR: THE BERSERKER] */
+/* OLD VALUE : [FYROS WARRIOR: THE BERSERKER] */
+// HASH_VALUE 0000000000000000
+// INDEX 4
+uiMoreFFy	[]
+
+// DIFF CHANGED 2328 
+/* OLD VALUE : [MATISIAN WARRIOR: THE SWORD-BEARER] */
+/* OLD VALUE : [MATISIAN WARRIOR: THE SWORD-BEARER] */
+// HASH_VALUE 0000000000000000
+// INDEX 5
+uiMoreFMa	[]
+
+// DIFF CHANGED 2329 
+/* OLD VALUE : [TRYKER WARRIOR: THE SWASHBUCKLER] */
+/* OLD VALUE : [TRYKER WARRIOR: THE SWASHBUCKLER] */
+// HASH_VALUE 0000000000000000
+// INDEX 6
+uiMoreFTr	[]
+
+// DIFF CHANGED 2330 
+/* OLD VALUE : [ZORAÏ WARRIOR: KAMIC FIST] */
+/* OLD VALUE : [ZORAÏ WARRIOR: KAMIC FIST] */
+// HASH_VALUE 0000000000000000
+// INDEX 7
+uiMoreFZo	[]
+
+// DIFF CHANGED 2331 
+/* OLD VALUE : [FYROS MAGICIAN: THE CORRUPTER] */
+/* OLD VALUE : [FYROS MAGICIAN: THE CORRUPTER] */
+// HASH_VALUE 0000000000000000
+// INDEX 8
+uiMoreMFy	[]
+
+// DIFF CHANGED 2332 
+/* OLD VALUE : [MATISIAN MAGICIAN: THE PESTILENT] */
+/* OLD VALUE : [MATISIAN MAGICIAN: THE PESTILENT] */
+// HASH_VALUE 0000000000000000
+// INDEX 9
+uiMoreMMa	[]
+
+// DIFF CHANGED 2333 
+/* OLD VALUE : [TRYKER MAGICIAN: THE MIND-BOGGLER] */
+/* OLD VALUE : [TRYKER MAGICIAN: THE MIND-BOGGLER] */
+// HASH_VALUE 0000000000000000
+// INDEX 10
+uiMoreMTr	[]
+
+// DIFF CHANGED 2334 
+/* OLD VALUE : [ZORAÏ MAGICIAN: THE KAMIC FURY] */
+/* OLD VALUE : [ZORAÏ MAGICIAN: THE KAMIC FURY] */
+// HASH_VALUE 0000000000000000
+// INDEX 11
+uiMoreMZo	[]
+
+// DIFF CHANGED 2335 
+/* OLD VALUE : [FYROS RANGER: THE SCARLET HUNTER] */
+/* OLD VALUE : [FYROS RANGER: THE SCARLET HUNTER] */
+// HASH_VALUE 0000000000000000
+// INDEX 12
+uiMoreRFy	[]
+
+// DIFF CHANGED 2336 
+/* OLD VALUE : [MATISIAN RANGER: THE GREEN HUNTER] */
+/* OLD VALUE : [MATISIAN RANGER: THE GREEN HUNTER] */
+// HASH_VALUE 0000000000000000
+// INDEX 13
+uiMoreRMa	[]
+
+// DIFF CHANGED 2337 
+/* OLD VALUE : [TRYKER RANGER: THE SHADOW HUNTER] */
+/* OLD VALUE : [TRYKER RANGER: THE SHADOW HUNTER] */
+// HASH_VALUE 0000000000000000
+// INDEX 14
+uiMoreRTr	[]
+
+// DIFF CHANGED 2338 
+/* OLD VALUE : [ZORAÏ RANGER: THE GUARDIAN OF ATYS] */
+/* OLD VALUE : [ZORAÏ RANGER: THE GUARDIAN OF ATYS] */
+// HASH_VALUE 0000000000000000
+// INDEX 15
+uiMoreRZo	[]
+
+// DIFF CHANGED 3686 
+/* OLD VALUE : [This is your encyclopedia.
+This window is used for showing the collection of knowledge you have found on Atys. The amber cube corresponds to a theme. Themes are grouped in albums.] */
+/* OLD VALUE : [This is your encyclopedia.
+This window is used for showing the collection of knowledge you have found on Atys. The amber cube corresponds to a theme. Themes are grouped in albums.] */
+// HASH_VALUE E2870E8CDFB7E1D3
+// INDEX 16
+uiEncyExplanation	[This is your encyclopedia.\n
+	\n
+	This window is used for showing the collection of knowledge you have found. The amber cube corresponds to a theme. Themes are grouped in albums.]
+
+// DIFF CHANGED 4101 
+/* OLD VALUE : [Welcome to Atys!] */
+/* OLD VALUE : [Welcome to Atys!] */
+// HASH_VALUE DE8456A413B8F463
+// INDEX 17
+uiWelcomeTitle	[Welcome to Khanat!]
+
+// DIFF CHANGED 4102 
+/* OLD VALUE : [The ever evolving organic planet like a gigantic plant basking in the light of its pulsating sun.] */
+/* OLD VALUE : [The ever evolving organic planet like a gigantic plant basking in the light of its pulsating sun.] */
+// HASH_VALUE 0000000000000000
+// INDEX 18
+uiWelcomeIntro	[]
+
+// DIFF CHANGED 4108 
+/* OLD VALUE : [A dedicated team of customer support representatives (CSRs) keep a watchful eye over Atys day and night. They can be contacted by clicking the 'HELP' button (question mark) from the button menu (at the bottom right hand side of the screen by default), then clicking 'SUPPORT'.] */
+/* OLD VALUE : [A dedicated team of customer support representatives (CSRs) keep a watchful eye over Atys day and night. They can be contacted by clicking the 'HELP' button (question mark) from the button menu (at the bottom right hand side of the screen by default), then clicking 'SUPPORT'.] */
+// HASH_VALUE 92B24F4135DE05D2
+// INDEX 19
+uiWelcomeCS	[A dedicated team of customer support representatives (CSRs) keep a watchful eye over Khanat day and night. They can be contacted by clicking the 'HELP' button (question mark) from the button menu (at the bottom right hand side of the screen by default), then clicking 'SUPPORT'.]
+
+// DIFF CHANGED 4464 
+/* OLD VALUE : [@{6F6F}Requirements
+@{FFFF} Indicates wether you are permitted to load this scenario. One is only permitted to load scenarios that contain content that one has access to. One gains access to additional content by exploring the mainlands of Atys.] */
+/* OLD VALUE : [@{6F6F}Requirements
+@{FFFF} Indicates wether you are permitted to load this scenario. One is only permitted to load scenarios that contain content that one has access to. One gains access to additional content by exploring the mainlands of Atys.] */
+// HASH_VALUE 254DC518D8BEF8A1
+// INDEX 20
+uiR2EdPropertyToolTip_LoadScenario_LoadScenario_RingPointsLevel	[@{6F6F}Requirements\n
+	@{FFFF} Indicates wether you are permitted to load this scenario. One is only permitted to load scenarios that contain content that one has access to. One gains access to additional content by exploring the mainlands of Khanat.]
+
+// DIFF CHANGED 4490 
+/* OLD VALUE : [You have sufficient knowledge of Atys] */
+/* OLD VALUE : [You have sufficient knowledge of Atys] */
+// HASH_VALUE DAC1056A29D0E80C
+// INDEX 21
+uiR2EDLoadScenario_Yes	[You have sufficient knowledge of Khanat]
+
+// DIFF CHANGED 4491 
+/* OLD VALUE : [You have INSUFFICIENT knowledge of Atys] */
+/* OLD VALUE : [You have INSUFFICIENT knowledge of Atys] */
+// HASH_VALUE 9A577D0EA6BD40DD
+// INDEX 22
+uiR2EDLoadScenario_No	[You have INSUFFICIENT knowledge of Khanat]
+
+// DIFF CHANGED 4499 
+/* OLD VALUE : [KNOWLEDGE OF ATYS] */
+/* OLD VALUE : [KNOWLEDGE OF ATYS] */
+// HASH_VALUE 89A1CF233CA1BCDA
+// INDEX 23
+uiR2EDEcosystemPointsTitle	[KNOWLEDGE OF KHANAT]
+
+// DIFF CHANGED 4621 
+/* OLD VALUE : [Access to the Atys mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.] */
+/* OLD VALUE : [Access to the Atys mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.] */
+// HASH_VALUE 91841BAD00B75925
+// INDEX 24
+uiBGD_InGamePatchIncomplete	[Access to the Khanat mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.]
+
+// DIFF CHANGED 4644 
+/* OLD VALUE : [Khanat has been successfully installed.
+We wish you great adventures on Atys!
+] */
+/* OLD VALUE : [Khanat has been successfully installed.
+We wish you great adventures on Atys!
+] */
+// HASH_VALUE E807869639A5DA61
+// INDEX 25
+uiBGD_CongratSuccessfullInstall	[Khanat has been successfully installed.\n
+	We wish you great adventures in the Khanat!\n
+	]
+
+// DIFF CHANGED 4706 
+/* OLD VALUE : [You are in a coma.
+The timer shows your life energy ebbing away. When it runs critically low the Divinities of Atys will resuscitate you at the point highlighted on the map.
+You may be healed by other players in order to avoid incurring the penalties associated with death, or press the RESPAWN button to call on the divinities immediately.] */
+/* OLD VALUE : [You are in a coma.
+The timer shows your life energy ebbing away. When it runs critically low the Divinities of Atys will resuscitate you at the point highlighted on the map.
+You may be healed by other players in order to avoid incurring the penalties associated with death, or press the RESPAWN button to call on the divinities immediately.] */
+// HASH_VALUE EB0D163D6E4DEA31
+// INDEX 26
+uiDeathWarningContent	[You are in a coma.\n
+	\n
+	The timer shows your life energy ebbing away. When it runs critically low you should be resuscitated you at the point highlighted on the map.\n
+	\n
+	You may be healed by other players in order to avoid incurring the penalties associated with death, or press the RESPAWN button to call on the divinities immediately.]
+
+// DIFF CHANGED 4714 
+/* OLD VALUE : [It is night on Atys.
+You can illuminate your surroundings by pressing 'L' (by default) on your keyboard.
+] */
+/* OLD VALUE : [It is night on Atys.
+You can illuminate your surroundings by pressing 'L' (by default) on your keyboard.
+] */
+// HASH_VALUE A02BBAA84810EBCC
+// INDEX 27
+uiNightWarningContent	[It is night.\n
+	\n
+	You can illuminate your surroundings by pressing 'L' (by default) on your keyboard.\n
+	]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

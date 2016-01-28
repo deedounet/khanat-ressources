@@ -1,40 +1,110 @@
 ﻿
-CHIANG_1 ()
+WELCOME_RA_1  ()
 {
-		chiang_1	[&bbl&The freedom to run the program, for any purpose (freedom 0).]
+		welcome_ra_1	[Méfiez-vous des expérimentations d'Osquallo et Deed, certaines sont mortelles..]
 
 }
 
-CHIANG_2 ()
+WELCOME_RA_2 ()
 {
-		chiang_2	[&bbl&The freedom to study how the program works, and change it to make it do what you wish (freedom 1). Access to the source code is a precondition for this.]
+		welcome_ra_2	[Attention au fouet de Zat !]
 
 }
 
-CHIANG_3 ()
+WELCOME_RA_3 ()
 {
-		chiang_3	[&bbl&The freedom to redistribute copies so you can help your neighbor (freedom 2).]
+		welcome_ra_3	[Avez-vous goûté le thé de Lyne ?]
 
 }
 
-CHIANG_4 ()
+WELCOME_RA_4 ()
 {
-		chiang_4	[&bbl&The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.]
+		welcome_ra_4	[Donnez-moi une tarte aux klums ou je fais un malheur !]
 
 }
 
-CHIANG_WELCOME ()
+WELCOME_RA_5 ()
 {
-		chiang_welcome	[Greetings Freesoftware Fellow,\nI'm the welcomer on this Ryzom Core shard. This server is here to do some test, tweak and hack on the source code. Happy Hacking!]
+		welcome_ra_5	[C'est le lirri'a…]
 
 }
 
-WELCOME_RYZOM_CORE_TITLE ()
+WELCOME_RA_6 ()
 {
-		[Need Money?]
+		welcome_ra_6	[J'ai cru voir passer un scoui…]
+
 }
 
-WELCOME_RYZOM_CORE_DESC ()
+WELCOME_RA_7 ()
 {
-		[Kill yubo and earn money!]
+		welcome_ra_7	[Et n'oubliez pas de passer le balai en fin de journée.]
+
+}
+
+WELCOME_RA_8 ()
+{
+		welcome_ra_8	[Gloire à K ! Gloire à K ! Euh, au Khan !]
+
+}
+
+WELCOME_RA_WELCOME ()
+{
+		welcome_ra_welcome	[WELCOME_RA_WELCOME !]
+
+}
+
+NEWBIELAND_START_MIS_TITLE ()
+{
+		newbieland_start_mis_title[Premiers pas dans le lirri'a]
+}
+
+NEWBIELAND_START_MIS_DESC ()
+{
+		newbieland_start_mis_desc[Parlez à uil'i pour savoir où vous avez atterri.]
+}
+
+OBJ_INTRO ()
+{
+		obj_intro	[Parlez à Uil'i]
+}
+
+NEWBIE_INTRO ()
+{
+		newbie_intro	[Parlez à Uil'i]
+}
+
+TEXT_INTRO_NEWBIE_1(player p)
+{
+	(p.gender = male)
+		text_intro_newbie_1_m	[coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+	(p.gender = female) 
+		text_intro_newbie_1_f	[coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+}
+
+TEXT_INTRO_NEWBIE_2(player p)
+{
+	(p.gender = male)
+		text_intro_newbie_2_m	[*Remarque l'air perplexe et reprend*\nBonjour Oublieux. On m'appelle Uil'i. Sois le bienvenu.]
+	(p.gender = female) 
+		text_intro_newbie_2_f	[*Remarque l'air perplexe et reprend*\nBonjour Oublieuse. On m'appelle Uil'i. Sois la bienvenue.]
+}
+
+TEXT_INTRO_NEWBIE_3(player p)
+{
+		text_intro_newbie_3	[Nous sommes dans le lirri'a, temps où tout est incertain. La réalité est mouvante, les Brumes changent tout d'un jour à l'autre.\nAvec quelques ras, je tente de maintenir une petite poche de stabilité ici. Autrefois, je travaillais au Dispensaire. Je tente de le faire revivre ici ; nombre d'Oublieux arrivent depuis les poches de Brumes dans la Jungle.]
+}
+
+TEXT_INTRO_NEWBIE_4(player p)
+{
+		text_intro_newbie_4	[Ce minaret semble fonctionnel, ainsi que la borne de revif qui lui est associée. Mais ne prend pas de risque pour autant : rien n'est sûr. C'est le lirri'a…]
+}
+
+TEXT_INTRO_NEWBIE_5(player p)
+{
+		text_intro_newbie_5	[Si tu as des questions… Je te conseille de trouver Caet, l'infirmière.\nElle doit être quelque part par là… ]
+}
+
+ANSWER_WHAT ()
+{
+		answer_what	[Pardon ?]
 }

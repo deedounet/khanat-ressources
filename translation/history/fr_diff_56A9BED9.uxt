@@ -1,0 +1,246 @@
+﻿// DIFF CHANGED 2315 
+/* OLD VALUE : [FYROS: WARRIORS OF FIRE AND MASTERS OF THE BURNING DESERT
+The Fyros are the warrior race.
+Their society rests on a strict code of honor and a common goal: the quest for the Great Dragon who has devastated entire regions of the planet.] */
+/* OLD VALUE : [LES FYROS : GUERRIERS DU FEU ET MAÎTRES DES DESERTS ARDENTS
+Les Fyros sont une race de guerriers.
+Leur société repose sur un code de l'honneur strict et sur un but commun : la quête du Grand Dragon qui a ravagé des régions entières de la planète.] */
+// HASH_VALUE 0000000000000000
+// INDEX 0
+uiCultFy	[]
+
+// DIFF CHANGED 2316 
+/* OLD VALUE : [MATIS: MASTER MANIPULATORS OF NATURE, AND LORDS OF THE LUSH FORESTS
+The Matis are a romantic and domineering people.
+They are obsessed with genetic mutations which are a marvel to behold.
+They seek to rebuild their lost Kingdom, but their own intrigues consume all their energy as each family vies for the crown.] */
+/* OLD VALUE : [LES MATIS : MAÎTRES MANIPULATEURS DE LA NATURE ET SEIGNEURS DES FORETS LUXURIANTES
+Les Matis sont un peuple romantique et autoritaire.
+Ils sont obsédés par les mutations génétiques qui sont des merveilles à contempler.
+Ils souhaitent reconstruire leur Royaume perdu, mais leurs complots prennent toute leur énergie car chaque famille vise la couronne.] */
+// HASH_VALUE 0000000000000000
+// INDEX 1
+uiCultMa	[]
+
+// DIFF CHANGED 2317 
+/* OLD VALUE : [TRYKER: FRIENDS TO THE WINDS AND CURRENTS, PRINCES OF THE LAKE LANDS
+The Trykers are wily hedonists forming a federation more than a single people.
+They live as free Homins.
+The other races see them as nothing more than wayward brigands. ] */
+/* OLD VALUE : [LES TRYKERS : AMIS DES VENTS ET DES COURANTS, PRINCES DE LA RÉGION DES LACS
+Les Trykers sont des hédonistes rusés formant une fédération plus qu'un simple peuple.
+Ils vivent tels des Homins libres.
+Les autres races les considèrent comme des brigands indisciplinés. ] */
+// HASH_VALUE 0000000000000000
+// INDEX 2
+uiCultTr	[]
+
+// DIFF CHANGED 2318 
+/* OLD VALUE : [ZORAÏ: MAGICIANS OF THE JUNGLES OF THE SICKLANDS
+The Zoraïs are the mystics of Atys.
+They have passed master in the manipulation of magnetic fields which they use in the fabrication of weaponry and buildings.] */
+/* OLD VALUE : [LES ZORAÏS : MAGICIENS DES JUNGLES DES TERRES MALADES
+Les Zoraïs sont les êtres mystiques d'Atys.
+Ils sont devenus maîtres dans la manipulation des champs magnétiques qu'ils utilisent pour la fabrication des armes et des bâtiments.] */
+// HASH_VALUE 0000000000000000
+// INDEX 3
+uiCultZo	[]
+
+// DIFF CHANGED 2327 
+/* OLD VALUE : [FYROS WARRIOR: THE BERSERKER] */
+/* OLD VALUE : [GUERRIER FYROS : LE FURIEUX] */
+// HASH_VALUE 0000000000000000
+// INDEX 4
+uiMoreFFy	[]
+
+// DIFF CHANGED 2328 
+/* OLD VALUE : [MATISIAN WARRIOR: THE SWORD-BEARER] */
+/* OLD VALUE : [GUERRIER MATIS : LE PORTEUR D'EPEE] */
+// HASH_VALUE 0000000000000000
+// INDEX 5
+uiMoreFMa	[]
+
+// DIFF CHANGED 2329 
+/* OLD VALUE : [TRYKER WARRIOR: THE SWASHBUCKLER] */
+/* OLD VALUE : [GUERRIER TRYKER : LE BRETTEUR] */
+// HASH_VALUE 0000000000000000
+// INDEX 6
+uiMoreFTr	[]
+
+// DIFF CHANGED 2330 
+/* OLD VALUE : [ZORAÏ WARRIOR: KAMIC FIST] */
+/* OLD VALUE : [GUERRIER ZORAÏ : LE POING KAMIC] */
+// HASH_VALUE 0000000000000000
+// INDEX 7
+uiMoreFZo	[]
+
+// DIFF CHANGED 2331 
+/* OLD VALUE : [FYROS MAGICIAN: THE CORRUPTER] */
+/* OLD VALUE : [MAGICIEN FYROS : LE CORRUPTEUR] */
+// HASH_VALUE 0000000000000000
+// INDEX 8
+uiMoreMFy	[]
+
+// DIFF CHANGED 2332 
+/* OLD VALUE : [MATISIAN MAGICIAN: THE PESTILENT] */
+/* OLD VALUE : [MAGICIEN MATIS : LE PESTILENTIEL] */
+// HASH_VALUE 0000000000000000
+// INDEX 9
+uiMoreMMa	[]
+
+// DIFF CHANGED 2333 
+/* OLD VALUE : [TRYKER MAGICIAN: THE MIND-BOGGLER] */
+/* OLD VALUE : [MAGICIEN TRYKER : L'EPOUSTOUFLANT] */
+// HASH_VALUE 0000000000000000
+// INDEX 10
+uiMoreMTr	[]
+
+// DIFF CHANGED 2334 
+/* OLD VALUE : [ZORAÏ MAGICIAN: THE KAMIC FURY] */
+/* OLD VALUE : [MAGICIEN ZORAÏ : LA FURIE KAMIQUE] */
+// HASH_VALUE 0000000000000000
+// INDEX 11
+uiMoreMZo	[]
+
+// DIFF CHANGED 2335 
+/* OLD VALUE : [FYROS RANGER: THE SCARLET HUNTER] */
+/* OLD VALUE : [RANGER FYROS : LE CHASSEUR ECARLATE] */
+// HASH_VALUE 0000000000000000
+// INDEX 12
+uiMoreRFy	[]
+
+// DIFF CHANGED 2336 
+/* OLD VALUE : [MATISIAN RANGER: THE GREEN HUNTER] */
+/* OLD VALUE : [RANGER MATIS : LE CHASSEUR VERT] */
+// HASH_VALUE 0000000000000000
+// INDEX 13
+uiMoreRMa	[]
+
+// DIFF CHANGED 2337 
+/* OLD VALUE : [TRYKER RANGER: THE SHADOW HUNTER] */
+/* OLD VALUE : [RANGER TRYKER : LE CHASSEUR DE L'OMBRE] */
+// HASH_VALUE 0000000000000000
+// INDEX 14
+uiMoreRTr	[]
+
+// DIFF CHANGED 2338 
+/* OLD VALUE : [ZORAÏ RANGER: THE GUARDIAN OF ATYS] */
+/* OLD VALUE : [RANGER ZORAÏ : LE GARDIEN D'ATYS] */
+// HASH_VALUE 0000000000000000
+// INDEX 15
+uiMoreRZo	[]
+
+// DIFF CHANGED 3686 
+/* OLD VALUE : [This is your encyclopedia.
+This window is used for showing the collection of knowledge you have found on Atys. The amber cube corresponds to a theme. Themes are grouped in albums.] */
+/* OLD VALUE : [Ceci est votre encyclopédie.
+Cette fenêtre sert à réunir les connaissances trouvées sur Atys. Le cube d'ambre correspond à un thème. Les thèmes sont regroupés dans des albums.] */
+// HASH_VALUE E2870E8CDFB7E1D3
+// INDEX 16
+uiEncyExplanation	[Ceci est votre encyclopédie.\n
+	\n
+	Cette fenêtre sert à réunir les connaissances trouvées. Le cube d'ambre correspond à un thème. Les thèmes sont regroupés dans des albums.]
+
+// DIFF CHANGED 4101 
+/* OLD VALUE : [Welcome to Atys!] */
+/* OLD VALUE : [Bienvenue sur Atys !] */
+// HASH_VALUE DE8456A413B8F463
+// INDEX 17
+uiWelcomeTitle	[Bienvenue sur Khanat!]
+
+// DIFF CHANGED 4102 
+/* OLD VALUE : [The ever evolving organic planet like a gigantic plant basking in the light of its pulsating sun.] */
+/* OLD VALUE : [Une planète organique en évolution constante telle une plante titanesque profitant de la lumière de son soleil palpitant.] */
+// HASH_VALUE 0000000000000000
+// INDEX 18
+uiWelcomeIntro	[]
+
+// DIFF CHANGED 4108 
+/* OLD VALUE : [A dedicated team of customer support representatives (CSRs) keep a watchful eye over Atys day and night. They can be contacted by clicking the 'HELP' button (question mark) from the button menu (at the bottom right hand side of the screen by default), then clicking 'SUPPORT'.] */
+/* OLD VALUE : [L'équipe d'assistance clientèle se consacre au contrôle d'Atys jour et nuit. Vous pouvez les joindre par le biais du bouton "Assistance" du menu en bas à droite de l'écran.] */
+// HASH_VALUE 92B24F4135DE05D2
+// INDEX 19
+uiWelcomeCS	[L'équipe d'assistance clientèle se consacre au contrôle de Khanat jour et nuit. Vous pouvez les joindre par le biais du bouton "Assistance" du menu en bas à droite de l'écran.]
+
+// DIFF CHANGED 4464 
+/* OLD VALUE : [@{6F6F}Requirements
+@{FFFF} Indicates wether you are permitted to load this scenario. One is only permitted to load scenarios that contain content that one has access to. One gains access to additional content by exploring the mainlands of Atys.] */
+/* OLD VALUE : [@{6F6F}Prérequis
+@{FFFF} Indique si vous pouvez ou non charger ce scénario. Vous ne pouvez charger que les scénarii dont vous avez accès au contenu. Vous pouvez gagner du contenu additionnel en explorant le continent.] */
+// HASH_VALUE 254DC518D8BEF8A1
+// INDEX 20
+uiR2EdPropertyToolTip_LoadScenario_LoadScenario_RingPointsLevel	[@{6F6F}Prérequis\n
+	@{FFFF} Indique si vous pouvez ou non charger ce scénario. Vous ne pouvez charger que les scénarii dont vous avez accès au contenu. Vous pouvez gagner du contenu additionnel en explorant le continent.]
+
+// DIFF CHANGED 4490 
+/* OLD VALUE : [You have sufficient knowledge of Atys] */
+/* OLD VALUE : [Votre connaissance d'Atys est suffisante] */
+// HASH_VALUE DAC1056A29D0E80C
+// INDEX 21
+uiR2EDLoadScenario_Yes	[Votre connaissance du Khanat est suffisante]
+
+// DIFF CHANGED 4491 
+/* OLD VALUE : [You have INSUFFICIENT knowledge of Atys] */
+/* OLD VALUE : [Votre connaissance d'Atys n'est PAS suffisante] */
+// HASH_VALUE 9A577D0EA6BD40DD
+// INDEX 22
+uiR2EDLoadScenario_No	[Votre connaissance du Khanat n'est pas suffisante]
+
+// DIFF CHANGED 4499 
+/* OLD VALUE : [KNOWLEDGE OF ATYS] */
+/* OLD VALUE : [Connaissance d'Atys] */
+// HASH_VALUE 89A1CF233CA1BCDA
+// INDEX 23
+uiR2EDEcosystemPointsTitle	[Connaissance de Khanat]
+
+// DIFF CHANGED 4621 
+/* OLD VALUE : [Access to the Atys mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.] */
+/* OLD VALUE : [Accéder aux terres principales d'Atys ainsi qu'au Khanat Ring nécessite que la mise à jour soit finie. La progression est indiquée dnas la fenêtre du Logiciel de mise à jour.] */
+// HASH_VALUE 91841BAD00B75925
+// INDEX 24
+uiBGD_InGamePatchIncomplete	[Accéder aux terres principales du Khanat ainsi qu'au Khanat Ring nécessite que la mise à jour soit finie. La progression est indiquée dnas la fenêtre du Logiciel de mise à jour.]
+
+// DIFF CHANGED 4644 
+/* OLD VALUE : [Khanat has been successfully installed.
+We wish you great adventures on Atys!
+] */
+/* OLD VALUE : [L'installation de Khanat est réussie.
+Nous vous souhaitons de belles aventures sur Atys !
+] */
+// HASH_VALUE E807869639A5DA61
+// INDEX 25
+uiBGD_CongratSuccessfullInstall	[L'installation de Khanat est réussie.\n
+	Nous vous souhaitons de belles aventures sur Khanat!\n
+	]
+
+// DIFF CHANGED 4706 
+/* OLD VALUE : [You are in a coma.
+The timer shows your life energy ebbing away. When it runs critically low the Divinities of Atys will resuscitate you at the point highlighted on the map.
+You may be healed by other players in order to avoid incurring the penalties associated with death, or press the RESPAWN button to call on the divinities immediately.] */
+/* OLD VALUE : [Vous êtes dans le coma.
+Si personne ne vous soigne avant la fin du décompte, les Kamis ou la Karavan vous rameneront à la vie à côté d'endroits spécialisés avec une pénalité.
+Choisissez un point de résurrection sur la carte, puis cliquez sur RESSUSCITER. Vous réapparaîtrez alors à l'endroit sélectionné avec vos énergies au minimum.] */
+// HASH_VALUE EB0D163D6E4DEA31
+// INDEX 26
+uiDeathWarningContent	[Vous êtes dans le coma.\n
+	\n
+	Si personne ne vous soigne avant la fin du décompte, vous serez ramené à la vie à la vie à côté d'endroits spécialisés avec une pénalité.\n
+	\n
+	Choisissez un point de résurrection sur la carte, puis cliquez sur RESSUSCITER. Vous réapparaîtrez alors à l'endroit sélectionné avec vos énergies au minimum.]
+
+// DIFF CHANGED 4714 
+/* OLD VALUE : [It is night on Atys.
+You can illuminate your surroundings by pressing 'L' (by default) on your keyboard.
+] */
+/* OLD VALUE : [Il fait nuit sur Atys.
+Vous pouvez éclairer autour de vous en appuyant sur la touche 'L' (touche par défaut) de votre clavier.
+] */
+// HASH_VALUE A02BBAA84810EBCC
+// INDEX 27
+uiNightWarningContent	[Il fait nuit.\n
+	\n
+	Vous pouvez éclairer autour de vous en appuyant sur la touche 'L' (touche par défaut) de votre clavier.\n
+	]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE
