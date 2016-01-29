@@ -42,7 +42,7 @@
     <STRUCT Name="3d data">
       <ATOM Name="Skel" Value="TR_MO_arma.skel"/>
       <ATOM Name="AnimSetBaseName" Value="arma"/>
-      <ATOM Name="LodCharacterName" Value="TR_MO_arma_lod"/>
+      <ATOM Name="LodCharacterName" Value="TR_MO_arma_LOD"/>
       <ATOM Name="LodCharacterDistance" Value="50.0"/>
       <ATOM Name="NamePosZLow" Value="0.5"/>
       <ATOM Name="NamePosZNormal" Value="0.7"/>
