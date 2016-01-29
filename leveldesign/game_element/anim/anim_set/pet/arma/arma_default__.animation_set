@@ -12,6 +12,29 @@
 </ARRAY>
 <ATOM Name="LodCharacterAnimation" Value="tr_mo_arma_manger.anim"/>
 </STRUCT>
+<STRUCT Name="idle_to_walk">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_dag_idle_to_marche.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+<STRUCT Name="walk">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_dag_marche.anim"/>
+</STRUCT>
+</ARRAY>
+<ATOM Name="LodCharacterAnimation" Value="tr_mo_dag_marche.anim"/>
+</STRUCT>
+<STRUCT Name="run">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_dag_course.anim"/>
+</STRUCT>
+</ARRAY>
+<ATOM Name="LodCharacterAnimation" Value="tr_mo_dag_course.anim"/>
+</STRUCT>
 <STRUCT Name="combat_mode">
 <ARRAY Name="animations">
 <STRUCT>
