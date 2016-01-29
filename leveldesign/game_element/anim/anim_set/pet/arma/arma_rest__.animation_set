@@ -4,136 +4,44 @@
     <STRUCT Name="idle">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_arma_manger.anim"/>
-        </STRUCT>
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_idle.anim"/>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_dormir_loop.anim"/>
         </STRUCT>
       </ARRAY>
-      <ATOM Name="LodCharacterAnimation" Value="tr_mo_pachyderme_idle.anim"/>
-    </STRUCT>
-    <STRUCT Name="idle_to_walk">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_marche.anim"/>
-        </STRUCT>
-      </ARRAY>
+      <ATOM Name="LodCharacterAnimation" Value="tr_mo_pachyderme_dormir_loop.anim"/>
     </STRUCT>
     <STRUCT Name="walk">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_marche.anim"/>
-        </STRUCT>
-      </ARRAY>
       <ATOM Name="LodCharacterAnimation" Value="tr_mo_pachyderme_marche.anim"/>
     </STRUCT>
-    <STRUCT Name="walk_to_run">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_course.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
     <STRUCT Name="run">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_course.anim"/>
-        </STRUCT>
-      </ARRAY>
       <ATOM Name="LodCharacterAnimation" Value="tr_mo_pachyderme_course.anim"/>
     </STRUCT>
-    <STRUCT Name="backward">
+    <STRUCT Name="death">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_reculer.anim"/>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_mort.anim"/>
+        </STRUCT>
+      </ARRAY>
+      <ATOM Name="LodCharacterAnimation" Value="tr_mo_pachyderme_mort.anim"/>
+    </STRUCT>
+    <STRUCT Name="death_idle">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_mort_idle.anim"/>
+        </STRUCT>
+      </ARRAY>
+      <ATOM Name="LodCharacterAnimation" Value="tr_mo_pachyderme_mort_idle.anim"/>
+    </STRUCT>
+    <STRUCT Name="alert_mode">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_dormir_end.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-    <STRUCT Name="turn_left">
+    <STRUCT Name="combat_mode">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_tourne_gauche.anim"/>
-        </STRUCT>
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_demitour_gauche.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-    <STRUCT Name="turn_right">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_tourne_droite.anim"/>
-        </STRUCT>
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_demitour_droite.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-    <STRUCT Name="turn_left_to_walk">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_tourne_gauche.anim"/>
-        </STRUCT>
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_demitour_gauche.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-    <STRUCT Name="turn_right_to_walk">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_tourne_droite.anim"/>
-        </STRUCT>
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_demitour_droite.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-    <STRUCT Name="turn_left_to_backward">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_tourne_gauche.anim"/>
-        </STRUCT>
-        <STRUCT>
-          <ATOM Name="filename" Value="Ttr_mo_pachyderme_demitour_gauche.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-    <STRUCT Name="turn_right_to_backward">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_tourne_droite.anim"/>
-        </STRUCT>
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_demitour_droite.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-    <STRUCT Name="impact">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_impact.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-    <STRUCT Name="stun_begin">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_stun_init.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-    <STRUCT Name="stun_loop">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_stun_loop.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-    <STRUCT Name="stun_end">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_stun_end.anim"/>
+          <ATOM Name="filename" Value="tr_mo_arma_grattefesse.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -144,10 +52,17 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
-    <STRUCT Name="rest_mode">
+    <STRUCT Name="default_mode">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_dormir_init.anim"/>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_dormir_end.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="eat_mode">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_dormir_end.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -203,13 +118,13 @@ Fri Apr 18 12:06:12 2003 (arnaudb) .idle.animations[2].filename = TR_MO_dag_idle
 Fri Apr 18 12:06:12 2003 (arnaudb) formName Resized = 3
 Fri Apr 18 12:07:24 2003 (arnaudb) .idle.animations[0].filename = TR_MO_dag_manger.anim
 Fri Apr 18 12:07:24 2003 (arnaudb) .idle.animations[1].filename = TR_MO_dag_renifle.anim
-Fri Jun 06 16:54:57 2003 (beaume) .death_mode.animations[0].filename = TR_MO_dag_mort.anim
-Fri Jun 06 16:54:57 2003 (beaume) formName Resized = 1
-Tue Jun 24 15:08:25 2003 (beaume) .idle.animations[0].filename = TR_MO_dag_renifle.anim
-Tue Jun 24 15:08:25 2003 (beaume) .idle.animations[1].filename = TR_MO_dag_idle.anim
-Tue Jun 24 15:08:25 2003 (beaume) formName Resized = 2
-Mon Dec 01 14:28:38 2003 (beaume) .stun_begin.animations[0].filename = TR_MO_dag_stun_init.anim
-Mon Dec 01 14:28:38 2003 (beaume) .stun_end.animations[0].filename = TR_MO_dag_stun_end.anim
-Mon Dec 01 14:28:38 2003 (beaume) .stun_loop.animations[0].filename = TR_MO_dag_stun_loop.anim
-Mon Dec 01 14:28:38 2003 (beaume) formName Resized = 1</LOG>
+Fri Apr 18 12:11:20 2003 (arnaudb) .alert_mode.animations[0].filename = TR_MO_dag_dormir_end.anim
+Fri Apr 18 12:11:20 2003 (arnaudb) .combat_mode.animations[0].filename = TR_MO_dag_dormir_end_to_attack.anim
+Fri Apr 18 12:11:20 2003 (arnaudb) .default_mode.animations[0].filename = TR_MO_dag_dormir_end.anim
+Fri Apr 18 12:11:20 2003 (arnaudb) .eat_mode.animations[0].filename = TR_MO_dag_dormir_end.anim
+Fri Apr 18 12:11:20 2003 (arnaudb) .idle.LodCharacterAnimation = TR_MO_dag_dormir_loop.anim
+Fri Apr 18 12:11:20 2003 (arnaudb) .idle.animations[0].filename = TR_MO_dag_dormir_loop.anim
+Fri Apr 18 12:11:20 2003 (arnaudb) formName Resized = 1
+Fri Jun 06 16:55:16 2003 (beaume) .death_mode.animations[0].filename = TR_MO_dag_mort.anim
+Fri Jun 06 16:55:16 2003 (beaume) formName Resized = 1</LOG>
 </FORM>
