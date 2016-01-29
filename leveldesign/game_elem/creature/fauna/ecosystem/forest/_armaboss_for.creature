@@ -3,7 +3,7 @@
   <PARENT Filename="_armaboss.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="Ecosystem" Value="Jungle"/>
+      <ATOM Name="Ecosystem" Value="Forest"/>
       <STRUCT Name="Scores">
         <ATOM Name="HitPoints" Value="default"/>
         <ATOM Name="Stamina" Value="default"/>
