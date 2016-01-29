@@ -13852,31 +13852,27 @@ uiWind	[Vent]
 
 // HASH_VALUE CA841250144F4303
 // INDEX 3275
-uiTheSeasonIs	[C'est la saison ]
+uiTheSeasonIs	[Nous sommes ]
 
 // HASH_VALUE D2F9D8806618D4D4
 // INDEX 3276
 uiAndTheWeatherIs	[ et ]
 
-/* OLD VALUE : [au Printemps] */
-// HASH_VALUE 28DAACAF6DB9C0B8
+// HASH_VALUE A969C4866B77A0A1
 // INDEX 3277
-uiSeason0	[vensa]
+uiSeason0	[au Printemps]
 
-/* OLD VALUE : [en Eté] */
-// HASH_VALUE 2A2A80A9AA09A8A0
+// HASH_VALUE AF372878B1961C8A
 // INDEX 3278
-uiSeason1	[crisa]
+uiSeason1	[en Eté]
 
-/* OLD VALUE : [en Automne] */
-// HASH_VALUE 703AD0BEEB4AFCB5
+// HASH_VALUE B2783863B2451C8F
 // INDEX 3279
-uiSeason2	[critu]
+uiSeason2	[en Automne]
 
-/* OLD VALUE : [en Hiver] */
-// HASH_VALUE ECAAA4ACAD99B4A5
+// HASH_VALUE 3097E4816D26088F
 // INDEX 3280
-uiSeason3	[dunra]
+uiSeason3	[en Hiver]
 
 // HASH_VALUE A44ECD02D7D4B358
 // INDEX 3281
