@@ -13837,21 +13837,25 @@ uiTheSeasonIs	[It's ]
 // INDEX 3276
 uiAndTheWeatherIs	[ and the weather is ]
 
-// HASH_VALUE A969C4866B77A0A1
+/* OLD VALUE : [Spring] */
+// HASH_VALUE 28DAACAF6DB9C0B8
 // INDEX 3277
-uiSeason0	[Spring]
+uiSeason0	[vensa]
 
-// HASH_VALUE AF372878B1961C8A
+/* OLD VALUE : [Summer] */
+// HASH_VALUE 2A2A80A9AA09A8A0
 // INDEX 3278
-uiSeason1	[Summer]
+uiSeason1	[crisa]
 
-// HASH_VALUE B2783863B2451C8F
+/* OLD VALUE : [Autumn] */
+// HASH_VALUE 703AD0BEEB4AFCB5
 // INDEX 3279
-uiSeason2	[Autumn]
+uiSeason2	[critu]
 
-// HASH_VALUE 3097E4816D26088F
+/* OLD VALUE : [Winter] */
+// HASH_VALUE ECAAA4ACAD99B4A5
 // INDEX 3280
-uiSeason3	[Winter]
+uiSeason3	[dunra]
 
 // HASH_VALUE A44ECD02D7D4B358
 // INDEX 3281
