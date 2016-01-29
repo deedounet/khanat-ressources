@@ -6,6 +6,17 @@
 <STRUCT>
 <ATOM Name="filename" Value="tr_mo_arma_manger.anim"/>
 </STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_arma_grattefesse.anim"/>
+</STRUCT>
+</ARRAY>
+<ATOM Name="LodCharacterAnimation" Value="tr_mo_arma_manger.anim"/>
+</STRUCT>
+<STRUCT Name="combat_mode">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_arma_coup_corne.anim"/>
+</STRUCT>
 </ARRAY>
 </STRUCT>
 </STRUCT>
