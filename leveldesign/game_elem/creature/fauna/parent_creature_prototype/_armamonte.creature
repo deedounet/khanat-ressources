@@ -40,7 +40,7 @@
       </STRUCT>
     </STRUCT>
     <STRUCT Name="3d data">
-      <ATOM Name="Skel" Value="TR_MO_arma.skel"/>
+      <ATOM Name="Skel" Value="TR_MO_arma_mount.skel"/>
       <ATOM Name="AnimSetBaseName" Value="arma"/>
       <ATOM Name="LodCharacterName" Value="TR_MO_arma_LOD"/>
       <ATOM Name="LodCharacterDistance" Value="50.0"/>
