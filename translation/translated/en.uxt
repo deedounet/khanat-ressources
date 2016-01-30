@@ -20599,27 +20599,47 @@ uittNpcTitle	[Show frienly NPC's title above the character]
 // INDEX 4831
 uiHands2	[Actions #2]
 
-// HASH_VALUE 9709548D1FC37F4F
-// INDEX 4832
-uiEonSymbiose	[The Symbiosis Eon]
-
 // HASH_VALUE 6DF6CC58EC94FC6E
-// INDEX 4833
+// INDEX 4832
 uiContinentNewbieland	[Khanat]
 
 // HASH_VALUE 2689648C61373089
-// INDEX 4834
+// INDEX 4833
 uiCP_Specie_Race1	[Ucikara]
 
 // HASH_VALUE 24B8E88AE1A72C88
-// INDEX 4835
+// INDEX 4834
 uiCP_Specie_Race2	[Tcara]
 
 // HASH_VALUE 60184B8E2983BC5D
-// INDEX 4836
+// INDEX 4835
 uiCP_Name_Generator	[Random name]
 
 // HASH_VALUE 9E74877558D36016
-// INDEX 4837
+// INDEX 4836
 uiCP_Name_Generate	[Pick a name]
+
+// HASH_VALUE 49CD83BDE7B48392
+// INDEX 4837
+uiEon	[Eon of Symbiosis]
+
+// HASH_VALUE 1756DC99A597F73D
+// INDEX 4838
+uiYear	[Lirri'a]
+
+// HASH_VALUE E42B40BB23CB60B0
+// INDEX 4839
+uiPavdei	[pavdei]
+
+// HASH_VALUE E50960B5256A70A8
+// INDEX 4840
+uiReldei	[reldei]
+
+// HASH_VALUE E6D8808D27E8808F
+// INDEX 4841
+uiCibdei	[cibdei]
+
+// HASH_VALUE 6789B0BF290A98AE
+// INDEX 4842
+uiVondei	[vondei]
 
