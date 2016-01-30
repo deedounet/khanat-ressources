@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.0 $" State="modified">
+  <PARENT Filename="_formuli.creature"/>
+  <PARENT Filename="_ai_herbivore_craintif.creature"/>
+  <PARENT Filename="_medium_slashing_armor_set.creature"/>
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="Race" Value="dag"/>
+      <ATOM Name="DamageLocalisationTable" Value="quadruped"/>
+      <ATOM Name="Size" Value="small"/>
+      <ATOM Name="Profile" Value="caster healer"/>
+      <STRUCT Name="Scores">
+        <ATOM Name="HitPoints" Value="very low"/>
+        <ATOM Name="Sap" Value="default"/>
+        <ATOM Name="Stamina" Value="very low"/>
+      </STRUCT>
+      <STRUCT Name="Equipment">
+        <STRUCT Name="Body">
+          <ATOM Name="Item" Value="pendo_light_slashing_chest.item"/>
+        </STRUCT>
+        <STRUCT Name="Legs">
+          <ATOM Name="Item" Value="light_slashing_legs.item"/>
+        </STRUCT>
+        <STRUCT Name="Arms">
+          <ATOM Name="Item" Value="light_slashing_arms.item"/>
+        </STRUCT>
+        <STRUCT Name="Hands">
+          <ATOM Name="Item" Value="light_slashing_hands.item"/>
+        </STRUCT>
+        <STRUCT Name="Feet">
+          <ATOM Name="Item" Value="light_slashing_feet.item"/>
+        </STRUCT>
+        <STRUCT Name="Head">
+          <ATOM Name="Item" Value="light_slashing_head.item"/>
+        </STRUCT>
+      </STRUCT>
+      <STRUCT Name="MovementSpeeds">
+        <ATOM Name="WalkSpeed" Value="&quot;3d data.Scale&quot;*1.1"/>
+        <ATOM Name="RunSpeed" Value="&quot;3d data.Scale&quot;*3.536918"/>
+      </STRUCT>
+    </STRUCT>
+    <STRUCT Name="3d data">
+      <ATOM Name="Skel" Value="TR_MO_Dag.skel"/>
+      <ATOM Name="AnimSetBaseName" Value="dag"/>
+      <ATOM Name="LodCharacterName" Value="TR_MO_dag_LOD"/>
+      <ATOM Name="LodCharacterDistance" Value="50.0"/>
+      <ATOM Name="NamePosZLow" Value="0.5"/>
+      <ATOM Name="NamePosZNormal" Value="0.7"/>
+    </STRUCT>
+    <STRUCT Name="Harvest">
+      <STRUCT Name="MP1">
+        <ATOM Name="Name" Value="dag meat"/>
+      </STRUCT>
+      <STRUCT Name="MP2">
+        <ATOM Name="Name" Value="dag canines"/>
+      </STRUCT>
+      <STRUCT Name="MP3">
+        <ATOM Name="Name" Value="dag tongue"/>
+      </STRUCT>
+    </STRUCT>
+    <STRUCT Name="Collision">
+      <ATOM Name="CollisionRadius" Value="0.32"/>
+    </STRUCT>
+    <ATOM Name="attack_list1" Value="dag.attack_list"/>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <COMMENTS></COMMENTS>
+  <LOG></LOG>
+</FORM>

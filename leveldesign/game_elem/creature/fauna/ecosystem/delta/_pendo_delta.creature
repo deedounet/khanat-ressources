@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.0 $" State="modified">
+  <PARENT Filename="_pendo.creature"/>
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="Ecosystem" Value="Lacustre"/>
+      <STRUCT Name="Scores">
+        <ATOM Name="HitPoints" Value="default"/>
+        <ATOM Name="Stamina" Value="default"/>
+      </STRUCT>
+      <STRUCT Name="Equipment">
+        <STRUCT Name="Body">
+          <ATOM Name="Texture" Value="Jungle/High Quality/Old"/>
+        </STRUCT>
+      </STRUCT>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <COMMENTS></COMMENTS>
+  <LOG></LOG>
+</FORM>

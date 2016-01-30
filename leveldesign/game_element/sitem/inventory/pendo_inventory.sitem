@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.0 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="basics">
+      <ATOM Name="name" Value="Pendo inventory"/>
+      <ATOM Name="family" Value="bag"/>
+    </STRUCT>
+    <STRUCT Name="bag">
+      <ATOM Name="weight_max" Value="30.0"/>
+      <ATOM Name="bulk_max" Value="30.0"/>
+      <ATOM Name="slot_count" Value="16"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
