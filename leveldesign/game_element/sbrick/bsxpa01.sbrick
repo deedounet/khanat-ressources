@@ -2,10 +2,10 @@
 <FORM Revision="$Revision: 1.10 $" State="modified">
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="FamilyId" Value="BSDMA"/>
-      <ATOM Name="SabrinaCost" Value="0"/>
+      <ATOM Name="FamilyId" Value="BSXPA"/>
+      <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
-      <ATOM Name="Action Nature" Value="FIGHT"/>
+      <ATOM Name="Action Nature" Value="ACTION"/>
       <ATOM Name="Skill" Value="SP"/>
       <ATOM Name="Level" Value="0"/>
     </STRUCT>
