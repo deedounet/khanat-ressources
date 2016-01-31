@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <NEL_WORLD_EDITOR_PROJECT>
   <VERSION>2</VERSION>
-  <DATA_DIRECTORY VALUE="E:\khaganat\depots_data\khaganat-data\continents\newbieland"/>
+  <DATA_DIRECTORY VALUE="L:\continents\newbieland"/>
   <CONTEXT VALUE="default"/>
   <DATABASE_ELEMENT FILENAME="F:\continents\newbieland\newbieland.land" TYPE="landscape">
     <PRIMITIVES VERSION="1">
@@ -10,10 +10,6 @@
         <PROPERTY TYPE="string">
           <NAME>class</NAME>
           <STRING>landscape</STRING>
-        </PROPERTY>
-        <PROPERTY TYPE="string">
-          <NAME>name</NAME>
-          <STRING></STRING>
         </PROPERTY>
       </ROOT_PRIMITIVE>
     </PRIMITIVES>
@@ -26,5 +22,4 @@
   <DATABASE_ELEMENT FILENAME="L:\primitives\newbieland\missions_newbieland.primitive" TYPE="primitive"/>
   <DATABASE_ELEMENT FILENAME="L:\primitives\newbieland\region_newbieland.primitive" TYPE="primitive"/>
   <DATABASE_ELEMENT FILENAME="L:\primitives\newbieland\fauna_newbieland.primitive" TYPE="primitive"/>
-  <DATABASE_ELEMENT FILENAME="E:\khaganat\ryzom_forge\winch_gate\sources_sous_nda\depot_bitbucket\ryzom\ryzom\common\data_leveldesign\primitives\newbieland\fauna_newbieland.primitive" TYPE="primitive"/>
 </NEL_WORLD_EDITOR_PROJECT>
