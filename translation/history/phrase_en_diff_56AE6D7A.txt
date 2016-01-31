@@ -1,0 +1,31 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 2294
+/* OLD VALUE : [
+	WELCOME_RA_WELCOME ()
+	{
+			welcome_ra_welcome	[WELCOME_RA_WELCOME !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_WELCOME ()
+	{
+			welcome_ra_welcome	[WELCOME_RA_WELCOME !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 134ADE9A59390962
+WELCOME_RA_WELCOME ()
+{
+		welcome_ra_welcome	[I am Uil'i, Fellow of the Dispensary, I take care of the Manret and the Reviv here.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

@@ -15006,10 +15006,9 @@ welcome_ra_7	[Don't forget to clean with the broom for the evening.]
 // INDEX 3347
 welcome_ra_8	[Glory to the K ! Glory to the K ! Ahem, to the Khan !]
 
-/* OLD VALUE : [WELCOME_RA_WELCOME !] */
-// HASH_VALUE E59624D5514CBF07
+// HASH_VALUE C40F64454F41803D
 // INDEX 3348
-welcome_ra_welcome	[I am Uil'i, Fellow of the Dispensary, I take care of the Manret and the Reviv here.]
+welcome_ra_welcome	[WELCOME_RA_WELCOME !]
 
 // HASH_VALUE 496EBDD1F11D8F50
 // INDEX 3349

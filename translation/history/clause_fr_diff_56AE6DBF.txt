@@ -1,0 +1,8 @@
+﻿// DIFF CHANGED 3735 
+/* OLD VALUE : [WELCOME_RA_WELCOME !] */
+// HASH_VALUE 86161F265072A417
+// INDEX 0
+welcome_ra_welcome	[Je suis Uil'i, Compagnon du Dispensaire, et je m'occupe du Minaret et du Revif ici.]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

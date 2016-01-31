@@ -49,7 +49,7 @@ WELCOME_RA_8 ()
 
 WELCOME_RA_WELCOME ()
 {
-		welcome_ra_welcome	[WELCOME_RA_WELCOME !]
+		welcome_ra_welcome	[Je suis Uil'i, Compagnon du Dispensaire, et je m'occupe du Minaret et du Revif ici.]
 
 }
 

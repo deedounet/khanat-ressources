@@ -1,0 +1,21 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 1095
+/* OLD VALUE : [
+	WELCOME_RA_WELCOME ()
+	{
+			welcome_ra_welcome	[WELCOME_RA_WELCOME !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 134ADE9A59390962
+WELCOME_RA_WELCOME ()
+{
+		welcome_ra_welcome	[Je suis Uil'i, Compagnon du Dispensaire, et je m'occupe du Minaret et du Revif ici.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

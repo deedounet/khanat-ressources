@@ -14432,10 +14432,9 @@ welcome_ra_7	[Et n'oubliez pas de passer le balai en fin de journée.]
 // INDEX 3348
 welcome_ra_8	[Gloire à K ! Gloire à K ! Euh, au Khan !]
 
-/* OLD VALUE : [WELCOME_RA_WELCOME !] */
-// HASH_VALUE 86161F265072A417
+// HASH_VALUE C40F64454F41803D
 // INDEX 3349
-welcome_ra_welcome	[Je suis Uil'i, Compagnon du Dispensaire, et je m'occupe du Minaret et du Revif ici.]
+welcome_ra_welcome	[WELCOME_RA_WELCOME !]
 
 // HASH_VALUE 496EBDD1F11D8F50
 // INDEX 3350

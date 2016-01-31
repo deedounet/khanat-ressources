@@ -25536,10 +25536,30 @@ WELCOME_RA_8 ()
 
 }
 
-// HASH_VALUE A72969DE18D4549F
+/* OLD VALUE : [
+	WELCOME_RA_WELCOME ()
+	{
+			welcome_ra_welcome	[WELCOME_RA_WELCOME !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WELCOME_RA_WELCOME ()
+	{
+			welcome_ra_welcome	[WELCOME_RA_WELCOME !]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 134ADE9A59390962
 WELCOME_RA_WELCOME ()
 {
-		welcome_ra_welcome	[WELCOME_RA_WELCOME !]
+		welcome_ra_welcome	[Je suis Uil'i, Compagnon du Dispensaire, et je m'occupe du Minaret et du Revif ici.]
 
 }
 
