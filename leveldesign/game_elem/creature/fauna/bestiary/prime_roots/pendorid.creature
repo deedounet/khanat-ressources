@@ -45,6 +45,8 @@
       <ATOM Name="SoundFamily" Value="0"/>
       <ATOM Name="SoundVariation" Value="0"/>
       <ATOM Name="ForceDisplayCreatureName" Value="true"/>
+      <ATOM Name="DisplayInRadar" Value="false"/>
+      <ATOM Name="DisplayBars" Value="false"/>
     </STRUCT>
     <STRUCT Name="Harvest">
       <STRUCT Name="MP1">
@@ -91,6 +93,8 @@
     <STRUCT Name="Properties">
       <ATOM Name="LootHarvestState" Value="Harvestable"/>
       <ATOM Name="XPGainCoef" Value="1"/>
+      <ATOM Name="Attackable" Value="false"/>
+      <ATOM Name="Curativable" Value="true"/>
     </STRUCT>
     <STRUCT Name="Combat">
       <ATOM Name="AggroRadiusNotHungry" Value="15"/>
