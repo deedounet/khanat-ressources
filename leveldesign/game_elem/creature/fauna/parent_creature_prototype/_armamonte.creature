@@ -5,7 +5,7 @@
   <PARENT Filename="_medium_slashing_armor_set.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="Race" Value="arma"/>
+      <ATOM Name="Race" Value="arma_mount"/>
       <ATOM Name="DamageLocalisationTable" Value="quadruped"/>
       <ATOM Name="Size" Value="medium"/>
       <ATOM Name="Profile" Value="caster healer"/>
@@ -59,7 +59,7 @@
       </STRUCT>
     </STRUCT>
     <STRUCT Name="Collision">
-      <ATOM Name="CollisionRadius" Value="0.32"/>
+      <ATOM Name="CollisionRadius" Value="0.60"/>
     </STRUCT>
     <ATOM Name="attack_list1" Value="dag.attack_list"/>
   </STRUCT>

@@ -4,16 +4,10 @@
     <STRUCT Name="idle">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_idle.anim"/>
-        </STRUCT>
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_idle_engarde.anim"/>
-        </STRUCT>
-        <STRUCT>
           <ATOM Name="filename" Value="tr_mo_arma_manger.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_arma_grattefesse.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_idle.anim"/>
         </STRUCT>
       </ARRAY>
       <ATOM Name="LodCharacterAnimation" Value="TR_MO_mektoub_selle_idle.anim"/>
@@ -33,6 +27,13 @@
       </ARRAY>
       <ATOM Name="LodCharacterAnimation" Value="TR_MO_mektoub_selle_marche.anim"/>
     </STRUCT>
+    <STRUCT Name="walk_to_run">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_course.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
     <STRUCT Name="run">
       <ARRAY Name="animations">
         <STRUCT>
@@ -44,7 +45,7 @@
     <STRUCT Name="backward">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_reculer.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_reculer.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -136,13 +137,6 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
-    <STRUCT Name="combat_mode">
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_idle_engarde.anim"/>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
     <STRUCT Name="death_mode">
       <ARRAY Name="animations">
         <STRUCT>
@@ -203,16 +197,19 @@ Fri Apr 18 11:56:12 2003 (arnaudb) .walk.animations[0].filename = TR_MO_dag_marc
 Fri Apr 18 11:56:12 2003 (arnaudb) .walk_to_run.animations[0].filename = TR_MO_dag_marche_to_course.anim
 Fri Apr 18 11:56:12 2003 (arnaudb) formName Resized = 1
 Fri Apr 18 11:56:42 2003 (arnaudb) .rest_mode.animations[0].filename = TR_MO_dag_dormir_init.anim
-Fri Apr 18 14:52:04 2003 (arnaudb) .combat_mode.animations[0].filename = TR_MO_dag_idle_to_engarde.anim
-Fri Apr 18 14:52:04 2003 (arnaudb) formName Resized = 1
-Fri Jun 06 16:54:35 2003 (beaume) .death_mode.animations[0].filename = TR_MO_dag_mort.anim
-Fri Jun 06 16:54:35 2003 (beaume) formName Resized = 1
-Mon Dec 01 14:26:41 2003 (beaume) .stun_begin.animations[0].filename = TR_MO_dag_stun_init.anim
-Mon Dec 01 14:26:41 2003 (beaume) .stun_end.animations[0].filename = TR_MO_dag_stun_end.anim
-Mon Dec 01 14:26:41 2003 (beaume) .stun_loop.animations[0].filename = TR_MO_dag_stun_loop.anim
-Mon Dec 01 14:26:41 2003 (beaume) formName Resized = 1
-Fri Jun 04 11:46:36 2004 (beaume) .idle.animations[5].filename = TR_MO_dag_idle_gratte.anim
-Fri Jun 04 11:46:36 2004 (beaume) .idle.animations[6].filename = TR_MO_dag_faire_beau.anim
-Fri Jun 04 11:46:36 2004 (beaume) formName Resized = 7
-Mon Jun 07 17:34:07 2004 (beaume) formName Resized = 6</LOG>
+Fri Apr 18 12:06:12 2003 (arnaudb) .idle.animations[0].filename = TR_MO_dag_sentir_danger.anim
+Fri Apr 18 12:06:12 2003 (arnaudb) .idle.animations[1].filename = TR_MO_dag_crainte.anim
+Fri Apr 18 12:06:12 2003 (arnaudb) .idle.animations[2].filename = TR_MO_dag_idle.anim
+Fri Apr 18 12:06:12 2003 (arnaudb) formName Resized = 3
+Fri Apr 18 12:07:24 2003 (arnaudb) .idle.animations[0].filename = TR_MO_dag_manger.anim
+Fri Apr 18 12:07:24 2003 (arnaudb) .idle.animations[1].filename = TR_MO_dag_renifle.anim
+Fri Jun 06 16:54:57 2003 (beaume) .death_mode.animations[0].filename = TR_MO_dag_mort.anim
+Fri Jun 06 16:54:57 2003 (beaume) formName Resized = 1
+Tue Jun 24 15:08:25 2003 (beaume) .idle.animations[0].filename = TR_MO_dag_renifle.anim
+Tue Jun 24 15:08:25 2003 (beaume) .idle.animations[1].filename = TR_MO_dag_idle.anim
+Tue Jun 24 15:08:25 2003 (beaume) formName Resized = 2
+Mon Dec 01 14:28:38 2003 (beaume) .stun_begin.animations[0].filename = TR_MO_dag_stun_init.anim
+Mon Dec 01 14:28:38 2003 (beaume) .stun_end.animations[0].filename = TR_MO_dag_stun_end.anim
+Mon Dec 01 14:28:38 2003 (beaume) .stun_loop.animations[0].filename = TR_MO_dag_stun_loop.anim
+Mon Dec 01 14:28:38 2003 (beaume) formName Resized = 1</LOG>
 </FORM>
