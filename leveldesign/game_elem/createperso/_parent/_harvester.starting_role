@@ -174,9 +174,6 @@
         <ATOM Name="Sabrina Phrase" Value="abe_use_item_power.sphrase"/>
         <ATOM Name="Memory Type" Value="Dagger"/>
       </STRUCT>
-      <STRUCT Name="power">
-        <ATOM Name="Sabrina Phrase" Value="absx_speeding_up_01.sphrase"/>
-      </STRUCT>
       <STRUCT Name="extraction">
         <ATOM Name="Sabrina Phrase" Value="abhfepa01.sphrase"/>
         <ATOM Name="Memory Type" Value="Harvest"/>
