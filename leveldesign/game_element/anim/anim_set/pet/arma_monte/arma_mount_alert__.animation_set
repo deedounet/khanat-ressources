@@ -12,6 +12,13 @@
       </ARRAY>
       <ATOM Name="LodCharacterAnimation" Value="TR_MO_mektoub_selle_idle.anim"/>
     </STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_mektoub_selle_idle2.anim"/>
+</STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_mektoub_selle_idle3.anim"/>
+</STRUCT>
+
     <STRUCT Name="idle_to_walk">
       <ARRAY Name="animations">
         <STRUCT>
