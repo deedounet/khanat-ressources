@@ -59,7 +59,7 @@
       </STRUCT>
     </STRUCT>
     <STRUCT Name="Collision">
-      <ATOM Name="CollisionRadius" Value="0.32"/>
+      <ATOM Name="CollisionRadius" Value="0.60"/>
     </STRUCT>
     <ATOM Name="attack_list1" Value="dag.attack_list"/>
   </STRUCT>

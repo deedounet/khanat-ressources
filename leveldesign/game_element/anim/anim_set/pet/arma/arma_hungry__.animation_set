@@ -95,7 +95,7 @@
           <ATOM Name="filename" Value="tr_mo_pachyderme_tourne_gauche.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="Ttr_mo_pachyderme_demitour_gauche.anim"/>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_demitour_gauche.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
