@@ -28,7 +28,7 @@
     <STRUCT Name="backward">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_reculer_atk.anim"/>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_reculer__atk.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
