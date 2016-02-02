@@ -1,0 +1,9 @@
+﻿// DIFF CHANGED 3755 
+/* OLD VALUE : [You don't have enough dappers to buy this.] */
+/* OLD VALUE : [Vous n'avez pas assez d'argent pour acheter cela.] */
+// HASH_VALUE 707D4722D9361F1A
+// INDEX 0
+uittNotEnoughMoney	[Vous n'avez pas assez d'argent pour acheter cela.]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

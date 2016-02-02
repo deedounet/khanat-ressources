@@ -603,10 +603,10 @@ TEMPLATE_TASK_CRAFT_17_TITLE (bot giver, int random, faction f)
 TEMPLATE_TASK_CRAFT_INTRO_1(bot giver, item i1, int qt1, int ql1, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_craft_intro_1_money	[Fabriquez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).]
+		template_task_craft_intro_1_money	[Fabriquez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_craft_intro_1_money_timed		[Fabriquez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_craft_intro_1_money_timed		[Fabriquez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_craft_intro_1_fame_timed		[Fabriquez $qt1$ $i1$ de niveau $ql1$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -617,10 +617,10 @@ TEMPLATE_TASK_CRAFT_INTRO_1(bot giver, item i1, int qt1, int ql1, int reward, in
 TEMPLATE_TASK_CRAFT_INTRO_2(bot giver, item i1, int qt1, int ql1, item i2, int qt2, int ql2, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_craft_intro_2_money	[Fabriquez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).]
+		template_task_craft_intro_2_money	[Fabriquez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_craft_intro_2_money_timed	[Fabriquez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_craft_intro_2_money_timed	[Fabriquez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 	
 	(timelimit > 0)
 		template_task_craft_intro_2_fame_timed	[Fabriquez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -631,10 +631,10 @@ TEMPLATE_TASK_CRAFT_INTRO_2(bot giver, item i1, int qt1, int ql1, item i2, int q
 TEMPLATE_TASK_CRAFT_INTRO_3(bot giver, item i1, int qt1, int ql1, item i2, int qt2, int ql2, item i3, int qt3, int ql3, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_craft_intro_3_money	[Fabriquez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).]
+		template_task_craft_intro_3_money	[Fabriquez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_craft_intro_3_money_timed	[Fabriquez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ t $qt3$ $i3$ de niveau $ql3$, et je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_craft_intro_3_money_timed	[Fabriquez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ t $qt3$ $i3$ de niveau $ql3$, et je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 	
 	(timelimit > 0)
 		template_task_craft_intro_3_fame_timed	[Fabriquez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -1279,10 +1279,10 @@ TEMPLATE_TASK_FORAGE_18_TITLE (bot giver, int random, faction f)
 TEMPLATE_TASK_FORAGE_INTRO_1(bot giver, item i1, int qt1, int ql1, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_forage_intro_1_money	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).]
+		template_task_forage_intro_1_money	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_forage_intro_1_money_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_forage_intro_1_money_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_forage_intro_1_fame_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -1293,10 +1293,10 @@ TEMPLATE_TASK_FORAGE_INTRO_1(bot giver, item i1, int qt1, int ql1, int reward, i
 TEMPLATE_TASK_FORAGE_INTRO_2(bot giver, item i1, int qt1, int ql1, item i2, int qt2, int ql2, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_forage_intro_2_money	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).]
+		template_task_forage_intro_2_money	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_forage_intro_2_money_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_forage_intro_2_money_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_forage_intro_2_fame_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -1307,10 +1307,10 @@ TEMPLATE_TASK_FORAGE_INTRO_2(bot giver, item i1, int qt1, int ql1, item i2, int 
 TEMPLATE_TASK_FORAGE_INTRO_3(bot giver, item i1, int qt1, int ql1, item i2, int qt2, int ql2, item i3, int qt3, int ql3, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_forage_intro_3_money	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).]
+		template_task_forage_intro_3_money	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_forage_intro_3_money_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_forage_intro_3_money_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_forage_intro_3_fame_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -2352,10 +2352,10 @@ TEMPLATE_TASK_FORAGE_GIVE_30_TITLE (bot giver, int random, faction f)
 TEMPLATE_TASK_FORAGE_GIVE_INTRO_1(bot giver, item i1, int qt1, int ql1, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_forage_give_intro_1_money	[Récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).]
+		template_task_forage_give_intro_1_money	[Récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_forage_give_intro_1_money_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_forage_give_intro_1_money_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 		
 	(timelimit > 0)
 		template_task_forage_give_intro_1_fame_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -2366,10 +2366,10 @@ TEMPLATE_TASK_FORAGE_GIVE_INTRO_1(bot giver, item i1, int qt1, int ql1, int rewa
 TEMPLATE_TASK_FORAGE_GIVE_INTRO_2(bot giver, item i1, int qt1, int ql1, item i2, int qt2, int ql2, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_forage_give_intro_2_money	[Récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).]
+		template_task_forage_give_intro_2_money	[Récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_forage_give_intro_2_money_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_forage_give_intro_2_money_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 		
 	(timelimit > 0)
 		template_task_forage_give_intro_2_fame_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -2380,10 +2380,10 @@ TEMPLATE_TASK_FORAGE_GIVE_INTRO_2(bot giver, item i1, int qt1, int ql1, item i2,
 TEMPLATE_TASK_FORAGE_GIVE_INTRO_3(bot giver, item i1, int qt1, int ql1, item i2, int qt2, int ql2, item i3, int qt3, int ql3, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_forage_give_intro_3_money	[Récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).]
+		template_task_forage_give_intro_3_money	[Récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_forage_give_intro_3_money_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_forage_give_intro_3_money_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 		
 	(timelimit > 0)
 		template_task_forage_give_intro_3_fame_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -2633,10 +2633,10 @@ TEMPLATE_TASK_KILL_SPECIES_6_TITLE (bot giver, place region, int random, faction
 TEMPLATE_TASK_KILL_SPECIES_INTRO_1(bot giver, race r1, int qt1, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_kill_species_intro_1_money	[Tuez $qt1$ $r1$, je vous paierai $reward$ dapper(s).]
+		template_task_kill_species_intro_1_money	[Tuez $qt1$ $r1$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_kill_species_intro_1_money_timed	[Tuez $qt1$ $r1$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_kill_species_intro_1_money_timed	[Tuez $qt1$ $r1$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_kill_species_intro_1_fame_timed	[Tuez $qt1$ $r1$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -2647,10 +2647,10 @@ TEMPLATE_TASK_KILL_SPECIES_INTRO_1(bot giver, race r1, int qt1, int reward, int 
 TEMPLATE_TASK_KILL_SPECIES_INTRO_2(bot giver, race r1, int qt1, race r2, int qt2, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_kill_species_intro_2_money	[Tuez $qt1$ $r1$ et $qt2$ $r2$, je vous paierai $reward$ dapper(s).]
+		template_task_kill_species_intro_2_money	[Tuez $qt1$ $r1$ et $qt2$ $r2$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_kill_species_intro_2_money_timed	[Tuez $qt1$ $r1$ et $qt2$ $r2$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_kill_species_intro_2_money_timed	[Tuez $qt1$ $r1$ et $qt2$ $r2$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_kill_species_intro_2_fame_timed	[Tuez $qt1$ $r1$ et $qt2$ $r2$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -2661,10 +2661,10 @@ TEMPLATE_TASK_KILL_SPECIES_INTRO_2(bot giver, race r1, int qt1, race r2, int qt2
 TEMPLATE_TASK_KILL_SPECIES_INTRO_3(bot giver, race r1, int qt1, race r2, int qt2, race r3, int qt3, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_kill_species_intro_3_money	[Tuez $qt1$ $r1$, $qt2$ $r2$ et $qt3$ $r3$, je vous paierai $reward$ dapper(s).]
+		template_task_kill_species_intro_3_money	[Tuez $qt1$ $r1$, $qt2$ $r2$ et $qt3$ $r3$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_kill_species_intro_3_money_timed	[Tuez $qt1$ $r1$, $qt2$ $r2$ et $qt3$ $r3$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_kill_species_intro_3_money_timed	[Tuez $qt1$ $r1$, $qt2$ $r2$ et $qt3$ $r3$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_kill_species_intro_3_fame_timed	[Tuez $qt1$ $r1$, $qt2$ $r2$ et $qt3$ $r3$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -2913,10 +2913,10 @@ TEMPLATE_TASK_TARGET_SPECIES_6_TITLE (bot giver, place region, int random, facti
 TEMPLATE_TASK_TARGET_SPECIES_INTRO_1(bot giver, race r1, int reward, place region, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_target_species_intro_1_money	[Je dois savoir s'il y a des $r1.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dappers.]
+		template_task_target_species_intro_1_money	[Je dois savoir s'il y a des $r1.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.]
 
 	(reward > 0 & timelimit > 0)
-		template_task_target_species_intro_1_money_timed	[Je dois savoir s'il y a des $r1.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dappers.\nMais faites vite car c'est très urgent.]
+		template_task_target_species_intro_1_money_timed	[Je dois savoir s'il y a des $r1.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.\nMais faites vite car c'est très urgent.]
 
 	(timelimit > 0)
 		template_task_target_species_intro_1_fame_timed	[Je dois savoir s'il y a des $r1.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.\nMais faites vite car c'est très urgent.]
@@ -2927,10 +2927,10 @@ TEMPLATE_TASK_TARGET_SPECIES_INTRO_1(bot giver, race r1, int reward, place regio
 TEMPLATE_TASK_TARGET_SPECIES_INTRO_2(bot giver, race r1, race r2, int reward, place region, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_target_species_intro_2_money	[Je dois savoir s'il y a des $r1.p$ et des $r2.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dappers.]
+		template_task_target_species_intro_2_money	[Je dois savoir s'il y a des $r1.p$ et des $r2.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.]
 
 	(reward > 0 & timelimit > 0)
-		template_task_target_species_intro_2_money_timed	[Je dois savoir s'il y a des $r1.p$ et des $r2.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dappers.\nMais faites vite car c'est très urgent.]
+		template_task_target_species_intro_2_money_timed	[Je dois savoir s'il y a des $r1.p$ et des $r2.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.\nMais faites vite car c'est très urgent.]
 
 	(timelimit > 0)
 		template_task_target_species_intro_2_fame_timed	[Je dois savoir s'il y a des $r1.p$ et des $r2.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.\nMais faites vite car c'est très urgent.]
@@ -2941,10 +2941,10 @@ TEMPLATE_TASK_TARGET_SPECIES_INTRO_2(bot giver, race r1, race r2, int reward, pl
 TEMPLATE_TASK_TARGET_SPECIES_INTRO_3(bot giver, race r1, race r2, race r3, int reward, place region, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_target_species_intro_3_money	[Je dois savoir s'il y a des $r1.p$, des $r2.p$ et des $r3.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dappers.]
+		template_task_target_species_intro_3_money	[Je dois savoir s'il y a des $r1.p$, des $r2.p$ et des $r3.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.]
 
 	(reward > 0 & timelimit > 0)
-		template_task_target_species_intro_3_money_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$ et des $r3.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dappers.\nMais faites vite car c'est très urgent.]
+		template_task_target_species_intro_3_money_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$ et des $r3.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.\nMais faites vite car c'est très urgent.]
 
 	(timelimit > 0)
 		template_task_target_species_intro_3_fame_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$ et des $r3.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.\nMais faites vite car c'est très urgent.]
@@ -2955,10 +2955,10 @@ TEMPLATE_TASK_TARGET_SPECIES_INTRO_3(bot giver, race r1, race r2, race r3, int r
 TEMPLATE_TASK_TARGET_SPECIES_INTRO_4(bot giver, race r1, race r2, race r3, race r4, int reward, place region, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_target_species_intro_4_money	[Je dois savoir s'il y a des $r1.p$, des $r2.p$, des $r3.p$ et des $r4.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dappers.]
+		template_task_target_species_intro_4_money	[Je dois savoir s'il y a des $r1.p$, des $r2.p$, des $r3.p$ et des $r4.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.]
 
 	(reward > 0 & timelimit > 0)
-		template_task_target_species_intro_4_money_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$, des $r3.p$ et des $r4.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dappers.\nMais faites vite car c'est très urgent.]
+		template_task_target_species_intro_4_money_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$, des $r3.p$ et des $r4.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.\nMais faites vite car c'est très urgent.]
 
 	(timelimit > 0)
 		template_task_target_species_intro_4_fame_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$, des $r3.p$ et des $r4.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.\nMais faites vite car c'est très urgent.]
@@ -3445,10 +3445,10 @@ TEMPLATE_TASK_GIVE_ITEM_14_TITLE (bot giver, place region, int random, faction f
 TEMPLATE_TASK_GIVE_ITEM_INTRO_1(bot giver, item i1, int qt1, bot dest1, int reward, place region, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_give_item_intro_1_money	[Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez dans $region$, je vous paierai $reward$ dapper(s).]
+		template_task_give_item_intro_1_money	[Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez dans $region$, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0)
-		template_task_give_item_intro_1_money_timed	[Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez dans $region$, je vous paierai $reward$ dapper(s).\nMais faites vite, c'est très urgent !]
+		template_task_give_item_intro_1_money_timed	[Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez dans $region$, je vous paierai $reward$ din(s).\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_give_item_intro_1_fame_timed	[Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez dans $region$, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -3631,10 +3631,10 @@ TEMPLATE_TASK_VISIT_PLACE_4_TITLE (bot giver, int random, faction f)
 TEMPLATE_TASK_VISIT_PLACE_INTRO_1 (bot giver, place op1, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_visit_place_intro_1_money	[Je dois savoir ce qui se passe dans $op1$. Si vous y allez, je vous paierai $reward$ dapper(s).]
+		template_task_visit_place_intro_1_money	[Je dois savoir ce qui se passe dans $op1$. Si vous y allez, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0) 
-		template_task_visit_place_intro_1_money_timed	[Je dois savoir ce qui se passe dans $op1$. Si vous y allez, je vous paierai $reward$ dapper(s).\nMais faites vite car c'est très urgent !]
+		template_task_visit_place_intro_1_money_timed	[Je dois savoir ce qui se passe dans $op1$. Si vous y allez, je vous paierai $reward$ din(s).\nMais faites vite car c'est très urgent !]
 
 	(timelimit > 0) 
 		template_task_visit_place_intro_1_fame_timed	[Je dois savoir ce qui se passe dans $op1$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite car c'est très urgent !]
@@ -3645,10 +3645,10 @@ TEMPLATE_TASK_VISIT_PLACE_INTRO_1 (bot giver, place op1, int reward, int timelim
 TEMPLATE_TASK_VISIT_PLACE_INTRO_2 (bot giver, place op1, place op2, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_visit_place_intro_2_money	[Je dois savoir ce qui se passe dans $op1$ et $op2$. Si vous y allez, je vous paierai $reward$ dapper(s).]
+		template_task_visit_place_intro_2_money	[Je dois savoir ce qui se passe dans $op1$ et $op2$. Si vous y allez, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0) 
-		template_task_visit_place_intro_2_money_timed	[Je dois savoir ce qui se passe dans $op1$ et $op2$. Si vous y allez, je vous paierai $reward$ dapper(s).\nMais faites vite car c'est très urgent !]
+		template_task_visit_place_intro_2_money_timed	[Je dois savoir ce qui se passe dans $op1$ et $op2$. Si vous y allez, je vous paierai $reward$ din(s).\nMais faites vite car c'est très urgent !]
 
 	(timelimit > 0) 
 		template_task_visit_place_intro_2_fame_timed	[Je dois savoir ce qui se passe dans $op1$ et $op2$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite car c'est très urgent !]
@@ -3659,10 +3659,10 @@ TEMPLATE_TASK_VISIT_PLACE_INTRO_2 (bot giver, place op1, place op2, int reward, 
 TEMPLATE_TASK_VISIT_PLACE_INTRO_3 (bot giver, place op1, place op2, place op3, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_visit_place_intro_3_money	[Je dois savoir ce qui se passe dans $op1$, $op2$ et $op3$. Si vous y allez, je vous paierai $reward$ dapper(s).]
+		template_task_visit_place_intro_3_money	[Je dois savoir ce qui se passe dans $op1$, $op2$ et $op3$. Si vous y allez, je vous paierai $reward$ din(s).]
 
 	(reward > 0 & timelimit > 0) 
-		template_task_visit_place_intro_3_money_timed	[Je dois savoir ce qui se passe dans $op1$, $op2$ et $op3$. Si vous y allez, je vous paierai $reward$ dapper(s).\nMais faites vite car c'est très urgent !]
+		template_task_visit_place_intro_3_money_timed	[Je dois savoir ce qui se passe dans $op1$, $op2$ et $op3$. Si vous y allez, je vous paierai $reward$ din(s).\nMais faites vite car c'est très urgent !]
 
 	(timelimit > 0) 
 		template_task_visit_place_intro_3_fame_timed	[Je dois savoir ce qui se passe dans $op1$, $op2$ et $op3$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite car c'est très urgent !]
@@ -4676,10 +4676,10 @@ TEMPLATE_TASK_LOOT_GIVE_35_TITLE (bot giver, int random, faction f)
 TEMPLATE_TASK_LOOT_GIVE_INTRO_1 (bot giver, item i1, int qt1, int ql1, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_loot_give_intro_1_money	[Il me faut $qt1$ $i1$ de qualité $ql1$. Si vous m'en rapportez, je vous paierai $reward$ dappers.]
+		template_task_loot_give_intro_1_money	[Il me faut $qt1$ $i1$ de qualité $ql1$. Si vous m'en rapportez, je vous paierai $reward$ dins.]
 
 	(reward > 0 & timelimit > 0)
-		template_task_loot_give_intro_1_money_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$. Si vous m'en rapportez, je vous paierai $reward$ dappers.\nMais faites vite, c'est très urgent !]
+		template_task_loot_give_intro_1_money_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$. Si vous m'en rapportez, je vous paierai $reward$ dins.\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_loot_give_intro_1_fame_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$. Si vous m'en rapportez, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -4690,10 +4690,10 @@ TEMPLATE_TASK_LOOT_GIVE_INTRO_1 (bot giver, item i1, int qt1, int ql1, int rewar
 TEMPLATE_TASK_LOOT_GIVE_INTRO_2 (bot giver, item i1, int qt1, int ql1, item i2, int qt2, int ql2, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_loot_give_intro_2_money	[Il me faut $qt1$ $i1$ de qualité $ql1$ et $qt2$ $i2$ de qualité $ql2$. Si vous m'en rapportez, je vous paierai $reward$ dappers.]
+		template_task_loot_give_intro_2_money	[Il me faut $qt1$ $i1$ de qualité $ql1$ et $qt2$ $i2$ de qualité $ql2$. Si vous m'en rapportez, je vous paierai $reward$ dins.]
 
 	(reward > 0 & timelimit > 0)
-		template_task_loot_give_intro_2_money_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$ et $qt2$ $i2$ de qualité $ql2$. Si vous m'en rapportez, je vous paierai $reward$ dappers.\nMais faites vite, c'est très urgent !]
+		template_task_loot_give_intro_2_money_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$ et $qt2$ $i2$ de qualité $ql2$. Si vous m'en rapportez, je vous paierai $reward$ dins.\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_loot_give_intro_2_fame_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$ et $qt2$ $i2$ de qualité $ql2$. Si vous m'en rapportez, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -4704,10 +4704,10 @@ TEMPLATE_TASK_LOOT_GIVE_INTRO_2 (bot giver, item i1, int qt1, int ql1, item i2, 
 TEMPLATE_TASK_LOOT_GIVE_INTRO_3 (bot giver, item i1, int qt1, int ql1, item i2, int qt2, int ql2, item i3, int qt3, int ql3, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0)
-		template_task_loot_give_intro_3_money	[Il me faut $qt1$ $i1$ de qualité $ql1$, $qt2$ $i2$ de qualité $ql2$ et $qt3$ $i3$ de qualité $ql3$. Si vous m'en rapportez, je vous paierai $reward$ dappers.]
+		template_task_loot_give_intro_3_money	[Il me faut $qt1$ $i1$ de qualité $ql1$, $qt2$ $i2$ de qualité $ql2$ et $qt3$ $i3$ de qualité $ql3$. Si vous m'en rapportez, je vous paierai $reward$ dins.]
 
 	(reward > 0 & timelimit > 0)
-		template_task_loot_give_intro_3_money_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$, $qt2$ $i2$ de qualité $ql2$ et $qt3$ $i3$ de qualité $ql3$. Si vous m'en rapportez, je vous paierai $reward$ dappers.\nMais faites vite, c'est très urgent !]
+		template_task_loot_give_intro_3_money_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$, $qt2$ $i2$ de qualité $ql2$ et $qt3$ $i3$ de qualité $ql3$. Si vous m'en rapportez, je vous paierai $reward$ dins.\nMais faites vite, c'est très urgent !]
 
 	(timelimit > 0)
 		template_task_loot_give_intro_3_fame_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$, $qt2$ $i2$ de qualité $ql2$ et $qt3$ $i3$ de qualité $ql3$. Si vous m'en rapportez, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, c'est très urgent !]
@@ -5059,7 +5059,7 @@ TEMPLATE_TASK_KILL_NPC_INTRO_BANDIT (bot giver, bot_name target, int qt, int rew
 		template_task_kill_npc_intro_bandit_money	[Eliminez $qt$ membres de $target$, des bandits notoires, je vous paierai $reward$.]
 
 	(reward > 0 & timelimit > 0) 
-		template_task_kill_npc_intro_bandit_money_timed	[Eliminez $qt$ membres de $target$, des bandits notoires, je vous paierai $reward$ dappers.\nMais faites vite car c'est très urgent !]
+		template_task_kill_npc_intro_bandit_money_timed	[Eliminez $qt$ membres de $target$, des bandits notoires, je vous paierai $reward$ dins.\nMais faites vite car c'est très urgent !]
 
 	(timelimit > 0) 
 		template_task_kill_npc_intro_bandit_fame_timed	[Eliminez $qt$ membres de $target$, des bandits notoires, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais faites vite, car c'est très urgent.]
@@ -5075,10 +5075,10 @@ TEMPLATE_TASK_KILL_NPC_OBJECTIVE_BANDIT_1 (bot_name target, int qt, int random, 
 TEMPLATE_TASK_KILL_NPC_INTRO_TRIBE (bot giver, faction target, int qt, int reward, int timelimit, int random, faction f)
 {
 	(reward > 0 & timelimit = 0) 
-		template_task_kill_npc_intro_tribe_money	[Eliminez $qt$ $target.member$, une tribu ennemie et je vous paierai $reward$ dappers.]
+		template_task_kill_npc_intro_tribe_money	[Eliminez $qt$ $target.member$, une tribu ennemie et je vous paierai $reward$ dins.]
 
 	(reward > 0 & timelimit > 0) 
-		template_task_kill_npc_intro_tribe_money_timed	[Eliminez $qt$ $target.member$, une tribu ennemie, je vous paierai $reward$ dappers.\nMais ne traînez pas car c'est très urgent!]
+		template_task_kill_npc_intro_tribe_money_timed	[Eliminez $qt$ $target.member$, une tribu ennemie, je vous paierai $reward$ dins.\nMais ne traînez pas car c'est très urgent!]
 
 	(timelimit > 0) 
 		template_task_kill_npc_intro_tribe_fame_timed	[Eliminez $qt$ $target.member$, une tribu ennemie, $f.mda$ $f.member$ vous en seront reconnaissants.\nMais ne traînez pas car c'est très urgent!]

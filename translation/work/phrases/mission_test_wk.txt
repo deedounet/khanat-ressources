@@ -321,7 +321,7 @@ TEST_13_TITLE (bot b)
 
 TEST_13_DESC (bot dummy, int i, int ql, int qu, item it) 
 {
-	[on doit d'abord rester dans Aegus, sinon echec de la mission au bout de 30 secondes. Parler au bot annule la condition. On doit ensuite rester hors de Aegus sinon echec apres 60 sec., TEST de variable de prix: $qu$ $it$ de qualité $ql$ =  $i$ dappers ]
+	[on doit d'abord rester dans Aegus, sinon echec de la mission au bout de 30 secondes. Parler au bot annule la condition. On doit ensuite rester hors de Aegus sinon echec apres 60 sec., TEST de variable de prix: $qu$ $it$ de qualité $ql$ =  $i$ dins ]
 }
 
 TEST_13_TALK_TO_1 ()
