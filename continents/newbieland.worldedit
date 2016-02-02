@@ -20,6 +20,6 @@
   <DATABASE_ELEMENT FILENAME="L:\primitives\newbieland\deposit_newbieland.primitive" TYPE="primitive"/>
   <DATABASE_ELEMENT FILENAME="L:\primitives\newbieland\guild_missions.primitive" TYPE="primitive"/>
   <DATABASE_ELEMENT FILENAME="L:\primitives\newbieland\missions_newbieland.primitive" TYPE="primitive"/>
-  <DATABASE_ELEMENT FILENAME="L:\primitives\newbieland\region_newbieland.primitive" TYPE="primitive"/>
   <DATABASE_ELEMENT FILENAME="L:\primitives\newbieland\fauna_newbieland.primitive" TYPE="primitive"/>
+  <DATABASE_ELEMENT FILENAME="L:\primitives\newbieland\region_newbieland.primitive" TYPE="primitive"/>
 </NEL_WORLD_EDITOR_PROJECT>

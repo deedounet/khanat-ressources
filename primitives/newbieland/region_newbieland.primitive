@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="69"/>
+    <ALIAS LAST_GENERATED="71"/>
     <CHILD TYPE="CPrimZone">
-      <PT X="8151.677734" Y="-10235.128906" Z="0.000000"/>
-      <PT X="8152.669434" Y="-12102.017578" Z="0.000000"/>
-      <PT X="11231.512695" Y="-12150.895508" Z="0.000000"/>
-      <PT X="11240.133789" Y="-10259.869141" Z="0.000000"/>
+      <PT X="8161.096680" Y="-10220.033203" Z="0.000000"/>
+      <PT X="8143.760742" Y="-12086.841797" Z="0.000000"/>
+      <PT X="11221.975586" Y="-12165.943359" Z="0.000000"/>
+      <PT X="11249.161133" Y="-10275.092773" Z="0.000000"/>
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
         <STRING>continent</STRING>
@@ -228,6 +228,56 @@
             <STRING>normal</STRING>
           </PROPERTY>
         </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>stables</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>stables_5</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimZone">
+            <PT X="8810.063477" Y="-10638.822266" Z="0.000000" SELECTED="true"/>
+            <PT X="8806.316406" Y="-10643.187500" Z="0.000000"/>
+            <PT X="8804.288086" Y="-10646.315430" Z="0.000000"/>
+            <PT X="8807.725586" Y="-10652.915039" Z="0.000000"/>
+            <PT X="8812.949219" Y="-10657.968750" Z="0.000000"/>
+            <PT X="8826.012695" Y="-10655.561523" Z="0.000000"/>
+            <PT X="8826.872070" Y="-10643.668945" Z="0.000000"/>
+            <PT X="8821.200195" Y="-10635.831055" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>stable</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>stable_1</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimPoint">
+              <PT X="8811.333984" Y="-10646.211914" Z="0.000000"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>stable_entry</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>stable entry</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="71"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
       </CHILD>
       <CHILD TYPE="CPrimZone">
         <PT X="10138.448242" Y="-11663.740234" Z="0.000000" SELECTED="true"/>
@@ -356,12 +406,12 @@
         </CHILD>
       </CHILD>
       <CHILD TYPE="CPrimZone">
-        <PT X="8155.141602" Y="-10231.717773" Z="0.000000"/>
-        <PT X="8146.341309" Y="-11051.594727" Z="0.000000"/>
-        <PT X="8631.332031" Y="-11047.031250" Z="0.000000"/>
-        <PT X="8643.828125" Y="-12045.198242" Z="0.000000" SELECTED="true"/>
-        <PT X="11037.241211" Y="-12024.134766" Z="0.000000"/>
-        <PT X="11135.844727" Y="-10235.251953" Z="0.000000"/>
+        <PT X="8390.598633" Y="-9990.563477" Z="0.000000"/>
+        <PT X="8190.644531" Y="-10785.732422" Z="0.000000"/>
+        <PT X="8663.299805" Y="-10894.513672" Z="0.000000"/>
+        <PT X="8442.433594" Y="-11868.019531" Z="0.000000" SELECTED="true"/>
+        <PT X="10774.633789" Y="-12406.268555" Z="0.000000"/>
+        <PT X="11288.119141" Y="-10689.831055" Z="0.000000"/>
         <PROPERTY TYPE="string">
           <NAME>class</NAME>
           <STRING>region</STRING>
