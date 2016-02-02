@@ -163,6 +163,13 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="mount_default_mode"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_idle.anim"/>
+        </STRUCT>
+      </ARRAY>
+      </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

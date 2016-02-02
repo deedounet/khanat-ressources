@@ -7,7 +7,7 @@
     <STRUCT Name="Basics">
       <ATOM Name="Race" Value="arma_mount"/>
       <ATOM Name="DamageLocalisationTable" Value="quadruped"/>
-      <ATOM Name="Size" Value="medium"/>
+      <ATOM Name="Size" Value="small"/>
       <ATOM Name="Profile" Value="caster healer"/>
       <STRUCT Name="Scores">
         <ATOM Name="HitPoints" Value="very low"/>
