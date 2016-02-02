@@ -102,7 +102,7 @@
     <STRUCT Name="strafe_right">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="tr_mo_pachyderme_strafe_droit_engarde.anim"/>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_strafe_droite_engarde.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>

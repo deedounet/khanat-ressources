@@ -72,7 +72,7 @@
           <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroite.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droit.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -89,10 +89,10 @@
     <STRUCT Name="turn_right_to_walk">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroit.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droit.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -112,7 +112,7 @@
           <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroite.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droit.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>

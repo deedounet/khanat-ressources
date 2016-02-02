@@ -45,7 +45,7 @@
     <STRUCT Name="backward">
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_reculer.anim"/>
+          <ATOM Name="filename" Value="tr_mo_pachyderme_reculer.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -65,7 +65,7 @@
           <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroite.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droit.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -85,7 +85,7 @@
           <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroite.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droit.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -105,7 +105,7 @@
           <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroite.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droit.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>

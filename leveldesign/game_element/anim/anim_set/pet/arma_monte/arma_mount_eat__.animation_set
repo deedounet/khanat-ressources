@@ -65,7 +65,7 @@
           <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroite.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droit.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -85,7 +85,7 @@
           <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroite.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droit.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
@@ -105,7 +105,7 @@
           <ATOM Name="filename" Value="TR_MO_mektoub_selle_tournedroite.anim"/>
         </STRUCT>
         <STRUCT>
-          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droite.anim"/>
+          <ATOM Name="filename" Value="TR_MO_mektoub_selle_demitour_droit.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
