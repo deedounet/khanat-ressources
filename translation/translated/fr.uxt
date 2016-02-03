@@ -15840,7 +15840,9 @@ uiCosmColor	[Changer de Couleur de Cheveux]
 // INDEX 3754
 uiCosmTatoo	[Changer de Tatouages]
 
-// HASH_VALUE 33E1FC3EAFFB23D5
+/* OLD VALUE : [You don't have enough dappers to buy this.] */
+/* OLD VALUE : [Vous n'avez pas assez d'argent pour acheter cela.] */
+// HASH_VALUE 707D4722D9361F1A
 // INDEX 3755
 uittNotEnoughMoney	[Vous n'avez pas assez d'argent pour acheter cela.]
 

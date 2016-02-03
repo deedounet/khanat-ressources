@@ -1,0 +1,8 @@
+﻿// DIFF CHANGED 3348 
+/* OLD VALUE : [WELCOME_RA_WELCOME !] */
+// HASH_VALUE E59624D5514CBF07
+// INDEX 0
+welcome_ra_welcome	[I am Uil'i, Fellow of the Dispensary, I take care of the Manret and the Reviv here.]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE
