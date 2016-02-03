@@ -61,24 +61,84 @@ ANIMAL_DISEAPER (int number)
 
 }
 
-// HASH_VALUE 39F66466A4E64E98
+/* OLD VALUE : [
+	ANIMAL_FOLLOW_TOO_FAR ()
+	{
+				[&CHK&Your following mektoub is too far from you and can't follow you any longer.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	ANIMAL_FOLLOW_TOO_FAR ()
+	{
+				[&CHK&Your following mektoub is too far from you and can't follow you any longer.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 99FFD0B391939CDA
 ANIMAL_FOLLOW_TOO_FAR ()
 {
-			[&CHK&Your following mektoub is too far from you and can't follow you any longer.]
+			[&CHK&Your following animal is too far from you and can't follow you any longer.]
 
 }
 
-// HASH_VALUE 12D1997374047D93
+/* OLD VALUE : [
+	ANIMAL_HAS_EATEN ()
+	{
+				[&ITM&Your mektoub has eaten some food from his inventory, and can now run.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	ANIMAL_HAS_EATEN ()
+	{
+				[&ITM&Your mektoub has eaten some food from his inventory and can now run.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 2CB10FD454399C60
 ANIMAL_HAS_EATEN ()
 {
-			[&ITM&Your mektoub has eaten some food from his inventory and can now run.]
+			[&ITM&Your animal has eaten some food from his inventory, and can now run.]
 
 }
 
-// HASH_VALUE 5E15D565252DCAD8
+/* OLD VALUE : [
+	ANIMAL_HUNGRY ()
+	{
+				[&CHK&Your mektoub is hungry, and can't run any longer.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	ANIMAL_HUNGRY ()
+	{
+				[&CHK&Your mektoub is hungry and can't run any longer.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 7DE5B9699125A873
 ANIMAL_HUNGRY ()
 {
-			[&CHK&Your mektoub is hungry and can't run any longer.]
+			[&CHK&Your animal is hungry, and can't run any longer.]
 
 }
 
@@ -103,10 +163,30 @@ ANIMAL_MOUNTED ()
 
 }
 
-// HASH_VALUE 3B34A8E429F9828F
+/* OLD VALUE : [
+	ANIMAL_PACKER_TOO_ENCUMBERED ()
+	{
+				[&CHK& Your mektoub is too encumbered.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	ANIMAL_PACKER_TOO_ENCUMBERED ()
+	{
+				[&CHK& Your mektoub is too encumbered.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 694880996787AB29
 ANIMAL_PACKER_TOO_ENCUMBERED ()
 {
-			[&CHK& Your mektoub is too encumbered.]
+			[&CHK& Your animal is too encumbered.]
 
 }
 
@@ -3175,10 +3255,30 @@ EGS_ACTOR_VAMPIRISE_EI (entity target, int vampirise)
 
 }
 
-// HASH_VALUE 7B2438D04B0B3990
+/* OLD VALUE : [
+	EGS_ALREADY_HAVE_MOUNT ()
+	{
+				[&CHK&You can only have one mektoub mount.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	EGS_ALREADY_HAVE_MOUNT ()
+	{
+				[&CHK&You can only have one mektoub mount.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 2022AF5B70C48C2B
 EGS_ALREADY_HAVE_MOUNT ()
 {
-			[&CHK&You can only have one mektoub mount.]
+			[&CHK&You can only have one mount.]
 
 }
 
@@ -3206,10 +3306,30 @@ EGS_CANNOT_ATTACK_IN_WATER ()
 
 }
 
-// HASH_VALUE 3CA08907433C2D81
+/* OLD VALUE : [
+	EGS_CANT_BUY_ANOTHER_PACKER ()
+	{
+				[&CHK&You can't buy another mektoub packer.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	EGS_CANT_BUY_ANOTHER_PACKER ()
+	{
+				[&CHK&You can't buy another mektoub packer.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE E19E009268F5801C
 EGS_CANT_BUY_ANOTHER_PACKER ()
 {
-			[&CHK&You can't buy another mektoub packer.]
+			[&CHK&You can't buy another packer.]
 
 }
 
@@ -10233,6 +10353,55 @@ FORAGE_XP_PROSPECTION (int i)
 
 }
 
+// HASH_VALUE 0AA37F8082C7DC74
+FREDI_SINGER ()
+{
+		fredi_singer	[You're so nice to take some interest to such a modest artist I am. Fredi, at your service.]
+
+}
+
+// HASH_VALUE B83E035D4947BADF
+FREDI_SING_1 ()
+{
+		fredi_sing_1	[♩ ♪  Is this the real life? Is this just fantasy? ♫ ♪]
+
+}
+
+// HASH_VALUE 6F09DC3A0AE3A8E2
+FREDI_SING_2 ()
+{
+		fredi_sing_2	[♩ ♫  I want to break free, I want to break free ♫ ♬]
+
+}
+
+// HASH_VALUE 7EC8EE43F43DA3D6
+FREDI_SING_3 ()
+{
+		fredi_sing_3	[♬ ♪  Who wants to live forever? ♫ ♪]
+
+}
+
+// HASH_VALUE 69B3D0C67EB6C586
+FREDI_SING_4 ()
+{
+		fredi_sing_4	[♩ ♪  Oh yes, I'm the great pretender ♩ ♬]
+
+}
+
+// HASH_VALUE 162497C363D7F7E4
+FREDI_SING_5 ()
+{
+		fredi_sing_5	[♬ ♪  It's a kind of magic, A kind of magic, ♫ ♬]
+
+}
+
+// HASH_VALUE 0B559619AB475D86
+FREDI_SING_6 ()
+{
+		fredi_sing_6	[♩ ♪ We are the champions my friends ♫ ♬]
+
+}
+
 // HASH_VALUE 97FBED35661630F3
 GMOTD (literal s)
 {
@@ -10753,17 +10922,6 @@ INVENTORY_BUY_ITEM (item item, int qty, int cost, int fp)
 
 }
 
-// HASH_VALUE 3BB0C78E27A1AE96
-INVENTORY_BUY_ITEM_DINS (item item, int qty, int cost)
-{
-	(qty=1) 
-			[&ITM&You have just bought $item.ia$ $item$ for $cost$ seeds.]
-
-	(qty>1) 
-			[&ITM&You have just bought $qty$ $item.p$ for $cost$ seeds.]
-
-}
-
 // HASH_VALUE AB16739C8E77D070
 INVENTORY_BUY_ITEM_FP (item item, int qty, int fp)
 {
@@ -10783,6 +10941,17 @@ INVENTORY_BUY_ITEM_RRP (item item, int qty, int rrpLevel, int rrps)
 
 	(qty>1) 
 			[&ITM&You have just bought $qty$ $item.p$ for $rrps$ ring reward points of level $rrpLevel$.]
+
+}
+
+// HASH_VALUE 3BB0C78E27A1AE96
+INVENTORY_BUY_ITEM_dinS (item item, int qty, int cost)
+{
+	(qty=1) 
+			[&ITM&You have just bought $item.ia$ $item$ for $cost$ seeds.]
+
+	(qty>1) 
+			[&ITM&You have just bought $qty$ $item.p$ for $cost$ seeds.]
 
 }
 

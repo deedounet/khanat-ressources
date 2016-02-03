@@ -147,11 +147,5 @@
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
-  <LOG>Thu Apr 20 18:45:08 2006 (gueney) .Properties.XPGainCoef = 1
-Mon Mar 12 15:16:08 2007 (kalhart) .Basics.AttackLevel = 1
-Mon Mar 12 15:16:08 2007 (kalhart) .Basics.DefenseLevel = 1
-Mon Mar 12 15:16:08 2007 (kalhart) .Basics.XPLevel = 1
-Mon Mar 12 15:16:08 2007 (kalhart) .Combat.AggroRadiusD1 = 100
-Mon Mar 12 15:16:08 2007 (kalhart) .Combat.AggroRadiusD2 = 50
-Mon Mar 12 15:58:16 2007 (kalhart) .Basics.NbHitToKillPlayer = 15</LOG>
+  <LOG></LOG>
 </FORM>

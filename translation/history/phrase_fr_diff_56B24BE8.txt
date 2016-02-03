@@ -1,0 +1,251 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 9
+/* OLD VALUE : [
+	ANIMAL_FOLLOW_TOO_FAR ()
+	{
+				[&CHK&Your following mektoub is too far from you and can't follow you any longer.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	ANIMAL_FOLLOW_TOO_FAR ()
+	{
+				[&CHK&Votre familier est trop loin et n'arrive plus à vous suivre.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 99FFD0B391939CDA
+ANIMAL_FOLLOW_TOO_FAR ()
+{
+			[&CHK&Votre familier est trop loin et n'arrive plus à vous suivre.]
+
+}
+
+// DIFF CHANGED 10
+/* OLD VALUE : [
+	ANIMAL_HAS_EATEN ()
+	{
+				[&ITM&Your mektoub has eaten some food from his inventory, and can now run.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	ANIMAL_HAS_EATEN ()
+	{
+				[&ITM&Votre familier a mangé certains des aliments de son inventaire et peut courir à nouveau.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 2CB10FD454399C60
+ANIMAL_HAS_EATEN ()
+{
+			[&ITM&Votre familier a mangé certains des aliments de son inventaire et peut courir à nouveau.]
+
+}
+
+// DIFF CHANGED 11
+/* OLD VALUE : [
+	ANIMAL_HUNGRY ()
+	{
+				[&CHK&Your mektoub is hungry, and can't run any longer.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	ANIMAL_HUNGRY ()
+	{
+				[&CHK&Votre familier est affamé et ne peut plus courir.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 7DE5B9699125A873
+ANIMAL_HUNGRY ()
+{
+			[&CHK&Votre familier est affamé et ne peut plus courir.]
+
+}
+
+// DIFF CHANGED 15
+/* OLD VALUE : [
+	ANIMAL_PACKER_TOO_ENCUMBERED ()
+	{
+				[&CHK& Your mektoub is too encumbered.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	ANIMAL_PACKER_TOO_ENCUMBERED ()
+	{
+				[&CHK&Votre mektoub est trop chargé.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 694880996787AB29
+ANIMAL_PACKER_TOO_ENCUMBERED ()
+{
+			[&CHK&Votre animal est trop chargé.]
+
+}
+
+// DIFF CHANGED 386
+/* OLD VALUE : [
+	EGS_ALREADY_HAVE_MOUNT ()
+	{
+				[&CHK&You can only have one mektoub mount.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	EGS_ALREADY_HAVE_MOUNT ()
+	{
+				[&CHK&Vous ne pouvez avoir qu'une seule monture.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 2022AF5B70C48C2B
+EGS_ALREADY_HAVE_MOUNT ()
+{
+			[&CHK&Vous ne pouvez avoir qu'une seule monture.]
+
+}
+
+// DIFF CHANGED 390
+/* OLD VALUE : [
+	EGS_CANT_BUY_ANOTHER_PACKER ()
+	{
+				[&CHK&You can't buy another mektoub packer.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	EGS_CANT_BUY_ANOTHER_PACKER ()
+	{
+				[&CHK&Vous ne pouvez pas acheter un autre mektoub de bât.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE E19E009268F5801C
+EGS_CANT_BUY_ANOTHER_PACKER ()
+{
+			[&CHK&Vous ne pouvez pas acheter un autre animal de bât.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 0AA37F8082C7DC74
+FREDI_SINGER ()
+{
+		fredi_singer	[C'est bien aimable de vous intéresser au modeste artiste que je suis. Fredi, à votre service.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE B83E035D4947BADF
+FREDI_SING_1 ()
+{
+		fredi_sing_1	[♩ ♪  Is this the real life? Is this just fantasy? ♫ ♪]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 6F09DC3A0AE3A8E2
+FREDI_SING_2 ()
+{
+		fredi_sing_2	[♩ ♫  I want to break free, I want to break free ♫ ♬]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 7EC8EE43F43DA3D6
+FREDI_SING_3 ()
+{
+		fredi_sing_3	[♬ ♪  Who wants to live forever? ♫ ♪]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 69B3D0C67EB6C586
+FREDI_SING_4 ()
+{
+		fredi_sing_4	[♩ ♪  Oh yes, I'm the great pretender ♩ ♬]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 162497C363D7F7E4
+FREDI_SING_5 ()
+{
+		fredi_sing_5	[♬ ♪  It's a kind of magic, A kind of magic, ♫ ♬]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 0B559619AB475D86
+FREDI_SING_6 ()
+{
+		fredi_sing_6	[♩ ♪ We are the champions my friends ♫ ♬]
+
+}
+
+// DIFF REMOVED
+// HASH_VALUE 3BB0C78E27A1AE96
+INVENTORY_BUY_ITEM_Dins (item item, int qty, int cost)
+{
+	(qty=1) 
+			[&ITM&You have just bought $item.ia$ $item$ for $cost$ seeds.]
+
+	(qty>1) 
+			[&ITM&You have just bought $qty$ $item.p$ for $cost$ seeds.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 3BB0C78E27A1AE96
+INVENTORY_BUY_ITEM_dinS (item item, int qty, int cost)
+{
+	(qty=1) 
+			[&ITM&You have just bought $item.ia$ $item$ for $cost$ seeds.]
+
+	(qty>1) 
+			[&ITM&You have just bought $qty$ $item.p$ for $cost$ seeds.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

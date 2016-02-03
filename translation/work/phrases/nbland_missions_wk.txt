@@ -108,3 +108,39 @@ ANSWER_WHAT ()
 {
 		answer_what	[Pardon ?]
 }
+
+FREDI_SINGER ()
+{
+		fredi_singer	[C'est bien aimable de vous intéresser au modeste artiste que je suis. Fredi, à votre service.]
+}
+
+FREDI_SING_1 ()
+{
+		fredi_sing_1	[♩ ♪  Is this the real life? Is this just fantasy? ♫ ♪]
+}
+
+FREDI_SING_2 ()
+{
+		fredi_sing_2	[♩ ♫  I want to break free, I want to break free ♫ ♬]
+}
+
+FREDI_SING_3 ()
+{
+		fredi_sing_3	[♬ ♪  Who wants to live forever? ♫ ♪]
+}
+
+FREDI_SING_4 ()
+{
+		fredi_sing_4	[♩ ♪  Oh yes, I'm the great pretender ♩ ♬]
+}
+
+FREDI_SING_5 ()
+{
+		fredi_sing_5	[♬ ♪  It's a kind of magic, A kind of magic, ♫ ♬]
+}
+
+FREDI_SING_6 ()
+{
+		fredi_sing_6	[♩ ♪ We are the champions my friends ♫ ♬]
+}
+

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="1266"/>
+    <ALIAS LAST_GENERATED="1269"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -514,48 +514,13 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>VPA:A15C14000010D21A</STRING>
+              <STRING>VPA:A08C14000010D21B</STRING>
               <STRING>VPB:000000C0CC0A0000</STRING>
-              <STRING>VPC:00265E0007D8BDA5</STRING>
+              <STRING>VPC:001625F805C2E9B4</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
               <STRING>nbland_marchand_pet$fct_pet_marchand$</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>sheet_client</NAME>
-              <STRING>dispensary_tcara</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>vertical_pos</NAME>
-              <STRING>auto</STRING>
-            </PROPERTY>
-            <CHILD TYPE="CPrimAlias">
-              <ALIAS VALUE="1265"/>
-              <PROPERTY TYPE="string">
-                <NAME>class</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string">
-                <NAME>name</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-            </CHILD>
-          </CHILD>
-          <CHILD TYPE="CPrimPoint">
-            <PT X="8816.295898" Y="-10646.112305" Z="0.000000"/>
-            <ANGLE VALUE="1.639519"/>
-            <PROPERTY TYPE="string_array">
-              <NAME>chat_parameters</NAME>
-              <STRING>shop : HAIRDRESSING_FEMALE:HAIRDRESSING_MALE</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>class</NAME>
-              <STRING>npc_bot</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>name</NAME>
-              <STRING>nbland_esthetics</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
@@ -566,7 +531,7 @@
               <STRING>auto</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
-              <ALIAS VALUE="1266"/>
+              <ALIAS VALUE="1265"/>
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
                 <STRING>alias</STRING>
@@ -695,6 +660,277 @@
               <PROPERTY TYPE="string">
                 <NAME>name</NAME>
                 <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>fredi_singer</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="1267"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8821.555664" Y="-10631.227539" Z="0.000000"/>
+            <ANGLE VALUE="1.639519"/>
+            <PROPERTY TYPE="string_array">
+              <NAME>chat_parameters</NAME>
+              <STRING>menu: MENU_WHOAMI FREDI_SINGER</STRING>
+              <STRING>shop : Matis:Fyros:HAIRDRESSING_FEMALE:HAIRDRESSING_MALE:TATOO_MALE:TATOO_FEMALE</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>equipment</NAME>
+              <STRING>VPA:A13C12000010D21A</STRING>
+              <STRING>VPB:000000C0BC090000</STRING>
+              <STRING>VPC:00127A38007A689A</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>nbland_esthetics</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>welcome_ra</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>vertical_pos</NAME>
+              <STRING>auto</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1266"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_event_handler</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>event</NAME>
+              <STRING>timer_t0_triggered</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1268"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>action</NAME>
+                <STRING>multi_actions</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_event_handler_action</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>set_timer_t0</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING>1500</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>random_select</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_1</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_1</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_2</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_2</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_3</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_3</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_4</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_4</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_5</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_5</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_6</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_6</STRING>
+                  </PROPERTY>
+                </CHILD>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_event_handler</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>event</NAME>
+              <STRING>start_of_state</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1269"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>action</NAME>
+                <STRING>set_timer_t0</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_event_handler_action</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>parameters</NAME>
+                <STRING>1200</STRING>
               </PROPERTY>
             </CHILD>
           </CHILD>

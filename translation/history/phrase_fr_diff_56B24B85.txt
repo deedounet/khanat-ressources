@@ -1,0 +1,27 @@
+﻿// DIFF_VERSION 2
+// DIFF REMOVED
+// HASH_VALUE 3BB0C78E27A1AE96
+INVENTORY_BUY_ITEM_DINS (item item, int qty, int cost)
+{
+	(qty=1) 
+			[&ITM&Vous venez d'acheter $item.ia$ $item$ pour $cost$ dins.]
+
+	(qty>1) 
+			[&ITM&Vous venez d'acheter $qty$ $item.p$ pour $cost$ dins.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 3BB0C78E27A1AE96
+INVENTORY_BUY_ITEM_Dins (item item, int qty, int cost)
+{
+	(qty=1) 
+			[&ITM&You have just bought $item.ia$ $item$ for $cost$ seeds.]
+
+	(qty>1) 
+			[&ITM&You have just bought $qty$ $item.p$ for $cost$ seeds.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE
