@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.1 $" State="modified">
+<STRUCT>
+<STRUCT Name="idle">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_idle.anim"/>
+</STRUCT>
+</ARRAY>
+<ATOM Name="LodCharacterAnimation" Value="tr_mo_sagass_selle_idle.anim"/>
+</STRUCT>
+<STRUCT Name="backward">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_recul.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+<STRUCT Name="turn_left">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_demitour_gauche.anim"/>
+</STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_tourne_gauche.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+<STRUCT Name="turn_right">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_demitour_droite.anim"/>
+</STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_tourne_droit.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+<STRUCT Name="turn_left_to_walk">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_demitour_gauche.anim"/>
+</STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_tourne_gauche.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+<STRUCT Name="turn_right_to_walk">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_demitour_droite.anim"/>
+</STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_tourne_droit.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+<STRUCT Name="turn_left_to_backward">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_demitour_gauche.anim"/>
+</STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_tourne_gauche.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+<STRUCT Name="turn_right_to_backward">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_demitour_droite.anim"/>
+</STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_tourne_droit.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+<STRUCT Name="impact">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_impact.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+</STRUCT>
+<STRUCT/>
+<STRUCT/>
+<STRUCT/>
+<STRUCT/>
+<COMMENTS></COMMENTS>
+<LOG></LOG>
+</FORM>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.1 $" State="modified">
+<STRUCT>
+<STRUCT Name="walk">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_sagass_selle_nage.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+</STRUCT>
+<STRUCT/>
+<STRUCT/>
+<STRUCT/>
+<STRUCT/>
+<COMMENTS></COMMENTS>
+<LOG></LOG>
+</FORM>

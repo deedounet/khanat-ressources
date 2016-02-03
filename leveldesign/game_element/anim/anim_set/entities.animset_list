@@ -7,7 +7,8 @@
       <ATOM Name="dag" Value="dag.animset_mode"/>
       <ATOM Name="arma" Value="arma.animset_mode"/>
       <ATOM Name="arma_mount" Value="arma_mount.animset_mode"/>
-    </ARRAY>
+      <ATOM Name="sagass_selle" Value="sagass_selle.animset_mode"/>
+ </ARRAY>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>
