@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="1269"/>
+    <ALIAS LAST_GENERATED="1271"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -77,6 +77,7 @@
             <ANGLE VALUE="9.365874"/>
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
+              <STRING>shop:guild_creator</STRING>
               <STRING>menu: MENU_WHOAMI WELCOME_RA_WELCOME</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
