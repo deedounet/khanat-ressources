@@ -14,15 +14,15 @@
       </STRUCT>
       <STRUCT Name="MovementSpeeds">
         <ATOM Name="WalkSpeed" Value="2.5"/>
-        <ATOM Name="RunSpeed" Value="5"/>
+        <ATOM Name="RunSpeed" Value="30"/>
         <ATOM Name="GroupDispersion" Value="0.7"/>
       </STRUCT>
-      <ATOM Name="life" Value="80"/>
+      <ATOM Name="life" Value="800"/>
       <ATOM Name="AttackSpeed" Value="3"/>
       <ATOM Name="LifeRegen" Value="0.109589041"/>
       <ATOM Name="AttackLevel" Value="1"/>
       <ATOM Name="DefenseLevel" Value="1"/>
-      <ATOM Name="XPLevel" Value="3"/>
+      <ATOM Name="XPLevel" Value="10"/>
       <ATOM Name="TauntLevel" Value="0"/>
       <ATOM Name="MeleeReachValue" Value="0"/>
       <ATOM Name="RegionForce" Value="1"/>
