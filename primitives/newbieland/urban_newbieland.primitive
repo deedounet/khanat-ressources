@@ -447,6 +447,9 @@
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
               <STRING>shop : NEWBIELAND_LARMOR_ALL</STRING>
+              <STRING>item : pendo_toy1.sitem 1</STRING>
+              <STRING>item : pendo_toy2.sitem 1</STRING>
+              <STRING>item : pendo_toy3.sitem 1</STRING>
               <STRING>item : icrava.sitem 10</STRING>
               <STRING>item : icrave.sitem 10</STRING>
               <STRING>item : icravg.sitem 10</STRING>
