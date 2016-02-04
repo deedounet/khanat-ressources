@@ -508,6 +508,9 @@
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
               <STRING>shop : SERVICE_STABLE: FOOD: MEKTOUB_PACKER_TICKET: MEKTOUB_MOUNT_TICKET: STATIC_DYNAMIC_SHOP</STRING>
+              <STRING>item : pendo_toy1.sitem 1</STRING>
+              <STRING>item : pendo_toy2.sitem 1</STRING>
+              <STRING>item : pendo_toy3.sitem 1</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
