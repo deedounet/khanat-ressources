@@ -6,8 +6,8 @@
       <ATOM Name="fy_hom" Value="fy_hom.animset_mode"/>
       <ATOM Name="dag" Value="dag.animset_mode"/>
       <ATOM Name="arma" Value="arma.animset_mode"/>
-      <ATOM Name="arma_mount" Value="arma_mount.animset_mode"/>
-      <ATOM Name="sagass_selle" Value="sagass_selle.animset_mode"/>
+      <ATOM Name="arma_mount" Value="armamount.animset_mode"/>
+      <ATOM Name="sagass_mount" Value="sagass_selle.animset_mode"/>
  </ARRAY>
   </STRUCT>
   <STRUCT/>
