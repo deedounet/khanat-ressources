@@ -19,6 +19,14 @@
         <ATOM Name="maxx" Value="11360"/>
         <ATOM Name="maxy" Value="-10240"/>
       </STRUCT>
+      <STRUCT Name="unknown">
+        <ATOM Name="selection_name" Value="unknown"/>
+        <ATOM Name="continent_name" Value="unknown"/>
+        <ATOM Name="minx" Value="15840.0"/>
+        <ATOM Name="miny" Value="-27040.0"/>
+        <ATOM Name="maxx" Value="20320.0"/>
+        <ATOM Name="maxy" Value="-23840.0"/>
+      </STRUCT>
     </ARRAY>
     <ARRAY Name="maps list">
       <STRUCT Name="cont_newbieland">
