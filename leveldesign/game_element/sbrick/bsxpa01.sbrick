@@ -5,14 +5,16 @@
       <ATOM Name="FamilyId" Value="BSXPA"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
-      <ATOM Name="Action Nature" Value="ACTION"/>
+      <ATOM Name="Action Nature" Value="SPECIAL_POWER"/>
       <ATOM Name="Skill" Value="SP"/>
-      <ATOM Name="Level" Value="0"/>
     </STRUCT>
     <STRUCT Name="Client">
-      <ATOM Name="Icon" Value="ICO_Speeding_up.tga"/>
+      <ATOM Name="Icon" Value="ico_spell_break.tga"/>
       <ATOM Name="IconBack" Value="EF_Back.tga"/>
     </STRUCT>
+<STRUCT Name="Parameter">
+      <ATOM Name="f0" Value="BSDEA"/>
+  </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>
