@@ -446,6 +446,7 @@
             <ANGLE VALUE="6.037747"/>
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
+              <STRING>shop : Matis:Fyros:HAIRDRESSING_FEMALE:HAIRDRESSING_MALE:TATOO_MALE:TATOO_FEMALE</STRING>
               <STRING>shop : NEWBIELAND_LARMOR_ALL</STRING>
               <STRING>item : pendo_toy1.sitem 1</STRING>
               <STRING>item : pendo_toy2.sitem 1</STRING>
