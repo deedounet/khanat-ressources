@@ -2,12 +2,13 @@
 <FORM Revision="$Revision: 1.0 $" State="modified">
   <STRUCT>
     <STRUCT Name="basics">
-      <ATOM Name="name" Value="bib_broom"/>
+      <ATOM Name="name" Value="drooling_fish"/>
       <ATOM Name="origin" Value="fyros"/>
       <ATOM Name="family" Value="handled item"/>
       <STRUCT Name="EquipmentInfo">
         <ARRAY Name="EquipmentSlots">
-          <ATOM Name="two_hands" Value="Two Hands"/>
+          <ATOM Name="right_hand" Value="Right Hand"/>
+          <ATOM Name="left_hand" Value="Left Hand"/>
         </ARRAY>
       </STRUCT>
       <ATOM Name="Bulk" Value="10"/>
@@ -15,14 +16,14 @@
       <ATOM Name="Time to Equip In Ticks" Value="1"/>
     </STRUCT>
     <STRUCT Name="3d">
-      <ATOM Name="shape" Value="broom.shape"/>
-      <ATOM Name="icon" Value="to_broom.tga"/>
+      <ATOM Name="shape" Value="fish.shape"/>
+      <ATOM Name="icon" Value="to_fish.tga"/>
       <ATOM Name="icon background" Value="BK_fyros.tga"/>
-      <ATOM Name="anim_set" Value="2HLance"/>
+      <ATOM Name="anim_set" Value="Dagger"/>
       <STRUCT Name="fx">
         <ARRAY Name="StaticFXs">
           <STRUCT>
-            <ATOM Name="Name" Value="bib_broom.ps"/>
+            <ATOM Name="Name" Value="fish.ps"/>
             <ATOM Name="Bone" Value="box_arme"/>
           </STRUCT>
         </ARRAY>

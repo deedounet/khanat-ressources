@@ -20,8 +20,8 @@
       <ATOM Name="shape" Value="pendo_toy.shape"/>
       <ATOM Name="shape_female" Value="pendo_toy_f.shape"/>
       <ATOM Name="map_variant" Value="High Quality"/>
-      <ATOM Name="icon" Value="r2_palette_entities.tga"/>
-      <ATOM Name="icon background" Value="BK_generic.tga"/>
+      <ATOM Name="icon" Value="ico_pendo_pet.tga"/>
+      <ATOM Name="icon background" Value="BK_outpost.tga"/>
       <ATOM Name="icon overlay" Value="r2_palette_entities.tga"/>
       <ATOM Name="anim_set" Value="Dagger"/>
     </STRUCT>
