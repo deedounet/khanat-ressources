@@ -22,7 +22,6 @@
       <ATOM Name="map_variant" Value="High Quality"/>
       <ATOM Name="icon" Value="ico_pendo_pet.tga"/>
       <ATOM Name="icon background" Value="BK_outpost.tga"/>
-      <ATOM Name="icon overlay" Value="r2_palette_entities.tga"/>
       <ATOM Name="anim_set" Value="Dagger"/>
     </STRUCT>
   </STRUCT>
