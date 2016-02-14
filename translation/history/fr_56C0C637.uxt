@@ -615,17 +615,13 @@ ioUnknown	[Inconnu]
 // INDEX 150
 ioCommon	[Commun]
 
-/* OLD VALUE : [Fyros] */
-/* OLD VALUE : [Fyros] */
-// HASH_VALUE 2689648C61373089
+// HASH_VALUE B11894A16659889A
 // INDEX 151
-ioFyros	[Ucikara]
+ioFyros	[Fyros]
 
-/* OLD VALUE : [Matis] */
-/* OLD VALUE : [Matis] */
-// HASH_VALUE 24B8E88AE1A72C88
+// HASH_VALUE ABC7588A22682C9D
 // INDEX 152
-ioMatis	[Tcara]
+ioMatis	[Matis]
 
 // HASH_VALUE ECC90886AE770897
 // INDEX 153
@@ -5211,11 +5207,9 @@ uihAbilitiesItem	[Capacités/Objets]
 // INDEX 1269
 uihMaps	[CARTES]
 
-/* OLD VALUE : [Matis General] */
-/* OLD VALUE : [Général Matis] */
-// HASH_VALUE 9D84589555165393
+// HASH_VALUE DB4498851A1713B8
 // INDEX 1270
-uihMatisGenMap	[Général Tcara]
+uihMatisGenMap	[Général Matis]
 
 // HASH_VALUE AAD72C8F5DB8407E
 // INDEX 1271
@@ -5483,17 +5477,13 @@ uiFameKaravan	[Karavan]
 // INDEX 1335
 uiFameTryton	[Tryton]
 
-/* OLD VALUE : [Fyros] */
-/* OLD VALUE : [Fyros] */
-// HASH_VALUE 2689648C61373089
+// HASH_VALUE B11894A16659889A
 // INDEX 1336
-uiFameFyros	[Ucikara]
+uiFameFyros	[Fyros]
 
-/* OLD VALUE : [Matis] */
-/* OLD VALUE : [Matis] */
-// HASH_VALUE 24B8E88AE1A72C88
+// HASH_VALUE ABC7588A22682C9D
 // INDEX 1337
-uiFameMatis	[Tcara]
+uiFameMatis	[Matis]
 
 // HASH_VALUE ECC90886AE770897
 // INDEX 1338
@@ -5543,17 +5533,13 @@ uiFameAllegiance2	[Kami]
 // INDEX 1349
 uiFameAllegiance3	[Karavan]
 
-/* OLD VALUE : [Fyros] */
-/* OLD VALUE : [Fyros] */
-// HASH_VALUE 2689648C61373089
+// HASH_VALUE B11894A16659889A
 // INDEX 1350
-uiFameAllegiance4	[Ucikara]
+uiFameAllegiance4	[Fyros]
 
-/* OLD VALUE : [Matis] */
-/* OLD VALUE : [Matis] */
-// HASH_VALUE 24B8E88AE1A72C88
+// HASH_VALUE ABC7588A22682C9D
 // INDEX 1351
-uiFameAllegiance5	[Tcara]
+uiFameAllegiance5	[Matis]
 
 // HASH_VALUE ECC90886AE770897
 // INDEX 1352
@@ -5579,35 +5565,19 @@ uittFameAllegianceCiv1	[Vous êtes un(e) @{2F2F}apatride@{FFFF}.\n
 	Pour porter allégeance à une civilisation, il faut aller voir le @{2F2F}magistrat@{FFFF} dans la capitale appropriée.\n
 	Vous devez avoir au moins @{2F2F}30@{FFFF} dans la renommée de civilisation correspondante.]
 
-/* OLD VALUE : [You have sworn allegiance to the @{2F2F}Fyros@{FFFF}.
-This enables you to have a higher Fyros fame, but any guild you want to join also has to have a Fyros allegiance.
-To renounce your allegiance, you can go see a @{2F2F}magistrate@{FFFF} in one of the capital cities.
-You automatically lose your allegiance if your @{2F2F}Fyros@{FFFF} fame reaches 0.] */
-/* OLD VALUE : [Vous avez porté allégeance aux @{2F2F}Fyros@{FFFF}.
-Ceci vous permet d'avoir une renommée Fyros plus grande, mais votre guilde doit aussi être d'allégeance Fyros.
-Pour renier votre allégeance, vous pouvez aller voir un @{2F2F}magistrat@{FFFF} dans une capitale.
-Vous perdrez automatiquement votre allégeance si votre renommée @{2F2F}Fyros@{FFFF} atteint 0.] */
-// HASH_VALUE D3FFA76ACBB2203A
+// HASH_VALUE BAA698CDEAF2F742
 // INDEX 1356
-uittFameAllegianceCiv4	[Vous avez porté allégeance aux @@{2F2F}Ucikara@{FFFF}.\n
-	Ceci vous permet d'avoir une renommée Ucikara plus grande, mais votre guilde doit aussi être d'allégeance Ucikara.\n
-	Pour renier votre allégeance, vous pouvez aller voir un @{2F2F}magistrat@{FFFF} dans une capitale\n
-	Vous perdrez automatiquement votre allégeance si votre renommée @{2F2F}Ucikara@{FFFF} atteint 0.]
+uittFameAllegianceCiv4	[Vous avez porté allégeance aux @{2F2F}Fyros@{FFFF}.\n
+	Ceci vous permet d'avoir une renommée Fyros plus grande, mais votre guilde doit aussi être d'allégeance Fyros.\n
+	Pour renier votre allégeance, vous pouvez aller voir un @{2F2F}magistrat@{FFFF} dans une capitale.\n
+	Vous perdrez automatiquement votre allégeance si votre renommée @{2F2F}Fyros@{FFFF} atteint 0.]
 
-/* OLD VALUE : [You have sworn allegiance to the @{2F2F}Matis@{FFFF}.
-This enables you to have a higher Matis fame, but your guild also has to have a Matis allegiance.
-To renounce your allegiance, you can go see a @{2F2F}magistrate@{FFFF} in one of the capital cities.
-You automatically lose your allegiance if your @{2F2F}Matis@{FFFF} fame reaches 0.] */
-/* OLD VALUE : [Vous avez porté allégeance aux @{2F2F}Matis@{FFFF}.
-Ceci vous permet d'avoir une renommée Matis plus grande, mais votre guilde doit aussi être d'allégeance Matis.
-Pour renier votre allégeance, vous pouvez aller voir un @{2F2F}magistrat@{FFFF} dans une capitale.
-Vous perdrez automatiquement votre allégeance si votre renommée @{2F2F}Matis@{FFFF} atteint 0.] */
-// HASH_VALUE 5C8A7F21ECA87BDD
+// HASH_VALUE 160D4B26F0A6C7FF
 // INDEX 1357
-uittFameAllegianceCiv5	[Vous avez porté allégeance aux @@{2F2F}Tcara@{FFFF}.\n
-	Ceci vous permet d'avoir une renommée Tcara plus grande, mais votre guilde doit aussi être d'allégeance Tcara.\n
-	Pour renier votre allégeance, vous pouvez aller voir un @{2F2F}magistrat@{FFFF} dans une capitale\n
-	Vous perdrez automatiquement votre allégeance si votre renommée @{2F2F}Ucikara@{FFFF} atteint 0.]
+uittFameAllegianceCiv5	[Vous avez porté allégeance aux @{2F2F}Matis@{FFFF}.\n
+	Ceci vous permet d'avoir une renommée Matis plus grande, mais votre guilde doit aussi être d'allégeance Matis.\n
+	Pour renier votre allégeance, vous pouvez aller voir un @{2F2F}magistrat@{FFFF} dans une capitale.\n
+	Vous perdrez automatiquement votre allégeance si votre renommée @{2F2F}Matis@{FFFF} atteint 0.]
 
 // HASH_VALUE 4092E00C33983E32
 // INDEX 1358
@@ -5667,35 +5637,19 @@ uittFameAllegianceCivGuild1	[Votre guilde est @{2F2F}apatride@{FFFF}.\n
 	Pour porter allégeance à une civilisation, le chef de guilde doit aller voir le @{2F2F}magistrat@{FFFF} de guilde dans la capitale appropriée.\n
 	La guilde doit avoir au moins @{2F2F}30@{FFFF} dans la renommée de civilisation correspondante.]
 
-/* OLD VALUE : [Your guild has sworn allegiance to the @{2F2F}Fyros@{FFFF}.
-This enables it to have a higher Fyros fame, and to enrole members who have Fyros or Neutral allegiances.
-To renounce allegiance, the leader of the guild can go see a guild @{2F2F}magistrate@{FFFF} in one of the capital cities.
-Your guild automatically loses its allegiance if its @{2F2F}Fyros@{FFFF} fame reaches 0. The members then have an undetermined allegiance.] */
-/* OLD VALUE : [Votre guilde a porté allégeance aux @{2F2F}Fyros@{FFFF}.
-Cela lui permet d'avoir une renommée Fyros plus grande, et d'enrôler des membres d'allégeance Fyros ou Neutre.
-Pour renier son allégeance, le chef de guilde peut aller voir un @{2F2F}magistrat@{FFFF} de guilde dans une capitale.
-Votre guilde perdra automatiquement son allégeance si sa renommée @{2F2F}Fyros@{FFFF} atteint 0. Les membres auront alors une allégeance indéterminée.] */
-// HASH_VALUE CCD7F847CBF38078
+// HASH_VALUE 65D695E768C5E8F6
 // INDEX 1366
-uittFameAllegianceCivGuild4	[Votre guilde a porté allégeance aux @{2F2F}Ucikara@{FFFF}.\n
-	Cela lui permet d'avoir une renommée Ucikara plus grande, et d'enrôler des membres d'allégeance Ucikara ou Neutre.\n
+uittFameAllegianceCivGuild4	[Votre guilde a porté allégeance aux @{2F2F}Fyros@{FFFF}.\n
+	Cela lui permet d'avoir une renommée Fyros plus grande, et d'enrôler des membres d'allégeance Fyros ou Neutre.\n
 	Pour renier son allégeance, le chef de guilde peut aller voir un @{2F2F}magistrat@{FFFF} de guilde dans une capitale.\n
-	Votre guilde perdra automatiquement son allégeance si sa renommée @{2F2F}Ucikara@{FFFF} atteint 0. Les membres auront alors une allégeance indéterminée.]
+	Votre guilde perdra automatiquement son allégeance si sa renommée @{2F2F}Fyros@{FFFF} atteint 0. Les membres auront alors une allégeance indéterminée.]
 
-/* OLD VALUE : [Your guild has sworn allegiance to the @{2F2F}Matis@{FFFF}.
-This enables it to have a higher Matis fame, and to enrole members who have Matis or Neutral allegiances.
-To renounce allegiance, the leader of the guild can go see a guild @{2F2F}magistrate@{FFFF} in one of the capital cities.
-Your guild automatically loses its allegiance if its @{2F2F}Matis@{FFFF} fame reaches 0. The members then have an undetermined allegiance.] */
-/* OLD VALUE : [Votre guilde a porté allégeance aux @{2F2F}Matis@{FFFF}.
-Cela lui permet d'avoir une renommée Matis plus grande, et d'enrôler des membres d'allégeance Matis ou Neutre.
-Pour renier son allégeance, le chef de guilde peut aller voir un @{2F2F}magistrat@{FFFF} de guilde dans une capitale.
-Votre guilde perdra automatiquement son allégeance si sa renommée @{2F2F}Matis@{FFFF} atteint 0. Les membres auront alors une allégeance indéterminée.] */
-// HASH_VALUE 26A401D55F34C8F2
+// HASH_VALUE E4F61DEA62D4A4FD
 // INDEX 1367
-uittFameAllegianceCivGuild5	[Votre guilde a porté allégeance aux @{2F2F}Tcara@{FFFF}.\n
-	Cela lui permet d'avoir une renommée Tcara plus grande, et d'enrôler des membres d'allégeance Tcara ou Neutre.\n
+uittFameAllegianceCivGuild5	[Votre guilde a porté allégeance aux @{2F2F}Matis@{FFFF}.\n
+	Cela lui permet d'avoir une renommée Matis plus grande, et d'enrôler des membres d'allégeance Matis ou Neutre.\n
 	Pour renier son allégeance, le chef de guilde peut aller voir un @{2F2F}magistrat@{FFFF} de guilde dans une capitale.\n
-	Votre guilde perdra automatiquement son allégeance si sa renommée @{2F2F}Tcara@{FFFF} atteint 0. Les membres auront alors une allégeance indéterminée.]
+	Votre guilde perdra automatiquement son allégeance si sa renommée @{2F2F}Matis@{FFFF} atteint 0. Les membres auront alors une allégeance indéterminée.]
 
 // HASH_VALUE 89C623347C6F3A65
 // INDEX 1368
@@ -5755,11 +5709,9 @@ uiFameAllegianceCivSetNeutralTT	[En devenant neutre vous serez un(e) apatride, v
 // INDEX 1377
 uiFameAllegianceCultSetNeutralTT	[En devenant neutre vous serez un(e) incroyant(e), vous n'aurez aucune allégeance envers un culte]
 
-/* OLD VALUE : [Be careful! By becoming Neutral you may lose civilization fame (Fyros/Matis/Tryker/Zoraï) if you have any above the maximum possible for Neutrals.] */
-/* OLD VALUE : [Attention! En passant Neutre vous risquez de perdre de la renommée dans vos renommées de civilisations (Fyros/Matis/Tryker/Zoraï)] */
-// HASH_VALUE 18049399391EB798
+// HASH_VALUE 7F45F7E4E5069474
 // INDEX 1378
-uiFameAllegianceCivSetNeutralWarning	[Attention! En passant Neutre vous risquez de perdre de la renommée dans vos renommées de civilisations (Ucikara/Tcara/Tryker/Zoraï).]
+uiFameAllegianceCivSetNeutralWarning	[Attention! En passant Neutre vous risquez de perdre de la renommée dans vos renommées de civilisations (Fyros/Matis/Tryker/Zoraï)]
 
 // HASH_VALUE F36DA2D49EA45146
 // INDEX 1379
@@ -5897,9 +5849,7 @@ uiFame_tribe_leviers	[Taxeurs]
 // INDEX 1411
 uiFame_tribe_master_of_the_goo	[Maîtres de la Goo]
 
-/* OLD VALUE : [Matisian Border Guards] */
-/* OLD VALUE : [Gardes-Frontières] */
-// HASH_VALUE 2E38341C0B84C08A
+// HASH_VALUE EC8A08288B13C09C
 // INDEX 1412
 uiFame_tribe_matisian_border_guards	[Gardes-Frontières]
 
@@ -5967,11 +5917,9 @@ uiFame_tribe_slavers	[Esclavagistes]
 // INDEX 1428
 uiFame_tribe_smuglers	[Contrebandiers]
 
-/* OLD VALUE : [Arid Matis] */
-/* OLD VALUE : [Matis Arides] */
-// HASH_VALUE 6507243622E2303C
+// HASH_VALUE AE569C2B25C25C33
 // INDEX 1429
-uiFame_tribe_the_arid_matis	[Arid Tcara]
+uiFame_tribe_the_arid_matis	[Matis Arides]
 
 // HASH_VALUE EC26F0632E44B07C
 // INDEX 1430
@@ -9174,17 +9122,13 @@ uiCulture	[CULTURE]
 // INDEX 2200
 uiEcosystem	[ECOSYSTÈME]
 
-/* OLD VALUE : [FYROS] */
-/* OLD VALUE : [FYROS] */
-// HASH_VALUE 0681642C4931B029
+// HASH_VALUE 911214414E53083A
 // INDEX 2201
-uiFyName	[UCIKARA]
+uiFyName	[FYROS]
 
-/* OLD VALUE : [MATIS] */
-/* OLD VALUE : [MATIS] */
-// HASH_VALUE 04B2682AC9A1AC28
+// HASH_VALUE 8BC1D82A0A62AC3D
 // INDEX 2202
-uiMaName	[TCARA]
+uiMaName	[MATIS]
 
 // HASH_VALUE CCC308468E730837
 // INDEX 2203
@@ -9194,17 +9138,13 @@ uiTrName	[TRYKER]
 // INDEX 2204
 uiZoName	[ZORAÏ]
 
-/* OLD VALUE : [FYROS-PEOPLE] */
-/* OLD VALUE : [PEUPLE-FYROS] */
-// HASH_VALUE CB60903D3E021F23
+// HASH_VALUE 4813BF2EC6F30E3B
 // INDEX 2205
-uiFyPeople	[UCIKARA-PEOPLE]
+uiFyPeople	[PEUPLE-FYROS]
 
-/* OLD VALUE : [MATIS-PEOPLE] */
-/* OLD VALUE : [PEUPLE-MATIS] */
-// HASH_VALUE CAF10F3887E2B625
+// HASH_VALUE 4653FF3C4513AE42
 // INDEX 2206
-uiMaPeople	[TCARA-PEOPLE]
+uiMaPeople	[PEUPLE-MATIS]
 
 // HASH_VALUE C404B030123FDC33
 // INDEX 2207
@@ -9214,17 +9154,13 @@ uiTrPeople	[PEUPLE-TRYKER]
 // INDEX 2208
 uiZoPeople	[PEUPLE-ZORAÏ]
 
-/* OLD VALUE : [FYROS-CULTURE] */
-/* OLD VALUE : [CULTURE-FYROS] */
-// HASH_VALUE 8C51B830408FAC3A
+// HASH_VALUE 8DB0183389433B3F
 // INDEX 2209
-uiFyCulture	[UCIKARA-CULTURE]
+uiFyCulture	[CULTURE-FYROS]
 
-/* OLD VALUE : [MATIS-CULTURE] */
-/* OLD VALUE : [CULTURE-MATIS] */
-// HASH_VALUE C880784445C17F1C
+// HASH_VALUE 0640B8340AC23F41
 // INDEX 2210
-uiMaCulture	[TCARA-CULTURE]
+uiMaCulture	[CULTURE-MATIS]
 
 // HASH_VALUE 0C53FC564901B418
 // INDEX 2211
@@ -9234,17 +9170,13 @@ uiTrCulture	[CULTURE-TRYKER]
 // INDEX 2212
 uiZoCulture	[CULTURE-ZORAÏ]
 
-/* OLD VALUE : [FYROS-ECOSYSTEM] */
-/* OLD VALUE : [ECOSYSTÈME-FYROS] */
-// HASH_VALUE CBF0841401B30038
+// HASH_VALUE 90E360418AC01319
 // INDEX 2213
-uiFyEco	[UCIKARA-ECOSYSTEM]
+uiFyEco	[ECOSYSTÈME-FYROS]
 
-/* OLD VALUE : [MATIS-ECOSYSTEM] */
-/* OLD VALUE : [ECOSYSTÈME-MATIS] */
-// HASH_VALUE CD03C43988A11307
+// HASH_VALUE 0FA3083046301319
 // INDEX 2214
-uiMaEco	[TCARA-ECOSYSTEM]
+uiMaEco	[ECOSYSTÈME-MATIS]
 
 // HASH_VALUE 50940C2E484C3430
 // INDEX 2215
@@ -10248,17 +10180,13 @@ iompfUnknown	[]
 // INDEX 2417
 iompfCommon	[Toutes les Races]
 
-/* OLD VALUE : [Fyros only] */
-/* OLD VALUE : [Fyros uniquement] */
-// HASH_VALUE 1A089C7A4888D886
+// HASH_VALUE 32470394DCB80797
 // INDEX 2418
-iompfFyros	[Ucikara uniquement]
+iompfFyros	[Fyros uniquement]
 
-/* OLD VALUE : [Matis only] */
-/* OLD VALUE : [Matis uniquement] */
-// HASH_VALUE 6D17AB901767BB82
+// HASH_VALUE ABD7A39B55488FA0
 // INDEX 2419
-iompfMatis	[Tcara uniquement]
+iompfMatis	[Matis uniquement]
 
 // HASH_VALUE 267AA7ADEBE35063
 // INDEX 2420
@@ -12675,17 +12603,13 @@ uiNotEnoughFP_Kami	[NOMBRE DE POINTS KAMI INSUFFISANT]
 // INDEX 2965
 uiNotEnoughFP_Karavan	[NOMBRE DE POINTS KARAVAN INSUFFISANT]
 
-/* OLD VALUE : [NOT ENOUGH FYROS POINTS] */
-/* OLD VALUE : [NOMBRE DE POINTS FYROS INSUFFISANT] */
-// HASH_VALUE 863D9C3A8D7098F7
+// HASH_VALUE 3C3DF0048D72103A
 // INDEX 2966
-uiNotEnoughFP_Fyros	[NOMBRE DE POINTS UCIKARA INSUFFISANT]
+uiNotEnoughFP_Fyros	[NOMBRE DE POINTS FYROS INSUFFISANT]
 
-/* OLD VALUE : [NOT ENOUGH MATIS POINTS] */
-/* OLD VALUE : [NOMBRE DE POINTS MATIS INSUFFISANT] */
-// HASH_VALUE C03DF00409A3CC24
+// HASH_VALUE FE3DF0048D121822
 // INDEX 2967
-uiNotEnoughFP_Matis	[NOMBRE DE POINTS TCARA INSUFFISANT]
+uiNotEnoughFP_Matis	[NOMBRE DE POINTS MATIS INSUFFISANT]
 
 // HASH_VALUE F8911B35CFE11025
 // INDEX 2968
@@ -12703,17 +12627,13 @@ uittNotEnoughFP_Kami	[Vous n'avez pas assez de points de faction Kami pour achet
 // INDEX 2971
 uittNotEnoughFP_Karavan	[Vous n'avez pas assez de points de faction Karavan pour acheter cet article]
 
-/* OLD VALUE : [You don't have enough Fyros faction points to buy this] */
-/* OLD VALUE : [Vous n'avez pas assez de points de faction Fyros pour acheter cet article] */
-// HASH_VALUE 94BE06D2113644A5
+// HASH_VALUE 809AC103953E61F0
 // INDEX 2972
-uittNotEnoughFP_Fyros	[Vous n'avez pas assez de points de faction Ucikara pour acheter cet article]
+uittNotEnoughFP_Fyros	[Vous n'avez pas assez de points de faction Fyros pour acheter cet article]
 
-/* OLD VALUE : [You don't have enough Matis faction points to buy this] */
-/* OLD VALUE : [Vous n'avez pas assez de points de faction Matis pour acheter cet article] */
-// HASH_VALUE 8079CDF20F1F61F0
+// HASH_VALUE 809AA9058FAE61F0
 // INDEX 2973
-uittNotEnoughFP_Matis	[Vous n'avez pas assez de points de faction Tcara pour acheter cet article]
+uittNotEnoughFP_Matis	[Vous n'avez pas assez de points de faction Matis pour acheter cet article]
 
 // HASH_VALUE 95B9020B88728E5E
 // INDEX 2974
@@ -14380,17 +14300,13 @@ uiCP_Menu_4	[VISAGE]
 // INDEX 3384
 uiCP_Menu_5	[ACTIONS]
 
-/* OLD VALUE : [FYROS] */
-/* OLD VALUE : [FYROS] */
-// HASH_VALUE 0681642C4931B029
+// HASH_VALUE 911214414E53083A
 // INDEX 3385
-uiCP_Specie_Fyros	[UCIKARA]
+uiCP_Specie_Fyros	[FYROS]
 
-/* OLD VALUE : [MATIS] */
-/* OLD VALUE : [MATIS] */
-// HASH_VALUE 04B2682AC9A1AC28
+// HASH_VALUE 8BC1D82A0A62AC3D
 // INDEX 3386
-uiCP_Specie_Matis	[TCARA]
+uiCP_Specie_Matis	[MATIS]
 
 // HASH_VALUE CCC308468E730837
 // INDEX 3387
@@ -16063,27 +15979,7 @@ uittProtect_MaxAbsorb	[Maximum des Dommages Magiques absorbés.\n
 // INDEX 3787
 uiResistsTable	[RÉSISTANCES]
 
-/* OLD VALUE : [Spells cast by creatures and players may be completely @{6F6F}resisted@{FFFF}.
-The @{6F6F}chance percentage@{FFFF} of resisting depends on:
-@{T4}- the @{6F6F}power@{FFFF} of the spell, if it is an Affliction
-@{T4}- the @{6F6F}skill level@{FFFF} of the caster, if it is an Elemental spell
-@{T4}- your @{6F6F}resistance score@{FFFF} in the @{6F6F}magic domain@{FFFF} of the spell 
-@{T0}Your @{6F6F}resistance score@{FFFF} is the sum of:
-@{T4}- the highest level of all @{6F6F}Combat@{FFFF}, @{6F6F}Magic@{FFFF} or @{6F6F}Forage/2@{FFFF} skills minus 26 
-@{T4}- bonus @{6F6F}jewel resistances@{FFFF} in that magic domain 
-@{T4}- a @{6F6F}racial bonus@{FFFF} (e.g.: +10 in Desert for Fyros)
-@{T4}- an @{6F6F}ecosystem penalty@{FFFF} (e.g.: -10 in Desert if you are in the desert] */
-/* OLD VALUE : [Les sorts des créatures et des joueurs peuvent être complètement @{6F6F}résistés@{FFFF}.
-Le @{6F6F}pourcentage de chance@{FFFF} de résistance dépend:
-@{T4}- de la @{6F6F}puissance@{FFFF} du sort lancé si c'est un sort d'Affliction
-@{T4}- du @{6F6F}niveau de compétence@{FFFF} du magicien si c'est un sort Elémentaire
-@{T4}- de votre @{6F6F}score de résistance@{FFFF} dans le @{6F6F}domaine de magie@{FFFF} du sort lancé
-@{T0}Votre @{6F6F}score de résistance@{FFFF} est la somme:
-@{T4}- du maximum entre vos niveaux de compétences en @{6F6F}Combat, Magie et Forage/2@{FFFF}
-@{T4}- des bonus de @{6F6F}résistance des bijoux@{FFFF} dans le domaine de magie concerné
-@{T4}- d'un bonus dépendant de @{6F6F}votre race@{FFFF} (ex: +10 en Désert pour les Fyros)
-@{T4}- d'un malus dépendant de @{6F6F}l'écosystème@{FFFF} dans lequel vous vous trouvez (ex: -10 en Désert si vous êtes dans le désert)] */
-// HASH_VALUE A54C2C88BABCC105
+// HASH_VALUE EA481AC60405652A
 // INDEX 3788
 uittMagicResistTable	[Les sorts des créatures et des joueurs peuvent être complètement @{6F6F}résistés@{FFFF}.\n
 	Le @{6F6F}pourcentage de chance@{FFFF} de résistance dépend:\n
@@ -16093,7 +15989,7 @@ uittMagicResistTable	[Les sorts des créatures et des joueurs peuvent être comp
 	@{T0}Votre @{6F6F}score de résistance@{FFFF} est la somme:\n
 	@{T4}- du maximum entre vos niveaux de compétences en @{6F6F}Combat, Magie et Forage/2@{FFFF}\n
 	@{T4}- des bonus de @{6F6F}résistance des bijoux@{FFFF} dans le domaine de magie concerné\n
-	@{T4}- d'un bonus dépendant de @{6F6F}votre race@{FFFF} (ex: +10 en Désert pour les Ucikara)\n
+	@{T4}- d'un bonus dépendant de @{6F6F}votre race@{FFFF} (ex: +10 en Désert pour les Fyros)\n
 	@{T4}- d'un malus dépendant de @{6F6F}l'écosystème@{FFFF} dans lequel vous vous trouvez (ex: -10 en Désert si vous êtes dans le désert)]
 
 // HASH_VALUE 14D8CC8162553497
@@ -16183,17 +16079,13 @@ uiFactionPoint_Kami	[Kami]
 // INDEX 3801
 uiFactionPoint_Karavan	[Karavan]
 
-/* OLD VALUE : [Fyros] */
-/* OLD VALUE : [Fyros] */
-// HASH_VALUE 2689648C61373089
+// HASH_VALUE B11894A16659889A
 // INDEX 3802
-uiFactionPoint_Fyros	[Ucikara]
+uiFactionPoint_Fyros	[Fyros]
 
-/* OLD VALUE : [Matis] */
-/* OLD VALUE : [Matis] */
-// HASH_VALUE 24B8E88AE1A72C88
+// HASH_VALUE ABC7588A22682C9D
 // INDEX 3803
-uiFactionPoint_Matis	[Tcara]
+uiFactionPoint_Matis	[Matis]
 
 // HASH_VALUE ECC90886AE770897
 // INDEX 3804
@@ -18128,17 +18020,13 @@ uiR2EDScenarioInformation	[INFORMATION SUR LE SCÉNARIO]
 // INDEX 4249
 uiR2EdRace	[Race]
 
-/* OLD VALUE : [Fyros] */
-/* OLD VALUE : [Fyros] */
-// HASH_VALUE 2689648C61373089
+// HASH_VALUE B11894A16659889A
 // INDEX 4250
-uiR2EDRaceFyros	[Ucikara]
+uiR2EDRaceFyros	[Fyros]
 
-/* OLD VALUE : [Matis] */
-/* OLD VALUE : [Matis] */
-// HASH_VALUE 24B8E88AE1A72C88
+// HASH_VALUE ABC7588A22682C9D
 // INDEX 4251
-uiR2EDRaceMatis	[Tcara]
+uiR2EDRaceMatis	[Matis]
 
 // HASH_VALUE ECC90886AE770897
 // INDEX 4252
@@ -18635,17 +18523,13 @@ uiRAP_CharShard	[Serveur]
 // INDEX 4372
 uiRAP_CharLevel	[Niveau de combat]
 
-/* OLD VALUE : [Fyros] */
-/* OLD VALUE : [Fyros] */
-// HASH_VALUE 2689648C61373089
+// HASH_VALUE B11894A16659889A
 // INDEX 4373
-uiRAP_CharRace_0	[Ucikara]
+uiRAP_CharRace_0	[Fyros]
 
-/* OLD VALUE : [Matis] */
-/* OLD VALUE : [Matis] */
-// HASH_VALUE 24B8E88AE1A72C88
+// HASH_VALUE ABC7588A22682C9D
 // INDEX 4374
-uiRAP_CharRace_1	[Tcara]
+uiRAP_CharRace_1	[Matis]
 
 // HASH_VALUE ECC90886AE770897
 // INDEX 4375
@@ -18727,17 +18611,13 @@ uiRingAutoInviteToggle	[Quand @{6F6F}décochée@{FFFF}, les joueurs devront dema
 // INDEX 4394
 uiRingGlobalAccessToggle	[Quand @{6F6F}décochée@{FFFF}, seuls les joueurs invités verront votre scénario aux @{6F6F}Terminaux Ring@{FFFF}.]
 
-/* OLD VALUE : [When @{6F6F}unchecked @{FFFF} Fyros players who have not been invited cannot see your scenario at @{6F6F}Ring Terminals@{FFFF}.] */
-/* OLD VALUE : [Quand @{6F6F}décochée@{FFFF} les joueurs Fyros qui n'ont pas été invité ne verront pas votre scénario aux @{6F6F}Terminaux Ring@{FFFF}.] */
-// HASH_VALUE 826996DF0F046030
+// HASH_VALUE BADC46EEDC730E8E
 // INDEX 4395
-uiRingFilterFyros	[Quand @{6F6F}décochée@{FFFF} les joueurs Ucikara qui n'ont pas été invité ne verront pas votre scénario aux @{6F6F}Terminaux Ring@{FFFF}.]
+uiRingFilterFyros	[Quand @{6F6F}décochée@{FFFF} les joueurs Fyros qui n'ont pas été invité ne verront pas votre scénario aux @{6F6F}Terminaux Ring@{FFFF}.]
 
-/* OLD VALUE : [When @{6F6F}unchecked @{FFFF} Matis players who have not been invited cannot see your scenario at @{6F6F}Ring Terminals@{FFFF}.] */
-/* OLD VALUE : [Quand @{6F6F}décochée@{FFFF} les joueurs Matis qui n'ont pas été invité ne verront pas votre scénario aux @{6F6F}Terminaux Ring@{FFFF}.] */
-// HASH_VALUE BABB52DD56540E8E
+// HASH_VALUE BADC2EF0D6E30E8E
 // INDEX 4396
-uiRingFilterMatis	[Quand @{6F6F}décochée@{FFFF} les joueurs Tcara qui n'ont pas été invité ne verront pas votre scénario aux @{6F6F}Terminaux Ring@{FFFF}.]
+uiRingFilterMatis	[Quand @{6F6F}décochée@{FFFF} les joueurs Matis qui n'ont pas été invité ne verront pas votre scénario aux @{6F6F}Terminaux Ring@{FFFF}.]
 
 // HASH_VALUE BAA30EEE59B40E8E
 // INDEX 4397
@@ -19411,17 +19291,13 @@ uiFixedMissionEntry_Newbie_Trial	[Dispensaire/Free trial]
 // INDEX 4545
 uiFixedMissionEntry_Newbie_R2_Trial	[Dispensaire/Free trial/Ring]
 
-/* OLD VALUE : [Main land / Fyros] */
-/* OLD VALUE : [Continent / Fyros] */
-// HASH_VALUE 0F84537ED2949FF6
+// HASH_VALUE C8A0CB926A9A2FF4
 // INDEX 4546
-uiFixedMissionEntry_Mainland_Fyros	[Continent / Ucikara]
+uiFixedMissionEntry_Mainland_Fyros	[Continent / Fyros]
 
-/* OLD VALUE : [Main land / Matis] */
-/* OLD VALUE : [Continent / Matis] */
-// HASH_VALUE C8A0CB80E7280F02
+// HASH_VALUE C8A0CB926A39EBFB
 // INDEX 4547
-uiFixedMissionEntry_Mainland_Matis	[Continent / Tcara]
+uiFixedMissionEntry_Mainland_Matis	[Continent / Matis]
 
 // HASH_VALUE 03A287772CF4B30C
 // INDEX 4548
@@ -20645,12 +20521,4 @@ uiCibdei	[cibdei]
 // HASH_VALUE 6789B0BF290A98AE
 // INDEX 4842
 uiVondei	[vondei]
-
-// HASH_VALUE 2B5AB21344F07297
-// INDEX 4843
-uiRpJobs	[Métiers]
-
-// HASH_VALUE 7CC0D4431001EEF7
-// INDEX 4844
-uiPlayerTitle	[TITRE >]
 

@@ -1,0 +1,291 @@
+﻿// DIFF CHANGED 151 
+/* OLD VALUE : [Fyros] */
+// HASH_VALUE 2689648C61373089
+// INDEX 0
+ioFyros	[Ucikara]
+
+// DIFF CHANGED 152 
+/* OLD VALUE : [Matis] */
+// HASH_VALUE 24B8E88AE1A72C88
+// INDEX 1
+ioMatis	[Tcara]
+
+// DIFF CHANGED 1270 
+/* OLD VALUE : [Matis General] */
+// HASH_VALUE 9D84589555165393
+// INDEX 2
+uihMatisGenMap	[Tcara General]
+
+// DIFF CHANGED 1336 
+/* OLD VALUE : [Fyros] */
+// HASH_VALUE 2689648C61373089
+// INDEX 3
+uiFameFyros	[Ucikara]
+
+// DIFF CHANGED 1337 
+/* OLD VALUE : [Matis] */
+// HASH_VALUE 24B8E88AE1A72C88
+// INDEX 4
+uiFameMatis	[Tcara]
+
+// DIFF CHANGED 1350 
+/* OLD VALUE : [Fyros] */
+// HASH_VALUE 2689648C61373089
+// INDEX 5
+uiFameAllegiance4	[Ucikara]
+
+// DIFF CHANGED 1351 
+/* OLD VALUE : [Matis] */
+// HASH_VALUE 24B8E88AE1A72C88
+// INDEX 6
+uiFameAllegiance5	[Tcara]
+
+// DIFF CHANGED 1356 
+/* OLD VALUE : [You have sworn allegiance to the @{2F2F}Fyros@{FFFF}.
+This enables you to have a higher Fyros fame, but any guild you want to join also has to have a Fyros allegiance.
+To renounce your allegiance, you can go see a @{2F2F}magistrate@{FFFF} in one of the capital cities.
+You automatically lose your allegiance if your @{2F2F}Fyros@{FFFF} fame reaches 0.] */
+// HASH_VALUE D3FFA76ACBB2203A
+// INDEX 7
+uittFameAllegianceCiv4	[You have sworn allegiance to the @{2F2F}Ucikara@{FFFF}.\n
+	This enables you to have a higher Ucikara fame, but any guild you want to join also has to have a Ucikara allegiance.\n
+	To renounce your allegiance, you can go see a @{2F2F}magistrate@{FFFF} in one of the capital cities.\n
+	You automatically lose your allegiance if your @{2F2F}Ucikara@{FFFF} fame reaches 0.]
+
+// DIFF CHANGED 1357 
+/* OLD VALUE : [You have sworn allegiance to the @{2F2F}Matis@{FFFF}.
+This enables you to have a higher Matis fame, but your guild also has to have a Matis allegiance.
+To renounce your allegiance, you can go see a @{2F2F}magistrate@{FFFF} in one of the capital cities.
+You automatically lose your allegiance if your @{2F2F}Matis@{FFFF} fame reaches 0.] */
+// HASH_VALUE 5C8A7F21ECA87BDD
+// INDEX 8
+uittFameAllegianceCiv5	[You have sworn allegiance to the @{2F2F}Tcara@{FFFF}.\n
+	This enables you to have a higher Tcara fame, but your guild also has to have a Tcara allegiance.\n
+	To renounce your allegiance, you can go see a @{2F2F}magistrate@{FFFF} in one of the capital cities.\n
+	You automatically lose your allegiance if your @{2F2F}Tcara@{FFFF} fame reaches 0.]
+
+// DIFF CHANGED 1366 
+/* OLD VALUE : [Your guild has sworn allegiance to the @{2F2F}Fyros@{FFFF}.
+This enables it to have a higher Fyros fame, and to enrole members who have Fyros or Neutral allegiances.
+To renounce allegiance, the leader of the guild can go see a guild @{2F2F}magistrate@{FFFF} in one of the capital cities.
+Your guild automatically loses its allegiance if its @{2F2F}Fyros@{FFFF} fame reaches 0. The members then have an undetermined allegiance.] */
+// HASH_VALUE CCD7F847CBF38078
+// INDEX 9
+uittFameAllegianceCivGuild4	[Your guild has sworn allegiance to the @{2F2F}Ucikara@{FFFF}.\n
+	This enables it to have a higher Ucikara fame, and to enrole members who have Ucikara or Neutral allegiances.\n
+	To renounce allegiance, the leader of the guild can go see a guild @{2F2F}magistrate@{FFFF} in one of the capital cities.\n
+	Your guild automatically loses its allegiance if its @{2F2F}Ucikara@{FFFF} fame reaches 0. The members then have an undetermined allegiance.]
+
+// DIFF CHANGED 1367 
+/* OLD VALUE : [Your guild has sworn allegiance to the @{2F2F}Matis@{FFFF}.
+This enables it to have a higher Matis fame, and to enrole members who have Matis or Neutral allegiances.
+To renounce allegiance, the leader of the guild can go see a guild @{2F2F}magistrate@{FFFF} in one of the capital cities.
+Your guild automatically loses its allegiance if its @{2F2F}Matis@{FFFF} fame reaches 0. The members then have an undetermined allegiance.] */
+// HASH_VALUE 26A401D55F34C8F2
+// INDEX 10
+uittFameAllegianceCivGuild5	[Your guild has sworn allegiance to the @{2F2F}Tcara@{FFFF}.\n
+	This enables it to have a higher Tcara fame, and to enrole members who have Tcara or Neutral allegiances.\n
+	To renounce allegiance, the leader of the guild can go see a guild @{2F2F}magistrate@{FFFF} in one of the capital cities.\n
+	Your guild automatically loses its allegiance if its @{2F2F}Tcara@{FFFF} fame reaches 0. The members then have an undetermined allegiance.]
+
+// DIFF CHANGED 1378 
+/* OLD VALUE : [Be careful! By becoming Neutral you may lose civilization fame (Fyros/Matis/Tryker/Zoraï) if you have any above the maximum possible for Neutrals.] */
+// HASH_VALUE 18049399391EB798
+// INDEX 11
+uiFameAllegianceCivSetNeutralWarning	[Be careful! By becoming Neutral you may lose civilization fame (Ucikara/Tcara/Tryker/Zoraï) if you have any above the maximum possible for Neutrals.]
+
+// DIFF CHANGED 1412 
+/* OLD VALUE : [Matisian Border Guards] */
+// HASH_VALUE 2E38341C0B84C08A
+// INDEX 12
+uiFame_tribe_matisian_border_guards	[Tcaraian Border Guards]
+
+// DIFF CHANGED 1429 
+/* OLD VALUE : [Arid Matis] */
+// HASH_VALUE 6507243622E2303C
+// INDEX 13
+uiFame_tribe_the_arid_matis	[Arid Tcara]
+
+// DIFF CHANGED 2201 
+/* OLD VALUE : [FYROS] */
+// HASH_VALUE 0681642C4931B029
+// INDEX 14
+uiFyName	[UCIKARA]
+
+// DIFF CHANGED 2202 
+/* OLD VALUE : [MATIS] */
+// HASH_VALUE 04B2682AC9A1AC28
+// INDEX 15
+uiMaName	[TCARA]
+
+// DIFF CHANGED 2205 
+/* OLD VALUE : [FYROS-PEOPLE] */
+// HASH_VALUE CB60903D3E021F23
+// INDEX 16
+uiFyPeople	[UCIKARA-PEOPLE]
+
+// DIFF CHANGED 2206 
+/* OLD VALUE : [MATIS-PEOPLE] */
+// HASH_VALUE CAF10F3887E2B625
+// INDEX 17
+uiMaPeople	[TCARA-PEOPLE]
+
+// DIFF CHANGED 2209 
+/* OLD VALUE : [FYROS-CULTURE] */
+// HASH_VALUE 8C51B830408FAC3A
+// INDEX 18
+uiFyCulture	[UCIKARA-CULTURE]
+
+// DIFF CHANGED 2210 
+/* OLD VALUE : [MATIS-CULTURE] */
+// HASH_VALUE C880784445C17F1C
+// INDEX 19
+uiMaCulture	[TCARA-CULTURE]
+
+// DIFF CHANGED 2213 
+/* OLD VALUE : [FYROS-ECOSYSTEM] */
+// HASH_VALUE CBF0841401B30038
+// INDEX 20
+uiFyEco	[UCIKARA-ECOSYSTEM]
+
+// DIFF CHANGED 2214 
+/* OLD VALUE : [MATIS-ECOSYSTEM] */
+// HASH_VALUE CD03C43988A11307
+// INDEX 21
+uiMaEco	[TCARA-ECOSYSTEM]
+
+// DIFF CHANGED 2418 
+/* OLD VALUE : [Fyros only] */
+// HASH_VALUE 1A089C7A4888D886
+// INDEX 22
+iompfFyros	[Ucikara only]
+
+// DIFF CHANGED 2419 
+/* OLD VALUE : [Matis only] */
+// HASH_VALUE 6D17AB901767BB82
+// INDEX 23
+iompfMatis	[Tcara only]
+
+// DIFF CHANGED 2966 
+/* OLD VALUE : [NOT ENOUGH FYROS POINTS] */
+// HASH_VALUE 863D9C3A8D7098F7
+// INDEX 24
+uiNotEnoughFP_Fyros	[NOT ENOUGH UCIKARA POINTS]
+
+// DIFF CHANGED 2967 
+/* OLD VALUE : [NOT ENOUGH MATIS POINTS] */
+// HASH_VALUE C03DF00409A3CC24
+// INDEX 25
+uiNotEnoughFP_Matis	[NOT ENOUGH TCARA POINTS]
+
+// DIFF CHANGED 2972 
+/* OLD VALUE : [You don't have enough Fyros faction points to buy this] */
+// HASH_VALUE 94BE06D2113644A5
+// INDEX 26
+uittNotEnoughFP_Fyros	[You don't have enough Ucikara faction points to buy this]
+
+// DIFF CHANGED 2973 
+/* OLD VALUE : [You don't have enough Matis faction points to buy this] */
+// HASH_VALUE 8079CDF20F1F61F0
+// INDEX 27
+uittNotEnoughFP_Matis	[You don't have enough Tcara faction points to buy this]
+
+// DIFF CHANGED 3385 
+/* OLD VALUE : [FYROS] */
+// HASH_VALUE 0681642C4931B029
+// INDEX 28
+uiCP_Specie_Fyros	[UCIKARA]
+
+// DIFF CHANGED 3386 
+/* OLD VALUE : [MATIS] */
+// HASH_VALUE 04B2682AC9A1AC28
+// INDEX 29
+uiCP_Specie_Matis	[TCARA]
+
+// DIFF CHANGED 3788 
+/* OLD VALUE : [Spells cast by creatures and players may be completely @{6F6F}resisted@{FFFF}.
+The @{6F6F}chance percentage@{FFFF} of resisting depends on:
+@{T4}- the @{6F6F}power@{FFFF} of the spell, if it is an Affliction
+@{T4}- the @{6F6F}skill level@{FFFF} of the caster, if it is an Elemental spell
+@{T4}- your @{6F6F}resistance score@{FFFF} in the @{6F6F}magic domain@{FFFF} of the spell 
+@{T0}Your @{6F6F}resistance score@{FFFF} is the sum of:
+@{T4}- the highest level of all @{6F6F}Combat@{FFFF}, @{6F6F}Magic@{FFFF} or @{6F6F}Forage/2@{FFFF} skills minus 26 
+@{T4}- bonus @{6F6F}jewel resistances@{FFFF} in that magic domain 
+@{T4}- a @{6F6F}racial bonus@{FFFF} (e.g.: +10 in Desert for Fyros)
+@{T4}- an @{6F6F}ecosystem penalty@{FFFF} (e.g.: -10 in Desert if you are in the desert] */
+// HASH_VALUE A54C2C88BABCC105
+// INDEX 30
+uittMagicResistTable	[Spells cast by creatures and players may be completely @{6F6F}resisted@{FFFF}.\n
+	The @{6F6F}chance percentage@{FFFF} of resisting depends on:\n
+	@{T4}- the @{6F6F}power@{FFFF} of the spell, if it is an Affliction\n
+	@{T4}- the @{6F6F}skill level@{FFFF} of the caster, if it is an Elemental spell\n
+	@{T4}- your @{6F6F}resistance score@{FFFF} in the @{6F6F}magic domain@{FFFF} of the spell \n
+	\n
+	@{T0}Your @{6F6F}resistance score@{FFFF} is the sum of:\n
+	@{T4}- the highest level of all @{6F6F}Combat@{FFFF}, @{6F6F}Magic@{FFFF} or @{6F6F}Forage/2@{FFFF} skills minus 26 \n
+	@{T4}- bonus @{6F6F}jewel resistances@{FFFF} in that magic domain \n
+	@{T4}- a @{6F6F}racial bonus@{FFFF} (e.g.: +10 in Desert for Ucikara)\n
+	@{T4}- an @{6F6F}ecosystem penalty@{FFFF} (e.g.: -10 in Desert if you are in the desert]
+
+// DIFF CHANGED 3802 
+/* OLD VALUE : [Fyros] */
+// HASH_VALUE 2689648C61373089
+// INDEX 31
+uiFactionPoint_Fyros	[Ucikara]
+
+// DIFF CHANGED 3803 
+/* OLD VALUE : [Matis] */
+// HASH_VALUE 24B8E88AE1A72C88
+// INDEX 32
+uiFactionPoint_Matis	[Tcara]
+
+// DIFF CHANGED 4250 
+/* OLD VALUE : [Fyros] */
+// HASH_VALUE 2689648C61373089
+// INDEX 33
+uiR2EDRaceFyros	[Ucikara]
+
+// DIFF CHANGED 4251 
+/* OLD VALUE : [Matis] */
+// HASH_VALUE 24B8E88AE1A72C88
+// INDEX 34
+uiR2EDRaceMatis	[Tcara]
+
+// DIFF CHANGED 4373 
+/* OLD VALUE : [Fyros] */
+// HASH_VALUE 2689648C61373089
+// INDEX 35
+uiRAP_CharRace_0	[Ucikara]
+
+// DIFF CHANGED 4374 
+/* OLD VALUE : [Matis] */
+// HASH_VALUE 24B8E88AE1A72C88
+// INDEX 36
+uiRAP_CharRace_1	[Tcara]
+
+// DIFF CHANGED 4395 
+/* OLD VALUE : [When @{6F6F}unchecked @{FFFF} Fyros players who have not been invited cannot see your scenario at @{6F6F}Ring Terminals@{FFFF}.] */
+// HASH_VALUE 826996DF0F046030
+// INDEX 37
+uiRingFilterFyros	[When @{6F6F}unchecked @{FFFF} Ucikara players who have not been invited cannot see your scenario at @{6F6F}Ring Terminals@{FFFF}.]
+
+// DIFF CHANGED 4396 
+/* OLD VALUE : [When @{6F6F}unchecked @{FFFF} Matis players who have not been invited cannot see your scenario at @{6F6F}Ring Terminals@{FFFF}.] */
+// HASH_VALUE BABB52DD56540E8E
+// INDEX 38
+uiRingFilterMatis	[When @{6F6F}unchecked @{FFFF} Tcara players who have not been invited cannot see your scenario at @{6F6F}Ring Terminals@{FFFF}.]
+
+// DIFF CHANGED 4546 
+/* OLD VALUE : [Main land / Fyros] */
+// HASH_VALUE 0F84537ED2949FF6
+// INDEX 39
+uiFixedMissionEntry_Mainland_Fyros	[Main land / Ucikara]
+
+// DIFF CHANGED 4547 
+/* OLD VALUE : [Main land / Matis] */
+// HASH_VALUE C8A0CB80E7280F02
+// INDEX 40
+uiFixedMissionEntry_Mainland_Matis	[Main land / Tcara]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE
