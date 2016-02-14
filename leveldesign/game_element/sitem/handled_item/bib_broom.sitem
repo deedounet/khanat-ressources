@@ -16,7 +16,7 @@
     </STRUCT>
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="broom.shape"/>
-      <ATOM Name="icon" Value="MW_staff.tga"/>
+      <ATOM Name="icon" Value="to_broom.tga"/>
       <ATOM Name="icon background" Value="BK_fyros.tga"/>
       <ATOM Name="anim_set" Value="2HLance"/>
       <STRUCT Name="fx">
