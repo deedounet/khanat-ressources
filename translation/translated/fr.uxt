@@ -14090,19 +14090,19 @@ uiAnimalSelectNotInVision	[Vous ne pouvez pas choisir cet animal, il est trop lo
 
 // HASH_VALUE 68D8144030082494
 // INDEX 3312
-uiPATitlePacker1	[Mektoub 1]
+uiPATitlePacker1	[Animal 1]
 
 // HASH_VALUE 68D8144030082494
 // INDEX 3313
-uiPATitlePacker2	[Mektoub 2]
+uiPATitlePacker2	[Animal 2]
 
 // HASH_VALUE 68D8144030082494
 // INDEX 3314
-uiPATitlePacker3	[Mektoub 3]
+uiPATitlePacker3	[Animal 3]
 
 // HASH_VALUE 68D8144034082494
 // INDEX 3315
-uiPATitlePacker4	[Mektoub 4]
+uiPATitlePacker4	[Animal 4]
 
 // HASH_VALUE 0C861C9F26343612
 // INDEX 3316
@@ -14138,19 +14138,19 @@ uiPATitleDemon4	[Démon 4]
 
 // HASH_VALUE 48D0144030082414
 // INDEX 3324
-uiPABagTitlePacker0	[MEKTOUB 1]
+uiPABagTitlePacker0	[ANIMAL 1]
 
 // HASH_VALUE 48D0144030082414
 // INDEX 3325
-uiPABagTitlePacker1	[MEKTOUB 2]
+uiPABagTitlePacker1	[ANIMAL 2]
 
 // HASH_VALUE 48D0144030082414
 // INDEX 3326
-uiPABagTitlePacker2	[MEKTOUB 3]
+uiPABagTitlePacker2	[ANIMAL 3]
 
 // HASH_VALUE 48D0144034082414
 // INDEX 3327
-uiPABagTitlePacker3	[MEKTOUB 4]
+uiPABagTitlePacker3	[ANIMAL 4]
 
 // HASH_VALUE FC801C3F0E30B6F2
 // INDEX 3328
@@ -14198,19 +14198,19 @@ uiAnimalTooFar	[Votre animal est trop loin]
 
 // HASH_VALUE 48D0144030082414
 // INDEX 3339
-uimMtPaPacker0	[MEKTOUB 1]
+uimMtPaPacker0	[ANIMAL 1]
 
 // HASH_VALUE 48D0144030082414
 // INDEX 3340
-uimMtPaPacker1	[MEKTOUB 2]
+uimMtPaPacker1	[ANIMAL 2]
 
 // HASH_VALUE 48D0144030082414
 // INDEX 3341
-uimMtPaPacker2	[MEKTOUB 3]
+uimMtPaPacker2	[ANIMAL 3]
 
 // HASH_VALUE 48D0144034082414
 // INDEX 3342
-uimMtPaPacker3	[MEKTOUB 4]
+uimMtPaPacker3	[ANIMAL 4]
 
 // HASH_VALUE FC801C3F0E30B6F2
 // INDEX 3343
@@ -14258,19 +14258,19 @@ uittLmSteed	[Monture]
 
 // HASH_VALUE 68D8144030082494
 // INDEX 3354
-uittLmPA0	[Mektoub 1]
+uittLmPA0	[Animal 1]
 
 // HASH_VALUE 68D8144030082494
 // INDEX 3355
-uittLmPA1	[Mektoub 2]
+uittLmPA1	[Animal 2]
 
 // HASH_VALUE 68D8144030082494
 // INDEX 3356
-uittLmPA2	[Mektoub 3]
+uittLmPA2	[Animal 3]
 
 // HASH_VALUE 68D8144034082494
 // INDEX 3357
-uittLmPA3	[Mektoub 4]
+uittLmPA3	[Animal 4]
 
 // HASH_VALUE 1B739F2919A2CAF5
 // INDEX 3358
@@ -14622,19 +14622,19 @@ uitabBag	[Sac]
 
 // HASH_VALUE 68D8144030082494
 // INDEX 3439
-uitabPacker0	[Mektoub 1]
+uitabPacker0	[Animal 1]
 
 // HASH_VALUE 68D8144030082494
 // INDEX 3440
-uitabPacker1	[Mektoub 2]
+uitabPacker1	[Animal 2]
 
 // HASH_VALUE 68D8144030082494
 // INDEX 3441
-uitabPacker2	[Mektoub 3]
+uitabPacker2	[Animal 3]
 
 // HASH_VALUE 68D8144034082494
 // INDEX 3442
-uitabPacker3	[Mektoub 4]
+uitabPacker3	[Animal 4]
 
 // HASH_VALUE 0B2190278A40A02A
 // INDEX 3443
