@@ -5,18 +5,20 @@
       <ATOM Name="name" Value="drooling_fish"/>
       <ATOM Name="origin" Value="fyros"/>
       <ATOM Name="family" Value="handled item"/>
+      <ATOM Name="Bulk" Value="1"/>
       <STRUCT Name="EquipmentInfo">
         <ARRAY Name="EquipmentSlots">
           <ATOM Name="right_hand" Value="Right Hand"/>
           <ATOM Name="left_hand" Value="Left Hand"/>
         </ARRAY>
+        <ATOM Name="WearEquipmentMalus" Value="0.1"/>
       </STRUCT>
-      <ATOM Name="Bulk" Value="10"/>
       <ATOM Name="Saleable" Value="false"/>
       <ATOM Name="Time to Equip In Ticks" Value="1"/>
     </STRUCT>
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="fish.shape"/>
+      <ATOM Name="shape_female" Value="fish.shape"/>
       <ATOM Name="icon" Value="to_fish.tga"/>
       <ATOM Name="icon background" Value="bk_guild.tga"/>
       <ATOM Name="anim_set" Value="Dagger"/>
