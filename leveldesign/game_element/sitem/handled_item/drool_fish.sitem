@@ -18,7 +18,7 @@
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="fish.shape"/>
       <ATOM Name="icon" Value="to_fish.tga"/>
-      <ATOM Name="icon background" Value="BK_fyros.tga"/>
+      <ATOM Name="icon background" Value="bk_guild.tga"/>
       <ATOM Name="anim_set" Value="Dagger"/>
       <STRUCT Name="fx">
         <ARRAY Name="StaticFXs">

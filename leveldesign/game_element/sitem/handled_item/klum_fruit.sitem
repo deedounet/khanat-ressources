@@ -18,9 +18,8 @@
     </STRUCT>
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="klum.shape"/>
-      <ATOM Name="shape_female" Value="klum.shape"/>
       <ATOM Name="icon" Value="ico_klum.tga"/>
-      <ATOM Name="icon background" Value="bk_matis_brick.tga"/>
+      <ATOM Name="icon background" Value="bk_matis.tga"/>
       <ATOM Name="anim_set" Value="Dagger"/>
     </STRUCT>
   </STRUCT>
