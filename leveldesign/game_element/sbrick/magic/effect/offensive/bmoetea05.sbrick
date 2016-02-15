@@ -7,7 +7,7 @@
       <ATOM Name="SPCost" Value="37"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SM 0"/>
       <ATOM Name="Action Nature" Value="OFFENSIVE_MAGIC"/>
-      <ATOM Name="Skill" Value="BMOETMF"/>
+      <ATOM Name="Skill" Value="SMOEAEM"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Fire.tga"/>

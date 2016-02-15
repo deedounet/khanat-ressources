@@ -6,7 +6,7 @@
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SM 0"/>
       <ATOM Name="Action Nature" Value="OFFENSIVE_MAGIC"/>
-      <ATOM Name="MinCastTime" Value="28"/>
+      <ATOM Name="MinCastTime" Value="10"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Atysian.tga"/>
@@ -33,7 +33,5 @@
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
-  <LOG>Thu Jun 17 15:52:43 2004 (coutelas) .Basics.MinCastTime = 20
-Tue Jul 13 15:53:17 2004 (coutelas) .Basics.MinCastTime = 27
-Tue Jul 13 15:53:59 2004 (coutelas) .Basics.MinCastTime = 28</LOG>
+  <LOG></LOG>
 </FORM>
