@@ -3,10 +3,11 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSXPA"/>
+      <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="Action Nature" Value="SPECIAL_POWER"/>
-      <ATOM Name="Skill" Value="SP"/>
+      <ATOM Name="Skill" Value="UNKNOWN"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ico_spell_break.tga"/>
