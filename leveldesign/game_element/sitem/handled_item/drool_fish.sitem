@@ -17,19 +17,11 @@
       <ATOM Name="Time to Equip In Ticks" Value="1"/>
     </STRUCT>
     <STRUCT Name="3d">
-      <ATOM Name="shape" Value="fish.shape"/>
-      <ATOM Name="shape_female" Value="fish.shape"/>
+      <ATOM Name="shape" Value="fish.ps"/>
+      <ATOM Name="shape_female" Value="fish.ps"/>
       <ATOM Name="icon" Value="to_fish.tga"/>
       <ATOM Name="icon background" Value="bk_guild.tga"/>
       <ATOM Name="anim_set" Value="Dagger"/>
-      <STRUCT Name="fx">
-        <ARRAY Name="StaticFXs">
-          <STRUCT>
-            <ATOM Name="Name" Value="fish.ps"/>
-            <ATOM Name="Bone" Value="box_arme"/>
-          </STRUCT>
-        </ARRAY>
-      </STRUCT>
     </STRUCT>
   </STRUCT>
   <STRUCT/>
