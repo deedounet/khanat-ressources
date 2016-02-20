@@ -6,6 +6,8 @@
       <ATOM Name="origin" Value="common"/>
       <ATOM Name="family" Value="handled item"/>
       <ATOM Name="Bulk" Value="1"/>
+      <ATOM Name="Weight" Value="0.19"/>
+      <ATOM Name="Stackable" Value="12"/>
       <STRUCT Name="EquipmentInfo">
         <ARRAY Name="EquipmentSlots">
           <ATOM Name="right_hand" Value="Right Hand"/>
@@ -13,7 +15,7 @@
         </ARRAY>
         <ATOM Name="WearEquipmentMalus" Value="0.1"/>
       </STRUCT>
-      <ATOM Name="Price" Value="10"/>
+      <ATOM Name="Price" Value="1"/>
       <ATOM Name="Time to Equip In Ticks" Value="1"/>
     </STRUCT>
     <STRUCT Name="3d">
