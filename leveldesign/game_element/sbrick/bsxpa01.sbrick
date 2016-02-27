@@ -16,7 +16,7 @@
     <STRUCT Name="Mandatory">
       <ATOM Name="f0" Value="BSDEA"/>
    </STRUCT>
-    <STRUCT Name="Credit">
+    <STRUCT Name="Optional">
       <ATOM Name="f0" Value="BSDMA"/>
     </STRUCT>
   </STRUCT>
