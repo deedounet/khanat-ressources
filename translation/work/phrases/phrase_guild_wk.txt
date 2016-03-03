@@ -71,7 +71,7 @@ GUILD_INVALID_DESCRIPTION ()
 }
 GUILD_NOT_ENOUGH_MONEY (int m)
 {
-	[&CHK&You need $m$ seeds to create a guild.]
+	[&CHK&You need $m$ dins to create a guild.]
 }
 GUILD_CREATED ()
 {
@@ -236,7 +236,7 @@ GUILD_BUILDING_BAD_FAME( int i, race r )
 }
 GUILD_BUILDING_BAD_MONEY( int i )
 {
-	[&CHK&To buy a building here, you need $i$ seeds.]
+	[&CHK&To buy a building here, you need $i$ dins.]
 }
 
 

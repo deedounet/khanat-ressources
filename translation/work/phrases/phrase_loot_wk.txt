@@ -97,6 +97,6 @@ EGS_ITEM_ALREADY_BEING_LOOTED_E (entity e)
 
 EGS_LOOT_MONEY (money m)
 {
-	[&ITM&You loot $m$ dappers.]
+	[&ITM&You loot $m$ dins.]
 }
 

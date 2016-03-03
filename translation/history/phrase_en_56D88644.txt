@@ -3445,30 +3445,10 @@ EGS_LEAVE_PLACE (place p)
 
 }
 
-/* OLD VALUE : [
-	EGS_LOOT_MONEY (money m)
-	{
-				[&ITM&You loot $m$ dappers.]
-	
-	}
-	
-
-] */
-// Clause 0 : text changed.
-/* OLD VALUE : [
-	EGS_LOOT_MONEY (money m)
-	{
-				[&ITM&You loot $m$ dappers.]
-	
-	}
-	
-
-] */
-// Clause 0 : text changed.
-// HASH_VALUE 9A465C4275D98565
+// HASH_VALUE 1BC65C70762A6262
 EGS_LOOT_MONEY (money m)
 {
-			[&ITM&You loot $m$ dins.]
+			[&ITM&You loot $m$ dappers.]
 
 }
 
@@ -10481,30 +10461,10 @@ GUILD_BUILDING_BAD_GRADE ()
 
 }
 
-/* OLD VALUE : [
-	GUILD_BUILDING_BAD_MONEY ( int i )
-	{
-				[&CHK&To buy a building here, you need $i$ dappers.]
-	
-	}
-	
-
-] */
-// Clause 0 : text changed.
-/* OLD VALUE : [
-	GUILD_BUILDING_BAD_MONEY ( int i )
-	{
-				[&CHK&To buy a building here, you need $i$ dappers.]
-	
-	}
-	
-
-] */
-// Clause 0 : text changed.
-// HASH_VALUE 55E0F744E5CE7007
+// HASH_VALUE D660F772C1F54D04
 GUILD_BUILDING_BAD_MONEY ( int i )
 {
-			[&CHK&To buy a building here, you need $i$ dins.]
+			[&CHK&To buy a building here, you need $i$ dappers.]
 
 }
 
@@ -10736,30 +10696,10 @@ GUILD_NEW_LEADER (string_id a)
 
 }
 
-/* OLD VALUE : [
-	GUILD_NOT_ENOUGH_MONEY (int m)
-	{
-				[&CHK&You need $m$ dappers to create a guild.]
-	
-	}
-	
-
-] */
-// Clause 0 : text changed.
-/* OLD VALUE : [
-	GUILD_NOT_ENOUGH_MONEY (int m)
-	{
-				[&CHK&You need $m$ dappers to create a guild.]
-	
-	}
-	
-
-] */
-// Clause 0 : text changed.
-// HASH_VALUE 2CC1055B64349D8C
+// HASH_VALUE BA1DA837132B9F9B
 GUILD_NOT_ENOUGH_MONEY (int m)
 {
-			[&CHK&You need $m$ dins to create a guild.]
+			[&CHK&You need $m$ dappers to create a guild.]
 
 }
 
