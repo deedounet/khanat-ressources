@@ -20777,3 +20777,11 @@ uiRpJobs	[Jobs]
 // INDEX 4844
 uiPlayerTitle	[TITLE >]
 
+// HASH_VALUE C0527878E810F4A2
+// INDEX 4845
+uiBewareAlpha	[Pre-alpha version]
+
+// HASH_VALUE 041DCC660F16BEDC
+// INDEX 4846
+uiBewareAlphaText	[Use a not-so-important email and a simple password. Your account can be deleted/wiped at any moment. Come on IRC in case of trouble.]
+
