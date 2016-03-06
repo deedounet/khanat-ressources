@@ -3018,7 +3018,7 @@
       </STRUCT>
       <STRUCT>
         <ATOM Name="Usable From Client UI" Value="false"/>
-        <ATOM Name="EmoteId" Value="Drink"/>
+        <ATOM Name="EmoteId" Value="drink"/>
         <ATOM Name="Animation" Value="drink"/>
       </STRUCT>
       <STRUCT>
