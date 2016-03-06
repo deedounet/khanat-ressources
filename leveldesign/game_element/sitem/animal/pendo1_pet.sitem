@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.0 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="basics">
+      <ATOM Name="name" Value="pendo_pet"/>
+      <ATOM Name="family" Value="pet animal ticket"/>
+      <ATOM Name="Drop or Sell" Value="false"/>
+      <ATOM Name="ItemType" Value="MektoubPackerTicket"/>
+      <ATOM Name="origin" Value="fyros"/>
+      <ATOM Name="quality" Value="50"/>
+    </STRUCT>
+    <STRUCT Name="pet">
+      <ATOM Name="Pet Price" Value="50"/>
+      <ATOM Name="Pet Sheet" Value="pendo1_pet.creature"/>
+      <ATOM Name="Hunger Count" Value="2000"/>
+    </STRUCT>
+    <STRUCT Name="3d">
+      <ATOM Name="icon background" Value="BK_generic.tga"/>
+      <ATOM Name="icon" Value="mektoub_pack.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

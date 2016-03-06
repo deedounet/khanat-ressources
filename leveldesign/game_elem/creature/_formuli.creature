@@ -164,6 +164,7 @@
     </STRUCT>
     <STRUCT Name="Properties">
       <ATOM Name="LootHarvestState" Value="Lootable And Harvestable"/>
+      <ATOM Name="Mountable" Value="true"/>
     </STRUCT>
     <ATOM Name="attack_list0" Value="melee.attack_list"/>
   </STRUCT>

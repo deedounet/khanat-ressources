@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.12 $" State="modified">
+  <PARENT Filename="_formuli.creature"/>
+  <PARENT Filename="_ai_herbivore_craintif.creature"/>
+  <PARENT Filename="_medium_slashing_armor_set.creature"/>
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="PlayerSkillLevel" Value="2"/>
+      <ATOM Name="NbPlayers" Value="2"/>
+      <ATOM Name="PlayerHpLevel" Value="2"/>
+      <ATOM Name="NbHitToKillPlayer" Value="5.376"/>
+      <ATOM Name="Race" Value="mektoub mount"/>
+      <ATOM Name="First Name" Value="lake sagass mount"/>
+      <ATOM Name="Ecosystem" Value="Lacustre"/>
+      <ATOM Name="DamageLocalisationTable" Value="quadruped"/>
+      <STRUCT Name="Characteristics">
+        <ATOM Name="DynamicEnergyValue" Value="0.00125"/>
+      </STRUCT>
+      <STRUCT Name="MovementSpeeds">
+        <ATOM Name="WalkSpeed" Value="&quot;3d data.Scale&quot;*1.1"/>
+        <ATOM Name="RunSpeed" Value="&quot;3d data.Scale&quot;*3.536918"/>
+        <ATOM Name="GroupDispersion" Value="0.85"/>
+      </STRUCT>
+      <STRUCT Name="Scores">
+        <ATOM Name="HitPoints" Value="high"/>
+        <ATOM Name="Sap" Value="default"/>
+        <ATOM Name="Stamina" Value="high"/>
+      </STRUCT>
+      <ATOM Name="life" Value="716.4"/>
+      <ATOM Name="AttackSpeed" Value="2.5"/>
+      <ATOM Name="LifeRegen" Value="1.822900763"/>
+      <ATOM Name="AttackLevel" Value="33"/>
+      <ATOM Name="DefenseLevel" Value="33"/>
+      <ATOM Name="XPLevel" Value="33"/>
+      <ATOM Name="TauntLevel" Value="10"/>
+      <ATOM Name="MeleeReachValue" Value="5"/>
+      <ATOM Name="RegionForce" Value="2"/>
+      <ATOM Name="ForceLevel" Value="3"/>
+      <ATOM Name="LocalCode" Value="2"/>
+      <ATOM Name="DodgeAsDefense" Value="true"/>
+      <STRUCT Name="Equipment">
+        <STRUCT Name="Body">
+          <ATOM Name="Item" Value="sagassmonte_chest.item"/>
+          <ATOM Name="Texture" Value="Lacustre/Low Quality/Young"/>
+        </STRUCT>
+        <STRUCT Name="Legs">
+          <ATOM Name="Item" Value="medium_slashing_legs.item"/>
+        </STRUCT>
+        <STRUCT Name="Arms">
+          <ATOM Name="Item" Value="medium_slashing_arms.item"/>
+        </STRUCT>
+        <STRUCT Name="Hands">
+          <ATOM Name="Item" Value="medium_slashing_hands.item"/>
+        </STRUCT>
+        <STRUCT Name="Feet">
+          <ATOM Name="Item" Value="medium_slashing_feet.item"/>
+        </STRUCT>
+        <STRUCT Name="Head">
+          <ATOM Name="Item" Value="medium_slashing_head.item"/>
+        </STRUCT>
+        <STRUCT Name="Sheath0RightHand">
+          <ATOM Name="Item" Value="medium_slashing_creature_melee_weapon.item"/>
+        </STRUCT>
+        <STRUCT Name="Sheath1RightHand">
+          <ATOM Name="Item" Value="heavy_blunt_creature_melee_weapon.item"/>
+        </STRUCT>
+      </STRUCT>
+      <ATOM Name="type" Value="pet"/>
+    </STRUCT>
+    <STRUCT Name="3d data">
+      <ATOM Name="Scale" Value="0.95"/>
+      <ATOM Name="SoundFamily" Value="0"/>
+      <ATOM Name="SoundVariation" Value="1"/>
+      <ATOM Name="ForceDisplayCreatureName" Value="true"/>
+      <ATOM Name="Skel" Value="TR_MO_sagass_selle.skel"/>
+      <ATOM Name="AnimSetBaseName" Value="sagass_selle"/>
+      <ATOM Name="LodCharacterName" Value="TR_MO_sagass_LOD"/>
+      <ATOM Name="LodCharacterDistance" Value="50.0"/>
+      <STRUCT Name="Shadow">
+        <ATOM Name="Shadow Bone 0" Value="Bip01 L Foot"/>
+        <ATOM Name="Shadow Size 0" Value="2.0"/>
+        <ATOM Name="Shadow Bone 1" Value="Bip01 R Foot"/>
+        <ATOM Name="Shadow Size 1" Value="2.0"/>
+        <ATOM Name="Shadow Bone 2" Value="Bip01 L Hand"/>
+        <ATOM Name="Shadow Size 2" Value="2.0"/>
+        <ATOM Name="Shadow Bone 3" Value="Bip01 R Hand"/>
+        <ATOM Name="Shadow Size 3" Value="2.0"/>
+        <ATOM Name="Shadow Bone 4" Value="Bip01 Spine1"/>
+        <ATOM Name="Shadow Size 4" Value="2.0"/>
+        <ATOM Name="Shadow Bone 5" Value="Bip01 Spine"/>
+        <ATOM Name="Shadow Size 5" Value="3.0"/>
+      </STRUCT>
+    </STRUCT>
+    <STRUCT Name="Harvest">
+      <STRUCT Name="MP1">
+        <ATOM Name="Name" Value="mektoub packer meat"/>
+        <ATOM Name="AssociatedItem" Value="mektoub_packer_meat.item"/>
+      </STRUCT>
+      <STRUCT Name="MP2">
+        <ATOM Name="Name" Value="mektoub packer claws"/>
+        <ATOM Name="AssociatedItem" Value="mektoub_packer_claws.item"/>
+      </STRUCT>
+      <STRUCT Name="MP3">
+        <ATOM Name="Name" Value="mektoub packer trunk"/>
+        <ATOM Name="AssociatedItem" Value="forest_mektoub_packer_trunk.item"/>
+      </STRUCT>
+    </STRUCT>
+    <STRUCT Name="Collision">
+      <ATOM Name="CollisionRadius" Value="1.13"/>
+    </STRUCT>
+    <STRUCT Name="Properties">
+      <ATOM Name="Attackable" Value="false"/>
+      <ATOM Name="Curativable" Value="false"/>
+      <ATOM Name="Mountable" Value="true"/>
+      <ATOM Name="LootHarvestState" Value="Harvestable"/>
+      <ATOM Name="XPGainCoef" Value="1.5"/>
+    </STRUCT>
+    <STRUCT Name="animal_bag">
+      <ATOM Name="bag" Value="steed_inventory.sitem"/>
+    </STRUCT>
+    <STRUCT Name="Combat">
+      <ATOM Name="AggroRadiusNotHungry" Value="15"/>
+      <ATOM Name="AggroRadiusHungry" Value="15"/>
+      <ATOM Name="AggroRadiusHunting" Value="15"/>
+      <ATOM Name="DistModulator" Value="0.2"/>
+      <ATOM Name="TargetModulator" Value="0.25"/>
+      <ATOM Name="LifeLevelModulator" Value="0.01"/>
+      <ATOM Name="CourageModulator" Value="1"/>
+      <ATOM Name="GroupCohesionModulator" Value="0.01"/>
+      <ATOM Name="AssistDist" Value="5"/>
+    </STRUCT>
+    <STRUCT Name="Protections">
+      <ATOM Name="PiercingMax" Value="0"/>
+      <ATOM Name="PiercingFactor" Value="0"/>
+      <ATOM Name="SlashingMax" Value="0"/>
+      <ATOM Name="SlashingFactor" Value="0"/>
+      <ATOM Name="BluntMax" Value="0"/>
+      <ATOM Name="BluntFactor" Value="0"/>
+      <ATOM Name="RotMax" Value="247.5"/>
+      <ATOM Name="RotFactor" Value="50"/>
+      <ATOM Name="AcidMax" Value="0"/>
+      <ATOM Name="AcidFactor" Value="0"/>
+      <ATOM Name="ColdMax" Value="0"/>
+      <ATOM Name="ColdFactor" Value="0"/>
+      <ATOM Name="FireMax" Value="0"/>
+      <ATOM Name="FireFactor" Value="0"/>
+      <ATOM Name="PoisonMax" Value="0"/>
+      <ATOM Name="PoisonFactor" Value="0"/>
+      <ATOM Name="ElectricityMax" Value="0"/>
+      <ATOM Name="ElectricityFactor" Value="0"/>
+      <ATOM Name="ShockMax" Value="0"/>
+      <ATOM Name="ShockFactor" Value="0"/>
+    </STRUCT>
+    <STRUCT Name="Resists">
+      <ATOM Name="Fear" Value="33"/>
+      <ATOM Name="Sleep" Value="33"/>
+      <ATOM Name="Stun" Value="33"/>
+      <ATOM Name="Root" Value="33"/>
+      <ATOM Name="Blind" Value="33"/>
+      <ATOM Name="Snare" Value="33"/>
+      <ATOM Name="Slow" Value="33"/>
+      <ATOM Name="Acid" Value="33"/>
+      <ATOM Name="Cold" Value="33"/>
+      <ATOM Name="Electricity" Value="33"/>
+      <ATOM Name="Fire" Value="33"/>
+      <ATOM Name="Poison" Value="3"/>
+      <ATOM Name="Rot" Value="33"/>
+    </STRUCT>
+    <STRUCT Name="Damage Shield">
+      <ATOM Name="Damage" Value="0"/>
+      <ATOM Name="Drained HP" Value="0"/>
+    </STRUCT>
+    <ATOM Name="category" Value="H"/>
+    <ATOM Name="race_code" Value="I"/>
+    <ATOM Name="creature_level" Value="3.3"/>
+    <ATOM Name="group_id" Value="HI"/>
+    <STRUCT Name="Loot">
+      <ATOM Name="loot1" Value="meat_loot_lvl_{$z2 int($filename/5)*5+1}_{$z2 int($filename/5+1)*5}.loot"/>
+      <ATOM Name="loot2" Value="meat_loot_lvl_{$z2 int($filename/5)*5+1}_{$z2 int($filename/5+1)*5}.loot"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <COMMENTS></COMMENTS>
+  <LOG></LOG>
+</FORM>

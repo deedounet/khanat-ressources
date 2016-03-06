@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.4 $" State="modified">
+  <STRUCT>
+    <ATOM Name="brick 0" Value="bmpa01.sbrick"/>
+    <ATOM Name="brick 1" Value="bmoetea03.sbrick"/>
+    <ATOM Name="brick 2" Value="bmoetmr00005.sbrick"/>
+    <ATOM Name="brick 10" Value="bmcr00001.sbrick"/>
+    <ATOM Name="brick 11" Value="bmcr00005.sbrick"/>
+    <ATOM Name="brick 13" Value="bmca00002.sbrick"/>
+    <ATOM Name="brick 14" Value="bmca00005.sbrick"/>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+</FORM>

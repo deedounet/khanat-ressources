@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.0 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="basics">
+      <ATOM Name="name" Value="test comand ticket"/>
+      <ATOM Name="family" Value="command ticket"/>
+      <ATOM Name="ShardExchangeable" Value="false"/>
+      <ATOM Name="Drop or Sell" Value="false"/>
+      <ATOM Name="Saleable" Value="false"/>
+      <ATOM Name="Consumable" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="3d">
+      <ATOM Name="icon" Value="mp_batiment_noyau_maduk.tga"/>
+      <ATOM Name="Icon background" Value="bk_mission.tga"/>
+    </STRUCT>
+    <STRUCT Name="CommandTicket">
+      <ATOM Name="Command" Value="Money 9 999"/>
+      <ATOM Name="Priviledge" Value=":DEV:"/>
+      <ATOM Name="NbRun" Value="1"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

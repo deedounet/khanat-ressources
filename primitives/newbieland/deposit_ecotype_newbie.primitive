@@ -2,10 +2,6 @@
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
     <ALIAS LAST_GENERATED="1"/>
-    <PROPERTY TYPE="string">
-      <NAME>name</NAME>
-      <STRING></STRING>
-    </PROPERTY>
     <CHILD TYPE="CPrimNode">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>

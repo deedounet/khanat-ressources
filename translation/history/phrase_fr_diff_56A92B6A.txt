@@ -1,0 +1,59 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 2262
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_1 (player p)
+	{
+		(p.gender = male) 
+			text_intro_newbie_1_m	[coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+	
+		(p.gender = female) 
+			text_intro_newbie_1_f	[coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+	
+	}
+	
+
+] */
+// WARNING : Hash code changed ! check translation workflow.
+// HASH_VALUE B5CEB0D98EB701A2
+TEXT_INTRO_NEWBIE_1 (player p)
+{
+	(p.gender = male) 
+		text_intro_newbie_1_m	[coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+	(p.gender = female) 
+		text_intro_newbie_1_f	[coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+}
+
+// DIFF CHANGED 2263
+/* OLD VALUE : [
+	TEXT_INTRO_NEWBIE_2 (player p)
+	{
+		(p.gender = male) 
+			text_intro_newbie_2_m	[*Remarque l'air perplexe et reprend*\n
+				Bonjour Oublieux. On m'appelle Uil'i. Sois le bienvenu.]
+	
+		(p.gender = female) 
+			text_intro_newbie_2_f	[*Remarque l'air perplexe et reprend*\n
+				Bonjour Oublieuse. On m'appelle Uil'i. Sois la bienvenue.]
+	
+	}
+	
+
+] */
+// WARNING : Hash code changed ! check translation workflow.
+// HASH_VALUE C3EA8EE303D675B4
+TEXT_INTRO_NEWBIE_2 (player p)
+{
+	(p.gender = male) 
+		text_intro_newbie_2_m	[*Remarque l'air perplexe et reprend*\n
+			Bonjour Oublieux. On m'appelle Uil'i. Sois le bienvenu.]
+
+	(p.gender = female) 
+		text_intro_newbie_2_f	[*Remarque l'air perplexe et reprend*\n
+			Bonjour Oublieuse. On m'appelle Uil'i. Sois la bienvenue.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

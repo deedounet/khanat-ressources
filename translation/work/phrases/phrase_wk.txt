@@ -22,7 +22,7 @@ ROOM_TOO_ENCUMBERED ()
 
 ANIMAL_PACKER_TOO_ENCUMBERED ()
 { 
-	[&CHK& Your mektoub is too encumbered.]
+	[&CHK& Your animal is too encumbered.]
 }
 
 TELEPORT_USED ( int i )
@@ -413,7 +413,7 @@ EGS_CANT_CONSTRUCT_ANYTHING ()
 
 OPS_WELCOME ()
 {
-	[&AROUND&Welcome to Ryzom !]
+	[&AROUND&Welcome to Khanat !]
 }
 
 EGS_USE_LAST_AMMO ()

@@ -5,7 +5,10 @@
       <ATOM Name="fy_hof" Value="fy_hof.animset_mode"/>
       <ATOM Name="fy_hom" Value="fy_hom.animset_mode"/>
       <ATOM Name="dag" Value="dag.animset_mode"/>
-    </ARRAY>
+      <ATOM Name="arma" Value="arma.animset_mode"/>
+      <ATOM Name="arma_mount" Value="armamount.animset_mode"/>
+      <ATOM Name="sagass_mount" Value="sagass_selle.animset_mode"/>
+ </ARRAY>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

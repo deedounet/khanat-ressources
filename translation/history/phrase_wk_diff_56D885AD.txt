@@ -1,0 +1,57 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 1740
+/* OLD VALUE : [
+	EGS_LOOT_MONEY (money m)
+	{
+				[&ITM&You loot $m$ dappers.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 9A465C4275D98565
+EGS_LOOT_MONEY (money m)
+{
+			[&ITM&You loot $m$ dins.]
+
+}
+
+// DIFF CHANGED 2147
+/* OLD VALUE : [
+	GUILD_BUILDING_BAD_MONEY ( int i )
+	{
+				[&CHK&To buy a building here, you need $i$ dappers.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 55E0F744E5CE7007
+GUILD_BUILDING_BAD_MONEY ( int i )
+{
+			[&CHK&To buy a building here, you need $i$ dins.]
+
+}
+
+// DIFF CHANGED 2109
+/* OLD VALUE : [
+	GUILD_NOT_ENOUGH_MONEY (int m)
+	{
+				[&CHK&You need $m$ dappers to create a guild.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 2CC1055B64349D8C
+GUILD_NOT_ENOUGH_MONEY (int m)
+{
+			[&CHK&You need $m$ dins to create a guild.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

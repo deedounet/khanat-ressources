@@ -1,0 +1,96 @@
+﻿// DIFF ADD 1729 
+// HASH_VALUE 3340189E201B687C
+// INDEX 0
+newbieland_start_mis_desc	[Talk to Uil'i to learn about this place.]
+
+// DIFF ADD 1730 
+// HASH_VALUE 59C4803A9CA7CFB8
+// INDEX 1
+newbieland_start_mis_title	[First steps in the lirri'a]
+
+// DIFF ADD 1731 
+// HASH_VALUE D6184F3B5BA42415
+// INDEX 2
+newbie_intro	[Talk to Uil'i]
+
+// DIFF ADD 1738 
+// HASH_VALUE D6184F3B5BA42415
+// INDEX 3
+obj_intro	[Talk to Uil'i]
+
+// DIFF CHANGED 3331 
+/* OLD VALUE : [&bbl&This is lirri'a, a time when nothing is certain. Reality is moving, Fogs change everything in a day.
+With some ra, I try to maintain a small stable area around here. There was a time I was working in the Dispensary. I try to make it alive here again ; some many Forgotting are coming from Fogs in the Jungle.] */
+// HASH_VALUE BBE2E223B067DB57
+// INDEX 4
+text_intro_newbie_3	[This is lirri'a, a time when nothing is certain. Reality is moving, Fogs change everything in a day.\n
+	With some ra, I try to maintain a small stable area around here. There was a time I was working in the Dispensary. I try to make it alive here again ; some many Forgotting are coming from Fogs in the Jungle.]
+
+// DIFF CHANGED 3332 
+/* OLD VALUE : [&bbl&This minaret seems to work properly, as the reborn system associated to it. But don't take any risk, nothing is certain. This is lirri'a...] */
+// HASH_VALUE 36D62494A6E59669
+// INDEX 5
+text_intro_newbie_4	[This minaret seems to work properly, as the reborn system associated to it. But don't take any risk, nothing is certain. This is lirri'a...]
+
+// DIFF CHANGED 3333 
+/* OLD VALUE : [&bbl&If you have any questions... You should go and find Caet, the nurse.
+She should be around? ] */
+// HASH_VALUE E0838A02312C9AE0
+// INDEX 6
+text_intro_newbie_5	[If you have any questions... You should go and find Caet, the nurse.\n
+	She should be around…]
+
+// DIFF CHANGED 3340 
+/* OLD VALUE : [&bbl&Beware of Osquallo and Deed tests, some of them are deadly..] */
+// HASH_VALUE 20EF5E284D936F2E
+// INDEX 7
+welcome_ra_1	[Beware of Osquallo and Deed tests, some of them are deadly...]
+
+// DIFF CHANGED 3341 
+/* OLD VALUE : [&bbl&Beware Zatalyz's whip!] */
+// HASH_VALUE 263AC83AE8AE6B7B
+// INDEX 8
+welcome_ra_2	[Beware Zatalyz's whip!]
+
+// DIFF CHANGED 3342 
+/* OLD VALUE : [&bbl&Have you tasted Lyne's tea?] */
+// HASH_VALUE A056C0198A94201C
+// INDEX 9
+welcome_ra_3	[Have you tasted Lyne's tea?]
+
+// DIFF CHANGED 3343 
+/* OLD VALUE : [&bbl&Give me a klum pie or I'll break everything!] */
+// HASH_VALUE 88FEB906E14964EB
+// INDEX 10
+welcome_ra_4	[Give me a klum pie or I'll break everything!]
+
+// DIFF REMOVED 3344 
+// HASH_VALUE 69734677E8446715
+// INDEX 11
+chiang_5	[&bbl&This is lirri'a…]
+
+// DIFF ADD 3344 
+// HASH_VALUE F07A8C80429A8212
+// INDEX 12
+welcome_ra_5	[This is lirri'a…]
+
+// DIFF CHANGED 3345 
+/* OLD VALUE : [&bbl&Seems to me I have seen a scoui running over there?] */
+// HASH_VALUE 4E87A29DA445F419
+// INDEX 13
+welcome_ra_6	[Seems to me I have seen a scoui running over there…]
+
+// DIFF CHANGED 3346 
+/* OLD VALUE : [&bbl&Don't forget to clean with the broom for the evening.] */
+// HASH_VALUE E8F6DF8DCA3294D8
+// INDEX 14
+welcome_ra_7	[Don't forget to clean with the broom for the evening.]
+
+// DIFF CHANGED 3347 
+/* OLD VALUE : [&bbl& Glory to the K ! Glory to the K ! Ahem, to the Khan !] */
+// HASH_VALUE 2985E1F322C35C5E
+// INDEX 15
+welcome_ra_8	[Glory to the K ! Glory to the K ! Ahem, to the Khan !]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

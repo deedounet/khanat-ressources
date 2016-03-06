@@ -1,12 +1,12 @@
 ﻿
 EGS_ALREADY_HAVE_MOUNT ()
 {
-	[&CHK&You can only have one mektoub mount.]
+	[&CHK&You can only have one mount.]
 }
 
 EGS_CANT_BUY_ANOTHER_PACKER ()
 {
-	[&CHK&You can't buy another mektoub packer.]
+	[&CHK&You can't buy another packer.]
 }
 
 PACK_ANIMAL_INVENTORY_MUST_BE_EMPTY ()
@@ -46,15 +46,15 @@ ANIMAL_DISEAPER (int number)
 
 ANIMAL_HUNGRY()
 {
-	[&CHK&Your mektoub is hungry, and can't run any longer.]
+	[&CHK&Your animal is hungry, and can't run any longer.]
 }
 
 ANIMAL_HAS_EATEN()
 {
-	[&ITM&Your mektoub has eaten some food from his inventory, and can now run.]
+	[&ITM&Your animal has eaten some food from his inventory, and can now run.]
 }
 
 ANIMAL_FOLLOW_TOO_FAR()
 {
-	[&CHK&Your following mektoub is too far from you and can't follow you any longer.]
+	[&CHK&Your following animal is too far from you and can't follow you any longer.]
 }

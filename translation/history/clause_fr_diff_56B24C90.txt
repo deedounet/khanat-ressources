@@ -1,0 +1,37 @@
+﻿// DIFF ADD 1570 
+// HASH_VALUE 28905F0B55F719AC
+// INDEX 0
+fredi_singer	[C'est bien aimable de vous intéresser au modeste artiste que je suis. Fredi, à votre service.]
+
+// DIFF ADD 1571 
+// HASH_VALUE EF103D7653F39D89
+// INDEX 1
+fredi_sing_1	[♩ ♪  Is this the real life? Is this just fantasy? ♫ ♪]
+
+// DIFF ADD 1572 
+// HASH_VALUE B0AC2B79CABE7666
+// INDEX 2
+fredi_sing_2	[♩ ♫  I want to break free, I want to break free ♫ ♬]
+
+// DIFF ADD 1573 
+// HASH_VALUE 9A06266D997D886F
+// INDEX 3
+fredi_sing_3	[♬ ♪  Who wants to live forever? ♫ ♪]
+
+// DIFF ADD 1574 
+// HASH_VALUE 247F481D43686AF2
+// INDEX 4
+fredi_sing_4	[♩ ♪  Oh yes, I'm the great pretender ♩ ♬]
+
+// DIFF ADD 1575 
+// HASH_VALUE 09A07A7BB0D931EF
+// INDEX 5
+fredi_sing_5	[♬ ♪  It's a kind of magic, A kind of magic, ♫ ♬]
+
+// DIFF ADD 1576 
+// HASH_VALUE 5110E01D650A3045
+// INDEX 6
+fredi_sing_6	[♩ ♪ We are the champions my friends ♫ ♬]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

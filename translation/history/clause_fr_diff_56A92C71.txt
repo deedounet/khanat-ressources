@@ -1,0 +1,30 @@
+﻿// DIFF CHANGED 3708 
+/* OLD VALUE : [&bbl&coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e] */
+// HASH_VALUE C7FFA5E56DD040D2
+// INDEX 0
+text_intro_newbie_1_m	[coi Oublieux .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+// DIFF CHANGED 3709 
+/* OLD VALUE : [&bbl&coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e] */
+// HASH_VALUE 2F43BB1CC8DDE441
+// INDEX 1
+text_intro_newbie_1_f	[coi Oublieuse .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+// DIFF CHANGED 3710 
+/* OLD VALUE : [&bbl&*Remarque l'air perplexe et reprend*
+Bonjour Oublieux. On m'appelle Uil'i. Sois le bienvenu.] */
+// HASH_VALUE 9304456E270536D0
+// INDEX 2
+text_intro_newbie_2_m	[*Remarque l'air perplexe et reprend*\n
+	Bonjour Oublieux. On m'appelle Uil'i. Sois le bienvenu.]
+
+// DIFF CHANGED 3711 
+/* OLD VALUE : [&bbl&*Remarque l'air perplexe et reprend*
+Bonjour Oublieuse. On m'appelle Uil'i. Sois la bienvenue.] */
+// HASH_VALUE EC2363CB4384679E
+// INDEX 3
+text_intro_newbie_2_f	[*Remarque l'air perplexe et reprend*\n
+	Bonjour Oublieuse. On m'appelle Uil'i. Sois la bienvenue.]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

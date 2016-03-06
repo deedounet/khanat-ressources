@@ -497,6 +497,102 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="agree">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_oui.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="angry">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_levee_poing.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="applaud">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_applaudire.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="bow">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_salut_incline.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="bye">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_salut.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="disagree">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_non.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="kneel">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_salut2.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="laugh">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_rire.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="sad">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_shoote_poussiere.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="thank">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_salut_incline.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="unhappy">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_poing_contre_poing.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="wave">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_salut.anim"/>
+          <ATOM Name="head controlable" Value="false"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

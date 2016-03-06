@@ -45,3 +45,13 @@ FACTION_POINT_CANNOT_GAIN_YET (player victim, int m, int s)
 
 	faction_points_cannot_gain_yet_xs [&XP&$s$ secondes sont nécessaires avant de pouvoir gagner des points d'honneur en combattant $victim$.]
 }
+
+FACTION_EN()
+{
+	[English Uni]
+}
+
+FACTION_FR()
+{
+	[French Uni]
+}

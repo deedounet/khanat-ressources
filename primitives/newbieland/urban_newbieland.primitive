@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="1256"/>
+    <ALIAS LAST_GENERATED="1271"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -9,7 +9,7 @@
       </PROPERTY>
       <PROPERTY TYPE="string">
         <NAME>name</NAME>
-        <STRING>rangers_starting_city</STRING>
+        <STRING> starting_camp</STRING>
       </PROPERTY>
       <CHILD TYPE="CPrimAlias">
         <ALIAS VALUE="139"/>
@@ -49,7 +49,7 @@
           </PROPERTY>
           <PROPERTY TYPE="string">
             <NAME>name</NAME>
-            <STRING>ranger_leader</STRING>
+            <STRING>dispensary_worker</STRING>
           </PROPERTY>
           <CHILD TYPE="CPrimNode">
             <PROPERTY TYPE="string">
@@ -73,11 +73,12 @@
             </PROPERTY>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="10303.784180" Y="-11718.812500" Z="0.000000"/>
-            <ANGLE VALUE="4.908739"/>
+            <PT X="8869.108398" Y="-10589.008789" Z="0.000000"/>
+            <ANGLE VALUE="9.365874"/>
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
-              <STRING>menu: MENU_WHOAMI CHIANG_WELCOME</STRING>
+              <STRING>shop:guild_creator</STRING>
+              <STRING>menu: MENU_WHOAMI WELCOME_RA_WELCOME</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
@@ -85,19 +86,17 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>CHANDS : 1</STRING>
-              <STRING>CBODY : 3</STRING>
-              <STRING>CLEGS : 3</STRING>
-              <STRING>CFEETS : 3</STRING>
-              <STRING>CARMS : 1</STRING>
+              <STRING>VPA:0042060000103206</STRING>
+              <STRING>VPB:00000020F0000000</STRING>
+              <STRING>VPC:0021DDE4074DA8D4</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>chiang_the_strong$fct_ranger_leader$</STRING>
+              <STRING>welcome_ra$fct_dispensary_worker$</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>company_of_the_drill_loge_master_z_h_b1</STRING>
+              <STRING>welcome_ra</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="158"/>
@@ -117,33 +116,55 @@
               </PROPERTY>
               <PROPERTY TYPE="string">
                 <NAME>name</NAME>
-                <STRING>WELCOME_RYZOM_CORE</STRING>
+                <STRING>NEWBIELAND_START</STRING>
               </PROPERTY>
               <PROPERTY TYPE="string_array">
                 <NAME>script</NAME>
-                <STRING># script generated from 'urban_newbieland.primitive'</STRING>
+                <STRING># script generated from 'missions_newbieland.primitive'</STRING>
                 <STRING></STRING>
                 <STRING>#mission tags and pre-requisites</STRING>
-                <STRING>replayable</STRING>
                 <STRING>solo</STRING>
+                <STRING>auto_remove</STRING>
+                <STRING>mission_category : newbie_mission</STRING>
+                <STRING>not_proposed</STRING>
+                <STRING>auto : AUTO_MISSION_NEWBIE1</STRING>
+                <STRING>mission_icon : generic_rite</STRING>
+                <STRING>fail_if_inventory_is_full</STRING>
                 <STRING></STRING>
                 <STRING>#Variables declaration</STRING>
                 <STRING>decl : bot : giver</STRING>
                 <STRING>decl : bot : player</STRING>
-                <STRING>decl : bot : chiang_the_strong</STRING>
+                <STRING>decl : bot : welcome_ra</STRING>
                 <STRING></STRING>
                 <STRING>#pre-requisites</STRING>
                 <STRING></STRING>
                 <STRING>#script</STRING>
-                <STRING>mission_title : WELCOME_RYZOM_CORE_TITLE</STRING>
-                <STRING>mission_desc : WELCOME_RYZOM_CORE_DESC</STRING>
-                <STRING># step_4</STRING>
-                <STRING>kill_fauna : chdfa1 3</STRING>
-                <STRING>recv_money : 10000</STRING>
-                <STRING></STRING>
+                <STRING>mission_title : NEWBIELAND_START_MIS_TITLE</STRING>
+                <STRING>mission_desc : NEWBIELAND_START_MIS_DESC</STRING>
+                <STRING># step_1</STRING>
+                <STRING>set_respawn_points : newbieland : kami_respawn_starting_city : false</STRING>
+                <STRING>add_compass_npc : welcome_ra</STRING>
+                <STRING>set_obj : OBJ_INTRO</STRING>
+                <STRING>talk_to : welcome_ra : NEWBIE_INTRO</STRING>
+                <STRING>remove_compass_npc : welcome_ra</STRING>
+                <STRING># INTRO_1</STRING>
+                <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_1 : INTRO_1_resp ANSWER_WHAT</STRING>
+                <STRING>jump_point : INTRO_1_resp</STRING>
+                <STRING># INTRO_2</STRING>
+                <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_2 : INTRO_2_resp ANSWER_OK</STRING>
+                <STRING>jump_point : INTRO_2_resp</STRING>
+                <STRING># INTRO_3</STRING>
+                <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_3 : INTRO_3_resp ANSWER_OK</STRING>
+                <STRING>jump_point : INTRO_3_resp</STRING>
+                <STRING># INTRO_4</STRING>
+                <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_4 : INTRO_4_resp ANSWER_OK</STRING>
+                <STRING>jump_point : INTRO_4_resp</STRING>
+                <STRING># INTRO_5</STRING>
+                <STRING>dyn_chat : welcome_ra : TEXT_INTRO_NEWBIE_5 : INTRO_5_resp ANSWER_OK</STRING>
+                <STRING>jump_point : INTRO_5_resp</STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimAlias">
-                <ALIAS VALUE="1256"/>
+                <ALIAS VALUE="1260"/>
                 <PROPERTY TYPE="string">
                   <NAME>class</NAME>
                   <STRING>alias</STRING>
@@ -218,11 +239,11 @@
                   </PROPERTY>
                   <PROPERTY TYPE="string">
                     <NAME>name</NAME>
-                    <STRING>say_CHIANG_1 </STRING>
+                    <STRING>say_WELCOME_RA_1</STRING>
                   </PROPERTY>
                   <PROPERTY TYPE="string_array">
                     <NAME>parameters</NAME>
-                    <STRING>say: CHIANG_1</STRING>
+                    <STRING>say: WELCOME_RA_1</STRING>
                   </PROPERTY>
                 </CHILD>
                 <CHILD TYPE="CPrimNode">
@@ -236,11 +257,11 @@
                   </PROPERTY>
                   <PROPERTY TYPE="string">
                     <NAME>name</NAME>
-                    <STRING>say_CHIANG_2</STRING>
+                    <STRING>say_WELCOME_RA_2</STRING>
                   </PROPERTY>
                   <PROPERTY TYPE="string_array">
                     <NAME>parameters</NAME>
-                    <STRING>say: CHIANG_2</STRING>
+                    <STRING>say: WELCOME_RA_2</STRING>
                   </PROPERTY>
                 </CHILD>
                 <CHILD TYPE="CPrimNode">
@@ -254,11 +275,11 @@
                   </PROPERTY>
                   <PROPERTY TYPE="string">
                     <NAME>name</NAME>
-                    <STRING>say_CHIANG_3</STRING>
+                    <STRING>say_WELCOME_RA_3</STRING>
                   </PROPERTY>
                   <PROPERTY TYPE="string_array">
                     <NAME>parameters</NAME>
-                    <STRING>say: CHIANG_3</STRING>
+                    <STRING>say: WELCOME_RA_3</STRING>
                   </PROPERTY>
                 </CHILD>
                 <CHILD TYPE="CPrimNode">
@@ -272,11 +293,83 @@
                   </PROPERTY>
                   <PROPERTY TYPE="string">
                     <NAME>name</NAME>
-                    <STRING>say_CHIANG_4</STRING>
+                    <STRING>say_WELCOME_RA_4</STRING>
                   </PROPERTY>
                   <PROPERTY TYPE="string_array">
                     <NAME>parameters</NAME>
-                    <STRING>say: CHIANG_4</STRING>
+                    <STRING>say: WELCOME_RA_4</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_WELCOME_RA_5</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: WELCOME_RA_5</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_WELCOME_RA_6</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: WELCOME_RA_6</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_WELCOME_RA_7</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: WELCOME_RA_7</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_WELCOME_RA_8</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: WELCOME_RA_8</STRING>
                   </PROPERTY>
                 </CHILD>
               </CHILD>
@@ -349,66 +442,39 @@
             </PROPERTY>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="10299.704102" Y="-11724.041992" Z="0.000000"/>
-            <ANGLE VALUE="-6.430448"/>
+            <PT X="8810.023438" Y="-10634.111328" Z="0.000000"/>
+            <ANGLE VALUE="6.037747"/>
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
-              <STRING>shop : RM_ITEM_PART_SOLD:RM_NEWBIELAND_LEVEL</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>class</NAME>
-              <STRING>npc_bot</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string_array">
-              <NAME>equipment</NAME>
-              <STRING>CHANDS : 1</STRING>
-              <STRING>CBODY : 3</STRING>
-              <STRING>CLEGS : 3</STRING>
-              <STRING>CFEETS : 3</STRING>
-              <STRING>CARMS : 1</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>is_stuck</NAME>
-              <STRING>true</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>name</NAME>
-              <STRING>bland_marchand_rm$fct_rm_merchant$</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>sheet_client</NAME>
-              <STRING>company_of_the_drill_loge_master_z_h_b1</STRING>
-            </PROPERTY>
-            <CHILD TYPE="CPrimAlias">
-              <ALIAS VALUE="142"/>
-              <PROPERTY TYPE="string">
-                <NAME>class</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string">
-                <NAME>name</NAME>
-                <STRING>alias</STRING>
-              </PROPERTY>
-            </CHILD>
-          </CHILD>
-          <CHILD TYPE="CPrimPoint">
-            <PT X="10309.961914" Y="-11722.644531" Z="0.000000"/>
-            <ANGLE VALUE="3.504839"/>
-            <PROPERTY TYPE="string_array">
-              <NAME>chat_parameters</NAME>
+              <STRING>shop : Matis:Fyros:HAIRDRESSING_FEMALE:HAIRDRESSING_MALE:TATOO_MALE:TATOO_FEMALE</STRING>
               <STRING>shop : NEWBIELAND_LARMOR_ALL</STRING>
-              <STRING>item : icmalb.sitem 10</STRING>
-              <STRING>item : icmalb.sitem 20</STRING>
-              <STRING>item : icmalb.sitem 50</STRING>
-              <STRING>item : icfalb.sitem 10</STRING>
-              <STRING>item : icfalb.sitem 20</STRING>
-              <STRING>item : icfalb.sitem 50</STRING>
-              <STRING>item : ictalb.sitem 10</STRING>
-              <STRING>item : ictalb.sitem 20</STRING>
-              <STRING>item : ictalb.sitem 50</STRING>
-              <STRING>item : iczalb.sitem 10</STRING>
-              <STRING>item : iczalb.sitem 20</STRING>
-              <STRING>item : iczalb.sitem 50</STRING>
+              <STRING>item : pendo_toy1.sitem 1</STRING>
+              <STRING>item : pendo_toy2.sitem 1</STRING>
+              <STRING>item : pendo_toy3.sitem 1</STRING>
+              <STRING>item : icrava.sitem 10</STRING>
+              <STRING>item : icrave.sitem 10</STRING>
+              <STRING>item : icravg.sitem 10</STRING>
+              <STRING>item : icravr.sitem 10</STRING>
+              <STRING>item : icravt.sitem 10</STRING>
+              <STRING>item : icravu.sitem 10</STRING>
+              <STRING>item : icravv.sitem 10</STRING>
+              <STRING>item : icravw.sitem 10</STRING>
+              <STRING>item : icrasa.sitem 10</STRING>
+              <STRING>item : icrase.sitem 10</STRING>
+              <STRING>item : icrasg.sitem 10</STRING>
+              <STRING>item : icrasr.sitem 10</STRING>
+              <STRING>item : icrast.sitem 10</STRING>
+              <STRING>item : icrasu.sitem 10</STRING>
+              <STRING>item : icrasv.sitem 10</STRING>
+              <STRING>item : icrasw.sitem 10</STRING>
+              <STRING>item : icrapa.sitem 10</STRING>
+              <STRING>item : icrape.sitem 10</STRING>
+              <STRING>item : icrapg.sitem 10</STRING>
+              <STRING>item : icrapr.sitem 10</STRING>
+              <STRING>item : icrapt.sitem 10</STRING>
+              <STRING>item : icrapu.sitem 10</STRING>
+              <STRING>item : icrapv.sitem 10</STRING>
+              <STRING>item : icrapw.sitem 10</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
@@ -416,11 +482,9 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>CHANDS : 1</STRING>
-              <STRING>CBODY : 3</STRING>
-              <STRING>CLEGS : 3</STRING>
-              <STRING>CFEETS : 3</STRING>
-              <STRING>CARMS : 1</STRING>
+              <STRING>VPA:212C120000901209</STRING>
+              <STRING>VPB:000000C0BC090000</STRING>
+              <STRING>VPC:000000381396B8AD</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -428,7 +492,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>company_of_the_drill_loge_master_z_h_b1</STRING>
+              <STRING>welcome_ra_f</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="146"/>
@@ -442,91 +506,88 @@
               </PROPERTY>
             </CHILD>
           </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8814.554688" Y="-10645.906250" Z="0.000000"/>
+            <ANGLE VALUE="1.394082"/>
+            <PROPERTY TYPE="string_array">
+              <NAME>chat_parameters</NAME>
+              <STRING>shop : SERVICE_STABLE: FOOD: MEKTOUB_PACKER_TICKET: MEKTOUB_MOUNT_TICKET: STATIC_DYNAMIC_SHOP</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>equipment</NAME>
+              <STRING>VPA:A08C14000010D21B</STRING>
+              <STRING>VPB:000000C0CC0A0000</STRING>
+              <STRING>VPC:001625F805C2E9B4</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>nbland_marchand_pet$fct_pet_marchand$</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>dispensary_tcara_f</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>vertical_pos</NAME>
+              <STRING>auto</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1265"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
         </CHILD>
       </CHILD>
-    </CHILD>
-    <CHILD TYPE="CPrimNode">
-      <PROPERTY TYPE="string">
-        <NAME>class</NAME>
-        <STRING>missions_editor</STRING>
-      </PROPERTY>
-      <PROPERTY TYPE="string">
-        <NAME>name</NAME>
-        <STRING>missions_editor</STRING>
-      </PROPERTY>
-      <CHILD TYPE="CPrimNode">
+      <CHILD TYPE="CPrimZone">
+        <PT X="8823.722656" Y="-10624.966797" Z="0.000000"/>
+        <PT X="8824.273438" Y="-10630.328125" Z="0.000000"/>
+        <PT X="8817.674805" Y="-10631.703125" Z="0.000000"/>
+        <PT X="8814.373047" Y="-10629.916016" Z="0.000000"/>
+        <PT X="8806.673828" Y="-10634.178711" Z="0.000000"/>
+        <PT X="8810.248047" Y="-10639.128906" Z="0.000000"/>
+        <PT X="8819.048828" Y="-10650.816406" Z="0.000000"/>
+        <PT X="8820.973633" Y="-10661.266602" Z="0.000000"/>
+        <PT X="8826.335938" Y="-10674.878906" Z="0.000000"/>
+        <PT X="8832.798828" Y="-10677.354492" Z="0.000000"/>
+        <PT X="8838.710938" Y="-10664.290039" Z="0.000000"/>
+        <PT X="8842.423828" Y="-10656.454102" Z="0.000000"/>
+        <PT X="8848.199219" Y="-10645.453125" Z="0.000000"/>
+        <PT X="8854.111328" Y="-10639.678711" Z="0.000000"/>
+        <PT X="8865.661133" Y="-10631.703125" Z="0.000000"/>
+        <PT X="8866.486328" Y="-10621.391602" Z="0.000000"/>
+        <PT X="8860.298828" Y="-10611.490234" Z="0.000000"/>
+        <PT X="8853.561523" Y="-10606.127930" Z="0.000000"/>
+        <PT X="8848.611328" Y="-10603.653320" Z="0.000000"/>
+        <PT X="8837.473633" Y="-10606.678711" Z="0.000000"/>
+        <PT X="8831.699219" Y="-10609.015625" Z="0.000000"/>
+        <PT X="8832.798828" Y="-10613.416992" Z="0.000000" SELECTED="true"/>
+        <PT X="8831.561523" Y="-10618.916992" Z="0.000000"/>
+        <PT X="8828.810547" Y="-10622.216797" Z="0.000000"/>
+        <PROPERTY TYPE="string">
+          <NAME>ai_movement</NAME>
+          <STRING>wander</STRING>
+        </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>class</NAME>
-          <STRING>mission_tree</STRING>
-        </PROPERTY>
-        <PROPERTY TYPE="string">
-          <NAME>giver_primitive</NAME>
-          <STRING>urban_newbieland.primitive</STRING>
-        </PROPERTY>
-        <PROPERTY TYPE="string_array">
-          <NAME>mission_description</NAME>
-          <STRING>WELCOME_RYZOM_CORE_DESC</STRING>
-        </PROPERTY>
-        <PROPERTY TYPE="string">
-          <NAME>mission_giver</NAME>
-          <STRING>$givervar@fullname$</STRING>
-        </PROPERTY>
-        <PROPERTY TYPE="string_array">
-          <NAME>mission_title</NAME>
-          <STRING>WELCOME_RYZOM_CORE_TITLE</STRING>
+          <STRING>npc_zone</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>name</NAME>
-          <STRING>WELCOME_RYZOM_CORE</STRING>
+          <STRING>zone_balade_dispensaire</STRING>
         </PROPERTY>
-        <PROPERTY TYPE="string">
-          <NAME>need_validation</NAME>
-          <STRING>false</STRING>
-        </PROPERTY>
-        <PROPERTY TYPE="string">
-          <NAME>replayable</NAME>
-          <STRING>true</STRING>
-        </PROPERTY>
-        <CHILD TYPE="CPrimNode">
-          <PROPERTY TYPE="string">
-            <NAME>class</NAME>
-            <STRING>variables</STRING>
-          </PROPERTY>
-          <PROPERTY TYPE="string">
-            <NAME>name</NAME>
-            <STRING>variables</STRING>
-          </PROPERTY>
-          <CHILD TYPE="CPrimNode">
-            <PROPERTY TYPE="string">
-              <NAME>class</NAME>
-              <STRING>var_npc</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>npc_function</NAME>
-              <STRING>fct_ranger_leader</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>npc_name</NAME>
-              <STRING>chiang_the_strong</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string">
-              <NAME>var_name</NAME>
-              <STRING>givervar</STRING>
-            </PROPERTY>
-          </CHILD>
-        </CHILD>
-        <CHILD TYPE="CPrimNode">
-          <PROPERTY TYPE="string">
-            <NAME>class</NAME>
-            <STRING>pre_requisite</STRING>
-          </PROPERTY>
-          <PROPERTY TYPE="string">
-            <NAME>name</NAME>
-            <STRING>pre_requisite</STRING>
-          </PROPERTY>
-        </CHILD>
         <CHILD TYPE="CPrimAlias">
-          <ALIAS VALUE="1255"/>
+          <ALIAS VALUE="1262"/>
           <PROPERTY TYPE="string">
             <NAME>class</NAME>
             <STRING>alias</STRING>
@@ -539,59 +600,342 @@
         <CHILD TYPE="CPrimNode">
           <PROPERTY TYPE="string">
             <NAME>class</NAME>
-            <STRING>step</STRING>
+            <STRING>npc_group</STRING>
           </PROPERTY>
           <PROPERTY TYPE="string">
             <NAME>name</NAME>
-            <STRING>step_4</STRING>
+            <STRING>rm_marchand</STRING>
           </PROPERTY>
           <CHILD TYPE="CPrimNode">
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
-              <STRING>actions</STRING>
+              <STRING>npc_group_parameters</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>pre_actions</STRING>
+              <STRING>parameters</STRING>
             </PROPERTY>
           </CHILD>
-          <CHILD TYPE="CPrimNode">
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="1263"/>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
-              <STRING>mission_objectives</STRING>
+              <STRING>alias</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>objectives</STRING>
+              <STRING>alias</STRING>
             </PROPERTY>
-            <CHILD TYPE="CPrimNode">
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8815.139648" Y="-10631.029297" Z="0.000000"/>
+            <ANGLE VALUE="-8.158325"/>
+            <PROPERTY TYPE="string_array">
+              <NAME>chat_parameters</NAME>
+              <STRING>shop : RM_ITEM_PART_SOLD:RM_NEWBIELAND_LEVEL</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>equipment</NAME>
+              <STRING>VPA:4132100001106210</STRING>
+              <STRING>VPB:000000C0BC090000</STRING>
+              <STRING>VPC:001AA3804D830824</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>bland_marchand_rm$fct_rm_merchant$</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>welcome_ra</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>vertical_pos</NAME>
+              <STRING>auto</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="142"/>
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
-                <STRING>kill</STRING>
+                <STRING>alias</STRING>
               </PROPERTY>
-              <PROPERTY TYPE="string_array">
-                <NAME>fauna/quantity</NAME>
-                <STRING>chdfa1 3</STRING>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>fredi_singer</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="1267"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8821.555664" Y="-10631.227539" Z="0.000000"/>
+            <ANGLE VALUE="1.639519"/>
+            <PROPERTY TYPE="string_array">
+              <NAME>chat_parameters</NAME>
+              <STRING>menu: MENU_WHOAMI FREDI_SINGER</STRING>
+              <STRING>shop : Matis:Fyros:HAIRDRESSING_FEMALE:HAIRDRESSING_MALE:TATOO_MALE:TATOO_FEMALE</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>equipment</NAME>
+              <STRING>VPA:A13C12000010D21A</STRING>
+              <STRING>VPB:000000C0BC090000</STRING>
+              <STRING>VPC:00127A38007A689A</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>nbland_esthetics</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>welcome_ra</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>vertical_pos</NAME>
+              <STRING>auto</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1266"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
               </PROPERTY>
             </CHILD>
           </CHILD>
           <CHILD TYPE="CPrimNode">
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
-              <STRING>actions</STRING>
+              <STRING>npc_group_event_handler</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
-              <NAME>name</NAME>
-              <STRING>post_actions</STRING>
+              <NAME>event</NAME>
+              <STRING>timer_t0_triggered</STRING>
             </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1268"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
             <CHILD TYPE="CPrimNode">
               <PROPERTY TYPE="string">
-                <NAME>amount</NAME>
-                <STRING>10000</STRING>
+                <NAME>action</NAME>
+                <STRING>multi_actions</STRING>
               </PROPERTY>
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
-                <STRING>recv_money</STRING>
+                <STRING>npc_event_handler_action</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>set_timer_t0</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING>1500</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>random_select</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_1</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_1</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_2</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_2</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_3</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_3</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_4</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_4</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_5</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_5</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>say</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>say_FREDI_SING_6</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>parameters</NAME>
+                    <STRING>say: FREDI_SING_6</STRING>
+                  </PROPERTY>
+                </CHILD>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_event_handler</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>event</NAME>
+              <STRING>start_of_state</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1269"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>action</NAME>
+                <STRING>set_timer_t0</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_event_handler_action</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>parameters</NAME>
+                <STRING>1200</STRING>
               </PROPERTY>
             </CHILD>
           </CHILD>

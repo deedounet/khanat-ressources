@@ -1,0 +1,26 @@
+﻿// DIFF CHANGED 3277 
+/* OLD VALUE : [au Printemps] */
+// HASH_VALUE 28DAACAF6DB9C0B8
+// INDEX 0
+uiSeason0	[vensa]
+
+// DIFF CHANGED 3278 
+/* OLD VALUE : [en Eté] */
+// HASH_VALUE 2A2A80A9AA09A8A0
+// INDEX 1
+uiSeason1	[crisa]
+
+// DIFF CHANGED 3279 
+/* OLD VALUE : [en Automne] */
+// HASH_VALUE 703AD0BEEB4AFCB5
+// INDEX 2
+uiSeason2	[critu]
+
+// DIFF CHANGED 3280 
+/* OLD VALUE : [en Hiver] */
+// HASH_VALUE ECAAA4ACAD99B4A5
+// INDEX 3
+uiSeason3	[dunra]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

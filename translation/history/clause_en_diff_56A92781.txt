@@ -1,0 +1,101 @@
+﻿// DIFF REMOVED 20 
+// HASH_VALUE 21D2F06FB30EFA3A
+// INDEX 0
+chiang_1	[&bbl&The freedom to run the program, for any purpose (freedom 0).]
+
+// DIFF REMOVED 20 
+// HASH_VALUE 7609BC467E25E790
+// INDEX 1
+chiang_2	[&bbl&The freedom to study how the program works, and change it to make it do what you wish (freedom 1). Access to the source code is a precondition for this.]
+
+// DIFF REMOVED 20 
+// HASH_VALUE FA377248CE23559D
+// INDEX 2
+chiang_3	[&bbl&The freedom to redistribute copies so you can help your neighbor (freedom 2).]
+
+// DIFF REMOVED 20 
+// HASH_VALUE F4FEAD9FEA803723
+// INDEX 3
+chiang_4	[&bbl&The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.]
+
+// DIFF REMOVED 20 
+// HASH_VALUE 2CEA49D63B5696E2
+// INDEX 4
+chiang_welcome	[Greetings Freesoftware Fellow,\n
+	I'm the welcomer on this Ryzom Core shard. This server is here to do some test, tweak and hack on the source code. Happy Hacking!]
+
+// DIFF ADD 3324 
+// HASH_VALUE D7781D433C4F3227
+// INDEX 5
+text_intro_newbie_1_m	[&bbl&coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+// DIFF ADD 3325 
+// HASH_VALUE 02DB5B068C594B94
+// INDEX 6
+text_intro_newbie_2	[&bbl&*Notice the surprise and starts again*\n
+	Hello, Forgotting. My name is Uil'i, welcome.]
+
+// DIFF ADD 3326 
+// HASH_VALUE E8E2FF44B7D9A60C
+// INDEX 7
+text_intro_newbie_3	[&bbl&This is lirri'a, a time when nothing is certain. Reality is moving, Fogs change everything in a day.\n
+	With some ra, I try to maintain a small stable area around here. There was a time I was working in the Dispensary. I try to make it alive here again ; some many Forgotting are coming from Fogs in the Jungle.]
+
+// DIFF ADD 3327 
+// HASH_VALUE C2A5381171B85FD3
+// INDEX 8
+text_intro_newbie_4	[&bbl&This minaret seems to work properly, as the reborn system associated to it. But don't take any risk, nothing is certain. This is lirri'a...]
+
+// DIFF ADD 3328 
+// HASH_VALUE DCA312B6204511F3
+// INDEX 9
+text_intro_newbie_5	[&bbl&If you have any questions... You should go and find Caet, the nurse.\n
+	She should be around… ]
+
+// DIFF ADD 3335 
+// HASH_VALUE 6BF190B0C58AA85D
+// INDEX 10
+welcome_ra_1	[&bbl&Beware of Osquallo and Deed tests, some of them are deadly..]
+
+// DIFF ADD 3336 
+// HASH_VALUE 7535F85CD8DA9755
+// INDEX 11
+welcome_ra_2	[&bbl&Beware Zatalyz's whip!]
+
+// DIFF ADD 3337 
+// HASH_VALUE 174A76635F0A672F
+// INDEX 12
+welcome_ra_3	[&bbl&Have you tasted Lyne's tea?]
+
+// DIFF ADD 3338 
+// HASH_VALUE 43C1394EFDF01DB0
+// INDEX 13
+welcome_ra_4	[&bbl&Give me a klum pie or I'll break everything!]
+
+// DIFF ADD 3339 
+// HASH_VALUE 69734677E8446715
+// INDEX 14
+chiang_5	[&bbl&This is lirri'a…]
+
+// DIFF ADD 3340 
+// HASH_VALUE 3A04F26923987ABB
+// INDEX 15
+welcome_ra_6	[&bbl&Seems to me I have seen a scoui running over there…]
+
+// DIFF ADD 3341 
+// HASH_VALUE EC83ECCFE58B3A57
+// INDEX 16
+welcome_ra_7	[&bbl&Don't forget to clean with the broom for the evening.]
+
+// DIFF ADD 3342 
+// HASH_VALUE 0F2A37AC4C4DBF71
+// INDEX 17
+welcome_ra_8	[&bbl& Glory to the K ! Glory to the K ! Ahem, to the Khan !]
+
+// DIFF ADD 3343 
+// HASH_VALUE C40F64454F41803D
+// INDEX 18
+welcome_ra_welcome	[WELCOME_RA_WELCOME !]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

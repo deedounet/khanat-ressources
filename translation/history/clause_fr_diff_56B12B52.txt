@@ -1,0 +1,468 @@
+﻿// DIFF CHANGED 1602 
+/* OLD VALUE : [&ITM&Vous vendez $item.ia$ $item$ pour $moneyNow$ dapper(s).] */
+// HASH_VALUE 607782FDE0B312BE
+// INDEX 0
+item_sold_1	[&ITM&Vous vendez $item.ia$ $item$ pour $moneyNow$ din(s).]
+
+// DIFF CHANGED 1603 
+/* OLD VALUE : [&ITM&Vous vendez $qty$ $item.p$ pour $moneyNow$ dapper(s).] */
+// HASH_VALUE 5DEDFD64EF8A4C3D
+// INDEX 1
+item_sold_2	[&ITM&Vous vendez $qty$ $item.p$ pour $moneyNow$ din(s).]
+
+// DIFF CHANGED 1604 
+/* OLD VALUE : [&ITM&Votre $item$ a été vendu(e), le marchand vous a déjà remis les dappers correspondants.] */
+// HASH_VALUE 1EBB183FB7051142
+// INDEX 2
+item_sold_market_1	[&ITM&Votre $item$ a été vendu(e), le marchand vous a déjà remis les dins correspondantes.]
+
+// DIFF CHANGED 1605 
+/* OLD VALUE : [&ITM&Vos $qty$ $item.p$ ont été vendu(e)s, le marchand vous a déjà remis les dappers correspondants.] */
+// HASH_VALUE D3125783DD1574B7
+// INDEX 3
+item_sold_market_2	[&ITM&Vos $qty$ $item.p$ ont été vendu(e)s, le marchand vous a déjà remis les dins correspondants.]
+
+// DIFF CHANGED 2429 
+/* OLD VALUE : [Fabriquez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 90AA041AD8E2B7F3
+// INDEX 4
+template_task_craft_intro_1_money	[Fabriquez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 2430 
+/* OLD VALUE : [Fabriquez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE DE8E77E0C9E6A7AA
+// INDEX 5
+template_task_craft_intro_1_money_timed	[Fabriquez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 2433 
+/* OLD VALUE : [Fabriquez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 11BB6A2BB7FB8845
+// INDEX 6
+template_task_craft_intro_2_money	[Fabriquez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 2434 
+/* OLD VALUE : [Fabriquez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE 3F455C781C76A4A4
+// INDEX 7
+template_task_craft_intro_2_money_timed	[Fabriquez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 2437 
+/* OLD VALUE : [Fabriquez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE C199C79F27A6D4F7
+// INDEX 8
+template_task_craft_intro_3_money	[Fabriquez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 2438 
+/* OLD VALUE : [Fabriquez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ t $qt3$ $i3$ de niveau $ql3$, et je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE 1178C5D0774B67C8
+// INDEX 9
+template_task_craft_intro_3_money_timed	[Fabriquez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ t $qt3$ $i3$ de niveau $ql3$, et je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 2941 
+/* OLD VALUE : [Récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE FCF24370B375F028
+// INDEX 10
+template_task_forage_give_intro_1_money	[Récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 2942 
+/* OLD VALUE : [Récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE 28C5790BA3EF6FE3
+// INDEX 11
+template_task_forage_give_intro_1_money_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 2945 
+/* OLD VALUE : [Récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 9111C58935AAB4DB
+// INDEX 12
+template_task_forage_give_intro_2_money	[Récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 2946 
+/* OLD VALUE : [Récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE A7DCA5C5C682D0A1
+// INDEX 13
+template_task_forage_give_intro_2_money_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 2949 
+/* OLD VALUE : [Récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 7A7B7B2054879CAD
+// INDEX 14
+template_task_forage_give_intro_3_money	[Récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 2950 
+/* OLD VALUE : [Récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE 0B5397E66A527CE9
+// INDEX 15
+template_task_forage_give_intro_3_money_timed	[Récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 2953 
+/* OLD VALUE : [Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 06C98F0EC3397132
+// INDEX 16
+template_task_forage_intro_1_money	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 2954 
+/* OLD VALUE : [Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE 6B44AB6DF1C3637F
+// INDEX 17
+template_task_forage_intro_1_money_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 2957 
+/* OLD VALUE : [Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 8CE99ABEEF5F7752
+// INDEX 18
+template_task_forage_intro_2_money	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 2958 
+/* OLD VALUE : [Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE DACD0D84E0636709
+// INDEX 19
+template_task_forage_intro_2_money_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$ et $qt2$ $i2$ de niveau $ql2$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 2961 
+/* OLD VALUE : [Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 72318F78E297903F
+// INDEX 20
+template_task_forage_intro_3_money	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 2962 
+/* OLD VALUE : [Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE 63357F2F307B0305
+// INDEX 21
+template_task_forage_intro_3_money_timed	[Nettoyez la terre, récoltez $qt1$ $i1$ de niveau $ql1$, $qt2$ $i2$ de niveau $ql2$ et $qt3$ $i3$ de niveau $ql3$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 3106 
+/* OLD VALUE : [Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez $region.pr$ $region$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 54DFB2C46CEB431B
+// INDEX 22
+template_task_give_item_intro_1_money	[Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez dans $region$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 3107 
+/* OLD VALUE : [Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez $region.pr$ $region$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE E5B7CE8A82B62357
+// INDEX 23
+template_task_give_item_intro_1_money_timed	[Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez dans $region$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 3108 
+/* OLD VALUE : [Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez $region.pr$ $region$, $f.mda$ $f.member$ vous en seront reconnaissants.
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE B617756EDAAABB3F
+// INDEX 24
+template_task_give_item_intro_1_fame_timed	[Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez dans $region$, $f.mda$ $f.member$ vous en seront reconnaissants.\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 3109 
+/* OLD VALUE : [Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez $region.pr$ $region$, $f.mda$ $f.member$ vous en seront reconnaissants.] */
+// HASH_VALUE 519C590FAC20C9F2
+// INDEX 25
+template_task_give_item_intro_1_fame	[Portez $qt1$ $i1$ à $dest1$ pour moi, vous le trouverez dans $region$, $f.mda$ $f.member$ vous en seront reconnaissants.]
+
+// DIFF CHANGED 3211 
+/* OLD VALUE : [Eliminez $qt$ membres de $target$, des bandits notoires, je vous paierai $reward$ dappers.
+Mais faites vite car c'est très urgent !] */
+// HASH_VALUE 018D4F33D8819C13
+// INDEX 26
+template_task_kill_npc_intro_bandit_money_timed	[Eliminez $qt$ membres de $target$, des bandits notoires, je vous paierai $reward$ dins.\n
+	Mais faites vite car c'est très urgent !]
+
+// DIFF CHANGED 3214 
+/* OLD VALUE : [Eliminez $qt$ $target.member$, une tribu ennemie et je vous paierai $reward$ dappers.] */
+// HASH_VALUE 46BB2D9695B06F1A
+// INDEX 27
+template_task_kill_npc_intro_tribe_money	[Eliminez $qt$ $target.member$, une tribu ennemie et je vous paierai $reward$ dins.]
+
+// DIFF CHANGED 3215 
+/* OLD VALUE : [Eliminez $qt$ $target.member$, une tribu ennemie, je vous paierai $reward$ dappers.
+Mais ne traînez pas car c'est très urgent!] */
+// HASH_VALUE 7A6095770C605FBC
+// INDEX 28
+template_task_kill_npc_intro_tribe_money_timed	[Eliminez $qt$ $target.member$, une tribu ennemie, je vous paierai $reward$ dins.\n
+	Mais ne traînez pas car c'est très urgent!]
+
+// DIFF CHANGED 3289 
+/* OLD VALUE : [Tuez $qt1$ $r1$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE BC31DF37C124FF52
+// INDEX 29
+template_task_kill_species_intro_1_money	[Tuez $qt1$ $r1$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 3290 
+/* OLD VALUE : [Tuez $qt1$ $r1$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE ACAB5EF2EDF735ED
+// INDEX 30
+template_task_kill_species_intro_1_money_timed	[Tuez $qt1$ $r1$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 3293 
+/* OLD VALUE : [Tuez $qt1$ $r1$ et $qt2$ $r2$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 159B25A6F5A67CE2
+// INDEX 31
+template_task_kill_species_intro_2_money	[Tuez $qt1$ $r1$ et $qt2$ $r2$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 3294 
+/* OLD VALUE : [Tuez $qt1$ $r1$ et $qt2$ $r2$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE A673416C0B715C1E
+// INDEX 32
+template_task_kill_species_intro_2_money_timed	[Tuez $qt1$ $r1$ et $qt2$ $r2$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 3297 
+/* OLD VALUE : [Tuez $qt1$ $r1$, $qt2$ $r2$ et $qt3$ $r3$, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 9C0EE567DF9EA4E5
+// INDEX 33
+template_task_kill_species_intro_3_money	[Tuez $qt1$ $r1$, $qt2$ $r2$ et $qt3$ $r3$, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 3298 
+/* OLD VALUE : [Tuez $qt1$ $r1$, $qt2$ $r2$ et $qt3$ $r3$, je vous paierai $reward$ dapper(s).
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE B2D9C5A37076C0AB
+// INDEX 34
+template_task_kill_species_intro_3_money_timed	[Tuez $qt1$ $r1$, $qt2$ $r2$ et $qt3$ $r3$, je vous paierai $reward$ din(s).\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 3531 
+/* OLD VALUE : [Il me faut $qt1$ $i1$ de qualité $ql1$. Si vous m'en rapportez, je vous paierai $reward$ dappers.] */
+// HASH_VALUE E60BD96C810A6840
+// INDEX 35
+template_task_loot_give_intro_1_money	[Il me faut $qt1$ $i1$ de qualité $ql1$. Si vous m'en rapportez, je vous paierai $reward$ dins.]
+
+// DIFF CHANGED 3532 
+/* OLD VALUE : [Il me faut $qt1$ $i1$ de qualité $ql1$. Si vous m'en rapportez, je vous paierai $reward$ dappers.
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE 34EF4C32720E58F7
+// INDEX 36
+template_task_loot_give_intro_1_money_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$. Si vous m'en rapportez, je vous paierai $reward$ dins.\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 3535 
+/* OLD VALUE : [Il me faut $qt1$ $i1$ de qualité $ql1$ et $qt2$ $i2$ de qualité $ql2$. Si vous m'en rapportez, je vous paierai $reward$ dappers.] */
+// HASH_VALUE 16F763E6B791ED8F
+// INDEX 37
+template_task_loot_give_intro_2_money	[Il me faut $qt1$ $i1$ de qualité $ql1$ et $qt2$ $i2$ de qualité $ql2$. Si vous m'en rapportez, je vous paierai $reward$ dins.]
+
+// DIFF CHANGED 3536 
+/* OLD VALUE : [Il me faut $qt1$ $i1$ de qualité $ql1$ et $qt2$ $i2$ de qualité $ql2$. Si vous m'en rapportez, je vous paierai $reward$ dappers.
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE 42CA9981A70B6C4A
+// INDEX 38
+template_task_loot_give_intro_2_money_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$ et $qt2$ $i2$ de qualité $ql2$. Si vous m'en rapportez, je vous paierai $reward$ dins.\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 3539 
+/* OLD VALUE : [Il me faut $qt1$ $i1$ de qualité $ql1$, $qt2$ $i2$ de qualité $ql2$ et $qt3$ $i3$ de qualité $ql3$. Si vous m'en rapportez, je vous paierai $reward$ dappers.] */
+// HASH_VALUE 16ED1D1E5A6CAE1C
+// INDEX 39
+template_task_loot_give_intro_3_money	[Il me faut $qt1$ $i1$ de qualité $ql1$, $qt2$ $i2$ de qualité $ql2$ et $qt3$ $i3$ de qualité $ql3$. Si vous m'en rapportez, je vous paierai $reward$ dins.]
+
+// DIFF CHANGED 3540 
+/* OLD VALUE : [Il me faut $qt1$ $i1$ de qualité $ql1$, $qt2$ $i2$ de qualité $ql2$ et $qt3$ $i3$ de qualité $ql3$. Si vous m'en rapportez, je vous paierai $reward$ dappers.
+Mais faites vite, c'est très urgent !] */
+// HASH_VALUE 07F10DD5A85021E2
+// INDEX 40
+template_task_loot_give_intro_3_money_timed	[Il me faut $qt1$ $i1$ de qualité $ql1$, $qt2$ $i2$ de qualité $ql2$ et $qt3$ $i3$ de qualité $ql3$. Si vous m'en rapportez, je vous paierai $reward$ dins.\n
+	Mais faites vite, c'est très urgent !]
+
+// DIFF CHANGED 3635 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$ $region.pr$ $region$. Si vous en trouvez, je vous paierai $reward$ dappers.] */
+// HASH_VALUE 65098A49268DE7EB
+// INDEX 41
+template_task_target_species_intro_1_money	[Je dois savoir s'il y a des $r1.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.]
+
+// DIFF CHANGED 3636 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$ $region.pr$ $region$. Si vous en trouvez, je vous paierai $reward$ dappers.
+Mais faites vite car c'est très urgent.] */
+// HASH_VALUE 0A10E527959D0F48
+// INDEX 42
+template_task_target_species_intro_1_money_timed	[Je dois savoir s'il y a des $r1.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.\n
+	Mais faites vite car c'est très urgent.]
+
+// DIFF CHANGED 3637 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$ $region.pr$ $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.
+Mais faites vite car c'est très urgent.] */
+// HASH_VALUE 993944BD3D8163F9
+// INDEX 43
+template_task_target_species_intro_1_fame_timed	[Je dois savoir s'il y a des $r1.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.\n
+	Mais faites vite car c'est très urgent.]
+
+// DIFF CHANGED 3638 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$ $region.pr$ $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.] */
+// HASH_VALUE F432E9DFCE713B9C
+// INDEX 44
+template_task_target_species_intro_1_fame	[Je dois savoir s'il y a des $r1.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.]
+
+// DIFF CHANGED 3639 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$ et $r2.pia$ $r2.p$ $region.pr$ $region$. Si vous en trouvez, je vous paierai $reward$ dappers.] */
+// HASH_VALUE 4A2FB48290E505FB
+// INDEX 45
+template_task_target_species_intro_2_money	[Je dois savoir s'il y a des $r1.p$ et des $r2.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.]
+
+// DIFF CHANGED 3640 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$ et $r2.pia$ $r2.p$ $region.pr$ $region$. Si vous en trouvez, je vous paierai $reward$ dappers.
+Mais faites vite car c'est très urgent.] */
+// HASH_VALUE FB132B1074E2190A
+// INDEX 46
+template_task_target_species_intro_2_money_timed	[Je dois savoir s'il y a des $r1.p$ et des $r2.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.\n
+	Mais faites vite car c'est très urgent.]
+
+// DIFF CHANGED 3641 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$ et $r2.pia$ $r2.p$ $region.pr$ $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.
+Mais faites vite car c'est très urgent.] */
+// HASH_VALUE 5E2D32C18949B257
+// INDEX 47
+template_task_target_species_intro_2_fame_timed	[Je dois savoir s'il y a des $r1.p$ et des $r2.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.\n
+	Mais faites vite car c'est très urgent.]
+
+// DIFF CHANGED 3642 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$ et $r2.pia$ $r2.p$ $region.pr$ $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.] */
+// HASH_VALUE AD49BB33A54C9E48
+// INDEX 48
+template_task_target_species_intro_2_fame	[Je dois savoir s'il y a des $r1.p$ et des $r2.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.]
+
+// DIFF CHANGED 3643 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$, $r2.pia$ $r2.p$ et $r3.pia$ $r3.p$ $region.pr$ $region$. Si vous en trouvez, je vous paierai $reward$ dappers.] */
+// HASH_VALUE B0CEFB63C562AC13
+// INDEX 49
+template_task_target_species_intro_3_money	[Je dois savoir s'il y a des $r1.p$, des $r2.p$ et des $r3.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.]
+
+// DIFF CHANGED 3644 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$, $r2.pia$ $r2.p$ et $r3.pia$ $r3.p$ $region.pr$ $region$. Si vous en trouvez, je vous paierai $reward$ dappers.
+Mais faites vite car c'est très urgent.] */
+// HASH_VALUE 94CB0F72764623A1
+// INDEX 50
+template_task_target_species_intro_3_money_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$ et des $r3.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.\n
+	Mais faites vite car c'est très urgent.]
+
+// DIFF CHANGED 3645 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$, $r2.pia$ $r2.p$ et $r3.pia$ $r3.p$ $region.pr$ $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.
+Mais faites vite car c'est très urgent.] */
+// HASH_VALUE A932A8BFD9602A52
+// INDEX 51
+template_task_target_species_intro_3_fame_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$ et des $r3.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.\n
+	Mais faites vite car c'est très urgent.]
+
+// DIFF CHANGED 3646 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$, $r2.pia$ $r2.p$ et $r3.pia$ $r3.p$ $region.pr$ $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.] */
+// HASH_VALUE C53594B0287CB3C4
+// INDEX 52
+template_task_target_species_intro_3_fame	[Je dois savoir s'il y a des $r1.p$, des $r2.p$ et des $r3.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.]
+
+// DIFF CHANGED 3647 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$, $r2.pia$ $r2.p$, $r3.pia$ $r3.p$ et $r4.pia$ $r4.p$ $region.pr$ $region$. Si vous en trouvez, je vous paierai $reward$ dappers.] */
+// HASH_VALUE E54BA27A2B11F3F5
+// INDEX 53
+template_task_target_species_intro_4_money	[Je dois savoir s'il y a des $r1.p$, des $r2.p$, des $r3.p$ et des $r4.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.]
+
+// DIFF CHANGED 3648 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$, $r2.pia$ $r2.p$, $r3.pia$ $r3.p$ et $r4.pia$ $r4.p$ $region.pr$ $region$. Si vous en trouvez, je vous paierai $reward$ dappers.
+Mais faites vite car c'est très urgent.] */
+// HASH_VALUE 962F19080F0E0704
+// INDEX 54
+template_task_target_species_intro_4_money_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$, des $r3.p$ et des $r4.p$ dans $region$. Si vous en trouvez, je vous paierai $reward$ dins.\n
+	Mais faites vite car c'est très urgent.]
+
+// DIFF CHANGED 3649 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$, $r2.pia$ $r2.p$, $r3.pia$ $r3.p$ et $r4.pia$ $r4.p$ $region.pr$ $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.
+Mais faites vite car c'est très urgent.] */
+// HASH_VALUE F94920B92475A051
+// INDEX 55
+template_task_target_species_intro_4_fame_timed	[Je dois savoir s'il y a des $r1.p$, des $r2.p$, des $r3.p$ et des $r4.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.\n
+	Mais faites vite car c'est très urgent.]
+
+// DIFF CHANGED 3650 
+/* OLD VALUE : [Je dois savoir s'il y a $r1.pia$ $r1.p$, $r2.pia$ $r2.p$, $r3.pia$ $r3.p$ et $r4.pia$ $r4.p$ $region.pr$ $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.] */
+// HASH_VALUE 4865A92B40788C42
+// INDEX 56
+template_task_target_species_intro_4_fame	[Je dois savoir s'il y a des $r1.p$, des $r2.p$, des $r3.p$ et des $r4.p$ dans $region$. Si vous en trouvez, $f.mda$ $f.member$ vous en seront très reconnaissants.]
+
+// DIFF CHANGED 3701 
+/* OLD VALUE : [Je dois savoir ce qui se passe $op1.pr$ $op1$. Si vous y allez, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 1338720B022AB97F
+// INDEX 57
+template_task_visit_place_intro_1_money	[Je dois savoir ce qui se passe dans $op1$. Si vous y allez, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 3702 
+/* OLD VALUE : [Je dois savoir ce qui se passe $op1.pr$ $op1$. Si vous y allez, je vous paierai $reward$ dapper(s).
+Mais faites vite car c'est très urgent !] */
+// HASH_VALUE 353FCDE9713AE1FD
+// INDEX 58
+template_task_visit_place_intro_1_money_timed	[Je dois savoir ce qui se passe dans $op1$. Si vous y allez, je vous paierai $reward$ din(s).\n
+	Mais faites vite car c'est très urgent !]
+
+// DIFF CHANGED 3703 
+/* OLD VALUE : [Je dois savoir ce qui se passe $op1.pr$ $op1$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.
+Mais faites vite car c'est très urgent !] */
+// HASH_VALUE 0CCD4CC63A77E012
+// INDEX 59
+template_task_visit_place_intro_1_fame_timed	[Je dois savoir ce qui se passe dans $op1$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.\n
+	Mais faites vite car c'est très urgent !]
+
+// DIFF CHANGED 3704 
+/* OLD VALUE : [Je dois savoir ce qui se passe $op1.pr$ $op1$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.] */
+// HASH_VALUE EA55D002F8CCE583
+// INDEX 60
+template_task_visit_place_intro_1_fame	[Je dois savoir ce qui se passe dans $op1$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.]
+
+// DIFF CHANGED 3705 
+/* OLD VALUE : [Je dois savoir ce qui se passe $op1.pr$ $op1$ et $op2$. Si vous y allez, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 06AE399487606F76
+// INDEX 61
+template_task_visit_place_intro_2_money	[Je dois savoir ce qui se passe dans $op1$ et $op2$. Si vous y allez, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 3706 
+/* OLD VALUE : [Je dois savoir ce qui se passe $op1.pr$ $op1$ et $op2$. Si vous y allez, je vous paierai $reward$ dapper(s).
+Mais faites vite car c'est très urgent !] */
+// HASH_VALUE 2826B558C90B6A05
+// INDEX 62
+template_task_visit_place_intro_2_money_timed	[Je dois savoir ce qui se passe dans $op1$ et $op2$. Si vous y allez, je vous paierai $reward$ din(s).\n
+	Mais faites vite car c'est très urgent !]
+
+// DIFF CHANGED 3707 
+/* OLD VALUE : [Je dois savoir ce qui se passe $op1.pr$ $op1$ et $op2.pr$ $op2$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.
+Mais faites vite car c'est très urgent !] */
+// HASH_VALUE 61262C7EC109C066
+// INDEX 63
+template_task_visit_place_intro_2_fame_timed	[Je dois savoir ce qui se passe dans $op1$ et $op2$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.\n
+	Mais faites vite car c'est très urgent !]
+
+// DIFF CHANGED 3708 
+/* OLD VALUE : [Je dois savoir ce qui se passe $op1.pr$ $op1$ et $op2.pr$ $op2$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.] */
+// HASH_VALUE 7D29186F101381D8
+// INDEX 64
+template_task_visit_place_intro_2_fame	[Je dois savoir ce qui se passe dans $op1$ et $op2$. Si vous y allez, $f.mda$ $f.member$ vous en seront reconnaissants.]
+
+// DIFF CHANGED 3709 
+/* OLD VALUE : [Je dois savoir ce qui se passe dans $op1$, $op2$ et $op3$. Si vous y allez, je vous paierai $reward$ dapper(s).] */
+// HASH_VALUE 2481B74FD7543712
+// INDEX 65
+template_task_visit_place_intro_3_money	[Je dois savoir ce qui se passe dans $op1$, $op2$ et $op3$. Si vous y allez, je vous paierai $reward$ din(s).]
+
+// DIFF CHANGED 3710 
+/* OLD VALUE : [Je dois savoir ce qui se passe dans $op1$, $op2$ et $op3$. Si vous y allez, je vous paierai $reward$ dapper(s).
+Mais faites vite car c'est très urgent !] */
+// HASH_VALUE 4688122D46645F90
+// INDEX 66
+template_task_visit_place_intro_3_money_timed	[Je dois savoir ce qui se passe dans $op1$, $op2$ et $op3$. Si vous y allez, je vous paierai $reward$ din(s).\n
+	Mais faites vite car c'est très urgent !]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

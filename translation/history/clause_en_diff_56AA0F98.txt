@@ -1,0 +1,13 @@
+﻿// DIFF CHANGED 3329 
+/* OLD VALUE : [coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e] */
+// HASH_VALUE C58CD08BBE6E91E4
+// INDEX 0
+text_intro_newbie_1_m	[coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+// DIFF REMOVED 3330 
+// HASH_VALUE 2F43BB1CC8DDE441
+// INDEX 1
+text_intro_newbie_1_f	[coi Forgotting .i lo .uil'i. ka cmene mi .i do zanvi'e]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

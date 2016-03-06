@@ -1,0 +1,2026 @@
+﻿// DIFF CHANGED 1 
+/* OLD VALUE : [Ryzom Core] */
+// HASH_VALUE 6DF6CC58EC94FC6E
+// INDEX 0
+TheSagaOfRyzom	[Khanat]
+
+// DIFF CHANGED 3 
+/* OLD VALUE : [Quit Ryzom Core] */
+// HASH_VALUE DEF5CC7315C8285E
+// INDEX 1
+uittQuitRyzom	[Quit Khanat]
+
+// DIFF REMOVED 72 
+// HASH_VALUE E2F0CC7CD01AFC9C
+// INDEX 2
+uiProcessing	[Processing file:]
+
+// DIFF CHANGED 74 
+/* OLD VALUE : [Ryzom Core will now relaunch. Please wait until Ryzom Core is fully restarted.] */
+// HASH_VALUE 3363341608F0BAB1
+// INDEX 3
+uiRebootConfirm	[Khanat will now relaunch. Please wait until Khanat is fully restarted.]
+
+// DIFF CHANGED 92 
+/* OLD VALUE : [Please grant firewall permission for Ryzom Core] */
+// HASH_VALUE 0825E627C11B8092
+// INDEX 4
+uiFirewallAlert	[Please grant firewall permission for Khanat]
+
+// DIFF CHANGED 739 
+/* OLD VALUE : [The @{6F6F}Aspect Ratio@{FFFF} of your monitor.
+Change this if you don't have a standard 4:3 monitor.
+Note: There is no need to worry about the pixel resolution (even if you have adjusted the size of your window). Ryzom Core will take care of it.] */
+// HASH_VALUE 809E7BF6406CBC22
+// INDEX 5
+uigcttScreenRatio	[The @{6F6F}Aspect Ratio@{FFFF} of your monitor.\n
+	Change this if you don't have a standard 4:3 monitor.\n
+	Note: There is no need to worry about the pixel resolution (even if you have adjusted the size of your window). Khanat will take care of it.]
+
+// DIFF CHANGED 757 
+/* OLD VALUE : [Ryzom Core needs to be restarted to apply the changes. Restart now?] */
+// HASH_VALUE 90F5662FCE2C23B4
+// INDEX 6
+uigcRequestReboot	[Khanat needs to be restarted to apply the changes. Restart now?]
+
+// DIFF CHANGED 2190 
+/* OLD VALUE : [WELCOME TO Ryzom Core - Beta 2] */
+// HASH_VALUE FB0D9A3F0B755C45
+// INDEX 7
+uiSelectTitle	[WELCOME TO Khanat - Beta 2]
+
+// DIFF CHANGED 2536 
+/* OLD VALUE : [&BC&You have been permanently banned from Ryzom Core.] */
+// HASH_VALUE 89F3006A4C26CDE5
+// INDEX 8
+msgPermanentlyBanned	[&BC&You have been permanently banned from Khanat.]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE EA39D0158B86C4B0
+// INDEX 9
+region_majesticgarden	[Majestic Garden]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 2BE9E8198DA6ACA6
+// INDEX 10
+region_fleetinggarden	[Fleeting Garden]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE A462284558E9E7A9
+// INDEX 11
+region_groveofconfusion	[Grove of Confusion]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 53D7A47E24452881
+// INDEX 12
+region_hiddensource	[Hidden Source]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE EE1894D66CB82ABE
+// INDEX 13
+region_knollofdissent	[Knoll of Dissent]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE E6D9706D0FA39FB7
+// INDEX 14
+region_upperbog	[Upper Bog]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE EEF7FF4010F278B8
+// INDEX 15
+region_hereticshovel	[Heretic's Hovel]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 2BFA2C144E17C8B4
+// INDEX 16
+region_nland	[Matisian Forest]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 2948B49724A9A0A3
+// INDEX 17
+place_yrkanis	[Yrkanis]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE A6D7046B5E17B080
+// INDEX 18
+place_davae	[Davae]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 265724756097D888
+// INDEX 19
+place_natae	[Natae]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 2C56F844AE54B464
+// INDEX 20
+place_avalae	[Avalae]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE E877E882E0A70C75
+// INDEX 21
+place_arena	[Arena]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE AD27F873AF46CC8C
+// INDEX 22
+place_stalli	[Stalli]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 289714776057E07A
+// INDEX 23
+place_borea	[Borea]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE ECE8A07829958093
+// INDEX 24
+place_nistia	[Nistia]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE AA29E09DA5486896
+// INDEX 25
+place_rosilio	[Rosilio]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE A766048DA0163885
+// INDEX 26
+place_miani	[Miani]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE C9D57BDDD6ECB3D8
+// INDEX 27
+place_qai_lo	[Qaï-Lo]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 6C58844C6CD4D09C
+// INDEX 28
+place_sheng_wo	[Sheng-Wo]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 2C98543864989460
+// INDEX 29
+place_men_xing	[Nen-Xing]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE D9CC99D6F38E7888
+// INDEX 30
+place_koi_zun	[Koï-Zun]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 9687608F61835354
+// INDEX 31
+place_yin_piang	[Yin-Piang]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 609CF468609CF468
+// INDEX 32
+place_zora	[Zora]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE B192334AD1DE02E6
+// INDEX 33
+place_jen_lai	[Jen-Laï]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 10721F5193463867
+// INDEX 34
+place_min_cho	[Min-Cho]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 108A3DD3336E3C62
+// INDEX 35
+place_hoi_cho	[Hoï-Cho]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 50E1272208907ACA
+// INDEX 36
+uiLocationTitle	[WHERE DO YOU WANT TO GO?]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 4B31842EC711BC30
+// INDEX 37
+uiLocDest1Fyros	[AEGUS]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 8950782A86B0AC2E
+// INDEX 38
+uiLocDest2Fyros	[KAEMON]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE D0A1D832CAC2E84A
+// INDEX 39
+uiLocDest3Fyros	[SEKOVIX]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE D123DC48CD93F447
+// INDEX 40
+uiLocDest4Fyros	[PHYXON]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE CD4180198581C43C
+// INDEX 41
+uiLocDest5Fyros	[GALEMUS]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 8D21F8338F42CC2C
+// INDEX 42
+uiLocDest1Matis	[STALLI]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 089194174851601A
+// INDEX 43
+uiLocDest2Matis	[BOREA]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE CCE2A03809918033
+// INDEX 44
+uiLocDest3Matis	[NISTIA]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 8A21E03D8D42E836
+// INDEX 45
+uiLocDest4Matis	[ROSILIO]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 8760842D8810B825
+// INDEX 46
+uiLocDest5Matis	[MIANI]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 0D7100364E51C029
+// INDEX 47
+uiLocDest1Tryker	[AUBERMOUTH]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 489414084C105410
+// INDEX 48
+uiLocDest2Tryker	[BARKDELL]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 5490F4205810C414
+// INDEX 49
+uiLocDest3Tryker	[HOBWELLY]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 4494145C4CD04448
+// INDEX 50
+uiLocDest4Tryker	[WAVERTON]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE C7A0AC354CD19C2A
+// INDEX 51
+uiLocDest5Tryker	[DINGLETON]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE B9D1FBBDBEEA33B8
+// INDEX 52
+uiLocDest1Zorai	[QAÏ-LO]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 4C50844C4CD4D01C
+// INDEX 53
+uiLocDest2Zorai	[SHENG-WO]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 2C90543844909460
+// INDEX 54
+uiLocDest3Zorai	[NEN-XING]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE C9C89996E388F848
+// INDEX 55
+uiLocDest4Zorai	[KOÏ-ZUN]
+
+// DIFF REMOVED 2627 
+// HASH_VALUE 8681E02F497F5314
+// INDEX 56
+uiLocDest5Zorai	[YIN-PIANG]
+
+// DIFF CHANGED 3263 
+/* OLD VALUE : [Refugee] */
+// HASH_VALUE 6C98543C785C54A4
+// INDEX 57
+Refugee	[Oublieux]
+
+// DIFF CHANGED 3264 
+/* OLD VALUE : [Homin] */
+// HASH_VALUE 6094144860941448
+// INDEX 58
+Homin	[Ra]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6C59B89C5D742836
+// INDEX 59
+Novice_Artisan	[Novice Crafter]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A9BAD097A6637840
+// INDEX 60
+Novice_Warrior	[Novice Warrior]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 669C0C5E5CB0CCAC
+// INDEX 61
+Novice_Harvester	[Novice Harvester]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 64C9D88519A05392
+// INDEX 62
+Novice_Magician	[Novice Magician]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 5521E84CD8FB94BB
+// INDEX 63
+Artisan_Apprentice	[Crafter Apprentice ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 5D32A46A15BC009F
+// INDEX 64
+Warrior_Apprentice	[Warrior Apprentice ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 19E9BC392E79C442
+// INDEX 65
+Magician_Apprentice	[Magician Apprentice ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6B5B6037E18072C8
+// INDEX 66
+Fyros_Artisan_Apprentice	[Fyros Crafter Apprentice ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6BFA1C3EE18072C2
+// INDEX 67
+Matis_Artisan_Apprentice	[Matis Crafter Apprentice ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE EC698F9B94F010B1
+// INDEX 68
+Tryker_Artisan_Apprentice	[Tryker Crafter Apprentice ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE E8BA884BE1806436
+// INDEX 69
+Zorai_Artisan_Apprentice	[Zoraï Crafter Apprentice ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE EA085C4FA2C13AB0
+// INDEX 70
+Melee_Warrior_Apprentice	[Melee Warrior Apprentice ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2CF9FF48E1D4F0AE
+// INDEX 71
+Sniper_Apprentice	[Sniper Apprentice ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE AACB5069AD7225CC
+// INDEX 72
+Fyros_Armorer_Apprentice	[Fyros Armorer Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE AA6A2873279225CC
+// INDEX 73
+Fyros_Jeweler_Apprentice	[Fyros Jeweler Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE EB67CB83EC88E39C
+// INDEX 74
+Fyros_Weapon_Smith_Apprentice	[Fyros Weaponsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE E2CB1C3DF20697CD
+// INDEX 75
+Fyros_Munitioner_Apprentice	[Fyros Munitioner Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2ABB8C89560EBFC4
+// INDEX 76
+Fyros_Gun_Smith_Apprentice	[Fyros Gunsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 69379F8BAD48E39C
+// INDEX 77
+Fyros_Shield_Smith_Apprentice	[Fyros Shieldsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A80B9077AD7225CC
+// INDEX 78
+Matis_Armorer_Apprentice	[Matis Armorer Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A8AA6881279225CC
+// INDEX 79
+Matis_Jeweler_Apprentice	[Matis Jeweler Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6A876B8A6BA883A3
+// INDEX 80
+Matis_Weapon_Smith_Apprentice	[Matis Weaponsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 23EBBC44F2A69FB5
+// INDEX 81
+Matis_Munitioner_Apprentice	[Matis Munitioner Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2A5A4890560EBFBE
+// INDEX 82
+Matis_Gun_Smith_Apprentice	[Matis Gunsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE E8573F922C6883A3
+// INDEX 83
+Matis_Shield_Smith_Apprentice	[Matis Shieldsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2DDB909B80C1F8A3
+// INDEX 84
+Tryker_Armorer_Apprentice	[Tryker Armorer Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE AC3BB88EC2C1F8A3
+// INDEX 85
+Tryker_Jeweler_Apprentice	[Tryker Jeweler Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE DD36C09BE626A8A8
+// INDEX 86
+Tryker_Weapon_Smith_Apprentice	[Tryker Weaponsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6C77A7AF21D51892
+// INDEX 87
+Tryker_Munitioner_Apprentice	[Tryker Munitioner Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6D1AD86DCF2500AC
+// INDEX 88
+Tryker_Gun_Smith_Apprentice	[Tryker Gunsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 1D85E09EE526A89E
+// INDEX 89
+Tryker_Shield_Smith_Apprentice	[Tryker Shieldsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A4CB0091AD7225C4
+// INDEX 90
+Zorai_Armorer_Apprentice	[Zoraï Armorer Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A46AD89B279225C4
+// INDEX 91
+Zorai_Jeweler_Apprentice	[Zoraï Jeweler Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6867A3976988BB2C
+// INDEX 92
+Zorai_Weapon_Smith_Apprentice	[Zoraï Weaponsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 64CBF4511126973F
+// INDEX 93
+Zorai_Munitioner_Apprentice	[Zoraï Munitioner Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A71AB49D560EB132
+// INDEX 94
+Zorai_Gun_Smith_Apprentice	[Zoraï Gunsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE E637779F2A48BB2C
+// INDEX 95
+Zorai_Shield_Smith_Apprentice	[Zoraï Shieldsmith Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6232BC93D54813A4
+// INDEX 96
+Melee_Warrior	[Melee Warrior]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 1B5484851A5603AE
+// INDEX 97
+Range_Fighter	[Range Fighter]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 1C12FC82D82807BB
+// INDEX 98
+Light_Armsman	[Light Armsman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 9E72008C57382FBA
+// INDEX 99
+Heavy_Armsman	[Heavy Armsman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE AE56185DB0E4FC77
+// INDEX 100
+Gunman	[Gunman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 32B65F77F2144AA8
+// INDEX 101
+Heavy_Gunman	[Heavy Gunman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE E9BA5C0C8A96609F
+// INDEX 102
+Advanced_Gunman	[Advanced Gunman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 61C92437E022F7B6
+// INDEX 103
+Advanced_Heavy_Gunman	[Advanced Heavy Gunman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6BC7C87D28E7A083
+// INDEX 104
+Bludgeoner	[Bludgeoner]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 7458B44C70582494
+// INDEX 105
+Skewerer	[Skewerer]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE EB29A49323385C92
+// INDEX 106
+Slasher	[Slasher]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE EB29A89463486092
+// INDEX 107
+Smasher	[Smasher]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6839AC872198388C
+// INDEX 108
+Impaler	[Impaler]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE EA29A4759C771C90
+// INDEX 109
+Cleaver	[Cleaver]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2C28E85CACD5E47B
+// INDEX 110
+Bowman	[Bowman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE B0665F80EE744AB1
+// INDEX 111
+Heavy_Bowman	[Heavy Bowman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 67F9448CA8590CBF
+// INDEX 112
+Pistoleer	[Pistoleer]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6BA7BC5E9B98D3AB
+// INDEX 113
+Heavy_Artilleryman	[Heavy Artilleryman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 9F8AD881AD37DCB5
+// INDEX 114
+Crossbowman	[Crossbowman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE EBFAF8672D09E092
+// INDEX 115
+Artilleryman	[Artilleryman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6C9894486C58D494
+// INDEX 116
+Rifleman	[Rifleman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A7785C76DC06F889
+// INDEX 117
+Maceman	[Maceman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6FE93C8DA6F83890
+// INDEX 118
+Brute	[Brute]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6458E42C6C58D494
+// INDEX 119
+Knifeman	[Knifeman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6058044C6C58D4C8
+// INDEX 120
+Spearman	[Spearman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6FD6304832940868
+// INDEX 121
+Axeman	[Axeman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2888688FA87AE4BC
+// INDEX 122
+Swordsman	[Swordsman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A142C88256173BA9
+// INDEX 123
+Heavy_Maceman	[Heavy-Maceman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A7F89C89A137248C
+// INDEX 124
+Pikeman	[Pikeman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE F356936E7454B29F
+// INDEX 125
+Heavy_Axeman	[Heavy-Axeman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 32FA748E23163F74
+// INDEX 126
+Heavy_Swordsman	[Heavy-Swordsman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE D508B09163E58C88
+// INDEX 127
+Master_Bowman	[Master Bowman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 27080F9150D67847
+// INDEX 128
+Master_Heavy_Bowman	[Master Heavy Bowman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE F0FCA46C60B0BCA2
+// INDEX 129
+Master_Pistoleer	[Master Pistoleer]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE B07AF0898F26486B
+// INDEX 130
+Master_Heavy_Artilleryman	[Master Heavy Artilleryman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2C690840A2F524AD
+// INDEX 131
+Master_Crossbowman	[Master Crossbowman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 27C75B9E2236D0A6
+// INDEX 132
+Master_Artilleryman	[Master Artilleryman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE ECFA3C6C38D09CA4
+// INDEX 133
+Master_Rifleman	[Master Rifleman ]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE AFF99886A0233C33
+// INDEX 134
+Master_Maceman	[Master Maceman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 23B7A8719682EC89
+// INDEX 135
+Master_Brute	[Master Brute]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2A3A9085187087A5
+// INDEX 136
+Master_Knifeman	[Master Knifeman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6DBB6C839BF187A5
+// INDEX 137
+Master_Spearman	[Master Spearman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE D508689A23C4B087
+// INDEX 138
+Master_Axeman	[Master Axeman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6CBC8488DE30FCB0
+// INDEX 139
+Master_Swordsman	[Master Swordsman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 28B6887C65B60844
+// INDEX 140
+Master_Heavy_Maceman	[Master Heavy-Maceman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE AFF9B88E63A34833
+// INDEX 141
+Master_Pikeman	[Master Pikeman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 27080F910F677454
+// INDEX 142
+Master_Heavy_Axeman	[Master Heavy-Axeman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 722B6C979DA3F013
+// INDEX 143
+Master_Heavy_Swordsman	[Master Heavy-Swordsman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 80EA8C8397C1F880
+// INDEX 144
+Master_Hand_To_Hand_Fighter	[Master Hand to Hand Fighter]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE D618AC181358F4D0
+// INDEX 145
+Hand_To_Hand_Fighter	[Hand to Hand Fighter]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE E173B0825A06F7AF
+// INDEX 146
+Close_Fighter	[Close Fighter]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2899C040936E7CAB
+// INDEX 147
+Advanced_Close_Fighter	[Advanced Close Fighter]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 12D4A7732D288C88
+// INDEX 148
+Defensive_Magician	[Defensive Magician]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 5284AB7E2D288C88
+// INDEX 149
+Offensive_Magician	[Offensive Magician]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6146E882DBFAECA8
+// INDEX 150
+Elementalist_Apprentice	[Apprentice Elementalist]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6457689DA9B9C0A8
+// INDEX 151
+Mentalist	[Mentalist]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE DE972C9069C96C9A
+// INDEX 152
+Enchanter	[Enchanter]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6C58544C7058E4BC
+// INDEX 153
+Summoner	[Summoner]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 98057B422E55208D
+// INDEX 154
+Master_Of_Illusion	[Master of Illusion]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 619634929202FB5B
+// INDEX 155
+Mind_Lord	[Mind Lord]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2B06A4566974D873
+// INDEX 156
+Healer	[Healer]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6B77B0682A96C876
+// INDEX 157
+Shaman	[Shaman]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6B68F87CAED7009F
+// INDEX 158
+Priest	[Priest]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6CB77B725873A038
+// INDEX 159
+Master_Of_Life	[Master of Life]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 173453796B290487
+// INDEX 160
+Celestial_Guardian	[Celestial Guardian]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A4844B6153C45375
+// INDEX 161
+Black_Mage	[Black Mage]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE DF72C08965EAEC61
+// INDEX 162
+Affliction_Bringer	[Affliction Bringer]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE E994D396D755DCBA
+// INDEX 163
+Master_Of_Torment	[Master of Torment]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE F096B24E70F024A6
+// INDEX 164
+Avatar_Of_Sorrow	[Avatar of Sorrow]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 63F804942EFB24BE
+// INDEX 165
+Destroyer	[Destroyer]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE A819BC96E4681C94
+// INDEX 166
+Warlock	[Warlock]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 68D8240464D814B4
+// INDEX 167
+Archmage	[Archmage]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE AC285B765873C43B
+// INDEX 168
+Master_Of_Pain	[Master of Pain]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 5917AF7EA19238B1
+// INDEX 169
+Avatar_Of_Destruction	[Avatar of Destruction]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2B2AC05B281BC87B
+// INDEX 170
+Elementalist	[Elementalist]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 5D575491EA48789C
+// INDEX 171
+Alchemist	[Alchemist]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 20D70C7C2408B0A6
+// INDEX 172
+Biomancer	[Biomancer]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 18C58F386D241C82
+// INDEX 173
+Master_Of_Energies	[Master of Energies]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE D875D47059086861
+// INDEX 174
+Chosen_Of_Atys	[Atys Chosen]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE ADE34C43D7F7AAAF
+// INDEX 175
+FBT	[Elder of Atys]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 16873039E203738F
+// INDEX 176
+SGM	[Senior Game Master]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 9A36347595278047
+// INDEX 177
+GM	[Game Master]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE DE14988A5530CCA6
+// INDEX 178
+SG	[Senior Guide]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 29A72C85A1B71879
+// INDEX 179
+G	[Guide]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 2F059F5756EBD4B4
+// INDEX 180
+Armorer_Apprentice	[Armorer Apprentice]
+
+// DIFF REMOVED 3265 
+// HASH_VALUE 6A366B60568AACB8
+// INDEX 181
+Jeweler_Apprentice	[Jeweler Apprentice]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE 0000000000000000
+// INDEX 182
+uiContinentIndoors	[]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE 911A704F6CC7B79B
+// INDEX 183
+uiContinentRouteGouffre	[Abyss Route]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE AC66E4896C572C89
+// INDEX 184
+uiContinentLeCarrefour	[Crossroads]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE 0FAB6446AB049B9C
+// INDEX 185
+uiContinentFyros	[Fyros Lands]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE EBC8F48CABA8DC97
+// INDEX 186
+uiContinentLePaysMalade	[Witherings]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE A376146EDCE1147F
+// INDEX 187
+uiContinentTryker	[Tryker Lands]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE 29C6C855AB64E478
+// INDEX 188
+uiContinentLesFalaises	[Cliffs]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE AAA9B4962164343E
+// INDEX 189
+uiContinentLesIlesVivantes	[Living Islands]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE A90AE8A9A8B96C8E
+// INDEX 190
+uiContinentSources	[Sources]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE A7773743603800B5
+// INDEX 191
+uiContinentTerre	[Forgotten Lands]
+
+// DIFF REMOVED 3275 
+// HASH_VALUE 9AFA1C3D5FA36B92
+// INDEX 192
+uiContinentBagne	[Abyss of Ichor]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 2668889B0E12CF66
+// INDEX 193
+mpfam151	[Yubo Bone]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 26F8989B10E31366
+// INDEX 194
+mpfam152	[Yubo Skin]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 6C985464645C5480
+// INDEX 195
+mpfam688	[Yubo Eye]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE AAF87C462728D80D
+// INDEX 196
+mpfam689	[Yubo Leather]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 26D8908F4DF2FF66
+// INDEX 197
+mpfam690	[Yubo Nail]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE E225CC81DA484863
+// INDEX 198
+mpfam691	[Yubo Pelvis]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 2DF8845C28B3844F
+// INDEX 199
+mpfam692	[Yubo Tooth]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 58D5B781EC28C883
+// INDEX 200
+mpfam696	[Primitive Necklace]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 2CB9FC69EFA6E09D
+// INDEX 201
+mpfam697	[Atrium]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 62C7348CE738649D
+// INDEX 202
+mpgroup0	[Undefined]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 1C591877A0875485
+// INDEX 203
+mpgroup1	[Sap]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE E8660C859C37187A
+// INDEX 204
+mpgroup2	[Amber]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 6418F4386418F438
+// INDEX 205
+mpgroup3	[Node]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 689C1408689C1408
+// INDEX 206
+mpgroup5	[Bark]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE E7761086DC471C7F
+// INDEX 207
+mpgroup6	[Fiber]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 6458544C6458544C
+// INDEX 208
+mpgroup12	[Seed]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE A9D7349362D75090
+// INDEX 209
+mpgroup16	[Shell]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 2A48648E23983C9C
+// INDEX 210
+mpgroup20	[Resin]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 64D8F45C64D8F45C
+// INDEX 211
+mpgroup21	[Wood]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 64D8F41864D8F418
+// INDEX 212
+mpgroup22	[Food]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 60F0646EEE3AA4A2
+// INDEX 213
+mpgroup23	[Aggressive Plant]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE EAD6088161260884
+// INDEX 214
+mpgroup24	[Blood]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 6D08809626085CA0
+// INDEX 215
+mpgroup25	[Skull]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 2B19E86E278AF49F
+// INDEX 216
+mpgroup26	[Construction]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 6058240C649C54D0
+// INDEX 217
+mpgroup27	[Creature]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 1B098C73E74680A2
+// INDEX 218
+mpgroup28	[Fur]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 5856546C62D45494
+// INDEX 219
+mpgroup29	[Goo]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 6A38D868AC95F082
+// INDEX 220
+mpgroup30	[Insect]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 6C275C8BA3773096
+// INDEX 221
+mpgroup31	[Kitin]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 7458543474585434
+// INDEX 222
+mpgroup32	[Meat]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 6CBA9C8861872C8F
+// INDEX 223
+mpgroup33	[Harmful]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 1B163873A244448D
+// INDEX 224
+mpgroup34	[Oil]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 697A0079E58B008E
+// INDEX 225
+mpgroup35	[Preservative]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 6879BC89A116108C
+// INDEX 226
+mpgroup36	[Mineral]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 69785088E1492497
+// INDEX 227
+mpgroup37	[Paper]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 68D8144068D81440
+// INDEX 228
+mpgroup38	[Pack]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE A947749623D75C92
+// INDEX 229
+mpgroup39	[Token]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE F07B24A869D9B0A5
+// INDEX 230
+mpgroup40	[Outpost]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 2F48C366D8E8DC9B
+// INDEX 231
+mpgroup41	[Corrupted Moor]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 58969C5006C1C473
+// INDEX 232
+mpgroup42	[Kitins' Lair]
+
+// DIFF REMOVED 3282 
+// HASH_VALUE 5339889711053437
+// INDEX 233
+mpSource	[Raw Material Source]
+
+// DIFF CHANGED 3428 
+/* OLD VALUE : [Enter a Name
+Each character in Ryzom Core has a unique name which allows you to recognize and communicate with other players. Names must follow the rules of the Naming Policy (see www.ryzomcore.org) and must be a single word composed of the letters A to Z with no accents, spaces, numbers or special characters.
+] */
+// HASH_VALUE A89060E211663737
+// INDEX 234
+uiCP_Name_Enter	[Enter a Name\n
+	\n
+	Each character in Khanat has a unique name which allows you to recognize and communicate with other players. Names must follow the rules of the Naming Policy (see www.ryzomcore.org) and must be a single word composed of the letters A to Z with no accents, spaces, numbers or special characters.\n
+	]
+
+// DIFF CHANGED 3494 
+/* OLD VALUE : [Ryzom Core Configuration] */
+// HASH_VALUE 6074D08F1DA50082
+// INDEX 235
+uiConfigTitle	[Khanat Configuration]
+
+// DIFF CHANGED 3501 
+/* OLD VALUE : [Play Ryzom Core] */
+// HASH_VALUE DF75BC6AD3080855
+// INDEX 236
+uiConfigLaunch	[Play Khanat]
+
+// DIFF CHANGED 3527 
+/* OLD VALUE : [Specify if Ryzom Core is to be run in OpenGL or Direct3D:] */
+// HASH_VALUE 573E7D832E100649
+// INDEX 237
+uiConfigOpenGLOrD3D	[Specify if Khanat is to be run in OpenGL or Direct3D:]
+
+// DIFF CHANGED 3529 
+/* OLD VALUE : [Specify if Ryzom Core is to be run in fullscreen or window mode:] */
+// HASH_VALUE C1E8BA58FDD5F361
+// INDEX 238
+uiConfigWindowedOrFullscreen	[Specify if Khanat is to be run in fullscreen or window mode:]
+
+// DIFF CHANGED 3554 
+/* OLD VALUE : [About Ryzom Core Configuration] */
+// HASH_VALUE 6F96A0771738E775
+// INDEX 239
+uiConfigAboutRyzomConfiguration	[About Khanat Configuration]
+
+// DIFF CHANGED 3555 
+/* OLD VALUE : [Ryzom Core Configuration Version 0.9] */
+// HASH_VALUE 2B68A4A11261BF08
+// INDEX 240
+uiConfigRyzomConfigurationVersion	[Khanat Configuration Version 0.9]
+
+// DIFF CHANGED 3565 
+/* OLD VALUE : [&About Ryzom Core Configuration...] */
+// HASH_VALUE 9788E0651AAED28C
+// INDEX 241
+uiConfigMenuAbout	[&About Khanat Configuration...]
+
+// DIFF CHANGED 3582 
+/* OLD VALUE : [To run Ryzom Core in windowed mode, the desktop must be set to 32-bit mode.] */
+// HASH_VALUE 29DFC330278ED38B
+// INDEX 242
+uiDesktopNotIn32	[To run Khanat in windowed mode, the desktop must be set to 32-bit mode.]
+
+// DIFF CHANGED 3703 
+/* OLD VALUE : [Leaving Ryzom Core...] */
+// HASH_VALUE E80894E5F785B4AE
+// INDEX 243
+uiQuitingRyzom	[Leaving Khanat...]
+
+// DIFF CHANGED 3706 
+/* OLD VALUE : [For a limited time the Ryzom Core licence is free!
+Subscribe now for full access to Ryzom Core and pay only the monthly subscription fee.] */
+// HASH_VALUE 06CF34CC1D1012AA
+// INDEX 244
+uiPayingAccount	[For a limited time the Khanat licence is free!\n
+	Subscribe now for full access to Khanat and pay only the monthly subscription fee.]
+
+// DIFF CHANGED 3875 
+/* OLD VALUE : [Congratulations!
+You have succeeded in creating a Khanat account
+A confirmation e-mail has been sent to you at the following address:
+] */
+/* OLD VALUE : [Congratulations!
+You have succeeded in creating a Khanat account.
+A confirmation e-mail has been sent to you at the following address:
+] */
+/* OLD VALUE : [Congratulations!
+You have succeeded in creating a Ryzom Core account
+An e-mail has been sent to you at the following address:
+] */
+// HASH_VALUE 5AC2EA9604DAEA39
+// INDEX 245
+uiSubmitSucces1	[Congratulations!\n
+	\n
+	You have succeeded in creating a Khanat account\n
+	An e-mail has been sent to you at the following address:\n
+	]
+
+// DIFF CHANGED 3877 
+/* OLD VALUE : [Welcome!
+Please fill in these fields to create your new Ryzom Core account.
+] */
+// HASH_VALUE 5C779920FA4B4426
+// INDEX 246
+uiCreateAccountWelcome	[Welcome!\n
+	Please fill in these fields to create your new Khanat account.\n
+	]
+
+// DIFF CHANGED 3922 
+/* OLD VALUE : [Installing ninja Yubos...] */
+// HASH_VALUE 91725D64F37B5853
+// INDEX 247
+uiLoadingString0	[Have you some dentelle for Pendorid ?]
+
+// DIFF CHANGED 3923 
+/* OLD VALUE : [Facepainting support staff...] */
+// HASH_VALUE 0F5162D3E17801C0
+// INDEX 248
+uiLoadingString1	[Weather forecasting is expecting raining liria-esque axes]
+
+// DIFF CHANGED 3924 
+/* OLD VALUE : [Distracting the Ragus...] */
+// HASH_VALUE 46DACB4E36507A0D
+// INDEX 249
+uiLoadingString2	[Beware. There could be some hallucinogenic mushrooms in the tea]
+
+// DIFF CHANGED 3925 
+/* OLD VALUE : [Calculating the gravitational constant of Atys...] */
+// HASH_VALUE D7F77BE96A8844D1
+// INDEX 250
+uiLoadingString3	[The Red Queen can be around, beware]
+
+// DIFF CHANGED 3926 
+/* OLD VALUE : [Powering secret underground military facilities...] */
+// HASH_VALUE E7D30622F0F64798
+// INDEX 251
+uiLoadingString4	[Dreaming is good, as a group, it is better]
+
+// DIFF CHANGED 3927 
+/* OLD VALUE : [Brewing Zoraï ale...] */
+// HASH_VALUE F42197F2AD1567FE
+// INDEX 252
+uiLoadingString5	[Do you have your Meh-Teh comb ?]
+
+// DIFF CHANGED 3928 
+/* OLD VALUE : [Where am I? ] */
+// HASH_VALUE E5D11A920D183E9D
+// INDEX 253
+uiLoadingString6	[Thank you so much for volunteering in The Salt Legion]
+
+// DIFF CHANGED 3929 
+/* OLD VALUE : [Hiding stuff in the ground...] */
+// HASH_VALUE 4C41AB4BCBE6F1FF
+// INDEX 254
+uiLoadingString7	[Installing Crypt spying software]
+
+// DIFF CHANGED 3930 
+/* OLD VALUE : [Annoying the Gingos for improved aggressiveness...] */
+// HASH_VALUE F48D53ED1FE8A61E
+// INDEX 255
+uiLoadingString8	[Have you read the forum today ?]
+
+// DIFF CHANGED 3931 
+/* OLD VALUE : [Raytracing sunlight beams...] */
+// HASH_VALUE 5A47A3BF8FD5E1B0
+// INDEX 256
+uiLoadingString9	[L'Unité Mémorielle 1 n'attend que vous pour s'enrichir]
+
+// DIFF CHANGED 3932 
+/* OLD VALUE : [Growing grass...] */
+// HASH_VALUE EFB80512934B1942
+// INDEX 257
+uiLoadingString10	[On dirait bien que la Police des Rêves... AH non rien]
+
+// DIFF CHANGED 3933 
+/* OLD VALUE : [Checking water temperature...] */
+// HASH_VALUE E1F19688C8F6DBE3
+// INDEX 258
+uiLoadingString11	[Deleting all datas because of the Fog]
+
+// DIFF CHANGED 3934 
+/* OLD VALUE : [Loading random loading messages...] */
+// HASH_VALUE D3807D974EBCA22C
+// INDEX 259
+uiLoadingString12	[Looking for controls of a first grade Ra]
+
+// DIFF CHANGED 3935 
+/* OLD VALUE : [Soaking up system resources...] */
+// HASH_VALUE 21FF2C1F522B97AF
+// INDEX 260
+uiLoadingString13	[Drawing the next Khan, sorry for you : you loose]
+
+// DIFF CHANGED 3936 
+/* OLD VALUE : [Growing vines...] */
+// HASH_VALUE E101225AAA82A82F
+// INDEX 261
+uiLoadingString14	[Broom for eveybody : big cleaning day today]
+
+// DIFF CHANGED 3937 
+/* OLD VALUE : [Releasing Kitins...] */
+// HASH_VALUE 37839CB1AE308645
+// INDEX 262
+uiLoadingString15	[Thanks for giving all your belongings to the Dispensary. Forgetings will appreciate]
+
+// DIFF CHANGED 3938 
+/* OLD VALUE : [Teasing Frahars...] */
+// HASH_VALUE 80A45F1AF43BD1F9
+// INDEX 263
+uiLoadingString16	[Transfering all your clothes to Pendorid's kitchen]
+
+// DIFF CHANGED 3939 
+/* OLD VALUE : [Careplanning server...] */
+// HASH_VALUE 5F68650EFC59DF9D
+// INDEX 264
+uiLoadingString17	[Perfect choice : digger in Salargug, a job for the Future]
+
+// DIFF CHANGED 3940 
+/* OLD VALUE : [Distributing Ma-Duk...] */
+// HASH_VALUE 37296C569D2B7CF5
+// INDEX 265
+uiLoadingString18	[If it moves, it's Culno, if it's cold, it's Ratmidju - Hoslet saying]
+
+// DIFF CHANGED 3941 
+/* OLD VALUE : [Installing Jena...] */
+// HASH_VALUE 89E44B8C9F49B841
+// INDEX 266
+uiLoadingString19	[Wait a minute, we are telling the Njébé their food is coming]
+
+// DIFF CHANGED 3942 
+/* OLD VALUE : [Training skills...] */
+// HASH_VALUE B3890171A387FFF6
+// INDEX 267
+uiLoadingString20	[Transfering Fog in your reality to clean a it Khanat]
+
+// DIFF CHANGED 3943 
+/* OLD VALUE : [Gaining XP...] */
+// HASH_VALUE 3193C9537E4F718D
+// INDEX 268
+uiLoadingString21	[Grafting a branaz nose on you ra : in progress...]
+
+// DIFF CHANGED 3944 
+/* OLD VALUE : [Putting masks on all the Zoraïs...] */
+// HASH_VALUE FEC96B934EF29D13
+// INDEX 269
+uiLoadingString22	[On IRC - Freenode/#khanat, you can be kicked if you are obedient]
+
+// DIFF CHANGED 3945 
+/* OLD VALUE : [Shrinking Trykers...] */
+// HASH_VALUE BCD6F33CBA6AAB4C
+// INDEX 270
+uiLoadingString23	[Taming your cauna'i for your next fly expected in... far future]
+
+// DIFF CHANGED 3946 
+/* OLD VALUE : [Dry cleaning Fairhaven...] */
+// HASH_VALUE 1CD4D1243B88DD33
+// INDEX 271
+uiLoadingString24	[Ce soir au menu : omelette d'oeufs de salamandre]
+
+// DIFF CHANGED 3947 
+/* OLD VALUE : [Vacuuming Pyr...] */
+// HASH_VALUE 5FB84A2DAD88D7A7
+// INDEX 272
+uiLoadingString25	[Seems some tupas are expecting for you]
+
+// DIFF CHANGED 3948 
+/* OLD VALUE : [Telling the Kinchers to eat some Homins...] */
+// HASH_VALUE FD0A15FC0325CAA7
+// INDEX 273
+uiLoadingString26	[Teleportation to the Frosted Bay, don't forget your swimsuit]
+
+// DIFF CHANGED 3949 
+/* OLD VALUE : [Just making something...] */
+// HASH_VALUE AFDED895ADDFAFB2
+// INDEX 274
+uiLoadingString27	[Displaying of a Wanted poster about you in all place of Natca]
+
+// DIFF CHANGED 3950 
+/* OLD VALUE : [Writing Fyros battle hymns...] */
+// HASH_VALUE A1F9F9FF90DB4F76
+// INDEX 275
+uiLoadingString28	[Preparation of secrete datas of the Dream Police]
+
+// DIFF CHANGED 3951 
+/* OLD VALUE : [Singing Tryker sleeping songs...] */
+// HASH_VALUE 3D82DABA2D11B6EA
+// INDEX 276
+uiLoadingString29	[Registering your application to become a gladiator in the Arena]
+
+// DIFF CHANGED 3952 
+/* OLD VALUE : [Planting Jublas...] */
+// HASH_VALUE 8AEF3507B5DB9172
+// INDEX 277
+uiLoadingString30	[Preparation of swarms of bloody pendos]
+
+// DIFF CHANGED 3953 
+/* OLD VALUE : [Stalking a Stinga...] */
+// HASH_VALUE E92F308F9BD6DB9A
+// INDEX 278
+uiLoadingString31	[Have sweet dreams in Khanat]
+
+// DIFF CHANGED 3954 
+/* OLD VALUE : [Feeding the Ybers...] */
+// HASH_VALUE 9AE9F4414DBE24AD
+// INDEX 279
+uiLoadingString32	[Generating random characteristics for creatures...]
+
+// DIFF CHANGED 3955 
+/* OLD VALUE : [Trading jewels...] */
+// HASH_VALUE 31CF9EA9CBB854E6
+// INDEX 280
+uiLoadingString33	[Control from Dream Polcie : prepare the CBX74 form]
+
+// DIFF CHANGED 3956 
+/* OLD VALUE : [Drinking firewine...] */
+// HASH_VALUE 882DEC0F9F020647
+// INDEX 281
+uiLoadingString34	[Beware, Liria is in a good mood today]
+
+// DIFF CHANGED 3957 
+/* OLD VALUE : [Brewing Stinga rum...] */
+// HASH_VALUE BBB930A2B3DEE8E3
+// INDEX 282
+uiLoadingString35	[Today Zatalyz told me... Na, I can't repeat that]
+
+// DIFF CHANGED 3958 
+/* OLD VALUE : [Caffeinenating support team...] */
+// HASH_VALUE D086F092C95E4F0B
+// INDEX 283
+uiLoadingString36	[Blunting weapons, not to harm yourself]
+
+// DIFF CHANGED 3959 
+/* OLD VALUE : [For all the latest gossip try CeB!  ] */
+// HASH_VALUE 78097AA0CADF1E9D
+// INDEX 284
+uiLoadingString37	[Get your cushions and pillows]
+
+// DIFF CHANGED 3960 
+/* OLD VALUE : [Shrinking Trykers...] */
+// HASH_VALUE 6238FBC3F6365BF3
+// INDEX 285
+uiLoadingString38	[Have you some hot drink with you ?]
+
+// DIFF CHANGED 3961 
+/* OLD VALUE : [Vaining Matis...] */
+// HASH_VALUE 822A88B872EA700A
+// INDEX 286
+uiLoadingString39	[Re-teturing Suzanha Breast]
+
+// DIFF CHANGED 3962 
+/* OLD VALUE : [Tanning Fyros...] */
+// HASH_VALUE 67968792C94218AB
+// INDEX 287
+uiLoadingString40	[Ophidra concert in Itsmir, soon]
+
+// DIFF CHANGED 3963 
+/* OLD VALUE : [Dyeing Zoraïs...] */
+// HASH_VALUE E2ADE122232C49E9
+// INDEX 288
+uiLoadingString41	[With farespa in your head, you'll dream great]
+
+// DIFF CHANGED 3964 
+/* OLD VALUE : [You'd load faster with more RAM and a better processor you know...] */
+// HASH_VALUE 5826FE130862253F
+// INDEX 289
+uiLoadingString42	[Transforming Ashtarie Plains in a desert]
+
+// DIFF CHANGED 3965 
+/* OLD VALUE : [Just hanging around...] */
+// HASH_VALUE 5FB49FEFD97AC378
+// INDEX 290
+uiLoadingString43	[Oiling of Crypt's Door]
+
+// DIFF CHANGED 3966 
+/* OLD VALUE : [Watching who started me...] */
+// HASH_VALUE 2D8F863938B5BA2D
+// INDEX 291
+uiLoadingString44	[Installing the lamp used as Sun...]
+
+// DIFF CHANGED 3967 
+/* OLD VALUE : [Hey, you're looking good today...] */
+// HASH_VALUE A63CBA95201A42F9
+// INDEX 292
+uiLoadingString45	[Installing Look-Throught textures for clothes]
+
+// DIFF CHANGED 3968 
+/* OLD VALUE : [Have a nice day on Atys...] */
+// HASH_VALUE A31E421391901A48
+// INDEX 293
+uiLoadingString46	[CHanging texture of Krili, now they will be liquid]
+
+// DIFF CHANGED 3969 
+/* OLD VALUE : [Oh my god, look, a flying Yubo!  ] */
+// HASH_VALUE 8180CE0E5C381186
+// INDEX 294
+uiLoadingString47	[You have been chosen to polish obsidian mirrors]
+
+// DIFF CHANGED 3970 
+/* OLD VALUE : [Spare Yubos, who knows, maybe one day, they will save your life?  ] */
+// HASH_VALUE 734A7A5A99E48147
+// INDEX 295
+uiLoadingString48	[Spotting your dreams, thanks to the Dream Police]
+
+// DIFF CHANGED 3971 
+/* OLD VALUE : [Yubos, probably your best friends!  ] */
+// HASH_VALUE 6136A0270A1E91E5
+// INDEX 296
+uiLoadingString49	[Installing secret corridors in Ratmidju]
+
+// DIFF CHANGED 3972 
+/* OLD VALUE : [Dum Di Dum...] */
+// HASH_VALUE E5C9890C328059DD
+// INDEX 297
+uiLoadingString50	[Some shcolars think that the sacred language has been created recently]
+// DIFF CHANGED 3973 
+/* OLD VALUE : [If you read this twice, you might want to upgrade your system...] */
+// HASH_VALUE 5C88E88D56A5B738
+// INDEX 298
+uiLoadingString51	[Every morning, a new Eon !]
+
+// DIFF CHANGED 3974 
+/* OLD VALUE : [Optimizing Tryker windmill rotation algorithms...] */
+// HASH_VALUE AEAE697DA8C9758D
+// INDEX 299
+uiLoadingString52	[Unplunging the Interfaced]
+
+// DIFF CHANGED 3975 
+/* OLD VALUE : [Refueling Fyros citygates...] */
+// HASH_VALUE C772C86EF7AF4F5A
+// INDEX 300
+uiLoadingString53	[Opening around thirty random fenra]
+
+// DIFF CHANGED 4030 
+/* OLD VALUE : [Ryzom Core RING COMMANDS] */
+// HASH_VALUE 03CEE416825EE818
+// INDEX 301
+uiR2EDActionCategory	[KHANAT RING COMMANDS]
+
+// DIFF CHANGED 4055 
+/* OLD VALUE : [Ryzom Core Ring] */
+// HASH_VALUE E4C79389A1323C57
+// INDEX 302
+uiMk_window11	[Khanat Ring]
+
+// DIFF CHANGED 4092 
+/* OLD VALUE : [Ryzom Core Ring] */
+// HASH_VALUE E4C79389A1323C57
+// INDEX 303
+uiMk_interaction8	[Khanat Ring]
+
+// DIFF CHANGED 4451 
+/* OLD VALUE : [FREE TRIAL LIMITATIONS:
+You cannot join this Ring adventure with a free trial account.
+In order to gain full access to Ryzom Core Ring you need to subscribe to Ryzom Core.
+To upgrade your account see 
+www.ryzomcore.org
+] */
+// HASH_VALUE 2BA62562877E4972
+// INDEX 304
+uiRingWarningFreeTrial	[FREE TRIAL LIMITATIONS:\n
+	\n
+	You cannot join this Ring adventure with a free trial account.\n
+	\n
+	In order to gain full access to Khanat Ring you need to subscribe to Khanat.\n
+	\n
+	To upgrade your account see \n
+	www.ryzomcore.org\n
+	]
+
+// DIFF CHANGED 4472 
+/* OLD VALUE : [@{6F6F}Ryzom Core Ring Points Total 
+@{FFFF} Ryzom Core Ring Points Total for the selected scenario.] */
+// HASH_VALUE 3D7F691BF9F309F6
+// INDEX 305
+uiR2EdPropertyToolTip_LoadScenario_LoadScenario_RRPTotal	[@{6F6F}Khanat Ring Points Total \n
+	@{FFFF} Khanat Ring Points Total for the selected scenario.]
+
+// DIFF CHANGED 4473 
+/* OLD VALUE : [@{6F6F}Examples
+@{FFFF}Example scenarios supplied with Ryzom Core. These demonstrate some of the things that can be done with Ryzom Core Ring.
+@{6F6F}Pioneer Scenarios
+@{FFFF}Provided by other players and customer support, these are not vetted.
+@{6F6F}My Files
+@{FFFF}The files that are in the 'My Scenarios' folder on your computer.] */
+// HASH_VALUE BC397727F5C50033
+// INDEX 306
+uiR2EdPropertyToolTip_LoadScenario_LoadScenario_TreeInfo	[@{6F6F}Examples\n
+	@{FFFF}Example scenarios supplied with Khanat. These demonstrate some of the things that can be done with Khanat Ring.\n
+	@{6F6F}Pioneer Scenarios\n
+	@{FFFF}Provided by other players and customer support, these are not vetted.\n
+	@{6F6F}My Files\n
+	@{FFFF}The files that are in the 'My Scenarios' folder on your computer.]
+
+// DIFF CHANGED 4488 
+/* OLD VALUE : [Ryzom Core Ring Points] */
+// HASH_VALUE 58D6704827B3C779
+// INDEX 307
+uiR2EDProp_LoadScenario_RRPTotal	[Khanat Ring Points]
+
+// DIFF CHANGED 4549 
+/* OLD VALUE : [Ryzom Core ring] */
+// HASH_VALUE E4C99389A932BC57
+// INDEX 308
+uiFixedMissionEntry_R2	[Khanat ring]
+
+// DIFF CHANGED 4592 
+/* OLD VALUE : [Ryzom Core Downloader] */
+// HASH_VALUE A9F968708BA598AA
+// INDEX 309
+uiBGD_RBG	[Khanat Downloader]
+
+// DIFF CHANGED 4603 
+/* OLD VALUE : [Ryzom Core is up to date] */
+// HASH_VALUE 6AB677831965C33F
+// INDEX 310
+uiBGD_PatchUpToDate	[Khanat is up to date]
+
+// DIFF CHANGED 4605 
+/* OLD VALUE : [Game/Downloader communication Error. Please restart Ryzom Core or as a last resort use the Ryzom Core Downloader to repair your installation.] */
+// HASH_VALUE C10ACD58AC093545
+// INDEX 311
+uiBGD_ProtocolError	[Game/Downloader communication Error. Please restart Khanat or as a last resort use the Khanat Downloader to repair your installation.]
+
+// DIFF CHANGED 4606 
+/* OLD VALUE : [Ryzom Core Downloader stopped, please restart Ryzom Core] */
+// HASH_VALUE 6210AE695891367F
+// INDEX 312
+uiBGD_DownloaderDisconnected	[Khanat Downloader stopped, please restart Khanat]
+
+// DIFF CHANGED 4607 
+/* OLD VALUE : [Launching Ryzom Core Downloader...] */
+// HASH_VALUE 1D28AB376866C360
+// INDEX 313
+uiBGD_Launching	[Launching Khanat Downloader...]
+
+// DIFF CHANGED 4608 
+/* OLD VALUE : [Failed to launch the Ryzom Core Downloader...] */
+// HASH_VALUE ED3F18DDB517FDA3
+// INDEX 314
+uiBGD_LaunchError	[Failed to launch the Khanat Downloader...]
+
+// DIFF CHANGED 4609 
+/* OLD VALUE : [Shutting down the Ryzom Core Downloader...] */
+// HASH_VALUE 7C1E585C683947DF
+// INDEX 315
+uiBGD_ShuttingDown	[Shutting down the Khanat Downloader...]
+
+// DIFF CHANGED 4610 
+/* OLD VALUE : [Ryzom Core Downloader is still running, but is not responding, you may need to restart your computer...] */
+// HASH_VALUE BB1F7E13BC60F0C1
+// INDEX 316
+uiBGD_ForciblyShutdown	[Khanat Downloader is still running, but is not responding, you may need to restart your computer...]
+
+// DIFF CHANGED 4611 
+/* OLD VALUE : [Please use Ryzom Core Downloader to repair a broken Ryzom Core installation.] */
+// HASH_VALUE 5263A04C6FA48413
+// INDEX 317
+uiBGD_InvalidCommandLine	[Please use Khanat Downloader to repair a broken Khanat installation.]
+
+// DIFF CHANGED 4618 
+/* OLD VALUE : [Select the priority of the Ryzom Core Downloader. You may want to @{6F6F}Pause@{FFFF} the downloader if you experience slowdown. If you have a fast machine, or want to speed up the patching process, you select choose @{6F6F}Normal Priority@{FFFF}] */
+// HASH_VALUE 1948540600789D85
+// INDEX 318
+uiBGD_PriorityTooltip	[Select the priority of the Khanat Downloader. You may want to @{6F6F}Pause@{FFFF} the downloader if you experience slowdown. If you have a fast machine, or want to speed up the patching process, you select choose @{6F6F}Normal Priority@{FFFF}]
+
+// DIFF CHANGED 4620 
+/* OLD VALUE : [Failed to shutdown the Ryzom Core Downloader, you may need to restart your computer to solve the problem] */
+// HASH_VALUE DA9BF0F86689BADC
+// INDEX 319
+uiBGD_ShutdownFailed	[Failed to shutdown the Khanat Downloader, you may need to restart your computer to solve the problem]
+
+// DIFF CHANGED 4621 
+/* OLD VALUE : [Access to the Atys mainland and Ryzom Core Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.] */
+// HASH_VALUE DE9F40831A2B2123
+// INDEX 320
+uiBGD_InGamePatchIncomplete	[Access to the Atys mainland and Khanat Ring requires patching to have been finished. The patching progress is indicated in the Patch Window.]
+
+// DIFF CHANGED 4623 
+/* OLD VALUE : [Ryzom Core is now fully patched! You can now access Ryzom Core Ring or be teleported to the mainland!] */
+// HASH_VALUE 6F8A4A3D7B6946D7
+// INDEX 321
+uiBGD_InGamePatchCompletion	[Khanat is now fully patched! You can now access Khanat Ring or be teleported to the mainland!]
+
+// DIFF CHANGED 4624 
+/* OLD VALUE : [Failed to initiate patching process because another Ryzom Core is already running. Please close the other Ryzom Core and try again.] */
+// HASH_VALUE B8171749B1E14E8B
+// INDEX 322
+uiBGD_MultipleRyzomInstance	[Failed to initiate patching process because another Khanat is already running. Please close the other Khanat and try again.]
+
+// DIFF CHANGED 4626 
+/* OLD VALUE : [For those used to some other MMO Games keybinding, make a smooth transition using that keyset. Applies to the game only (Ryzom Core Ring keyset remains the same).] */
+// HASH_VALUE 82DAFE45630B0596
+// INDEX 323
+uiCP_KeysetTooltip_bi_wow_alike	[For those used to some other MMO Games keybinding, make a smooth transition using that keyset. Applies to the game only (Khanat Ring keyset remains the same).]
+
+// DIFF CHANGED 4631 
+/* OLD VALUE : [Ryzom Core patching has started] */
+// HASH_VALUE 8FC98C881874E0A5
+// INDEX 324
+uiBGD_PatchStarting	[Khanat patching has started]
+
+// DIFF CHANGED 4632 
+/* OLD VALUE : [Ryzom Core background patching has started] */
+// HASH_VALUE 03FCD0F269E1790D
+// INDEX 325
+uiBGD_BackgroundPatchStarting	[Khanat background patching has started]
+
+// DIFF CHANGED 4633 
+/* OLD VALUE : [Ryzom Core is about to be installed on your computer. You may also repair an existing version of Ryzom Core.
+] */
+// HASH_VALUE 870800E60642E9EE
+// INDEX 326
+uiBGD_Welcome	[Khanat is about to be installed on your computer. You may also repair an existing version of Khanat.\n
+	]
+
+// DIFF CHANGED 4634 
+/* OLD VALUE : [Install Ryzom Core] */
+// HASH_VALUE F079E468DA45BB77
+// INDEX 327
+uiBGD_NewInstall	[Install Khanat]
+
+// DIFF CHANGED 4635 
+/* OLD VALUE : [Repair Ryzom Core] */
+// HASH_VALUE 1139907C25043898
+// INDEX 328
+uiBGD_Repair	[Repair Khanat]
+
+// DIFF CHANGED 4640 
+/* OLD VALUE : [Full Ryzom Core Install] */
+// HASH_VALUE 4FE9AC60CF85683F
+// INDEX 329
+uiBGD_FullInstall	[Full Khanat Install]
+
+// DIFF CHANGED 4641 
+/* OLD VALUE : [Ryzom Core Downloader] */
+// HASH_VALUE A9F968708BA598AA
+// INDEX 330
+uiBGD_RyzomInstaller	[Khanat Downloader]
+
+// DIFF CHANGED 4644 
+/* OLD VALUE : [Ryzom Core has been successfully installed.
+We wish you great adventures on Atys!
+] */
+// HASH_VALUE 3A36E5029E8F7937
+// INDEX 331
+uiBGD_CongratSuccessfullInstall	[Khanat has been successfully installed.\n
+	We wish you great adventures on Atys!\n
+	]
+
+// DIFF CHANGED 4645 
+/* OLD VALUE : [Start Ryzom Core now] */
+// HASH_VALUE 72581468EE547228
+// INDEX 332
+uiBGD_StartRyzomNow	[Start Khanat now]
+
+// DIFF CHANGED 4649 
+/* OLD VALUE : [Ryzom Core installation
+] */
+// HASH_VALUE 7D8AB090ECD56840
+// INDEX 333
+uiBGD_PackageTitle	[Khanat installation\n
+	\n
+	]
+
+// DIFF CHANGED 4660 
+/* OLD VALUE : [There has been an error downloading one of the Ryzom Core installation files.
+Please make sure that you have sufficient disk space and that your internet connection is operating correctly. ] */
+// HASH_VALUE D5905066BC57E649
+// INDEX 334
+uiCanNotDownload	[There has been an error downloading one of the Khanat installation files.\n
+	Please make sure that you have sufficient disk space and that your internet connection is operating correctly. ]
+
+// DIFF CHANGED 4661 
+/* OLD VALUE : [There has been an error installing one of the Ryzom Core installation files.
+Please make sure that you have sufficient disk space for the installation.] */
+// HASH_VALUE DA16C1A88472EAA8
+// INDEX 335
+uiCanNotInstall	[There has been an error installing one of the Khanat installation files.\n
+	Please make sure that you have sufficient disk space for the installation.]
+
+// DIFF CHANGED 4673 
+/* OLD VALUE : [Installation finished.
+You can now play to Ryzom Core.] */
+// HASH_VALUE 2959476E760ED903
+// INDEX 336
+uiBGD_InstallFinished	[Installation finished.\n
+	\n
+	You can now play to Khanat.]
+
+// DIFF CHANGED 4687 
+/* OLD VALUE : [Ryzom Core Install and Repair] */
+// HASH_VALUE DFE52C990C61C8A0
+// INDEX 337
+uiBGD_RyzomUpdateRepair	[Khanat Install and Repair]
+
+// DIFF CHANGED 4689 
+/* OLD VALUE : [You are about to download and install the latest version of Ryzom Core.
+The complete version of Ryzom Core requires {0} of disk space.] */
+// HASH_VALUE CBB6220F44405B71
+// INDEX 338
+uiBGD_ContentStartProcessInstall	[You are about to download and install the latest version of Khanat.\n
+	The complete version of Khanat requires {0} of disk space.]
+
+// DIFF CHANGED 4690 
+/* OLD VALUE : [You are about to update your installation of Ryzom Core to the latest version.
+This operation will repair any files that are damaged or missing.
+At the end of the update the game configuration options will be reset to the default values.] */
+// HASH_VALUE A6C410A11A9995D0
+// INDEX 339
+uiBGD_ContentStartProcessRepair	[You are about to update your installation of Khanat to the latest version.\n
+	This operation will repair any files that are damaged or missing.\n
+	At the end of the update the game configuration options will be reset to the default values.]
+
+// DIFF CHANGED 4692 
+/* OLD VALUE : [Welcome to the Ryzom Core Downloader] */
+// HASH_VALUE 287490AA51F25BAC
+// INDEX 340
+uiBGD_TitleStartProcessInstall	[Welcome to the Khanat Downloader]
+
+// DIFF CHANGED 4694 
+/* OLD VALUE : [Ryzom Core has been installed successfully] */
+// HASH_VALUE C8DD40EC570489F6
+// INDEX 341
+uiBGD_ContentInstallSuccess	[Khanat has been installed successfully]
+
+// DIFF CHANGED 4696 
+/* OLD VALUE : [You will be able to to continue the install process where you have left it by clicking on the Ryzom Core icon on your desktop.] */
+// HASH_VALUE 9D27530E6893D0E3
+// INDEX 342
+uiBGD_QuitInstallRestart	[You will be able to to continue the install process where you have left it by clicking on the Khanat icon on your desktop.]
+
+// DIFF CHANGED 4699 
+/* OLD VALUE : [http://forums.Ryzom Core.com/forum/showthread.php?t=29129] */
+// HASH_VALUE F33B4565912B7B61
+// INDEX 343
+uiBGD_ErrorSupportUrl	[http://forums.Khanat.com/forum/showthread.php?t=29129]
+
+// DIFF CHANGED 4703 
+/* OLD VALUE : [The current desktop color depth is not supported by Ryzom Core. Please launch Ryzom Core in 16 millions color mode.] */
+// HASH_VALUE 69763C2974798BEA
+// INDEX 344
+uiUnsupportedColorDepth	[The current desktop color depth is not supported by Khanat. Please launch Khanat in 16 millions color mode.]
+
+// DIFF CHANGED 4704 
+/* OLD VALUE : [The new desktop color depth is not supported by Ryzom Core. Please launch Ryzom Core in 16 millions color mode.] */
+// HASH_VALUE E0A857DB615077DE
+// INDEX 345
+uiUnsupportedNewColorDepth	[The new desktop color depth is not supported by Khanat. Please launch Khanat in 16 millions color mode.]
+
+// DIFF CHANGED 4747 
+/* OLD VALUE : [has been saved in your Ryzom Core folder.] */
+// HASH_VALUE 7420E8CAA2C06FDE
+// INDEX 346
+uiScreenshotSaved	[has been saved in your Khanat folder.]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE 630AEC82E98884B5
+// INDEX 347
+uiRpJobs	[Occupations]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE AAABF07B218283A1
+// INDEX 348
+uiRpJobsElementary	[Basic Occupations]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE 25D9183866091C44
+// INDEX 349
+uiRpJobsAdvanced	[Advanced Occupations]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE 6BF8684BAC286C57
+// INDEX 350
+uiRpJobsRoleplay	[Roleplay Occupations]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE A153C47D2C2A5C6A
+// INDEX 351
+rpjob_200	[Apprentice Butcher]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE A253CC8B2A8A5861
+// INDEX 352
+rpjob_201	[Apprentice Florist]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE A9262412EC3AE89D
+// INDEX 353
+rpjob_202	[Apprentice Water-Carrier]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE 4F6698876CAA7C79
+// INDEX 354
+rpjob_203	[Apprentice Magnetic Cartographer]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE A7A6BC6A6616CC78
+// INDEX 355
+rpjob_204	[Apprentice Toolmaker]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE DE12AC4864BA9494
+// INDEX 356
+rpjob_205	[Apprentice Medic]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE A5A6E07C62B7D86A
+// INDEX 357
+rpjob_206	[Apprentice Larvester]
+
+// DIFF REMOVED 4748 
+// HASH_VALUE E575D480EA87F0A1
+// INDEX 358
+rpjob_207	[Apprentice Scrollmaker]
+
+// DIFF REMOVED 4749 
+// HASH_VALUE 4C144F68D63990A0
+// INDEX 359
+uiChapterI	[Chapter I: Changing Times]
+
+// DIFF REMOVED 4749 
+// HASH_VALUE 1934176D531A0447
+// INDEX 360
+uiChapterII	[Chapter II: Ready to Fight]
+
+// DIFF REMOVED 4749 
+// HASH_VALUE 6337546CCF980427
+// INDEX 361
+uiChapterIII	[Chapter III: Outposts]
+
+// DIFF REMOVED 4749 
+// HASH_VALUE 97A31F6312EBFC8C
+// INDEX 362
+uiChapterIV	[Chapter IV: Basic Occupations]
+
+// DIFF REMOVED 4749 
+// HASH_VALUE D5B4EB77CC418893
+// INDEX 363
+uiChapterV	[Chapter V: The Road to Power]
+
+// DIFF ADD 4831 
+// HASH_VALUE 9709548D1FC37F4F
+// INDEX 364
+uiEonSymbiose	[The Symbiosis Eon]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

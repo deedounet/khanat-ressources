@@ -6,7 +6,7 @@
   <ELEMENT Name="Curativable" Type="Type" Filename="iboolean.typ" Default="true"/>
   <ELEMENT Name="Givable" Type="Type" Filename="iboolean.typ" Default="false"/>
   <ELEMENT Name="LootHarvestState" Type="Type" Filename="_creature_loot_harvest_state.typ"/>
-  <ELEMENT Name="Mountable" Type="Type" Filename="iboolean.typ" Default="false"/>
+  <ELEMENT Name="Mountable" Type="Type" Filename="iboolean.typ" Default="true"/>
   <ELEMENT Name="XPGainCoef" Type="Type" Filename="float.typ" Default="1"/>
   <ELEMENT Name="Turn" Type="Type" Filename="iboolean.typ" Default="true"/>
   <ELEMENT Name="SelectableBySpace" Type="Type" Filename="iboolean.typ" Default="true"/>
