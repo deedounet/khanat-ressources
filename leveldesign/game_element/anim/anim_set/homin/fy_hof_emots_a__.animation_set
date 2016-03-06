@@ -18,7 +18,7 @@
       <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="fy_hof_train_boire_fiole_loop.anim"/>
+          <ATOM Name="filename" Value="fy_hof_salut_incline.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>

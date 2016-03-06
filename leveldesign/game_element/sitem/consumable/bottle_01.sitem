@@ -22,7 +22,7 @@
       <ATOM Name="icon background" Value="bk_primes.tga"/>
     </STRUCT>
     <STRUCT Name="Consumable">
-      <ATOM Name="EffectEmote" Value="drunk"/>
+      <ATOM Name="EffectEmote" Value="drink"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>
