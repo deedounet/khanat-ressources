@@ -18,11 +18,11 @@
     </STRUCT>
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="bottle_01.shape"/>
-      <ATOM Name="icon" Value="ico_mission_medicine.tga"/>
+      <ATOM Name="icon" Value="ico_bottle_01.tga"/>
       <ATOM Name="icon background" Value="bk_primes.tga"/>
     </STRUCT>
     <STRUCT Name="Consumable">
-      <ATOM Name="EffectEmote" Value="drink"/>
+      <ATOM Name="EffectEmote" Value="drunk"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>
