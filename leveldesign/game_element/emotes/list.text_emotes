@@ -3018,6 +3018,11 @@
       </STRUCT>
       <STRUCT>
         <ATOM Name="Usable From Client UI" Value="false"/>
+        <ATOM Name="EmoteId" Value="Drink"/>
+        <ATOM Name="Animation" Value="drink"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Usable From Client UI" Value="false"/>
         <ATOM Name="EmoteId" Value="firework_01"/>
         <ATOM Name="Animation" Value="firework_01"/>
         <ATOM Name="FxToSpawn" Value="fireworkA.ps"/>
