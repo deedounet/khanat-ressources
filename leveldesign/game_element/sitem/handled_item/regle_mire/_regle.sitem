@@ -10,6 +10,7 @@
     </STRUCT>
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="regle.shape"/>
+      <ATOM Name="shape_female" Value="regle.shape"/>
       <ATOM Name="icon" Value="to_stick.tga"/>
       <ATOM Name="icon background" Value="bk_primes.tga"/>
     </STRUCT>

@@ -16,6 +16,7 @@
     </STRUCT>
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="broom.shape"/>
+      <ATOM Name="shape_female" Value="broom.shape"/>
       <ATOM Name="icon" Value="to_broom.tga"/>
       <ATOM Name="icon background" Value="bk_primes.tga"/>
       <ATOM Name="anim_set" Value="2HLance"/>

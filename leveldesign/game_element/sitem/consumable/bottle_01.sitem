@@ -18,8 +18,10 @@
     </STRUCT>
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="bottle_01.shape"/>
+      <ATOM Name="shape_female" Value="bottle_01.shape"/>
       <ATOM Name="icon" Value="ico_bottle_01.tga"/>
       <ATOM Name="icon background" Value="bk_primes.tga"/>
+      <ATOM Name="anim_set" Value="1H"/>
     </STRUCT>
     <STRUCT Name="Consumable">
       <ATOM Name="EffectEmote" Value="drink"/>
