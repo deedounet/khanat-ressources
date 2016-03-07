@@ -3017,10 +3017,6 @@
         <ATOM Name="Animation" Value="youandme"/>
       </STRUCT>
       <STRUCT>
-        <ATOM Name="EmoteId" Value="drink"/>
-        <ATOM Name="Animation" Value="drink"/>
-      </STRUCT>
-      <STRUCT>
         <ATOM Name="Usable From Client UI" Value="false"/>
         <ATOM Name="EmoteId" Value="firework_01"/>
         <ATOM Name="Animation" Value="firework_01"/>
@@ -3175,6 +3171,11 @@
         <ATOM Name="Usable From Client UI" Value="false"/>
         <ATOM Name="EmoteId" Value="breakdance"/>
         <ATOM Name="Animation" Value="FBT"/>
+      </STRUCT>
+      <STRUCT>
+        <ATOM Name="Usable From Client UI" Value="false"/>
+        <ATOM Name="EmoteId" Value="drink"/>
+        <ATOM Name="Animation" Value="drink"/>
       </STRUCT>
     </ARRAY>
   </STRUCT>

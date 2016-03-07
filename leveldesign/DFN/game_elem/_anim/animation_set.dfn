@@ -325,7 +325,8 @@
   <ELEMENT Name="firework_30"		Type="Dfn" Filename="animation_state.dfn"/>
 
   <ELEMENT Name="breakdance"		Type="Dfn" Filename="animation_state.dfn"/>
+  <ELEMENT Name="drink"			Type="Dfn" Filename="animation_state.dfn"/>
 
-  <LOG>Mon Feb 17 15:35:04 2003 (puzin)</LOG>
+  <LOG></LOG>
 </DFN>
 
