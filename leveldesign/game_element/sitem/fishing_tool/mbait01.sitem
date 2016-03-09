@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision$" State="modified">
+  <STRUCT>
+    <STRUCT Name="basics">
+      <ATOM Name="name" Value="Fishing Larva"/>
+      <ATOM Name="family" Value="generic item"/>
+      <ATOM Name="ItemType" Value="Generic"/>
+      <ATOM Name="Drop or Sell" Value="true"/>
+      <STRUCT Name="EquipmentInfo">
+        <ARRAY Name="EquipmentSlots">
+          <ATOM Value="Left Hand"/>
+        </ARRAY>
+      </STRUCT>
+      <ATOM Name="Bulk" Value="0.5"/>
+    </STRUCT>
+    <STRUCT Name="3d">
+      <ATOM Name="icon" Value="mp_larva.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
