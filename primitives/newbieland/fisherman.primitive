@@ -1,0 +1,2058 @@
+<?xml version="1.0"?>
+<PRIMITIVES VERSION="1">
+  <ROOT_PRIMITIVE TYPE="CPrimNode">
+    <ALIAS LAST_GENERATED="462"/>
+    <CHILD TYPE="CPrimZone">
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>npc_manager</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>npc_manager_1</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimAlias">
+        <ALIAS VALUE="270"/>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+      </CHILD>
+      <CHILD TYPE="CPrimZone">
+        <PT X="9225.296875" Y="-10900.142578" Z="0.000000" SELECTED="true"/>
+        <PT X="9228.116211" Y="-10896.553711" Z="0.000000"/>
+        <PT X="9228.665039" Y="-10892.015625" Z="0.000000"/>
+        <PT X="9228.665039" Y="-10886.121094" Z="0.000000"/>
+        <PT X="9227.221680" Y="-10881.084961" Z="0.000000"/>
+        <PT X="9223.441406" Y="-10877.581055" Z="0.000000"/>
+        <PT X="9212.853516" Y="-10876.767578" Z="0.000000"/>
+        <PT X="9212.578125" Y="-10887.425781" Z="0.000000"/>
+        <PT X="9211.341797" Y="-10902.963867" Z="0.000000"/>
+        <PT X="9221.719727" Y="-10902.344727" Z="0.000000"/>
+        <PROPERTY TYPE="string">
+          <NAME>ai_activity</NAME>
+          <STRING>no_change</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>ai_movement</NAME>
+          <STRING>wander</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>npc_zone</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>npc_zone_2</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="271"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string_array">
+            <NAME>bot_equipment</NAME>
+            <STRING>CBODY : 1 2 3 4 5 6</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>bot_sheet_client</NAME>
+            <STRING>clapclap</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>count</NAME>
+            <STRING>0</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>grp_clapclaps</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="272"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_event_handler</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>event</NAME>
+              <STRING>timer_t1_triggered</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="317"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>action</NAME>
+                <STRING>multi_actions</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_event_handler_action</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>code</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING>()import("script_BotClass");</STRING>
+                  <STRING></STRING>
+                  <STRING></STRING>
+                  <STRING>computeBotDest(){</STRING>
+                  <STRING>  xp = x;</STRING>
+                  <STRING>  yp = y;</STRING>
+                  <STRING></STRING>
+                  <STRING>  s = x2 - x1;</STRING>
+                  <STRING>  r = y2 - y1;</STRING>
+                  <STRING></STRING>
+                  <STRING>  y = (r * s * (x2 - xp) + s * s * yp + r * r * y2)/(r * r + s * s);</STRING>
+                  <STRING>  x = x2 + r * (y2 - y)/s;</STRING>
+                  <STRING>//  $x = "x=" + x + " y=" + y;</STRING>
+                  <STRING>//  ()phraseEndSystemMsg(0, "shout", $x);</STRING>
+                  <STRING></STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING>computePlayerPos(){</STRING>
+                  <STRING>  $name = $prefix + "_fw";</STRING>
+                  <STRING>  (distance)npc_distance_helper.getBotIndexByName($name);</STRING>
+                  <STRING>  (distance)npc_distance_helper.getPlayerDistance(distance, $playerEid);</STRING>
+                  <STRING>  // ref</STRING>
+                  <STRING>  x0 = 9240.785156;</STRING>
+                  <STRING>  y0 = -10883.958984;</STRING>
+                  <STRING> </STRING>
+                  <STRING>  // fw</STRING>
+                  <STRING>  x1 = 9245.047852;</STRING>
+                  <STRING>  y1 = -10886.433594;</STRING>
+                  <STRING></STRING>
+                  <STRING>  // nw</STRING>
+                  <STRING>  x2 = 9234.597656;</STRING>
+                  <STRING>  y2 = -10886.433594;</STRING>
+                  <STRING></STRING>
+                  <STRING></STRING>
+                  <STRING>  r = distance * distance - x1 * x1 + x0 * x0 - y1 * y1 + y0 * y0;</STRING>
+                  <STRING></STRING>
+                  <STRING>  $name = $prefix + "_nw";</STRING>
+                  <STRING>  (distance)npc_distance_helper.getBotIndexByName($name);</STRING>
+                  <STRING>  (distance)npc_distance_helper.getPlayerDistance(distance, $playerEid);</STRING>
+                  <STRING></STRING>
+                  <STRING>  s = distance * distance - x2 * x2 + x0 * x0 - y2 * y2 + y0 * y0;</STRING>
+                  <STRING></STRING>
+                  <STRING>  $name = $prefix + "_ref";</STRING>
+                  <STRING>  (distance)npc_distance_helper.getBotIndexByName($name);</STRING>
+                  <STRING>  (distance)npc_distance_helper.getPlayerDistance(distance, $playerEid);</STRING>
+                  <STRING></STRING>
+                  <STRING></STRING>
+                  <STRING>  distance *= distance;</STRING>
+                  <STRING>  </STRING>
+                  <STRING>  r = (r - distance)/2;</STRING>
+                  <STRING>  s = (s - distance)/2;</STRING>
+                  <STRING></STRING>
+                  <STRING>  y = (s*(x0 - x1) - (x0 - x2)*r)/((y0 - y2)*(x0 - x1) - (y0 - y1)*(x0 - x2));</STRING>
+                  <STRING>  x = (r - (y0 - y1)*y)/(x0 - x1);</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING>checkIfInZone(){ // return 0 if in zone - we reuse the distance variable to preserve the stack</STRING>
+                  <STRING>  range = 50; // allow the max range from the fish</STRING>
+                  <STRING>  playerInRange();</STRING>
+                  <STRING>  if(playerInRange_ret == 0){</STRING>
+                  <STRING>    ()phraseEndSystemMsg(0, "shout", "pas_glop_pas_glop");</STRING>
+                  <STRING>    BCP = 1;</STRING>
+                  <STRING>    ()import("script_BotClassDelete");</STRING>
+                  <STRING>    deletePlayer();</STRING>
+                  <STRING>  }</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING>doInitFishAnim(){</STRING>
+                  <STRING>  ()emote($playerEid, "firework_01");</STRING>
+                  <STRING>  ()setTimer(12, 1);</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING>doLoopFishAnim(){</STRING>
+                  <STRING>  ()emote($playerEid, "firework_02");</STRING>
+                  <STRING>  ()setTimer(18, 1);</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING>despawnPhase(){</STRING>
+                  <STRING>  ()wander();</STRING>
+                  <STRING>  ()import("script_BotClassDelete");</STRING>
+                  <STRING>  deleteBot();</STRING>
+                  <STRING>  ()setTimer(30, 1);</STRING>
+                  <STRING>  ()despawn(1);</STRING>
+                  <STRING>  v3 = 0;</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING>doEndFishAnim(){</STRING>
+                  <STRING>  ()emote($playerEid, "firework_03");</STRING>
+                  <STRING>  ()setTimer(12, 1);</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING></STRING>
+                  <STRING>endOfFishing(){</STRING>
+                  <STRING>  if(tmp &gt; 0.98){ // fish escape and vanish</STRING>
+                  <STRING>    ()phraseEndSystemMsg(0, "shout", "the_fish_escapes_and_vanishes");</STRING>
+                  <STRING>      doEndFishAnim();</STRING>
+                  <STRING>      v1 = 1110;  // end of fish</STRING>
+                  <STRING>  } else {</STRING>
+                  <STRING>    ()phraseEndSystemMsg(0, "shout", "the_fish_escapes");</STRING>
+                  <STRING>    v3 = 0;</STRING>
+                  <STRING>    ()wander();</STRING>
+                  <STRING>    v1 = 1001; // restart to the fishing loop</STRING>
+                  <STRING>    doInitFishAnim();</STRING>
+                  <STRING>  }</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING>fishIsCatchable(){ // 1102</STRING>
+                  <STRING>  if(playerInRange_ret &lt; 5 &amp;&amp; tmp &gt; 0.5){</STRING>
+                  <STRING>    ()setTimer(10, 1);</STRING>
+                  <STRING>    v1 = 1103;</STRING>
+                  <STRING>  } else {</STRING>
+                  <STRING>    endOfFishing();</STRING>
+                  <STRING>  }</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING>fishUnderCapture(){ // 1100/1101 - the fish is under capture</STRING>
+                  <STRING>  if(tmp &gt; 0.95){</STRING>
+                  <STRING>    endOfFishing();</STRING>
+                  <STRING>  } else {</STRING>
+                  <STRING>    doLoopFishAnim();</STRING>
+                  <STRING>    if(playerInRange_ret &lt; 5){ // the fish is near enough</STRING>
+                  <STRING>      v1 = 1101;</STRING>
+                  <STRING>    } else {</STRING>
+                  <STRING>      v1 = 1100;</STRING>
+                  <STRING>    }</STRING>
+                  <STRING>  }</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING></STRING>
+                  <STRING>fishingloop(){</STRING>
+                  <STRING>  if(v3 == 0){ // if the fish is not biting at all</STRING>
+                  <STRING>    (tmp)rndm(0, 1); // check if the fish is biting</STRING>
+                  <STRING>    //$tmp = tmp;</STRING>
+                  <STRING>    if(tmp &gt; 0.75){</STRING>
+                  <STRING>      ()phraseEndSystemMsg(0, "shout", "the_fish_is_under_capture");</STRING>
+                  <STRING>      v1 = 1100; // set the catching phase</STRING>
+                  <STRING>      v3 = 1;  // the player 1 is catching the fish (will be 2 for player 2)</STRING>
+                  <STRING>      computePlayerPos();</STRING>
+                  <STRING>      computeBotDest();</STRING>
+                  <STRING>      ()startMoving(x, y, 0);</STRING>
+                  <STRING>    } else if(tmp &gt; 0.68){ // change anim =&gt; initFish</STRING>
+                  <STRING>      v1 = 1000;</STRING>
+                  <STRING>    }</STRING>
+                  <STRING>  } else if(tmp &gt; 0.90){ // change anim =&gt; initFish</STRING>
+                  <STRING>    v1 = 1000;</STRING>
+                  <STRING>  }</STRING>
+                  <STRING>  doLoopFishAnim();</STRING>
+                  <STRING>}</STRING>
+                  <STRING></STRING>
+                  <STRING>if(v0 != 0){</STRING>
+                  <STRING>  ($botEid)getBotEid(0);</STRING>
+                  <STRING>  $currVar = $botEid + "_P11";</STRING>
+                  <STRING>  ($playerEid)getNamedEntityProp($currVar, "state");  // get current playerEid</STRING>
+                  <STRING></STRING>
+                  <STRING>  if(v1 &lt; 1000){ // still checking initial requirements</STRING>
+                  <STRING>    v1 = 1001; // start fishing</STRING>
+                  <STRING>    doInitFishAnim();</STRING>
+                  <STRING>  } else {</STRING>
+                  <STRING>    checkIfInZone();</STRING>
+                  <STRING>    if(playerInRange_ret &gt; 0){</STRING>
+                  <STRING>      (tmp)rndm(0, 1);</STRING>
+                  <STRING>      switch(v1){</STRING>
+                  <STRING>        case 1000:{ // initfish</STRING>
+                  <STRING>          doInitFishAnim();</STRING>
+                  <STRING>          v1++;</STRING>
+                  <STRING>        }</STRING>
+                  <STRING>        case 1001:</STRING>
+                  <STRING>          fishingloop();</STRING>
+                  <STRING>        case 1100: // fish is under capture and approaching</STRING>
+                  <STRING>          fishUnderCapture();</STRING>
+                  <STRING>        case 1101: // fish is under capture and is near</STRING>
+                  <STRING>          fishUnderCapture();</STRING>
+                  <STRING>        case 1102: // fish is catchable</STRING>
+                  <STRING>          fishIsCatchable();</STRING>
+                  <STRING>        case 1103: // fish catched</STRING>
+                  <STRING>          despawnPhase();</STRING>
+                  <STRING>        case 1110: // fish escapes</STRING>
+                  <STRING>          despawnPhase();</STRING>
+                  <STRING>      }</STRING>
+                  <STRING>    } else {</STRING>
+                  <STRING>      if(v3 == 1){</STRING>
+                  <STRING>        v3 = 0;</STRING>
+                  <STRING>      }</STRING>
+                  <STRING>    }</STRING>
+                  <STRING>  }</STRING>
+                  <STRING>} else {</STRING>
+                  <STRING>  ()spawn();</STRING>
+                  <STRING>}</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>condition_if</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>condition_if_fish_caught</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING>v1 = 1103</STRING>
+                </PROPERTY>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>action</NAME>
+                    <STRING>multi_actions</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>npc_event_handler_action</STRING>
+                  </PROPERTY>
+                  <CHILD TYPE="CPrimNode">
+                    <PROPERTY TYPE="string">
+                      <NAME>action</NAME>
+                      <STRING>send_message</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>npc_event_handler_action</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>name</NAME>
+                      <STRING>send_message_fish_caught</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string_array">
+                      <NAME>parameters</NAME>
+                      <STRING>EGS</STRING>
+                      <STRING>mission_fish2</STRING>
+                      <STRING>STOP_FISH_MISSION</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                </CHILD>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_event_handler</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>event</NAME>
+              <STRING>player_target_npc</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="301"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>action</NAME>
+                <STRING>multi_actions</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_event_handler_action</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>code</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING>$botFamily = "CLAP1"; // bot family used for requirements</STRING>
+                  <STRING>$prefixActivity = "FISH"; // prefix for activity</STRING>
+                  <STRING></STRING>
+                  <STRING>()import("script_BotClassInit");</STRING>
+                  <STRING></STRING>
+                  <STRING>//$RCnReq = "1";</STRING>
+                  <STRING>// $botFamily, $RCnReq =&gt; $RCisRequired, $RCsFamily, $RCminElement (returns "" when not found)</STRING>
+                  <STRING>//RCgetBotFamilyRequirement();</STRING>
+                  <STRING></STRING>
+                  <STRING></STRING>
+                  <STRING>//()phraseEndSystemMsg(0, "shout", $RCsFamily);</STRING>
+                  <STRING>//()phraseEndSystemMsg(0, "shout", "1234");</STRING>
+                  <STRING></STRING>
+                  <STRING>//(@groupToNotify)context();</STRING>
+                  <STRING>//()@groupToNotify.talkTo("mission_fish", @groupToNotify);</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_event_handler</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>event</NAME>
+              <STRING>all_pets_arrived_from_stable</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="360"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>action</NAME>
+                <STRING>code</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_event_handler_action</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>parameters</NAME>
+                <STRING>(@groupToNotify)context();</STRING>
+                <STRING>if(v0 != 0){</STRING>
+                <STRING>  ($botEid)@groupToNotify.getBotEid(0);</STRING>
+                <STRING>   $currVar = $botEid + "_P11";</STRING>
+                <STRING>  ($playerEid)@groupToNotify.getNamedEntityProp($currVar, "state");  // get current playerEid</STRING>
+                <STRING>  if(v1 &lt; 1000){ // still checking initial requirements</STRING>
+                <STRING>    ()@groupToNotify.phraseEndSystemMsg(0, "shout", "check_initial_requirements");</STRING>
+                <STRING>    v1 = 1001; // start fishing</STRING>
+                <STRING>    ()@groupToNotify.setTimer(15, 2);</STRING>
+                <STRING>    ()@groupToNotify.emote($playerEid, "firework_01");</STRING>
+                <STRING>    ()@groupToNotify.phraseEndSystemMsg(0, "shout", "you_start_fishing");</STRING>
+                <STRING>  } else {</STRING>
+                <STRING>    ()@groupToNotify.phraseEndSystemMsg(0, "shout", "ca_continue");</STRING>
+                <STRING>    switch(v1){</STRING>
+                <STRING>      case 1000:{ // initfish</STRING>
+                <STRING>        ()emote($playerEid, "firework_01");</STRING>
+                <STRING>        ()@groupToNotify.setTimer(10, 2);</STRING>
+                <STRING>        v1++;</STRING>
+                <STRING>      }</STRING>
+                <STRING>      case 1001:{ // loopfish</STRING>
+                <STRING>        ()emote($playerEid, "firework_02");</STRING>
+                <STRING>        ()@groupToNotify.setTimer(18, 2);</STRING>
+                <STRING>        if(v3 == 0){ // if the fish is not biting at all</STRING>
+                <STRING>          (v3)rndm(0, 1); // check if the fish is biting</STRING>
+                <STRING>          if(v3 &gt; 0.75){</STRING>
+                <STRING>            v1 = 1100; // set the catching phase</STRING>
+                <STRING>          } else { // the fish is not biting</STRING>
+                <STRING>            (v3)rndm(0, 1);</STRING>
+                <STRING>            if(v3 &gt; 0.90){ // change anim =&gt; initFish</STRING>
+                <STRING>              v1 = 1000;</STRING>
+                <STRING>            }</STRING>
+                <STRING>            v3 = 0;</STRING>
+                <STRING>          }</STRING>
+                <STRING>        } else { // the fish is already biting</STRING>
+                <STRING>          (tmp)rndm(0, 1);</STRING>
+                <STRING>          if(tmp &gt; 0.90){ // change anim =&gt; initFish</STRING>
+                <STRING>            v1 = 1000;</STRING>
+                <STRING>          }</STRING>
+                <STRING>        }</STRING>
+                <STRING>      }</STRING>
+                <STRING>      case 1100:{ // in catching phase</STRING>
+                <STRING>        (tmp)rndm(0, 1);</STRING>
+                <STRING>        if(tmp &gt; 0.85){ // fish catched or escape</STRING>
+                <STRING>          if(tmp &gt; 0.90){ // fish escape and vanish</STRING>
+                <STRING>            ()phraseEndSystemMsg(0, "shout", "we_catch_the_fish");</STRING>
+                <STRING>          } else {</STRING>
+                <STRING>            ()phraseEndSystemMsg(0, "shout", "the_fish_escapes");</STRING>
+                <STRING>          }</STRING>
+                <STRING>          ()import("script_BotClassDelete");</STRING>
+                <STRING>          //deleteBot();</STRING>
+                <STRING>          ()@groupToNotify.setTimer(30, 2);</STRING>
+                <STRING>          ()despawn(1);</STRING>
+                <STRING>        } else {</STRING>
+                <STRING>          ()emote($playerEid, "firework_02");</STRING>
+                <STRING>          ()@groupToNotify.setTimer(18, 2);</STRING>
+                <STRING>        }</STRING>
+                <STRING>      }</STRING>
+                <STRING>    }</STRING>
+                <STRING>  }</STRING>
+                <STRING>} else {</STRING>
+                <STRING>  ()spawn();</STRING>
+                <STRING>}</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9226.362305" Y="-10886.675781" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>npc_bot_6</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>clapclap</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="402"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>auto_remove_from_journal</NAME>
+                <STRING>true</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>automatic</NAME>
+                <STRING>true</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>mission_tree</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>mono_instance</NAME>
+                <STRING>true</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>mission_fish2</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>need_validation</NAME>
+                <STRING>false</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>phrase_auto_menu</NAME>
+                <STRING>catch_the_fish3</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>replayable</NAME>
+                <STRING>true</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>run_only_once</NAME>
+                <STRING>false</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>variables</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>variables</STRING>
+                </PROPERTY>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>var_sbrick</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>var_name</NAME>
+                    <STRING>sbrickMandatory</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>var_item</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>item_sheet</NAME>
+                    <STRING>icrtfi</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>var_name</NAME>
+                    <STRING>itemRod</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>var_item</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>item_sheet</NAME>
+                    <STRING>mbait01</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>var_name</NAME>
+                    <STRING>itemBait</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>var_sbrick</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>sbrick_sheet</NAME>
+                    <STRING>bfpafi01</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>var_name</NAME>
+                    <STRING>mission_owner_brick</STRING>
+                  </PROPERTY>
+                </CHILD>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>pre_requisite</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>pre_requisite</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>require_brick_knowledge</NAME>
+                  <STRING>$sbrickMandatory$</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>require_wearing_item</NAME>
+                  <STRING>$itemRod$;$itemBait$</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="405"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>step</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>step_4</STRING>
+                </PROPERTY>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>actions</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>pre_actions</STRING>
+                  </PROPERTY>
+                  <CHILD TYPE="CPrimNode">
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>set_constrains</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>timer</NAME>
+                      <STRING>30</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                  <CHILD TYPE="CPrimNode">
+                    <PROPERTY TYPE="string_array">
+                      <NAME>bricks</NAME>
+                      <STRING>$mission_owner_brick$</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>learn_brick</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                  <CHILD TYPE="CPrimNode">
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>ai_event</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>event_number</NAME>
+                      <STRING>5;$mission_owner_brick$</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>group_name</NAME>
+                      <STRING>grp_clapclaps</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>mission_objectives</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>objectives</STRING>
+                  </PROPERTY>
+                  <CHILD TYPE="CPrimNode">
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>wait_ai_msg</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string_array">
+                      <NAME>msg_content</NAME>
+                      <STRING>STOP_FISH_MISSION_$mission_owner_brick$</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>name</NAME>
+                      <STRING>wait_ai_msg_STOP_FISH_MISSION</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string_array">
+                      <NAME>overload_objective</NAME>
+                      <STRING>OVL_WAIT_MSG</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string_array">
+                      <NAME>roleplay_objective</NAME>
+                      <STRING>RP_WAIT_MSG</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                </CHILD>
+                <CHILD TYPE="CPrimNode">
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>actions</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>post_actions</STRING>
+                  </PROPERTY>
+                  <CHILD TYPE="CPrimNode">
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>destroy_item</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string_array">
+                      <NAME>item/quantity/quality</NAME>
+                      <STRING>mbait01</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                  <CHILD TYPE="CPrimNode">
+                    <PROPERTY TYPE="string">
+                      <NAME>chat_type</NAME>
+                      <STRING>tell</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>bot_chat</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string_array">
+                      <NAME>phrase</NAME>
+                      <STRING>you_caught_the_fish</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                  <CHILD TYPE="CPrimNode">
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>recv_item</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string_array">
+                      <NAME>item/quantity/quality</NAME>
+                      <STRING>mpois02 1 200</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                  <CHILD TYPE="CPrimNode">
+                    <PROPERTY TYPE="string_array">
+                      <NAME>bricks</NAME>
+                      <STRING>$mission_owner_brick$</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>unlearn_brick</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                </CHILD>
+              </CHILD>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>mission</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>mission_fish2</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>script</NAME>
+                <STRING># script generated from 'fisherman.primitive'</STRING>
+                <STRING></STRING>
+                <STRING>#mission tags and pre-requisites</STRING>
+                <STRING>replayable</STRING>
+                <STRING>solo</STRING>
+                <STRING>auto_remove</STRING>
+                <STRING>auto : catch_the_fish3</STRING>
+                <STRING></STRING>
+                <STRING>#Variables declaration</STRING>
+                <STRING>decl : bot : giver</STRING>
+                <STRING>decl : bot : player</STRING>
+                <STRING>decl : sbrick : </STRING>
+                <STRING>decl : item : icrtfi</STRING>
+                <STRING>decl : item : mbait01</STRING>
+                <STRING></STRING>
+                <STRING>#pre-requisites</STRING>
+                <STRING>req_wear : icrtfi;mbait01</STRING>
+                <STRING></STRING>
+                <STRING>#script</STRING>
+                <STRING>mission_title : </STRING>
+                <STRING>mission_desc : </STRING>
+                <STRING># step_4</STRING>
+                <STRING>timer : 30</STRING>
+                <STRING>learn_brick : bfpafi01</STRING>
+                <STRING>ai_event : grp_clapclaps; 5</STRING>
+                <STRING>set_obj : OVL_WAIT_MSG</STRING>
+                <STRING>set_obj_rp : RP_WAIT_MSG</STRING>
+                <STRING>wait_msg : STOP_FISH_MISSION</STRING>
+                <STRING>destroy_item : mbait01 </STRING>
+                <STRING>bot_chat : tell : giver : you_caught_the_fish</STRING>
+                <STRING>recv_item : mpois02 1 200</STRING>
+                <STRING>unlearn_brick : bfpafi01</STRING>
+                <STRING></STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="462"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_event_handler</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>event</NAME>
+              <STRING>user_event_5</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="460"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>action</NAME>
+                <STRING>multi_actions</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_event_handler_action</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>code</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING></STRING>
+                  <STRING>($msgName)getEventParam(0); // the msg name</STRING>
+                  <STRING>$msgName = "msgname=" + $msgName;</STRING>
+                  <STRING>()phraseEndSystemMsg(0, "shout", $msgName);</STRING>
+                  <STRING></STRING>
+                  <STRING>if(v3 != 0){ // fish under capture</STRING>
+                  <STRING>  if(v1 == 1101){ // try to catch the fish</STRING>
+                  <STRING>    v1 = 1102;</STRING>
+                  <STRING>  }</STRING>
+                  <STRING>}</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>npc_event_handler</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>event</NAME>
+          <STRING>start_of_state</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>start_of_state_init_all</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="321"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>action</NAME>
+            <STRING>multi_actions</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_event_handler_action</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>action</NAME>
+              <STRING>code</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_event_handler_action</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>code_initAIRequirements</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>parameters</NAME>
+              <STRING>$prefixActivity = "FISH";</STRING>
+              <STRING></STRING>
+              <STRING>()import("script_RequirementClassInit");</STRING>
+              <STRING></STRING>
+              <STRING>// $prefixActivity</STRING>
+              <STRING></STRING>
+              <STRING></STRING>
+              <STRING>// add BRICK Family</STRING>
+              <STRING>$RCsFamily = "BR1";</STRING>
+              <STRING>$RCsFamilyType = "B";</STRING>
+              <STRING>$RCsFamilyParam1 = "";</STRING>
+              <STRING>$RCsFamilyParam2 = "";</STRING>
+              <STRING>RCaddFamily();</STRING>
+              <STRING></STRING>
+              <STRING></STRING>
+              <STRING>// add ITEM 1 Family</STRING>
+              <STRING>$RCsFamily = "IT1";</STRING>
+              <STRING>$RCsFamilyType = "I";</STRING>
+              <STRING>$RCsFamilyParam1 = "";</STRING>
+              <STRING>$RCsFamilyParam2 = "";</STRING>
+              <STRING>RCaddFamily();</STRING>
+              <STRING></STRING>
+              <STRING>// add ITEM 1</STRING>
+              <STRING>RCn = 1;</STRING>
+              <STRING>$RCsElement = "icrtfi.sitem";</STRING>
+              <STRING>$RCsParam1 = "10"; // quality</STRING>
+              <STRING>$RCsParam2 = ""; // extra</STRING>
+              <STRING>RCaddElement();</STRING>
+              <STRING></STRING>
+              <STRING>// add other items from ITEM 1 Family</STRING>
+              <STRING></STRING>
+              <STRING>//</STRING>
+              <STRING></STRING>
+              <STRING></STRING>
+              <STRING>// add ITEM 2 Family</STRING>
+              <STRING>$RCsFamily = "IT2";</STRING>
+              <STRING>$RCsFamilyType = "C"; // consumable</STRING>
+              <STRING>$RCsFamilyParam1 = "";</STRING>
+              <STRING>$RCsFamilyParam2 = "";</STRING>
+              <STRING>RCaddFamily();</STRING>
+              <STRING></STRING>
+              <STRING>// add ITEM 2</STRING>
+              <STRING>RCn = "1";</STRING>
+              <STRING>$RCsElement = "mbait01.sitem";</STRING>
+              <STRING>$RCsParam1 = "10"; // quality</STRING>
+              <STRING>$RCsParam2 = "200";   // duration</STRING>
+              <STRING>RCaddElement();</STRING>
+              <STRING></STRING>
+              <STRING>// add other items from ITEM 1 Family</STRING>
+              <STRING></STRING>
+              <STRING>//</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>action</NAME>
+              <STRING>code</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_event_handler_action</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>code_initClapclapRequirements</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>parameters</NAME>
+              <STRING>$prefixActivity = "FISH";</STRING>
+              <STRING>$botFamily = "CLAP1";</STRING>
+              <STRING></STRING>
+              <STRING>()import("script_RequirementClassInit");</STRING>
+              <STRING></STRING>
+              <STRING>// add requirement 1 for CLAPCLAP 1 (CLAP1)</STRING>
+              <STRING>RCnReq = 1;          // requirement 1</STRING>
+              <STRING>$RCsFamily = "IT1";  // Familly Item 1</STRING>
+              <STRING>$RCisRequired = "1"; // item equiped required</STRING>
+              <STRING>$RCminElement = "1"; // min item level required in family</STRING>
+              <STRING>RCaddBotFamilyRequirement();</STRING>
+              <STRING></STRING>
+              <STRING>// add requirement 2 for CLAPCLAP 1 (CLAP1)</STRING>
+              <STRING>RCnReq = 2;          // requirement 2</STRING>
+              <STRING>$RCsFamily = "IT2";  // Familly Item 2</STRING>
+              <STRING>$RCisRequired = "1"; // item equiped required</STRING>
+              <STRING>$RCminElement = "1"; // min item level required in family</STRING>
+              <STRING>RCaddBotFamilyRequirement();</STRING>
+              <STRING></STRING>
+              <STRING>// add other requirements for CLAPCLAP 1 (CLAP1)</STRING>
+              <STRING></STRING>
+              <STRING>//</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimZone">
+        <PROPERTY TYPE="string">
+          <NAME>ai_activity</NAME>
+          <STRING>no_change</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>ai_movement</NAME>
+          <STRING>idle</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>npc_zone</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>npc_zone_4</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="392"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>npc_distance_helper</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="393"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9234.597656" Y="-10886.433594" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>is_stuck</NAME>
+              <STRING>true</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>npc_zone_2_nw</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_fisherman_fish_place</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="395"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9240.785156" Y="-10883.958984" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>is_stuck</NAME>
+              <STRING>true</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>npc_zone_2_ref</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_fisherman_fish_place</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="396"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9245.047852" Y="-10886.433594" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>is_stuck</NAME>
+              <STRING>true</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>npc_zone_2_fw</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_fisherman_fish_place</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="397"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+    </CHILD>
+    <CHILD TYPE="CPrimNode">
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>script_rep</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>script_others</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING>initBot(){</STRING>
+          <STRING>  $botNELVar = $botNELPrefix + "P1";</STRING>
+          <STRING>  ()setNelVar($botNELVar, "");</STRING>
+          <STRING>  </STRING>
+          <STRING>  $botNELVar = $botNELPrefix + "P2";</STRING>
+          <STRING>  ()setNelVar($botNELVar, "");</STRING>
+          <STRING></STRING>
+          <STRING>  $botNELVar = $botNELPrefix + "BR";</STRING>
+          <STRING>  ()setNelVar($botNELVar, $requiredBrick);</STRING>
+          <STRING></STRING>
+          <STRING>  $botNELVar = $botNELPrefix + "I1";</STRING>
+          <STRING>  ()setNelVar($botNELVar, $requiredItem1);</STRING>
+          <STRING></STRING>
+          <STRING>  $botNELVar = $botNELPrefix + "I2";</STRING>
+          <STRING>  ()setNelVar($botNELVar, $requiredItem2);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>closeFish(){</STRING>
+          <STRING></STRING>
+          <STRING>  ()delNelVar("BotCount", 0);</STRING>
+          <STRING>  ()delNelVar("BotCount", 0);</STRING>
+          <STRING>  v0 = 0;</STRING>
+          <STRING>  v1 = 0;</STRING>
+          <STRING>  v2 = 0;</STRING>
+          <STRING>  v3 = 0;</STRING>
+          <STRING></STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>initAll(){</STRING>
+          <STRING>  $botNELVar = "FISHBRN"; // init brick family count</STRING>
+          <STRING>  ()setNelVar($botNELVar, 0);</STRING>
+          <STRING></STRING>
+          <STRING>  $botNELVar = "FISHIT1N"; // init item1 family count</STRING>
+          <STRING>  ()setNelVar($botNELVar, 0);</STRING>
+          <STRING></STRING>
+          <STRING>  $botNELVar = "FISHIT2N"; // init item2 family count</STRING>
+          <STRING>  ()setNelVar($botNELVar, 0);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>addFamily(){</STRING>
+          <STRING>  $botNELVar = "FISH" + $type_family + "F"; // family count</STRING>
+          <STRING>  (n)getNelVar($botNELVar);</STRING>
+          <STRING>  n = n + 1;</STRING>
+          <STRING>  ()setNelVar($botNELVar, n); // incr family count</STRING>
+          <STRING></STRING>
+          <STRING>  $botNELVar = "FISH" + $type_family + "F" + n; // init element count in family</STRING>
+          <STRING>  ()setNelVar($botNELVar, 0);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>addBRFamily(){</STRING>
+          <STRING>  $type_family = "BR";</STRING>
+          <STRING>  addFamily();</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>addIT1Family(){</STRING>
+          <STRING>  $type_family = "IT1";</STRING>
+          <STRING>  addFamily();</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>addIT2Family(){</STRING>
+          <STRING>  $type_family = "IT2";</STRING>
+          <STRING>  addFamily();</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>addElement(){</STRING>
+          <STRING>  $botNELVar = "FISH" + $type_family + "F" + nFamily; // get element count in family</STRING>
+          <STRING>  (n)getNelVar($botNELVar);</STRING>
+          <STRING>  n = n + 1;</STRING>
+          <STRING>  ()setNelVar($botNELVar, n); // incr family count</STRING>
+          <STRING></STRING>
+          <STRING>  $botNELVar = $botNELVar + "_" + n;</STRING>
+          <STRING>  ()setNelVar($botNELVar, $element); // set element</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// param: nFamily $element</STRING>
+          <STRING>addBRElement(){</STRING>
+          <STRING>  $type_family = "BR";</STRING>
+          <STRING>  addElement();</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// param: nFamily $element</STRING>
+          <STRING>addIT1Element(){</STRING>
+          <STRING>  $type_family = "IT1";</STRING>
+          <STRING>  addElement();</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// param: nFamily $element</STRING>
+          <STRING>addIT2Element(){</STRING>
+          <STRING>  $type_family = "IT2";</STRING>
+          <STRING>  addElement();</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>(@groupToNotify)context();</STRING>
+          <STRING>($botEid)getBotEid(0);</STRING>
+          <STRING>$botNELPrefix = "FISH" + $botEid;</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_initFish</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="306"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING>()import("script_fishCommon");</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>addPlayerToFishList(){</STRING>
+          <STRING>  $botNELVar = $botNELPrefix + "P1";</STRING>
+          <STRING>  ($playerEid1)getNelVar($botNELVar);</STRING>
+          <STRING>  $botNELVar = $botNELPrefix + "P2";</STRING>
+          <STRING>  ($playerEid2)getNelVar($botNELVar);</STRING>
+          <STRING>  if($playerEid1 != $playerEid){ </STRING>
+          <STRING>    if($playerEid2 != $playerEid){ // the player we are trying to add is not already in fish list</STRING>
+          <STRING>      $playerInRange_Eid = $playerEid;</STRING>
+          <STRING>      playerInRange();</STRING>
+          <STRING>      if(playerInRange_ret == 1){ // if the player we are trying to add is in range</STRING>
+          <STRING>        if($playerEid1 == ""){  // add the player in the first slot if empty</STRING>
+          <STRING>	  $botNELVar = $botNELPrefix + "P1";</STRING>
+          <STRING>	  ()setNelVar($botNELVar, $playerEid);</STRING>
+          <STRING>	  v1 = 0; // current Anim - not playing at the moment</STRING>
+          <STRING>          v0 = 0; // fish is not under capture</STRING>
+          <STRING>          nextFishUserEvent(); // fire fish userevent 4</STRING>
+          <STRING>          ()@groupToNotify.phraseEndSystemMsg(0, "shout", "et_je_peche");</STRING>
+          <STRING>        } else if($playerEid2 == ""){ // add the player in the second slot if empty</STRING>
+          <STRING>	  $botNELVar = $botNELPrefix + "P2";</STRING>
+          <STRING>	  ()setNelVar($botNELVar, $playerEid);</STRING>
+          <STRING>	  v2 = 0;  // current Anim - not playing at the moment</STRING>
+          <STRING>          v3 = 0; // fish is not under capture</STRING>
+          <STRING>          nextFishUserEvent(); // fire fish userevent 4</STRING>
+          <STRING>        } else {</STRING>
+          <STRING>          ()@groupToNotify.phraseEndSystemMsg(0, "shout", "p1_p2");</STRING>
+          <STRING>        }</STRING>
+          <STRING>      }</STRING>
+          <STRING>    } else {</STRING>
+          <STRING>      ()@groupToNotify.phraseEndSystemMsg(0, "shout", "p2");</STRING>
+          <STRING>    }</STRING>
+          <STRING>  } else {</STRING>
+          <STRING>    ()@groupToNotify.phraseEndSystemMsg(0, "shout", "p1");</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>(@groupToNotify)context();</STRING>
+          <STRING>($botEid)getBotEid(0);</STRING>
+          <STRING>$botNELPrefix = "FISH" + $botEid;</STRING>
+          <STRING>($playerEid)getCurrentPlayerEid();</STRING>
+          <STRING>addPlayerToFishList();</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_playerStartFishing</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="307"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING>playerInRange(){</STRING>
+          <STRING>  playerInRange_ret = 0;</STRING>
+          <STRING>  (distance)getPlayerDistance(0, $playerInRange_Eid);</STRING>
+          <STRING>  if(distance &gt;= 0){</STRING>
+          <STRING>    if(distance &lt;= 50){</STRING>
+          <STRING>      playerInRange_ret = 1;</STRING>
+          <STRING>	}</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>getPlayerIndex(){</STRING>
+          <STRING>  getPlayerIndex_ret = 0;</STRING>
+          <STRING>  $botNELVar = $botNELPrefix + "P1";</STRING>
+          <STRING>  ($botNELVar)getNelVar($botNELVar);</STRING>
+          <STRING>  if($botNELVar == $playerEid){</STRING>
+          <STRING>    getPlayerIndex_ret = 1;</STRING>
+          <STRING>  } else {</STRING>
+          <STRING>    $botNELVar = $botNELPrefix + "P2";</STRING>
+          <STRING>    ($botNELVar)getNelVar($botNELVar);</STRING>
+          <STRING>    if($botNELVar == $playerEid){</STRING>
+          <STRING>	  getPlayerIndex_ret = 2;</STRING>
+          <STRING>    }</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>nextFishUserEvent(){</STRING>
+          <STRING>  nextFishUserEvent_ret = 0;</STRING>
+          <STRING>  if($msgName == ""){</STRING>
+          <STRING>    $botNELVar = $botNELPrefix + "BR";</STRING>
+          <STRING>    ($required)getNelVar($botNELVar);</STRING>
+          <STRING>    if($required == ""){ // no item1 to check</STRING>
+          <STRING>      $msgName = "0"; // prepare to check the next one</STRING>
+          <STRING>    } else { // check brick</STRING>
+          <STRING>      ()queryEgs("IsInInventory", $playerEid, $required, @groupToNotify, 4, "0");</STRING>
+          <STRING>    }</STRING>
+          <STRING>  }</STRING>
+          <STRING>  if($msgName == "0"){</STRING>
+          <STRING>    $botNELVar = $botNELPrefix + "I1";</STRING>
+          <STRING>    ($required)getNelVar($botNELVar);</STRING>
+          <STRING>	if($required == ""){ // no item1 to check</STRING>
+          <STRING>	  $msgName = "1"; // prepare to check the next one</STRING>
+          <STRING>	} else { // check item 1</STRING>
+          <STRING>	  ()queryEgs("IsInInventory", $playerEid, $required, @groupToNotify, 4, "1");</STRING>
+          <STRING>	}</STRING>
+          <STRING>  }</STRING>
+          <STRING>  if($msgName == "1"){</STRING>
+          <STRING>    $botNELVar = $botNELPrefix + "I2";</STRING>
+          <STRING>    ($required)getNelVar($botNELVar);</STRING>
+          <STRING>	if($required == ""){ // no item2 to check</STRING>
+          <STRING>	  $msgName = "2"; // prepare to check the next one</STRING>
+          <STRING>	} else {</STRING>
+          <STRING>	  // check item 2</STRING>
+          <STRING>	  ()queryEgs("IsInInventory", $playerEid, $required, @groupToNotify, 4, "2");</STRING>
+          <STRING>	}</STRING>
+          <STRING>  }</STRING>
+          <STRING>  if($msgName == "2"){</STRING>
+          <STRING>    ()queryEgs("Target", $playerEid, $botEid, @groupToNotify, 4, "3");</STRING>
+          <STRING>  }</STRING>
+          <STRING>  if($msgName == "3"){ // the check is complete</STRING>
+          <STRING>    nextFishUserEvent_ret = 1;</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_fishCommon</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="314"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING></STRING>
+          <STRING>()import("script_fishCommon");</STRING>
+          <STRING></STRING>
+          <STRING>isCheckSuccessfull(){</STRING>
+          <STRING>  checkSuccessfull_ret = 0;</STRING>
+          <STRING>  if($msgName == "0"){ // brick</STRING>
+          <STRING>    if($ret == "1"){ // brick ok</STRING>
+          <STRING>      checkSuccessfull_ret = 1;</STRING>
+          <STRING>    }</STRING>
+          <STRING>  } else if($msgName == "1"){ // item1</STRING>
+          <STRING>    if($ret == "1"){ // equiped</STRING>
+          <STRING>      checkSuccessfull_ret = 1;</STRING>
+          <STRING>    }</STRING>
+          <STRING>  } else if($msgName == "2"){ // item2</STRING>
+          <STRING>    if($ret == "1"){ // equiped</STRING>
+          <STRING>      checkSuccessfull_ret = 1;</STRING>
+          <STRING>    }</STRING>
+          <STRING>  } else if($msgName == "3"){ // target</STRING>
+          <STRING>    if($ret == "1"){ // player is targeting the mob</STRING>
+          <STRING>	  $playerInRange_Eid = $playerEid;</STRING>
+          <STRING>      playerInRange();</STRING>
+          <STRING>      if(playerInRange_ret == 1){ // player is in range</STRING>
+          <STRING>        checkSuccessfull_ret = 1;</STRING>
+          <STRING>	  }</STRING>
+          <STRING>    }</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>// fish info</STRING>
+          <STRING>(@groupToNotify)context();</STRING>
+          <STRING>($botEid)getBotEid(0);</STRING>
+          <STRING>$botNELPrefix = "FISH" + $botEid;</STRING>
+          <STRING></STRING>
+          <STRING>// the message</STRING>
+          <STRING>($msgName)getEventParam(0); // the msg name</STRING>
+          <STRING>($ret)getEventParam(1); // the return</STRING>
+          <STRING>($funName)getEventParam(2); // the name of the function</STRING>
+          <STRING>($playerEid)getEventParam(3); // the id of the player</STRING>
+          <STRING>($param1)getEventParam(4); // empty ot item, or sbrick or botEid</STRING>
+          <STRING>if($botEid != ""){</STRING>
+          <STRING>()@groupToNotify.phraseEndSystemMsg(0, "shout", "11");</STRING>
+          <STRING></STRING>
+          <STRING>// do the checks</STRING>
+          <STRING>getPlayerIndex();</STRING>
+          <STRING>if(getPlayerIndex_ret &gt; 0){ // deal with message for player of interest</STRING>
+          <STRING>  isCheckSuccessfull();</STRING>
+          <STRING>  if(checkSuccessfull_ret &gt; 0){</STRING>
+          <STRING>    ()@groupToNotify.phraseEndSystemMsg(0, "shout", "13");</STRING>
+          <STRING>    nextFishUserEvent();</STRING>
+          <STRING>    if(nextFishUserEvent_ret &gt; 0){ // everything was checked successfully</STRING>
+          <STRING>      ()@groupToNotify.phraseEndSystemMsg(0, "shout", "14");</STRING>
+          <STRING>      if(getPlayerIndex_ret == 1){</STRING>
+          <STRING>        ()@groupToNotify.phraseEndSystemMsg(0, "shout", "15");</STRING>
+          <STRING>	if(v1 == 0){ // let's start the animation</STRING>
+          <STRING>          v1 = 1;</STRING>
+          <STRING>	  ()emote($playerEid, "firework_01");</STRING>
+          <STRING>	  ()setTimer(20, 1);</STRING>
+          <STRING>	}</STRING>
+          <STRING>      } else if(getPlayerIndex_ret == 2){</STRING>
+          <STRING>        if(v2 == 0){ // let's start the animation</STRING>
+          <STRING>          v2 = 1;</STRING>
+          <STRING>	  ()emote($playerEid, "firework_01");</STRING>
+          <STRING>	  ()setTimer(20, 2);</STRING>
+          <STRING>	}</STRING>
+          <STRING>      }</STRING>
+          <STRING>    }</STRING>
+          <STRING>  } else {</STRING>
+          <STRING>  // to do : else try other compatible items/bricks</STRING>
+          <STRING>    if(getPlayerIndex_ret == 2){</STRING>
+          <STRING>      v3 = 0; // ensure the fish escapes</STRING>
+          <STRING>    } else {</STRING>
+          <STRING>      v0 = 0; // ensure the fish escapes</STRING>
+          <STRING>    }</STRING>
+          <STRING>    $botNELVar = $botNELPrefix + "P" + getPlayerIndex_ret;</STRING>
+          <STRING>    ()setNelVar($botNELVar, "");</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+          <STRING>}</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_fishCheck</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="315"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING>// $prefixActivity</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>// param: $RCsFamily, $RCsFamilyType {B, I, C} $RCsFamilyParam1, $RCsFamilyParam2</STRING>
+          <STRING>RCaddFamily(){</STRING>
+          <STRING>  $RCName = $prefixActivity + "_" + $RCsFamily;</STRING>
+          <STRING>  ()setNamedEntityProp($RCName, "state", $RCsFamilyType);    // set family type (B = brick, I = item, C = Consumable)</STRING>
+          <STRING>  ()setNamedEntityProp($RCName, "param1", $RCsFamilyParam1); // set family param1</STRING>
+          <STRING>  ()setNamedEntityProp($RCName, "param2", $RCsFamilyParam2); // set family param2</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// param: $RCsFamily RCn $RCsElement $RCsParam1 $RCsParam2</STRING>
+          <STRING>RCaddElement(){</STRING>
+          <STRING>  $RCName = $prefixActivity + "_" + $RCsFamily + "_" + RCn;</STRING>
+          <STRING>  ()setNamedEntityProp($RCName, "state", $RCsElement); // set element</STRING>
+          <STRING>  ()setNamedEntityProp($RCName, "param1", $RCsParam1); // set param1</STRING>
+          <STRING>  ()setNamedEntityProp($RCName, "param2", $RCsParam2); // set param2</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// $botFamily, $RCisRequired, $RCsFamily, $RCminElement, RCnReq</STRING>
+          <STRING>RCaddBotFamilyRequirement(){</STRING>
+          <STRING>  $RCName = $prefixActivity + "_" + $botFamily + "_" + RCnReq;</STRING>
+          <STRING>  ()setNamedEntityProp($RCName, "state", $RCsFamily); // set family</STRING>
+          <STRING>  ()setNamedEntityProp($RCName, "param1", $RCminElement); // set min element</STRING>
+          <STRING>  ()setNamedEntityProp($RCName, "param2", $RCisRequired); // set is required</STRING>
+          <STRING>}</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_RequirementClassInit</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="319"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING>// $prefixActivity</STRING>
+          <STRING></STRING>
+          <STRING>//Param: RCnElement (first element = 1), $RCsFamily (Family name) =&gt; $RCsElement, $RCsParam1, $RCsParam2, $RCsFamilyType, $RCsFamilyParam1, $RCsFamilyParam2</STRING>
+          <STRING>RCgetElement(){</STRING>
+          <STRING>  $RCName = $prefixActivity + "_" + $RCsFamily;</STRING>
+          <STRING>  ($RCsFamilyType)getNamedEntityProp($RCName, "state");</STRING>
+          <STRING>  ($RCsFamilyParam1)getNamedEntityProp($RCName, "param1");</STRING>
+          <STRING>  ($RCsFamilyParam2)getNamedEntityProp($RCName, "param2");</STRING>
+          <STRING></STRING>
+          <STRING>  $RCName = $RCName + "_" + RCnElement;</STRING>
+          <STRING>  ($RCsElement)getNamedEntityProp($RCName, "state");</STRING>
+          <STRING>  ($RCsParam1)getNamedEntityProp($RCName, "param1");</STRING>
+          <STRING>  ($RCsParam2)getNamedEntityProp($RCName, "param2");</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>// $botFamily, $RCnReq =&gt; $RCisRequired, $RCsFamily, $RCminElement (returns "" when not found)</STRING>
+          <STRING>RCgetBotFamilyRequirement(){</STRING>
+          <STRING>  $RCName = $prefixActivity + "_" + $botFamily + "_" + $RCnReq;</STRING>
+          <STRING>  ($RCsFamily)getNamedEntityProp($RCName, "state"); // get family</STRING>
+          <STRING>  ($RCminElement)getNamedEntityProp($RCName, "param1"); // get min element</STRING>
+          <STRING>  ($RCisRequired)getNamedEntityProp($RCName, "param2"); // get required</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_RequirementClassGet</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="320"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING>()import("script_BotClass");</STRING>
+          <STRING>// $prefixActivity, $botEid, $botFamily</STRING>
+          <STRING></STRING>
+          <STRING>// $botEid, $playerEid</STRING>
+          <STRING>BuildPlayerSlot(){</STRING>
+          <STRING>  $BCVarPrefix = $botEid + "_P" + BCP;</STRING>
+          <STRING>  $BCVar = $BCVarPrefix + "1";</STRING>
+          <STRING>  ()setNamedEntityProp($BCVar, "state", $playerEid);</STRING>
+          <STRING>  ()setNamedEntityProp($BCVar, "param1", "1"); // current requirement</STRING>
+          <STRING>  ()setNamedEntityProp($BCVar, "param2", "1"); // current step in family</STRING>
+          <STRING>  $BCVar = $BCVarPrefix + "2";</STRING>
+          <STRING>  ()setNamedEntityProp($BCVar, "state", "");  // built check</STRING>
+          <STRING>  ()setNamedEntityProp($BCVar, "param1", "");  // consumable</STRING>
+          <STRING>  ()setNamedEntityProp($BCVar, "param2", ""); // current consumable</STRING>
+          <STRING>  $BCVar = $BCVarPrefix + "3";</STRING>
+          <STRING>  ()setNamedEntityProp($BCVar, "state", "");  // </STRING>
+          <STRING>  ()setNamedEntityProp($BCVar, "param1", "");  // </STRING>
+          <STRING>  ()setNamedEntityProp($BCVar, "param2", ""); // </STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// $botEid, $playerEid</STRING>
+          <STRING>BCaddPlayer(){</STRING>
+          <STRING>  BCP = 0;</STRING>
+          <STRING>  switch(v0){</STRING>
+          <STRING>  case 0:{ // No one is fishing</STRING>
+          <STRING>    v0 = 1; // P1 is now fishing</STRING>
+          <STRING>    v1 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
+          <STRING>    ()setNamedEntityProp($botEid, "state", $botFamily); // botFamily requirement</STRING>
+          <STRING>    BCP = 1;</STRING>
+          <STRING>    BuildPlayerSlot();</STRING>
+          <STRING>  }</STRING>
+          <STRING>  case 1:{ // P1 is fishing</STRING>
+          <STRING>    $BCVar = $botEid + "_P11";</STRING>
+          <STRING>    ($BCP)getNamedEntityProp($BCVar, "state");</STRING>
+          <STRING>    if($BCP != $playerEid){</STRING>
+          <STRING>      v0 = 3; // P1 and P2 are now fishing</STRING>
+          <STRING>      BCP = 2;</STRING>
+          <STRING>      v2 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
+          <STRING>      BuildPlayerSlot();</STRING>
+          <STRING>    }</STRING>
+          <STRING>  }</STRING>
+          <STRING>  case 2:{ // P2 is fishing</STRING>
+          <STRING>    $BCVar = $botEid + "_P21";</STRING>
+          <STRING>    ($BCP)getNamedEntityProp($BCVar, "state");</STRING>
+          <STRING>    if($BCP != $playerEid){</STRING>
+          <STRING>      v0 = 3; // P1 and P2 are now fishing</STRING>
+          <STRING>      BCP = 1;</STRING>
+          <STRING>      v1 = 0;  // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
+          <STRING>      BuildPlayerSlot();</STRING>
+          <STRING>    }</STRING>
+          <STRING>  }</STRING>
+          <STRING>  case 3: // P1 and P2 are already fishing</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", "TOO_MANY_PLAYERS_ARE_FISHING");</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>($playerEid)getCurrentPlayerEid();</STRING>
+          <STRING>range = 200; // allow the max range from the fish</STRING>
+          <STRING>playerInRange();</STRING>
+          <STRING>if(playerInRange_ret &gt; 0){ // only work if necessay</STRING>
+          <STRING>  ($botEid)getBotEid(0);</STRING>
+          <STRING>  BCaddPlayer();</STRING>
+          <STRING>  if(BCP != 0){</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", "YOU_ARE_PREPARING_TO_FISH");</STRING>
+          <STRING>    ()setTimer(10, BCP);</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_BotClassInit</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="322"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING>// $botEid BCP</STRING>
+          <STRING></STRING>
+          <STRING>removeBot(){</STRING>
+          <STRING>  ()destroyNamedEntity($botEid);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>removePlayer(){</STRING>
+          <STRING>  $BCVarPrefix = $botEid + "_P" + BCP;</STRING>
+          <STRING>  $BCVar = $BCVarPrefix + "1";</STRING>
+          <STRING>  ()destroyNamedEntity($BCVar);</STRING>
+          <STRING>  $BCVar = $BCVarPrefix + "2";</STRING>
+          <STRING>  ()destroyNamedEntity($BCVar);</STRING>
+          <STRING>  $BCVar = $BCVarPrefix + "3";</STRING>
+          <STRING>  ()destroyNamedEntity($BCVar);</STRING>
+          <STRING>  v0 -= BCP;</STRING>
+          <STRING>  if(v0 == 0){</STRING>
+          <STRING>    ()destroyNamedEntity($BCVar);</STRING>
+          <STRING>  }</STRING>
+          <STRING>  //()timerDisable(BCP);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// BCP slot to delete</STRING>
+          <STRING>deletePlayer(){</STRING>
+          <STRING>  if(BCP == 2){</STRING>
+          <STRING>    if(v0 &gt; 1){</STRING>
+          <STRING>      removePlayer();</STRING>
+          <STRING>    }</STRING>
+          <STRING>  } else {</STRING>
+          <STRING>    if(v0 == 1 || v0 == 3){</STRING>
+          <STRING>      removePlayer();</STRING>
+          <STRING>    }</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>deleteBot(){</STRING>
+          <STRING>  BCP = 2;</STRING>
+          <STRING>  deletePlayer();</STRING>
+          <STRING>  BCP = 1;</STRING>
+          <STRING>  deletePlayer();</STRING>
+          <STRING>}</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_BotClassDelete</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="358"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING>// $prefixActivity, $botEid, $playerEid</STRING>
+          <STRING></STRING>
+          <STRING>()import("script_RequirementClassGet");</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>playerInRange(){</STRING>
+          <STRING>  (playerInRange_ret)isPlayerAlived($playerEid);</STRING>
+          <STRING>  if(playerInRange_ret == 1) {</STRING>
+          <STRING>    playerInRange_ret = 0;</STRING>
+          <STRING></STRING>
+          <STRING>    // check if player is in the good zone for the fishing occupation</STRING>
+          <STRING>    ($prefix)getStateName();</STRING>
+          <STRING>    $name = $prefix + "_fw";</STRING>
+          <STRING>    (distance)npc_distance_helper.getBotIndexByName($name);</STRING>
+          <STRING>    (distance)npc_distance_helper.getPlayerDistance(distance, $playerEid);</STRING>
+          <STRING>    if(distance &lt; 10){</STRING>
+          <STRING>      $name = $prefix + "_nw";</STRING>
+          <STRING>      (distance)npc_distance_helper.getBotIndexByName($name);</STRING>
+          <STRING>      (distance)npc_distance_helper.getPlayerDistance(distance, $playerEid);</STRING>
+          <STRING>      if(distance &lt; 10){ // the player is in the good zone</STRING>
+          <STRING>        (distance)getPlayerDistance(0, $playerEid);</STRING>
+          <STRING>        if(distance &gt;= 0 &amp;&amp; distance &lt; range){</STRING>
+          <STRING>          playerInRange_ret = distance + 0.0001;</STRING>
+          <STRING>        }</STRING>
+          <STRING>      }</STRING>
+          <STRING>    }</STRING>
+          <STRING>  }</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>//initTriggerRequirement(){</STRING>
+          <STRING>//  triggerRequirement_ret = 0;</STRING>
+          <STRING>//  $currVar = $botEid + "_P11";</STRING>
+          <STRING>//  ($RCnReq)getNamedEntityProp($currVar, "param1");  // get current requirement</STRING>
+          <STRING>//  RCgetBotFamilyRequirement();</STRING>
+          <STRING></STRING>
+          <STRING>//  if($RCminElement == ""){ // no more requirement</STRING>
+          <STRING>//    $RCnReq = "1";</STRING>
+          <STRING>//    ()getNamedEntityProp($currVar, "param1", $RCnReq);  // set current requirement to 1</STRING>
+          <STRING>//    triggerRequirement_ret = 1;</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>//(RCnReq)strtof($RCnReq);</STRING>
+          <STRING>//    RCnReq</STRING>
+          <STRING></STRING>
+          <STRING>//  ($RCnStepReq)getNamedEntityProp($currVar, "param2");  // get current step in family</STRING>
+          <STRING>//  (RCnStepReq)strtof($RCnStepReq);</STRING>
+          <STRING>//  (RCminElement)strtof($RCminElement);</STRING>
+          <STRING>//  if(RCnStepReq &lt; RCminElement){</STRING>
+          <STRING>//      ($RCnStepReq)getNamedEntityProp($BCVar, "param1");  // set current step in family</STRING>
+          <STRING>//  }</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>// $botFamily, RCnReq =&gt; $RCisRequired, $RCsFamily, $RCminElement (returns "" when not found)</STRING>
+          <STRING>//RCgetBotFamilyRequirement();</STRING>
+          <STRING></STRING>
+          <STRING>//}</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_BotClass</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="357"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>script</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>code</NAME>
+          <STRING>// $prefixActivity, $BotEid</STRING>
+          <STRING></STRING>
+          <STRING></STRING>
+          <STRING>// =&gt; $PlayerEid1</STRING>
+          <STRING>BCgetP1(){</STRING>
+          <STRING>  $BCNELVar = $prefixActivity + "_" + $BotEid + "_P1";</STRING>
+          <STRING>  ($BCPlayerEid1)getNelVar($BCNELVar);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// =&gt; $PlayerEid2</STRING>
+          <STRING>BCgetP2(){</STRING>
+          <STRING>  $BCNELVar = $prefixActivity + "_" + $BotEid + "_P2";</STRING>
+          <STRING>  ($BCPlayerEid2)getNelVar($BCNELVar);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// BCnBrick =&gt; BCnCount, $BCsBrick</STRING>
+          <STRING>BCgetBrick(){</STRING>
+          <STRING>  $BCNELVar = $prefixActivity + "_" + $BotEid + "_BR";</STRING>
+          <STRING>  $BCsBrick = "";</STRING>
+          <STRING>  (BCnCount)getNelVar($BCNELVar);</STRING>
+          <STRING>  if(BCnCount &gt; 0){</STRING>
+          <STRING>    </STRING>
+          <STRING>  }  </STRING>
+          <STRING>}</STRING>
+          <STRING>BCinit(){</STRING>
+          <STRING>  $BCPrefix = $prefixActivity + "_" + $BotEid + "_";</STRING>
+          <STRING></STRING>
+          <STRING>  $BCNELVar = $BCPrefix + "P1"; // init PlayerEid1</STRING>
+          <STRING>  ()setNelVar($BCNELVar, "");</STRING>
+          <STRING></STRING>
+          <STRING>  $BCNELVar = $BCPrefix + "P2"; // init PlayerEid2</STRING>
+          <STRING>  ()setNelVar($BCNELVar, "");</STRING>
+          <STRING></STRING>
+          <STRING>  $BCNELVar = $BCPrefix + "BR"; // init Brick Family</STRING>
+          <STRING>  ()setNelVar($BCNELVar, 0);</STRING>
+          <STRING></STRING>
+          <STRING>  $BCNELVar = $BCPrefix + "I1"; // init Item 1 Family</STRING>
+          <STRING>  ()setNelVar($BCNELVar, 0);</STRING>
+          <STRING></STRING>
+          <STRING>  $BCNELVar = $BCPrefix + "I2"; // init Item 2 Family</STRING>
+          <STRING>  ()setNelVar($BCNELVar, 0);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// nBCFamily: A valid RequirementFamily (&gt; 0)</STRING>
+          <STRING>BCsetBrickFamily(){</STRING>
+          <STRING>  $BCPrefix = $prefixActivity + "_" + $BotEid + "_" + "BR";</STRING>
+          <STRING>  ()setNelVar($BCNELVar, nBCFamily);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// nBCFamily: A valid RequirementFamily (&gt; 0)</STRING>
+          <STRING>BCsetItem1Family(){</STRING>
+          <STRING>  $BCPrefix = $prefixActivity + "_" + $BotEid + "_" + "I1";</STRING>
+          <STRING>  ()setNelVar($BCNELVar, nBCFamily);</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// nBCFamily: A valid RequirementFamily (&gt; 0)</STRING>
+          <STRING>BCsetItem2Family(){</STRING>
+          <STRING>  $BCPrefix = $prefixActivity + "_" + $BotEid + "_" + "I2";</STRING>
+          <STRING>  ()setNelVar($BCNELVar, nBCFamily);</STRING>
+          <STRING>}</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>script_BotClassGet_old</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="323"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+    </CHILD>
+  </ROOT_PRIMITIVE>
+</PRIMITIVES>
