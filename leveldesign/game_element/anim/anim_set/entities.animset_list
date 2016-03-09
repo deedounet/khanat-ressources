@@ -8,6 +8,7 @@
       <ATOM Name="arma" Value="arma.animset_mode"/>
       <ATOM Name="arma_mount" Value="armamount.animset_mode"/>
       <ATOM Name="sagass_mount" Value="sagass_selle.animset_mode"/>
+	  <ATOM Name="clapclap" Value="clapclap.animset_mode"/>
  </ARRAY>
   </STRUCT>
   <STRUCT/>
