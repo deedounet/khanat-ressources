@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.1 $" State="modified">
+<STRUCT>
+<STRUCT Name="death_mode">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_clapclap_mort.anim"/>
+</STRUCT>
+</ARRAY>
+<ATOM Name="LodCharacterAnimation" Value="tr_mo_clapclap_mort.anim"/>
+</STRUCT>
+</STRUCT>
+<STRUCT/>
+<STRUCT/>
+<STRUCT/>
+<STRUCT/>
+<COMMENTS></COMMENTS>
+<LOG></LOG>
+</FORM>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.1 $" State="modified">
+<STRUCT>
+<STRUCT Name="attack1">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_clapclap_attaque_1.anim"/>
+</STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_clapclap_attaque_2.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+<STRUCT Name="attack2">
+<ARRAY Name="animations">
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_clapclap_attaque_1.anim"/>
+</STRUCT>
+<STRUCT>
+<ATOM Name="filename" Value="tr_mo_clapclap_attaque_2.anim"/>
+</STRUCT>
+</ARRAY>
+</STRUCT>
+</STRUCT>
+<STRUCT/>
+<STRUCT/>
+<STRUCT/>
+<STRUCT/>
+<COMMENTS></COMMENTS>
+<LOG></LOG>
+</FORM>
