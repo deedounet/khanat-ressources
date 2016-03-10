@@ -117,6 +117,23 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="firework_01">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Peche_Init.anim"/>
+          <ATOM Name="next1" Value="1"/>
+          <ATOM Name="next1 weight" Value="100"/>
+        </STRUCT>
+      </ARRAY>
+      <ATOM Name="LodCharacterAnimation" Value="FY_HOM_Peche_loop.anim"/>
+    </STRUCT>
+    <STRUCT Name="firework_02">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Peche_loop.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>
