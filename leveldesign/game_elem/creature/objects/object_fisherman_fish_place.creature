@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.9 $" State="modified">
+  <PARENT Filename="_parent_botobject.creature"/>
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <STRUCT Name="Equipment">
+        <STRUCT Name="Body">
+          <ATOM Name="Item" Value="Water01.shape"/>
+        </STRUCT>
+      </STRUCT>
+    </STRUCT>
+    <STRUCT Name="3d data">
+      <ATOM Name="CharacterScalePos" Value="0"/>
+      <ATOM Name="Scale" Value="0.1"/>
+      <ARRAY Name="ProjectileCastRay">
+        <STRUCT>
+          <STRUCT Name="Origin">
+            <ATOM Name="Z" Value="8.5"/>
+          </STRUCT>
+          <STRUCT Name="Pos">
+            <ATOM Name="Z" Value="8.5"/>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="Collision">
+      <ATOM Name="CollisionRadius" Value="0"/>
+      <ATOM Name="BoundingRadius" Value="0"/>
+      <ATOM Name="Length" Value="0"/>
+      <ATOM Name="NotTraversable" Value="false"/>
+    </STRUCT>
+    <STRUCT Name="Properties">
+      <ATOM Name="Selectable" Value="false"/>
+      <ATOM Name="Talkable" Value="false"/>
+      <ATOM Name="Givable" Value="false"/>
+      <ATOM Name="SelectableBySpace" Value="false"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
