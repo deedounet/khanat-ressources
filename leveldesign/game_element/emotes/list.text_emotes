@@ -3173,6 +3173,14 @@
         <ATOM Name="Animation" Value="FBT"/>
       </STRUCT>
       <STRUCT>
+        <ATOM Name="Phrase With Target To The Crowd" Value="EMOTE_DRINK_TARGET"/>
+        <ATOM Name="Phrase With Target To The Actor" Value="EMOTE_DRINK_TARGET"/>
+        <ATOM Name="Phrase With Target To The Target" Value="EMOTE_DRINK_TARGET"/>
+        <ATOM Name="Phrase Without Target To The Crowd" Value="EMOTE_DRINK_NOBODY"/>
+        <ATOM Name="Phrase Without Target To The Actor" Value="EMOTE_DRINK_NOBODY"/>
+        <ATOM Name="Phrase Self Target To The Actor" Value="EMOTE_DRINK_SELF"/>
+        <ATOM Name="Phrase Self Target To The Crowd" Value="EMOTE_DRINK_SELF"/>
+        <ATOM Name="Access Path" Value="uiEM_Emotes|uiEM_NegGes|uiEM_Drink"/>
         <ATOM Name="EmoteId" Value="drink"/>
         <ATOM Name="Animation" Value="drink"/>
       </STRUCT>
