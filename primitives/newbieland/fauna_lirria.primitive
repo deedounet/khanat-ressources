@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<PRIMITIVES VERSION="1">
+  <ROOT_PRIMITIVE TYPE="CPrimNode">
+    <ALIAS LAST_GENERATED="7"/>
+    <PROPERTY TYPE="string">
+      <NAME>name</NAME>
+      <STRING></STRING>
+    </PROPERTY>
+    <CHILD TYPE="CPrimZone">
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>npc_manager</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>npc_manager_watercreatures</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimAlias">
+        <ALIAS VALUE="1"/>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+      </CHILD>
+      <CHILD TYPE="CPrimZone">
+        <PT X="9235.711914" Y="-10858.457031" Z="0.000000"/>
+        <PT X="9234.061523" Y="-10755.056641" Z="0.000000"/>
+        <PT X="9164.487305" Y="-10744.881836" Z="0.000000"/>
+        <PT X="9122.412109" Y="-10723.156250" Z="0.000000" SELECTED="true"/>
+        <PT X="9092.921875" Y="-10695.487305" Z="0.000000"/>
+        <PT X="9080.822266" Y="-10629.486328" Z="0.000000"/>
+        <PT X="9021.972656" Y="-10598.686523" Z="0.000000"/>
+        <PT X="8977.972656" Y="-10608.586914" Z="0.000000"/>
+        <PT X="8988.972656" Y="-10637.736328" Z="0.000000"/>
+        <PT X="9048.373047" Y="-10689.437500" Z="0.000000"/>
+        <PT X="9073.671875" Y="-10752.686523" Z="0.000000"/>
+        <PT X="9147.922852" Y="-10782.937500" Z="0.000000"/>
+        <PT X="9169.921875" Y="-10862.136719" Z="0.000000"/>
+        <PROPERTY TYPE="string">
+          <NAME>ai_activity</NAME>
+          <STRING>no_change</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>ai_movement</NAME>
+          <STRING>wander</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>npc_zone</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>npc_zone_lake1</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="2"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string_array">
+            <NAME>bot_equipment</NAME>
+            <STRING>CBODY : 1 2 3 4 5 6</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>bot_sheet_client</NAME>
+            <STRING>clapclap_standard</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>count</NAME>
+            <STRING>10</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>npc_group_clapclaps</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="3"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimZone">
+        <PT X="9013.051758" Y="-10638.958008" Z="0.000000" SELECTED="true"/>
+        <PT X="8987.751953" Y="-10601.557617" Z="0.000000"/>
+        <PT X="8856.852539" Y="-10657.658203" Z="0.000000"/>
+        <PT X="8840.902344" Y="-10695.607422" Z="0.000000"/>
+        <PT X="8861.802734" Y="-10733.007813" Z="0.000000"/>
+        <PT X="8866.751953" Y="-10774.808594" Z="0.000000"/>
+        <PT X="8886.001953" Y="-10822.658203" Z="0.000000"/>
+        <PT X="8894.801758" Y="-10978.307617" Z="0.000000"/>
+        <PT X="9011.402344" Y="-10989.307617" Z="0.000000"/>
+        <PT X="9035.602539" Y="-10931.006836" Z="0.000000"/>
+        <PT X="8965.751953" Y="-10909.007813" Z="0.000000"/>
+        <PT X="8955.852539" Y="-10875.458008" Z="0.000000"/>
+        <PT X="8966.301758" Y="-10833.108398" Z="0.000000"/>
+        <PT X="8928.352539" Y="-10781.957031" Z="0.000000"/>
+        <PT X="8942.102539" Y="-10678.557617" Z="0.000000"/>
+        <PROPERTY TYPE="string">
+          <NAME>ai_activity</NAME>
+          <STRING>no_change</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>ai_movement</NAME>
+          <STRING>wander</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>npc_zone</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>npc_zone_lake2</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="4"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string_array">
+            <NAME>bot_equipment</NAME>
+            <STRING>CBODY : 1 2 3 4 5 6</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>bot_sheet_client</NAME>
+            <STRING>clapclap_standard</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>count</NAME>
+            <STRING>10</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>npc_group_clapclaps</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="5"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimZone">
+        <PT X="9230.360352" Y="-10923.309570" Z="0.000000"/>
+        <PT X="9164.361328" Y="-10896.359375" Z="0.000000"/>
+        <PT X="9135.760742" Y="-10929.084961" Z="0.000000"/>
+        <PT X="9098.361328" Y="-10938.984375" Z="0.000000"/>
+        <PT X="9011.186523" Y="-10921.660156" Z="0.000000"/>
+        <PT X="8991.936523" Y="-10988.484375" Z="0.000000"/>
+        <PT X="9087.635742" Y="-11009.109375" Z="0.000000"/>
+        <PT X="9170.135742" Y="-10969.234375" Z="0.000000"/>
+        <PT X="9212.760742" Y="-10945.584961" Z="0.000000" SELECTED="true"/>
+        <PROPERTY TYPE="string">
+          <NAME>ai_activity</NAME>
+          <STRING>no_change</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>ai_movement</NAME>
+          <STRING>wander</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>npc_zone</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>npc_zone_lake3</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="6"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string_array">
+            <NAME>bot_equipment</NAME>
+            <STRING>CBODY : 1 2 3 4 5 6</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>bot_sheet_client</NAME>
+            <STRING>clapclap_standard</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>count</NAME>
+            <STRING>10</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>npc_group_clapclaps</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="7"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+    </CHILD>
+  </ROOT_PRIMITIVE>
+</PRIMITIVES>
