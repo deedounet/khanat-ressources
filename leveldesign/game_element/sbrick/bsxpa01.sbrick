@@ -10,15 +10,13 @@
       <ATOM Name="Skill" Value="UNKNOWN"/>
     </STRUCT>
     <STRUCT Name="Client">
-      <ATOM Name="Icon" Value="ico_spell_break.tga"/>
+      <ATOM Name="Icon" Value=""/>
       <ATOM Name="IconBack" Value="EF_Back.tga"/>
     </STRUCT>
     <STRUCT Name="Mandatory">
       <ATOM Name="f0" Value="BSDEA"/>
    </STRUCT>
-    <STRUCT Name="Optional">
-      <ATOM Name="f0" Value="BSDMA"/>
-    </STRUCT>
+</STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BSDMA"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
-      <ATOM Name="Property 0" Value="SpeedMod:50"/>         //powerType
+      <ATOM Name="Property 0" Value="POWER:SpeedMod:50"/>         //powerType
       <ATOM Name="Property 1" Value="DisableTime:10"/>      // temps en minutes
       <ATOM Name="Property 2" Value="Duration:30"/>        //temps en seconde
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
