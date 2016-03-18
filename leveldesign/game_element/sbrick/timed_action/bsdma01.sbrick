@@ -5,15 +5,14 @@
       <ATOM Name="FamilyId" Value="BSDMA"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
-      <ATOM Name="Property 0" Value="POWER:SpeedMod:50"/>         //powerType
-      <ATOM Name="Property 1" Value="DisableTime:10"/>      // temps en minutes
-      <ATOM Name="Property 2" Value="Duration:30"/>        //temps en seconde
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
-      <ATOM Name="Skill" Value="UNKNOWN"/>
+      <ATOM Name="Property 0" Value="POWER:SpeedMod:150"/>         //powerType
+      <ATOM Name="Property 1" Value="Duration:30"/>        //temps en seconde
+      <ATOM Name="Property 2" Value="DisableTime:2"/>      // temps en minutes
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Speeding_up.tga"/>
-      <ATOM Name="IconBack" Value="EF_Back.tga"/>
+      <ATOM Name="IconBack" Value="PA_Back.tga"/>
       <ATOM Name="IconOver" Value="PA_Over_More.tga"/>
     </STRUCT>
   </STRUCT>

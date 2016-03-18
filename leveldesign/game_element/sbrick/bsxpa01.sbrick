@@ -6,12 +6,12 @@
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
-      <ATOM Name="Action Nature" Value="SPECIAL_POWER"/>
-      <ATOM Name="Skill" Value="UNKNOWN"/>
+      <ATOM Name="Action Nature" Value="UNKNOWN"/>
+      <ATOM Name="MinCastTime" Value="0"/>
     </STRUCT>
     <STRUCT Name="Client">
-      <ATOM Name="Icon" Value=""/>
-      <ATOM Name="IconBack" Value="EF_Back.tga"/>
+      <ATOM Name="Icon" Value="BK_power.tga"/>
+      <ATOM Name="IconBack" Value="BK_power.tga"/>
     </STRUCT>
     <STRUCT Name="Mandatory">
       <ATOM Name="f0" Value="BSDEA"/>
