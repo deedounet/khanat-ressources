@@ -2,22 +2,19 @@
 <FORM Revision="$Revision: 1.10 $" State="modified">
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="FamilyId" Value="BSXPA"/>
+      <ATOM Name="FamilyId" Value="BSXEA"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>
-      <ATOM Name="MinCastTime" Value="0"/>
     </STRUCT>
     <STRUCT Name="Client">
-      <ATOM Name="Icon" Value="BK_power.tga"/>
-      <ATOM Name="IconBack" Value="BK_power.tga"/>
+      <ATOM Name="Icon" Value="ICO_Invulnerability.tga"/>
+      <ATOM Name="IconBack" Value="EF_Back.tga"/>
+      <ATOM Name="IconOver"/>
     </STRUCT>
-    <STRUCT Name="Mandatory">
-      <ATOM Name="f0" Value="BSDEA"/>
-      <ATOM Name="f1" Value="BSXEA"/>
-   </STRUCT>
-</STRUCT>
+<STRUCT Name="Parameter">
+      <ATOM Name="f0" Value="BSXMB"/>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>
