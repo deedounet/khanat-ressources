@@ -31,8 +31,8 @@
       <ATOM Name="bulk_max" Value="5.0"/>
     </STRUCT>
     <STRUCT Name="3d">
-      <ATOM Name="shape" Value="GE_Acc_MountingStick_A.shape"/>
-      <ATOM Name="shape_female" Value="GE_Acc_MountingStick_A.shape"/>
+      <ATOM Name="shape" Value="fishing_cap.shape"/>
+      <ATOM Name="shape_female" Value="fishing_cap.shape"/>
       <ATOM Name="icon" Value="to_fishing_rod.tga"/>
       <ATOM Name="icon background" Value="BK_generic.tga"/>
       <ATOM Name="anim_set" Value="Fish"/>
