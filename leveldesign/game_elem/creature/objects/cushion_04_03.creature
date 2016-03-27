@@ -16,7 +16,7 @@
       <ATOM Name="Height" Value="0"/>
     </STRUCT>
     <STRUCT Name="Properties">
-      <ATOM Name="Selectable" Value="false"/>
+      <ATOM Name="Selectable" Value="true"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>
