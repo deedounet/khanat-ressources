@@ -171,7 +171,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>count</NAME>
-              <STRING>30</STRING>
+              <STRING>150</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>creature_code</NAME>
