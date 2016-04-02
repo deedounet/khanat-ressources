@@ -1796,7 +1796,8 @@
           <STRING>// $botEid, $playerEid</STRING>
           <STRING>BCaddPlayer(){</STRING>
           <STRING>  BCP = 0;</STRING>
-          <STRING>  switch(v0){ // No one is fishing</STRING>
+          <STRING>  switch(v0){</STRING>
+          <STRING>  case 0:{ // No one is fishing</STRING>
           <STRING>    NoOneIsFishing();</STRING>
           <STRING>  }</STRING>
           <STRING>  case 1:{ // P1 is already fishing</STRING>
