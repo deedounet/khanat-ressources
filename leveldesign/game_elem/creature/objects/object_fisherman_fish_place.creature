@@ -30,7 +30,7 @@
       <ATOM Name="NotTraversable" Value="false"/>
     </STRUCT>
     <STRUCT Name="Properties">
-      <ATOM Name="Selectable" Value="true"/>
+      <ATOM Name="Selectable" Value="false"/>
       <ATOM Name="Talkable" Value="false"/>
       <ATOM Name="Givable" Value="false"/>
       <ATOM Name="SelectableBySpace" Value="false"/>
