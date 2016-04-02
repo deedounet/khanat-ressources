@@ -427,6 +427,8 @@
                   <STRING></STRING>
                   <STRING>()import("script_BotClassInit");</STRING>
                   <STRING></STRING>
+                  <STRING>()phraseEndSystemMsg(0, "shout", "tu_m_as_cible");</STRING>
+                  <STRING></STRING>
                   <STRING>//$RCnReq = "1";</STRING>
                   <STRING>// $botFamily, $RCnReq =&gt; $RCisRequired, $RCsFamily, $RCminElement (returns "" when not found)</STRING>
                   <STRING>//RCgetBotFamilyRequirement();</STRING>
