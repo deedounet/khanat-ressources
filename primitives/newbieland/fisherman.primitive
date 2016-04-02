@@ -1764,8 +1764,8 @@
           <STRING>  case 0:{ // No one is fishing</STRING>
           <STRING>    v0 = 1; // P1 is now fishing</STRING>
           <STRING>    v1 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
-          <STRING>    ()phraseEndSystemMsg(0, $botEid);</STRING>
-          <STRING>    ()phraseEndSystemMsg(0, $botFamily);</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $botEid);</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $botFamily);</STRING>
           <STRING>    ()setNamedEntityProp($botEid, "state", $botFamily); // botFamily requirement</STRING>
           <STRING>    BCP = 1;</STRING>
           <STRING>  ()phraseEndSystemMsg(0, "shout", "0 =&gt; 1 =&gt; avant");</STRING>
