@@ -1799,7 +1799,9 @@
           <STRING>playerInRange();</STRING>
           <STRING>if(playerInRange_ret &gt; 0){ // only work if necessay</STRING>
           <STRING>  ($botEid)getBotEid(0);</STRING>
+          <STRING>  ()phraseEndSystemMsg(0, "shout", "WE_GET_HERE");</STRING>
           <STRING>  BCaddPlayer();</STRING>
+          <STRING>  ()phraseEndSystemMsg(0, "shout", "AND_HERE");</STRING>
           <STRING>  if(BCP != 0){</STRING>
           <STRING>    ()phraseEndSystemMsg(0, "shout", "YOU_ARE_PREPARING_TO_FISH");</STRING>
           <STRING>    ()setTimer(10, BCP);</STRING>
@@ -1909,11 +1911,11 @@
           <STRING>    // check if player is in the good zone for the fishing occupation</STRING>
           <STRING>    ($prefix)getStateName();</STRING>
           <STRING>    $name = $prefix + "_fw";</STRING>
-          <STRING>    ()phraseEndSystemMsg(0, "shout", $name);</STRING>
           <STRING>    (distance)npc_distance_helper.getBotIndexByName($name);</STRING>
           <STRING>    (distance)npc_distance_helper.getPlayerDistance(distance, $playerEid);</STRING>
           <STRING>    if(distance &lt; 10){</STRING>
           <STRING>      $name = $prefix + "_nw";</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $name);</STRING>
           <STRING>      (distance)npc_distance_helper.getBotIndexByName($name);</STRING>
           <STRING>      (distance)npc_distance_helper.getPlayerDistance(distance, $playerEid);</STRING>
           <STRING>      if(distance &lt; 10){ // the player is in the good zone</STRING>
