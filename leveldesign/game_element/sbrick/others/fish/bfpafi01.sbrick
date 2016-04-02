@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.8 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BFAQFME"/>
+      <ATOM Name="Skill" Value="SF"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="to_fishing_rod.tga"/>
+      <ATOM Name="IconBack" Value="FO_Back.tga"/>
+    </STRUCT>
+    <STRUCT Name="Credit">
+      <ATOM Name="f0" Value="BFCA"/>
+      <ATOM Name="f1" Value="BFCB"/>
+      <ATOM Name="f2" Value="BFCC"/>
+      <ATOM Name="f3" Value="BFCD"/>
+      <ATOM Name="f4" Value="BFCE"/>
+      <ATOM Name="f5" Value="BFCF"/>
+      <ATOM Name="f6" Value="BFCG"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
