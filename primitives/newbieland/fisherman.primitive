@@ -1798,17 +1798,13 @@
           <STRING>// $botEid, $playerEid</STRING>
           <STRING>BCaddPlayer(){</STRING>
           <STRING>  BCP = 0;</STRING>
-          <STRING>  switch(v0){</STRING>
-          <STRING>  case 0:{ // No one is fishing</STRING>
+          <STRING>  if(v0 == 0){ // No one is fishing</STRING>
           <STRING>    NoOneIsFishing();</STRING>
-          <STRING>  }</STRING>
-          <STRING>  case 1:{ // P1 is already fishing</STRING>
+          <STRING>  } else if(v0 == 1){ // P1 is already fishing</STRING>
           <STRING>    P1AlreadyFishing();</STRING>
-          <STRING>  }</STRING>
-          <STRING>  case 2:{ // P2 is already fishing</STRING>
+          <STRING>  } else if(v0 == 2){ // P2 is already fishing</STRING>
           <STRING>    P2AlreadyFishing();</STRING>
-          <STRING>  }</STRING>
-          <STRING>  case 3: // P1 and P2 are already fishing</STRING>
+          <STRING>  } else if(v0 == 3){ // P1 and P2 are already fishing</STRING>
           <STRING>    ()phraseEndSystemMsg(0, "shout", "TOO_MANY_PLAYERS_ARE_FISHING");</STRING>
           <STRING>  }</STRING>
           <STRING>}</STRING>
