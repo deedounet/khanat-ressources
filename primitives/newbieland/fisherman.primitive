@@ -1764,8 +1764,10 @@
           <STRING>  case 0:{ // No one is fishing</STRING>
           <STRING>    v0 = 1; // P1 is now fishing</STRING>
           <STRING>    v1 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
-          <STRING>    ()phraseEndSystemMsg(0, "shout", $botEid);</STRING>
-          <STRING>    ()phraseEndSystemMsg(0, "shout", $botFamily);</STRING>
+          <STRING>$ttt = "boteid2 = " + $botEid;</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
+          <STRING>$ttt = "botFamily2 = " + $botFamily;</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
           <STRING>    ()setNamedEntityProp($botEid, "state", $botFamily); // botFamily requirement</STRING>
           <STRING>    BCP = 1;</STRING>
           <STRING>  ()phraseEndSystemMsg(0, "shout", "0 =&gt; 1 =&gt; avant");</STRING>
@@ -1807,6 +1809,11 @@
           <STRING>playerInRange();</STRING>
           <STRING>if(playerInRange_ret &gt; 0){ // only work if necessay</STRING>
           <STRING>  ($botEid)getBotEid(0);</STRING>
+          <STRING>$ttt = "boteid1 = " + $botEid;</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
+          <STRING>$ttt = "botFamily1 = " + $botFamily;</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
+          <STRING></STRING>
           <STRING>  BCaddPlayer();</STRING>
           <STRING>  if(BCP != 0){</STRING>
           <STRING>    ()phraseEndSystemMsg(0, "shout", "YOU_ARE_PREPARING_TO_FISH");</STRING>
