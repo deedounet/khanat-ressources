@@ -427,7 +427,6 @@
                   <STRING></STRING>
                   <STRING>()import("script_BotClassInit");</STRING>
                   <STRING></STRING>
-                  <STRING>()phraseEndSystemMsg(0, "shout", "tu_m_as_cible");</STRING>
                   <STRING></STRING>
                   <STRING>//$RCnReq = "1";</STRING>
                   <STRING>// $botFamily, $RCnReq =&gt; $RCisRequired, $RCsFamily, $RCminElement (returns "" when not found)</STRING>
@@ -1910,6 +1909,7 @@
           <STRING>    // check if player is in the good zone for the fishing occupation</STRING>
           <STRING>    ($prefix)getStateName();</STRING>
           <STRING>    $name = $prefix + "_fw";</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $name);</STRING>
           <STRING>    (distance)npc_distance_helper.getBotIndexByName($name);</STRING>
           <STRING>    (distance)npc_distance_helper.getPlayerDistance(distance, $playerEid);</STRING>
           <STRING>    if(distance &lt; 10){</STRING>
