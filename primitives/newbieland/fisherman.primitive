@@ -1760,13 +1760,17 @@
           <STRING>// $botEid, $playerEid</STRING>
           <STRING>BCaddPlayer(){</STRING>
           <STRING>  BCP = 0;</STRING>
+          <STRING>  $tttt = "v0 = " + v0;</STRING>
+          <STRING>  ()phraseEndSystemMsg(0, "shout", $tttt);</STRING>
           <STRING>  switch(v0){</STRING>
           <STRING>  case 0:{ // No one is fishing</STRING>
           <STRING>    v0 = 1; // P1 is now fishing</STRING>
           <STRING>    v1 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
           <STRING>    ()setNamedEntityProp($botEid, "state", $botFamily); // botFamily requirement</STRING>
           <STRING>    BCP = 1;</STRING>
+          <STRING>  ()phraseEndSystemMsg(0, "shout", "0 =&gt; 1 =&gt; avant");</STRING>
           <STRING>    BuildPlayerSlot();</STRING>
+          <STRING>  ()phraseEndSystemMsg(0, "shout", "0 =&gt; 1 =&gt; apres");</STRING>
           <STRING>  }</STRING>
           <STRING>  case 1:{ // P1 is fishing</STRING>
           <STRING>    $BCVar = $botEid + "_P11";</STRING>
@@ -1775,7 +1779,9 @@
           <STRING>      v0 = 3; // P1 and P2 are now fishing</STRING>
           <STRING>      BCP = 2;</STRING>
           <STRING>      v2 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
+          <STRING>      ()phraseEndSystemMsg(0, "shout", "1 =&gt; 2 =&gt; avant");</STRING>
           <STRING>      BuildPlayerSlot();</STRING>
+          <STRING>      ()phraseEndSystemMsg(0, "shout", "1 =&gt; 2 =&gt; apres");</STRING>
           <STRING>    }</STRING>
           <STRING>  }</STRING>
           <STRING>  case 2:{ // P2 is fishing</STRING>
@@ -1785,7 +1791,9 @@
           <STRING>      v0 = 3; // P1 and P2 are now fishing</STRING>
           <STRING>      BCP = 1;</STRING>
           <STRING>      v1 = 0;  // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
+          <STRING>      ()phraseEndSystemMsg(0, "shout", "2 =&gt; 1 =&gt; avant");</STRING>
           <STRING>      BuildPlayerSlot();</STRING>
+          <STRING>      ()phraseEndSystemMsg(0, "shout", "2 =&gt; 1 =&gt; apres");</STRING>
           <STRING>    }</STRING>
           <STRING>  }</STRING>
           <STRING>  case 3: // P1 and P2 are already fishing</STRING>
@@ -1799,9 +1807,7 @@
           <STRING>playerInRange();</STRING>
           <STRING>if(playerInRange_ret &gt; 0){ // only work if necessay</STRING>
           <STRING>  ($botEid)getBotEid(0);</STRING>
-          <STRING>  ()phraseEndSystemMsg(0, "shout", "WE_GET_HERE");</STRING>
           <STRING>  BCaddPlayer();</STRING>
-          <STRING>  ()phraseEndSystemMsg(0, "shout", "AND_HERE");</STRING>
           <STRING>  if(BCP != 0){</STRING>
           <STRING>    ()phraseEndSystemMsg(0, "shout", "YOU_ARE_PREPARING_TO_FISH");</STRING>
           <STRING>    ()setTimer(10, BCP);</STRING>
