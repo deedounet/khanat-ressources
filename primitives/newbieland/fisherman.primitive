@@ -1760,12 +1760,12 @@
           <STRING>// $botEid, $playerEid</STRING>
           <STRING>BCaddPlayer(){</STRING>
           <STRING>  BCP = 0;</STRING>
-          <STRING>  $tttt = "v0 = " + v0;</STRING>
-          <STRING>  ()phraseEndSystemMsg(0, "shout", $tttt);</STRING>
           <STRING>  switch(v0){</STRING>
           <STRING>  case 0:{ // No one is fishing</STRING>
           <STRING>    v0 = 1; // P1 is now fishing</STRING>
           <STRING>    v1 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, $botEid);</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, $botFamily);</STRING>
           <STRING>    ()setNamedEntityProp($botEid, "state", $botFamily); // botFamily requirement</STRING>
           <STRING>    BCP = 1;</STRING>
           <STRING>  ()phraseEndSystemMsg(0, "shout", "0 =&gt; 1 =&gt; avant");</STRING>
