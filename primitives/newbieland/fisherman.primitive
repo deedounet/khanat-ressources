@@ -1758,15 +1758,17 @@
           <STRING>}</STRING>
           <STRING></STRING>
           <STRING>NoOneIsFishing(){</STRING>
+          <STRING>$ttt = "boteid3 = ";</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
           <STRING>  v0 = 1; // P1 is now fishing</STRING>
           <STRING>  v1 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
           <STRING>$ttt = "boteid3 = " + $botEid;</STRING>
           <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
           <STRING>$ttt = "botFamily3 = " + $botFamily;</STRING>
           <STRING>  ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
-          <STRING>  ()setNamedEntityProp($botEid, "state", $botFamily); // botFamily requirement</STRING>
-          <STRING>  BCP = 1;</STRING>
-          <STRING>  BuildPlayerSlot();</STRING>
+          <STRING>//  ()setNamedEntityProp($botEid, "state", $botFamily); // botFamily requirement</STRING>
+          <STRING>//  BCP = 1;</STRING>
+          <STRING>//  BuildPlayerSlot();</STRING>
           <STRING>}</STRING>
           <STRING></STRING>
           <STRING>P1AlreadyFishing(){</STRING>
