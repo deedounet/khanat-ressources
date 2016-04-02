@@ -303,22 +303,20 @@
                   <STRING>    checkIfInZone();</STRING>
                   <STRING>    if(playerInRange_ret &gt; 0){</STRING>
                   <STRING>      (tmp)rndm(0, 1);</STRING>
-                  <STRING>      switch(v1){</STRING>
-                  <STRING>        case 1000:{ // initfish</STRING>
-                  <STRING>          doInitFishAnim();</STRING>
-                  <STRING>          v1++;</STRING>
-                  <STRING>        }</STRING>
-                  <STRING>        case 1001:</STRING>
-                  <STRING>          fishingloop();</STRING>
-                  <STRING>        case 1100: // fish is under capture and approaching</STRING>
-                  <STRING>          fishUnderCapture();</STRING>
-                  <STRING>        case 1101: // fish is under capture and is near</STRING>
-                  <STRING>          fishUnderCapture();</STRING>
-                  <STRING>        case 1102: // fish is catchable</STRING>
-                  <STRING>          fishIsCatchable();</STRING>
-                  <STRING>        case 1103: // fish catched</STRING>
+                  <STRING>      if(v1 == 1000){ // initfish</STRING>
+                  <STRING>        doInitFishAnim();</STRING>
+                  <STRING>        v1++;</STRING>
+                  <STRING>      } else if(v1 == 1001){ // Fishing loop</STRING>
+                  <STRING>        fishingloop();</STRING>
+                  <STRING>      } else if(v1 == 1100){ // fish is under capture and approaching</STRING>
+                  <STRING>        fishUnderCapture();</STRING>
+                  <STRING>      } else if(v1 == 1101){ // fish is under capture and is near</STRING>
+                  <STRING>        fishUnderCapture();</STRING>
+                  <STRING>      } else if(v1 == 1102){ // fish is catchable</STRING>
+                  <STRING>        fishIsCatchable();</STRING>
+                  <STRING>      } else if(v1 == 1103){ // fish caught</STRING>
                   <STRING>          despawnPhase();</STRING>
-                  <STRING>        case 1110: // fish escapes</STRING>
+                  <STRING>      } else if(v1 == 1110){ // fish escapes</STRING>
                   <STRING>          despawnPhase();</STRING>
                   <STRING>      }</STRING>
                   <STRING>    } else {</STRING>
