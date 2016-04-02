@@ -1757,49 +1757,53 @@
           <STRING>  ()setNamedEntityProp($BCVar, "param2", ""); // </STRING>
           <STRING>}</STRING>
           <STRING></STRING>
-          <STRING>// $botEid, $playerEid</STRING>
-          <STRING>BCaddPlayer(){</STRING>
-          <STRING>  BCP = 0;</STRING>
-          <STRING>$ttt = "v0 = " + v0;</STRING>
-          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
-          <STRING>$ttt = "boteid2 = " + $botEid;</STRING>
-          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
-          <STRING>$ttt = "botFamily2 = " + $botFamily;</STRING>
-          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
-          <STRING></STRING>
-          <STRING>  switch(v0){</STRING>
-          <STRING>  case 0:{ // No one is fishing</STRING>
-          <STRING>    v0 = 1; // P1 is now fishing</STRING>
-          <STRING>    v1 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
+          <STRING>NoOneIsFishing(){</STRING>
+          <STRING>  v0 = 1; // P1 is now fishing</STRING>
+          <STRING>  v1 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
           <STRING>$ttt = "boteid3 = " + $botEid;</STRING>
           <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
           <STRING>$ttt = "botFamily3 = " + $botFamily;</STRING>
-          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
-          <STRING>    ()setNamedEntityProp($botEid, "state", $botFamily); // botFamily requirement</STRING>
-          <STRING>    BCP = 1;</STRING>
+          <STRING>  ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
+          <STRING>  ()setNamedEntityProp($botEid, "state", $botFamily); // botFamily requirement</STRING>
+          <STRING>  BCP = 1;</STRING>
+          <STRING>  BuildPlayerSlot();</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>P1AlreadyFishing(){</STRING>
+          <STRING>  $BCVar = $botEid + "_P11";</STRING>
+          <STRING>  ($BCP)getNamedEntityProp($BCVar, "state");</STRING>
+          <STRING>  if($BCP != $playerEid){</STRING>
+          <STRING>    v0 = 3; // P1 and P2 are now fishing</STRING>
+          <STRING>    BCP = 2;</STRING>
+          <STRING>    v2 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
           <STRING>    BuildPlayerSlot();</STRING>
           <STRING>  }</STRING>
-          <STRING>  case 1:{ // P1 is fishing</STRING>
-          <STRING>    $BCVar = $botEid + "_P11";</STRING>
-          <STRING>    ($BCP)getNamedEntityProp($BCVar, "state");</STRING>
-          <STRING>    if($BCP != $playerEid){</STRING>
-          <STRING>      v0 = 3; // P1 and P2 are now fishing</STRING>
-          <STRING>      BCP = 2;</STRING>
-          <STRING>      v2 = 0; // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
-          <STRING>      BuildPlayerSlot();</STRING>
-          <STRING>    }</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>P2AlreadyFishing(){</STRING>
+          <STRING>  $BCVar = $botEid + "_P21";</STRING>
+          <STRING>  ($BCP)getNamedEntityProp($BCVar, "state");</STRING>
+          <STRING>  if($BCP != $playerEid){</STRING>
+          <STRING>    v0 = 3; // P1 and P2 are now fishing</STRING>
+          <STRING>    BCP = 1;</STRING>
+          <STRING>    v1 = 0;  // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", "2 =&gt; 1 =&gt; avant");</STRING>
+          <STRING>    BuildPlayerSlot();</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", "2 =&gt; 1 =&gt; apres");</STRING>
           <STRING>  }</STRING>
-          <STRING>  case 2:{ // P2 is fishing</STRING>
-          <STRING>    $BCVar = $botEid + "_P21";</STRING>
-          <STRING>    ($BCP)getNamedEntityProp($BCVar, "state");</STRING>
-          <STRING>    if($BCP != $playerEid){</STRING>
-          <STRING>      v0 = 3; // P1 and P2 are now fishing</STRING>
-          <STRING>      BCP = 1;</STRING>
-          <STRING>      v1 = 0;  // etat initial &lt; 1000, fishing &gt;= 1000</STRING>
-          <STRING>      ()phraseEndSystemMsg(0, "shout", "2 =&gt; 1 =&gt; avant");</STRING>
-          <STRING>      BuildPlayerSlot();</STRING>
-          <STRING>      ()phraseEndSystemMsg(0, "shout", "2 =&gt; 1 =&gt; apres");</STRING>
-          <STRING>    }</STRING>
+          <STRING>}</STRING>
+          <STRING></STRING>
+          <STRING>// $botEid, $playerEid</STRING>
+          <STRING>BCaddPlayer(){</STRING>
+          <STRING>  BCP = 0;</STRING>
+          <STRING>  switch(v0){ // No one is fishing</STRING>
+          <STRING>    NoOneIsFishing()</STRING>
+          <STRING>  }</STRING>
+          <STRING>  case 1:{ // P1 is already fishing</STRING>
+          <STRING>    P1AlreadyFishing();</STRING>
+          <STRING>  }</STRING>
+          <STRING>  case 2:{ // P2 is already fishing</STRING>
+          <STRING>    P2AlreadyFishing();</STRING>
           <STRING>  }</STRING>
           <STRING>  case 3: // P1 and P2 are already fishing</STRING>
           <STRING>    ()phraseEndSystemMsg(0, "shout", "TOO_MANY_PLAYERS_ARE_FISHING");</STRING>
