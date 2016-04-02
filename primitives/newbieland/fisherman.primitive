@@ -1805,6 +1805,9 @@
           <STRING></STRING>
           <STRING></STRING>
           <STRING>($playerEid)getCurrentPlayerEid();</STRING>
+          <STRING>$ttt = "playerEid = " + $playerEid;</STRING>
+          <STRING>    ()phraseEndSystemMsg(0, "shout", $ttt);</STRING>
+          <STRING></STRING>
           <STRING>range = 200; // allow the max range from the fish</STRING>
           <STRING>playerInRange();</STRING>
           <STRING>if(playerInRange_ret &gt; 0){ // only work if necessay</STRING>
