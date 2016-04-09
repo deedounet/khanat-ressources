@@ -17,10 +17,6 @@
       <ATOM Name="f1" Value="BSXEB"/>
       <ATOM Name="f2" Value="BSCEA"/>
    </STRUCT>
-<STRUCT Name="Parameter">
-      <ATOM Name="f0" Value="BSDMA"/>
-      <ATOM Name="f1" Value="BSXMB"/>
     </STRUCT>
-</STRUCT>
 <LOG/></FORM>
 
