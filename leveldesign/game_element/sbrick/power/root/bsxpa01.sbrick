@@ -4,7 +4,6 @@
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSXPA"/>
       <ATOM Name="SabrinaCost" Value="0"/>
-      <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>
       <ATOM Name="MinCastTime" Value="0"/>
