@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FORM Revision="$Revision: 1.10 $" State="modified">
+<FORM Revision="$Revision: 1.0 $" State="modified">
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSXEA"/>
@@ -16,8 +16,5 @@
 <STRUCT Name="Parameter">
       <ATOM Name="f0" Value="BSXMB"/>
   </STRUCT>
-  <STRUCT/>
-  <STRUCT/>
-  <STRUCT/>
-  <STRUCT/>
+</STRUCT>
 </FORM>

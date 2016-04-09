@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<FORM Revision="$Revision: 1.10 $" State="modified">
+<FORM Revision="$Revision: 1.0 $" State="modified">
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSDMA"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
-      <ATOM Name="Property 0" Value="POWER:SP_SPEEDING_UP"/>  //powerType
-      <ATOM Name="Property 1" Value="SpeedMod:150"/>         //Modification de speed
-      <ATOM Name="Property 2" Value="Duration:30"/>         //temps en seconde
-      <ATOM Name="Property 3" Value="DisableTime:2"/>      //temps en minutes
+      <ATOM Name="Property 0" Value="POWER:SP_SPEEDING_UP"/>
+      <ATOM Name="Property 1" Value="SpeedMod:150"/>
+      <ATOM Name="Property 2" Value="Duration:30"/>
+      <ATOM Name="Property 3" Value="DisableTime:2"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Speeding_up.tga"/>
@@ -17,8 +17,4 @@
       <ATOM Name="IconOver" Value="PA_Over_More.tga"/>
     </STRUCT>
   </STRUCT>
-  <STRUCT/>
-  <STRUCT/>
-  <STRUCT/>
-  <STRUCT/>
 </FORM>
