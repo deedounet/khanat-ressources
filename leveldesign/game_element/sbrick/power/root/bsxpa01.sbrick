@@ -14,6 +14,7 @@
     </STRUCT>
     <STRUCT Name="Mandatory">
       <ATOM Name="f0" Value="BSXEA"/>
+      <ATOM Name="f1" Value="BSDEA"/>
    </STRUCT>
     </STRUCT>
 <LOG/></FORM>
