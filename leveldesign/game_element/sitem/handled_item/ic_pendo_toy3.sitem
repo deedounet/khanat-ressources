@@ -13,6 +13,7 @@
         </ARRAY>
         <ATOM Name="WearEquipmentMalus" Value="0.1"/>
       </STRUCT>
+      <ATOM Name="CraftPlan" Value="bczaea90.sbrick"/>
       <ATOM Name="Price" Value="10"/>
       <ATOM Name="Time to Equip In Ticks" Value="1"/>
     </STRUCT>
@@ -23,6 +24,9 @@
       <ATOM Name="icon" Value="ico_pendo_pet.tga"/>
       <ATOM Name="icon background" Value="bk_outpost.tga"/>
       <ATOM Name="anim_set" Value="Dagger"/>
+    </STRUCT>
+     <STRUCT Name="faber">
+      <ATOM Name="Tool type" Value="ArmorTool"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>
