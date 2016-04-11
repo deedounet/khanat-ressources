@@ -3,6 +3,7 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSFMA"/>
+      <ATOM Name="IndexInFamily" Value="1"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="POWER:SP_TAUNT"/>
@@ -10,7 +11,9 @@
       <ATOM Name="Property 2" Value="Duration:30"/>
       <ATOM Name="Property 3" Value="DisableTime:2"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
+      <ATOM Name="LearnRequiresBricks" Value="bsfea01.sbrick"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>
+      <ATOM Name="Skill" Value="unknown"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_taunt.tga"/>
