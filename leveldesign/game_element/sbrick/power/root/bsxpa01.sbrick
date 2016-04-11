@@ -13,8 +13,11 @@
       <ATOM Name="IconBack" Value="BK_power.tga"/>
     </STRUCT>
     <STRUCT Name="Mandatory">
-      <ATOM Name="f0" Value="BSDEA"/>
-      <ATOM Name="f1" Value="BSXEA"/>
+      <ATOM Name="f0" Value="BSFEA"/>
+      <ATOM Name="f1" Value="BSDEA"/>
+      <ATOM Name="f2" Value="BSXEA"/>
+      <ATOM Name="f3" Value="BSMEA"/>
+      <ATOM Name="f3" Value="BSGEA"/>
    </STRUCT>
     </STRUCT>
 <LOG/></FORM>
