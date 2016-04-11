@@ -23,9 +23,9 @@
       <STRUCT Name="Create">
         <ATOM Name="Crafted Item" Value="ic_pendo_toy3.sitem"/>
         <ATOM Name="Nb built items" Value="1"/>
-        <ATOM Name="MP 1" Value="pendo_toy1.sitem"/>
+        <ATOM Name="MP 1" Value="Raw Material for Clothes"/>
         <ATOM Name="Quantity 1" Value="1"/>
-        <ATOM Name="MP 2" Value="pendo_toy2.sitem"/>
+        <ATOM Name="MP 2" Value="Raw Material for Armor interior coating"/>
         <ATOM Name="Quantity 2" Value="1"/>
         <ATOM Name="MP 3" Value=""/>
         <ATOM Name="Quantity 3" Value="0"/>

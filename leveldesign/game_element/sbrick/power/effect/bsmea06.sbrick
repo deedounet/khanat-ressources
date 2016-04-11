@@ -3,7 +3,7 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSXEA"/>
-      <ATOM Name="IndexInFamily" Value="1"/>
+      <ATOM Name="IndexInFamily" Value="6"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="POWER"/>

@@ -11,6 +11,7 @@
       <ATOM Name="Property 2" Value="DisableTime:2"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>
+      <ATOM Name="Skill" Value="unknown"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Invulnerability_up.tga"/>
