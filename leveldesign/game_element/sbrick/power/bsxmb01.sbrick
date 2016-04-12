@@ -6,7 +6,7 @@
       <ATOM Name="IndexInFamily" Value="1"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
-      <ATOM Name="Property 0" Value="SP_INVULNERABILITY:10"/>
+      <ATOM Name="Property 0" Value="SP_INVULNERABILITY"/>
       <ATOM Name="Property 1" Value="Duration:30"/>
       <ATOM Name="Property 2" Value="DisableTime:2"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
@@ -14,7 +14,7 @@
       <ATOM Name="Skill" Value="unknown"/>
     </STRUCT>
     <STRUCT Name="Client">
-      <ATOM Name="Icon" Value="ICO_Invulnerability_up.tga"/>
+      <ATOM Name="Icon" Value="ICO_Invulnerability.tga"/>
       <ATOM Name="IconBack" Value="PA_Back.tga"/>
       <ATOM Name="IconOver" Value="PA_Over_More.tga"/>
     </STRUCT>
