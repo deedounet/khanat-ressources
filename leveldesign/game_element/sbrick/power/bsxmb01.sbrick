@@ -2,11 +2,11 @@
 <FORM Revision="$Revision: 1.0 $" State="modified">
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="FamilyId" Value="BSDMB"/>
+      <ATOM Name="FamilyId" Value="BSXMB"/>
       <ATOM Name="IndexInFamily" Value="1"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
-      <ATOM Name="Property 0" Value="POWER:SP_INVULNERABILITY"/>
+      <ATOM Name="Property 0" Value="SP_INVULNERABILITY"/>
       <ATOM Name="Property 1" Value="Duration:30"/>
       <ATOM Name="Property 2" Value="DisableTime:2"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
