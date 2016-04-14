@@ -7,6 +7,7 @@
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>
       <ATOM Name="MinCastTime" Value="0"/>
+      <ATOM Name="SPCost" Value="0"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="BK_power.tga"/>

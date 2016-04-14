@@ -7,9 +7,9 @@
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="SP_TAUNT"/>
-      <ATOM Name="Property 1" Value="TauntPower:10"/>
-      <ATOM Name="Property 2" Value="Range:10"/>
-      <ATOM Name="Property 3" Value="DisableTime:1"/>
+      <ATOM Name="Property 1" Value="TauntPower:20"/>
+      <ATOM Name="Property 2" Value="Range:15"/>
+      <ATOM Name="Property 3" Value="DisableTime:10"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="LearnRequiresBricks" Value="bsfea01.sbrick"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>

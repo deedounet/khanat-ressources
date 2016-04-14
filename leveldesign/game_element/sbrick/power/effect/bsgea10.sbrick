@@ -6,11 +6,11 @@
       <ATOM Name="IndexInFamily" Value="10"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
-      <ATOM Name="Property 0" Value="POWER"/>
-      <ATOM Name="Property 1" Value="POWER:HEAL"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>
       <ATOM Name="Skill" Value="unknown"/>
+      <ATOM Name="ForbiddenDef" Value="POWER"/>
+      <ATOM Name="ForbiddenExclude" Value="POWER:HEAL"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_focus.tga"/>
