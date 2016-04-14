@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.6 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BHFPMD"/>
+      <ATOM Name="IndexInFamily" Value="1"/>
+      <ATOM Name="SabrinaCost" Value="5"/>
+      <ATOM Name="SPCost" Value="20"/>
+      <ATOM Name="Property 0" Value="FG_MULTI"/>
+      <ATOM Name="Property 1" Value="Limit:2"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
+      <ATOM Name="Action Nature" Value="FORAGE"/>
+      <ATOM Name="Skill" Value="unknown"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Multiple_spots.tga"/>
+      <ATOM Name="IconBack" Value="PA_Back.tga"/>
+      <ATOM Name="IconOver" Value=""/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+</FORM>

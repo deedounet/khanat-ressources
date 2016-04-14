@@ -2,18 +2,20 @@
 <FORM Revision="$Revision: 1.6 $" State="modified">
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="FamilyId" Value="BHFECA"/>
-      <ATOM Name="IndexInFamily" Value="2"/>
-      <ATOM Name="SabrinaCost" Value="-15"/>
+      <ATOM Name="FamilyId" Value="BHFPMM"/>
+      <ATOM Name="IndexInFamily" Value="3"/>
+      <ATOM Name="SabrinaCost" Value="-100"/>
       <ATOM Name="SPCost" Value="5"/>
-      <ATOM Name="Property 0" Value="FOCUS: 3"/>
-      <ATOM Name="Property 1" Value="BHFECA_TAG: -10"/>
+      <ATOM Name="Property 0" Value="FOCUS: 2"/>
+      <ATOM Name="Property 1" Value="BHFPCA_TAG: -100"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
+      <ATOM Name="Action Nature" Value="FORAGE"/>
+      <ATOM Name="Skill" Value="unknown"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Focus.tga"/>
       <ATOM Name="IconBack" Value="CP_Back.tga"/>
-      <ATOM Name="IconOver" Value="CP_Over_Less.tga"/>
+      <ATOM Name="IconOver" Value=""/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>

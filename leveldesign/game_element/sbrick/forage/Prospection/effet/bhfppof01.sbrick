@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.6 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BHFPPOF"/>
+      <ATOM Name="IndexInFamily" Value="1"/>
+      <ATOM Name="SabrinaCost" Value="0"/>
+      <ATOM Name="SPCost" Value="0"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
+      <ATOM Name="Action Nature" Value="FORAGE"/>
+      <ATOM Name="Skill" Value="unknown"/>
+      <ATOM Name="ForbiddenDef" Value="F"/>
+      <ATOM Name="ForbiddenExclude" Value="K"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Source_knowledge.tga"/>
+      <ATOM Name="IconBack" Value="CP_Back.tga"/>
+      <ATOM Name="IconOver" Value="OP_Over_more"/>
+    </STRUCT>
+    <STRUCT Name="Parameter">
+      <ATOM Name="f0" Value="BHFPME"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+</FORM>
