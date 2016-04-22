@@ -3,10 +3,10 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BCZACA"/>
-      <ATOM Name="IndexInFamily" Value="1"/>
-      <ATOM Name="SabrinaCost" Value="-10"/>
-      <ATOM Name="SPCost" Value="50"/>
-      <ATOM Name="Property 0" Value="CR_RECOMMENDED: 10"/>
+      <ATOM Name="IndexInFamily" Value="2"/>
+      <ATOM Name="SabrinaCost" Value="-20"/>
+      <ATOM Name="SPCost" Value="25"/>
+      <ATOM Name="Property 0" Value="CR_RECOMMENDED: 20"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SC 0"/>
       <ATOM Name="CivRestriction" Value="zorai"/>
     </STRUCT>
