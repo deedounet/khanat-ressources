@@ -7,8 +7,8 @@
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="SP_INVULNERABILITY"/>
-      <ATOM Name="Property 1" Value="Duration:30"/>
-      <ATOM Name="Property 2" Value="DisableTime:2"/>
+      <ATOM Name="Property 1" Value="Duration: 30"/>
+      <ATOM Name="Property 2" Value="DisableTime: 2"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>
       <ATOM Name="Skill" Value="unknown"/>

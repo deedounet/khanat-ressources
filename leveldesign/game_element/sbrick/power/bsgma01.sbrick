@@ -7,11 +7,11 @@
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="SP_HEAL"/>
-      <ATOM Name="Property 1" Value="AffectedScore:50:focus"/>
-      <ATOM Name="Property 2" Value="HealValue:30"/>
-      <ATOM Name="Property 3" Value="HealFactorValue:30"/>
-      <ATOM Name="Property 4" Value="DisableTime:2"/>
-      <ATOM Name="Property 5" Value="PowerType:HealHpC"/>
+      <ATOM Name="Property 1" Value="AffectedScore: 50"/>
+      <ATOM Name="Property 2" Value="HealValue: 30"/>
+      <ATOM Name="Property 3" Value="HealFactorValue: 30"/>
+      <ATOM Name="Property 4" Value="DisableTime: 2"/>
+      <ATOM Name="Property 5" Value="PowerType: Heal"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>
       <ATOM Name="Skill" Value="unknown"/>

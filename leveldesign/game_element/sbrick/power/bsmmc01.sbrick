@@ -7,10 +7,10 @@
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="SP_BALANCE"/>
-      <ATOM Name="Property 1" Value="DisableTime:3"/>
-      <ATOM Name="Property 2" Value="AffectedScore:10"/>
-      <ATOM Name="Property 3" Value="Range:10"/>
-      <ATOM Name="Property 4" Value="LossFactor:0.2"/>
+      <ATOM Name="Property 1" Value="DisableTime: 3"/>
+      <ATOM Name="Property 2" Value="AffectedScore: 10"/>
+      <ATOM Name="Property 3" Value="Range: 10"/>
+      <ATOM Name="Property 4" Value="LossFactor: 0.2"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
       <ATOM Name="Action Nature" Value="UNKNOWN"/>
       <ATOM Name="Skill" Value="unknown"/>
