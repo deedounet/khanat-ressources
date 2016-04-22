@@ -2,7 +2,7 @@
 <FORM Revision="$Revision: 1.8 $" State="modified">
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="FamilyId" Value="BCOA"/>
+      <ATOM Name="FamilyId" Value="BCOD"/>
       <ATOM Name="IndexInFamily" Value="4"/>
       <ATOM Name="SabrinaCost" Value="20"/>
       <ATOM Name="SPCost" Value="40"/>
