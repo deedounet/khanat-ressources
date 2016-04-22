@@ -4,18 +4,18 @@
   <STRUCT>
     <ATOM Name="Race" Value="fyros"/>
     <STRUCT Name="Characteristics">
-      <ATOM Name="Constitution" Value="100"/>
-      <ATOM Name="Intelligence" Value="100"/>
-      <ATOM Name="Strength" Value="100"/>
-      <ATOM Name="WellBalanced" Value="100"/>
-      <ATOM Name="Will" Value="100"/>
+      <ATOM Name="Constitution" Value="600"/>
+      <ATOM Name="Intelligence" Value="600"/>
+      <ATOM Name="Strength" Value="600"/>
+      <ATOM Name="WellBalanced" Value="600"/>
+      <ATOM Name="Will" Value="600"/>
     </STRUCT>
     <STRUCT Name="Scores">
-      <ATOM Name="HitPoints" Value="100"/>
+      <ATOM Name="HitPoints" Value="600"/>
       <ATOM Name="HitPointsRegenerateRate" Value="1.0"/>
-      <ATOM Name="Sap" Value="100"/>
+      <ATOM Name="Sap" Value="600"/>
       <ATOM Name="SapRegenerateRate" Value="1"/>
-      <ATOM Name="Stamina" Value="100"/>
+      <ATOM Name="Stamina" Value="600"/>
       <ATOM Name="StaminaRegenerateRate" Value="1"/>
     </STRUCT>
     <STRUCT Name="DefaultEquipment">
