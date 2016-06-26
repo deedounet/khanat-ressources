@@ -26,7 +26,6 @@
     <STRUCT Name="Consumable">
       <ATOM Name="EffectEmote" Value="drink"/>
     </STRUCT>
-    </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

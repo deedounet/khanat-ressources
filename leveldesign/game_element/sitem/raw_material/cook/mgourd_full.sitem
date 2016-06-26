@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<FORM Version="0.0" State="modified">
+  <PARENT Filename="_mc.sitem"/>
+  <PARENT Filename="_mfood.sitem"/>
+  <STRUCT>
+    <STRUCT Name="basics">
+      <ATOM Name="Drop or Sell" Value="true"/>
+      <ATOM Name="Bulk" Value="0.5"/>
+      <ATOM Name="Saleable" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="mp">
+      <ATOM Name="Family" Value="Undefined"/>
+      <ATOM Name="Group" Value="Food"/>
+      <ATOM Name="MpColor" Value="Beige"/>
+      <ATOM Name="MaxQuality" Value="50"/>
+      <ATOM Name="StatEnergy" Value="20"/>
+    </STRUCT>
+    <STRUCT Name="3d">
+      <ATOM Name="icon" Value="gourde2.png"/>
+      <ATOM Name="text overlay" Value="EAU"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

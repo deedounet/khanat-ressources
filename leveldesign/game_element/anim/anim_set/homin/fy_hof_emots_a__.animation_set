@@ -22,6 +22,396 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+  <STRUCT Name="firework_01">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkA.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+  <STRUCT Name="firework_02">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkB.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+  <STRUCT Name="firework_03">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkC.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+  <STRUCT Name="firework_04">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkD.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_05">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkE.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_06">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkF.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_07">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkG.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_08">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkH.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_09">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkI.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_10">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkG.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_11">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkK.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_12">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkL.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_13">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkM.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_14">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkN.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_15">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkO.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_16">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkP.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_17">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkQ.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_18">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkR.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_19">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="FireWorkS.ps"/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_20">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_21">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_22">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_23">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_24">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_25">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_26">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_27">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_28">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_29">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+   <STRUCT Name="firework_30">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+        </STRUCT>
+        </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

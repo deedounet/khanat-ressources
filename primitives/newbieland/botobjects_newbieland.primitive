@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="999"/>
+    <ALIAS LAST_GENERATED="1024"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -251,6 +251,443 @@
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="996"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+    </CHILD>
+    <CHILD TYPE="CPrimZone">
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>npc_manager</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>cook</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimAlias">
+        <ALIAS VALUE="1000"/>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+      </CHILD>
+      <CHILD TYPE="CPrimZone">
+        <PROPERTY TYPE="string">
+          <NAME>ai_activity</NAME>
+          <STRING>no_change</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>npc_zone</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>cook</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="1001"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>source_water</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="1002"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9019.513672" Y="-10586.568359" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>equipment</NAME>
+              <STRING>VPB:00</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>source1</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_source</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1003"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8919.109375" Y="-10608.517578" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>equipment</NAME>
+              <STRING>VPB:00</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>source2</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_source</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1006"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8830.560547" Y="-10687.030273" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>equipment</NAME>
+              <STRING>VPB:00</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>source3</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_source</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1007"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>bag</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="1010"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8814.579102" Y="-10625.726563" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>bag_flour</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_bag_b</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1011"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>klum</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="1017"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8945.349609" Y="-10542.730469" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>klum_flore</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_ju_s3_banana_tree</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1018"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8949.062500" Y="-10538.055664" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>klum_flore</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_ju_s3_banana_tree</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1019"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8958.686523" Y="-10548.642578" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>klum_flore</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_ju_s3_banana_tree</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1020"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8954.837891" Y="-10531.869141" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>klum_flore</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_ju_s3_banana_tree</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1021"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8947.791016" Y="-10549.727539" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>klum_flore</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_ju_s3_banana_tree</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1022"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8959.890625" Y="-10538.453125" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>klum_flore</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_ju_s3_banana_tree</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1023"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8953.291016" Y="-10543.402344" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>klum_flore</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_ju_s3_banana_tree</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1024"/>
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
                 <STRING>alias</STRING>

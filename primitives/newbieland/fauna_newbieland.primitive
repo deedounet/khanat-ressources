@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="4203"/>
+    <ALIAS LAST_GENERATED="4213"/>
     <CHILD TYPE="CPrimNode">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -606,6 +606,251 @@
         </CHILD>
         <CHILD TYPE="CPrimAlias">
           <ALIAS VALUE="4158"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>dynamic_region</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>nest_pendo</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>group_descriptions</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>group descriptions</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="4207"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>fauna_dyn_comp</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>food</NAME>
+              <STRING>activity_plant</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>nest_pendo</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string_array">
+              <NAME>rest</NAME>
+              <STRING>activity_plant</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="4212"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>group_template_fauna</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>count</NAME>
+                <STRING>5</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>creature_code</NAME>
+                <STRING>nest_pendo</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>nest_pendo</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>spawn_type</NAME>
+                <STRING>always</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>total_energy_value</NAME>
+                <STRING>0.01</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>weight_0_25</NAME>
+                <STRING>1</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>weight_25_50</NAME>
+                <STRING>1</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>weight_50_75</NAME>
+                <STRING>1</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>weight_75_100</NAME>
+                <STRING>1</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="4213"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>cell_zones</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>cell zones</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="4206"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>cell_zone</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>nest_pendo</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="4208"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimZone">
+              <PT X="8981.200195" Y="-10671.449219" Z="0.000000" SELECTED="true"/>
+              <PT X="9033.200195" Y="-10690.449219" Z="0.000000"/>
+              <PT X="9057.200195" Y="-10768.449219" Z="0.000000"/>
+              <PT X="8983.200195" Y="-10813.449219" Z="0.000000"/>
+              <PT X="8945.200195" Y="-10764.449219" Z="0.000000"/>
+              <PT X="8958.200195" Y="-10699.449219" Z="0.000000"/>
+              <PT X="8965.200195" Y="-10676.449219" Z="0.000000"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>cell</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>nest_pendo</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>geom_items</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>geom items</STRING>
+                </PROPERTY>
+                <CHILD TYPE="CPrimAlias">
+                  <ALIAS VALUE="4210"/>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>alias</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>alias</STRING>
+                  </PROPERTY>
+                </CHILD>
+                <CHILD TYPE="CPrimPoint">
+                  <PT X="8997.455078" Y="-10728.630859" Z="0.000000"/>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>dyn_fauna_zone</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>nest_pendo</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string_array">
+                    <NAME>properties</NAME>
+                    <STRING>activity_plant</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>radius</NAME>
+                    <STRING>50</STRING>
+                  </PROPERTY>
+                  <CHILD TYPE="CPrimAlias">
+                    <ALIAS VALUE="4211"/>
+                    <PROPERTY TYPE="string">
+                      <NAME>class</NAME>
+                      <STRING>alias</STRING>
+                    </PROPERTY>
+                    <PROPERTY TYPE="string">
+                      <NAME>name</NAME>
+                      <STRING>alias</STRING>
+                    </PROPERTY>
+                  </CHILD>
+                </CHILD>
+              </CHILD>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="4209"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="4205"/>
           <PROPERTY TYPE="string">
             <NAME>class</NAME>
             <STRING>alias</STRING>

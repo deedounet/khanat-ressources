@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.0 $" State="modified">
+  <PARENT Filename="_nestpendo_for.creature"/>
+  <PARENT Filename="_nestpendo_mp.creature"/>
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="PlayerSkillLevel" Value="1"/>
+      <ATOM Name="NbPlayers" Value="1"/>
+      <ATOM Name="PlayerHpLevel" Value="1"/>
+      <ATOM Name="NbHitToKillPlayer" Value="15"/>
+      <STRUCT Name="Characteristics">
+        <ATOM Name="DynamicEnergyValue" Value="0.00126"/>
+      </STRUCT>
+      <STRUCT Name="MovementSpeeds">
+        <ATOM Name="WalkSpeed" Value="0"/>
+        <ATOM Name="RunSpeed" Value="0"/>
+        <ATOM Name="GroupDispersion" Value="1"/>
+      </STRUCT>
+      <ATOM Name="life" Value="10"/>
+      <ATOM Name="AttackSpeed" Value="0"/>
+      <ATOM Name="LifeRegen" Value="0.1"/>
+      <ATOM Name="AttackLevel" Value="0"/>
+      <ATOM Name="DefenseLevel" Value="0"/>
+      <ATOM Name="XPLevel" Value="5"/>
+      <ATOM Name="TauntLevel" Value="0"/>
+      <ATOM Name="MeleeReachValue" Value="0"/>
+      <ATOM Name="RegionForce" Value="0"/>
+      <ATOM Name="ForceLevel" Value="0"/>
+      <ATOM Name="LocalCode" Value="0"/>
+      <ATOM Name="DodgeAsDefense" Value="false"/>
+    </STRUCT>
+    <STRUCT Name="3d data">
+      <ATOM Name="Scale" Value="1.3"/>
+      <ATOM Name="SoundFamily" Value="0"/>
+      <ATOM Name="SoundVariation" Value="0"/>
+      <ATOM Name="ForceDisplayCreatureName" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="Harvest">
+      <STRUCT Name="MP1">
+        <ATOM Name="MinQuantity" Value="2"/>
+        <ATOM Name="Quantity" Value="3"/>
+      </STRUCT>
+      <STRUCT Name="MP2">
+        <ATOM Name="MinQuantity" Value="1"/>
+        <ATOM Name="Quantity" Value="2"/>
+      </STRUCT>
+      <STRUCT Name="MP3">
+        <ATOM Name="MinQuantity" Value="0"/>
+        <ATOM Name="Quantity" Value="0"/>
+      </STRUCT>
+      <STRUCT Name="MP4">
+        <ATOM Name="MinQuantity" Value="0"/>
+        <ATOM Name="Quantity" Value="0"/>
+      </STRUCT>
+      <STRUCT Name="MP5">
+        <ATOM Name="MinQuantity" Value="0"/>
+        <ATOM Name="Quantity" Value="0"/>
+      </STRUCT>
+      <STRUCT Name="MP6">
+        <ATOM Name="MinQuantity" Value="0"/>
+        <ATOM Name="Quantity" Value="0"/>
+      </STRUCT>
+      <STRUCT Name="MP7">
+        <ATOM Name="MinQuantity" Value="0"/>
+        <ATOM Name="Quantity" Value="0"/>
+      </STRUCT>
+      <STRUCT Name="MP8">
+        <ATOM Name="MinQuantity" Value="0"/>
+        <ATOM Name="Quantity" Value="0"/>
+      </STRUCT>
+      <STRUCT Name="MP9">
+        <ATOM Name="MinQuantity" Value="0"/>
+        <ATOM Name="Quantity" Value="0"/>
+      </STRUCT>
+      <STRUCT Name="MP10">
+        <ATOM Name="MinQuantity" Value="0"/>
+        <ATOM Name="Quantity" Value="0"/>
+      </STRUCT>
+    </STRUCT>
+    <STRUCT Name="Properties">
+      <ATOM Name="LootHarvestState" Value="Harvestable"/>
+      <ATOM Name="XPGainCoef" Value="0"/>
+    </STRUCT>
+    <STRUCT Name="Combat">
+      <ATOM Name="AggroRadiusNotHungry" Value="0"/>
+      <ATOM Name="AggroRadiusHungry" Value="0"/>
+      <ATOM Name="AggroRadiusHunting" Value="0"/>
+      <ATOM Name="DistModulator" Value="0"/>
+      <ATOM Name="TargetModulator" Value="0"/>
+      <ATOM Name="LifeLevelModulator" Value="0"/>
+      <ATOM Name="CourageModulator" Value="0"/>
+      <ATOM Name="GroupCohesionModulator" Value="0"/>
+      <ATOM Name="AssistDist" Value="0"/>
+      <ATOM Name="AggroRadiusD1" Value="0"/>
+      <ATOM Name="AggroRadiusD2" Value="0"/>
+    </STRUCT>
+    <STRUCT Name="Protections">
+      <ATOM Name="PiercingMax" Value="20"/>
+      <ATOM Name="PiercingFactor" Value="20"/>
+      <ATOM Name="SlashingMax" Value="20"/>
+      <ATOM Name="SlashingFactor" Value="20"/>
+      <ATOM Name="BluntMax" Value="20"/>
+      <ATOM Name="BluntFactor" Value="20"/>
+      <ATOM Name="RotMax" Value="50"/>
+      <ATOM Name="RotFactor" Value="50"/>
+      <ATOM Name="AcidMax" Value="50"/>
+      <ATOM Name="AcidFactor" Value="50"/>
+      <ATOM Name="ColdMax" Value="50"/>
+      <ATOM Name="ColdFactor" Value="50"/>
+      <ATOM Name="FireMax" Value="50"/>
+      <ATOM Name="FireFactor" Value="50"/>
+      <ATOM Name="PoisonMax" Value="50"/>
+      <ATOM Name="PoisonFactor" Value="50"/>
+      <ATOM Name="ElectricityMax" Value="50"/>
+      <ATOM Name="ElectricityFactor" Value="50"/>
+      <ATOM Name="ShockMax" Value="50"/>
+      <ATOM Name="ShockFactor" Value="50"/>
+    </STRUCT>
+    <STRUCT Name="Resists">
+      <ATOM Name="Fear" Value="50"/>
+      <ATOM Name="Sleep" Value="50"/>
+      <ATOM Name="Stun" Value="50"/>
+      <ATOM Name="Root" Value="50"/>
+      <ATOM Name="Blind" Value="50"/>
+      <ATOM Name="Snare" Value="50"/>
+      <ATOM Name="Slow" Value="50"/>
+      <ATOM Name="Acid" Value="50"/>
+      <ATOM Name="Cold" Value="50"/>
+      <ATOM Name="Electricity" Value="50"/>
+      <ATOM Name="Fire" Value="50"/>
+      <ATOM Name="Poison" Value="50"/>
+      <ATOM Name="Rot" Value="50"/>
+    </STRUCT>
+    <STRUCT Name="Damage Shield">
+      <ATOM Name="Damage" Value="0"/>
+      <ATOM Name="Drained HP" Value="0"/>
+    </STRUCT>
+    <ATOM Name="category" Value="H"/>
+    <ATOM Name="race_code" Value="D"/>
+    <ATOM Name="group_assist" Value="hd"/>
+    <ATOM Name="creature_level" Value="0.5"/>
+    <ATOM Name="group_id" Value="HD"/>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
