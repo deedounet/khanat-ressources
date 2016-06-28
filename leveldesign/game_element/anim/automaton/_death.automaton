@@ -3,7 +3,6 @@
   <PARENT Filename="_parent.automaton"/>
   <STRUCT>
     <ATOM Name="mode" Value="death"/>
-
     <STRUCT Name="idle">
       <ATOM Name="on move forward"               Value=""/>
       <ATOM Name="on move backward"              Value=""/>
@@ -13,7 +12,6 @@
       <ATOM Name="on rotation right"             Value=""/>
       <ATOM Name="breakable on impact"           Value="false"/>
     </STRUCT>
-
     <STRUCT Name="mode states">
       <STRUCT Name="alert_mode">
         <ATOM Name="default next" Value="alert_mode"/>

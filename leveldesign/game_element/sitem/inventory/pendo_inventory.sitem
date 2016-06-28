@@ -6,8 +6,8 @@
       <ATOM Name="family" Value="bag"/>
     </STRUCT>
     <STRUCT Name="bag">
-      <ATOM Name="weight_max" Value="30.0"/>
-      <ATOM Name="bulk_max" Value="30.0"/>
+      <ATOM Name="weight_max" Value="999999999999999"/>
+      <ATOM Name="bulk_max" Value="999999999999999"/>
       <ATOM Name="slot_count" Value="16"/>
     </STRUCT>
   </STRUCT>

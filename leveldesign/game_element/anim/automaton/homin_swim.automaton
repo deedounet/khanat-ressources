@@ -8,7 +8,6 @@
       <ATOM Name="on move left"              Value="strafe_left"/>
       <ATOM Name="on move right"             Value="strafe_right"/>
     </STRUCT>
-
     <STRUCT Name="motion states">
       <STRUCT Name="idle_to_walk">
         <ATOM Name="on bad heading backward" Value="idle_to_backward"/>
