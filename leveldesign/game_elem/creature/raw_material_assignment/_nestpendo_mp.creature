@@ -3,7 +3,7 @@
   <STRUCT>
     <STRUCT Name="Harvest">
       <STRUCT Name="MP1">
-        <ATOM Name="AssociatedItem" Value="m0692chdca01.sitem"/>
+        <ATOM Name="AssociatedItem" Value="meggchdca01.sitem"/>
       </STRUCT>
       <STRUCT Name="MP2">
         <ATOM Name="AssociatedItem" Value="meggchdca01.sitem"/>

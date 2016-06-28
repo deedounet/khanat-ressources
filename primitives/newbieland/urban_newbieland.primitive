@@ -746,7 +746,7 @@
                 <STRING>mission_desc : qabb20160603b_DESC</STRING>
                 <STRING># give</STRING>
                 <STRING>set_obj_rp : qabb20160603b_OBJ</STRING>
-                <STRING>talk_to : disp_jimman : qabb20160603b_PHR</STRING>
+                <STRING>talk_to : disp_jimman : TEXT_qabb20160603b_0</STRING>
                 <STRING>recv_item : mgourd_empty 5 1 : disp_jimman</STRING>
                 <STRING>set_obj_rp : qabb20160603b_OBJ1</STRING>
                 <STRING>target_npc : bag_flour</STRING>
@@ -773,13 +773,17 @@
                 <STRING>give_item : mgourd_empty 1 1 : source1</STRING>
                 <STRING>add_compass_npc : disp_sipvandil</STRING>
                 <STRING>recv_item : mgourd_full 1 1 : source1</STRING>
-                <STRING># cook_bread</STRING>
-                <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603b_1 : ANSWER1 ANSWER_qabb20160603b_1 : ANSWER2 ANSWER_qabb20160603b_2</STRING>
-                <STRING># jump to ANSWER2</STRING>
-                <STRING>jump : ANSWER2</STRING>
+                <STRING># thanks</STRING>
+                <STRING>set_obj_rp : qabb20160603b_OBJ3</STRING>
+                <STRING>talk_to : disp_sipvandil : TEXT_qabb20160603b_1</STRING>
+                <STRING># cook</STRING>
+                <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603b_2 : ANSWER1 ANSWER_OK : ANSWER2 ANSWER_NO</STRING>
+                <STRING># jump to ANSWER1</STRING>
+                <STRING>jump : ANSWER1</STRING>
                 <STRING># ANSWER1</STRING>
                 <STRING>jump_point : ANSWER1</STRING>
-                <STRING>talk_to : disp_sipvandil : TEXT_qabb20160603b_2</STRING>
+                <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603b_2 : chat_end_resp ANSWER_OK</STRING>
+                <STRING>jump_point : chat_end_resp</STRING>
                 <STRING>jump : ANSWER2</STRING>
                 <STRING># ANSWER2</STRING>
                 <STRING>jump_point : ANSWER2</STRING>
@@ -832,17 +836,18 @@
                 <STRING># INTRO</STRING>
                 <STRING>dyn_chat : disp_jimman : TEXT_qabb20160607a_1 : INTRO_resp ANSWER_OK</STRING>
                 <STRING>jump_point : INTRO_resp</STRING>
-                <STRING># eggs</STRING>
-                <STRING>add_compass_place : nest_pendo</STRING>
+                <STRING># step_egg</STRING>
+                <STRING>add_compass_place : region_newbieland_shining_lake</STRING>
                 <STRING>set_obj_rp : qabb20160607a_OBJ</STRING>
                 <STRING>loot_mp : meggchdca01 10 5</STRING>
                 <STRING>set_obj_rp : qabb20160607a_OBJ2</STRING>
                 <STRING>give_item : meggchdca01 10 5 : disp_sipvandil</STRING>
-                <STRING>remove_compass_place : nest_pendo</STRING>
+                <STRING>remove_compass_place : region_newbieland_shining_lake</STRING>
                 <STRING># cadeau</STRING>
                 <STRING>set_obj_rp : qabb20160607a_OBJ3</STRING>
-                <STRING>talk_to : disp-sipvandil : TEXT_qabb20160607a_2</STRING>
-                <STRING>recv_item : fireworks_c 3 1 : disp-sipvandil</STRING>
+                <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160607a_2 : chat_end_resp ANSWER_OK</STRING>
+                <STRING>jump_point : chat_end_resp</STRING>
+                <STRING>recv_item : fireworks_c 3 1 : disp_sipvandil</STRING>
                 <STRING></STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimAlias">
