@@ -1,0 +1,26 @@
+﻿}
+
+qabb20160310a_TITLE ()
+{
+		qabb20160310a_TITLE	[Aider à nourrir les ra]
+
+}
+
+qabb20160310a_DESC ()
+{
+		qabb20160310a_DESC    [Allez voir Jimman pour aider à préparer le repas.]
+
+}
+
+qabb20160310a_OBJ ()
+{
+		qabb20160310a_OBJ    [Parlez à Jimman]
+
+}
+
+TEXT_qabb20160310a  ()
+{
+		TEXT_qabb20160310a    [Je suis jimman , l'intendant . j'ai besoin d'aide pour préparer un repas.(provisoire)]
+
+}
+
