@@ -1,0 +1,15 @@
+PNJ :
+disp_jimman  fct_dispensary_steward
+disp_sipvandil  fct_dispensary_cook
+
+creature :
+nest_pendo
+
+Mps :
+mgedga 
+meggchdca01
+
+caracteristique :
+trauma (vie)
+douleur (seve) pain
+oublie (stam) oblivion
