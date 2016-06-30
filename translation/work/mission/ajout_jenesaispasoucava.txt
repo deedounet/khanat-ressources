@@ -1,3 +1,5 @@
+A verifier 
+
 PNJ :
 disp_jimman  fct_dispensary_steward
 disp_sipvandil  fct_dispensary_cook
@@ -6,8 +8,14 @@ creature :
 nest_pendo
 
 Mps :
-mgedga 
+mgedja 
 meggchdca01
+
+
+
+
+Je n'ai pas encore trouvé
+
 
 caracteristique :
 trauma (vie)

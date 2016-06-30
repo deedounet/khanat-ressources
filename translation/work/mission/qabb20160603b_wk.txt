@@ -56,13 +56,13 @@ TEXT_qabb20160603b_2  ()
 
 ANSWER_qabb20160603b_1  ()
 {
-		TEXT_qabb20160603b_1    [Apprendre à faire le pain !]
+		ANSWER_qabb20160603b_1    [Apprendre à faire le pain !]
 
 }
 
 ANSWER_qabb20160603b_2  ()
 {
-		TEXT_qabb20160603b_2    [Je vous remercie, tenez un petit cadeau.]
+		ANSWER_qabb20160603b_2    [Je vous remercie, tenez un petit cadeau.]
 
 }
 

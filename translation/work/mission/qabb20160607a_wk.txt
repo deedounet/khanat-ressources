@@ -32,12 +32,12 @@ qabb20160603b_OBJ3 ()
 
 TEXT_qabb20160603b_1  ()
 {
-		TEXT_qabb20160603b_1    [Bonjour, il faut des oeufs à Sipvandil. Les nids sont cachés sous les buissons et ramassez les œufs en évitant de vous faire repérer en coupant les arbustes! Attention, cette quête présente un risque mortel. Et ramener les à Sipvandil .]
+		TEXT_qabb20160603b_1    [Les œufs servent à tout en cuisine ! Il y a un nid de pendos ici. *Montre un point sur la carte.* Les nids sont cachés sous les buissons et ramassez les œufs en évitant de vous faire repérer en coupant les arbustes! Fait attention à ce qu'il n'y ait pas de pendo quand tu ramasse les œufs, ils sont très possessifs… et leur venin peut tuer.]
 
 }
 
 TEXT_qabb20160603b_2  ()
 {
-		TEXT_qabb20160603b_2    [Les œufs servent à tout en cuisine ! Il y a un nid de pendos ici. *Montre un point sur la carte.* Fait attention à ce qu'il n'y ait pas de pendo quand tu ramasse les œufs, ils sont très possessifs… et leur venin peut tuer.]
+		TEXT_qabb20160603b_2    [Merci de m'avoir apporter ces oeufs]
 
 }
