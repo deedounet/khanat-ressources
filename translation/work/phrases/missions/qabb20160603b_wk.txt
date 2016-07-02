@@ -1,0 +1,71 @@
+qabb20160603b_TITLE ()
+{
+		qabb20160603b_TITLE	[Faites du pain]
+
+}
+
+qabb20160603b_DESC ()
+{
+		qabb20160603b_DESC    [Aidez Sipvandil le cuisinier à faire du pain.]
+
+}
+
+qabb20160603b_OBJ ()
+{
+		qabb20160603b_OBJ    [Apprenez à faire du pain]
+
+}
+
+qabb20160603b_OBJ1 ()
+{
+		qabb20160603b_OBJ1    [Trouvez un sac de farine]
+
+}
+
+qabb20160603b_OBJ2 ()
+{
+		qabb20160603b_OBJ2    [Remplissez une gourde d'eau]
+
+}
+
+qabb20160603b_OBJ3 ()
+{
+		qabb20160603b_OBJ3    [Parlez à Silvandil]
+
+}
+
+TEXT_qabb20160603b_0  ()
+{
+		TEXT_qabb20160603b_0    [Amène de la farine et de l'eau au cuisinier pour qu'il puisse faire le pain. Ça lui fera ça de moins à courir…]
+
+}
+
+TEXT_qabb20160603b_1  ()
+{
+		TEXT_qabb20160603b_1    [Merci de m'avoir tout apporté.]
+
+}
+
+TEXT_qabb20160603b_2  ()
+{
+		TEXT_qabb20160603b_2    [ui ki'e. Je te libère, le reste est un peu long. À moins que tu ne souhaites savoir comment on fait le pain ?]
+
+}
+
+ANSWER_qabb20160603b_1  ()
+{
+		ANSWER_qabb20160603b_1    [Apprendre à faire le pain !]
+
+}
+
+ANSWER_qabb20160603b_2  ()
+{
+		ANSWER_qabb20160603b_2    [Je te remercie. Tiens, un petit cadeau ! ]
+
+}
+
+TEXT_qabb20160603b_3  ()
+{
+		TEXT_qabb20160603b_3    [J'ai du levain dans ce bol, je vais lui ajouter de la farine. Quant à l'eau que tu m'as amené, je lui ajoute du sel. Je le dissous puis je le verse sur le levain et la farine. Ensuite il faut pétrir le pâton… Une fois qu'il a la bonne consistance, je vais le mettre à lever, là, au coin du feu. Dans 4 heures, je le pétrirai rapidement une seconde fois, pour le mettre en forme, puis il lèveras une seconde fois, juste une heure. Enfin, je le mettrai dans le four à pain. Donc, si tu reviens dans environ 5 à 6 heures, tu auras du pain tout chaud sorti du four !]
+
+}

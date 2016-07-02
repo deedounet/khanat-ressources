@@ -34,3 +34,8 @@
 #include "phrases/phrase_pvp_wk.txt"
 #include "phrases/phrase_fame_wk.txt"
 #include "phrases/phrase_animal_wk.txt"
+#include "phrases/missions/qabb20160310a_wk.txt"
+#include "phrases/missions/qabb20160603a_wk.txt"
+#include "phrases/missions/qabb20160603b_wk.txt"
+#include "phrases/missions/qabb20160607a_wk.txt"
+

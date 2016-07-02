@@ -1,0 +1,227 @@
+﻿// DIFF_VERSION 2
+// DIFF ADD
+// HASH_VALUE 353C024B807FC409
+ANSWER_qabb20160603b_1 ()
+{
+		ANSWER_qabb20160603b_1	[Apprendre à  faire le pain !]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 1C0EC3A3D435C328
+ANSWER_qabb20160603b_2 ()
+{
+		ANSWER_qabb20160603b_2	[Je te remercie. Tiens, un petit cadeau ! ]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 1FB1BC0198E25AAE
+TEXT_qabb20160310a ()
+{
+		TEXT_qabb20160310a	[Je suis jimman, l'intendant. Veux-tu nous aider à préparer à manger pour le groupe ?]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 1B72DCBD119C1BFD
+TEXT_qabb20160603a_1 ()
+{
+		TEXT_qabb20160603a_1	[Je suis Sylvandil, le cuisinier. Merci pour les gedjas.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 583B4EA641017EF8
+TEXT_qabb20160603b_0 ()
+{
+		TEXT_qabb20160603b_0	[Apporte de la farine et de l'eau au cuisinier pour qu'il puisse faire le pain. Ça lui fera ça de moins à  faire !]
+
+}
+
+// DIFF ADD
+// HASH_VALUE BE51C9FF4E2F5D92
+TEXT_qabb20160603b_1 ()
+{
+		TEXT_qabb20160603b_1	[Merci de m'avoir tout apporté.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 547F6F0B0CCFD516
+TEXT_qabb20160603b_2 ()
+{
+		TEXT_qabb20160603b_2	[ui ki'e. Je te libère, le reste est un peu long. À moins que tu ne souhaites savoir comment on fait le pain ?]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 2BE5A88DAC4DD9CE
+TEXT_qabb20160603b_3 ()
+{
+		TEXT_qabb20160603b_3	[J'ai du levain dans ce bol, je vais lui ajouter de la farine. Je mélange l'eau que tu m'as apportée avec du sel. Je le dissous puis je verse le tout sur le levain et la farine. Ensuite il faut pétrir le pâton. Une fois qu'il a la bonne consistance, je vais le mettre à  lever, là , au coin du feu. Dans 4 heures, je le pétrirai rapidement une seconde fois, pour le mettre en forme, puis il lèvera une seconde fois, juste une heure. Enfin, je le mettrai dans le four à pain. Donc, si tu reviens dans environ 5 à 6 heures, tu auras du pain tout chaud sorti du four !]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 2C6F293096B65D68
+TEXT_qabb20160607a_1 ()
+{
+		TEXT_qabb20160607a_1	[Les œufs servent à tout en cuisine ! Il y a un nid de pendos ici. *Montre un point sur la carte.* Les nids sont cachés sous les buissons. Ramasse les œufs en évitant de te faire repérer ! Fais attention à ce qu'il n'y ait pas de pendo quand tu ramasses les œufs, ils sont très possessifs ! Et leur venin peut tuer.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE B6FCE8AE49866D40
+TEXT_qabb20160607a_2 ()
+{
+		TEXT_qabb20160607a_2	[Merci de m'avoir apporté ces œufs]
+
+}
+
+// DIFF ADD
+// HASH_VALUE FCA3FB6EC1F6BC51
+qabb20160310a_DESC ()
+{
+		qabb20160310a_DESC	[Allez voir Jimman pour aider à préparer le repas.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE D251141C7D848768
+qabb20160310a_OBJ ()
+{
+		qabb20160310a_OBJ	[Parlez à Jimman]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 04BEBBF9213C20D6
+qabb20160310a_TITLE ()
+{
+		qabb20160310a_TITLE	[Aidez à nourrir les ra]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 9B2D85A39121CA90
+qabb20160603a_DESC ()
+{
+		qabb20160603a_DESC	[Déterrer 1 kilogramme de gedja, de délicieux tubercules, et les amener à Sipvandil le cuisinier.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 73AD74296EB94436
+qabb20160603a_OBJ ()
+{
+		qabb20160603a_OBJ	[Récolter 1 kilo de gedja]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 54C142F0B6BFDD8E
+qabb20160603a_OBJ1 ()
+{
+		qabb20160603a_OBJ1	[Donner 1 kilo de gedja à Silvandil]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 9AEAB8CFC3A587B9
+qabb20160603a_TITLE ()
+{
+		qabb20160603a_TITLE	[Ramasser des gedja]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 8258892A1DD94FA8
+qabb20160603b_DESC ()
+{
+		qabb20160603b_DESC	[Aidez Sipvandil le cuisinier à faire du pain.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE C16E3040280AEB9B
+qabb20160603b_OBJ ()
+{
+		qabb20160603b_OBJ	[Apprenez à faire du pain]
+
+}
+
+// DIFF ADD
+// HASH_VALUE A31BC7F3A8AB6489
+qabb20160603b_OBJ1 ()
+{
+		qabb20160603b_OBJ1	[Trouvez un sac de farine]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 10F02BE2D8096408
+qabb20160603b_OBJ2 ()
+{
+		qabb20160603b_OBJ2	[Remplissez une gourde d'eau]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 1E7EF16C582393C5
+qabb20160603b_OBJ3 ()
+{
+		qabb20160603b_OBJ3	[Parlez à Silvandil]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 52C30ED692B5A315
+qabb20160603b_TITLE ()
+{
+		qabb20160603b_TITLE	[Faites du pain]
+
+}
+
+// DIFF ADD
+// HASH_VALUE FF7B8F5183EFC55A
+qabb20160607a_DESC ()
+{
+		qabb20160607a_DESC	[Trouvez un nid de pendo et ramassez les œufs en évitant de vous faire repérer ! Attention, cette quête présente un risque mortel. Et ramenez les à Sipvandil .]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 75EC7CE26F499048
+qabb20160607a_OBJ ()
+{
+		qabb20160607a_OBJ	[Trouvez des nids de pendo]
+
+}
+
+// DIFF ADD
+// HASH_VALUE A7DB78E172913225
+qabb20160607a_OBJ2 ()
+{
+		qabb20160607a_OBJ1	[Donnez les œufs à Sipvandil]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 1F7EED6C586493C4
+qabb20160607a_OBJ3 ()
+{
+		qabb20160607a_OBJ2	[Parlez à Sipvandil]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 07CBC15DF30650E8
+qabb20160607a_TITLE ()
+{
+		qabb20160607a_TITLE	[Ramener des œufs de pendo]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

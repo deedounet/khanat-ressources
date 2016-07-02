@@ -1,0 +1,142 @@
+// DIFF ADD 9 	
+// HASH_VALUE 6B88D3F21AD63EB0	
+// INDEX 0	
+ANSWER_qabb20160603b_1	[Learn to cook the bread !]
+	
+// DIFF ADD 10 	
+// HASH_VALUE 0376B0B987391780	
+// INDEX 1	
+ANSWER_qabb20160603b_2	[Thank you. Here is some gift for you! ]
+	
+// DIFF ADD 3343 	
+// HASH_VALUE D243B0CD935CB36D	
+// INDEX 2	
+TEXT_qabb20160310a	[I am jimman, the stewart. Do you want to help us to prepare a meal for the group?]
+	
+// DIFF ADD 3344 	
+// HASH_VALUE 536BD49F4E2DA032	
+// INDEX 3	
+TEXT_qabb20160603a_1	[I am Sylvandil, the cook. many thanks for the gedja.]
+	
+// DIFF ADD 3345 	
+// HASH_VALUE 1E3F7144188EC0CD	
+// INDEX 4	
+TEXT_qabb20160603b_0	[Bring some flour and water to the cook for him to prepare the bread. It will really help him!]
+	
+// DIFF ADD 3346 	
+// HASH_VALUE A5FA6CB39AF29124	
+// INDEX 5	
+TEXT_qabb20160603b_1	[Thanks for you to bring all this to me.]
+	
+// DIFF ADD 3347 	
+// HASH_VALUE 722D7FC1E4A1A491	
+// INDEX 6	
+TEXT_qabb20160603b_2	[ui ki'e. You can go, the other part is somewhat long. Or perhaps you want to know how to make bread?]
+	
+// DIFF ADD 3348 	
+// HASH_VALUE 1FA7A3449D514692	
+// INDEX 7	
+TEXT_qabb20160603b_3	[I have some leaven in this bowl, I will add some flour. Then I mix th water you brought to me with some salt. I let it dissolve gently and then pour it on the flour and leaven. Then I must knead for some time until it is ready to have some rest, as I do. I put it next to the fire. Not to far, but not too near. In say four hours, I will knead it again, quickly, to give it its shape.  Then another short period of rest, around an hour. Then I put it in the oven. So if you come back in say five to six hours, you will get some warm bread directly from the fire!]
+	
+// DIFF ADD 3349 	
+// HASH_VALUE 164B4CA46489B61F	
+// INDEX 8	
+TEXT_qabb20160607a_1	[Eggs can be used for so many things in a kitchen! Here is a pendos' nest *Show some place on the map*. The nests are often hidden in bushes. Get some eggs without being noticed! Be careful that there will be no pendo around you when you get them, they protect their eggs! And their venom can kill!]
+	
+// DIFF ADD 3350 	
+// HASH_VALUE A8B5879DE63167AD	
+// INDEX 9	
+TEXT_qabb20160607a_2	[Thanks for the eggs]
+	
+// DIFF ADD 3370 	
+// HASH_VALUE F987D2EF695718CA	
+// INDEX 10	
+qabb20160310a_DESC	[Go and see Jimman to help for the meal.]
+	
+// DIFF ADD 3371 	
+// HASH_VALUE EDB48C7794A58F44	
+// INDEX 11	
+qabb20160310a_OBJ	[Talk to Jimman]
+	
+// DIFF ADD 3372 	
+// HASH_VALUE E034B04271C9E80A	
+// INDEX 12	
+qabb20160310a_TITLE	[Help to feed the ra]
+	
+// DIFF ADD 3373 	
+// HASH_VALUE ABE3310843926107	
+// INDEX 13	
+qabb20160603a_DESC	[Harvest one kilogram of gedja, delicious roots, and bring them to Sipvandil the cook.]
+	
+// DIFF ADD 3374 	
+// HASH_VALUE 9AD99C8587895051	
+// INDEX 14	
+qabb20160603a_OBJ	[Harvest one kilogram of gedja]
+	
+// DIFF ADD 3375 	
+// HASH_VALUE C50B30AA245E1C82	
+// INDEX 15	
+qabb20160603a_OBJ1	[Give one kilogram of gedja to Silvandil]
+	
+// DIFF ADD 3376 	
+// HASH_VALUE AC28348F99096458	
+// INDEX 16	
+qabb20160603a_TITLE	[Harvest gedja]
+	
+// DIFF ADD 3377 	
+// HASH_VALUE C168BA6EA2CBF179	
+// INDEX 17	
+qabb20160603b_DESC	[Help Sipvandil the cook to make some bread.]
+	
+// DIFF ADD 3378 	
+// HASH_VALUE 924878F1EC8A42A1	
+// INDEX 18	
+qabb20160603b_OBJ	[Learn to cook bread]
+	
+// DIFF ADD 3379 	
+// HASH_VALUE 175877349F572877	
+// INDEX 19	
+qabb20160603b_OBJ1	[Find some flour]
+	
+// DIFF ADD 3380 	
+// HASH_VALUE 6E38EC4E6ED01428	
+// INDEX 20	
+qabb20160603b_OBJ2	[Fill a watertank]
+	
+// DIFF ADD 3381 	
+// HASH_VALUE AD38C83356698F62	
+// INDEX 21	
+qabb20160603b_OBJ3	[Talk to Silvandil]
+	
+// DIFF ADD 3382 	
+// HASH_VALUE 56593B335FE6A059	
+// INDEX 22	
+qabb20160603b_TITLE	[Make some bread]
+	
+// DIFF ADD 3383 	
+// HASH_VALUE C4661B381D4F0DB8	
+// INDEX 23	
+qabb20160607a_DESC	[Find a pendo's nest and get some eggs without being noticed. Beware, this task can be risky, even deadly. Bring the eggs back to Sipvandil.]
+	
+// DIFF ADD 3384 	
+// HASH_VALUE 2A02E8832EB0D8D5	
+// INDEX 24	
+qabb20160607a_OBJ	[Find pendo's nests]
+	
+// DIFF ADD 3385 	
+// HASH_VALUE A8E738F06AB56B7F	
+// INDEX 25	
+qabb20160607a_OBJ1	[Give the eggs to Sipvandil]
+	
+// DIFF ADD 3386 	
+// HASH_VALUE AE79C83356698F62	
+// INDEX 26	
+qabb20160607a_OBJ2	[Talk to Sipvandil]
+	
+// DIFF ADD 3387 	
+// HASH_VALUE E980B78A9BB95F53	
+// INDEX 27	
+qabb20160607a_TITLE	[Bring back pendos' eggs]
+	
+	
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE	

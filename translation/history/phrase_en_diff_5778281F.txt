@@ -1,0 +1,227 @@
+﻿// DIFF_VERSION 2
+// DIFF ADD
+// HASH_VALUE 353C0268807FC409
+ANSWER_qabb20160603b_1 ()
+{
+		ANSWER_qabb20160603b_1	[Learn to cook the bread !]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 1C0EC3A3D435C328
+ANSWER_qabb20160603b_2 ()
+{
+		ANSWER_qabb20160603b_2	[Thank you. Here is some gift for you! ]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 3C4F3DDFA9643A5B
+TEXT_qabb20160310a ()
+{
+		TEXT_qabb20160310a	[I am jimman, the stewart. Do you want to help us to prepare a meal for the group?]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 1B72DCBD119C1BFD
+TEXT_qabb20160603a_1 ()
+{
+		TEXT_qabb20160603a_1	[I am Sylvandil, the cook. many thanks for the gedja.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 48EB6D3423805D68
+TEXT_qabb20160603b_0 ()
+{
+		TEXT_qabb20160603b_0	[Bring some flour and water to the cook for him to prepare the bread. It will really help him!]
+
+}
+
+// DIFF ADD
+// HASH_VALUE BE6FDB254E2F5D92
+TEXT_qabb20160603b_1 ()
+{
+		TEXT_qabb20160603b_1	[Thanks for you to bring all this to me.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 4658AD1D2A1BD46F
+TEXT_qabb20160603b_2 ()
+{
+		TEXT_qabb20160603b_2	[ui ki'e. You can go, the other part is somewhat long. Or perhaps you want to know how to make bread?]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 0D9C13FFB894DA76
+TEXT_qabb20160603b_3 ()
+{
+		TEXT_qabb20160603b_3	[I have some leaven in this bowl, I will add some flour. Then I mix th water you brought to me with some salt. I let it dissolve gently and then pour it on the flour and leaven. Then I must knead for some time until it is ready to have some rest, as I do. I put it next to the fire. Not to far, but not too near. In say four hours, I will knead it again, quickly, to give it its shape.  Then another short period of rest, around an hour. Then I put it in the oven. So if you come back in say five to six hours, you will get some warm bread directly from the fire!]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 8BEB1759479CD18C
+TEXT_qabb20160607a_1 ()
+{
+		TEXT_qabb20160607a_1	[Eggs can be used for so many things in a kitchen! Here is a pendos' nest *Show some place on the map*. The nests are often hidden in bushes. Get some eggs without being noticed! Be careful that there will be no pendo around you when you get them, they protect their eggs! And their venom can kill!]
+
+}
+
+// DIFF ADD
+// HASH_VALUE F5F7BD5BCC6FE1B5
+TEXT_qabb20160607a_2 ()
+{
+		TEXT_qabb20160607a_2	[Thanks for the eggs]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 4F2E33EA8A6ACF84
+qabb20160310a_DESC ()
+{
+		qabb20160310a_DESC	[Go and see Jimman to help for the meal.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 9AF312CBC0C4876C
+qabb20160310a_OBJ ()
+{
+		qabb20160310a_OBJ	[Talk to Jimman]
+
+}
+
+// DIFF ADD
+// HASH_VALUE AA91CEDFB5D770D0
+qabb20160310a_TITLE ()
+{
+		qabb20160310a_TITLE	[Help to feed the ra]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 2810CC7F34E570BC
+qabb20160603a_DESC ()
+{
+		qabb20160603a_DESC	[Harvest one kilogram of gedja, delicious roots, and bring them to Sipvandil the cook.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 4C30B7DEEB5A28D4
+qabb20160603a_OBJ ()
+{
+		qabb20160603a_OBJ	[Harvest one kilogram of gedja]
+
+}
+
+// DIFF ADD
+// HASH_VALUE E1098EFD7160E938
+qabb20160603a_OBJ1 ()
+{
+		qabb20160603a_OBJ1	[Give one kilogram of gedja to Silvandil]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 9AEAB8CFC3A587B9
+qabb20160603a_TITLE ()
+{
+		qabb20160603a_TITLE	[Harvest gedja]
+
+}
+
+// DIFF ADD
+// HASH_VALUE C00D4DBBEB812FB9
+qabb20160603b_DESC ()
+{
+		qabb20160603b_DESC	[Help Sipvandil the cook to make some bread.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE E58462386C99188C
+qabb20160603b_OBJ ()
+{
+		qabb20160603b_OBJ	[Learn to cook bread]
+
+}
+
+// DIFF ADD
+// HASH_VALUE A31BC7F3A8AB6489
+qabb20160603b_OBJ1 ()
+{
+		qabb20160603b_OBJ1	[Find some flour]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 10F02BE2D8096408
+qabb20160603b_OBJ2 ()
+{
+		qabb20160603b_OBJ2	[Fill a watertank]
+
+}
+
+// DIFF ADD
+// HASH_VALUE ABC63D7913C49F6F
+qabb20160603b_OBJ3 ()
+{
+		qabb20160603b_OBJ3	[Talk to Silvandil]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 52C30ED692B5A315
+qabb20160603b_TITLE ()
+{
+		qabb20160603b_TITLE	[Make some bread]
+
+}
+
+// DIFF ADD
+// HASH_VALUE D43EFD2D85631E32
+qabb20160607a_DESC ()
+{
+		qabb20160607a_DESC	[Find a pendo's nest and get some eggs without being noticed. Beware, this task can be risky, even deadly. Bring the eggs back to Sipvandil.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 75EC7CE26F499048
+qabb20160607a_OBJ ()
+{
+		qabb20160607a_OBJ	[Find pendo's nests]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 7E170BDFF1BBF0E0
+qabb20160607a_OBJ2 ()
+{
+		qabb20160607a_OBJ1	[Give the eggs to Sipvandil]
+
+}
+
+// DIFF ADD
+// HASH_VALUE ACC6397913C4AF6E
+qabb20160607a_OBJ3 ()
+{
+		qabb20160607a_OBJ2	[Talk to Sipvandil]
+
+}
+
+// DIFF ADD
+// HASH_VALUE F5FCA934EAB254BD
+qabb20160607a_TITLE ()
+{
+		qabb20160607a_TITLE	[Bring back pendos' eggs]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

@@ -1,0 +1,41 @@
+qabb20160607a_TITLE ()
+{
+		qabb20160607a_TITLE	[Ramener des œufs de pendo]
+
+}
+
+qabb20160607a_DESC ()
+{
+		qabb20160607a_DESC    [Trouvez un nid de pendo et ramassez les œufs en évitant de vous faire repérer ! Attention, cette quête présente un risque mortel. Et ramenez les à Sipvandil .]
+
+}
+
+qabb20160607a_OBJ ()
+{
+		qabb20160607a_OBJ    [Trouvez des nids de pendo]
+
+}
+
+qabb20160607a_OBJ2 ()
+{
+		qabb20160607a_OBJ1    [Donnez les œufs à Sipvandil]
+
+}
+
+qabb20160607a_OBJ3 ()
+{
+		qabb20160607a_OBJ2    [Parlez à Sipvandil]
+
+}
+
+TEXT_qabb20160607a_1  ()
+{
+		TEXT_qabb20160607a_1    [Les œufs servent à tout en cuisine ! Il y a un nid de pendos ici. *Montre un point sur la carte.* Les nids sont cachés sous les buissons. Ramasse les œufs en évitant de te faire repérer en coupant les arbustes! Fais attention à ce qu'il n'y ait pas de pendo quand tu ramasses les œufs, ils sont très possessifs… Et leur venin peut tuer.]
+
+}
+
+TEXT_qabb20160607a_2  ()
+{
+		TEXT_qabb20160607a_2    [Merci de m'avoir apporté ces œufs]
+
+}

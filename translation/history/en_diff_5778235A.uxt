@@ -1,0 +1,387 @@
+// DIFF SWAP 650 464   (swaping uiEM_Drink and uiEM_Drunk)	
+	
+// DIFF SWAP 650 465   (swaping uiEM_Drunk and uiEM_Dutiful)	
+	
+// DIFF SWAP 650 466   (swaping uiEM_Dutiful and uiEM_Eager)	
+	
+// DIFF SWAP 650 467   (swaping uiEM_Eager and uiEM_Earnest)	
+	
+// DIFF SWAP 650 468   (swaping uiEM_Earnest and uiEM_Ecstatic)	
+	
+// DIFF SWAP 650 469   (swaping uiEM_Ecstatic and uiEM_Egoistic)	
+	
+// DIFF SWAP 650 470   (swaping uiEM_Egoistic and uiEM_Embarrassed)	
+	
+// DIFF SWAP 650 471   (swaping uiEM_Embarrassed and uiEM_Emotional)	
+	
+// DIFF SWAP 650 472   (swaping uiEM_Emotional and uiEM_Emotionless)	
+	
+// DIFF SWAP 650 473   (swaping uiEM_Emotionless and uiEM_Emphatic)	
+	
+// DIFF SWAP 650 474   (swaping uiEM_Emphatic and uiEM_Encouraging)	
+	
+// DIFF SWAP 650 475   (swaping uiEM_Encouraging and uiEM_Enraged)	
+	
+// DIFF SWAP 650 476   (swaping uiEM_Enraged and uiEM_Enthusiastic)	
+	
+// DIFF SWAP 650 477   (swaping uiEM_Enthusiastic and uiEM_Envious)	
+	
+// DIFF SWAP 650 478   (swaping uiEM_Envious and uiEM_Evil)	
+	
+// DIFF SWAP 650 479   (swaping uiEM_Evil and uiEM_Excited)	
+	
+// DIFF SWAP 650 480   (swaping uiEM_Excited and uiEM_Exercise)	
+	
+// DIFF SWAP 650 481   (swaping uiEM_Exercise and uiEM_Exhausted)	
+	
+// DIFF SWAP 650 482   (swaping uiEM_Exhausted and uiEM_Exuberant)	
+	
+// DIFF SWAP 650 483   (swaping uiEM_Exuberant and uiEM_Faithful)	
+	
+// DIFF SWAP 650 484   (swaping uiEM_Faithful and uiEM_Fanatical)	
+	
+// DIFF SWAP 650 485   (swaping uiEM_Fanatical and uiEM_Fastidious)	
+	
+// DIFF SWAP 650 486   (swaping uiEM_Fastidious and uiEM_Fearful)	
+	
+// DIFF SWAP 650 487   (swaping uiEM_Fearful and uiEM_Firm)	
+	
+// DIFF SWAP 650 488   (swaping uiEM_Firm and uiEM_FBT)	
+	
+// DIFF SWAP 650 489   (swaping uiEM_FBT and uiEM_Forgive)	
+	
+// DIFF SWAP 650 490   (swaping uiEM_Forgive and uiEM_Fraternal)	
+	
+// DIFF SWAP 650 491   (swaping uiEM_Fraternal and uiEM_Friendly)	
+	
+// DIFF SWAP 650 492   (swaping uiEM_Friendly and uiEM_Frustrated)	
+	
+// DIFF SWAP 650 493   (swaping uiEM_Frustrated and uiEM_Funny)	
+	
+// DIFF SWAP 650 494   (swaping uiEM_Funny and uiEM_Generous)	
+	
+// DIFF SWAP 650 495   (swaping uiEM_Generous and uiEM_Gimme5)	
+	
+// DIFF SWAP 650 496   (swaping uiEM_Gimme5 and uiEM_Gloomy)	
+	
+// DIFF SWAP 650 497   (swaping uiEM_Gloomy and uiEM_Goofy)	
+	
+// DIFF SWAP 650 498   (swaping uiEM_Goofy and uiEM_Great)	
+	
+// DIFF SWAP 650 499   (swaping uiEM_Great and uiEM_Grin)	
+	
+// DIFF SWAP 650 500   (swaping uiEM_Grin and uiEM_Grumpy)	
+	
+// DIFF SWAP 650 501   (swaping uiEM_Grumpy and uiEM_Guilty)	
+	
+// DIFF SWAP 650 502   (swaping uiEM_Guilty and uiEM_Happy)	
+	
+// DIFF SWAP 650 503   (swaping uiEM_Happy and uiEM_Hardsilence)	
+	
+// DIFF SWAP 650 504   (swaping uiEM_Hardsilence and uiEM_Haughty)	
+	
+// DIFF SWAP 650 505   (swaping uiEM_Haughty and uiEM_Helpful)	
+	
+// DIFF SWAP 650 506   (swaping uiEM_Helpful and uiEM_Heroic)	
+	
+// DIFF SWAP 650 507   (swaping uiEM_Heroic and uiEM_Hiha)	
+	
+// DIFF SWAP 650 508   (swaping uiEM_Hiha and uiEM_Honest)	
+	
+// DIFF SWAP 650 509   (swaping uiEM_Honest and uiEM_Hopeful)	
+	
+// DIFF SWAP 650 510   (swaping uiEM_Hopeful and uiEM_Hopeless)	
+	
+// DIFF SWAP 650 511   (swaping uiEM_Hopeless and uiEM_Humble)	
+	
+// DIFF SWAP 650 512   (swaping uiEM_Humble and uiEM_Hungry)	
+	
+// DIFF SWAP 650 513   (swaping uiEM_Hungry and uiEM_Hurried)	
+	
+// DIFF SWAP 650 514   (swaping uiEM_Hurried and uiEM_Hurry)	
+	
+// DIFF SWAP 650 515   (swaping uiEM_Hurry and uiEM_Hysterical)	
+	
+// DIFF SWAP 650 516   (swaping uiEM_Hysterical and uiEM_Imploring)	
+	
+// DIFF SWAP 650 517   (swaping uiEM_Imploring and uiEM_Indifferent)	
+	
+// DIFF SWAP 650 518   (swaping uiEM_Indifferent and uiEM_Indignant)	
+	
+// DIFF SWAP 650 519   (swaping uiEM_Indignant and uiEM_Indulgent)	
+	
+// DIFF SWAP 650 520   (swaping uiEM_Indulgent and uiEM_Innocent)	
+	
+// DIFF SWAP 650 521   (swaping uiEM_Innocent and uiEM_Insecure)	
+	
+// DIFF SWAP 650 522   (swaping uiEM_Insecure and uiEM_Interested)	
+	
+// DIFF SWAP 650 523   (swaping uiEM_Interested and uiEM_Jealous)	
+	
+// DIFF SWAP 650 524   (swaping uiEM_Jealous and uiEM_Joyful)	
+	
+// DIFF SWAP 650 525   (swaping uiEM_Joyful and uiEM_Kind)	
+	
+// DIFF SWAP 650 526   (swaping uiEM_Kind and uiEM_Lazy)	
+	
+// DIFF SWAP 650 527   (swaping uiEM_Lazy and uiEM_Loathing)	
+	
+// DIFF SWAP 650 528   (swaping uiEM_Loathing and uiEM_Logical)	
+	
+// DIFF SWAP 650 529   (swaping uiEM_Logical and uiEM_Lonely)	
+	
+// DIFF SWAP 650 530   (swaping uiEM_Lonely and uiEM_Loud)	
+	
+// DIFF SWAP 650 531   (swaping uiEM_Loud and uiEM_Love)	
+	
+// DIFF SWAP 650 532   (swaping uiEM_Love and uiEM_Loyal)	
+	
+// DIFF SWAP 650 533   (swaping uiEM_Loyal and uiEM_Lustful)	
+	
+// DIFF SWAP 650 534   (swaping uiEM_Lustful and uiEM_Malevolent)	
+	
+// DIFF SWAP 650 535   (swaping uiEM_Malevolent and uiEM_Malicious)	
+	
+// DIFF SWAP 650 536   (swaping uiEM_Malicious and uiEM_Mean)	
+	
+// DIFF SWAP 650 537   (swaping uiEM_Mean and uiEM_Megalomaniac)	
+	
+// DIFF SWAP 650 538   (swaping uiEM_Megalomaniac and uiEM_Merciful)	
+	
+// DIFF SWAP 650 539   (swaping uiEM_Merciful and uiEM_Mischievous)	
+	
+// DIFF SWAP 650 540   (swaping uiEM_Mischievous and uiEM_Mocking)	
+	
+// DIFF SWAP 650 541   (swaping uiEM_Mocking and uiEM_Nervous)	
+	
+// DIFF SWAP 650 542   (swaping uiEM_Nervous and uiEM_Neutral)	
+	
+// DIFF SWAP 650 543   (swaping uiEM_Neutral and uiEM_Nice)	
+	
+// DIFF SWAP 650 544   (swaping uiEM_Nice and uiEM_Noclue)	
+	
+// DIFF SWAP 650 545   (swaping uiEM_Noclue and uiEM_None)	
+	
+// DIFF SWAP 650 546   (swaping uiEM_None and uiEM_Nostalgic)	
+	
+// DIFF SWAP 650 547   (swaping uiEM_Nostalgic and uiEM_Obnoxious)	
+	
+// DIFF SWAP 650 548   (swaping uiEM_Obnoxious and uiEM_Obscure)	
+	
+// DIFF SWAP 650 549   (swaping uiEM_Obscure and uiEM_Obsessed)	
+	
+// DIFF SWAP 650 550   (swaping uiEM_Obsessed and uiEM_Offended)	
+	
+// DIFF SWAP 650 551   (swaping uiEM_Offended and uiEM_Optimistic)	
+	
+// DIFF SWAP 650 552   (swaping uiEM_Optimistic and uiEM_Over)	
+	
+// DIFF SWAP 650 553   (swaping uiEM_Over and uiEM_Pacific)	
+	
+// DIFF SWAP 650 554   (swaping uiEM_Pacific and uiEM_Painful)	
+	
+// DIFF SWAP 650 555   (swaping uiEM_Painful and uiEM_Panick)	
+	
+// DIFF SWAP 650 556   (swaping uiEM_Panick and uiEM_Patient)	
+	
+// DIFF SWAP 650 557   (swaping uiEM_Patient and uiEM_Patriotic)	
+	
+// DIFF SWAP 650 558   (swaping uiEM_Patriotic and uiEM_Pedantic)	
+	
+// DIFF SWAP 650 559   (swaping uiEM_Pedantic and uiEM_Perturbed)	
+	
+// DIFF SWAP 650 560   (swaping uiEM_Perturbed and uiEM_Pessimistic)	
+	
+// DIFF SWAP 650 561   (swaping uiEM_Pessimistic and uiEM_Petulant)	
+	
+// DIFF SWAP 650 562   (swaping uiEM_Petulant and uiEM_Philosophical)	
+	
+// DIFF SWAP 650 563   (swaping uiEM_Philosophical and uiEM_Pitying)	
+	
+// DIFF SWAP 650 564   (swaping uiEM_Pitying and uiEM_Playful)	
+	
+// DIFF SWAP 650 565   (swaping uiEM_Playful and uiEM_Pleased)	
+	
+// DIFF SWAP 650 566   (swaping uiEM_Pleased and uiEM_Point)	
+	
+// DIFF SWAP 650 567   (swaping uiEM_Point and uiEM_Pointback)	
+	
+// DIFF SWAP 650 568   (swaping uiEM_Pointback and uiEM_Pointfront)	
+	
+// DIFF SWAP 650 569   (swaping uiEM_Pointfront and uiEM_Pointleft)	
+	
+// DIFF SWAP 650 570   (swaping uiEM_Pointleft and uiEM_Pointright)	
+	
+// DIFF SWAP 650 571   (swaping uiEM_Pointright and uiEM_Polite)	
+	
+// DIFF SWAP 650 572   (swaping uiEM_Polite and uiEM_Pompous)	
+	
+// DIFF SWAP 650 573   (swaping uiEM_Pompous and uiEM_Powerful)	
+	
+// DIFF SWAP 650 574   (swaping uiEM_Powerful and uiEM_Praying)	
+	
+// DIFF SWAP 650 575   (swaping uiEM_Praying and uiEM_Proud)	
+	
+// DIFF SWAP 650 576   (swaping uiEM_Proud and uiEM_Provocative)	
+	
+// DIFF SWAP 650 577   (swaping uiEM_Provocative and uiEM_Puzzled)	
+	
+// DIFF SWAP 650 578   (swaping uiEM_Puzzled and uiEM_Quiet)	
+	
+// DIFF SWAP 650 579   (swaping uiEM_Quiet and uiEM_Ready)	
+	
+// DIFF SWAP 650 580   (swaping uiEM_Ready and uiEM_Reassured)	
+	
+// DIFF SWAP 650 581   (swaping uiEM_Reassured and uiEM_Rebellious)	
+	
+// DIFF SWAP 650 582   (swaping uiEM_Rebellious and uiEM_Reckless)	
+	
+// DIFF SWAP 650 583   (swaping uiEM_Reckless and uiEM_Regretful)	
+	
+// DIFF SWAP 650 584   (swaping uiEM_Regretful and uiEM_Relaxed)	
+	
+// DIFF SWAP 650 585   (swaping uiEM_Relaxed and uiEM_Relieved)	
+	
+// DIFF SWAP 650 586   (swaping uiEM_Relieved and uiEM_Reluctant)	
+	
+// DIFF SWAP 650 587   (swaping uiEM_Reluctant and uiEM_Remorseful)	
+	
+// DIFF SWAP 650 588   (swaping uiEM_Remorseful and uiEM_Resigned)	
+	
+// DIFF SWAP 650 589   (swaping uiEM_Resigned and uiEM_Respectful)	
+	
+// DIFF SWAP 650 590   (swaping uiEM_Respectful and uiEM_Revengeful)	
+	
+// DIFF SWAP 650 591   (swaping uiEM_Revengeful and uiEM_Rice)	
+	
+// DIFF SWAP 650 592   (swaping uiEM_Rice and uiEM_Ridicule)	
+	
+// DIFF SWAP 650 593   (swaping uiEM_Ridicule and uiEM_Righteous)	
+	
+// DIFF SWAP 650 594   (swaping uiEM_Righteous and uiEM_Romantic)	
+	
+// DIFF SWAP 650 595   (swaping uiEM_Romantic and uiEM_Rude)	
+	
+// DIFF SWAP 650 596   (swaping uiEM_Rude and uiEM_Sad)	
+	
+// DIFF SWAP 650 597   (swaping uiEM_Sad and uiEM_Sarcastic)	
+	
+// DIFF SWAP 650 598   (swaping uiEM_Sarcastic and uiEM_Scared)	
+	
+// DIFF SWAP 650 599   (swaping uiEM_Scared and uiEM_Scolding)	
+	
+// DIFF SWAP 650 600   (swaping uiEM_Scolding and uiEM_Sedate)	
+	
+// DIFF SWAP 650 601   (swaping uiEM_Sedate and uiEM_Selfish)	
+	
+// DIFF SWAP 650 602   (swaping uiEM_Selfish and uiEM_Serious)	
+	
+// DIFF SWAP 650 603   (swaping uiEM_Serious and uiEM_Shameless)	
+	
+// DIFF SWAP 650 604   (swaping uiEM_Shameless and uiEM_Sheepish)	
+	
+// DIFF SWAP 650 605   (swaping uiEM_Sheepish and uiEM_Shifty)	
+	
+// DIFF SWAP 650 606   (swaping uiEM_Shifty and uiEM_Shocked)	
+	
+// DIFF SWAP 650 607   (swaping uiEM_Shocked and uiEM_Shutup)	
+	
+// DIFF SWAP 650 608   (swaping uiEM_Shutup and uiEM_Shy)	
+	
+// DIFF SWAP 650 609   (swaping uiEM_Shy and uiEM_Sigh)	
+	
+// DIFF SWAP 650 610   (swaping uiEM_Sigh and uiEM_Silence)	
+	
+// DIFF SWAP 650 611   (swaping uiEM_Silence and uiEM_Silly)	
+	
+// DIFF SWAP 650 612   (swaping uiEM_Silly and uiEM_Sincerely)	
+	
+// DIFF SWAP 650 613   (swaping uiEM_Sincerely and uiEM_Sleepy)	
+	
+// DIFF SWAP 650 614   (swaping uiEM_Sleepy and uiEM_Sly)	
+	
+// DIFF SWAP 650 615   (swaping uiEM_Sly and uiEM_Smack)	
+	
+// DIFF SWAP 650 616   (swaping uiEM_Smack and uiEM_Smug)	
+	
+// DIFF SWAP 650 617   (swaping uiEM_Smug and uiEM_Sorry)	
+	
+// DIFF SWAP 650 618   (swaping uiEM_Sorry and uiEM_Spiteful)	
+	
+// DIFF SWAP 650 619   (swaping uiEM_Spiteful and uiEM_Squeamish)	
+	
+// DIFF SWAP 650 620   (swaping uiEM_Squeamish and uiEM_Stop)	
+	
+// DIFF SWAP 650 621   (swaping uiEM_Stop and uiEM_Strong)	
+	
+// DIFF SWAP 650 622   (swaping uiEM_Strong and uiEM_Stubborn)	
+	
+// DIFF SWAP 650 623   (swaping uiEM_Stubborn and uiEM_Suffering)	
+	
+// DIFF SWAP 650 624   (swaping uiEM_Suffering and uiEM_Surprised)	
+	
+// DIFF SWAP 650 625   (swaping uiEM_Surprised and uiEM_Suspicious)	
+	
+// DIFF SWAP 650 626   (swaping uiEM_Suspicious and uiEM_Taunting)	
+	
+// DIFF SWAP 650 627   (swaping uiEM_Taunting and uiEM_Terrified)	
+	
+// DIFF SWAP 650 628   (swaping uiEM_Terrified and uiEM_Thankful)	
+	
+// DIFF SWAP 650 629   (swaping uiEM_Thankful and uiEM_Thirsty)	
+	
+// DIFF SWAP 650 630   (swaping uiEM_Thirsty and uiEM_Thoughtful)	
+	
+// DIFF SWAP 650 631   (swaping uiEM_Thoughtful and uiEM_Tired)	
+	
+// DIFF SWAP 650 632   (swaping uiEM_Tired and uiEM_Tolerant)	
+	
+// DIFF SWAP 650 633   (swaping uiEM_Tolerant and uiEM_Troubled)	
+	
+// DIFF SWAP 650 634   (swaping uiEM_Troubled and uiEM_Uncertain)	
+	
+// DIFF SWAP 650 635   (swaping uiEM_Uncertain and uiEM_Unhappy)	
+	
+// DIFF SWAP 650 636   (swaping uiEM_Unhappy and uiEM_Unwilling)	
+	
+// DIFF SWAP 650 637   (swaping uiEM_Unwilling and uiEM_Vengeful)	
+	
+// DIFF SWAP 650 638   (swaping uiEM_Vengeful and uiEM_Wait)	
+	
+// DIFF SWAP 650 639   (swaping uiEM_Wait and uiEM_Warm)	
+	
+// DIFF SWAP 650 640   (swaping uiEM_Warm and uiEM_Wary)	
+	
+// DIFF SWAP 650 641   (swaping uiEM_Wary and uiEM_Wave)	
+	
+// DIFF SWAP 650 642   (swaping uiEM_Wave and uiEM_Whine)	
+	
+// DIFF SWAP 650 643   (swaping uiEM_Whine and uiEM_Wicked)	
+	
+// DIFF SWAP 650 644   (swaping uiEM_Wicked and uiEM_Wise)	
+	
+// DIFF SWAP 650 645   (swaping uiEM_Wise and uiEM_Wistful)	
+	
+// DIFF SWAP 650 646   (swaping uiEM_Wistful and uiEM_Worried)	
+	
+// DIFF SWAP 650 647   (swaping uiEM_Worried and uiEM_Wounded)	
+	
+// DIFF SWAP 650 648   (swaping uiEM_Wounded and uiEM_Yawn)	
+	
+// DIFF REMOVED 649 	
+// HASH_VALUE 34020B2B76420B3C	
+// INDEX 185	
+uiEM_Youandme	[YOU AND ME]
+	
+// DIFF REMOVED 650 	
+// HASH_VALUE 6C98E4246C98E424	
+// INDEX 186	
+uimInfos	[Info]
+	
+// DIFF REMOVED 651 	
+// HASH_VALUE 1C8983949FA4B3AE	
+// INDEX 187	
+uiDesertRawMats	[Desert Exotic Raw Materials]
+	
+	
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE	

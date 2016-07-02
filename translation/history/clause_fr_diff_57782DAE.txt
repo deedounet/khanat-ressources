@@ -1,0 +1,142 @@
+// DIFF ADD 11 	
+// HASH_VALUE 27198F81EA6A932B	
+// INDEX 0	
+ANSWER_qabb20160603b_1	[Apprendre à  faire le pain !]
+	
+// DIFF ADD 12 	
+// HASH_VALUE 42CCD4FC0E543F16	
+// INDEX 1	
+ANSWER_qabb20160603b_2	[Je te remercie. Tiens, un petit cadeau ! ]
+	
+// DIFF ADD 3729 	
+// HASH_VALUE C79AE7A81BCB96CE	
+// INDEX 2	
+TEXT_qabb20160310a	[Je suis jimman, l'intendant. Veux-tu nous aider à préparer à manger pour le groupe ?]
+	
+// DIFF ADD 3730 	
+// HASH_VALUE 6D2396686E1365D4	
+// INDEX 3	
+TEXT_qabb20160603a_1	[Je suis Sylvandil, le cuisinier. Merci pour les gedja.]
+	
+// DIFF ADD 3731 	
+// HASH_VALUE 7F07D8D3DB6E074B	
+// INDEX 4	
+TEXT_qabb20160603b_0	[Apporte de la farine et de l'eau au cuisinier pour qu'il puisse faire le pain. Ça lui fera ça de moins à  faire !]
+	
+// DIFF ADD 3732 	
+// HASH_VALUE AAB6D8FD6AC6753C	
+// INDEX 5	
+TEXT_qabb20160603b_1	[Merci de m'avoir tout apporté.]
+	
+// DIFF ADD 3733 	
+// HASH_VALUE 86A24FDA59DB4734	
+// INDEX 6	
+TEXT_qabb20160603b_2	[ui ki'e. Je te libère, le reste est un peu long. À moins que tu ne souhaites savoir comment on fait le pain ?]
+	
+// DIFF ADD 3734 	
+// HASH_VALUE 141B55E1E01FAD16	
+// INDEX 7	
+TEXT_qabb20160603b_3	[J'ai du levain dans ce bol, je vais lui ajouter de la farine. Je mélange l'eau que tu m'as apportée avec du sel. Je le dissous puis je verse le tout sur le levain et la farine. Ensuite il faut pétrir le pâton. Une fois qu'il a la bonne consistance, je vais le mettre à  lever, là , au coin du feu. Dans 4 heures, je le pétrirai rapidement une seconde fois, pour le mettre en forme, puis il lèvera une seconde fois, juste une heure. Enfin, je le mettrai dans le four à pain. Donc, si tu reviens dans environ 5 à 6 heures, tu auras du pain tout chaud sorti du four !]
+	
+// DIFF ADD 3735 	
+// HASH_VALUE A3234CF7DE6EB56C	
+// INDEX 8	
+TEXT_qabb20160607a_1	[Les œufs servent à tout en cuisine ! Il y a un nid de pendos ici. *Montre un point sur la carte.* Les nids sont cachés sous les buissons. Ramasse les œufs en évitant de te faire repérer ! Fais attention à ce qu'il n'y ait pas de pendo quand tu ramasses les œufs, ils sont très possessifs ! Et leur venin peut tuer.]
+	
+// DIFF ADD 3736 	
+// HASH_VALUE 28F65C20087A5B6E	
+// INDEX 9	
+TEXT_qabb20160607a_2	[Merci de m'avoir apporté ces œufs]
+	
+// DIFF ADD 3757 	
+// HASH_VALUE 562EC78D8B7ED74F	
+// INDEX 10	
+qabb20160310a_DESC	[Allez voir Jimman pour aider à préparer le repas.]
+	
+// DIFF ADD 3758 	
+// HASH_VALUE 2A591C1BACFBA7AD	
+// INDEX 11	
+qabb20160310a_OBJ	[Parlez à Jimman]
+	
+// DIFF ADD 3759 	
+// HASH_VALUE 057B8C7F452F2A3E	
+// INDEX 12	
+qabb20160310a_TITLE	[Aidez à nourrir les ra]
+	
+// DIFF ADD 3760 	
+// HASH_VALUE B0CF959B92F48E34	
+// INDEX 13	
+qabb20160603a_DESC	[Déterrer 1 kilogramme de gedja, de délicieux tubercules, et les amener à Sipvandil le cuisinier.]
+	
+// DIFF ADD 3761 	
+// HASH_VALUE 6970A7289848E4A6	
+// INDEX 14	
+qabb20160603a_OBJ	[Récolter 1 kilo de gedja]
+	
+// DIFF ADD 3762 	
+// HASH_VALUE EA68050DF63053B4	
+// INDEX 15	
+qabb20160603a_OBJ1	[Donner 1 kilo de gedja à Silvandil]
+	
+// DIFF ADD 3763 	
+// HASH_VALUE A55364416AE5BC65	
+// INDEX 16	
+qabb20160603a_TITLE	[Ramasser des gedja]
+	
+// DIFF ADD 3764 	
+// HASH_VALUE 5C71E25C5D8BDEC1	
+// INDEX 17	
+qabb20160603b_DESC	[Aidez Sipvandil le cuisinier à faire du pain.]
+	
+// DIFF ADD 3765 	
+// HASH_VALUE D96796C230699C9B	
+// INDEX 18	
+qabb20160603b_OBJ	[Apprenez à faire du pain]
+	
+// DIFF ADD 3766 	
+// HASH_VALUE EE54CB8282365CBF	
+// INDEX 19	
+qabb20160603b_OBJ1	[Trouvez un sac de farine]
+	
+// DIFF ADD 3767 	
+// HASH_VALUE 2656D88B99866FA4	
+// INDEX 20	
+qabb20160603b_OBJ2	[Remplissez une gourde d'eau]
+	
+// DIFF ADD 3768 	
+// HASH_VALUE 62C406F947A5D0B6	
+// INDEX 21	
+qabb20160603b_OBJ3	[Parlez à Silvandil]
+	
+// DIFF ADD 3769 	
+// HASH_VALUE EC895B9496539C34	
+// INDEX 22	
+qabb20160603b_TITLE	[Faites du pain]
+	
+// DIFF ADD 3770 	
+// HASH_VALUE E5544ABAE5FEBD3A	
+// INDEX 23	
+qabb20160607a_DESC	[Trouvez un nid de pendo et ramassez les œufs en évitant de vous faire repérer ! Attention, cette quête présente un risque mortel. Et ramenez les à Sipvandil .]
+	
+// DIFF ADD 3771 	
+// HASH_VALUE 48AA40479B29A8C9	
+// INDEX 24	
+qabb20160607a_OBJ	[Trouvez des nids de pendo]
+	
+// DIFF ADD 3772 	
+// HASH_VALUE 5AE3AFED173514B9	
+// INDEX 25	
+qabb20160607a_OBJ1	[Donnez les œufs à Sipvandil]
+	
+// DIFF ADD 3773 	
+// HASH_VALUE 63C406F947A5E0B6	
+// INDEX 26	
+qabb20160607a_OBJ2	[Parlez à Sipvandil]
+	
+// DIFF ADD 3774 	
+// HASH_VALUE C479F44599C9B898	
+// INDEX 27	
+qabb20160607a_TITLE	[Ramener des œufs de pendo]
+	
+	
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE	
