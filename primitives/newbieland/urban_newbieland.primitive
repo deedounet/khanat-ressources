@@ -778,12 +778,12 @@
                 <STRING>set_obj_rp : qabb20160603b_OBJ3</STRING>
                 <STRING>talk_to : disp_sipvandil : TEXT_qabb20160603b_1</STRING>
                 <STRING># cook</STRING>
-                <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603b_2 : ANSWER1 ANSWER_qabb20160603b_1 : ANSWER_qabb20160603b_2</STRING>
+                <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603b_2 : ANSWER1 ANSWER_qabb20160603b_1 : ANSWER2 ANSWER_qabb20160603b_2</STRING>
                 <STRING># jump to ANSWER1</STRING>
                 <STRING>jump : ANSWER1</STRING>
                 <STRING># ANSWER1</STRING>
                 <STRING>jump_point : ANSWER1</STRING>
-                <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603b_3 : chat_end_resp ANSWER_qabb20160603b_2</STRING>
+                <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603b_3 : chat_end_resp ANSWER_qabb20160603b_3</STRING>
                 <STRING>jump_point : chat_end_resp</STRING>
                 <STRING>jump : ANSWER2</STRING>
                 <STRING># ANSWER2</STRING>
