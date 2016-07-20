@@ -744,9 +744,9 @@
                 <STRING>#script</STRING>
                 <STRING>mission_title : qabb20160603b_TITLE</STRING>
                 <STRING>mission_desc : qabb20160603b_DESC</STRING>
-                <STRING># give</STRING>
-                <STRING>set_obj_rp : qabb20160603b_OBJ</STRING>
-                <STRING>talk_to : disp_jimman : TEXT_qabb20160603b_0</STRING>
+                <STRING># INTRO</STRING>
+                <STRING>dyn_chat : disp_jimman : TEXT_qabb20160603b_0 : INTRO_resp ANSWER_OK</STRING>
+                <STRING>jump_point : INTRO_resp</STRING>
                 <STRING>recv_item : mgourd_empty 5 1 : disp_jimman</STRING>
                 <STRING>add_compass_npc : bag_flour</STRING>
                 <STRING>set_obj_rp : qabb20160603b_OBJ1</STRING>
