@@ -3,11 +3,10 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSXPA"/>
-      <ATOM Name="SabrinaCost" Value="0"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
-      <ATOM Name="Action Nature" Value="UNKNOWN"/>
       <ATOM Name="MinCastTime" Value="0"/>
-      <ATOM Name="SPCost" Value="0"/>
+      <ATOM Name="MaxCastTime" Value="0"/>
+      <ATOM Name="MinRange" Value="255"/>
+      <ATOM Name="MaxRange" Value="255"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="BK_power.tga"/>

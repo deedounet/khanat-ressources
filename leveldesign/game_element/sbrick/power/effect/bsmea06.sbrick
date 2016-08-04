@@ -3,17 +3,19 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSXEA"/>
-      <ATOM Name="IndexInFamily" Value="6"/>
       <ATOM Name="SabrinaCost" Value="0"/>
-      <ATOM Name="SPCost" Value="0"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SP 0"/>
-      <ATOM Name="Action Nature" Value="UNKNOWN"/>
-      <ATOM Name="Skill" Value="unknown"/>
+      <ATOM Name="Property 0"/>
+      <ATOM Name="Property 1" Value="NEEDED_BRICK_FLAG:BalanceHp"/>
+      <ATOM Name="LearnRequiresOneOfSkills"/>
+      <ATOM Name="Skill"/>
       <ATOM Name="ForbiddenDef" Value="POWER"/>
       <ATOM Name="ForbiddenExclude" Value="POWER:HEAL"/>
+      <ATOM Name="LearnRequiresBricks"/>
+      <ATOM Name="MinRange" Value="0"/>
+      <ATOM Name="MaxRange" Value="0"/>
     </STRUCT>
     <STRUCT Name="Client">
-      <ATOM Name="Icon" Value="ICO_balance_hp.tga"/>
+      <ATOM Name="Icon" Value="ICO_Balance_hp.tga"/>
       <ATOM Name="IconBack" Value="EF_Back.tga"/>
       <ATOM Name="IconOver"/>
     </STRUCT>
