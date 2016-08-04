@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.3 $" State="modified">
+  <STRUCT>
+    <ATOM Name="brick 0" Value="bcpa22.sbrick"/>
+    <ATOM Name="brick 1" Value="bczaca01.sbrick"/>
+    <ATOM Name="usable_by_player" Value="true"/>
+    <ATOM Name="castable" Value="true"/>
+    <ATOM Name="ShowInActionProgression" Value="false"/>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

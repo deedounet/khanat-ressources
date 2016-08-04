@@ -4,8 +4,6 @@
    <ATOM Name="brick 0" Value="bsxpa01.sbrick"/>
    <ATOM Name="brick 1" Value="bsdea03.sbrick"/>
    <ATOM Name="brick 2" Value="bsdma01.sbrick"/>
-    <ATOM Name="usable_by_player" Value="true"/>
-    <ATOM Name="castable" Value="true"/>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>
