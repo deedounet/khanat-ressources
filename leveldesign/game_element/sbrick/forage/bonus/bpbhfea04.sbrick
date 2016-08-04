@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.2 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BPBHFEA"/>
+      <ATOM Name="Property 0" Value="BONUS_FG_EXTRACTION_TIME_GC:20"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Time_Bonus.tga"/>
+      <ATOM Name="IconBack" Value="PA_Back.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+</FORM>

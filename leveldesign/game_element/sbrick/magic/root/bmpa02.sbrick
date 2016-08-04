@@ -11,16 +11,13 @@
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Atysian.tga"/>
       <ATOM Name="IconBack" Value="MP_Back_Offensive.tga"/>
+      <ATOM Name="IconOver" Value="MP_Over_Link.tga"/>
     </STRUCT>
     <STRUCT Name="Mandatory">
-      <ATOM Name="f0" Value="BMOETEA"/>
+      <ATOM Name="f0" Value="BMOELEA"/>
     </STRUCT>
-    <STRUCT Name="Optional">
-      <ATOM Name="f0" Value="BMOF"/>
-      <ATOM Name="f1" Value="BMOG"/>
-      <ATOM Name="f2" Value="BMOH"/>
-      <ATOM Name="f3" Value="BMOV"/>
-	  <ATOM Name="f4" Value="BMOR"/>
+	<STRUCT Name="Optional">
+      <ATOM Name="f0" Value="BMOR"/>
     </STRUCT>
     <STRUCT Name="Credit">
       <ATOM Name="f0" Value="BMCA"/>

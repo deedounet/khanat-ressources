@@ -3,7 +3,6 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BFOA"/>
-      <ATOM Name="IndexInFamily" Value="1"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="SPECIAL_HIT"/>

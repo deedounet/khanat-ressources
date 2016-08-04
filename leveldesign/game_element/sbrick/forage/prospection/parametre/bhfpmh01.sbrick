@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.5 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BHFPMH"/>
+      <ATOM Name="IndexInFamily" Value="1"/>
+      <ATOM Name="SabrinaCost" Value="5"/>
+      <ATOM Name="SPCost" Value="20"/>
+      <ATOM Name="Property 0" Value="FG_SRC_TIME: 5"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Source_Time.tga"/>
+      <ATOM Name="IconBack" Value="PA_Back.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+</FORM>

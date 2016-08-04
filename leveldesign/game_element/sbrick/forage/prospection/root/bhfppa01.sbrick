@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.8 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BHFPPA"/>
+      <ATOM Name="IndexInFamily" Value="1"/>
+      <ATOM Name="SabrinaCost" Value="10"/>
+      <ATOM Name="SPCost" Value="10"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
+      <ATOM Name="Skill" Value="SHF"/>
+      <ATOM Name="AvoidCyclic" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Prospecting.tga"/>
+      <ATOM Name="IconBack" Value="FO_Back.tga"/>
+    </STRUCT>
+    <STRUCT Name="Optional">
+      <ATOM Name="f0" Value="BHFPPOA"/>
+      <ATOM Name="f1" Value="BHFPPOB"/>
+      <ATOM Name="f2" Value="BHFPPOC"/>
+      <ATOM Name="f3" Value="BHFPPOD"/>
+      <ATOM Name="f4" Value="BHFPPOE"/>
+      <ATOM Name="f5" Value="BHFPPOF"/>
+      <ATOM Name="f6" Value="BHFPPOG"/>
+      <ATOM Name="f7" Value="BHFPPOH"/>
+      <ATOM Name="f8" Value="BHFPPOI"/>
+      <ATOM Name="f9" Value="BHFPPOJ"/>
+      <ATOM Name="f10" Value="BHFPPOK"/>
+      <ATOM Name="f11" Value="BHFPPOL"/>
+      <ATOM Name="f12" Value="BHFPSOA"/>
+    </STRUCT>
+    <STRUCT Name="Credit">
+      <ATOM Name="f0" Value="BHFPCA"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

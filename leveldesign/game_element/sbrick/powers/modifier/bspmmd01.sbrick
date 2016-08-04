@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.2 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BSMMD"/>
+      <ATOM Name="IndexInFamily" Value="63"/>
+      <ATOM Name="Property 0" Value="SP_HEAL:Sap:100:0:0:Heal"/>
+      <ATOM Name="Property 1"/>
+      <ATOM Name="Property 2"/>
+      <ATOM Name="Skill" Value="unknown"/>
+      <ATOM Name="ForbiddenDef" Value="HEAL_SAP"/>
+      <ATOM Name="ForbiddenExclude" Value="HEAL_SAP"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Sap.tga"/>
+      <ATOM Name="IconBack" Value="PA_Back.tga"/>
+      <ATOM Name="IconOver" Value="PA_Over_More.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.14 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BFCC"/>
+      <ATOM Name="SabrinaCost" Value="-10"/>
+      <ATOM Name="SPCost" Value="10"/>
+      <ATOM Name="Property 0" Value="OPENING_1:Dodge"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 10"/>
+      <ATOM Name="Skill" Value="SFM"/>
+      <ATOM Name="ForbiddenDef" Value="OPENING"/>
+      <ATOM Name="ForbiddenExclude" Value="OPENING"/>
+      <ATOM Name="LearnRequiresBricks" Value="bfma02"/>
+      <ATOM Name="AvoidCyclic" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Dodge.tga"/>
+      <ATOM Name="IconBack" Value="CP_Back.tga"/>
+      <ATOM Name="IconOver" Value="CP_Over_Opening.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.1 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BSCMA"/>
+      <ATOM Name="SabrinaCost" Value="0"/>
+      <ATOM Name="SPCost" Value="0"/>
+      <ATOM Name="Property 0" Value="SP_HEAL:HitPoints:0:20:30:HealHpC"/>
+      <ATOM Name="Property 1"/>
+      <ATOM Name="Property 2"/>
+      <ATOM Name="LearnRequiresOneOfSkills"/>
+      <ATOM Name="Skill"/>
+      <ATOM Name="ForbiddenDef"/>
+      <ATOM Name="ForbiddenExclude"/>
+      <ATOM Name="LearnRequiresBricks"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon"/>
+      <ATOM Name="IconBack"/>
+      <ATOM Name="IconOver"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+</FORM>

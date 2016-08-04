@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FORM Revision="$Revision: 1.19 $" State="modified">
+<FORM Revision="$Revision: 1.15 $" State="modified">
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BMPA"/>
@@ -11,16 +11,13 @@
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Atysian.tga"/>
       <ATOM Name="IconBack" Value="MP_Back_Offensive.tga"/>
+      <ATOM Name="IconOver" Value="MP_Over_Link.tga"/>
     </STRUCT>
     <STRUCT Name="Mandatory">
-      <ATOM Name="f0" Value="BMOETEA"/>
+      <ATOM Name="f0" Value="BMOALEA"/>
     </STRUCT>
-    <STRUCT Name="Optional">
-      <ATOM Name="f0" Value="BMOF"/>
-      <ATOM Name="f1" Value="BMOG"/>
-      <ATOM Name="f2" Value="BMOH"/>
-      <ATOM Name="f3" Value="BMOV"/>
-	  <ATOM Name="f4" Value="BMOR"/>
+	<STRUCT Name="Optional">
+      <ATOM Name="f0" Value="BMOR"/>
     </STRUCT>
     <STRUCT Name="Credit">
       <ATOM Name="f0" Value="BMCA"/>
@@ -33,5 +30,7 @@
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
-  <LOG></LOG>
+  <LOG>Thu Jun 17 15:53:02 2004 (coutelas) .Basics.MinCastTime = 20
+Tue Jul 13 15:53:01 2004 (coutelas) .Basics.MinCastTime = 27
+Tue Jul 13 15:54:31 2004 (coutelas) .Basics.MinCastTime = 28</LOG>
 </FORM>

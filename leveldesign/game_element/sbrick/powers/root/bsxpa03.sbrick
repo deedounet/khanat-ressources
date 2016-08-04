@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.1 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BSXPA"/>
+      <ATOM Name="Property 0" Value="NEEDED_BRICK_FLAG:Aura"/>
+      <ATOM Name="MinCastTime" Value="0"/>
+      <ATOM Name="MaxCastTime" Value="0"/>
+      <ATOM Name="MinRange" Value="255"/>
+      <ATOM Name="MaxRange" Value="255"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="BK_Aura.tga"/>
+      <ATOM Name="IconBack" Value="BK_Aura.tga"/>
+    </STRUCT>
+    <STRUCT Name="Mandatory">
+      <ATOM Name="f0" Value="BSCEA"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
