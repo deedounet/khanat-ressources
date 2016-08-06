@@ -1,70 +1,77 @@
 <?xml version="1.0"?>
-<FORM Revision="$Revision: 1.45 $" State="modified">
+<FORM Revision="$Revision: 1.12 $" State="modified">
   <PARENT Filename="_formuli.creature"/>
   <PARENT Filename="_ai_herbivore_craintif.creature"/>
   <PARENT Filename="_medium_slashing_armor_set.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="Race" Value="arma_mount"/>
+      <ATOM Name="Race" Value="arma mount"/>
       <ATOM Name="DamageLocalisationTable" Value="quadruped"/>
-      <ATOM Name="Size" Value="small"/>
-      <ATOM Name="Profile" Value="caster healer"/>
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="very low"/>
+        <ATOM Name="HitPoints" Value="default"/>
         <ATOM Name="Sap" Value="default"/>
-        <ATOM Name="Stamina" Value="very low"/>
+        <ATOM Name="Stamina" Value="default"/>
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">
-          <ATOM Name="Item" Value="armamonte_chest.item"/>
+          <ATOM Name="Item" Value="TR_MO_arma_mount.shape"/>
         </STRUCT>
         <STRUCT Name="Legs">
-          <ATOM Name="Item" Value="medium_slashing_legs.item"/>
+          <ATOM Name="Item" Value="heavy_blunt_slashing_piercing_legs.item"/>
         </STRUCT>
         <STRUCT Name="Arms">
-          <ATOM Name="Item" Value="medium_slashing_arms.item"/>
+          <ATOM Name="Item" Value="heavy_blunt_slashing_piercing_arms.item"/>
         </STRUCT>
         <STRUCT Name="Hands">
-          <ATOM Name="Item" Value="medium_slashing_hands.item"/>
+          <ATOM Name="Item" Value="heavy_blunt_slashing_piercing_hands.item"/>
         </STRUCT>
         <STRUCT Name="Feet">
-          <ATOM Name="Item" Value="medium_slashing_feet.item"/>
+          <ATOM Name="Item" Value="heavy_blunt_slashing_piercing_feet.item"/>
         </STRUCT>
         <STRUCT Name="Head">
-          <ATOM Name="Item" Value="medium_slashing_head.item"/>
+          <ATOM Name="Item" Value="heavy_blunt_slashing_piercing_head.item"/>
         </STRUCT>
       </STRUCT>
-      <STRUCT Name="MovementSpeeds">
-        <ATOM Name="WalkSpeed" Value="&quot;3d data.Scale&quot;*1.1"/>
-        <ATOM Name="RunSpeed" Value="&quot;3d data.Scale&quot;*3.536918"/>
-      </STRUCT>
+      <ATOM Name="type" Value="pet"/>
     </STRUCT>
     <STRUCT Name="3d data">
-      <ATOM Name="Skel" Value="TR_MO_arma_mount.skel"/>
+      <ATOM Name="Skel" Value="TR_MO_Arma_mount.skel"/>
       <ATOM Name="AnimSetBaseName" Value="arma"/>
-      <ATOM Name="LodCharacterName" Value="TR_MO_arma_LOD"/>
-      <ATOM Name="LodCharacterDistance" Value="50.0"/>
-      <ATOM Name="NamePosZLow" Value="0.5"/>
-      <ATOM Name="NamePosZNormal" Value="0.7"/>
+      <STRUCT Name="Shadow">
+        <ATOM Name="Shadow Bone 0" Value="Bip01 L Foot"/>
+        <ATOM Name="Shadow Size 0" Value="2.0"/>
+        <ATOM Name="Shadow Bone 1" Value="Bip01 R Foot"/>
+        <ATOM Name="Shadow Size 1" Value="2.0"/>
+        <ATOM Name="Shadow Bone 2" Value="Bip01 L Hand"/>
+        <ATOM Name="Shadow Size 2" Value="2.0"/>
+        <ATOM Name="Shadow Bone 3" Value="Bip01 R Hand"/>
+        <ATOM Name="Shadow Size 3" Value="2.0"/>
+        <ATOM Name="Shadow Bone 4" Value="Bip01 Spine1"/>
+        <ATOM Name="Shadow Size 4" Value="2.0"/>
+        <ATOM Name="Shadow Bone 5" Value="Bip01 Spine"/>
+        <ATOM Name="Shadow Size 5" Value="3.0"/>
+      </STRUCT>
     </STRUCT>
     <STRUCT Name="Harvest">
       <STRUCT Name="MP1">
-        <ATOM Name="Name" Value="dag meat"/>
+        <ATOM Name="Name" Value="mektoub packer meat"/>
+        <ATOM Name="AssociatedItem" Value="mektoub_packer_meat.item"/>
       </STRUCT>
       <STRUCT Name="MP2">
-        <ATOM Name="Name" Value="dag canines"/>
+        <ATOM Name="Name" Value="mektoub packer claws"/>
+        <ATOM Name="AssociatedItem" Value="mektoub_packer_claws.item"/>
       </STRUCT>
       <STRUCT Name="MP3">
-        <ATOM Name="Name" Value="dag tongue"/>
+        <ATOM Name="Name" Value="mektoub packer trunk"/>
+        <ATOM Name="AssociatedItem" Value="forest_mektoub_packer_trunk.item"/>
       </STRUCT>
     </STRUCT>
     <STRUCT Name="Collision">
-      <ATOM Name="CollisionRadius" Value="0.60"/>
+      <ATOM Name="CollisionRadius" Value="1.13"/>
     </STRUCT>
-    <ATOM Name="attack_list1" Value="dag.attack_list"/>
     <STRUCT Name="Properties">
       <ATOM Name="Attackable" Value="false"/>
-      <ATOM Name="Curativable" Value="false"/>
+      <ATOM Name="Curativable" Value="true"/>
       <ATOM Name="Mountable" Value="true"/>
     </STRUCT>
     <STRUCT Name="animal_bag">

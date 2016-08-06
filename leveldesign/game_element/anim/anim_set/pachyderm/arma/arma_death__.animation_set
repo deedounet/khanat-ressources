@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.1 $" State="modified">
+  <PARENT Filename="_pachyderm_death__.animation_set"/>
+  <STRUCT>
+    <STRUCT Name="idle">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="TR_MO_Pachyderme_mort_idle.anim"/>
+        </STRUCT>
+      </ARRAY>
+      <ATOM Name="LodCharacterAnimation" Value="TR_MO_Pachyderme_dormir_loop.anim"/>
+    </STRUCT>
+    <STRUCT Name="death">
+      <ATOM Name="LodCharacterAnimation" Value="TR_MO_Pachyderme_mort.anim"/>
+    </STRUCT>
+    <STRUCT Name="death_idle">
+      <ATOM Name="LodCharacterAnimation" Value="TR_MO_Pachyderme_mort_idle.anim"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <COMMENTS></COMMENTS>
+  <LOG></LOG>
+</FORM>
