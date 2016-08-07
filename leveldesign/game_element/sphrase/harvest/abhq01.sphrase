@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.2 $" State="modified">
+  <STRUCT>
+    <ATOM Name="brick 0" Value="bhq01.sbrick"/>
+    <ATOM Name="ShowInActionProgression" Value="false"/>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG>Tue Oct 28 21:33:08 2003 (fleury) .brick 0 = bhq01.sbrick
+Tue Oct 28 21:33:45 2003 (fleury) .range_max = 
+Thu Aug 05 17:09:23 2004 (puzin) .ShowInActionProgression = false</LOG>
+</FORM>
