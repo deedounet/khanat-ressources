@@ -8,7 +8,9 @@
       <ATOM Name="ItemType" Value="Two Hand Sword"/>
       <ATOM Name="CraftPlan" Value="bcbmea11.sbrick"/>
       <ATOM Name="Saleable" Value="true"/>
-      <ATOM Name="Drop or Sell" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="melee weapon">
+      <ATOM Name="skill" Value="SFM2SSM"/>
     </STRUCT>
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="GE_Mission_Epee_Diam.shape"/>

@@ -4,11 +4,9 @@
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BCBMEA"/>
       <ATOM Name="IndexInFamily" Value="11"/>
-      <ATOM Name="SPCost" Value="50"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SC 0"/>
       <ATOM Name="Action Nature" Value="CRAFT"/>
-      <ATOM Name="Skill" Value="SFM2SSM"/>
-      <ATOM Name="LearnRequiresBricks" Value="bcpa01.sbrick"/>
+      <ATOM Name="Skill" Value="SCM2SEM"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="MW_2h_sword.tga"/>
@@ -23,13 +21,13 @@
         <ATOM Name="Crafted Item" Value="ic_sword_diam.sitem"/>
         <ATOM Name="Nb built items" Value="1"/>
         <ATOM Name="MP 1" Value="Raw Material for Blade"/>
-        <ATOM Name="Quantity 1" Value="3"/>
+        <ATOM Name="Quantity 1" Value="5"/>
         <ATOM Name="MP 2" Value="Raw Material for Shaft"/>
-        <ATOM Name="Quantity 2" Value="1"/>
+        <ATOM Name="Quantity 2" Value="5"/>
         <ATOM Name="MP 3" Value="Raw Material for Grip"/>
-        <ATOM Name="Quantity 3" Value="1"/>
+        <ATOM Name="Quantity 3" Value="5"/>
         <ATOM Name="MP 4" Value="Raw Material for Counterweight"/>
-        <ATOM Name="Quantity 4" Value="1"/>
+        <ATOM Name="Quantity 4" Value="5"/>
         <ATOM Name="MP 5"/>
         <ATOM Name="Quantity 5" Value="0"/>
       </STRUCT>
