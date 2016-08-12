@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.2 $" State="modified">
+  <PARENT Filename="_clapclap.creature"/>
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="First Name" Value="lake clapclap"/>
+      <ATOM Name="Ecosystem" Value="Lacustre"/>
+      <STRUCT Name="Scores">
+        <ATOM Name="HitPoints" Value="high"/>
+        <ATOM Name="Stamina" Value="high"/>
+      </STRUCT>
+      <STRUCT Name="Equipment">
+        <STRUCT Name="Body">
+          <ATOM Name="Texture" Value="Lacustre/Low Quality/Young"/>
+        </STRUCT>
+      </STRUCT>
+    </STRUCT>
+    <STRUCT Name="Loot">
+      <ATOM Name="loot1" Value=""/>
+      <ATOM Name="loot2" Value=""/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <COMMENTS></COMMENTS>
+  <LOG></LOG>
+</FORM>

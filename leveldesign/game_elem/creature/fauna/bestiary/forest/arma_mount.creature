@@ -79,6 +79,7 @@
     <STRUCT Name="Properties">
       <ATOM Name="LootHarvestState" Value="Harvestable"/>
       <ATOM Name="XPGainCoef" Value="1"/>
+      <ATOM Name="Mountable" Value="true"/>
     </STRUCT>
     <STRUCT Name="Combat">
       <ATOM Name="AggroRadiusNotHungry" Value="15"/>
