@@ -4,7 +4,6 @@
   <STRUCT>
     <STRUCT Name="basics">
       <ATOM Name="name" Value="armamonte"/>
-      <ATOM Name="family" Value="pet animal ticket"/>
       <ATOM Name="Drop or Sell" Value="false"/>
       <ATOM Name="ItemType" Value="MektoubMountTicket"/>
       <ATOM Name="origin" Value="fyros"/>
