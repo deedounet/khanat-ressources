@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
-<FORM Revision="$Revision: 1.4 $" State="modified">
+<FORM Revision="$Revision: 1.2 $" State="modified">
   <PARENT Filename="_arma.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
+      <ATOM Name="First Name" Value="forest arma"/>
       <ATOM Name="Ecosystem" Value="Forest"/>
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="default"/>
-        <ATOM Name="Stamina" Value="default"/>
+        <ATOM Name="HitPoints" Value="high"/>
+        <ATOM Name="Stamina" Value="high"/>
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">
@@ -14,18 +15,19 @@
         </STRUCT>
       </STRUCT>
     </STRUCT>
+    <STRUCT Name="3d data">
+      <ATOM Name="Scale" Value="int((&quot;Basics.PlayerHpLevel&quot;+4)/5)*0.4"/>
+    </STRUCT>
+    <STRUCT Name="Loot">
+      <ATOM Name="loot1" Value=""/>
+      <ATOM Name="loot2" Value=""/>
+      <ATOM Name="loot3" Value=""/>
+    </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
-  <COMMENTS>Converted from old format</COMMENTS>
-  <LOG>Fri May 17 15:23:09 2002 (corvazier) File converted from old format
-Thu Jun 20 10:19:46 2002 (gatto) .3d data.Equipment[0].Texture = Jungle/High Quality/Old
-Tue Jul 09 11:59:54 2002 (mauduit) .Basics.Equipment.Body.Texture = Jungle/High Quality/Old
-Mon Sep 30 11:06:26 2002 (favre) .Basics.Ecosystem = Forest
-Wed Oct 09 11:16:31 2002 (favre) .Loot.loot1 = 
-Fri Oct 24 17:31:37 2003 (monnerot) .Harvest.MP3.AssociatedItem = 
-Tue Dec 20 17:45:43 2005 (gueney) Form Parents = 
-Thu Jan 05 15:05:07 2006 (gueney) Form Parents = </LOG>
+  <COMMENTS></COMMENTS>
+  <LOG></LOG>
 </FORM>

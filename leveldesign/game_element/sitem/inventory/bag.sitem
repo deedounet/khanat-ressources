@@ -4,12 +4,11 @@
     <STRUCT Name="basics">
       <ATOM Name="name" Value="Bag inventory"/>
       <ATOM Name="family" Value="bag"/>
-      <ATOM Name="Drop or Sell" Value="true"/>
     </STRUCT>
     <STRUCT Name="bag">
       <ATOM Name="weight_max" Value="999999999999999"/>
       <ATOM Name="bulk_max" Value="999999999999999"/>
-      <ATOM Name="slot_count" Value="8"/>
+      <ATOM Name="slot_count" Value="800"/>
     </STRUCT>
     <STRUCT Name="3d">
       <ATOM Name="shape" Value="FY_Acc_GrosPot_A_1.shape"/>

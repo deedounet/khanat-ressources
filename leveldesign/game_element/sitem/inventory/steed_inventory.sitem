@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.3 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="basics">
+      <ATOM Name="name" Value="Steed inventory"/>
+      <ATOM Name="family" Value="bag"/>
+    </STRUCT>
+    <STRUCT Name="bag">
+      <ATOM Name="weight_max" Value="90000.0"/>
+      <ATOM Name="bulk_max" Value="90000.0"/>
+      <ATOM Name="slot_count" Value="300"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

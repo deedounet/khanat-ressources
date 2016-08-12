@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.0 $" State="modified">
   <PARENT Filename="pendo2.creature"/>
-  <PARENT Filename="_pendo_pet.creature"/>
+  <PARENT Filename="_pendo_for.creature"/>
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>

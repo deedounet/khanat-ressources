@@ -1,15 +1,17 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.0 $" State="modified">
-  <PARENT Filename="_ias.sitem"/>
+  <PARENT Filename="_ia.sitem"/>
   <STRUCT>
     <STRUCT Name="basics">
-      <ATOM Name="origin" Value="refugee"/>
-      <ATOM Name="quality" Value="10"/>
+      <ATOM Name="name" Value="steed"/>
+      <ATOM Name="ItemType" Value="MektoubMountTicket"/>
     </STRUCT>
     <STRUCT Name="pet">
       <ATOM Name="Pet Sheet" Value="arma_mount.creature"/>
       <ATOM Name="Pet Price" Value="5"/>
-      <ATOM Name="Hunger Count" Value="10000"/>
+    </STRUCT>
+    <STRUCT Name="3d">
+      <ATOM Name="icon" Value="mektoub_steed.tga"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>
