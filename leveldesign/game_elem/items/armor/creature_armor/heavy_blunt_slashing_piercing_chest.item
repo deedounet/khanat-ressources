@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FORM Revision="$Revision: 1.2 $" State="modified">
+<FORM Revision="$Revision: 1.3 $" State="modified">
   <PARENT Filename="_creature_armor.item"/>
   <STRUCT>
     <STRUCT Name="basics">
@@ -20,7 +20,7 @@
       <ATOM Name="max protection" Value="heavy"/>
     </STRUCT>
     <STRUCT Name="3d">
-      <ATOM Name="shape" Value="TR_MO_Arma_mount.shape"/>
+      <ATOM Name="shape" Value="none.shape"/>
     </STRUCT>
     <STRUCT Name="faber">
       <STRUCT Name="Create">
