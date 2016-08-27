@@ -89,6 +89,10 @@
       </STRUCT>
     </ARRAY>
     <STRUCT Name="StartEquipment1">
+<STRUCT Name="HandR">
+        <ATOM Name="Item" Value=""/>
+        <ATOM Name="Quality" Value=""/>
+      </STRUCT>
     </STRUCT>
     <ARRAY Name="PreMemorizedSentences2">
       <STRUCT Name="Fyros Boot Pattern">
