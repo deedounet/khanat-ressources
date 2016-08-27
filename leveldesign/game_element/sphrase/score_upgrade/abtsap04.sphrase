@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.2 $" State="modified">
+  <STRUCT>
+    <ATOM Name="brick 0" Value="btsap04.sbrick"/>
+    <ATOM Name="brick 1"/>
+    <ATOM Name="brick 2"/>
+    <ATOM Name="brick 3"/>
+    <ATOM Name="brick 4"/>
+    <ATOM Name="brick 5"/>
+    <ATOM Name="brick 6"/>
+    <ATOM Name="brick 7"/>
+    <ATOM Name="usable_by_player" Value="false"/>
+    <ATOM Name="castable" Value="false"/>
+    <ATOM Name="ShowInActionProgression" Value="false"/>
+    <ATOM Name="ShowInAPOnlyIfLearnt" Value="true"/>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

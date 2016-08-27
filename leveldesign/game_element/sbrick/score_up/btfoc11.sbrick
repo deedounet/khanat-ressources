@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.4 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BTFOC"/>
+      <ATOM Name="Property 0" Value="SCORE_UPGRADE:Focus:5"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SC 0"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Focus.tga"/>
+      <ATOM Name="IconBack" Value="CH_Back.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+</FORM>
