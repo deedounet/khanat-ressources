@@ -11,7 +11,7 @@
       <ATOM Name="Property 2" Value="MA_DMG_TYPE: shock"/>
       <ATOM Name="Property 4" Value="SET_BEHAVIOUR:CAST_SHOCK"/>
       <ATOM Name="Property 5" Value="MA_END"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SM 0"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SMOEA 10"/>
       <ATOM Name="Action Nature" Value="OFFENSIVE_MAGIC"/>
     </STRUCT>
     <STRUCT Name="Client">

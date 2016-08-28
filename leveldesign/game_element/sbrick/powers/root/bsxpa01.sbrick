@@ -14,13 +14,17 @@
     </STRUCT>
     <STRUCT Name="Mandatory">
       <ATOM Name="f0" Value="BSXEA"/>
-   </STRUCT>
-<STRUCT Name="Optional">
+    </STRUCT>
+    <STRUCT Name="Optional">
       <ATOM Name="f0" Value="BSXEA"/>
     </STRUCT>
     <STRUCT Name="Credit">
       <ATOM Name="f0" Value="BSXCA"/>
     </STRUCT>
-    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
 <LOG/></FORM>
 

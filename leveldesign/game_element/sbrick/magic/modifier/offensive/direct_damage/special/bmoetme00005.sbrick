@@ -8,10 +8,10 @@
       <ATOM Name="SPCost" Value="7"/>
       <ATOM Name="Property 0" Value="MA: moet"/>
       <ATOM Name="Property 1" Value="MA_DMG: 25: 0: 0"/>
-      <ATOM Name="Property 2" Value="MA_DMG_TYPE: elec"/>
+      <ATOM Name="Property 2" Value="MA_DMG_TYPE: electricity"/>
       <ATOM Name="Property 4" Value="SET_BEHAVIOUR:CAST_ELEC"/>
       <ATOM Name="Property 5" Value="MA_END"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SM 0"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SMOEA 0"/>
       <ATOM Name="Action Nature" Value="OFFENSIVE_MAGIC"/>
     </STRUCT>
     <STRUCT Name="Client">

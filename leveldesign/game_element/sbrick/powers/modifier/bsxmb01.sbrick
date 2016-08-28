@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BSXMB"/>
       <ATOM Name="SabrinaCost"/>
       <ATOM Name="SPCost" Value="50"/>
-      <ATOM Name="Property 0" Value="SP_INVULNERABILITY:15:1800"/>
+      <ATOM Name="Property 0" Value="SP_INVULNERABILITY:20:300"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>

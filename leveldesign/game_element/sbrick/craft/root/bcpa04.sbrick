@@ -27,5 +27,9 @@
       <ATOM Name="Tool type" Value="ArmorTool"/>
     </STRUCT>
   </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
   <LOG></LOG>
 </FORM>
