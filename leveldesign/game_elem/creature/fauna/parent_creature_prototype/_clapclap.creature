@@ -15,7 +15,7 @@
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">
-          <ATOM Name="Item" Value="clapclap_heavy_slashing_chest.item"/>
+          <ATOM Name="Item" Value="clapclap_chest.item"/>
         </STRUCT>
         <STRUCT Name="Legs">
           <ATOM Name="Item" Value="heavy_slashing_legs.item"/>
