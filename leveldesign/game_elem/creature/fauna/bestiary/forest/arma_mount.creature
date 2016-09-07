@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.64 $" State="modified">
-  <PARENT Filename="_arma_mount.creature"/>
+  <PARENT Filename="_arma_monte_for.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="PlayerSkillLevel" Value="22"/>

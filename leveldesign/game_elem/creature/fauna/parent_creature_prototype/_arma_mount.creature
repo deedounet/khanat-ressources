@@ -5,7 +5,7 @@
   <PARENT Filename="_medium_slashing_armor_set.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="Race" Value="arma mount"/>
+      <ATOM Name="Race" Value="arma"/>
       <ATOM Name="DamageLocalisationTable" Value="quadruped"/>
       <STRUCT Name="Scores">
         <ATOM Name="HitPoints" Value="default"/>
@@ -14,7 +14,7 @@
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">
-          <ATOM Name="Item" Value="TR_MO_arma_mount.shape"/>
+          <ATOM Name="Item" Value="armamonte_chest.item"/>
         </STRUCT>
         <STRUCT Name="Legs">
           <ATOM Name="Item" Value="heavy_blunt_slashing_piercing_legs.item"/>

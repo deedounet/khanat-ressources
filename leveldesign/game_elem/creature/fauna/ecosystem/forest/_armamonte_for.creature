@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.4 $" State="modified">
-  <PARENT Filename="_armamonte.creature"/>
+  <PARENT Filename="_arma_mount.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="Ecosystem" Value="Forest"/>
