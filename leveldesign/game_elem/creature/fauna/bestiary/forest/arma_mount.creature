@@ -138,6 +138,10 @@
     <ATOM Name="creature_level" Value="18.3"/>
     <ATOM Name="group_id" Value="HA"/>
   </STRUCT>
+    <STRUCT Name="Properties">
+      <ATOM Name="Attackable" Value="false"/>
+      <ATOM Name="Curativable" Value="true"/>
+      <ATOM Name="Mountable" Value="true"/>
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
