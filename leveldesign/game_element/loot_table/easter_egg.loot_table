@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.2 $" State="modified">
+  <STRUCT>
+    <ARRAY Name="Items">
+      <STRUCT Name="Nothing">
+        <ATOM Name="Probability" Value="0"/>
+      </STRUCT>
+      <STRUCT Name="maxime 01">
+        <ATOM Name="LootSet" Value="easter_egg_maxime01.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 02">
+        <ATOM Name="LootSet" Value="easter_egg_maxime02.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 03">
+        <ATOM Name="LootSet" Value="easter_egg_maxime03.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 04">
+        <ATOM Name="LootSet" Value="easter_egg_maxime04.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 05">
+        <ATOM Name="LootSet" Value="easter_egg_maxime05.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 06">
+        <ATOM Name="LootSet" Value="easter_egg_maxime06.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 07">
+        <ATOM Name="LootSet" Value="easter_egg_maxime07.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 08">
+        <ATOM Name="LootSet" Value="easter_egg_maxime08.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 09">
+        <ATOM Name="LootSet" Value="easter_egg_maxime08.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 10">
+        <ATOM Name="LootSet" Value="easter_egg_maxime09.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 11">
+        <ATOM Name="LootSet" Value="easter_egg_maxime10.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 12">
+        <ATOM Name="LootSet" Value="easter_egg_maxime11.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 13">
+        <ATOM Name="LootSet" Value="easter_egg_maxime12.loot_set"/>
+        <ATOM Name="Probability" Value="3"/>
+      </STRUCT>
+      <STRUCT Name="maxime 14">
+        <ATOM Name="LootSet" Value="easter_egg_maxime13.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 15">
+        <ATOM Name="LootSet" Value="easter_egg_maxime14.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 16">
+        <ATOM Name="LootSet" Value="easter_egg_maxime15.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 17">
+        <ATOM Name="LootSet" Value="easter_egg_maxime16.loot_set"/>
+        <ATOM Name="Probability" Value="4"/>
+      </STRUCT>
+      <STRUCT Name="maxime 18">
+        <ATOM Name="LootSet" Value="easter_egg_maxime17.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 19">
+        <ATOM Name="LootSet" Value="easter_egg_maxime18.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="heal 20">
+        <ATOM Name="LootSet" Value="easter_egg_maxime19.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 21">
+        <ATOM Name="LootSet" Value="easter_egg_maxime21.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 22">
+        <ATOM Name="LootSet" Value="easter_egg_maxime22.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 23">
+        <ATOM Name="LootSet" Value="easter_egg_maxime23.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 24">
+        <ATOM Name="LootSet" Value="easter_egg_maxime24.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 25">
+        <ATOM Name="LootSet" Value="easter_egg_maxime25.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 26">
+        <ATOM Name="LootSet" Value="easter_egg_maxime26.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 27">
+        <ATOM Name="LootSet" Value="easter_egg_maxime27.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 28">
+        <ATOM Name="LootSet" Value="easter_egg_maxime28.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 29">
+        <ATOM Name="LootSet" Value="easter_egg_maxime29.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 30">
+        <ATOM Name="LootSet" Value="easter_egg_maxime30.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 31">
+        <ATOM Name="LootSet" Value="easter_egg_maxime31.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 32">
+        <ATOM Name="LootSet" Value="easter_egg_maxime32.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 33">
+        <ATOM Name="LootSet" Value="easter_egg_maxime33.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 34">
+        <ATOM Name="LootSet" Value="easter_egg_maxime34.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 35">
+        <ATOM Name="LootSet" Value="easter_egg_maxime35.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 36">
+        <ATOM Name="LootSet" Value="easter_egg_maxime36.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>      
+      <STRUCT Name="maxime 37">
+        <ATOM Name="LootSet" Value="easter_egg_maxime37.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 38">
+        <ATOM Name="LootSet" Value="easter_egg_maxime38.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 39">
+        <ATOM Name="LootSet" Value="easter_egg_maxime39.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 40">
+        <ATOM Name="LootSet" Value="easter_egg_maxime40.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 41">
+        <ATOM Name="LootSet" Value="easter_egg_maxime.41loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 42">
+        <ATOM Name="LootSet" Value="easter_egg_maxime42.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 43">
+        <ATOM Name="LootSet" Value="easter_egg_maxime43.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 44">
+        <ATOM Name="LootSet" Value="easter_egg_maxime44.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 45">
+        <ATOM Name="LootSet" Value="easter_egg_maxime45.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 46">
+        <ATOM Name="LootSet" Value="easter_egg_maxime46.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 47">
+        <ATOM Name="LootSet" Value="easter_egg_maxime47.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 48">
+        <ATOM Name="LootSet" Value="easter_egg_maxime48.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 49">
+        <ATOM Name="LootSet" Value="easter_egg_maxime49.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 50">
+        <ATOM Name="LootSet" Value="easter_egg_maxime50.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 51">
+        <ATOM Name="LootSet" Value="easter_egg_maxime51.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 52">
+        <ATOM Name="LootSet" Value="easter_egg_maxime52.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 53">
+        <ATOM Name="LootSet" Value="easter_egg_maxime53.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 54">
+        <ATOM Name="LootSet" Value="easter_egg_maxime54.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 55">
+        <ATOM Name="LootSet" Value="easter_egg_maxime55.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 56">
+        <ATOM Name="LootSet" Value="easter_egg_maxime56.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 57">
+        <ATOM Name="LootSet" Value="easter_egg_maxime57.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 58">
+        <ATOM Name="LootSet" Value="easter_egg_maxime58.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 59">
+        <ATOM Name="LootSet" Value="easter_egg_maxime59.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 60">
+        <ATOM Name="LootSet" Value="easter_egg_maxime60.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 61">
+        <ATOM Name="LootSet" Value="easter_egg_maxime61.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 62">
+        <ATOM Name="LootSet" Value="easter_egg_maxime62.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 63">
+        <ATOM Name="LootSet" Value="easter_egg_maxime63.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 64">
+        <ATOM Name="LootSet" Value="easter_egg_maxime64.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 65">
+        <ATOM Name="LootSet" Value="easter_egg_maxime65.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 66">
+        <ATOM Name="LootSet" Value="easter_egg_maxime66.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 67">
+        <ATOM Name="LootSet" Value="easter_egg_maxime67.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+      </STRUCT>
+      <STRUCT Name="maxime 68">
+        <ATOM Name="LootSet" Value="easter_egg_maxime68.loot_set"/>
+        <ATOM Name="Probability" Value="5"/>
+    </ARRAY>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
