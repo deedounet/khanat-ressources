@@ -253,29 +253,6 @@
         <ATOM Name="LootSet" Value="easter_egg_maxime62.loot_set"/>
         <ATOM Name="Probability" Value="5"/>
       </STRUCT>
-      <STRUCT Name="maxime 63">
-        <ATOM Name="LootSet" Value="easter_egg_maxime63.loot_set"/>
-        <ATOM Name="Probability" Value="5"/>
-      </STRUCT>
-      <STRUCT Name="maxime 64">
-        <ATOM Name="LootSet" Value="easter_egg_maxime64.loot_set"/>
-        <ATOM Name="Probability" Value="5"/>
-      </STRUCT>
-      <STRUCT Name="maxime 65">
-        <ATOM Name="LootSet" Value="easter_egg_maxime65.loot_set"/>
-        <ATOM Name="Probability" Value="5"/>
-      </STRUCT>
-      <STRUCT Name="maxime 66">
-        <ATOM Name="LootSet" Value="easter_egg_maxime66.loot_set"/>
-        <ATOM Name="Probability" Value="5"/>
-      </STRUCT>
-      <STRUCT Name="maxime 67">
-        <ATOM Name="LootSet" Value="easter_egg_maxime67.loot_set"/>
-        <ATOM Name="Probability" Value="5"/>
-      </STRUCT>
-      <STRUCT Name="maxime 68">
-        <ATOM Name="LootSet" Value="easter_egg_maxime68.loot_set"/>
-        <ATOM Name="Probability" Value="5"/>
     </ARRAY>
   </STRUCT>
   <STRUCT/>

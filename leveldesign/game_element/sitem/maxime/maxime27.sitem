@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.1 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="basics">
+      <ATOM Name="name" Value="Consommable"/>
+      <ATOM Name="family" Value="consumable"/>
+      <ATOM Name="stackable" Value="99"/>
+      <ATOM Name="Drop or Sell" Value="false"/>
+      <ATOM Name="Bulk" Value="1"/>
+      <ATOM Name="Saleable" Value="false"/>
+      <ATOM Name="Consumable" Value="false"/>
+    </STRUCT>
+    <STRUCT Name="3d">
+      <ATOM Name="icon" Value="mission_icon_3.tga"/>
+      <ATOM Name="icon background" Value=""/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
