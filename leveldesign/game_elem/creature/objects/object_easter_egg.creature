@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.1 $" State="modified">
-  <PARENT Filename="barrel_closed.creature"/>
+  <PARENT Filename="_egg_feast.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="Level" Value="1"/>
@@ -10,7 +10,7 @@
       <ATOM Name="NbHitToKillPlayer" Value="1"/>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">
-          <ATOM Name="Item" Value="barrel_01.shape"/>
+          <ATOM Name="Item" Value="egg_feast04a.shape"/>
         </STRUCT>
       </STRUCT>
       <STRUCT Name="MovementSpeeds">
