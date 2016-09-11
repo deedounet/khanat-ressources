@@ -3,6 +3,13 @@
   <PARENT Filename="_egg_feast.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
+      <STRUCT Name="Scores">
+        <ATOM Name="HitPoints" Value="very low"/>
+        <ATOM Name="Sap" Value="very low"/>
+        <ATOM Name="Stamina" Value="very low"/>
+	<ATOM Name="HitPointsRegenerate" Value="very low"/>
+	<ATOM Name="HitPointsRegenerateRate" Value="very low"/>
+      </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">
           <ATOM Name="Item" Value="egg_feast04a.shape"/>
@@ -14,17 +21,16 @@
       <ATOM Name="TauntLevel" Value="0"/>
       <ATOM Name="MeleeReachValue" Value="0"/>
       <ATOM Name="XPGainOnCreature" Value="0"/>
+      <ATOM Name="life" Value="1"/>
+      <ATOM Name="LifeRegen" Value="0.00001"/>
     </STRUCT>
     <STRUCT Name="Collision">
-      <ATOM Name="CollisionRadius" Value="0"/>
-      <ATOM Name="Length" Value="1.4"/>
-      <ATOM Name="Width" Value="2.6"/>
-      <ATOM Name="NotTraversable" Value="false"/>
+      <ATOM Name="CollisionRadius" Value="0.4"/>
+      <ATOM Name="Height" Value="0.4"/>
     </STRUCT>
     <STRUCT Name="Properties">
       <ATOM Name="Selectable" Value="true"/>
       <ATOM Name="LootHarvestState" Value="Lootable"/>
-      <ATOM Name="SelectableBySpace" Value="false"/>
     </STRUCT>
     <STRUCT Name="Resists">
       <ATOM Name="Fear" Value="0"/>
