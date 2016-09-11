@@ -18,8 +18,8 @@
         <ATOM Name="RunSpeed" Value="0"/>
       </STRUCT>
       <ATOM Name="life" Value="1"/>
-      <ATOM Name="AttackSpeed" Value="0"/>
-      <ATOM Name="LifeRegen" Value="1.2"/>
+      <ATOM Name="AttackSpeed" Value="10"/>
+      <ATOM Name="LifeRegen" Value="0.003"/>
       <ATOM Name="AttackLevel" Value="0"/>
       <ATOM Name="DefenseLevel" Value="0"/>
       <ATOM Name="XPLevel" Value="0"/>
