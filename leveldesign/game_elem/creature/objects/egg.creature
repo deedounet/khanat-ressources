@@ -21,7 +21,7 @@
       <ATOM Name="TauntLevel" Value="0"/>
       <ATOM Name="MeleeReachValue" Value="0"/>
       <ATOM Name="XPGainOnCreature" Value="0"/>
-      <ATOM Name="life" Value="1"/>
+      <ATOM Name="life" Value="0.00001"/>
       <ATOM Name="LifeRegen" Value="0.00001"/>
     </STRUCT>
     <STRUCT Name="Collision">
