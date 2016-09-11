@@ -28,6 +28,11 @@
       <ATOM Name="CollisionRadius" Value="0.4"/>
       <ATOM Name="Height" Value="0.4"/>
     </STRUCT>
+    <STRUCT Name="Loot">
+      <ARRAY Name="Loot Tables">
+        <ATOM Value="easter_egg.loot_table"/>
+      </ARRAY>
+    </STRUCT>
     <STRUCT Name="Properties">
       <ATOM Name="Selectable" Value="true"/>
       <ATOM Name="LootHarvestState" Value="Lootable"/>
