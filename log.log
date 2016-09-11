@@ -1,0 +1,7 @@
+
+Log Starting [2016/09/11 18:43:11]
+2016/09/11 18:43:11 INF 2091034432 <Unknown> path.cpp 999 addSearchPath : PATH: CPath::addSearchPath(./work/, recursive, not alternative): './work/' is not a directory, I'll call addSearchFile()
+2016/09/11 18:43:11 WRN 2091034432 <Unknown> path.cpp 1146 addSearchFile : PATH: CPath::addSearchFile(./work/, 0, ''): './work/' is not found, skip it (current dir is '/home/yann/Documents/khaganat/depots_git/khanat-ressources'
+2016/09/11 18:43:11 INF 2091034432 <Unknown> path.cpp 999 addSearchPath : PATH: CPath::addSearchPath(./diff/, recursive, not alternative): './diff/' is not a directory, I'll call addSearchFile()
+2016/09/11 18:43:11 WRN 2091034432 <Unknown> path.cpp 1146 addSearchFile : PATH: CPath::addSearchFile(./diff/, 0, ''): './diff/' is not found, skip it (current dir is '/home/yann/Documents/khaganat/depots_git/khanat-ressources'
+2016/09/11 18:43:11 WRN 2091034432 <Unknown> path.cpp 579 lookup : PATH: File (languages.txt) not found (languages.txt)
