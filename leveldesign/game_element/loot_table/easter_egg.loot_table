@@ -166,7 +166,7 @@
         <ATOM Name="Probability" Value="5"/>
       </STRUCT>
       <STRUCT Name="maxime 41">
-        <ATOM Name="LootSet" Value="easter_egg_maxime.41loot_set"/>
+        <ATOM Name="LootSet" Value="easter_egg_maxime41.loot_set"/>
         <ATOM Name="Probability" Value="5"/>
       </STRUCT>
       <STRUCT Name="maxime 42">
