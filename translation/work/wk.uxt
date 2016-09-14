@@ -4866,11 +4866,15 @@ uiItemSpecialEffectFlyingTextISE_CRAFT_ADD_STAT_BONUS	[Stat Bonus]
 uiItemSpecialEffectFlyingTextISE_CRAFT_ADD_LIMIT	[All Stats Bonus]
 uiItemSpecialEffectFlyingTextISE_FORAGE_ADD_RM	[Forage Bonus]
 uiItemSpecialEffectFlyingTextISE_FORAGE_NO_RISK	[No-Risk Forage]
-uihelpItemConsumableFormat	[@{FFF9}Consumption Time:@{T16}@{FFFF}%consumption_time sec.\n
-	@{FFF9}Reuse Time:@{T16}@{FFFF}%overdose_timer_min minutes %overdose_timer_sec\n
+uihelpItemConsumableFormat	[%desc\n\n
+	@{FFF9}Consommation :@{T21}@{FFFF}%consumption_time sec\n
+	@{FFF9}Réutilisable après:@{T21}@{FFFF}%overdose_timer_min min %overdose_timer_sec\n
 	\n
+	@{FFFF}%consumable_effects\n
+	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
+	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
 	\n
-	@{FFFF}%consumable_effects%custom_text]
+	%cansell@{FFFF}%custom_text]	
 uiItemConsumableEffectDownCharac	[Gives a malus of @{F22F}%bonus@{FFFF} points(s) to your @{2F2F}%charac@{FFFF}\n
 	for %minutes min and %secondes sec.]
 uiItemConsumableEffectUpCharac	[Gives a bonus of @{2F2F}%bonus@{FFFF} points(s) to your @{2F2F}%charac@{FFFF}\n

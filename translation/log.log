@@ -3439,3 +3439,1357 @@ Log Starting [2016/09/11 19:00:38]
 2016/09/11 19:00:38 DBG 147097408 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
 2016/09/11 19:00:38 DBG 147097408 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
 2016/09/11 19:00:38 DBG 147097408 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+
+Log Starting [2016/09/13 22:49:51]
+2016/09/13 22:49:51 INF 1442453312 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/13 22:49:51 INF 1442453312 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 2
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 83, numCol changed to 11
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed mgedja at 61
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1497 onAdd : Added ! at 62
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed meggchdca01 at 63
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime01 at 64
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime02 at 65
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime03 at 66
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime04 at 67
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime05 at 68
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime06 at 69
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime07 at 70
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime08 at 71
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime09 at 72
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime10 at 73
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime11 at 74
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime12 at 75
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime13 at 76
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime14 at 77
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime15 at 78
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime16 at 79
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime17 at 80
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime18 at 81
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime19 at 82
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime20 at 83
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime21 at 84
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime22 at 85
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime23 at 86
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime24 at 87
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime25 at 88
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime26 at 89
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime27 at 90
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime28 at 91
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime29 at 92
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime30 at 93
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime31 at 94
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime32 at 95
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime33 at 96
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime34 at 97
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime35 at 98
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime36 at 99
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime37 at 100
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime38 at 101
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime39 at 102
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime40 at 103
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime41 at 104
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime42 at 105
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime43 at 106
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime44 at 107
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime45 at 108
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime46 at 109
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime47 at 110
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime48 at 111
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime49 at 112
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime50 at 113
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime51 at 114
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime52 at 115
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime53 at 116
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime54 at 117
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime55 at 118
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime56 at 119
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime57 at 120
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime58 at 121
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime59 at 122
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime60 at 123
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime61 at 124
+2016/09/13 22:49:51 INF 1442453312 <Unknown> main.cpp 1539 onChanged : Changed maxime62 at 125
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> main.cpp 249 parseDiffCommandFromComment : Invalid diff command 'NOT'
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 1
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 WRN 1442453312 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:49:51 DBG 1442453312 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+
+Log Starting [2016/09/13 22:50:34]
+2016/09/13 22:50:34 INF 741791552 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/13 22:50:34 WRN 741791552 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/13 22:50:34 INF 741791552 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 2
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 83, numCol changed to 11
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed mgedja at 61
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added ! at 62
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed meggchdca01 at 63
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime01 at 64
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime02 at 65
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime03 at 66
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime04 at 67
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime05 at 68
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime06 at 69
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime07 at 70
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime08 at 71
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime09 at 72
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime10 at 73
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime11 at 74
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime12 at 75
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime13 at 76
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime14 at 77
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime15 at 78
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime16 at 79
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime17 at 80
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime18 at 81
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime19 at 82
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime20 at 83
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime21 at 84
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime22 at 85
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime23 at 86
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime24 at 87
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime25 at 88
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime26 at 89
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime27 at 90
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime28 at 91
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime29 at 92
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime30 at 93
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime31 at 94
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime32 at 95
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime33 at 96
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime34 at 97
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime35 at 98
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime36 at 99
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime37 at 100
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime38 at 101
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime39 at 102
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime40 at 103
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime41 at 104
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime42 at 105
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime43 at 106
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime44 at 107
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime45 at 108
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime46 at 109
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime47 at 110
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime48 at 111
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime49 at 112
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime50 at 113
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime51 at 114
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime52 at 115
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime53 at 116
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime54 at 117
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime55 at 118
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime56 at 119
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime57 at 120
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime58 at 121
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime59 at 122
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime60 at 123
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime61 at 124
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed maxime62 at 125
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1539 onChanged : Changed bib_broom at 49
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime01 at 63
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime02 at 64
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime03 at 65
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime04 at 66
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime05 at 67
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime06 at 68
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime07 at 69
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime08 at 70
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime09 at 71
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime10 at 72
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime11 at 73
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime12 at 74
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime13 at 75
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime14 at 76
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime15 at 77
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime16 at 78
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime17 at 79
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime18 at 80
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime19 at 81
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime20 at 82
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime21 at 83
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime22 at 84
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime23 at 85
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime24 at 86
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime25 at 87
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime26 at 88
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime27 at 89
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime28 at 90
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime29 at 91
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime30 at 92
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime31 at 93
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime32 at 94
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime33 at 95
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime34 at 96
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime35 at 97
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime36 at 98
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime37 at 99
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime38 at 100
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime39 at 101
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime40 at 102
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime41 at 103
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime42 at 104
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime43 at 105
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime44 at 106
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime45 at 107
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime46 at 108
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime47 at 109
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime48 at 110
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime49 at 111
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime50 at 112
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime51 at 113
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime52 at 114
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime53 at 115
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime54 at 116
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime55 at 117
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime56 at 118
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime57 at 119
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime58 at 120
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime59 at 121
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime60 at 122
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime61 at 123
+2016/09/13 22:50:34 INF 741791552 <Unknown> main.cpp 1497 onAdd : Added maxime62 at 124
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 1
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 WRN 741791552 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:50:34 DBG 741791552 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+
+Log Starting [2016/09/13 22:51:22]
+2016/09/13 22:51:22 INF 2544547648 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/13 22:51:22 WRN 2544547648 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/13 22:51:22 INF 2544547648 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/13 22:51:22 INF 2544547648 <Unknown> main.cpp 463 onChanged : Changed uihelpItemConsumableFormat at 3992
+2016/09/13 22:51:22 INF 2544547648 <Unknown> main.cpp 441 onAdd : Added uiEM_Youandme at 650
+2016/09/13 22:51:22 INF 2544547648 <Unknown> main.cpp 441 onAdd : Added uimInfos at 651
+2016/09/13 22:51:22 INF 2544547648 <Unknown> main.cpp 441 onAdd : Added uiDesertRawMats at 653
+2016/09/13 22:51:22 INF 2544547648 <Unknown> main.cpp 441 onAdd : Added uiEM_Youandme at 650
+2016/09/13 22:51:22 INF 2544547648 <Unknown> main.cpp 441 onAdd : Added uimInfos at 651
+2016/09/13 22:51:22 INF 2544547648 <Unknown> main.cpp 441 onAdd : Added uiDesertRawMats at 653
+
+Log Starting [2016/09/13 22:52:46]
+2016/09/13 22:52:46 INF 1352066880 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/13 22:52:46 WRN 1352066880 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/13 22:52:46 INF 1352066880 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+
+Log Starting [2016/09/13 22:52:49]
+2016/09/13 22:52:49 INF 1673750336 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/13 22:52:49 WRN 1673750336 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/13 22:52:49 INF 1673750336 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/13 22:52:49 INF 1673750336 <Unknown> main.cpp 463 onChanged : Changed uihelpItemConsumableFormat at 3992
+2016/09/13 22:52:49 INF 1673750336 <Unknown> main.cpp 463 onChanged : Changed uihelpItemConsumableFormat at 3992
+
+Log Starting [2016/09/13 22:54:18]
+2016/09/13 22:54:18 INF 1248708416 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/13 22:54:18 WRN 1248708416 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/13 22:54:18 INF 1248708416 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+
+Log Starting [2016/09/13 22:54:33]
+2016/09/13 22:54:33 INF 3807926080 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/13 22:54:33 WRN 3807926080 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/13 22:54:33 INF 3807926080 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+
+Log Starting [2016/09/13 22:56:38]
+2016/09/13 22:56:38 INF 3840341824 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/13 22:56:38 INF 3840341824 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 2
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 82, numCol changed to 11
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed mgedja at 61
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed meggchdca01 at 62
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime01 at 63
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime02 at 64
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime03 at 65
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime04 at 66
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime05 at 67
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime06 at 68
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime07 at 69
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime08 at 70
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime09 at 71
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime10 at 72
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime11 at 73
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime12 at 74
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime13 at 75
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime14 at 76
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime15 at 77
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime16 at 78
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime17 at 79
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime18 at 80
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime19 at 81
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime20 at 82
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime21 at 83
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime22 at 84
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime23 at 85
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime24 at 86
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime25 at 87
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime26 at 88
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime27 at 89
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime28 at 90
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime29 at 91
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime30 at 92
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime31 at 93
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime32 at 94
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime33 at 95
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime34 at 96
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime35 at 97
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime36 at 98
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime37 at 99
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime38 at 100
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime39 at 101
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime40 at 102
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime41 at 103
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime42 at 104
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime43 at 105
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime44 at 106
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime45 at 107
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime46 at 108
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime47 at 109
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime48 at 110
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime49 at 111
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime50 at 112
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime51 at 113
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime52 at 114
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime53 at 115
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime54 at 116
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime55 at 117
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime56 at 118
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime57 at 119
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime58 at 120
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime59 at 121
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime60 at 122
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime61 at 123
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed maxime62 at 124
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1539 onChanged : Changed bib_broom at 49
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime01 at 63
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime02 at 64
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime03 at 65
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime04 at 66
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime05 at 67
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime06 at 68
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime07 at 69
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime08 at 70
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime09 at 71
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime10 at 72
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime11 at 73
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime12 at 74
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime13 at 75
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime14 at 76
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime15 at 77
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime16 at 78
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime17 at 79
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime18 at 80
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime19 at 81
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime20 at 82
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime21 at 83
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime22 at 84
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime23 at 85
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime24 at 86
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime25 at 87
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime26 at 88
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime27 at 89
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime28 at 90
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime29 at 91
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime30 at 92
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime31 at 93
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime32 at 94
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime33 at 95
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime34 at 96
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime35 at 97
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime36 at 98
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime37 at 99
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime38 at 100
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime39 at 101
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime40 at 102
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime41 at 103
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime42 at 104
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime43 at 105
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime44 at 106
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime45 at 107
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime46 at 108
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime47 at 109
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime48 at 110
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime49 at 111
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime50 at 112
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime51 at 113
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime52 at 114
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime53 at 115
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime54 at 116
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime55 at 117
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime56 at 118
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime57 at 119
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime58 at 120
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime59 at 121
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime60 at 122
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime61 at 123
+2016/09/13 22:56:38 INF 3840341824 <Unknown> main.cpp 1497 onAdd : Added maxime62 at 124
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 1
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 WRN 3840341824 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/13 22:56:38 DBG 3840341824 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+
+Log Starting [2016/09/14 21:26:54]
+2016/09/14 21:26:54 INF 3326494528 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/14 21:26:54 WRN 3326494528 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/14 21:26:54 INF 3326494528 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:26:54 DBG 3326494528 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+
+Log Starting [2016/09/14 21:27:30]
+2016/09/14 21:27:30 INF 3404887872 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/14 21:27:30 WRN 3404887872 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/14 21:27:30 INF 3404887872 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:30 DBG 3404887872 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+
+Log Starting [2016/09/14 21:27:34]
+2016/09/14 21:27:34 INF 3567376192 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/14 21:27:34 INF 3567376192 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 2
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 82, numCol changed to 11
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed mgedja at 61
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed meggchdca01 at 62
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime01 at 63
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime02 at 64
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime03 at 65
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime04 at 66
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime05 at 67
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime06 at 68
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime07 at 69
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime08 at 70
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime09 at 71
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime10 at 72
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime11 at 73
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime12 at 74
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime13 at 75
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime14 at 76
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime15 at 77
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime16 at 78
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime17 at 79
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime18 at 80
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime19 at 81
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime20 at 82
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime21 at 83
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime22 at 84
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime23 at 85
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime24 at 86
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime25 at 87
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime26 at 88
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime27 at 89
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime28 at 90
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime29 at 91
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime30 at 92
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime31 at 93
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime32 at 94
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime33 at 95
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime34 at 96
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime35 at 97
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime36 at 98
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime37 at 99
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime38 at 100
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime39 at 101
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime40 at 102
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime41 at 103
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime42 at 104
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime43 at 105
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime44 at 106
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime45 at 107
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime46 at 108
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime47 at 109
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime48 at 110
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime49 at 111
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime50 at 112
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime51 at 113
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime52 at 114
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime53 at 115
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime54 at 116
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime55 at 117
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime56 at 118
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime57 at 119
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime58 at 120
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime59 at 121
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime60 at 122
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime61 at 123
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime62 at 124
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed mgedja at 61
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed meggchdca01 at 62
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime01 at 63
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime02 at 64
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime03 at 65
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime04 at 66
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime05 at 67
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime06 at 68
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime07 at 69
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime08 at 70
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime09 at 71
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime10 at 72
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime11 at 73
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime12 at 74
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime13 at 75
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime14 at 76
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime15 at 77
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime16 at 78
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime17 at 79
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime18 at 80
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime19 at 81
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime20 at 82
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime21 at 83
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime22 at 84
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime23 at 85
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime24 at 86
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime25 at 87
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime26 at 88
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime27 at 89
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime28 at 90
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime29 at 91
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime30 at 92
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime31 at 93
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime32 at 94
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime33 at 95
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime34 at 96
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime35 at 97
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime36 at 98
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime37 at 99
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime38 at 100
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime39 at 101
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime40 at 102
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime41 at 103
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime42 at 104
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime43 at 105
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime44 at 106
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime45 at 107
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime46 at 108
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime47 at 109
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime48 at 110
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime49 at 111
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime50 at 112
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime51 at 113
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime52 at 114
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime53 at 115
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime54 at 116
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime55 at 117
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime56 at 118
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime57 at 119
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime58 at 120
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime59 at 121
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime60 at 122
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime61 at 123
+2016/09/14 21:27:34 INF 3567376192 <Unknown> main.cpp 1539 onChanged : Changed maxime62 at 124
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 1
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 WRN 3567376192 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 21:27:34 DBG 3567376192 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+
+Log Starting [2016/09/14 22:04:08]
+2016/09/14 22:04:08 INF 2452997952 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/14 22:04:08 WRN 2452997952 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/14 22:04:08 INF 2452997952 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:08 DBG 2452997952 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+
+Log Starting [2016/09/14 22:04:11]
+2016/09/14 22:04:11 INF 1786890048 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/09/14 22:04:11 INF 1786890048 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 2
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 82, numCol changed to 11
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 3
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 7
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 11
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 5
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 6
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 8
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 9
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 10
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 1
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 WRN 1786890048 <Unknown> diff_tool.cpp 798 readExcelSheet : DT: readExcelSheet : identifier '' exist twice
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4

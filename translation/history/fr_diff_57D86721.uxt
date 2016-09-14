@@ -1,0 +1,22 @@
+﻿// DIFF CHANGED 3992 
+/* OLD VALUE : [@{FFF9}Consumption Time:@{T16}@{FFFF}%consumption_time sec.
+@{FFF9}Reuse Time:@{T16}@{FFFF}%overdose_timer_min minutes %overdose_timer_sec
+@{FFFF}%consumable_effects%custom_text] */
+/* OLD VALUE : [@{FFF9}Consommation :@{T21}@{FFFF}%consumption_time sec
+@{FFF9}Réutilisable après:@{T21}@{FFFF}%overdose_timer_min min %overdose_timer_sec
+@{FFFF}%consumable_effects%custom_text] */
+// HASH_VALUE B80002C1C01025A3
+// INDEX 0
+uihelpItemConsumableFormat	[%desc\n
+	\n
+	@{FFF9}Consommation :@{T21}@{FFFF}%consumption_time sec\n
+	@{FFF9}Réutilisable après:@{T21}@{FFFF}%overdose_timer_min min %overdose_timer_sec\n
+	\n
+	@{FFFF}%consumable_effects\n
+	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
+	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
+	\n
+	%cansell@{FFFF}%custom_text]
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE
