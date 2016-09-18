@@ -3,7 +3,7 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BTSTA"/>
-      <ATOM Name="Property 0" Value="SCORE_UPGRADE:Stamina:5"/>
+      <ATOM Name="Property 0" Value="SCORE_UPGRADE:ChaScore2:5"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
     </STRUCT>
     <STRUCT Name="Client">

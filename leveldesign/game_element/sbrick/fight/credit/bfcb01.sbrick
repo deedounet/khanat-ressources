@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BFCB"/>
       <ATOM Name="SabrinaCost" Value="-10"/>
       <ATOM Name="SPCost" Value="10"/>
-      <ATOM Name="Property 0" Value="HP:3"/>
+      <ATOM Name="Property 0" Value="ChaScore1:3"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SF 10"/>
       <ATOM Name="Skill" Value="SF"/>
       <ATOM Name="LearnRequiresBricks"/>

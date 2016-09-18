@@ -4,11 +4,11 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="very low"/>
-        <ATOM Name="Sap" Value="very low"/>
-        <ATOM Name="Stamina" Value="very low"/>
-	<ATOM Name="HitPointsRegenerate" Value="very low"/>
-	<ATOM Name="HitPointsRegenerateRate" Value="very low"/>
+        <ATOM Name="ChaScore1" Value="very low"/>
+        <ATOM Name="ChaScore3" Value="very low"/>
+        <ATOM Name="ChaScore2" Value="very low"/>
+	<ATOM Name="ChaScore1Regenerate" Value="very low"/>
+	<ATOM Name="ChaScore1RegenerateRate" Value="very low"/>
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">

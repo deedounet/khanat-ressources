@@ -4,7 +4,7 @@
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSXMC"/>
       <ATOM Name="IndexInFamily" Value="63"/>
-      <ATOM Name="Property 0" Value="SP_HEAL:HitPoints:100:0:0:Heal"/>
+      <ATOM Name="Property 0" Value="SP_HEAL:ChaScore1:100:0:0:Heal"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
       <ATOM Name="ForbiddenDef" Value="HEAL_HP"/>

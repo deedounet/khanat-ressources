@@ -9,9 +9,9 @@
       <ATOM Name="Size" Value="big"/>
       <ATOM Name="Profile" Value="caster buffer"/>
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="high"/>
-        <ATOM Name="Sap" Value="default"/>
-        <ATOM Name="Stamina" Value="default"/>
+        <ATOM Name="ChaScore1" Value="high"/>
+        <ATOM Name="ChaScore3" Value="default"/>
+        <ATOM Name="ChaScore2" Value="default"/>
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">
@@ -64,67 +64,6 @@
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
-  <COMMENTS>Converted from old format</COMMENTS>
-  <LOG>Fri May 17 15:22:27 2002 (corvazier) File converted from old format
-Wed Jun 19 11:42:51 2002 (gatto) .3d data.AnimSetBaseName = TR_MO_Clapclap
-Wed Jun 19 11:42:51 2002 (gatto) .3d data.Equipment[0].Shape = TR_MO_Clapclap.shape
-Wed Jun 19 11:42:51 2002 (gatto) .3d data.Equipment[0].Texture = Default
-Wed Jun 19 11:42:51 2002 (gatto) .3d data.Skel = TR_MO_Clapclap.skel
-Wed Jun 19 11:42:51 2002 (gatto) formName Resized = 1
-Wed Jun 19 14:50:58 2002 (gatto) .3d data.AnimSetBaseName = aquatique
-Wed Jun 19 14:50:58 2002 (gatto) .3d data.Skel = TR_MO_aquatique.skel
-Wed Jun 19 17:01:24 2002 (gatto) .3d data.AnimSetBaseName = Clapclap
-Thu Jun 27 10:05:53 2002 (mauduit) .3d data.AnimSetCombat = clapclap_Combat.animation_set
-Thu Jun 27 10:05:53 2002 (mauduit) .3d data.AnimSetNormal = clapclap_normal.animation_set
-Thu Jun 27 10:05:53 2002 (mauduit) .3d data.AnimSetPursuit = clapclap_Poursuite.animation_set
-Thu Jun 27 13:58:32 2002 (mauduit) .3d data.Skel = TR_MO_clapclap.skel
-Thu Jun 27 17:44:34 2002 (mauduit) Form Parents = 
-Tue Jul 09 11:42:22 2002 (mauduit) .3d data.AnimSetBaseName = clapclap
-Tue Jul 09 11:42:22 2002 (mauduit) .Basics.Equipment.Body.Item = tr_mo_clapclap.shape
-Mon Jul 22 19:20:45 2002 (gomes) .3d data.Skel = TR_MO_Clapclap.skel
-Tue Jul 23 15:03:58 2002 (receveur) Form Parents = 
-Tue Jul 23 17:07:44 2002 (receveur) formName Pasted = 
-Tue Jul 23 17:40:09 2002 (receveur) .AI.IsA[1].IsA = _ai_nourriture.dfn
-Wed Jul 24 10:41:19 2002 (receveur) .AI.Fame[1].Weight = 600
-Wed Jul 24 10:41:19 2002 (receveur) .AI.Fame[5].Weight = 600
-Wed Jul 24 10:41:19 2002 (receveur) formName Pasted = 
-Wed Jul 24 11:51:52 2002 (receveur) .Basics.Size = big
-Wed Jul 24 16:30:31 2002 (miller) .Basics.Scores.HitPoints = default
-Wed Jul 24 16:40:08 2002 (miller) Form Parents = 
-Thu Jul 25 18:39:53 2002 (receveur) formName Pasted = 
-Thu Jul 25 19:07:54 2002 (receveur) .Basics.Profile = range warrior
-Thu Jul 25 19:07:54 2002 (receveur) .Basics.Race = clapclap
-
-Thu Jul 25 20:41:54 2002 (receveur) .Basics.CharacterName = clapclap
-Thu Aug 22 12:08:55 2002 (receveur) .Basics.Equipment.Sheath1RightHand.Item = medium_creature_range_weapon_lvl_01.item
-Thu Aug 22 12:09:40 2002 (receveur) .Basics.Equipment.Sheath1Ammo0.Item = blunt_heavy_damage_medium_range_creature_ammo_lvl_01.item
-Thu Aug 22 18:38:51 2002 (receveur) .Basics.Scores.HitPoints = high
-Thu Aug 22 18:38:51 2002 (receveur) .Basics.Scores.Sap = default
-Thu Aug 22 18:38:51 2002 (receveur) .Basics.Scores.Stamina = default
-Mon Sep 02 15:03:10 2002 (receveur) .AI.Fame[37].Name = _IA_player.player
-Mon Sep 02 15:03:10 2002 (receveur) formName Resized = 38
-Mon Sep 02 15:03:13 2002 (receveur) .AI.Fame[37].Weight = -100.0
-Mon Sep 02 15:03:19 2002 (receveur) .AI.Fame[37] Renamed = _IA_player.player
-Fri Sep 20 16:01:43 2002 (receveur) Form Parents = 
-Fri Sep 20 16:34:23 2002 (receveur) .AI = _ai_model_creature.dfn
-Fri Sep 20 16:34:32 2002 (receveur) .AI.Fame.clapclap      .Weight = 600
-Mon Sep 23 15:02:50 2002 (receveur) .Harvest.MP1.AssociatedItem = clapclap_bones_lvl_01.item
-Mon Sep 23 15:02:50 2002 (receveur) .Harvest.MP1.Name = clap clap bones
-Mon Sep 23 15:03:12 2002 (receveur) .Harvest.MP2.AssociatedItem = clapclap_scales_lvl_01.item
-Mon Sep 23 15:03:12 2002 (receveur) .Harvest.MP2.Name = clapclap scales
-Mon Sep 23 15:03:30 2002 (receveur) .Harvest.MP1.Name = clapclap bones
-Mon Sep 23 15:03:30 2002 (receveur) .Harvest.MP3.AssociatedItem = forest_clapclap_fat_lvl_01.item
-Mon Sep 23 15:03:30 2002 (receveur) .Harvest.MP3.Name = clapclap 
-Mon Sep 23 15:03:35 2002 (receveur) .Harvest.MP3.Name = clapclap fat
-Wed Sep 25 15:28:45 2002 (favre) Form Parents = 
-Wed Sep 25 15:52:15 2002 (favre) .Basics.Equipment.Body.Item = clapclap_heavy_slashing_chest_lvl_01.item
-Fri Oct 25 14:43:01 2002 (receveur) .Basics.Profile = 
-Wed Feb 05 18:15:57 2003 (receveur) .Basics.Species = clapclap
-Tue Mar 11 15:50:53 2003 (tran) .3d data.LodCharacterDistance = 50
-Tue Mar 11 15:50:53 2003 (tran) .3d data.LodCharacterName = TR_MO_clapclap_LOD
-Fri Mar 28 11:27:01 2003 (favre) .Basics.CharacterName = 
-Mon Oct 13 16:18:52 2003 (monnerot) .Harvest.MP1.AssociatedItem = 
-Mon Oct 13 16:18:52 2003 (monnerot) .Harvest.MP2.AssociatedItem = 
-Mon Oct 13 16:18:52 2003 (monnerot) .Harvest.MP3.AssociatedItem = 
-Fri Feb 20 14:07:23 2004 (ledorze) .Collision.CollisionRadius = 2.8</LOG>
+  <COMMENTS></COMMENTS>
+  <LOG></LOG>
 </FORM>
