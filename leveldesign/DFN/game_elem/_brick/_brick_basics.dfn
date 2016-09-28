@@ -3,7 +3,7 @@
   <ELEMENT Name="FamilyId" Type="Type" Filename="_brick_families.typ"/>
   <ELEMENT Name="IndexInFamily" Type="Type" Filename="_position_in_family.typ"/>
   <ELEMENT Name="EnergyType" Type="Type" Filename="_brick_energy_type.typ"/>
-  <ELEMENT Name="Cost" Type="Type" Filename="formulae.typ" Default="0.1*&quot;HP Default&quot;"/>
+  <ELEMENT Name="Cost" Type="Type" Filename="formulae.typ" Default="0.1*&quot;ChaScore1 Default&quot;"/>
   <ELEMENT Name="Difficulty" Type="Type" Filename="int.typ"/>
   <ELEMENT Name="CostWeight" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="DifficultyWeight" Type="Type" Filename="float.typ"/>

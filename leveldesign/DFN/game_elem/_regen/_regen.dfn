@@ -4,29 +4,29 @@
   <ELEMENT Name="RegenAgilityRepos" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="RegenCharismeAction" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="RegenCharismeRepos" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenConstitutionAction" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenConstitutionRepos" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha1Action" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha1Repos" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="RegenEmpathieAction" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="RegenEmpathieRepos" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenIntelligenceAction" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenIntelligenceRepos" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha3Action" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha3Repos" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="RegenPerceptionAction" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="RegenPerceptionRepos" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenStrenghtAction" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenStrenghtRepos" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenWellbalancedAction" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenWellbalancedRepos" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenWillAction" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenWillRepos" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha2Action" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha2Repos" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha2RegAction" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha2RegRepos" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha4RegAction" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenCha4RegRepos" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="RegenWeightAction" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="RegenWeightRepos" Type="Type" Filename="float.typ"/>
 
-  <ELEMENT Name="RegenHPAction" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenHPRepos" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenSapAction" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenSapRepos" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenStaAction" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="RegenStaRepos" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenChaScore1Action" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenChaScore1Repos" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenChaScore3Action" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenChaScore3Repos" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenChaScore4Action" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="RegenChaScore4Repos" Type="Type" Filename="float.typ"/>
 
   <ELEMENT Name="RegenDiseaseResistAction" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="RegenDiseaseResistRepos" Type="Type" Filename="float.typ"/>

@@ -9,7 +9,7 @@
   <ELEMENT Name="Level" Type="Type" Filename="int.typ" Default="1"/>
   <ELEMENT Name="PlayerSkillLevel" Type="Type" Filename="int.typ" Default="&quot;Basics.Level&quot;"/>
   <ELEMENT Name="NbPlayers" Type="Type" Filename="int.typ" Default="1"/>
-  <ELEMENT Name="PlayerHpLevel" Type="Type" Filename="int.typ" Default="&quot;Basics.Level&quot;"/>
+  <ELEMENT Name="PlayerChaScore1Level" Type="Type" Filename="int.typ" Default="&quot;Basics.Level&quot;"/>
   <ELEMENT Name="NbHitToKillPlayer" Type="Type" Filename="float.typ" Default="5"/>
   <ELEMENT Name="Ecosystem" Type="Type" Filename="_creature_ecosystem.typ"/>
   <ELEMENT Name="Characteristics" Type="Dfn" Filename="_creature_characteristics.dfn"/>
@@ -35,9 +35,9 @@
   <ELEMENT Name="Fame" Type="Type" Filename="string.typ" Default="none"/>
   <ELEMENT Name="FameByKill" Type="Type" Filename="string.typ"/>
   <ELEMENT Name="FameForGuardAttack" Type="Type" Filename="string.typ"/>
-  <ELEMENT Name="life" Type="Type" Filename="uint32.typ" Default="1"/>
+  <ELEMENT Name="ChaScore1" Type="Type" Filename="uint32.typ" Default="1"/>
   <ELEMENT Name="AttackSpeed" Type="Type" Filename="float.typ" Default="3"/>
-  <ELEMENT Name="LifeRegen" Type="Type" Filename="float.typ" Default="0"/>
+  <ELEMENT Name="ChaScore1Regen" Type="Type" Filename="float.typ" Default="0"/>
   <ELEMENT Name="AttackLevel" Type="Type" Filename="float.typ" Default="1"/>
   <ELEMENT Name="DefenseLevel" Type="Type" Filename="float.typ" Default="1"/>
   <ELEMENT Name="XPLevel" Type="Type" Filename="float.typ" Default="1"/>

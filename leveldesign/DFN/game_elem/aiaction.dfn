@@ -37,8 +37,8 @@
   <ELEMENT Name="CastingTime" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="PostActionTime" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="Stackable" Type="Type" Filename="uint32.typ"/>
-  <ELEMENT Name="SapCost" Type="Type" Filename="float.typ"/>
-  <ELEMENT Name="HpCost" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="ChaScore3Cost" Type="Type" Filename="float.typ"/>
+  <ELEMENT Name="ChaScore1Cost" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="Skill" Type="Type" Filename="string.typ"/>
   <ELEMENT Name="SelfAction" Type="Type" Filename="boolean.typ" Default="false"/>
   <ELEMENT Name="SpellLevel" Type="Type" Filename="sint32.typ" Default="0"/>

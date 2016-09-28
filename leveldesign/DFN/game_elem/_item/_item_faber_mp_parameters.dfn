@@ -26,10 +26,10 @@
   <ELEMENT Name="LacustreResistance" Type="Type" Filename="int.typ"/>
   <ELEMENT Name="JungleResistance" Type="Type" Filename="int.typ"/>
   <ELEMENT Name="PrimaryRootResistance" Type="Type" Filename="int.typ"/>
-  <ELEMENT Name="HpBuff" Type="Type" Filename="int.typ"/>
-  <ELEMENT Name="SapBuff" Type="Type" Filename="int.typ"/>
-  <ELEMENT Name="StaBuff" Type="Type" Filename="int.typ"/>
-  <ELEMENT Name="FocusBuff" Type="Type" Filename="int.typ"/>
+  <ELEMENT Name="ChaScore1Buff" Type="Type" Filename="int.typ"/>
+  <ELEMENT Name="ChaScore3Buff" Type="Type" Filename="int.typ"/>
+  <ELEMENT Name="ChaScore2Buff" Type="Type" Filename="int.typ"/>
+  <ELEMENT Name="ChaScore4Buff" Type="Type" Filename="int.typ"/>
   <ELEMENT Name="ElementalCastingTimeFactor" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="ElementalPowerFactor" Type="Type" Filename="float.typ"/>
   <ELEMENT Name="OffensiveAfflictionCastingTimeFactor" Type="Type" Filename="float.typ"/>
