@@ -7,7 +7,7 @@
     <STRUCT Name="Basics">
       <ATOM Name="PlayerSkillLevel" Value="1"/>
       <ATOM Name="NbPlayers" Value="1"/>
-      <ATOM Name="PlayerHpLevel" Value="1"/>
+      <ATOM Name="PlayerChaScore1Level" Value="1"/>
       <ATOM Name="NbHitToKillPlayer" Value="15"/>
       <STRUCT Name="Characteristics">
         <ATOM Name="DynamicEnergyValue" Value="0.00126"/>
@@ -17,9 +17,9 @@
         <ATOM Name="RunSpeed" Value="5"/>
         <ATOM Name="GroupDispersion" Value="0.7"/>
       </STRUCT>
-      <ATOM Name="life" Value="40"/>
+      <ATOM Name="ChaScore1" Value="40"/>
       <ATOM Name="AttackSpeed" Value="3"/>
-      <ATOM Name="LifeRegen" Value="0.109589041"/>
+      <ATOM Name="ChaScore1Regen" Value="0.109589041"/>
       <ATOM Name="AttackLevel" Value="1"/>
       <ATOM Name="DefenseLevel" Value="1"/>
       <ATOM Name="XPLevel" Value="1"/>
@@ -140,7 +140,7 @@
     </STRUCT>
     <STRUCT Name="Damage Shield">
       <ATOM Name="Damage" Value="0"/>
-      <ATOM Name="Drained HP" Value="0"/>
+      <ATOM Name="Drained ChaScore1" Value="0"/>
     </STRUCT>
     <ATOM Name="category" Value="H"/>
     <ATOM Name="race_code" Value="D"/>
@@ -152,28 +152,5 @@
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
-  <LOG>Thu Apr 20 18:45:08 2006 (gueney) .Properties.XPGainCoef = 1
-Mon Mar 12 15:16:08 2007 (kalhart) .Basics.AttackLevel = 1
-Mon Mar 12 15:16:08 2007 (kalhart) .Basics.DefenseLevel = 1
-Mon Mar 12 15:16:08 2007 (kalhart) .Basics.XPLevel = 1
-Mon Mar 12 15:16:08 2007 (kalhart) .Combat.AggroRadiusD1 = 100
-Mon Mar 12 15:16:08 2007 (kalhart) .Combat.AggroRadiusD2 = 50
-Mon Mar 12 15:58:16 2007 (kalhart) .Basics.NbHitToKillPlayer = 15
-Sun Jan 03 01:00:24 2016 (g) .3d data.NamePosZLow = 0
-Sun Jan 03 01:00:24 2016 (g) .3d data.NamePosZNormal = 0
-Sun Jan 03 01:27:07 2016 (g) .3d data.Automaton = creature
-Sun Jan 03 01:27:07 2016 (g) .3d data.Scale = 
-Sun Jan 03 01:34:23 2016 (g) formName Resized = 0
-Sun Jan 03 01:52:00 2016 (g) .Collision.Height = 10
-Thu Jan 14 22:37:09 2016 (g) .3d data.ForceDisplayCreatureName = false
-Sun Jan 17 19:11:41 2016 (g) .Properties.LootHarvestState = Lootable And Harvestable
-Sun Jan 17 19:11:41 2016 (g) formName Resized = 0
-Sun Jan 17 19:21:02 2016 (g) .Harvest.MP1.MaxQuality = 2
-Sun Jan 17 19:21:02 2016 (g) .Harvest.MP1.MinQuantity = 1
-Sun Jan 17 19:21:02 2016 (g) .Harvest.Skill = SH
-Sun Jan 17 19:21:02 2016 (g) .Harvest.Specialization = 
-Sun Jan 17 19:21:02 2016 (g) .Properties.LootHarvestState = Harvestable
-Sun Jan 17 19:21:18 2016 (g) .Harvest.MP1.MaxQuality = 20
-Sun Jan 17 19:21:18 2016 (g) .Harvest.MP1.Quantity = 2
-Thu Feb 04 01:46:43 2016 (g) .3d data.Scale = 0.20</LOG>
+  <LOG></LOG>
 </FORM>

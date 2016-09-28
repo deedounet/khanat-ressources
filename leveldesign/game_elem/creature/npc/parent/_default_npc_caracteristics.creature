@@ -7,22 +7,22 @@
       <ATOM Name="Level" Value="1"/>
       <ATOM Name="Ecosystem" Value="unknown"/>
       <STRUCT Name="Characteristics">
-        <ATOM Name="Constitution" Value="&quot;Basics.Level&quot;+10"/>
-        <ATOM Name="Intelligence" Value="&quot;Basics.Level&quot;+10"/>
-        <ATOM Name="Strength" Value="&quot;Basics.Level&quot;+10"/>
-        <ATOM Name="WellBalanced" Value="&quot;Basics.Level&quot;+10"/>
-        <ATOM Name="Will" Value="&quot;Basics.Level&quot;+10"/>
+        <ATOM Name="Cha1" Value="&quot;Basics.Level&quot;+10"/>
+        <ATOM Name="Cha3" Value="&quot;Basics.Level&quot;+10"/>
+        <ATOM Name="Cha2" Value="&quot;Basics.Level&quot;+10"/>
+        <ATOM Name="Cha2Reg" Value="&quot;Basics.Level&quot;+10"/>
+        <ATOM Name="Cha4Reg" Value="&quot;Basics.Level&quot;+10"/>
       </STRUCT>
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="default"/>
-        <ATOM Name="HitPointsRegenerate" Value="&quot;Basics.Scores.HitPoints&quot;/100"/>
-        <ATOM Name="HitPointsRegenerateRate" Value="1"/>
-        <ATOM Name="Sap" Value="default"/>
-        <ATOM Name="SapRegenerate" Value="&quot;Basics.Scores.Sap&quot;/100"/>
-        <ATOM Name="SapRegenerateRate" Value="1"/>
-        <ATOM Name="Stamina" Value="default"/>
-        <ATOM Name="StaminaRegenerate" Value="&quot;Basics.Scores.Stamina&quot;/100"/>
-        <ATOM Name="StaminaRegenerateRate" Value="1"/>
+        <ATOM Name="ChaScore1" Value="default"/>
+        <ATOM Name="ChaScore1Regenerate" Value="&quot;Basics.Scores.ChaScore1&quot;/100"/>
+        <ATOM Name="ChaScore1RegenerateRate" Value="1"/>
+        <ATOM Name="ChaScore3" Value="default"/>
+        <ATOM Name="ChaScore3Regenerate" Value="&quot;Basics.Scores.ChaScore3&quot;/100"/>
+        <ATOM Name="ChaScore3RegenerateRate" Value="1"/>
+        <ATOM Name="ChaScore2" Value="default"/>
+        <ATOM Name="ChaScore2Regenerate" Value="&quot;Basics.Scores.ChaScore2&quot;/100"/>
+        <ATOM Name="ChaScore2RegenerateRate" Value="1"/>
       </STRUCT>
       <STRUCT Name="CivilizationKnowledge">
         <ATOM Name="Dragon" Value="default"/>

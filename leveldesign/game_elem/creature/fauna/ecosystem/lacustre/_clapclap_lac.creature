@@ -6,8 +6,8 @@
       <ATOM Name="First Name" Value="lake clapclap"/>
       <ATOM Name="Ecosystem" Value="Lacustre"/>
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="high"/>
-        <ATOM Name="Stamina" Value="high"/>
+        <ATOM Name="ChaScore1" Value="high"/>
+        <ATOM Name="ChaScore2" Value="high"/>
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">

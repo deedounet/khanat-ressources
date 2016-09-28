@@ -11,9 +11,9 @@
       <ATOM Name="Profile" Value="harvester"/>
       <ATOM Name="Level" Value="$filename"/>
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="high"/>
-        <ATOM Name="Sap" Value="very low"/>
-        <ATOM Name="Stamina" Value="high"/>
+        <ATOM Name="ChaScore1" Value="high"/>
+        <ATOM Name="ChaScore3" Value="very low"/>
+        <ATOM Name="ChaScore2" Value="high"/>
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">

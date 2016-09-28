@@ -22,7 +22,7 @@
     </STRUCT>
     <STRUCT Name="faber">
       <STRUCT Name="Create">
-        <ATOM Name="Cost" Value="HP Default"/>
+        <ATOM Name="Cost" Value="ChaScore1 Default"/>
         <ATOM Name="Difficulty" Value="(&quot;basics.quality level&quot;-4)*10*(0.9-0.1*(&quot;#faber.Create.MP 1&quot;+&quot;#faber.Create.MP 2&quot;+&quot;#faber.Create.MP 3&quot;+&quot;#faber.Create.MP 4&quot;+&quot;#faber.Create.MP 5&quot;))"/>
       </STRUCT>
     </STRUCT>

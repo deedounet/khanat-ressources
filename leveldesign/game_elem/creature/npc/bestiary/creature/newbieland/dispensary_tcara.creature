@@ -9,7 +9,7 @@
       <ATOM Name="Level" Value="5"/>
       <ATOM Name="PlayerSkillLevel" Value="50"/>
       <ATOM Name="NbPlayers" Value="1"/>
-      <ATOM Name="PlayerHpLevel" Value="5"/>
+      <ATOM Name="PlayerChaScore1Level" Value="1"/>
       <ATOM Name="NbHitToKillPlayer" Value="10"/>
       <STRUCT Name="Characteristics">
         <ATOM Name="DynamicEnergyValue" Value="0.002777778"/>
@@ -38,9 +38,9 @@
         <ATOM Name="WalkSpeed" Value="1.66"/>
         <ATOM Name="RunSpeed" Value="6"/>
       </STRUCT>
-      <ATOM Name="life" Value="827.5"/>
+      <ATOM Name="ChaScore1" Value="827"/>
       <ATOM Name="AttackSpeed" Value="3"/>
-      <ATOM Name="LifeRegen" Value="2.018292683"/>
+      <ATOM Name="ChaScore1Regen" Value="2.018292683"/>
       <ATOM Name="AttackLevel" Value="50"/>
       <ATOM Name="DefenseLevel" Value="40"/>
       <ATOM Name="XPLevel" Value="50"/>

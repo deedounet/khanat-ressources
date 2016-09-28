@@ -25,19 +25,5 @@
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
-  <LOG>Thu Jul 25 15:28:30 2002 (receveur) Form Parents = 
-Thu Jul 25 15:31:19 2002 (receveur) .armor.Armor category = light
-Thu Jul 25 15:31:19 2002 (receveur) .armor.protection = light
-Thu Jul 25 15:31:19 2002 (receveur) .basics.EquipmentInfo.EquipmentSlots[0] = Head
-Thu Jul 25 15:31:19 2002 (receveur) formName Resized = 1
-Thu Jul 25 15:31:29 2002 (receveur) .basics.EquipmentInfo.EquipmentSlots[0] Renamed = head
-Thu Jul 25 15:31:55 2002 (receveur) formName Resized = Piercing
-Thu Jul 25 15:32:55 2002 (receveur) .armor.protection type[0] = Piercing
-Thu Jul 25 15:32:55 2002 (receveur) .armor.protection type[0] Renamed = piercing
-Thu Jul 25 15:32:55 2002 (receveur) formName Resized = 1
-Tue Jul 30 17:48:05 2002 (receveur) .basics.EquipmentInfo.EquipmentSlots[0] = Chest
-Tue Jul 30 17:48:05 2002 (receveur) .basics.EquipmentInfo.EquipmentSlots[0] Renamed = chest
-Tue Jul 30 17:55:17 2002 (receveur) .armor.max protection = light
-Mon Aug 05 16:57:59 2002 (receveur) formName Pasted = 
-Wed Sep 25 15:42:36 2002 (favre) .3d.shape = tr_mo_dag.shape</LOG>
+  <LOG></LOG>
 </FORM>

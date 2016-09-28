@@ -7,7 +7,7 @@
     <STRUCT Name="Basics">
       <ATOM Name="PlayerSkillLevel" Value="1"/>
       <ATOM Name="NbPlayers" Value="1"/>
-      <ATOM Name="PlayerHpLevel" Value="1"/>
+      <ATOM Name="PlayerChaScore1Level" Value="1"/>
       <ATOM Name="NbHitToKillPlayer" Value="15"/>
       <STRUCT Name="Characteristics">
         <ATOM Name="DynamicEnergyValue" Value="0.00126"/>
@@ -17,9 +17,9 @@
         <ATOM Name="RunSpeed" Value="5"/>
         <ATOM Name="GroupDispersion" Value="0.7"/>
       </STRUCT>
-      <ATOM Name="life" Value="40"/>
+      <ATOM Name="ChaScore1" Value="40"/>
       <ATOM Name="AttackSpeed" Value="3"/>
-      <ATOM Name="LifeRegen" Value="0.109589041"/>
+      <ATOM Name="ChaScore1Regen" Value="0.109589041"/>
       <ATOM Name="AttackLevel" Value="1"/>
       <ATOM Name="DefenseLevel" Value="1"/>
       <ATOM Name="XPLevel" Value="1"/>
@@ -140,7 +140,7 @@
     </STRUCT>
     <STRUCT Name="Damage Shield">
       <ATOM Name="Damage" Value="0"/>
-      <ATOM Name="Drained HP" Value="0"/>
+      <ATOM Name="Drained ChaScore1" Value="0"/>
     </STRUCT>
     <ATOM Name="category" Value="H"/>
     <ATOM Name="race_code" Value="D"/>
@@ -152,5 +152,5 @@
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
-  <LOG>Sun Mar 13 15:46:20 2016 (g) .3d data.Scale = 1</LOG>
+  <LOG></LOG>
 </FORM>

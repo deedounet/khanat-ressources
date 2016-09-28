@@ -5,8 +5,8 @@
     <STRUCT Name="Basics">
       <ATOM Name="Ecosystem" Value="PrimeRoots"/>
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="default"/>
-        <ATOM Name="Stamina" Value="default"/>
+        <ATOM Name="ChaScore1" Value="default"/>
+        <ATOM Name="ChaScore2" Value="default"/>
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">
