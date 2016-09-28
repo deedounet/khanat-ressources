@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <DFN Revision="$Revision: 1.4 $" State="modified">
-  <ELEMENT Name="HitPoints" Type="Type" Filename="int.typ" Default="0"/>
-  <ELEMENT Name="Stamina" Type="Type" Filename="int.typ" Default="0"/>
-  <ELEMENT Name="Sap" Type="Type" Filename="int.typ" Default="0"/>
+  <ELEMENT Name="ChaScore1" Type="Type" Filename="int.typ" Default="0"/>
+  <ELEMENT Name="ChaScore2" Type="Type" Filename="int.typ" Default="0"/>
+  <ELEMENT Name="ChaScore3" Type="Type" Filename="int.typ" Default="0"/>
   <ELEMENT Name="Skills" Type="Type" Filename="int.typ" Default="0"/>
   <ELEMENT Name="Duration" Type="Type" Filename="float.typ" Default="0"/>
   <ELEMENT Name="Name" Type="Type" Filename="string.typ"/>

@@ -6,7 +6,7 @@
       <ATOM Name="Level" Value="1"/>
       <ATOM Name="PlayerSkillLevel" Value="1"/>
       <ATOM Name="NbPlayers" Value="1"/>
-      <ATOM Name="PlayerHpLevel" Value="1"/>
+      <ATOM Name="PlayerChaScore1Level" Value="1"/>
       <ATOM Name="NbHitToKillPlayer" Value="1"/>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">
@@ -17,9 +17,9 @@
         <ATOM Name="WalkSpeed" Value="0"/>
         <ATOM Name="RunSpeed" Value="0"/>
       </STRUCT>
-      <ATOM Name="life" Value="0.01"/>
+      <ATOM Name="ChaScore1" Value="1"/>
       <ATOM Name="AttackSpeed" Value="1"/>
-      <ATOM Name="LifeRegen" Value="0.003"/>
+      <ATOM Name="ChaScore1Regen" Value="0.003"/>
       <ATOM Name="AttackLevel" Value="0"/>
       <ATOM Name="DefenseLevel" Value="-50"/>
       <ATOM Name="XPLevel" Value="0"/>

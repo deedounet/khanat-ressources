@@ -39,10 +39,10 @@
   <ELEMENT Name="Defensive Affliction Power Factor" Type="Type" Filename="float.typ" Default="1.0"/>
   <ELEMENT Name="Item Max Level" Type="Type" Filename="int.typ" Default="250"/>
   <ELEMENT Name="Create" Type="Dfn" Filename="_item_faber_plan.dfn"/>
-  <ELEMENT Name="HpBonusPerLevel" Type="Type" Filename="float.typ" Default="0.0"/>
-  <ELEMENT Name="SapBonusPerLevel" Type="Type" Filename="float.typ" Default="0.0"/>
-  <ELEMENT Name="StaBonusPerLevel" Type="Type" Filename="float.typ" Default="0.0"/>
-  <ELEMENT Name="FocusBonusPerLevel" Type="Type" Filename="float.typ" Default="0.0"/>
+  <ELEMENT Name="ChaScore1BonusPerLevel" Type="Type" Filename="float.typ" Default="0.0"/>
+  <ELEMENT Name="ChaScore3BonusPerLevel" Type="Type" Filename="float.typ" Default="0.0"/>
+  <ELEMENT Name="ChaScore2BonusPerLevel" Type="Type" Filename="float.typ" Default="0.0"/>
+  <ELEMENT Name="ChaScore4BonusPerLevel" Type="Type" Filename="float.typ" Default="0.0"/>
   <ELEMENT Name="AllowPartialSuccess" Type="Type" Filename="boolean.typ" Default="true"/>
   <LOG>Wed Mar 16 11:02:55 2005 (fleury) Dfn Structure = 
 Wed Mar 16 11:03:03 2005 (fleury) Dfn Structure = 

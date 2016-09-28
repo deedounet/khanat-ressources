@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<FORM Revision="$Revision: 1.0 $" State="modified">
-  <PARENT Filename="_pendo_delta.creature"/>
+<FORM Revision="$Revision: 1.110 $" State="modified">
+  <PARENT Filename="_sagassmonte_for.creature"/>
   <PARENT Filename="dag_attack.creature"/>
   <PARENT Filename="_chdfa1_mp.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="PlayerSkillLevel" Value="1"/>
+      <ATOM Name="PlayerSkillLevel" Value="2"/>
       <ATOM Name="NbPlayers" Value="1"/>
       <ATOM Name="PlayerChaScore1Level" Value="1"/>
       <ATOM Name="NbHitToKillPlayer" Value="15"/>
@@ -13,16 +13,16 @@
         <ATOM Name="DynamicEnergyValue" Value="0.00126"/>
       </STRUCT>
       <STRUCT Name="MovementSpeeds">
-        <ATOM Name="WalkSpeed" Value="2.5"/>
-        <ATOM Name="RunSpeed" Value="5"/>
+        <ATOM Name="WalkSpeed" Value="5"/>
+        <ATOM Name="RunSpeed" Value="30"/>
         <ATOM Name="GroupDispersion" Value="0.7"/>
       </STRUCT>
-      <ATOM Name="ChaScore1" Value="40"/>
+      <ATOM Name="ChaScore1" Value="8000"/>
       <ATOM Name="AttackSpeed" Value="3"/>
       <ATOM Name="ChaScore1Regen" Value="0.109589041"/>
       <ATOM Name="AttackLevel" Value="1"/>
       <ATOM Name="DefenseLevel" Value="1"/>
-      <ATOM Name="XPLevel" Value="1"/>
+      <ATOM Name="XPLevel" Value="10"/>
       <ATOM Name="TauntLevel" Value="0"/>
       <ATOM Name="MeleeReachValue" Value="0"/>
       <ATOM Name="RegionForce" Value="1"/>
@@ -81,6 +81,7 @@
     <STRUCT Name="Properties">
       <ATOM Name="LootHarvestState" Value="Harvestable"/>
       <ATOM Name="XPGainCoef" Value="1"/>
+      <ATOM Name="Mountable" Value="true"/>
     </STRUCT>
     <STRUCT Name="Combat">
       <ATOM Name="AggroRadiusNotHungry" Value="15"/>

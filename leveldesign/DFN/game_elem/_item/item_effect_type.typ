@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <TYPE Type="String" UI="NonEditableCombo" Default="unknown" Version="0.4" State="modified">
   <DEFINITION Label="UNKNOWN" Value="UNKNOWN"/>
-  <DEFINITION Label="BUFF_HP" Value="BUFF_HP"/>
-  <DEFINITION Label="BUFF_STAMINA" Value="BUFF_STAMINA"/>
-  <DEFINITION Label="BUFF_SAP" Value="BUFF_SAP"/>
+  <DEFINITION Label="BUFF_ChaScore1" Value="BUFF_ChaScore1"/>
+  <DEFINITION Label="BUFF_ChaScore2" Value="BUFF_ChaScore2"/>
+  <DEFINITION Label="BUFF_ChaScore3" Value="BUFF_ChaScore3"/>
   <DEFINITION Label="BUFF_SPEED" Value="BUFF_SPEED"/>
-  <DEFINITION Label="ANTI_MAGIC_HP_SHIELD" Value="ANTI_MAGIC_HP_SHIELD"/>
+  <DEFINITION Label="ANTI_MAGIC_ChaScore1_SHIELD" Value="ANTI_MAGIC_ChaScore1_SHIELD"/>
   <DEFINITION Label="SLOW" Value="SLOW"/>
   <DEFINITION Label="POISON" Value="POISON"/>
   <DEFINITION Label="STUN" Value="STUN"/>

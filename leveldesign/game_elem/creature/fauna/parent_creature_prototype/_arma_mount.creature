@@ -8,9 +8,9 @@
       <ATOM Name="Race" Value="arma"/>
       <ATOM Name="DamageLocalisationTable" Value="quadruped"/>
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="default"/>
-        <ATOM Name="Sap" Value="default"/>
-        <ATOM Name="Stamina" Value="default"/>
+        <ATOM Name="ChaScore1" Value="default"/>
+        <ATOM Name="ChaScore3" Value="default"/>
+        <ATOM Name="ChaScore2" Value="default"/>
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">

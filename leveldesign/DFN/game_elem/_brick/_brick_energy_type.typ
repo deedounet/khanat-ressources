@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <TYPE Type="String" UI="NonEditableCombo" Default="Stamina" Min="-1" Max="20" Increment="1" Revision="$Revision: 1.2 $" State="modified">
-  <DEFINITION Label="Stamina" Value="Stamina"/>
-  <DEFINITION Label="Sap" Value="Sap"/>
+  <DEFINITION Label="ChaScore2" Value="ChaScore2"/>
+  <DEFINITION Label="ChaScore3" Value="ChaScore3"/>
   <LOG>Fri Jun 14 18:36:04 2002 (fleury) Type Predef = 
 Thu Aug 22 17:10:09 2002 (fleury) Type Predef = 
 Mon Sep 16 13:51:17 2002 (fleury) Type Default = none

@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
 <TYPE Type="String" UI="Edit" Version="0.5" State="modified">
-  <DEFINITION Label="BaseStrength" Value="BaseStrength"/>
-  <DEFINITION Label="MaxStrength" Value="MaxStrength"/>
-  <DEFINITION Label="StrengthModifier" Value="StrengthModifier"/>
-  <DEFINITION Label="CurrentStrength" Value="CurrentStrength"/>
-  <DEFINITION Label="BaseStrengthRegenerate" Value="BaseStrengthRegenerate"/>
-  <DEFINITION Label="StrengthRegenerateModifier" Value="StrengthRegenerateModifier"/>
-  <DEFINITION Label="CurrentStrengthRegenerate" Value="CurrentStrengthRegenerate"/>
-  <DEFINITION Label="BaseStrengthRegenerateRate" Value="BaseStrengthRegenerateRate"/>
-  <DEFINITION Label="StrengthRegenerateModifierRate" Value="StrengthRegenerateModifierRate"/>
-  <DEFINITION Label="CurrentStrengthRegenerateRate" Value="CurrentStrengthRegenerateRate"/>
-  <DEFINITION Label="BaseConstitution" Value="BaseConstitution"/>
-  <DEFINITION Label="MaxConstitution" Value="MaxConstitution"/>
-  <DEFINITION Label="ConstitutionModifier" Value="ConstitutionModifier"/>
-  <DEFINITION Label="CurrentConstitution" Value="CurrentConstitution"/>
-  <DEFINITION Label="BaseConstitutionRegenerate" Value="BaseConstitutionRegenerate"/>
-  <DEFINITION Label="ConstitutionRegenerateModifier" Value="ConstitutionRegenerateModifier"/>
-  <DEFINITION Label="CurrentConstitutionRegenerate" Value="CurrentConstitutionRegenerate"/>
-  <DEFINITION Label="BaseConstitutionRegenerateRate" Value="BaseConstitutionRegenerateRate"/>
-  <DEFINITION Label="ConstitutionRegenerateModifierRate" Value="ConstitutionRegenerateModifierRate"/>
-  <DEFINITION Label="CurrentConstitutionRegenerateRate" Value="CurrentConstitutionRegenerateRate"/>
+  <DEFINITION Label="BaseCha2" Value="BaseCha2"/>
+  <DEFINITION Label="MaxCha2" Value="MaxCha2"/>
+  <DEFINITION Label="Cha2Modifier" Value="Cha2Modifier"/>
+  <DEFINITION Label="CurrentCha2" Value="CurrentCha2"/>
+  <DEFINITION Label="BaseCha2Regenerate" Value="BaseCha2Regenerate"/>
+  <DEFINITION Label="Cha2RegenerateModifier" Value="Cha2RegenerateModifier"/>
+  <DEFINITION Label="CurrentCha2Regenerate" Value="CurrentCha2Regenerate"/>
+  <DEFINITION Label="BaseCha2RegenerateRate" Value="BaseCha2RegenerateRate"/>
+  <DEFINITION Label="Cha2RegenerateModifierRate" Value="Cha2RegenerateModifierRate"/>
+  <DEFINITION Label="CurrentCha2RegenerateRate" Value="CurrentCha2RegenerateRate"/>
+  <DEFINITION Label="BaseCha1" Value="BaseCha1"/>
+  <DEFINITION Label="MaxCha1" Value="MaxCha1"/>
+  <DEFINITION Label="Cha1Modifier" Value="Cha1Modifier"/>
+  <DEFINITION Label="CurrentCha1" Value="CurrentCha1"/>
+  <DEFINITION Label="BaseCha1Regenerate" Value="BaseCha1Regenerate"/>
+  <DEFINITION Label="Cha1RegenerateModifier" Value="Cha1RegenerateModifier"/>
+  <DEFINITION Label="CurrentCha1Regenerate" Value="CurrentCha1Regenerate"/>
+  <DEFINITION Label="BaseCha1RegenerateRate" Value="BaseCha1RegenerateRate"/>
+  <DEFINITION Label="Cha1RegenerateModifierRate" Value="Cha1RegenerateModifierRate"/>
+  <DEFINITION Label="CurrentCha1RegenerateRate" Value="CurrentCha1RegenerateRate"/>
   <DEFINITION Label="BaseAgility" Value="BaseAgility"/>
   <DEFINITION Label="MaxAgility" Value="MaxAgility"/>
   <DEFINITION Label="AgilityModifier" Value="AgilityModifier"/>
@@ -30,36 +30,36 @@
   <DEFINITION Label="BaseAgilityRegenerateRate" Value="BaseAgilityRegenerateRate"/>
   <DEFINITION Label="AgilityRegenerateModifierRate" Value="AgilityRegenerateModifierRate"/>
   <DEFINITION Label="CurrentAgilityRegenerateRate" Value="CurrentAgilityRegenerateRate"/>
-  <DEFINITION Label="BaseWill" Value="BaseWill"/>
-  <DEFINITION Label="MaxWill" Value="MaxWill"/>
-  <DEFINITION Label="WillModifier" Value="WillModifier"/>
-  <DEFINITION Label="CurrentWill" Value="CurrentWill"/>
-  <DEFINITION Label="BaseWillRegenerate" Value="BaseWillRegenerate"/>
-  <DEFINITION Label="WillRegenerateModifier" Value="WillRegenerateModifier"/>
-  <DEFINITION Label="CurrentWillRegenerate" Value="CurrentWillRegenerate"/>
-  <DEFINITION Label="BaseWillRegenerateRate" Value="BaseWillRegenerateRate"/>
-  <DEFINITION Label="WillRegenerateModifierRate" Value="WillRegenerateModifierRate"/>
-  <DEFINITION Label="CurrentWillRegenerateRate" Value="CurrentWillRegenerateRate"/>
-  <DEFINITION Label="BaseWellBalanced" Value="BaseWellBalanced"/>
-  <DEFINITION Label="MaxWellBalanced" Value="MaxWellBalanced"/>
-  <DEFINITION Label="WellBalancedModifier" Value="WellBalancedModifier"/>
-  <DEFINITION Label="CurrentWellBalanced" Value="CurrentWellBalanced"/>
-  <DEFINITION Label="BaseWellBalancedRegenerate" Value="BaseWellBalancedRegenerate"/>
-  <DEFINITION Label="WellBalancedRegenerateModifier" Value="WellBalancedRegenerateModifier"/>
-  <DEFINITION Label="CurrentWellBalancedRegenerate" Value="CurrentWellBalancedRegenerate"/>
-  <DEFINITION Label="BaseWellBalancedRegenerateRate" Value="BaseWellBalancedRegenerateRate"/>
-  <DEFINITION Label="WellBalancedRegenerateModifierRate" Value="WellBalancedRegenerateModifierRate"/>
-  <DEFINITION Label="CurrentWellBalancedRegenerateRate" Value="CurrentWellBalancedRegenerateRate"/>
-  <DEFINITION Label="BaseIntelligence" Value="BaseIntelligence"/>
-  <DEFINITION Label="MaxIntelligence" Value="MaxIntelligence"/>
-  <DEFINITION Label="IntelligenceModifier" Value="IntelligenceModifier"/>
-  <DEFINITION Label="CurrentIntelligence" Value="CurrentIntelligence"/>
-  <DEFINITION Label="BaseIntelligenceRegenerate" Value="BaseIntelligenceRegenerate"/>
-  <DEFINITION Label="IntelligenceRegenerateModifier" Value="IntelligenceRegenerateModifier"/>
-  <DEFINITION Label="CurrentIntelligenceRegenerate" Value="CurrentIntelligenceRegenerate"/>
-  <DEFINITION Label="BaseIntelligenceRegenerateRate" Value="BaseIntelligenceRegenerateRate"/>
-  <DEFINITION Label="IntelligenceRegenerateModifierRate" Value="IntelligenceRegenerateModifierRate"/>
-  <DEFINITION Label="CurrentIntelligenceRegenerateRate" Value="CurrentIntelligenceRegenerateRate"/>
+  <DEFINITION Label="BaseCha4Reg" Value="BaseCha4Reg"/>
+  <DEFINITION Label="MaxCha4Reg" Value="MaxCha4Reg"/>
+  <DEFINITION Label="Cha4RegModifier" Value="Cha4RegModifier"/>
+  <DEFINITION Label="CurrentCha4Reg" Value="CurrentCha4Reg"/>
+  <DEFINITION Label="BaseCha4RegRegenerate" Value="BaseCha4RegRegenerate"/>
+  <DEFINITION Label="Cha4RegRegenerateModifier" Value="Cha4RegRegenerateModifier"/>
+  <DEFINITION Label="CurrentCha4RegRegenerate" Value="CurrentCha4RegRegenerate"/>
+  <DEFINITION Label="BaseCha4RegRegenerateRate" Value="BaseCha4RegRegenerateRate"/>
+  <DEFINITION Label="Cha4RegRegenerateModifierRate" Value="Cha4RegRegenerateModifierRate"/>
+  <DEFINITION Label="CurrentCha4RegRegenerateRate" Value="CurrentCha4RegRegenerateRate"/>
+  <DEFINITION Label="BaseCha2Reg" Value="BaseCha2Reg"/>
+  <DEFINITION Label="MaxCha2Reg" Value="MaxCha2Reg"/>
+  <DEFINITION Label="Cha2RegModifier" Value="Cha2RegModifier"/>
+  <DEFINITION Label="CurrentCha2Reg" Value="CurrentCha2Reg"/>
+  <DEFINITION Label="BaseCha2RegRegenerate" Value="BaseCha2RegRegenerate"/>
+  <DEFINITION Label="Cha2RegRegenerateModifier" Value="Cha2RegRegenerateModifier"/>
+  <DEFINITION Label="CurrentCha2RegRegenerate" Value="CurrentCha2RegRegenerate"/>
+  <DEFINITION Label="BaseCha2RegRegenerateRate" Value="BaseCha2RegRegenerateRate"/>
+  <DEFINITION Label="Cha2RegRegenerateModifierRate" Value="Cha2RegRegenerateModifierRate"/>
+  <DEFINITION Label="CurrentCha2RegRegenerateRate" Value="CurrentCha2RegRegenerateRate"/>
+  <DEFINITION Label="BaseCha3" Value="BaseCha3"/>
+  <DEFINITION Label="MaxCha3" Value="MaxCha3"/>
+  <DEFINITION Label="Cha3Modifier" Value="Cha3Modifier"/>
+  <DEFINITION Label="CurrentCha3" Value="CurrentCha3"/>
+  <DEFINITION Label="BaseCha3Regenerate" Value="BaseCha3Regenerate"/>
+  <DEFINITION Label="Cha3RegenerateModifier" Value="Cha3RegenerateModifier"/>
+  <DEFINITION Label="CurrentCha3Regenerate" Value="CurrentCha3Regenerate"/>
+  <DEFINITION Label="BaseCha3RegenerateRate" Value="BaseCha3RegenerateRate"/>
+  <DEFINITION Label="Cha3RegenerateModifierRate" Value="Cha3RegenerateModifierRate"/>
+  <DEFINITION Label="CurrentCha3RegenerateRate" Value="CurrentCha3RegenerateRate"/>
   <DEFINITION Label="BaseCharisme" Value="BaseCharisme"/>
   <DEFINITION Label="MaxCharisme" Value="MaxCharisme"/>
   <DEFINITION Label="CharismeModifier" Value="CharismeModifier"/>
@@ -94,36 +94,36 @@
   <DEFINITION Label="WalkSpeed" Value="WalkSpeed"/>
   <DEFINITION Label="RunSpeed" Value="RunSpeed"/>
   <DEFINITION Label="Scores physiques" Value="Scores physiques"/>
-  <DEFINITION Label="BaseHitPoints" Value="BaseHitPoints"/>
-  <DEFINITION Label="MaxHitPoints" Value="MaxHitPoints"/>
-  <DEFINITION Label="HitPointsModifier" Value="HitPointsModifier"/>
-  <DEFINITION Label="CurrentHitPoints" Value="CurrentHitPoints"/>
-  <DEFINITION Label="BaseHitPointsRegenerate" Value="BaseHitPointsRegenerate"/>
-  <DEFINITION Label="HitPointsRegenerateModifier" Value="HitPointsRegenerateModifier"/>
-  <DEFINITION Label="CurrentHitPointsRegenerate" Value="CurrentHitPointsRegenerate"/>
-  <DEFINITION Label="BaseHitPointsRegenerateRate" Value="BaseHitPointsRegenerateRate"/>
-  <DEFINITION Label="HitPointsRegenerateModifierRate" Value="HitPointsRegenerateModifierRate"/>
-  <DEFINITION Label="CurrentHitPointsRegenerateRate" Value="CurrentHitPointsRegenerateRate"/>
-  <DEFINITION Label="BaseSap" Value="BaseSap"/>
-  <DEFINITION Label="MaxSap" Value="MaxSap"/>
-  <DEFINITION Label="SapModifier" Value="SapModifier"/>
-  <DEFINITION Label="CurrentSap" Value="CurrentSap"/>
-  <DEFINITION Label="BaseSapRegenerate" Value="BaseSapRegenerate"/>
-  <DEFINITION Label="SapRegenerateModifier" Value="SapRegenerateModifier"/>
-  <DEFINITION Label="CurrentSapRegenerate" Value="CurrentSapRegenerate"/>
-  <DEFINITION Label="BaseSapRegenerateRate" Value="BaseSapRegenerateRate"/>
-  <DEFINITION Label="SapRegenerateModifierRate" Value="SapRegenerateModifierRate"/>
-  <DEFINITION Label="CurrentSapRegenerateRate" Value="CurrentSapRegenerateRate"/>
-  <DEFINITION Label="BaseStamina" Value="BaseStamina"/>
-  <DEFINITION Label="MaxStamina" Value="MaxStamina"/>
-  <DEFINITION Label="StaminaModifier" Value="StaminaModifier"/>
-  <DEFINITION Label="CurrentStamina" Value="CurrentStamina"/>
-  <DEFINITION Label="BaseStaminaRegenerate" Value="BaseStaminaRegenerate"/>
-  <DEFINITION Label="StaminaRegenerateModifier" Value="StaminaRegenerateModifier"/>
-  <DEFINITION Label="CurrentStaminaRegenerate" Value="CurrentStaminaRegenerate"/>
-  <DEFINITION Label="BaseStaminaRegenerateRate" Value="BaseStaminaRegenerateRate"/>
-  <DEFINITION Label="StaminaRegenerateModifierRate" Value="StaminaRegenerateModifierRate"/>
-  <DEFINITION Label="CurrentStaminaRegenerateRate" Value="CurrentStaminaRegenerateRate"/>
+  <DEFINITION Label="BaseChaScore1" Value="BaseChaScore1"/>
+  <DEFINITION Label="MaxChaScore1" Value="MaxChaScore1"/>
+  <DEFINITION Label="ChaScore1Modifier" Value="ChaScore1Modifier"/>
+  <DEFINITION Label="CurrentChaScore1" Value="CurrentChaScore1"/>
+  <DEFINITION Label="BaseChaScore1Regenerate" Value="BaseChaScore1Regenerate"/>
+  <DEFINITION Label="ChaScore1RegenerateModifier" Value="ChaScore1RegenerateModifier"/>
+  <DEFINITION Label="CurrentChaScore1Regenerate" Value="CurrentChaScore1Regenerate"/>
+  <DEFINITION Label="BaseChaScore1RegenerateRate" Value="BaseChaScore1RegenerateRate"/>
+  <DEFINITION Label="ChaScore1RegenerateModifierRate" Value="ChaScore1RegenerateModifierRate"/>
+  <DEFINITION Label="CurrentChaScore1RegenerateRate" Value="CurrentChaScore1RegenerateRate"/>
+  <DEFINITION Label="BaseChaScore3" Value="BaseChaScore3"/>
+  <DEFINITION Label="MaxChaScore3" Value="MaxChaScore3"/>
+  <DEFINITION Label="ChaScore3Modifier" Value="ChaScore3Modifier"/>
+  <DEFINITION Label="CurrentChaScore3" Value="CurrentChaScore3"/>
+  <DEFINITION Label="BaseChaScore3Regenerate" Value="BaseChaScore3Regenerate"/>
+  <DEFINITION Label="ChaScore3RegenerateModifier" Value="ChaScore3RegenerateModifier"/>
+  <DEFINITION Label="CurrentChaScore3Regenerate" Value="CurrentChaScore3Regenerate"/>
+  <DEFINITION Label="BaseChaScore3RegenerateRate" Value="BaseChaScore3RegenerateRate"/>
+  <DEFINITION Label="ChaScore3RegenerateModifierRate" Value="ChaScore3RegenerateModifierRate"/>
+  <DEFINITION Label="CurrentChaScore3RegenerateRate" Value="CurrentChaScore3RegenerateRate"/>
+  <DEFINITION Label="BaseChaScore2" Value="BaseChaScore2"/>
+  <DEFINITION Label="MaxChaScore2" Value="MaxChaScore2"/>
+  <DEFINITION Label="ChaScore2Modifier" Value="ChaScore2Modifier"/>
+  <DEFINITION Label="CurrentChaScore2" Value="CurrentChaScore2"/>
+  <DEFINITION Label="BaseChaScore2Regenerate" Value="BaseChaScore2Regenerate"/>
+  <DEFINITION Label="ChaScore2RegenerateModifier" Value="ChaScore2RegenerateModifier"/>
+  <DEFINITION Label="CurrentChaScore2Regenerate" Value="CurrentChaScore2Regenerate"/>
+  <DEFINITION Label="BaseChaScore2RegenerateRate" Value="BaseChaScore2RegenerateRate"/>
+  <DEFINITION Label="ChaScore2RegenerateModifierRate" Value="ChaScore2RegenerateModifierRate"/>
+  <DEFINITION Label="CurrentChaScore2RegenerateRate" Value="CurrentChaScore2RegenerateRate"/>
   <DEFINITION Label="BaseWeight" Value="BaseWeight"/>
   <DEFINITION Label="MaxWeight" Value="MaxWeight"/>
   <DEFINITION Label="WeightModifier" Value="WeightModifier"/>
@@ -202,17 +202,17 @@
   <DEFINITION Label="Zorai" Value="Zorai"/>
   <DEFINITION Label="Kitin" Value="Kitin"/>
   <DEFINITION Label="Dragon" Value="Dragon"/>
-  <DEFINITION Label="TrainingStrength" Value="TrainingStrength"/>
-  <DEFINITION Label="TrainingConstitution" Value="TrainingConstitution"/>
+  <DEFINITION Label="TrainingCha2" Value="TrainingCha2"/>
+  <DEFINITION Label="TrainingCha1" Value="TrainingCha1"/>
   <DEFINITION Label="TrainingAgility" Value="TrainingAgility"/>
   <DEFINITION Label="TrainingPerception" Value="TrainingPerception"/>
-  <DEFINITION Label="TrainingWill" Value="TrainingWill"/>
-  <DEFINITION Label="TrainingWellBalanced" Value="TrainingWellBalanced"/>
-  <DEFINITION Label="TrainingIntelligence" Value="TrainingIntelligence"/>
+  <DEFINITION Label="TrainingCha4Reg" Value="TrainingCha4Reg"/>
+  <DEFINITION Label="TrainingCha2Reg" Value="TrainingCha2Reg"/>
+  <DEFINITION Label="TrainingCha3" Value="TrainingCha3"/>
   <DEFINITION Label="TrainingEmpathie" Value="TrainingEmpathie"/>
-  <DEFINITION Label="TrainingHp" Value="TrainingHp"/>
-  <DEFINITION Label="TrainingSeve" Value="TrainingSeve"/>
-  <DEFINITION Label="TrainingStamina" Value="TrainingStamina"/>
+  <DEFINITION Label="TrainingChaScore1" Value="TrainingChaScore1"/>
+  <DEFINITION Label="TrainingChaScore3" Value="TrainingChaScore3"/>
+  <DEFINITION Label="TrainingChaScore2" Value="TrainingChaScore2"/>
   <DEFINITION Label="TrainingMagicResist" Value="TrainingMagicResist"/>
   <DEFINITION Label="TrainingImpactResist" Value="TrainingImpactResist"/>
   <DEFINITION Label="TrainingDiseaseResist" Value="TrainingDiseaseResist"/>
@@ -339,7 +339,7 @@
   <DEFINITION Label="AnkleL" Value="AnkleL"/>
   <DEFINITION Label="AnkleR" Value="AnkleR"/>
   <DEFINITION Label="Feets" Value="Feets"/>
-  <DEFINITION Label="HitPoints" Value="HitPoints"/>
+  <DEFINITION Label="ChaScore1" Value="ChaScore1"/>
   <LOG>Mon Jun 17 18:07:16 2002 (miller) Type Predef = 
 Mon Jun 17 18:07:16 2002 (miller) Type Type = String
 Mon Jun 17 18:07:16 2002 (miller) Type UI = NonEditableCombo

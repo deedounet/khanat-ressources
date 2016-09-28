@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <TYPE Type="String" UI="NonEditableCombo" Default="None" Version="0.2" State="modified">
-  <DEFINITION Label="hit points" Value="HitPoints"/>
-  <DEFINITION Label="sap" Value="Sap"/>
-  <DEFINITION Label="stamina" Value="Stamina"/>
+  <DEFINITION Label="ChaScore1" Value="ChaScore1"/>
+  <DEFINITION Label="ChaScore3" Value="ChaScore3"/>
+  <DEFINITION Label="ChaScore2" Value="ChaScore2"/>
   <DEFINITION Label="weight" Value="Weight"/>
   <DEFINITION Label="disease resist" Value="DiseaseResist"/>
   <DEFINITION Label="magic resist" Value="MagicResist"/>

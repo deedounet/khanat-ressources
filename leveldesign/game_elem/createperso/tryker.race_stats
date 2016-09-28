@@ -4,20 +4,20 @@
   <STRUCT>
     <ATOM Name="Race" Value="tryker"/>
     <STRUCT Name="Characteristics">
-      <ATOM Name="Constitution" Value="100"/>
-      <ATOM Name="Intelligence" Value="100"/>
-      <ATOM Name="Strength" Value="100"/>
-      <ATOM Name="WellBalanced" Value="100"/>
-      <ATOM Name="Will" Value="100"/>
+      <ATOM Name="Cha1" Value="100"/>
+      <ATOM Name="Cha3" Value="100"/>
+      <ATOM Name="Cha2" Value="100"/>
+      <ATOM Name="Cha2Reg" Value="100"/>
+      <ATOM Name="Cha4Reg" Value="100"/>
     </STRUCT>
     <STRUCT Name="Scores">
-      <ATOM Name="HitPoints" Value="100"/>
-      <ATOM Name="HitPointsRegenerateRate" Value="1.0"/>
-      <ATOM Name="Sap" Value="100"/>
-      <ATOM Name="SapRegenerateRate" Value="1.0"/>
-      <ATOM Name="Stamina" Value="100"/>
-      <ATOM Name="StaminaRegenerate" Value="&quot;Scores.Stamina&quot;/12+1"/>
-      <ATOM Name="StaminaRegenerateRate" Value="1.0"/>
+      <ATOM Name="ChaScore1" Value="600"/>
+      <ATOM Name="ChaScore1RegenerateRate" Value="1.0"/>
+      <ATOM Name="ChaScore3" Value="600"/>
+      <ATOM Name="ChaScore3RegenerateRate" Value="1.0"/>
+      <ATOM Name="ChaScore2" Value="600"/>
+      <ATOM Name="ChaScore2Regenerate" Value="&quot;Scores.Stamina&quot;/12+1"/>
+      <ATOM Name="ChaScore2RegenerateRate" Value="1.0"/>
     </STRUCT>
     <STRUCT Name="DefaultEquipment">
       <STRUCT Name="Female equipment">

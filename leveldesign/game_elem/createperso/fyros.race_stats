@@ -4,11 +4,11 @@
   <STRUCT>
     <ATOM Name="Race" Value="fyros"/>
     <STRUCT Name="Characteristics">
-      <ATOM Name="Cha_Score1" Value="60"/>
-      <ATOM Name="Cha_Score3" Value="60"/>
-      <ATOM Name="Strength" Value="60"/>
-      <ATOM Name="WellBalanced" Value="10"/>
-      <ATOM Name="Will" Value="35"/>
+      <ATOM Name="Cha1" Value="600"/>
+      <ATOM Name="Cha3" Value="60"/>
+      <ATOM Name="Cha2" Value="60"/>
+      <ATOM Name="Cha2Reg" Value="10"/>
+      <ATOM Name="Cha4Reg" Value="35"/>
     </STRUCT>
     <STRUCT Name="Scores">
       <ATOM Name="ChaScore1" Value="600"/>

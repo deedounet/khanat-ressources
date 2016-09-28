@@ -2,11 +2,11 @@
 <DFN Version="0.0" State="modified">
   <ELEMENT Name="TrainingDiseaseResist" Type="Type" Filename="creature_stat.typ"/>
   <ELEMENT Name="TrainingFearResist" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingHp" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingHp1" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingHp2" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingHp3" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingHp4" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore1" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore11" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore12" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore13" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore14" Type="Type" Filename="creature_stat.typ"/>
   <ELEMENT Name="TrainingImpactResist" Type="Type" Filename="creature_stat.typ"/>
   <ELEMENT Name="TrainingImpactResist1" Type="Type" Filename="creature_stat.typ"/>
   <ELEMENT Name="TrainingImpactResist2" Type="Type" Filename="creature_stat.typ"/>
@@ -15,15 +15,15 @@
   <ELEMENT Name="TrainingMagicResist1" Type="Type" Filename="creature_stat.typ"/>
   <ELEMENT Name="TrainingMagicResist2" Type="Type" Filename="creature_stat.typ"/>
   <ELEMENT Name="TrainingMagicResist3" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingSeve" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingSeve1" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingSeve2" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingSeve3" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingSeve4" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingStamina" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingStamina1" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingStamina2" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingStamina3" Type="Type" Filename="creature_stat.typ"/>
-  <ELEMENT Name="TrainingStamina4" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore3" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore31" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore32" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore33" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore34" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore2" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore21" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore22" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore23" Type="Type" Filename="creature_stat.typ"/>
+  <ELEMENT Name="TrainingChaScore24" Type="Type" Filename="creature_stat.typ"/>
   <ELEMENT Name="TrainingTechnoResist" Type="Type" Filename="creature_stat.typ"/>
 </DFN>

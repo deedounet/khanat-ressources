@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <DFN Revision="$Revision: 1.6 $" State="modified">
-  <ELEMENT Name="Constitution" Type="Type" Filename="int.typ" Default="35"/>
-  <ELEMENT Name="Metabolism" Type="Type" Filename="int.typ" Default="35"/>
-  <ELEMENT Name="Intelligence" Type="Type" Filename="int.typ" Default="35"/>
-  <ELEMENT Name="Wisdom" Type="Type" Filename="int.typ" Default="35"/>
-  <ELEMENT Name="Strength" Type="Type" Filename="int.typ" Default="35"/>
-  <ELEMENT Name="WellBalanced" Type="Type" Filename="int.typ" Default="35"/>
-  <ELEMENT Name="Dexterity" Type="Type" Filename="int.typ" Default="35"/>
-  <ELEMENT Name="Will" Type="Type" Filename="int.typ" Default="35"/>
+  <ELEMENT Name="Cha1" Type="Type" Filename="int.typ" Default="35"/>
+  <ELEMENT Name="Cha1Reg" Type="Type" Filename="int.typ" Default="35"/>
+  <ELEMENT Name="Cha3" Type="Type" Filename="int.typ" Default="35"/>
+  <ELEMENT Name="Cha3Reg" Type="Type" Filename="int.typ" Default="35"/>
+  <ELEMENT Name="Cha2" Type="Type" Filename="int.typ" Default="35"/>
+  <ELEMENT Name="Cha2Reg" Type="Type" Filename="int.typ" Default="35"/>
+  <ELEMENT Name="Cha4" Type="Type" Filename="int.typ" Default="35"/>
+  <ELEMENT Name="Cha4Reg" Type="Type" Filename="int.typ" Default="35"/>
   <ELEMENT Name="DynamicEnergyValue" Type="Type" Filename="float.typ" Default="0.01"/>
   <ELEMENT Name="DynGroupCountMultiplier" Type="Type" Filename="int.typ" Default="1"/>
   <COMMENTS>Converted from old format</COMMENTS>

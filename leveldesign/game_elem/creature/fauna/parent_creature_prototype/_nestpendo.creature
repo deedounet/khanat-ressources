@@ -10,9 +10,9 @@
       <ATOM Name="Size" Value="small"/>
       <ATOM Name="Profile" Value="caster healer"/>
       <STRUCT Name="Scores">
-        <ATOM Name="HitPoints" Value="very low"/>
-        <ATOM Name="Sap" Value="default"/>
-        <ATOM Name="Stamina" Value="very low"/>
+        <ATOM Name="ChaScore1" Value="very low"/>
+        <ATOM Name="ChaScore3" Value="default"/>
+        <ATOM Name="ChaScore2" Value="very low"/>
       </STRUCT>
       <STRUCT Name="Equipment">
         <STRUCT Name="Body">

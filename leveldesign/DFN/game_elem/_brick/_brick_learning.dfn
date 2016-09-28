@@ -4,7 +4,7 @@
   <ELEMENT Name="Career" Type="Type" Filename="_career.typ"/>
   <ELEMENT Name="Job" Type="Type" Filename="_job.typ"/>
   <ELEMENT Name="Role Master" Type="Type" Filename="_role_master.typ"/>
-  <ELEMENT Name="Price" Type="Type" Filename="formulae.typ" Default="0.1*&quot;HP Default&quot;"/>
+  <ELEMENT Name="Price" Type="Type" Filename="formulae.typ" Default="0.1*&quot;ChaScore1 Default&quot;"/>
   <COMMENTS>Converted from old format</COMMENTS>
   <LOG>Fri May 17 15:24:07 2002 (corvazier) File converted from old format
 Mon Jun 24 21:42:12 2002 (fleury) Dfn Structure = 

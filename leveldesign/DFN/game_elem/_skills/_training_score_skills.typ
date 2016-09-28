@@ -3,11 +3,11 @@
   <DEFINITION Label="none" Value="None"/>
   <DEFINITION Label="training disease resist" Value="TrainingDiseaseResist"/>
   <DEFINITION Label="training fear resist" Value="TrainingFearResist"/>
-  <DEFINITION Label="training hp" Value="TrainingHp"/>
-  <DEFINITION Label="training hp 1" Value="TrainingHp1"/>
-  <DEFINITION Label="training hp 2" Value="TrainingHp2"/>
-  <DEFINITION Label="training hp 3" Value="TrainingHp3"/>
-  <DEFINITION Label="training hp 4" Value="TrainingHp4"/>
+  <DEFINITION Label="training ChaScore1" Value="TrainingChaScore1"/>
+  <DEFINITION Label="training ChaScore1 1" Value="TrainingChaScore11"/>
+  <DEFINITION Label="training ChaScore1 2" Value="TrainingChaScore12"/>
+  <DEFINITION Label="training ChaScore1 3" Value="TrainingChaScore13"/>
+  <DEFINITION Label="training ChaScore1 4" Value="TrainingChaScore14"/>
   <DEFINITION Label="training impact resist" Value="TrainingImpactResist"/>
   <DEFINITION Label="training impact resist 1" Value="TrainingImpactResist1"/>
   <DEFINITION Label="training impact resist 2" Value="TrainingImpactResist2"/>
@@ -16,15 +16,15 @@
   <DEFINITION Label="training magic resist 1" Value="TrainingMagicResist1"/>
   <DEFINITION Label="training magic resist 2" Value="TrainingMagicResist2"/>
   <DEFINITION Label="training magic resist 3" Value="TrainingMagicResist3"/>
-  <DEFINITION Label="training seve" Value="TrainingSeve"/>
-  <DEFINITION Label="training seve 1" Value="TrainingSeve1"/>
-  <DEFINITION Label="training seve 2" Value="TrainingSeve2"/>
-  <DEFINITION Label="training seve 3" Value="TrainingSeve3"/>
-  <DEFINITION Label="training seve 4" Value="TrainingSeve4"/>
-  <DEFINITION Label="training stamina" Value="TrainingStamina"/>
-  <DEFINITION Label="training stamina 1" Value="TrainingStamina1"/>
-  <DEFINITION Label="training stamina 2" Value="TrainingStamina2"/>
-  <DEFINITION Label="training stamina 3" Value="TrainingStamina3"/>
-  <DEFINITION Label="training stamina 4" Value="TrainingStamina4"/>
+  <DEFINITION Label="training ChaScore3" Value="TrainingChaScore3"/>
+  <DEFINITION Label="training ChaScore3 1" Value="TrainingChaScore31"/>
+  <DEFINITION Label="training ChaScore3 2" Value="TrainingChaScore32"/>
+  <DEFINITION Label="training ChaScore3 3" Value="TrainingChaScore33"/>
+  <DEFINITION Label="training ChaScore3 4" Value="TrainingChaScore34"/>
+  <DEFINITION Label="training ChaScore2" Value="TrainingChaScore2"/>
+  <DEFINITION Label="training ChaScore2 1" Value="TrainingChaScore21"/>
+  <DEFINITION Label="training ChaScore2 2" Value="TrainingChaScore22"/>
+  <DEFINITION Label="training ChaScore2 3" Value="TrainingChaScore23"/>
+  <DEFINITION Label="training ChaScore2 4" Value="TrainingChaScore24"/>
   <DEFINITION Label="training techno resist" Value="TrainingTechnoResist"/>
 </TYPE>
