@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
-<FORM Revision="$Revision$" State="modified">
-  <PARENT Filename="_mc.sitem"/>
+<FORM Revision="$Revision: 1.3 $" State="modified">
   <STRUCT>
     <STRUCT Name="basics">
-      <ATOM Name="name" Value="firework_03"/>
+      <ATOM Name="name" Value="test_consommable"/>
       <ATOM Name="family" Value="consumable"/>
-      <ATOM Name="ItemType" Value="Generic"/>
+      <ATOM Name="stackable" Value="99"/>
       <ATOM Name="Drop or Sell" Value="true"/>
-      <ATOM Name="Bulk" Value="0.1"/>
+      <ATOM Name="Saleable" Value="false"/>
+      <ATOM Name="Price" Value="1"/>
       <ATOM Name="Consumable" Value="true"/>
     </STRUCT>
     <STRUCT Name="3d">
-      <ATOM Name="icon" Value="ico_explosif.tga"/>
+      <ATOM Name="icon" Value="MP_Dandelion.tga"/>
+      <ATOM Name="IconColor" Value="152,227,119"/>
     </STRUCT>
     <STRUCT Name="Consumable">
-      <ATOM Name="EffectEmote" Value="firework_03"/>
+      <ATOM Name="EffectEmote" Value="firework_07"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>

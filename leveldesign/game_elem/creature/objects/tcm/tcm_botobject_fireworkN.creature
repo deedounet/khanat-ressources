@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.2 $" State="modified">
+  <PARENT Filename="_parent_botobject.creature"/>
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <STRUCT Name="Equipment">
+        <STRUCT Name="Body">
+          <ATOM Name="Item" Value="FireWorkN.ps"/>
+        </STRUCT>
+      </STRUCT>
+      <ATOM Name="life" Value="10000"/>
+    </STRUCT>
+    <STRUCT Name="Collision">
+      <ATOM Name="CollisionRadius" Value="0"/>
+      <ATOM Name="Length" Value="0"/>
+      <ATOM Name="Width" Value="0"/>
+      <ATOM Name="Height" Value="1.2"/>
+    </STRUCT>
+    <STRUCT Name="Properties">
+      <ATOM Name="Selectable" Value="false"/>
+      <ATOM Name="Givable" Value="false"/>
+      <ATOM Name="SelectableBySpace" Value="false"/>
+    </STRUCT>
+    <ATOM Name="creature_level" Value="250"/>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
