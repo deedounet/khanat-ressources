@@ -6,7 +6,7 @@
       <ATOM Name="IndexInFamily" Value="2"/>
       <ATOM Name="SabrinaCost" Value="10"/>
       <ATOM Name="SPCost" Value="40"/>
-      <ATOM Name="Property 0" Value="CR_SAP: 10"/>
+      <ATOM Name="Property 0" Value="CR_ChaScore3: 10"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SC 0"/>
     </STRUCT>
     <STRUCT Name="Client">

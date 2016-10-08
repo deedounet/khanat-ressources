@@ -4,12 +4,12 @@
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSMMD"/>
       <ATOM Name="IndexInFamily" Value="63"/>
-      <ATOM Name="Property 0" Value="SP_HEAL:ChaScore3:100:0:0:Heal"/>
+      <ATOM Name="Property 0" Value="SP_HEAL:Cha_Score3:100:0:0:Heal"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
       <ATOM Name="Skill" Value="unknown"/>
-      <ATOM Name="ForbiddenDef" Value="HEAL_SAP"/>
-      <ATOM Name="ForbiddenExclude" Value="HEAL_SAP"/>
+      <ATOM Name="ForbiddenDef" Value="HEAL_ChaScore3"/>
+      <ATOM Name="ForbiddenExclude" Value="HEAL_ChaScore3"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Sap.tga"/>

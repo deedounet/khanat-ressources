@@ -456,23 +456,23 @@
   <DEFINITION Label="BEPA" Value="BEPA"/>
   <DEFINITION Label="BSXCA" Value="BSXCA"/>
   <DEFINITION Label="BTFOC" Value="BTFOC"/>
-  <DEFINITION Label="BTHP" Value="BTHP"/>
-  <DEFINITION Label="BTSAP" Value="BTSAP"/>
-  <DEFINITION Label="BTSTA" Value="BTSTA"/>
+  <DEFINITION Label="BTTRA" Value="BTTRA"/>
+  <DEFINITION Label="BTOBL" Value="BTOBL"/>
+  <DEFINITION Label="BTPAI" Value="BTPAI"/>
   <DEFINITION Label="BAPA" Value="BAPA"/>
-  <LOG>Wed Jan 14 19:26:40 2004 (fleury) Type Predef = 
-Thu Jan 15 11:28:54 2004 (fleury) Type Predef = 
-Wed Feb 11 18:21:53 2004 (fleury) Type Predef = 
-Wed Feb 11 19:46:06 2004 (fleury) Type Predef = 
-Tue Feb 17 16:44:27 2004 (fleury) Type Predef = 
-Tue May 11 14:41:33 2004 (fleury) Type Predef = 
-Wed May 12 18:58:50 2004 (fleury) Type Predef = 
-Wed May 12 18:59:05 2004 (fleury) Type Predef = 
-Tue Jul 13 18:31:29 2004 (fleury) Type Predef = 
-Mon Aug 16 11:51:52 2004 (fleury) Type Predef = 
-Tue Aug 31 17:13:43 2004 (fleury) Type Predef = 
-Wed Sep 01 11:12:37 2004 (fleury) Type Predef = 
-Wed Sep 01 21:14:56 2004 (fleury) Type Predef = 
-Thu Sep 02 12:15:01 2004 (fleury) Type Predef = 
+  <LOG>Wed Jan 14 19:26:40 2004 (fleury) Type Predef =
+Thu Jan 15 11:28:54 2004 (fleury) Type Predef =
+Wed Feb 11 18:21:53 2004 (fleury) Type Predef =
+Wed Feb 11 19:46:06 2004 (fleury) Type Predef =
+Tue Feb 17 16:44:27 2004 (fleury) Type Predef =
+Tue May 11 14:41:33 2004 (fleury) Type Predef =
+Wed May 12 18:58:50 2004 (fleury) Type Predef =
+Wed May 12 18:59:05 2004 (fleury) Type Predef =
+Tue Jul 13 18:31:29 2004 (fleury) Type Predef =
+Mon Aug 16 11:51:52 2004 (fleury) Type Predef =
+Tue Aug 31 17:13:43 2004 (fleury) Type Predef =
+Wed Sep 01 11:12:37 2004 (fleury) Type Predef =
+Wed Sep 01 21:14:56 2004 (fleury) Type Predef =
+Thu Sep 02 12:15:01 2004 (fleury) Type Predef =
 Wed Mar 18 15:14:33 2009 (kervala) Type Predef = </LOG>
 </TYPE>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.6 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BPPL"/>
+      <ATOM Name="SPCost" Value="10"/>
+      <ATOM Name="Property 0" Value="CHARAC_UPGRADE:Cha4Reg:1"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 75:SC 75"/>
+      <ATOM Name="LearnRequiresBricks" Value="bppl15.sbrick"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Will.tga"/>
+      <ATOM Name="IconBack" Value="CH_Back.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+</FORM>
