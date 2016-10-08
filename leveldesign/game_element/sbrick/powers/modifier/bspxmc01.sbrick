@@ -4,11 +4,11 @@
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSXMC"/>
       <ATOM Name="IndexInFamily" Value="63"/>
-      <ATOM Name="Property 0" Value="SP_HEAL:ChaScore1:100:0:0:Heal"/>
+      <ATOM Name="Property 0" Value="SP_HEAL:Cha_Score1:100:0:0:Heal"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
-      <ATOM Name="ForbiddenDef" Value="HEAL_HP"/>
-      <ATOM Name="ForbiddenExclude" Value="HEAL_HP"/>
+      <ATOM Name="ForbiddenDef" Value="HEAL_ChaScore1"/>
+      <ATOM Name="ForbiddenExclude" Value="HEAL_ChaScore1"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Heal.tga"/>

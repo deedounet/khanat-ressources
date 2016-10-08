@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BSMMC"/>
       <ATOM Name="SabrinaCost"/>
       <ATOM Name="SPCost" Value="50"/>
-      <ATOM Name="Property 0" Value="SP_BALANCE:900:ChaScore1:25:50"/>
+      <ATOM Name="Property 0" Value="SP_BALANCE:900:Cha_Score1:25:50"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SMDH 101"/>

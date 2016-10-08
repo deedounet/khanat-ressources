@@ -4,12 +4,12 @@
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BSFMH"/>
       <ATOM Name="IndexInFamily" Value="63"/>
-      <ATOM Name="Property 0" Value="SP_HEAL:ChaScore2:100:0:0:Heal"/>
+      <ATOM Name="Property 0" Value="SP_HEAL:Cha_Score2:100:0:0:Heal"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
       <ATOM Name="Skill" Value="unknown"/>
-      <ATOM Name="ForbiddenDef" Value="HEAL_STA"/>
-      <ATOM Name="ForbiddenExclude" Value="HEAL_STA"/>
+      <ATOM Name="ForbiddenDef" Value="HEAL_ChaScore2"/>
+      <ATOM Name="ForbiddenExclude" Value="HEAL_ChaScore2"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Stamina.tga"/>

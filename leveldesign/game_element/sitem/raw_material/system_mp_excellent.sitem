@@ -39,10 +39,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -80,10 +80,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -121,10 +121,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -162,10 +162,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -203,10 +203,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -244,10 +244,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -285,10 +285,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -326,10 +326,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -367,10 +367,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -408,10 +408,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -449,10 +449,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -490,10 +490,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -531,10 +531,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -572,10 +572,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -613,10 +613,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -654,10 +654,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -695,10 +695,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -736,10 +736,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -777,10 +777,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -818,10 +818,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -859,10 +859,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -900,10 +900,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -941,10 +941,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -982,10 +982,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -1023,10 +1023,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -1064,10 +1064,10 @@
           <ATOM Name="LacustreResistance" Value="65"/>
           <ATOM Name="JungleResistance" Value="65"/>
           <ATOM Name="PrimaryRootResistance" Value="65"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="65"/>
           <ATOM Name="ElementalPowerFactor" Value="65"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="65"/>
@@ -1116,10 +1116,10 @@ Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).DodgeModifier = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).Durability = 1
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ElementalCastingTimeFactor = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ElementalPowerFactor = 0
-Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).FocusBuff = 0
+Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ChaScore4Buff = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).HealCastingTimeFactor = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).HealPowerFactor = 0
-Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).HpBuff = 0
+Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ChaScore1Buff = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).MaxBluntProtection = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).MaxPiercingProtection = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).MaxSlashingProtection = 0
@@ -1128,10 +1128,10 @@ Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).OffensiveAfflictionPo
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ParryModifier = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ProtectionFactor = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).Range = 0
-Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).SapBuff = 0
+Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ChaScore3Buff = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).SapLoad = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).Speed = 0
-Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).StaBuff = 0
+Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ChaScore2Buff = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).Weight = 0
 Fri Aug 13 17:33:26 2004 (puzin) formName Pasted = 
 Mon Aug 30 16:21:08 2004 (puzin) .basics.Drop or Sell = false
@@ -1144,10 +1144,10 @@ Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).DodgeModifier = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).Durability = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).ElementalCastingTimeFactor = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).ElementalPowerFactor = 65
-Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).FocusBuff = 65
+Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).ChaScore4Buff = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).HealCastingTimeFactor = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).HealPowerFactor = 65
-Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).HpBuff = 65
+Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).ChaScore1Buff = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).MaxBluntProtection = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).MaxPiercingProtection = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).MaxSlashingProtection = 65
@@ -1156,16 +1156,16 @@ Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).OffensiveAfflictio
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).ParryModifier = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).ProtectionFactor = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).Range = 65
-Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).SapBuff = 65
+Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).ChaScore3Buff = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).SapLoad = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).Speed = 65
-Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).StaBuff = 65
+Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).ChaScore2Buff = 65
 Wed Nov 17 17:26:01 2004 (peloille) .mp.MpParam.A MpL (Blade).Weight = 65
 Wed Nov 17 17:26:01 2004 (peloille) formName Pasted = 
-Thu Nov 18 11:09:43 2004 (peloille) .mp.MpParam.A MpL (Blade).FocusBuff = 0
-Thu Nov 18 11:09:43 2004 (peloille) .mp.MpParam.A MpL (Blade).HpBuff = 0
-Thu Nov 18 11:09:43 2004 (peloille) .mp.MpParam.A MpL (Blade).SapBuff = 0
-Thu Nov 18 11:09:43 2004 (peloille) .mp.MpParam.A MpL (Blade).StaBuff = 0
+Thu Nov 18 11:09:43 2004 (peloille) .mp.MpParam.A MpL (Blade).ChaScore4Buff = 0
+Thu Nov 18 11:09:43 2004 (peloille) .mp.MpParam.A MpL (Blade).ChaScore1Buff = 0
+Thu Nov 18 11:09:43 2004 (peloille) .mp.MpParam.A MpL (Blade).ChaScore3Buff = 0
+Thu Nov 18 11:09:43 2004 (peloille) .mp.MpParam.A MpL (Blade).ChaScore2Buff = 0
 Thu Nov 18 11:09:43 2004 (peloille) formName Pasted = 
 Thu Jul 28 19:44:33 2005 (puzin) .mp.MpParam.A MpL (Blade).AcidProtection = 65
 Thu Jul 28 19:44:33 2005 (puzin) .mp.MpParam.A MpL (Blade).ColdProtection = 65

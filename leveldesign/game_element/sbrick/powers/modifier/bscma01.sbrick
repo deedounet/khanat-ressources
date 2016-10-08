@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BSCMA"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="0"/>
-      <ATOM Name="Property 0" Value="SP_HEAL:ChaScore1:0:20:30:HealHpC"/>
+      <ATOM Name="Property 0" Value="SP_HEAL:Cha_Score1:0:20:30:HealHpC"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
       <ATOM Name="LearnRequiresOneOfSkills"/>

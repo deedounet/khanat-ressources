@@ -28,10 +28,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -58,10 +58,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -88,10 +88,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -118,10 +118,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -148,10 +148,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -178,10 +178,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -208,10 +208,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -238,10 +238,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -268,10 +268,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -298,10 +298,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -328,10 +328,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -358,10 +358,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -388,10 +388,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -418,10 +418,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -448,10 +448,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -478,10 +478,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -508,10 +508,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -538,10 +538,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -568,10 +568,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -598,10 +598,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -628,10 +628,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -658,10 +658,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -688,10 +688,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -718,10 +718,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -748,10 +748,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -778,10 +778,10 @@
           <ATOM Name="MaxBluntProtection" Value="0"/>
           <ATOM Name="MaxPiercingProtection" Value="0"/>
           <ATOM Name="JewelProtectionType" Value="nothing"/>
-          <ATOM Name="HpBuff" Value="0"/>
-          <ATOM Name="SapBuff" Value="0"/>
-          <ATOM Name="StaBuff" Value="0"/>
-          <ATOM Name="FocusBuff" Value="0"/>
+          <ATOM Name="ChaScore1Buff" Value="0"/>
+          <ATOM Name="ChaScore3Buff" Value="0"/>
+          <ATOM Name="ChaScore2Buff" Value="0"/>
+          <ATOM Name="ChaScore4Buff" Value="0"/>
           <ATOM Name="ElementalCastingTimeFactor" Value="0"/>
           <ATOM Name="ElementalPowerFactor" Value="0"/>
           <ATOM Name="OffensiveAfflictionCastingTimeFactor" Value="0"/>
@@ -830,10 +830,10 @@ Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).DodgeModifier = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).Durability = 1
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ElementalCastingTimeFactor = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ElementalPowerFactor = 0
-Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).FocusBuff = 0
+Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ChaScore4Buff = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).HealCastingTimeFactor = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).HealPowerFactor = 0
-Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).HpBuff = 0
+Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ChaScore1Buff = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).MaxBluntProtection = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).MaxPiercingProtection = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).MaxSlashingProtection = 0
@@ -842,11 +842,11 @@ Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).OffensiveAfflictionPo
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ParryModifier = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ProtectionFactor = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).Range = 0
-Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).SapBuff = 0
+Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ChaScore3Buff = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).SapLoad = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).Speed = 0
-Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).StaBuff = 0
+Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).ChaScore2Buff = 0
 Fri Aug 13 17:32:18 2004 (puzin) .mp.MpParam.A MpL (Blade).Weight = 0
-Fri Aug 13 17:33:26 2004 (puzin) formName Pasted = 
+Fri Aug 13 17:33:26 2004 (puzin) formName Pasted =
 Mon Aug 30 16:21:08 2004 (puzin) .basics.Drop or Sell = false</LOG>
 </FORM>

@@ -3,8 +3,8 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BMOETMS"/>
-      <ATOM Name="IndexInFamily" Value="250"/>
-      <ATOM Name="SabrinaCost" Value="3"/>
+      <ATOM Name="IndexInFamily" Value="6"/>
+      <ATOM Name="SabrinaCost" Value="250"/>
       <ATOM Name="SPCost" Value="7"/>
       <ATOM Name="Property 0" Value="MA: moet"/>
       <ATOM Name="Property 1" Value="MA_DMG: 3000: 0: 0"/>
