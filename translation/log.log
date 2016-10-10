@@ -4793,3 +4793,26 @@ Log Starting [2016/09/14 22:04:11]
 2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
 2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
 2016/09/14 22:04:11 DBG 1786890048 <Unknown> diff_tool.cpp 714 readExcelSheet : At line 0, numCol changed to 4
+
+Log Starting [2016/10/09 21:34:30]
+2016/10/09 21:34:30 INF 2940680000 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/10/09 21:34:30 WRN 2940680000 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/10/09 21:34:30 INF 2940680000 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/10/09 21:34:30 INF 2940680000 <Unknown> main.cpp 463 onChanged : Changed uiCharSel_EmptySlot at 3372
+
+Log Starting [2016/10/09 21:34:57]
+2016/10/09 21:34:57 INF 695506752 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/10/09 21:34:57 WRN 695506752 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/10/09 21:34:57 INF 695506752 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+
+Log Starting [2016/10/09 21:35:00]
+2016/10/09 21:35:00 INF 500250432 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/10/09 21:35:00 WRN 500250432 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/10/09 21:35:00 INF 500250432 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2016/10/09 21:35:00 INF 500250432 <Unknown> main.cpp 463 onChanged : Changed uiCharSel_EmptySlot at 3372
+2016/10/09 21:35:00 INF 500250432 <Unknown> main.cpp 463 onChanged : Changed uiCharSel_EmptySlot at 3372
+
+Log Starting [2016/10/09 21:35:27]
+2016/10/09 21:35:27 INF 1082918720 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2016/10/09 21:35:27 WRN 1082918720 <Unknown> path.cpp 1532 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2016/10/09 21:35:27 INF 1082918720 <Unknown> path.cpp 1021 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
