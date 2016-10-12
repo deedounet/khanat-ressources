@@ -9,7 +9,7 @@
       <ATOM Name="Property 0" Value="HIT_ALL_AGGRESSORS:1.0:2"/>
       <ATOM Name="Property 1" Value="SET_BEHAVIOUR:AREA_ATTACK"/>
       <ATOM Name="Property 2"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SFM 50"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SFM 0"/>
       <ATOM Name="Skill" Value="SFM"/>
       <ATOM Name="ForbiddenDef"/>
       <ATOM Name="ForbiddenExclude"/>

@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BCFJEA"/>
       <ATOM Name="IndexInFamily" Value="10"/>
       <ATOM Name="SPCost" Value="40"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SC 20"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SC 0"/>
       <ATOM Name="Action Nature" Value="CRAFT"/>
       <ATOM Name="Skill" Value="SCJEAEM"/>
       <ATOM Name="LearnRequiresBricks" Value="bcpa06.sbrick"/>

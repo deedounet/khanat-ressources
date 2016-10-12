@@ -8,7 +8,7 @@
       <ATOM Name="Property 0" Value="SP_MAGIC_PROTECTION_AURA:10:10:1200:1800"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SM 20"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SM 0"/>
       <ATOM Name="Skill"/>
       <ATOM Name="ForbiddenDef"/>
       <ATOM Name="ForbiddenExclude"/>

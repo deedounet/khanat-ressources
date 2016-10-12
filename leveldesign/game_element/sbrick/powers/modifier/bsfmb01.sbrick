@@ -8,7 +8,7 @@
       <ATOM Name="Property 0" Value="SP_SHIELDING:25:5:50:10:75:15:15:120"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 10"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
       <ATOM Name="Skill"/>
       <ATOM Name="ForbiddenDef"/>
       <ATOM Name="ForbiddenExclude"/>

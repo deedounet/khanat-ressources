@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BPPW"/>
       <ATOM Name="SPCost" Value="10"/>
       <ATOM Name="Property 0" Value="CHARAC_UPGRADE:Cha3Reg:1"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SM 20"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SM 0"/>
       <ATOM Name="LearnRequiresBricks" Value="bppw04.sbrick"/>
     </STRUCT>
     <STRUCT Name="Client">

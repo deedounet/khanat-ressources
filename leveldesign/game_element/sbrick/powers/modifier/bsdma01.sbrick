@@ -8,7 +8,7 @@
       <ATOM Name="Property 0" Value="SP_SPEEDING_UP:100:30:200"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 20:SM 20:SC 20:SH 20"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0:SM 0:SC 0:SH 0"/>
       <ATOM Name="Skill"/>
       <ATOM Name="ForbiddenDef"/>
       <ATOM Name="ForbiddenExclude"/>

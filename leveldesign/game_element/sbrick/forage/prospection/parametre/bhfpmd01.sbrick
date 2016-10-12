@@ -7,7 +7,7 @@
       <ATOM Name="SabrinaCost" Value="5"/>
       <ATOM Name="SPCost" Value="20"/>
       <ATOM Name="Property 0" Value="FG_ANGLE: 20"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 10"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Angle.tga"/>

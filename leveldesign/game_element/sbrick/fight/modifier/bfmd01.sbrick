@@ -7,7 +7,7 @@
       <ATOM Name="SabrinaCost" Value="15"/>
       <ATOM Name="SPCost" Value="10"/>
       <ATOM Name="Property 0" Value="BLEED_FACTOR:30:0:1.2"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 15"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
       <ATOM Name="Skill" Value="SFM1S:SFM2S"/>
     </STRUCT>
     <STRUCT Name="Client">

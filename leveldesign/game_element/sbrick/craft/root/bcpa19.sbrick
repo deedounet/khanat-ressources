@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.13 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BCPA"/>
+      <ATOM Name="IndexInFamily" Value="19"/>
+      <ATOM Name="Property 0" Value="FPLAN: BCZMEA BCCMEA BCBMEA BCOKAMM01 BCOKAMM02 BCOKARM01 BCOKARM02"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SC 0"/>
+      <ATOM Name="Action Nature" Value="CRAFT"/>
+      <ATOM Name="Skill" Value="SCM"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="FP_Melee.tga"/>
+      <ATOM Name="IconBack" Value="BK_zorai_brick.tga"/>
+      <ATOM Name="IconOver" Value="FP_Over.tga"/>
+    </STRUCT>
+    <STRUCT Name="Optional">
+      <ATOM Name="f0" Value="BCOA"/>
+      <ATOM Name="f1" Value="BCOB"/>
+      <ATOM Name="f2" Value="BCOC"/>
+      <ATOM Name="f3" Value="BCOD"/>
+    </STRUCT>
+    <STRUCT Name="Parameter">
+      <ATOM Name="f0" Value="BCZMCA"/>
+    </STRUCT>
+    <STRUCT Name="faber">
+      <ATOM Name="Tool type" Value="MeleeWeaponTool"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

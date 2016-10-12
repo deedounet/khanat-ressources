@@ -8,7 +8,7 @@
       <ATOM Name="SPCost" Value="5"/>
       <ATOM Name="Property 0" Value="FOCUS: 2"/>
       <ATOM Name="Property 1" Value="BHFECA_TAG: -7"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 10"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Focus.tga"/>

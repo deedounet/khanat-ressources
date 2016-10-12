@@ -9,7 +9,7 @@
       <ATOM Name="Property 0" Value="ARMOR_MOD:ALL:1:0"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 15"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
       <ATOM Name="Skill" Value="SFM1P:SFM2P:SFMCAD"/>
       <ATOM Name="ForbiddenDef"/>
       <ATOM Name="ForbiddenExclude"/>

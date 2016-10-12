@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.4 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BFOB"/>
+      <ATOM Name="SabrinaCost" Value="0"/>
+      <ATOM Name="SPCost" Value="50"/>
+      <ATOM Name="Property 0" Value="DEFINE_FLAG:Feint"/>
+      <ATOM Name="Property 1"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SFM 0"/>
+      <ATOM Name="Skill" Value="SFM"/>
+      <ATOM Name="ForbiddenDef"/>
+      <ATOM Name="ForbiddenExclude"/>
+      <ATOM Name="LearnRequiresBricks"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Feint.tga"/>
+      <ATOM Name="IconBack" Value="OP_Back.tga"/>
+      <ATOM Name="IconOver"/>
+    </STRUCT>
+    <STRUCT Name="Parameter">
+      <ATOM Name="f0"/>
+      <ATOM Name="f1"/>
+      <ATOM Name="f2"/>
+      <ATOM Name="f3"/>
+    </STRUCT>
+    <STRUCT Name="Credit">
+      <ATOM Name="f0"/>
+      <ATOM Name="f1"/>
+      <ATOM Name="f2"/>
+      <ATOM Name="f3"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

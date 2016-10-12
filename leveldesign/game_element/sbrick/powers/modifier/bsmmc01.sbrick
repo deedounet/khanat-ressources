@@ -8,7 +8,7 @@
       <ATOM Name="Property 0" Value="SP_BALANCE:900:Cha_Score1:25:50"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SMDH 101"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SMDH 0"/>
       <ATOM Name="Skill"/>
       <ATOM Name="ForbiddenDef"/>
       <ATOM Name="ForbiddenExclude"/>

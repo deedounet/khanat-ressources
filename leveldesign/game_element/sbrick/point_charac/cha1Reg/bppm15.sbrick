@@ -6,7 +6,7 @@
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="SPCost" Value="10"/>
       <ATOM Name="Property 0" Value="CHARAC_UPGRADE:Cha1Reg1:"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 70:SM 140:SH 105"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0:SM 0:SH 0:SC 0"/>
       <ATOM Name="Skill"/>
       <ATOM Name="LearnRequiresBricks" Value="bppm14.sbrick"/>
     </STRUCT>
