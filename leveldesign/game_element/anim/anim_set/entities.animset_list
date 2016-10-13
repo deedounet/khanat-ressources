@@ -7,7 +7,7 @@
       <ATOM Name="dag" Value="dag.animset_mode"/>
       <ATOM Name="arma" Value="arma.animset_mode"/>
       <ATOM Name="armamount" Value="armamount.animset_mode"/>
-      <ATOM Name="sagassmount" Value="sagass_selle.animset_mode"/>
+      <ATOM Name="sagassmount" Value="sagassmount.animset_mode"/>
 	  <ATOM Name="clapclap" Value="clapclap.animset_mode"/>
 	  <ATOM Name="clapclap_standard" Value="clapclap.animset_mode"/>
  </ARRAY>

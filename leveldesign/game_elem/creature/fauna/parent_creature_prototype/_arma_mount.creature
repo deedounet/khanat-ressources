@@ -5,7 +5,7 @@
   <PARENT Filename="_medium_slashing_armor_set.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="Race" Value="arma"/>
+      <ATOM Name="Race" Value="mektoub mount"/>
       <ATOM Name="DamageLocalisationTable" Value="quadruped"/>
       <STRUCT Name="Scores">
         <ATOM Name="ChaScore1" Value="default"/>
@@ -68,11 +68,6 @@
     </STRUCT>
     <STRUCT Name="Collision">
       <ATOM Name="CollisionRadius" Value="1.13"/>
-    </STRUCT>
-    <STRUCT Name="Properties">
-      <ATOM Name="Attackable" Value="false"/>
-      <ATOM Name="Curativable" Value="true"/>
-      <ATOM Name="Mountable" Value="true"/>
     </STRUCT>
     <STRUCT Name="animal_bag">
       <ATOM Name="bag" Value="steed_inventory.sitem"/>

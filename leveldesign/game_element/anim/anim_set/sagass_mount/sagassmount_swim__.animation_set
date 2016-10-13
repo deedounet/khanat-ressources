@@ -7,7 +7,6 @@
           <ATOM Name="filename" Value="tr_mo_sagass_selle_idle.anim"/>
         </STRUCT>
       </ARRAY>
-      </ARRAY>
       <ATOM Name="LodCharacterAnimation" Value="tr_mo_sagass_selle_idle.anim"/>
     </STRUCT>
     <STRUCT Name="walk">
