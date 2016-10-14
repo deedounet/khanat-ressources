@@ -7,7 +7,7 @@
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="OPENING_1:Feint"/>
       <ATOM Name="Property 1"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SFM 50"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SFM 0"/>
       <ATOM Name="Skill" Value="SFM"/>
       <ATOM Name="ForbiddenDef" Value="OPENING"/>
       <ATOM Name="ForbiddenExclude" Value="OPENING"/>

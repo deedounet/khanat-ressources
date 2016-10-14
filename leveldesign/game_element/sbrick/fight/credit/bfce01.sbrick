@@ -6,7 +6,7 @@
       <ATOM Name="SabrinaCost" Value="-10"/>
       <ATOM Name="SPCost" Value="10"/>
       <ATOM Name="Property 0" Value="OPENING_1:CriticalHit"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 10"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
       <ATOM Name="Skill" Value="SFM"/>
       <ATOM Name="ForbiddenDef" Value="OPENING"/>
       <ATOM Name="ForbiddenExclude" Value="OPENING"/>

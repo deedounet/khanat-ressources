@@ -8,7 +8,7 @@
       <ATOM Name="SPCost" Value="20"/>
       <ATOM Name="Property 0" Value="FG_ITEMPART_FILT: 0"/>
       <ATOM Name="Property 1" Value="FG_ATTEMPTS: 3"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 20"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_Blade.tga"/>

@@ -3,7 +3,7 @@
   <STRUCT>
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BCCMEA"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SC 20"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SC 0"/>
       <ATOM Name="Action Nature" Value="CRAFT"/>
       <ATOM Name="Skill" Value="SCM2MEM"/>
       <ATOM Name="LearnRequiresBricks" Value="bcpa01.sbrick"/>

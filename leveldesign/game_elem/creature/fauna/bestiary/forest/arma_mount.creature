@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.64 $" State="modified">
   <PARENT Filename="_armamonte_for.creature"/>
+  <PARENT Filename="dag_attack.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
+      <ATOM Name="First Name" Value="forest mektoub mount"/>
       <ATOM Name="PlayerSkillLevel" Value="22"/>
       <ATOM Name="NbPlayers" Value="1"/>
       <ATOM Name="PlayerChaScore1Level" Value="22"/>
@@ -15,7 +17,7 @@
         <ATOM Name="RunSpeed" Value="8"/>
         <ATOM Name="GroupDispersion" Value="0.6"/>
       </STRUCT>
-      <ATOM Name="ChaScore1" Value="12540"/>
+      <ATOM Name="ChaScore1" Value="1000"/>
       <ATOM Name="AttackSpeed" Value="3.5"/>
       <ATOM Name="ChaScore1Regen" Value="18.361657459"/>
       <ATOM Name="AttackLevel" Value="183"/>
@@ -78,8 +80,10 @@
     </STRUCT>
     <STRUCT Name="Properties">
       <ATOM Name="LootHarvestState" Value="Harvestable"/>
-      <ATOM Name="XPGainCoef" Value="1"/>
+      <ATOM Name="Attackable" Value="false"/>
+      <ATOM Name="Curativable" Value="false"/>
       <ATOM Name="Mountable" Value="true"/>
+      <ATOM Name="LootHarvestState" Value="Harvestable"/>
     </STRUCT>
     <STRUCT Name="Combat">
       <ATOM Name="AggroRadiusNotHungry" Value="15"/>
@@ -93,17 +97,17 @@
       <ATOM Name="AssistDist" Value="0"/>
     </STRUCT>
     <STRUCT Name="Protections">
-      <ATOM Name="PiercingMax" Value="1372.5"/>
+      <ATOM Name="PiercingMax" Value="100"/>
       <ATOM Name="PiercingFactor" Value="50"/>
       <ATOM Name="SlashingMax" Value="0"/>
       <ATOM Name="SlashingFactor" Value="0"/>
       <ATOM Name="BluntMax" Value="0"/>
       <ATOM Name="BluntFactor" Value="0"/>
-      <ATOM Name="RotMax" Value="1372.5"/>
+      <ATOM Name="RotMax" Value="100"/>
       <ATOM Name="RotFactor" Value="50"/>
       <ATOM Name="AcidMax" Value="0"/>
       <ATOM Name="AcidFactor" Value="0"/>
-      <ATOM Name="ColdMax" Value="1372.5"/>
+      <ATOM Name="ColdMax" Value="100"/>
       <ATOM Name="ColdFactor" Value="75"/>
       <ATOM Name="FireMax" Value="0"/>
       <ATOM Name="FireFactor" Value="0"/>
@@ -115,19 +119,19 @@
       <ATOM Name="ShockFactor" Value="0"/>
     </STRUCT>
     <STRUCT Name="Resists">
-      <ATOM Name="Fear" Value="200"/>
-      <ATOM Name="Sleep" Value="200"/>
-      <ATOM Name="Stun" Value="200"/>
-      <ATOM Name="Root" Value="200"/>
-      <ATOM Name="Blind" Value="200"/>
-      <ATOM Name="Snare" Value="30000"/>
-      <ATOM Name="Slow" Value="30000"/>
-      <ATOM Name="Acid" Value="200"/>
-      <ATOM Name="Cold" Value="200"/>
-      <ATOM Name="Electricity" Value="200"/>
-      <ATOM Name="Fire" Value="200"/>
-      <ATOM Name="Poison" Value="200"/>
-      <ATOM Name="Rot" Value="200"/>
+      <ATOM Name="Fear" Value="100"/>
+      <ATOM Name="Sleep" Value="100"/>
+      <ATOM Name="Stun" Value="100"/>
+      <ATOM Name="Root" Value="100"/>
+      <ATOM Name="Blind" Value="100"/>
+      <ATOM Name="Snare" Value="100"/>
+      <ATOM Name="Slow" Value="100"/>
+      <ATOM Name="Acid" Value="100"/>
+      <ATOM Name="Cold" Value="100"/>
+      <ATOM Name="Electricity" Value="100"/>
+      <ATOM Name="Fire" Value="100"/>
+      <ATOM Name="Poison" Value="100"/>
+      <ATOM Name="Rot" Value="100"/>
     </STRUCT>
     <STRUCT Name="Damage Shield">
       <ATOM Name="Damage" Value="10"/>
@@ -137,15 +141,9 @@
     <ATOM Name="race_code" Value="A"/>
     <ATOM Name="creature_level" Value="18.3"/>
     <ATOM Name="group_id" Value="HA"/>
-    </STRUCT>
-    <STRUCT Name="Properties">
-      <ATOM Name="Attackable" Value="false"/>
-      <ATOM Name="Curativable" Value="true"/>
-      <ATOM Name="Mountable" Value="true"/>
-   </STRUCT>
+  </STRUCT>
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
-  <LOG></LOG>
 </FORM>

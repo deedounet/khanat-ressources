@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BSXEB"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="Property 0" Value="BYPASS_CHECK:Fear"/>
-	  <ATOM Name="Property 1" Value="BYPASS_CHECK:Sleep"/>
+      <ATOM Name="Property 1" Value="BYPASS_CHECK:Sleep"/>
       <ATOM Name="LearnRequiresOneOfSkills"/>
       <ATOM Name="Skill"/>
       <ATOM Name="ForbiddenDef" Value="AURA"/>

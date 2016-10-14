@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.10 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BCPA"/>
+      <ATOM Name="IndexInFamily" Value="15"/>
+      <ATOM Name="Property 0" Value="FPLAN: BCTPEA"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SC 0"/>
+      <ATOM Name="Action Nature" Value="CRAFT"/>
+      <ATOM Name="Skill" Value="SCR"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="FP_Ammo.tga"/>
+      <ATOM Name="IconBack" Value="BK_tryker_brick.tga"/>
+      <ATOM Name="IconOver" Value="FP_Over.tga"/>
+      <ATOM Name="IconOver2" Value="AM_logo.tga"/>
+    </STRUCT>
+    <STRUCT Name="Parameter">
+      <ATOM Name="f0" Value="BCTPCA"/>
+    </STRUCT>
+    <STRUCT Name="faber">
+      <ATOM Name="Tool type" Value="AmmoTool"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

@@ -6,8 +6,8 @@
       <ATOM Name="IndexInFamily" Value="3"/>
       <ATOM Name="SabrinaCost" Value="-40"/>
       <ATOM Name="SPCost" Value="5"/>
-      <ATOM Name="Property 0" Value="FOCUS: 40"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 5"/>
+      <ATOM Name="Property 0" Value="ChaScore4: 40"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
       <ATOM Name="LearnRequiresBricks" Value="BHFPCA02"/>
     </STRUCT>
     <STRUCT Name="Client">
