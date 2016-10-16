@@ -1,7 +1,15 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.1 $" State="modified">
-  <PARENT Filename="clapclap_swim__.animation_set"/>
+  <PARENT Filename="_death__.animation_set"/>
   <STRUCT>
+    <STRUCT Name="idle">
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="TR_MO_Clapclap_mort_cycle.anim"/>
+        </STRUCT>
+      </ARRAY>
+      <ATOM Name="LodCharacterAnimation" Value="TR_MO_Clapclap_mort_cycle.anim"/>
+    </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

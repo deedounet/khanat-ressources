@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.1 $" State="modified">
-  <PARENT Filename="clapclap_swim__.animation_set"/>
+  <PARENT Filename="clapclap_death__.animation_set"/>
   <STRUCT>
   </STRUCT>
   <STRUCT/>
