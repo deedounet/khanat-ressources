@@ -694,9 +694,10 @@
                 <STRING># step_4</STRING>
                 <STRING>set_obj_rp : qabb20160603a_OBJ</STRING>
                 <STRING>forage : mgedja 20 5</STRING>
+                <STRING>add_compass_npc : disp_sipvandil</STRING>
                 <STRING>set_obj_rp : qabb20160603a_OBJ1</STRING>
                 <STRING>give_item : mgedja 20 5 : disp_sipvandil</STRING>
-                <STRING>recv_item : fireworks_a 3 1 : disp_sipvandil</STRING>
+                <STRING>recv_item : object_fireworks_a 3 1 : disp_sipvandil</STRING>
                 <STRING># chat_end</STRING>
                 <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603a_1 : chat_end_resp ANSWER_OK</STRING>
                 <STRING>jump_point : chat_end_resp</STRING>
@@ -789,7 +790,7 @@
                 <STRING># ANSWER2</STRING>
                 <STRING>jump_point : ANSWER2</STRING>
                 <STRING>give_item : mflour 1 1; mgourd_full 5 1 : disp_sipvandil</STRING>
-                <STRING>recv_item : fireworks_b 3 1 : disp_sipvandil</STRING>
+                <STRING>recv_item : object_fireworks_b 3 1 : disp_sipvandil</STRING>
                 <STRING></STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimAlias">
@@ -848,7 +849,7 @@
                 <STRING>set_obj_rp : qabb20160607a_OBJ3</STRING>
                 <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160607a_2 : chat_end_resp ANSWER_OK</STRING>
                 <STRING>jump_point : chat_end_resp</STRING>
-                <STRING>recv_item : fireworks_c 3 1 : disp_sipvandil</STRING>
+                <STRING>recv_item : object_fireworks_c 3 1 : disp_sipvandil</STRING>
                 <STRING></STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimAlias">
