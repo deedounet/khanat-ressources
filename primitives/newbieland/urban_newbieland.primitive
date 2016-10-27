@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="1307"/>
+    <ALIAS LAST_GENERATED="1309"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -697,7 +697,8 @@
                 <STRING>add_compass_npc : disp_sipvandil</STRING>
                 <STRING>set_obj_rp : qabb20160603a_OBJ1</STRING>
                 <STRING>give_item : mgedja 20 5 : disp_sipvandil</STRING>
-                <STRING>recv_item : object_fireworks_a 3 1 : disp_sipvandil</STRING>
+                <STRING>recv_item : conso_fireworks_a 3 1 : disp_sipvandil</STRING>
+                <STRING>recv_money : 1000</STRING>
                 <STRING># chat_end</STRING>
                 <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603a_1 : chat_end_resp ANSWER_OK</STRING>
                 <STRING>jump_point : chat_end_resp</STRING>
@@ -790,7 +791,8 @@
                 <STRING># ANSWER2</STRING>
                 <STRING>jump_point : ANSWER2</STRING>
                 <STRING>give_item : mflour 1 1; mgourd_full 5 1 : disp_sipvandil</STRING>
-                <STRING>recv_item : object_fireworks_b 3 1 : disp_sipvandil</STRING>
+                <STRING>recv_item : conso_fireworks_b 3 1 : disp_sipvandil</STRING>
+                <STRING>recv_money : 1000</STRING>
                 <STRING></STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimAlias">
@@ -849,11 +851,98 @@
                 <STRING>set_obj_rp : qabb20160607a_OBJ3</STRING>
                 <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160607a_2 : chat_end_resp ANSWER_OK</STRING>
                 <STRING>jump_point : chat_end_resp</STRING>
-                <STRING>recv_item : object_fireworks_c 3 1 : disp_sipvandil</STRING>
+                <STRING>recv_item : conso_fireworks_c 3 1 : disp_sipvandil</STRING>
+                <STRING>recv_money : 1000</STRING>
                 <STRING></STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimAlias">
                 <ALIAS VALUE="1302"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>mission</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>qabb20161025a</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>script</NAME>
+                <STRING># script generated from 'qabb20161025a.primitive'</STRING>
+                <STRING></STRING>
+                <STRING>#mission tags and pre-requisites</STRING>
+                <STRING>replayable</STRING>
+                <STRING>solo</STRING>
+                <STRING>auto_remove</STRING>
+                <STRING>mission_category : disp_mission</STRING>
+                <STRING>mission_icon : generic_travel</STRING>
+                <STRING>need_validation</STRING>
+                <STRING></STRING>
+                <STRING>#Variables declaration</STRING>
+                <STRING>decl : bot : giver</STRING>
+                <STRING>decl : bot : player</STRING>
+                <STRING>decl : bot : disp_jimman</STRING>
+                <STRING>decl : place : place_klum</STRING>
+                <STRING>decl : place : place_klum_exit</STRING>
+                <STRING></STRING>
+                <STRING>#pre-requisites</STRING>
+                <STRING></STRING>
+                <STRING>#script</STRING>
+                <STRING>mission_title : qabb20161025a_TITLE</STRING>
+                <STRING>mission_desc : qabb20161025a_DESC</STRING>
+                <STRING># intro</STRING>
+                <STRING>dyn_chat : giver : qabb20161025A_INTRO : intro_resp ANSWER_OK</STRING>
+                <STRING>jump_point : intro_resp</STRING>
+                <STRING># visit1</STRING>
+                <STRING>jump_point : visit1</STRING>
+                <STRING>add_compass_place : place_klum</STRING>
+                <STRING>timer : 0</STRING>
+                <STRING>set_obj : qabb20161025a_OBJ1</STRING>
+                <STRING>visit : place_klum</STRING>
+                <STRING>remove_compass_place : place_klum</STRING>
+                <STRING># failure1</STRING>
+                <STRING>failure</STRING>
+                <STRING>	system_msg : qabb20161025a_DSP1</STRING>
+                <STRING>	jump : talk_scout</STRING>
+                <STRING>/failure</STRING>
+                <STRING># examine1</STRING>
+                <STRING>timer : 150</STRING>
+                <STRING>system_msg : qabb20161025a_DSP2</STRING>
+                <STRING>set_obj : qabb20161025a_OBJ2</STRING>
+                <STRING>visit : place_klum_exit</STRING>
+                <STRING>system_msg : qabb20161025a_DSP3</STRING>
+                <STRING>jump : visit1</STRING>
+                <STRING># failure2</STRING>
+                <STRING>failure</STRING>
+                <STRING>	jump : talk_scout</STRING>
+                <STRING>/failure</STRING>
+                <STRING># talk_scout</STRING>
+                <STRING>jump_point : talk_scout</STRING>
+                <STRING>recv_item : klum_fruit 10 1</STRING>
+                <STRING>system_msg : qabb20161025a_DSP4</STRING>
+                <STRING>add_compass_npc : disp_sipvandil</STRING>
+                <STRING>set_obj : qabb20161025a_OBJ3</STRING>
+                <STRING>talk_to : disp_sipvandil : qabb20161025a_PHR1</STRING>
+                <STRING>recv_money : 1000</STRING>
+                <STRING>remove_compass_npc : disp_sipvandil</STRING>
+                <STRING>recv_item : conso_fireworks_d 3 1 : disp_sipvandil</STRING>
+                <STRING># fin</STRING>
+                <STRING>dyn_chat : disp_sipvandil : qabb20161025a_PHR2 : fin_resp ANSWER_OK</STRING>
+                <STRING>jump_point : fin_resp</STRING>
+                <STRING></STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="1309"/>
                 <PROPERTY TYPE="string">
                   <NAME>class</NAME>
                   <STRING>alias</STRING>
@@ -1416,30 +1505,79 @@
       </PROPERTY>
       <PROPERTY TYPE="string">
         <NAME>name</NAME>
-        <STRING>klum</STRING>
+        <STRING>klum 2</STRING>
       </PROPERTY>
       <CHILD TYPE="CPrimZone">
-        <PT X="8956.250000" Y="-10529.309570" Z="0.000000" SELECTED="true"/>
-        <PT X="8963.892578" Y="-10537.056641" Z="0.000000"/>
-        <PT X="8961.601563" Y="-10552.934570" Z="0.000000"/>
-        <PT X="8944.668945" Y="-10554.712891" Z="0.000000"/>
-        <PT X="8942.034180" Y="-10542.810547" Z="0.000000"/>
-        <PT X="8949.808594" Y="-10532.352539" Z="0.000000"/>
-        <PT X="8952.986328" Y="-10528.853516" Z="0.000000"/>
+        <PT X="8941.327148" Y="-10529.724609" Z="0.000000" SELECTED="true"/>
+        <PT X="8941.530273" Y="-10552.940430" Z="0.000000" SELECTED="true"/>
+        <PT X="8965.155273" Y="-10552.736328" Z="0.000000" SELECTED="true"/>
+        <PT X="8965.154297" Y="-10529.723633" Z="0.000000" SELECTED="true"/>
         <PROPERTY TYPE="string">
           <NAME>class</NAME>
           <STRING>place</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
-          <NAME>name</NAME>
-          <STRING>place_klum1</STRING>
+          <NAME>displayed</NAME>
+          <STRING>false</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
-          <NAME>radius</NAME>
-          <STRING>0.000000</STRING>
+          <NAME>main place</NAME>
+          <STRING>false</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>place_klum</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>reported</NAME>
+          <STRING>false</STRING>
         </PROPERTY>
         <CHILD TYPE="CPrimAlias">
-          <ALIAS VALUE="1291"/>
+          <ALIAS VALUE="45"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimZone">
+        <PT X="8983.412109" Y="-10582.031250" Z="0.000000"/>
+        <PT X="8981.487305" Y="-10501.791016" Z="0.000000"/>
+        <PT X="8961.648438" Y="-10500.367188" Z="0.000000"/>
+        <PT X="8965.186523" Y="-10528.915039" Z="0.000000" SELECTED="true"/>
+        <PT X="8966.020508" Y="-10553.543945" Z="0.000000" SELECTED="true"/>
+        <PT X="8940.974609" Y="-10552.972656" Z="0.000000" SELECTED="true"/>
+        <PT X="8940.973633" Y="-10529.388672" Z="0.000000" SELECTED="true"/>
+        <PT X="8964.770508" Y="-10529.229492" Z="0.000000" SELECTED="true"/>
+        <PT X="8961.293945" Y="-10500.365234" Z="0.000000"/>
+        <PT X="8920.766602" Y="-10499.792969" Z="0.000000"/>
+        <PT X="8918.196289" Y="-10579.994141" Z="0.000000"/>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>place</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>displayed</NAME>
+          <STRING>false</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>main place</NAME>
+          <STRING>false</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>place_klum_exit</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>reported</NAME>
+          <STRING>false</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="1308"/>
           <PROPERTY TYPE="string">
             <NAME>class</NAME>
             <STRING>alias</STRING>
