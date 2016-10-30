@@ -804,20 +804,17 @@ mpcatFaber	[Crafter]
 mpcatUpgrade	[Upgrade]
 
 // Player stats
-/* OLD VALUE : [Hit Points] */
-// HASH_VALUE AE47EC76ED76A88F
+// HASH_VALUE D9A8E875D866AF80
 // INDEX 197
-scoreHitPoints	[Trauma]
+scoreHitPoints	[Hit Points]
 
-/* OLD VALUE : [Sap] */
-// HASH_VALUE 6818243C6CD894D8
+// HASH_VALUE 1C591877A0875485
 // INDEX 198
-scoreSap	[Oblivion]
+scoreSap	[Sap]
 
-/* OLD VALUE : [Stamina] */
-// HASH_VALUE 6C5814406C581440
+// HASH_VALUE A868B095A4A85C8B
 // INDEX 199
-scoreStamina	[Pain]
+scoreStamina	[Stamina]
 
 // HASH_VALUE 2827987FA806D490
 // INDEX 200
@@ -2659,10 +2656,9 @@ uiJungleRawMats	[Jungle Exotic Raw Materials]
 // INDEX 656
 uiLakeRawMats	[Lakes Exotic Raw Materials]
 
-/* OLD VALUE : [Stamina Cost:] */
-// HASH_VALUE 5DD847539F93334D
+// HASH_VALUE ED681B77D7E9C824
 // INDEX 657
-uiComStaminaCost	[Pain Cost:]
+uiComStaminaCost	[Stamina Cost:]
 
 // HASH_VALUE 4C50F40C44D02414
 // INDEX 658
@@ -2793,10 +2789,9 @@ uiMaterials	[Materials]
 // INDEX 689
 uiDifficulty	[DIFFICULTY]
 
-/* OLD VALUE : [STAMINA COST] */
-// HASH_VALUE 49F2E4467F0EEBF8
+// HASH_VALUE C371183278710028
 // INDEX 690
-uiStaminaCost	[PAIN COST]
+uiStaminaCost	[STAMINA COST]
 
 // HASH_VALUE 1053D0430C430C3D
 // INDEX 691
@@ -5365,20 +5360,17 @@ uihHarvestTool	[Harvesting Tools]
 uihItemMisc	[Miscellaneous]
 
 // Stats
-/* OLD VALUE : [Life] */
-// HASH_VALUE AE47EC76ED76A88F
+// HASH_VALUE 6498943064989430
 // INDEX 1308
-uiLife	[Trauma]
+uiLife	[Life]
 
-/* OLD VALUE : [Sap] */
-// HASH_VALUE 6818243C6CD894D8
+// HASH_VALUE 1C591877A0875485
 // INDEX 1309
-uiSap	[Oblivion]
+uiSap	[Sap]
 
-/* OLD VALUE : [Stamina] */
-// HASH_VALUE 6C5814406C581440
+// HASH_VALUE A868B095A4A85C8B
 // INDEX 1310
-uiStamina	[Pain]
+uiStamina	[Stamina]
 
 // HASH_VALUE ECE7309DA1C77891
 // INDEX 1311
@@ -5400,15 +5392,13 @@ uiHunger	[Hunger]
 // INDEX 1315
 uiActionStatus	[Current Action Progress]
 
-/* OLD VALUE : [SAP DISPLAY] */
-// HASH_VALUE 5CB434DEE214AC8C
+// HASH_VALUE 41E3D738C5300C19
 // INDEX 1316
-uiSapBarDisplay	[Oblivion DISPLAY]
+uiSapBarDisplay	[SAP DISPLAY]
 
-/* OLD VALUE : [STAMINA DISPLAY] */
-// HASH_VALUE 60D44C1099D2D8E0
+// HASH_VALUE CC22C83402E0A824
 // INDEX 1317
-uiStaBarDisplay	[Pain DISPLAY]
+uiStaBarDisplay	[STAMINA DISPLAY]
 
 // HASH_VALUE 895E302F3D723B38
 // INDEX 1318
@@ -5432,35 +5422,29 @@ uittDeathPenalty	[@{6F6F}You have a Death Penalty\n
 	When the penalty reaches 0 you will start to gain XP normally.\n
 	Your Death Penalty is currently @{6F6F}%dp@{FFFF}%.]
 
-/* OLD VALUE : [Hit Points Max] */
-// HASH_VALUE 6A736442A4330483
+// HASH_VALUE 54642750D9A8FC62
 // INDEX 1322
-uiHpMax	[Trauma Max]
+uiHpMax	[Hit Points Max]
 
-/* OLD VALUE : [Hit Points Reg] */
-// HASH_VALUE 66B33446E533C087
+// HASH_VALUE 50A43B50D9A8B866
 // INDEX 1323
-uiHpReg	[Trauma Reg]
+uiHpReg	[Hit Points Reg]
 
-/* OLD VALUE : [Stamina Max] */
-// HASH_VALUE 6C5814407858D480
+// HASH_VALUE 1D35906FD7F59F9F
 // INDEX 1324
-uiStaMax	[Pain Max]
+uiStaMax	[Stamina Max]
 
-/* OLD VALUE : [Stamina Reg] */
-// HASH_VALUE 6C58144064582480
+// HASH_VALUE 5E24A074D8465BA3
 // INDEX 1325
-uiStaReg	[Pain Reg]
+uiStaReg	[Stamina Reg]
 
-/* OLD VALUE : [Sap Max] */
-// HASH_VALUE 6D98EC34AEC8085B
+// HASH_VALUE D1F3FB4450D93879
 // INDEX 1326
-uiSapMax	[Oblivion Max]
+uiSapMax	[Sap Max]
 
-/* OLD VALUE : [Sap Reg] */
-// HASH_VALUE 28D8003469081C5B
+// HASH_VALUE CE840F4450C80471
 // INDEX 1327
-uiSapReg	[Oblivion Reg]
+uiSapReg	[Sap Reg]
 
 // HASH_VALUE A1173C6C8F64AFBA
 // INDEX 1328
@@ -5487,20 +5471,17 @@ uitabFameTribes	[TRIBES]
 // INDEX 1333
 uitabFamePvp	[PVP]
 
-/* OLD VALUE : [Kami] */
-// HASH_VALUE 6C5884AC6C5884AC
+// HASH_VALUE 6858142C6858142C
 // INDEX 1334
-uiFameKami	[khan]
+uiFameKami	[Kami]
 
-/* OLD VALUE : [Karavan] */
-// HASH_VALUE 6C58842C6C58842C
+// HASH_VALUE E8BAAC7F1ED7F090
 // INDEX 1335
-uiFameKaravan	[Khan]
+uiFameKaravan	[Karavan]
 
-/* OLD VALUE : [Tryton] */
-// HASH_VALUE 6C5884AC6C5884AC
+// HASH_VALUE 71691C90F0170CAB
 // INDEX 1336
-uiFameTryton	[khan]
+uiFameTryton	[Tryton]
 
 /* OLD VALUE : [Fyros] */
 // HASH_VALUE 2689648C61373089
@@ -5512,10 +5493,9 @@ uiFameFyros	[Ucikara]
 // INDEX 1338
 uiFameMatis	[Tcara]
 
-/* OLD VALUE : [Tryker] */
-// HASH_VALUE A816E47B5F96F07C
+// HASH_VALUE ECC90886AE770897
 // INDEX 1339
-uiFameTryker	[Child]
+uiFameTryker	[Tryker]
 
 // HASH_VALUE CAD8AE1965C06A1C
 // INDEX 1340
@@ -5525,10 +5505,9 @@ uiFameZorai	[Zoraï]
 // INDEX 1341
 uiFameHominists	[Hominist]
 
-/* OLD VALUE : [Marauder] */
-// HASH_VALUE D976346662769C8C
+// HASH_VALUE 609C1434705844D4
 // INDEX 1342
-uiFameMarauders	[PvP]
+uiFameMarauders	[Marauder]
 
 // HASH_VALUE ACA9AC82E0287491
 // INDEX 1343
@@ -5554,15 +5533,13 @@ uiFameAllegiance0	[Undetermined]
 // INDEX 1348
 uiFameAllegiance1	[Neutral]
 
-/* OLD VALUE : [Kami] */
-// HASH_VALUE 6C58842C6C58842C
+// HASH_VALUE 6858142C6858142C
 // INDEX 1349
-uiFameAllegiance2	[Khan]
+uiFameAllegiance2	[Kami]
 
-/* OLD VALUE : [Karavan] */
-// HASH_VALUE 6C58842C6C58842C
+// HASH_VALUE E8BAAC7F1ED7F090
 // INDEX 1350
-uiFameAllegiance3	[Khan]
+uiFameAllegiance3	[Karavan]
 
 /* OLD VALUE : [Fyros] */
 // HASH_VALUE 2689648C61373089
@@ -5574,10 +5551,9 @@ uiFameAllegiance4	[Ucikara]
 // INDEX 1352
 uiFameAllegiance5	[Tcara]
 
-/* OLD VALUE : [Tryker] */
-// HASH_VALUE A816E47B5F96F07C
+// HASH_VALUE ECC90886AE770897
 // INDEX 1353
-uiFameAllegiance6	[Child]
+uiFameAllegiance6	[Tryker]
 
 // HASH_VALUE CAD8AE1965C06A1C
 // INDEX 1354
@@ -6444,25 +6420,19 @@ uiPvPEffect_region_nexus_Malus	[@{FE7F}Nexus @{FFFF}:\n
 	No effect]
 
 // Stats
-/* OLD VALUE : [@{6F6F}HP@{FFFF}, 
-hit points measure the amount of damage a character can take before going into a coma.] */
-// HASH_VALUE F3E4A7F829A3EE37
+// HASH_VALUE A60FAAB9FBB2576B
 // INDEX 1528
-uiHPDesc	[@{6F6F}Trauma@{FFFF}, \n
-	Trauma measure the amount of damage a character can take before going into a coma.]
+uiHPDesc	[@{6F6F}HP@{FFFF}, \n
+	hit points measure the amount of damage a character can take before going into a coma.]
 
-/* OLD VALUE : [@{6F6F}Stamina@{FFFF}, 
-used by physical combat actions, stamina measures a character's current state of fatigue.] */
-// HASH_VALUE A603379B68415201
+// HASH_VALUE 0D14E198B9F62F63
 // INDEX 1529
-uiStaDesc	[@{6F6F}Pain@{FFFF}, \n
-	used by physical combat actions, pain measures a character's current state of fatigue.]
+uiStaDesc	[@{6F6F}Stamina@{FFFF}, \n
+	used by physical combat actions, stamina measures a character's current state of fatigue.]
 
-/* OLD VALUE : [@{6F6F}Sap@{FFFF}, 
-the energy that allows a character to channel magical power.] */
-// HASH_VALUE 6C6FBEC690CEC6B1
+// HASH_VALUE 57516E1B1624B27C
 // INDEX 1530
-uiSapDesc	[@{6F6F}Oblivion@{FFFF}, \n
+uiSapDesc	[@{6F6F}Sap@{FFFF}, \n
 	the energy that allows a character to channel magical power.]
 
 // HASH_VALUE 0818382AFDB10CD9
@@ -6470,25 +6440,19 @@ uiSapDesc	[@{6F6F}Oblivion@{FFFF}, \n
 uiFocDesc	[@{6F6F}Focus@{FFFF}, \n
 	measure the character's ability to concentrate.]
 
-/* OLD VALUE : [@{6F6F}Constitution@{FFFF}, 
-measure the character's ability to engage in long-term periods of strenuous physical activity.] */
-// HASH_VALUE EC517A269E89D347
+// HASH_VALUE C5C5AADDE9B1CB06
 // INDEX 1532
-uiConsDesc	[@{6F6F}Trauma@{FFFF}, \n
+uiConsDesc	[@{6F6F}Constitution@{FFFF}, \n
 	measure the character's ability to engage in long-term periods of strenuous physical activity.]
 
-/* OLD VALUE : [@{6F6F}Intelligence@{FFFF}, 
-a measure of how well a character can focus their mental abilities.] */
-// HASH_VALUE D8061242FFD9FADD
+// HASH_VALUE D82B6F5A555A3242
 // INDEX 1533
-uiIntDesc	[@{6F6F}Oblivion@{FFFF}, \n
+uiIntDesc	[@{6F6F}Intelligence@{FFFF}, \n
 	a measure of how well a character can focus their mental abilities.]
 
-/* OLD VALUE : [@{6F6F}Strength@{FFFF}, 
-statistic measures the physical strength a character possess.] */
-// HASH_VALUE DA78714A154C6962
+// HASH_VALUE 2D2E06E01D8CC946
 // INDEX 1534
-uiStrDesc	[@{6F6F}Pain@{FFFF}, \n
+uiStrDesc	[@{6F6F}Strength@{FFFF}, \n
 	statistic measures the physical strength a character possess.]
 
 // HASH_VALUE 2CBDF588F00F8902
@@ -6524,28 +6488,25 @@ uiValues	[VALUES]
 // INDEX 1541
 uiRegeneration	[REGENERATION]
 
-/* OLD VALUE : [Constitution] */
-// HASH_VALUE AE47EC76ED76A88F
+// HASH_VALUE B009C46E316AAC9F
 // INDEX 1542
-uiCarac_HpMax	[Trauma]
+uiCarac_HpMax	[Constitution]
 
 // HASH_VALUE 6618AC8EE6078C96
 // INDEX 1543
 uiCarac_HpReg	[Metabolism]
 
-/* OLD VALUE : [Strength] */
-// HASH_VALUE 6C5814406C581440
+// HASH_VALUE 649C444C681C74B8
 // INDEX 1544
-uiCarac_StaMax	[Pain]
+uiCarac_StaMax	[Strength]
 
 // HASH_VALUE 24F874705B56B078
 // INDEX 1545
 uiCarac_StaReg	[Balance]
 
-/* OLD VALUE : [Intelligence] */
-// HASH_VALUE 6818243C6CD894D8
+// HASH_VALUE E45ADC6364A9D486
 // INDEX 1546
-uiCarac_SapMax	[Oblivion]
+uiCarac_SapMax	[Intelligence]
 
 // HASH_VALUE E7D990902817A0A8
 // INDEX 1547
@@ -6559,28 +6520,25 @@ uiCarac_WishMax	[Dexterity]
 // INDEX 1549
 uiCarac_WishReg	[Will]
 
-/* OLD VALUE : [Constitution] */
-// HASH_VALUE AE47EC76ED76A88F
+// HASH_VALUE B009C46E316AAC9F
 // INDEX 1550
-uiCaracId0	[Trauma]
+uiCaracId0	[Constitution]
 
 // HASH_VALUE 6618AC8EE6078C96
 // INDEX 1551
 uiCaracId1	[Metabolism]
 
-/* OLD VALUE : [Intelligence] */
-// HASH_VALUE 6818243C6CD894D8
+// HASH_VALUE E45ADC6364A9D486
 // INDEX 1552
-uiCaracId2	[Oblivion]
+uiCaracId2	[Intelligence]
 
 // HASH_VALUE E7D990902817A0A8
 // INDEX 1553
 uiCaracId3	[Wisdom]
 
-/* OLD VALUE : [Strength] */
-// HASH_VALUE 6C5814406C581440
+// HASH_VALUE 649C444C681C74B8
 // INDEX 1554
-uiCaracId4	[Pain]
+uiCaracId4	[Strength]
 
 // HASH_VALUE 24F874705B56B078
 // INDEX 1555
@@ -8322,19 +8280,17 @@ uiMagicEditSpell	[EDIT SPELL]
 // INDEX 1987
 uiMagicEditSpellName	[Spell Name]
 
-/* OLD VALUE : [SAP COST] */
-// HASH_VALUE 8940C00BCBB10744
+// HASH_VALUE 2014144C54D4F40C
 // INDEX 1988
-uiMagicEditSapCost	[OBLIVION COST]
+uiMagicEditSapCost	[SAP COST]
 
 // HASH_VALUE 4C42C836C691B027
 // INDEX 1989
 uiMagicEditDifficulty	[DIFFICULTY]
 
-/* OLD VALUE : [Warning! Not Enough Sap!] */
-// HASH_VALUE 5B9900621938B4F9
+// HASH_VALUE 5BCAE043B3D90C45
 // INDEX 1990
-uiMagicEditNotEnoughSap	[Warning! Not Enough Oblivion!]
+uiMagicEditNotEnoughSap	[Warning! Not Enough Sap!]
 
 // HASH_VALUE 36B251FFFAE39E10
 // INDEX 1991
@@ -8348,10 +8304,9 @@ uiTextHelpSelectEffectBrick	[<- Click to select EFFECT ]
 // INDEX 1993
 uiTextHelpSelectOtherBrick	[Your CREDIT must be equal or greater than your ACTION COST.]
 
-/* OLD VALUE : [Sap Cost: ] */
-// HASH_VALUE F08904140ED2CA8D
+// HASH_VALUE 8516934358A74240
 // INDEX 1994
-uiSpellSelectSapCost	[Oblivion Cost: ]
+uiSpellSelectSapCost	[Sap Cost: ]
 
 // HASH_VALUE 6CD834246CD83424
 // INDEX 1995
@@ -9906,46 +9861,34 @@ uihelpItemMagicBonusHeader	[\n
 	@{FFFF}Magic Bonus@{FFF9} if the spell has a Spell Level below or equal to @{FFFF}%mglvl@{FFF9}:\n
 	]
 
-/* OLD VALUE : [@{FFF9}HP Bonus:@{T16}@{2F2F}%val
-] */
-// HASH_VALUE B05DD0D3CD639285
+// HASH_VALUE 49F09B6ED6794267
 // INDEX 2363
-uihelpItemHpBonus	[@{FFF9}Trauma Bonus:@{T16}@{2F2F}%val\n
+uihelpItemHpBonus	[@{FFF9}HP Bonus:@{T16}@{2F2F}%val\n
 	]
 
-/* OLD VALUE : [@{FFF9}HP Penalty:@{T16}@{F44F}%val
-] */
-// HASH_VALUE B1BBD4A8DB0ABED6
+// HASH_VALUE 5797C7BFD7D7463C
 // INDEX 2364
-uihelpItemHpMalus	[@{FFF9}Trauma Penalty:@{T16}@{F44F}%val\n
+uihelpItemHpMalus	[@{FFF9}HP Penalty:@{T16}@{F44F}%val\n
 	]
 
-/* OLD VALUE : [@{FFF9}Sap Bonus:@{T16}@{2F2F}%val
-] */
-// HASH_VALUE 331A386ACCAAFBD8
+// HASH_VALUE C22128B75D576A2C
 // INDEX 2365
-uihelpItemSapBonus	[@{FFF9}Oblivion Bonus:@{T16}@{2F2F}%val\n
+uihelpItemSapBonus	[@{FFF9}Sap Bonus:@{T16}@{2F2F}%val\n
 	]
 
-/* OLD VALUE : [@{FFF9}Sap Penalty:@{T16}@{F44F}%val
-] */
-// HASH_VALUE 636818E49FBFFBCE
+// HASH_VALUE 61D66DB7DB64BE64
 // INDEX 2366
-uihelpItemSapMalus	[@{FFF9}Oblivion Penalty:@{T16}@{F44F}%val\n
+uihelpItemSapMalus	[@{FFF9}Sap Penalty:@{T16}@{F44F}%val\n
 	]
 
-/* OLD VALUE : [@{FFF9}Stamina Bonus:@{T16}@{2F2F}%val
-] */
-// HASH_VALUE 8A37ECCA19F77E0E
+// HASH_VALUE 74BAF89A0594E3CA
 // INDEX 2367
-uihelpItemStaBonus	[@{FFF9}Pain Bonus:@{T16}@{2F2F}%val\n
+uihelpItemStaBonus	[@{FFF9}Stamina Bonus:@{T16}@{2F2F}%val\n
 	]
 
-/* OLD VALUE : [@{FFF9}Stamina Penalty:@{T16}@{F44F}%val
-] */
-// HASH_VALUE 5D4CECC049455E88
+// HASH_VALUE F2C74CD2A44928CA
 // INDEX 2368
-uihelpItemStaMalus	[@{FFF9}Pain Penalty:@{T16}@{F44F}%val\n
+uihelpItemStaMalus	[@{FFF9}Stamina Penalty:@{T16}@{F44F}%val\n
 	]
 
 // HASH_VALUE 242B21C618440631
@@ -10015,10 +9958,9 @@ uiItemRMClass4	[Supreme]
 // INDEX 2383
 uiItemFX_ISE_FIGHT_ADD_CRITICAL	[@{2F2F}+%p%@{FFFF} chance of performing a critical hit.]
 
-/* OLD VALUE : [@{2F2F}%p%@{FFFF} chance of stealing life from the enemy (inflicted damage is added to your own hit points).] */
-// HASH_VALUE C97275A8D9318CD6
+// HASH_VALUE FF351E30E935C4D9
 // INDEX 2384
-uiItemFX_ISE_FIGHT_VAMPIRISM	[@{2F2F}%p%@{FFFF} chance of stealing life from the enemy (inflicted damage is added to your own Trauma).]
+uiItemFX_ISE_FIGHT_VAMPIRISM	[@{2F2F}%p%@{FFFF} chance of stealing life from the enemy (inflicted damage is added to your own hit points).]
 
 // HASH_VALUE D3230E54633E06F5
 // INDEX 2385
@@ -10121,29 +10063,13 @@ uihelpItemCosmetic	[\n
 	%cansell\n
 	@{FFFF}%desc]
 
-/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
-@{FFF9}@{HuittInfoArmorQuality}Quality:@{H}@{T10}@{FFFF}%quality
-@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
-@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
-@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
-%cansell
-@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
-@{FFF9}@{HuittInfoArmorType}Armor Type:@{H}@{T16}@{FFFF}%armor %armor_bonus
-@{FFF9}@{HuittInfoDodgeMod}Dodge Modifier:@{H}@{T16}@{FFFF}%dodge
-@{FFF9}@{HuittInfoParryMod}Parry Modifier:@{H}@{T16}@{FFFF}%parry
-@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T16}@{FFFF}+%actmalus
-@{FFF9}@{HuittInfoArmorProtection}Protection:@{H}@{T16}@{FFFF}%protect%
-@{FFF9}  @{HuittInfoArmorSlash}Max. vs Slash:@{H}@{T16}@{FFFF}%p_slash
-@{FFF9}  @{HuittInfoArmorBlunt}Max. vs Smash:@{H}@{T16}@{FFFF}%p_blunt
-@{FFF9}  @{HuittInfoArmorPierc}Max. vs Pierce:@{H}@{T16}@{FFFF}%p_pierce
-%buffs%special_effects%desc%custom_text] */
-// HASH_VALUE DD3DFB625C708C8A
+// HASH_VALUE 2040D74B3622141D
 // INDEX 2406
 uihelpItemArmorFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoArmorQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
 	\n
@@ -10157,32 +10083,13 @@ uihelpItemArmorFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\
 	@{FFF9}  @{HuittInfoArmorPierc}Max. vs Pierce:@{H}@{T16}@{FFFF}%p_pierce\n
 	%buffs%special_effects%desc%custom_text]
 
-/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
-@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality
-@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
-@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
-@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
-@{FFF9}@{HuittInfoWeaponSapLoad}Sap Load:@{H}@{T10}@{FFFF}%sap/%sapmax
-@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill
-%cansell
-@{FFF9}@{HuittInfoRequirement}Requirements: @{H}@{T10}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
-@{FFF9}@{HuittInfoDamageType}Damage Type:@{H}@{T16}@{FFFF}%dmtype
-@{FFF9}@{HuittInfoWeaponDamage}Damage:@{H}@{T16}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)
-@{FFF9}@{HuittInfoWeaponHitMin}Hit/Minute:@{H}@{T16}@{FFFF}%speed
-@{FFF9}@{HuittInfoWeaponReach}Reach:@{H}@{T16}@{FFFF}%reach
-@{FFF9}@{HuittInfoDodgeMod}Dodge Modifier:@{H}@{T20}@{FFFF}%dodge
-@{FFF9}@{HuittInfoParryMod}Parry Modifier:@{H}@{T20}@{FFFF}%parry
-@{FFF9}@{HuittInfoTargetDodgeMod}Adv. Dodge Modifier:@{H}@{T20}@{FFFF}%adv_dodge
-@{FFF9}@{HuittInfoTargetParryMod}Adv. Parry Modifier:@{H}@{T20}@{FFFF}%adv_parry
-@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T20}@{FFFF}+%actmalus
-%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment] */
-// HASH_VALUE 6BDBBED72697C632
+// HASH_VALUE CD15213997EE5448
 // INDEX 2407
 uihelpItemMeleeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittInfoWeaponSapLoad}Sap Load:@{H}@{T10}@{FFFF}%sap/%sapmax\n
 	@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill\n
 	%cansell\n
@@ -10199,31 +10106,13 @@ uihelpItemMeleeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%o
 	@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T20}@{FFFF}+%actmalus\n
 	%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment]
 
-/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
-@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality
-@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
-@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
-@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
-@{FFF9}@{HuittInfoWeaponSapLoad}Sap Load:@{H}@{T10}@{FFFF}%sap/%sapmax
-@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill
-%cansell
-@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T10}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
-@{FFF9}@{HuittInfoWeaponRDamage}Damage:@{H}@{T14}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)
-@{FFF9}@{HuittInfoWeaponRHitMin}Hit/Minute:@{H}@{T14}@{FFFF}%speed
-@{FFF9}@{HuittInfoWeaponRange}Range:@{H}@{T14}@{FFFF}%range
-@{FFF9}@{HuittInfoDodgeMod}Dodge Modifier:@{H}@{T20}@{FFFF}%dodge
-@{FFF9}@{HuittInfoParryMod}Parry Modifier:@{H}@{T20}@{FFFF}%parry
-@{FFF9}@{HuittInfoTargetDodgeMod}Adv. Dodge Modifier:@{H}@{T20}@{FFFF}%adv_dodge
-@{FFF9}@{HuittInfoTargetParryMod}Adv. Parry Modifier:@{H}@{T20}@{FFFF}%adv_parry
-@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T20}@{FFFF}+%actmalus
-%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment] */
-// HASH_VALUE 0E4EDA3D9B4ABE91
+// HASH_VALUE 42C819983A6170AE
 // INDEX 2408
 uihelpItemRangeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittInfoWeaponSapLoad}Sap Load:@{H}@{T10}@{FFFF}%sap/%sapmax\n
 	@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill\n
 	%cansell\n
@@ -10239,26 +10128,13 @@ uihelpItemRangeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%o
 	@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T20}@{FFFF}+%actmalus\n
 	%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment]
 
-/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
-@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality
-@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
-@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
-@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
-@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill
-%cansell
-@{FFF9}@{HuittInfoAmmoMagazine}Magazine:@{H}@{T16}@{FFFF}%magazine
-@{FFF9}@{HuittInfoDamageType}Damage Type:@{H}@{T16}@{FFFF}%dmtype
-@{FFF9}@{HuittInfoAmmoDamage}Damage:@{H}@{T16}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)
-@{FFF9}@{HuittInfoAmmoHitMin}Hit/Minute:@{H}@{T16}@{FFFF}%speed
-@{FFF9}@{HuittInfoAmmoRange}Range:@{H}@{T16}@{FFFF}%range
-@{FFFF}%desc] */
-// HASH_VALUE 7F06E63F5E7F2630
+// HASH_VALUE 05FD8137AB197CB0
 // INDEX 2409
 uihelpItemAmmoFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill\n
 	%cansell\n
 	\n
@@ -10349,29 +10225,13 @@ iompfRefugee	[Refugee only]
 // INDEX 2425
 iompfKaravan	[Karavan only]
 
-/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
-@{FFF9}@{HuittInfoArmorQuality}Quality:@{H}@{T10}@{FFFF}%quality
-@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
-@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
-@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
-%cansell
-@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
-@{FFF9}@{HuittInfoShieldCat}Category:@{H}@{T16}@{FFFF}%cat
-@{FFF9}@{HuittInfoDodgeMod}Dodge Modifier:@{H}@{T16}@{FFFF}%dodge
-@{FFF9}@{HuittInfoParryMod}Parry Modifier:@{H}@{T16}@{FFFF}%parry
-@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T16}@{FFFF}+%actmalus
-@{FFF9}@{HuittInfoArmorProtection}Protection:@{H}@{T16}@{FFFF}%protect%
-@{FFF9}  @{HuittInfoArmorSlash}Max. vs Slash:@{H}@{T16}@{FFFF}%p_slash
-@{FFF9}  @{HuittInfoArmorBlunt}Max. vs Smash:@{H}@{T16}@{FFFF}%p_blunt
-@{FFF9}  @{HuittInfoArmorPierc}Max. vs Pierce:@{H}@{T16}@{FFFF}%p_pierce
-%buffs%special_effects%desc%custom_text] */
-// HASH_VALUE 602842751E4E8E29
+// HASH_VALUE E21ED9EAB90D5B30
 // INDEX 2426
 uihelpItemShieldFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoArmorQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
 	\n
@@ -10385,24 +10245,13 @@ uihelpItemShieldFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
 	@{FFF9}  @{HuittInfoArmorPierc}Max. vs Pierce:@{H}@{T16}@{FFFF}%p_pierce\n
 	%buffs%special_effects%desc%custom_text]
 
-/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
-@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality
-@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
-@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
-@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
-@{FFF9}@{HuittToolCraftType}Tool Type:@{H}@{T10}@{FFFF}%tool
-%cansell
-@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
-%buffs
-%special_effects
-@{FFFF}%desc%custom_text] */
-// HASH_VALUE 706D8AAA133F396F
+// HASH_VALUE EB550CFCB7DDE436
 // INDEX 2427
 uihelpItemCraftingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittToolCraftType}Tool Type:@{H}@{T10}@{FFFF}%tool\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
@@ -10411,23 +10260,13 @@ uihelpItemCraftingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%
 	\n
 	@{FFFF}%desc%custom_text]
 
-/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
-@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality
-@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
-@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
-@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
-%cansell
-@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
-%buffs
-%special_effects
-@{FFFF}%desc%custom_text] */
-// HASH_VALUE 7118B7469ADC653B
+// HASH_VALUE 72F238C8B88811D2
 // INDEX 2428
 uihelpItemHarvestToolFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
 	%buffs\n
@@ -10435,23 +10274,13 @@ uihelpItemHarvestToolFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%o
 	\n
 	@{FFFF}%desc%custom_text]
 
-/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
-@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality
-@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
-@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
-@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
-@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill
-%cansell
-@{FFF9}Command Range:@{T12}@{FFFF}%cmdrange
-@{FFF9}Max Packers:@{T12}@{FFFF}%maxpacker
-@{FFFF}%desc%custom_text] */
-// HASH_VALUE E8E9373DF6D2BC9E
+// HASH_VALUE CEE88F2B2F5991C9
 // INDEX 2429
 uihelpItemTamingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill\n
 	%cansell\n
 	@{FFF9}Command Range:@{T12}@{FFFF}%cmdrange\n
@@ -10459,21 +10288,13 @@ uihelpItemTamingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%or
 	\n
 	@{FFFF}%desc%custom_text]
 
-/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
-@{FFF9}@{HuittInfoJewelryQuality}Quality:@{H}@{T10}@{FFFF}%quality
-@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
-@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
-@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
-%cansell
-@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
-%magic_protection%magic_resistance%buffs%desc%custom_text] */
-// HASH_VALUE AAC78B2A191C80C5
+// HASH_VALUE 33CC9534D6DE5706
 // INDEX 2430
 uihelpItemJewelFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoJewelryQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
 	\n
@@ -10584,16 +10405,7 @@ uittAuraDisabled	[ - Aura Disabled]
 // INDEX 2444
 uihelpPhraseHeaderBricks	[@{FFFF}--- Stanzas ---]
 
-/* OLD VALUE : [@{FFF9}Action Name:@{T14}@{FFFF}%name
-@{FFF9}Action Cost:@{T14}@{FFFF}%cost
-@{FFF9}Action Credit:@{T14}@{FFFF}%credit
-@{FFF9}Usable With:@{T14}@{FFFF}%wcomp
-%compostartThese stats depend on your equipped weapon.
-@{FFF9}@{HuittActionSuccessRateSF}Success Rate:@{H}@{T20}@{FFFF}%success%
-@{FFF9}Stamina Cost:@{T20}@{FFFF}%energy_cost
-@{FFF9}HP Cost:@{T20}@{FFFF}%hp_cost
-@{FFFF}%desc%req] */
-// HASH_VALUE F0C6A9FFE1E259FD
+// HASH_VALUE CFCCA465B6742D46
 // INDEX 2445
 uihelpPhraseCombatFormat	[@{FFF9}Action Name:@{T14}@{FFFF}%name\n
 	@{FFF9}Action Cost:@{T14}@{FFFF}%cost\n
@@ -10602,22 +10414,11 @@ uihelpPhraseCombatFormat	[@{FFF9}Action Name:@{T14}@{FFFF}%name\n
 	\n
 	%compostartThese stats depend on your equipped weapon.\n
 	@{FFF9}@{HuittActionSuccessRateSF}Success Rate:@{H}@{T20}@{FFFF}%success%\n
-	@{FFF9}pain Cost:@{T20}@{FFFF}%energy_cost\n
-	@{FFF9}Trauma Cost:@{T20}@{FFFF}%hp_cost\n
+	@{FFF9}Stamina Cost:@{T20}@{FFFF}%energy_cost\n
+	@{FFF9}HP Cost:@{T20}@{FFFF}%hp_cost\n
 	@{FFFF}%desc%req]
 
-/* OLD VALUE : [@{FFF9}Action Name:@{T14}@{FFFF}%name
-@{FFF9}Action Cost:@{T14}@{FFFF}%cost
-@{FFF9}Action Credit:@{T14}@{FFFF}%credit
-@{FFF9}@{HuittActionSpellLevel}Spell Level:@{H}@{T14}@{FFFF}%mglvl
-%magicresist
-%compostart@{FFF9}@{HuittActionSuccessRateSM}Success Rate:@{H}@{T16}@{FFFF}%success%
-@{FFF9}Cast Duration:@{T16}@{FFFF}%duration sec.
-@{FFF9}Sap Cost:@{T16}@{FFFF}%energy_cost
-@{FFF9}HP Cost:@{T16}@{FFFF}%hp_cost
-@{FFF9}Range:@{T16}@{FFFF}%range
-@{FFFF}%desc%req] */
-// HASH_VALUE 4422DD827366E89F
+// HASH_VALUE B08CA56DAFC43B3F
 // INDEX 2446
 uihelpPhraseMagicFormat	[@{FFF9}Action Name:@{T14}@{FFFF}%name\n
 	@{FFF9}Action Cost:@{T14}@{FFFF}%cost\n
@@ -10627,7 +10428,7 @@ uihelpPhraseMagicFormat	[@{FFF9}Action Name:@{T14}@{FFFF}%name\n
 	%compostart@{FFF9}@{HuittActionSuccessRateSM}Success Rate:@{H}@{T16}@{FFFF}%success%\n
 	@{FFF9}Cast Duration:@{T16}@{FFFF}%duration sec.\n
 	@{FFF9}Sap Cost:@{T16}@{FFFF}%energy_cost\n
-	@{FFF9}Trauma Cost:@{T16}@{FFFF}%hp_cost\n
+	@{FFF9}HP Cost:@{T16}@{FFFF}%hp_cost\n
 	@{FFF9}Range:@{T16}@{FFFF}%range\n
 	@{FFFF}%desc%req]
 
@@ -10793,18 +10594,12 @@ uihelpPhraseProcEnchantment	[@{FFFF}With this action you activate the enchantmen
 	If your right hand item is not enchanted, this action cannot be executed.\n
 	]
 
-/* OLD VALUE : [@{FFF9}Level:@{T14}@{FFFF}%lvl
-@{FFF9}Lost hit points:@{T14}@{FFFF}%hp
-@{FFF9}Lost stamina:@{T14}@{FFFF}%sta
-@{FFF9}Lost sap:@{T14}@{FFFF}%sap
-@{FFF9}Lost skills:@{T14}@{FFFF}%skill
-] */
-// HASH_VALUE 23B6EB7EA50E56A8
+// HASH_VALUE 0B864B02E2BE27B2
 // INDEX 2470
 uihelpPactFormat	[@{FFF9}Level:@{T14}@{FFFF}%lvl\n
-	@{FFF9}Lost trauma:@{T14}@{FFFF}%hp\n
-	@{FFF9}Lost pain:@{T14}@{FFFF}%sta\n
-	@{FFF9}Lost Oblivion:@{T14}@{FFFF}%sap\n
+	@{FFF9}Lost hit points:@{T14}@{FFFF}%hp\n
+	@{FFF9}Lost stamina:@{T14}@{FFFF}%sta\n
+	@{FFF9}Lost sap:@{T14}@{FFFF}%sap\n
 	@{FFF9}Lost skills:@{T14}@{FFFF}%skill\n
 	]
 
@@ -12518,20 +12313,17 @@ uiSumMax	[Max]
 // INDEX 2889
 uiSumReg	[Reg]
 
-/* OLD VALUE : [Hit Points] */
-// HASH_VALUE AE47EC76ED76A88F
+// HASH_VALUE D9A8E875D866AF80
 // INDEX 2890
-uiSumHp	[Trauma]
+uiSumHp	[Hit Points]
 
-/* OLD VALUE : [Stamina] */
-// HASH_VALUE 6C5814406C581440
+// HASH_VALUE A868B095A4A85C8B
 // INDEX 2891
-uiSumSta	[Pain]
+uiSumSta	[Stamina]
 
-/* OLD VALUE : [Sap] */
-// HASH_VALUE 6818243C6CD894D8
+// HASH_VALUE 1C591877A0875485
 // INDEX 2892
-uiSumSap	[Oblivion]
+uiSumSap	[Sap]
 
 // HASH_VALUE ECE7309DA1C77891
 // INDEX 2893
@@ -13386,10 +13178,9 @@ uimGcmTradePhase	[DEVELOP SKILLS]
 // INDEX 3101
 uiNotEnoughSkillPoints	[NOT ENOUGH SKILL POINTS]
 
-/* OLD VALUE : [HP] */
-// HASH_VALUE AE47EC76ED76A88F
+// HASH_VALUE 5010042050100420
 // INDEX 3102
-uiHP	[Trauma]
+uiHP	[HP]
 
 // HASH_VALUE 81CF12CA2FCAC592
 // INDEX 3103
@@ -13511,25 +13302,21 @@ uigcGuildName	[Guild Name]
 // INDEX 3132
 uittGuildName	[Show the guild name above the character]
 
-/* OLD VALUE : [Stamina] */
-// HASH_VALUE 6C5814406C581440
+// HASH_VALUE A868B095A4A85C8B
 // INDEX 3133
-uiSTA	[Pain]
+uiSTA	[Stamina]
 
-/* OLD VALUE : [Show the character stamina bar above the character] */
-// HASH_VALUE 4B02C50035F5992D
+// HASH_VALUE 5A6D8F2D9E50FAF9
 // INDEX 3134
-uittSTA	[Show the character pain bar above the character]
+uittSTA	[Show the character stamina bar above the character]
 
-/* OLD VALUE : [Sap] */
-// HASH_VALUE 6818243C6CD894D8
+// HASH_VALUE 1C591877A0875485
 // INDEX 3135
-uiSAP	[Oblivion]
+uiSAP	[Sap]
 
-/* OLD VALUE : [Show the character sap bar above the character] */
-// HASH_VALUE CFB7527B0DD6D51C
+// HASH_VALUE DF3C16CBBFAB2ADA
 // INDEX 3136
-uittSAP	[Show the character oblivion bar above the character]
+uittSAP	[Show the character sap bar above the character]
 
 // HASH_VALUE ECE7309DA1C77891
 // INDEX 3137
@@ -14132,20 +13919,17 @@ uittWalk	[Walking Mode]
 // INDEX 3285
 uittSit	[Sit Mode]
 
-/* OLD VALUE : [Life: %v/%m] */
-// HASH_VALUE D0630C1383073F5B
+// HASH_VALUE 3F466201CE5EA7ED
 // INDEX 3286
-uittPlayerLifeFormat	[Trauma: %v/%m]
+uittPlayerLifeFormat	[Life: %v/%m]
 
-/* OLD VALUE : [Stamina: %v/%m] */
-// HASH_VALUE 82766608CC2FB3E5
+// HASH_VALUE 1C65D64A4F632742
 // INDEX 3287
-uittPlayerStaminaFormat	[Pain: %v/%m]
+uittPlayerStaminaFormat	[Stamina: %v/%m]
 
-/* OLD VALUE : [Sap: %v/%m] */
-// HASH_VALUE 5F154E0B94A6AB33
+// HASH_VALUE 0CF58A0EFAA5B608
 // INDEX 3288
-uittPlayerSapFormat	[Oblivion: %v/%m]
+uittPlayerSapFormat	[Sap: %v/%m]
 
 // HASH_VALUE 5EC01E754A8C49A2
 // INDEX 3289
@@ -14215,10 +13999,9 @@ uiAnimals	[Animals]
 // INDEX 3305
 uiAnimalsTitle	[ANIMALS]
 
-/* OLD VALUE : [Red: Hit Points; Orange: Bulk; White: Satiety. If this bar falls to zero, the animal is hungry.] */
-// HASH_VALUE 5B09288E0AC40520
+// HASH_VALUE 9AD98A72EA7AD055
 // INDEX 3306
-uittSatiety	[Red: Trauma; Orange: Bulk; White: Satiety. If this bar falls to zero, the animal is hungry.]
+uittSatiety	[Red: Hit Points; Orange: Bulk; White: Satiety. If this bar falls to zero, the animal is hungry.]
 
 // HASH_VALUE 4BD6B8130DA55CC6
 // INDEX 3307
@@ -14486,9 +14269,10 @@ uiCP_selection	[SELECTION]
 // INDEX 3371
 uiCP_creation	[CREATION]
 
-// HASH_VALUE 908237408323573D
+/* OLD VALUE : [EMPTY SLOT] */
+// HASH_VALUE D272F03FCDC20042
 // INDEX 3372
-uiCharSel_EmptySlot	[EMPTY SLOT]
+uiCharSel_EmptySlot	[EMPTY]
 
 // HASH_VALUE 5850C4405850C440
 // INDEX 3373
@@ -17188,25 +16972,19 @@ uiItemConsumableEffectModJungleForageSuccess	[Modifies your Jungle Forage skills
 // INDEX 4007
 uiItemConsumableEffectModPrimaryRootForageSuccess	[Modifies your Prime Roots Forage skills by %modifier point(s) for %minutes min and %secondes sec.]
 
-/* OLD VALUE : [An @{2F2F}Aura of Stamina@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with a radius of %radius m.
-Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.] */
-// HASH_VALUE 4D45CB7CE3470B29
+// HASH_VALUE 77953283043E9590
 // INDEX 4008
-uiItemConsumableEffectStaminaAura	[An @{2F2F}Aura of Oblivion@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with a radius of %radius m.\n
+uiItemConsumableEffectStaminaAura	[An @{2F2F}Aura of Stamina@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with a radius of %radius m.\n
 	Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.]
 
-/* OLD VALUE : [An @{2F2F}Aura of Sap@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.
-Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.] */
-// HASH_VALUE C6002790F7B093C1
+// HASH_VALUE CC535C907B507FE9
 // INDEX 4009
-uiItemConsumableEffectSapAura	[An @{2F2F}Aura of Oblivion@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.\n
+uiItemConsumableEffectSapAura	[An @{2F2F}Aura of Sap@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.\n
 	Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.]
 
-/* OLD VALUE : [An @{2F2F}Aura of Life@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.
-Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.] */
-// HASH_VALUE E958DCB59AF51AD6
+// HASH_VALUE FDBDCF55285C2287
 // INDEX 4010
-uiItemConsumableEffectLifeAura	[An @{2F2F}Aura of Trauma@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.\n
+uiItemConsumableEffectLifeAura	[An @{2F2F}Aura of Life@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.\n
 	Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.]
 
 // HASH_VALUE E4CB849E671796CA
@@ -17419,26 +17197,20 @@ uiMk_action1_1_tt	[Click to @{6F6F}Stop@{FFFF}.\n
 // INDEX 4062
 uiMk_action2_0	[Sitting]
 
-/* OLD VALUE : [You are @{6F6F}Sitting@{FFFF}.
-While you are sitting down, your hit points, stamina, sap and focus regenerate twice as fast.
-Click to stand up.] */
-// HASH_VALUE 09FEBA4E87D93FCE
+// HASH_VALUE 123C197F60B07B8D
 // INDEX 4063
 uiMk_action2_0_tt	[You are @{6F6F}Sitting@{FFFF}.\n
-	While you are sitting down, your trauma, pain, oblivion and focus regenerate twice as fast.\n
+	While you are sitting down, your hit points, stamina, sap and focus regenerate twice as fast.\n
 	Click to stand up.]
 
 // HASH_VALUE 6C58444C64989490
 // INDEX 4064
 uiMk_action2_1	[Standing]
 
-/* OLD VALUE : [You are @{6F6F}Standing@{FFFF}.
-Sitting regenerates your hit points, stamina, sap and focus twice as fast.
-Click to sit down.] */
-// HASH_VALUE 4239A688409201E9
+// HASH_VALUE 331B49ECE57CE907
 // INDEX 4065
 uiMk_action2_1_tt	[You are @{6F6F}Standing@{FFFF}.\n
-	Sitting regenerates your trauma, pain, oblivion and focus twice as fast.\n
+	Sitting regenerates your hit points, stamina, sap and focus twice as fast.\n
 	Click to sit down.]
 
 // HASH_VALUE A8F8888F22C73895
@@ -17644,91 +17416,73 @@ uittIdentityTitle	[Click on the current @{6F6F}title @{FFFF}to display the list 
 // INDEX 4112
 uittIdentityInfo	[Shows the requirements for having obtained your current @{6F6F}title@{FFFF}.]
 
-/* OLD VALUE : [@{6F6F}Hit Points@{FFFF} %n
-When your hit points reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.] */
-// HASH_VALUE 181687445C7E8698
+// HASH_VALUE 865C9353DE82CF7D
 // INDEX 4113
-uittIdentityHP	[@{6F6F}Trauma@{FFFF} %n\n
-	When your Trauma reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.]
+uittIdentityHP	[@{6F6F}Hit Points@{FFFF} %n\n
+	When your hit points reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.]
 
-/* OLD VALUE : [@{6F6F}Sap@{FFFF} %n
-When your level of sap is too low, you cannot cast spells.] */
-// HASH_VALUE 443F972BC7ECC55E
+// HASH_VALUE 1E5E182EA9FCDE23
 // INDEX 4114
-uittIdentitySap	[@{6F6F}Oblivion@{FFFF} %n\n
-	When your level of oblivion is too low, you cannot cast spells.]
+uittIdentitySap	[@{6F6F}Sap@{FFFF} %n\n
+	When your level of sap is too low, you cannot cast spells.]
 
-/* OLD VALUE : [@{6F6F}Stamina@{FFFF} %n
-When your level of stamina is too low, you cannot carry out special attacks any longer and must make do with the default attack until your stamina is regenerated.] */
-// HASH_VALUE 4634C83F348BAF85
+// HASH_VALUE E7BEEE9911DDA388
 // INDEX 4115
-uittIdentitySta	[@{6F6F}Pain@{FFFF} %n\n
-	When your level of pain is too low, you cannot carry out special attacks any longer and must make do with the default attack until your pain is regenerated.]
+uittIdentitySta	[@{6F6F}Stamina@{FFFF} %n\n
+	When your level of stamina is too low, you cannot carry out special attacks any longer and must make do with the default attack until your stamina is regenerated.]
 
 // HASH_VALUE 51C17335A2002073
 // INDEX 4116
 uittIdentityFoc	[@{6F6F}Focus@{FFFF} %n\n
 	When your level of focus is too low, you cannot carry out foraging actions or crafting actions with boost stanzas in them.]
 
-/* OLD VALUE : [@{6F6F}HP Regeneration@{FFFF}: %n
-Hit Points regenerated every 10 seconds.] */
-// HASH_VALUE 1270038E4C809B13
+// HASH_VALUE 59F27247C45C0B53
 // INDEX 4117
-uittIdentityHPReg	[@{6F6F}Trauma Regeneration@{FFFF}: %n\n
-	Trauma regenerated every 10 seconds.]
+uittIdentityHPReg	[@{6F6F}HP Regeneration@{FFFF}: %n\n
+	Hit Points regenerated every 10 seconds.]
 
-/* OLD VALUE : [@{6F6F}Sap Regeneration@{FFFF}: %n
-Sap regenerated every 10 seconds.] */
-// HASH_VALUE 6196B6532F18170B
+// HASH_VALUE 2E11CCFE792B1CF9
 // INDEX 4118
-uittIdentitySapReg	[@{6F6F}Oblivion Regeneration@{FFFF}: %n\n
-	Oblivion regenerated every 10 seconds.]
+uittIdentitySapReg	[@{6F6F}Sap Regeneration@{FFFF}: %n\n
+	Sap regenerated every 10 seconds.]
 
-/* OLD VALUE : [@{6F6F}Stamina Regeneration@{FFFF}: %n
-Stamina regenerated every 10 seconds.] */
-// HASH_VALUE 5B4EE4C57FA477BA
+// HASH_VALUE 7F80C994DC68B165
 // INDEX 4119
-uittIdentityStaReg	[@{6F6F}Pain Regeneration@{FFFF}: %n\n
-	Pain regenerated every 10 seconds.]
+uittIdentityStaReg	[@{6F6F}Stamina Regeneration@{FFFF}: %n\n
+	Stamina regenerated every 10 seconds.]
 
 // HASH_VALUE 278E747F03AF685F
 // INDEX 4120
 uittIdentityFocReg	[@{6F6F}Focus regeneration@{FFFF}: %n\n
 	Focus regenerated every 10 seconds.]
 
-/* OLD VALUE : [Determines the maximum value of your @{6F6F}Hit points@{FFFF}] */
-// HASH_VALUE 03F50E1416319F29
+// HASH_VALUE 51EB5FE00E022FC8
 // INDEX 4121
-uittIdentityCons	[Determines the maximum value of your @{6F6F}Trauma@{FFFF}]
+uittIdentityCons	[Determines the maximum value of your @{6F6F}Hit points@{FFFF}]
 
-/* OLD VALUE : [Determines the maximum value of your @{6F6F}Sap@{FFFF}] */
-// HASH_VALUE C0BE47E613E1331E
+// HASH_VALUE B655A2A538BE3728
 // INDEX 4122
-uittIdentityInt	[Determines the maximum value of your @{6F6F}Oblivion@{FFFF}]
+uittIdentityInt	[Determines the maximum value of your @{6F6F}Sap@{FFFF}]
 
-/* OLD VALUE : [Determines the maximum value of your @{6F6F}Stamina@{FFFF}] */
-// HASH_VALUE B655766AC3245B25
+// HASH_VALUE 350737D91431A75D
 // INDEX 4123
-uittIdentityStr	[Determines the maximum value of your @{6F6F}Pain@{FFFF}]
+uittIdentityStr	[Determines the maximum value of your @{6F6F}Stamina@{FFFF}]
 
 // HASH_VALUE B6A88A9DE451931B
 // INDEX 4124
 uittIdentityDex	[Determines the maximum value of your @{6F6F}Focus@{FFFF}]
 
-/* OLD VALUE : [Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Hit points@{FFFF}] */
-// HASH_VALUE 8464C3C807171D7C
+// HASH_VALUE 982242D5101002EB
 // INDEX 4125
-uittIdentityMeta	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Trauma@{FFFF}]
+uittIdentityMeta	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Hit points@{FFFF}]
 
-/* OLD VALUE : [Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Sap@{FFFF}] */
-// HASH_VALUE 178293D35066E928
+// HASH_VALUE BD6ED69191074982
 // INDEX 4126
-uittIdentityWis	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Oblivion@{FFFF}]
+uittIdentityWis	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Sap@{FFFF}]
 
-/* OLD VALUE : [Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Stamina@{FFFF}] */
-// HASH_VALUE 0ABB8E07C3D74982
+// HASH_VALUE 26B1A3C8885A319D
 // INDEX 4127
-uittIdentityWB	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Pain@{FFFF}]
+uittIdentityWB	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Stamina@{FFFF}]
 
 // HASH_VALUE 3CEE9FCA463649B7
 // INDEX 4128
@@ -17786,26 +17540,20 @@ uittGaugesNameTitle	[Your @{6F6F}name @{FFFF}followed by the @{6F6F}title @{FFFF
 // INDEX 4140
 uittGaugesActionBar	[Indicates the progression of the @{6F6F}action @{FFFF}in execution.]
 
-/* OLD VALUE : [@{6F6F}Hit Points@{FFFF}:
-When your hit points reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.] */
-// HASH_VALUE 5577AFB4F49CBDCE
+// HASH_VALUE 428F1B3820DC234D
 // INDEX 4141
-uittGaugesHP	[@{6F6F}Trauma@{FFFF}:\n
-	When your Trauma reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.]
+uittGaugesHP	[@{6F6F}Hit Points@{FFFF}:\n
+	When your hit points reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.]
 
-/* OLD VALUE : [@{6F6F}Sap@{FFFF}:
-When your level of sap is too low, you cannot cast spells.] */
-// HASH_VALUE AC123A882F85BFE5
+// HASH_VALUE 84FEF386516882C6
 // INDEX 4142
-uittGaugesSap	[@{6F6F}Oblivion@{FFFF}:\n
-	When your level of oblivion is too low, you cannot cast spells.]
+uittGaugesSap	[@{6F6F}Sap@{FFFF}:\n
+	When your level of sap is too low, you cannot cast spells.]
 
-/* OLD VALUE : [@{6F6F}Stamina@{FFFF}:
-When your level of stamina is too low, you cannot carry out special attacks any longer and must make do with the default attack until your stamina is regenerated.] */
-// HASH_VALUE 34BBC0D0932A8F1F
+// HASH_VALUE 9D7C8575BE2E2475
 // INDEX 4143
-uittGaugesSta	[@{6F6F}Pain@{FFFF}:\n
-	When your level of pain is too low, you cannot carry out special attacks any longer and must make do with the default attack until your pain is regenerated.]
+uittGaugesSta	[@{6F6F}Stamina@{FFFF}:\n
+	When your level of stamina is too low, you cannot carry out special attacks any longer and must make do with the default attack until your stamina is regenerated.]
 
 // HASH_VALUE 370F70F0CD9627F6
 // INDEX 4144
@@ -17934,12 +17682,10 @@ uittGuildMemberOnlineAbroad	[Connected on another Mainland or Ring Scenario]
 // INDEX 4170
 uittGuildMemberOffline	[Not connected]
 
-/* OLD VALUE : [@{6F6F}Hit Points @{FFFF}of the target.
-The target dies when its @{6F6F}hit points @{FFFF}reach 0.] */
-// HASH_VALUE 8C88C6F713CD5E08
+// HASH_VALUE 1ECBB3AF9AE24353
 // INDEX 4171
-uittTargetHp	[@{6F6F}Trauma @{FFFF}of the target.\n
-	The target dies when its @{6F6F}Trauma @{FFFF}reach 0.]
+uittTargetHp	[@{6F6F}Hit Points @{FFFF}of the target.\n
+	The target dies when its @{6F6F}hit points @{FFFF}reach 0.]
 
 // HASH_VALUE 451AD84229299F4D
 // INDEX 4172
@@ -17966,11 +17712,9 @@ uittTargetNamed	[Named creature of level @{6F6F}%n]
 uittInfoBulk	[@{6F6F}Bulk@{FFFF}:\n
 	Space occupied by the object in your inventory. The space of each inventory is limited, which means bulky items cannot be carried in great number.]
 
-/* OLD VALUE : [@{6F6F}Hit points@{FFFF}:
-This value will decrease when using the item. When it reaches 0, the item is destroyed.] */
-// HASH_VALUE 21F349E03B299DEB
+// HASH_VALUE D3B7427064F695D3
 // INDEX 4178
-uittInfoHP	[@{6F6F}Trauma@{FFFF}:\n
+uittInfoHP	[@{6F6F}Hit points@{FFFF}:\n
 	This value will decrease when using the item. When it reaches 0, the item is destroyed.]
 
 // HASH_VALUE 94760A6F75DFA951
@@ -18028,33 +17772,25 @@ uittInfoArmorQuality	[@{6F6F}Quality@{FFFF}:\n
 uittInfoArmorProtection	[@{6F6F}Protection@{FFFF}:\n
 	Damage inflicted by a hit is reduced by this factor, with a maximum of the values below.]
 
-/* OLD VALUE : [@{6F6F}Max. vs Slashing blow@{FFFF}:
-Maximum hit points absorbed for a "slashing" hit.] */
-// HASH_VALUE FBF4F201E3B96595
+// HASH_VALUE 805FE6547DD49E5B
 // INDEX 4190
 uittInfoArmorSlash	[@{6F6F}Max. vs Slashing blow@{FFFF}:\n
-	Maximum Trauma absorbed for a "slashing" hit.]
+	Maximum hit points absorbed for a "slashing" hit.]
 
-/* OLD VALUE : [@{6F6F}Max. vs Piercing blow@{FFFF}:
-Maximum hit points absorbed for a "piercing" hit.] */
-// HASH_VALUE B9E402F9E3F95992
+// HASH_VALUE FE8FEA4EBDD49E56
 // INDEX 4191
 uittInfoArmorPierc	[@{6F6F}Max. vs Piercing blow@{FFFF}:\n
-	Maximum Trauma absorbed for a "piercing" hit.]
+	Maximum hit points absorbed for a "piercing" hit.]
 
-/* OLD VALUE : [@{6F6F}Max. vs Smashing blow@{FFFF}:
-Maximum hit points absorbed for a "smashing" hit.] */
-// HASH_VALUE FBF4F202E3B96995
+// HASH_VALUE 805FEA557DD49E5B
 // INDEX 4192
 uittInfoArmorBlunt	[@{6F6F}Max. vs Smashing blow@{FFFF}:\n
-	Maximum Trauma absorbed for a "smashing" hit.]
+	Maximum hit points absorbed for a "smashing" hit.]
 
-/* OLD VALUE : [@{6F6F}Armor Type@{FFFF}:
-The armor type usually affects the action malus. Medium and heavy armor give additional HP bonuses.] */
-// HASH_VALUE DB7B9B58E9FEFEA7
+// HASH_VALUE 941ADF7F50C8E51F
 // INDEX 4193
 uittInfoArmorType	[@{6F6F}Armor Type@{FFFF}:\n
-	The armor type usually affects the action malus. Medium and heavy armor give additional Trauma bonuses.]
+	The armor type usually affects the action malus. Medium and heavy armor give additional HP bonuses.]
 
 // HASH_VALUE 9E450905DAB7401A
 // INDEX 4194
@@ -20230,10 +19966,9 @@ uiBGD_QuitInstallTitle	[Quit?]
 // INDEX 4700
 uiBGD_ErrorSupportFormat	[Tips on solving common problems on the {0}]
 
-/* OLD VALUE : [http://forums.Khanat.com/forum/showthread.php?t=29129] */
-// HASH_VALUE DB2B90AA4C62C3B2
+// HASH_VALUE F33B4565912B7B61
 // INDEX 4701
-uiBGD_ErrorSupportUrl	[https://lirria.khaganat.net/]
+uiBGD_ErrorSupportUrl	[http://forums.Khanat.com/forum/showthread.php?t=29129]
 
 // HASH_VALUE 0CEC4A54E0EE9B8A
 // INDEX 4702

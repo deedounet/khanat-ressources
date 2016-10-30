@@ -1,1 +1,0 @@
-sbrick_words_en.txt

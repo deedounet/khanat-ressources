@@ -1,1 +1,0 @@
-damagetype_words_wk.txt

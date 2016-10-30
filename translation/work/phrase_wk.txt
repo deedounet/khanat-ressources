@@ -38,4 +38,4 @@
 #include "phrases/missions/qabb20160603a_wk.txt"
 #include "phrases/missions/qabb20160603b_wk.txt"
 #include "phrases/missions/qabb20160607a_wk.txt"
-#include "phrases/missions/qabb20161025a_wk.txt"
+

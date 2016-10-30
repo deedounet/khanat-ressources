@@ -10,13 +10,13 @@ MENU_WHOAMI(player p, bot b)
 MENU_WHOISKARAVAN(player p, bot b)
 {
 (b.race = karavan)
-menu_who_is_karavan				[What is the Khan?]	
+menu_who_is_karavan				[What is the Karavan?]	
 }
 
 ////////////////////////////////////////////// NEWBIELAND GUARDS /////////////////////////////////////////////////////////////////////////
 WHOAMI_NEWBGUARD 		(player p, bot b)
 {
-	whoami_newbguard	[Greetings, young ra. If you get into bother come and find me and I shall rally to your defense.]
+	whoami_newbguard	[Greetings, young homin. If you get into bother come and find me and I shall rally to your defense.]
 }
 
 ////////////////////////////////////////////// NEWBIELAND MERCHANTS ///////////////////////////////////////////////////////////////////////////

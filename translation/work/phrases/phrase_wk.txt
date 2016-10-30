@@ -463,12 +463,12 @@ BS_TARGET_TOO_FAR ()
 
 EGS_TOO_EXPENSIVE_STAMINA ()
 {
-	[&CHKCB&You do not have enough pain for this action.]
+	[&CHKCB&You do not have enough stamina for this action.]
 }
 
 EGS_TOO_EXPENSIVE_HP ()
 {
-	[&CHKCB&You do not have enough trauma to pay this action cost.]
+	[&CHKCB&You do not have enough hp to pay this action cost.]
 }
 
 EGS_TOO_EXPENSIVE_FOCUS ()
