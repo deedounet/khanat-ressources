@@ -1,0 +1,38 @@
+﻿// DIFF_VERSION 2
+// DIFF ADD
+// HASH_VALUE 5AD6EEC6E3B2E6CD
+qabb20161025a_OBJ1 ()
+{
+		qabb20161025a_OBJ1	[Chercher où pousse les arbres à Klums.]
+
+}
+
+// DIFF CHANGED 2359
+/* OLD VALUE : [
+	
+	qabb20161025a_OBJ2 ()
+	{
+			qabb20161025a_OBJ1	[Chercher où pousse les arbres à Klums.]
+	
+	}
+	
+
+] */
+// Clause 0 : identifier changed.
+// HASH_VALUE 9F9ED56D58644BC4
+qabb20161025a_OBJ2 ()
+{
+		qabb20161025a_OBJ2	[Parlez à Sipvandil.]
+
+}
+
+// DIFF REMOVED
+// HASH_VALUE 9F9ED56D58644BC4
+qabb20161025a_OBJ3 ()
+{
+		qabb20161025a_OBJ2	[Parlez Ã  Sipvandil.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

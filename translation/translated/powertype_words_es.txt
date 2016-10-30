@@ -1,0 +1,1 @@
+powertype_words_en.txt

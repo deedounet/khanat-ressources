@@ -3588,17 +3588,57 @@ EGS_TOO_EXPENSIVE_FOCUS ()
 
 }
 
-// HASH_VALUE 08D54EA2E8D46583
+/* OLD VALUE : [
+	EGS_TOO_EXPENSIVE_HP ()
+	{
+				[&CHKCB&You do not have enough hp to pay this action cost.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	EGS_TOO_EXPENSIVE_HP ()
+	{
+				[&CHKCB&You do not have enough hp to pay this action cost.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE B63DBBCB1203CDBB
 EGS_TOO_EXPENSIVE_HP ()
 {
-			[&CHKCB&You do not have enough hp to pay this action cost.]
+			[&CHKCB&You do not have enough trauma to pay this action cost.]
 
 }
 
-// HASH_VALUE ACD625ADDAE9A3C8
+/* OLD VALUE : [
+	EGS_TOO_EXPENSIVE_STAMINA ()
+	{
+				[&CHKCB&You do not have enough stamina for this action.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	EGS_TOO_EXPENSIVE_STAMINA ()
+	{
+				[&CHKCB&You do not have enough stamina for this action.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE BD7E36B7599AF460
 EGS_TOO_EXPENSIVE_STAMINA ()
 {
-			[&CHKCB&You do not have enough stamina for this action.]
+			[&CHKCB&You do not have enough pain for this action.]
 
 }
 
@@ -12448,10 +12488,11 @@ MENU_WHOAMI (player p, bot b)
 }
 
 /* OLD VALUE : [
+	
 	MENU_WHOISKARAVAN (player p, bot b)
 	{
 		(b.race = karavan) 
-			menu_who_is_karavan	[What is the karavan?]
+			menu_who_is_karavan	[What is the Karavan?]
 	
 	}
 	
@@ -12459,21 +12500,23 @@ MENU_WHOAMI (player p, bot b)
 ] */
 // Clause 0 : text changed.
 /* OLD VALUE : [
+	
+	
 	MENU_WHOISKARAVAN (player p, bot b)
 	{
 		(b.race = karavan) 
-			menu_who_is_karavan	[What is the karavan?]
+			menu_who_is_karavan	[What is the Karavan?]
 	
 	}
 	
 
 ] */
 // Clause 0 : text changed.
-// HASH_VALUE B05705F4910D106D
+// HASH_VALUE 6CC705B5F6F7337A
 MENU_WHOISKARAVAN (player p, bot b)
 {
 	(b.race = karavan) 
-		menu_who_is_karavan	[What is the Karavan?]
+		menu_who_is_karavan	[What is the Khan?]
 
 }
 
@@ -24785,10 +24828,31 @@ WELCOME_RA_WELCOME ()
 }
 
 ////////////////////////////////////////////// NEWBIELAND GUARDS /////////////////////////////////////////////////////////////////////////
-// HASH_VALUE 01D60CE8C1CE9084
+/* OLD VALUE : [
+	
+	WHOAMI_NEWBGUARD (player p, bot b)
+	{
+			whoami_newbguard	[Greetings, young homin. If you get into bother come and find me and I shall rally to your defense.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	WHOAMI_NEWBGUARD (player p, bot b)
+	{
+			whoami_newbguard	[Greetings, young homin. If you get into bother come and find me and I shall rally to your defense.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 28066D8F3E60A478
 WHOAMI_NEWBGUARD (player p, bot b)
 {
-		whoami_newbguard	[Greetings, young homin. If you get into bother come and find me and I shall rally to your defense.]
+		whoami_newbguard	[Greetings, young ra. If you get into bother come and find me and I shall rally to your defense.]
 
 }
 
@@ -25078,6 +25142,153 @@ qabb20160607a_OBJ3 ()
 qabb20160607a_TITLE ()
 {
 		qabb20160607a_TITLE	[Bring back pendos' eggs]
+
+}
+
+/* OLD VALUE : [
+	qabb20161025a_DESC ()
+	{
+			qabb20161025a_DESC	[Trouvez des klums bien murs et ramassez les. Et ramenez les Ã  Sipvandil.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	qabb20161025a_DESC ()
+	{
+			qabb20161025a_DESC	[Trouvez des klums bien murs et ramassez les. Et ramenez les Ã  Sipvandil.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 33A3E37DA6048B1E
+qabb20161025a_DESC ()
+{
+		qabb20161025a_DESC	[Trouvez des klums bien murs, ramassez les. Puis ramenez les à Sipvandil.]
+
+}
+
+// HASH_VALUE 572068EC31B859B5
+qabb20161025a_DSP1 ()
+{
+		qabb20161025a_DSP1	[Vous devez trouver les klums.]
+
+}
+
+// HASH_VALUE 0781DD02E7E095E0
+qabb20161025a_DSP2 ()
+{
+		qabb20161025a_DSP2	[Regardez sur le sol pour trouver des klums.]
+
+}
+
+// HASH_VALUE 807D303B40874C18
+qabb20161025a_DSP3 ()
+{
+		qabb20161025a_DSP3	[Vous êtes partis trop loin.]
+
+}
+
+// HASH_VALUE F973D5704C0FEEA7
+qabb20161025a_DSP4 ()
+{
+		qabb20161025a_DSP4	[Vous avez reussi à trouver les klums.]
+
+}
+
+// HASH_VALUE 2D3219E4300A2DD8
+qabb20161025a_INTRO ()
+{
+		qabb20161025a_INTRO	[J'ai envie d'une belle tarte aux klums, vous devez absolument m'en trouver des bien murs et ramenez les à Sipvandil pour qu'il me fasse une belle tarte *miam*.]
+
+}
+
+/* OLD VALUE : [
+	qabb20161025a_OBJ1 ()
+	{
+			qabb20161025a_OBJ1	[Chercher où pousse les arbres à Klums.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	qabb20161025a_OBJ1 ()
+	{
+			qabb20161025a_OBJ1	[Chercher où pousse les arbres à Klums.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE E691C4C6810881F8
+qabb20161025a_OBJ1 ()
+{
+		qabb20161025a_OBJ1	[Cherchez où pousse les arbres à Klums.]
+
+}
+
+/* OLD VALUE : [
+	
+	qabb20161025a_OBJ2 ()
+	{
+			qabb20161025a_OBJ2	[Parlez à Sipvandil.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	
+	
+	qabb20161025a_OBJ2 ()
+	{
+			qabb20161025a_OBJ2	[Parlez à Sipvandil.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE FEAB7CDD385C5DF0
+qabb20161025a_OBJ2 ()
+{
+		qabb20161025a_OBJ2	[Cherchez les klums sur le sol.]
+
+}
+
+// HASH_VALUE 2CE6257A13C4AF9C
+qabb20161025a_OBJ3 ()
+{
+		qabb20161025a_OBJ3	[Parlez à Sipvandil.]
+
+}
+
+// HASH_VALUE C50F4DAE1BA02E9C
+qabb20161025a_PHR1 ()
+{
+		qabb20161025a_PHR1	[Bonjour, je vous ai ramené des klums de la part de Jimman.]
+
+}
+
+// HASH_VALUE 27779519384470CD
+qabb20161025a_PHR2 ()
+{
+		qabb20161025a_PHR2	[Ah merci. Je vais lui préparer une bonne tarte. je vous donne ça pour vous remercier.]
+
+}
+
+// HASH_VALUE 6E7514C754B0BF59
+qabb20161025a_TITLE ()
+{
+		qabb20161025a_TITLE	[Ramener des klums]
 
 }
 
