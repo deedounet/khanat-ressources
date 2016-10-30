@@ -1,0 +1,81 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 1389
+/* OLD VALUE : [
+	EGS_TOO_EXPENSIVE_HP ()
+	{
+				[&CHKCB&You do not have enough hp to pay this action cost.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE B63DBBCB1203CDBB
+EGS_TOO_EXPENSIVE_HP ()
+{
+			[&CHKCB&You do not have enough trauma to pay this action cost.]
+
+}
+
+// DIFF CHANGED 1388
+/* OLD VALUE : [
+	EGS_TOO_EXPENSIVE_STAMINA ()
+	{
+				[&CHKCB&You do not have enough stamina for this action.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE BD7E36B7599AF460
+EGS_TOO_EXPENSIVE_STAMINA ()
+{
+			[&CHKCB&You do not have enough pain for this action.]
+
+}
+
+// DIFF CHANGED 1008
+/* OLD VALUE : [
+	
+	MENU_WHOISKARAVAN (player p, bot b)
+	{
+		(b.race = karavan) 
+			menu_who_is_karavan	[What is the Karavan?]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 6CC705B5F6F7337A
+MENU_WHOISKARAVAN (player p, bot b)
+{
+	(b.race = karavan) 
+		menu_who_is_karavan	[What is the Khan?]
+
+}
+
+// DIFF CHANGED 1009
+////////////////////////////////////////////// NEWBIELAND GUARDS /////////////////////////////////////////////////////////////////////////
+/* OLD VALUE : [
+	
+	WHOAMI_NEWBGUARD (player p, bot b)
+	{
+			whoami_newbguard	[Greetings, young homin. If you get into bother come and find me and I shall rally to your defense.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 28066D8F3E60A478
+WHOAMI_NEWBGUARD (player p, bot b)
+{
+		whoami_newbguard	[Greetings, young ra. If you get into bother come and find me and I shall rally to your defense.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE
+
