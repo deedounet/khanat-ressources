@@ -901,7 +901,7 @@
                 <STRING>mission_title : qabb20161025a_TITLE</STRING>
                 <STRING>mission_desc : qabb20161025a_DESC</STRING>
                 <STRING># intro</STRING>
-                <STRING>dyn_chat : giver : qabb20161025A_INTRO : intro_resp ANSWER_OK</STRING>
+                <STRING>dyn_chat : giver : qabb20161025a_INTRO : intro_resp ANSWER_OK</STRING>
                 <STRING>jump_point : intro_resp</STRING>
                 <STRING># visit1</STRING>
                 <STRING>jump_point : visit1</STRING>
@@ -933,6 +933,7 @@
                 <STRING>add_compass_npc : disp_sipvandil</STRING>
                 <STRING>set_obj : qabb20161025a_OBJ3</STRING>
                 <STRING>talk_to : disp_sipvandil : qabb20161025a_PHR1</STRING>
+                <STRING>give_item : klum_fruit 10 1 : disp_sipvandil</STRING>
                 <STRING>recv_money : 1000</STRING>
                 <STRING>remove_compass_npc : disp_sipvandil</STRING>
                 <STRING>recv_item : conso_fireworks_d 3 1 : disp_sipvandil</STRING>
