@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<PRIMITIVES VERSION="1">
+  <ROOT_PRIMITIVE TYPE="CPrimNode">
+    <ALIAS LAST_GENERATED="3"/>
+    <CHILD TYPE="CPrimPoint">
+      <PT X="10529.201172" Y="-11368.799805" Z="0.000000"/>
+      <ANGLE VALUE="1.237002"/>
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>spire</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>spire_1</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string_array">
+        <NAME>neighbours</NAME>
+        <STRING>spire_2</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>sheet_socle</NAME>
+        <STRING>object_watch_tower</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimAlias">
+        <ALIAS VALUE="1"/>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+      </CHILD>
+    </CHILD>
+    <CHILD TYPE="CPrimPoint">
+      <PT X="10621.600586" Y="-11052.000000" Z="0.000000"/>
+      <ANGLE VALUE="-1.884956"/>
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>spire</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>spire_2</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string_array">
+        <NAME>neighbours</NAME>
+        <STRING>spire_1</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>sheet_socle</NAME>
+        <STRING>object_watch_tower</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimAlias">
+        <ALIAS VALUE="2"/>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+      </CHILD>
+    </CHILD>
+  </ROOT_PRIMITIVE>
+</PRIMITIVES>
