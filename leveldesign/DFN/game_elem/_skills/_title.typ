@@ -2,7 +2,9 @@
 <TYPE Type="String" UI="NonEditableCombo" Default="Refugee" Revision="$Revision: 1.22 $" State="modified">
   <DEFINITION Label="Refugee" Value="Refugee"/>
   <DEFINITION Label="Homin" Value="Homin"/>
+  <DEFINITION Label="Compagnon" Value="Compagnon"/>
 
+  <DEFINITION Label="DEV" Value="DEV"/>
   <DEFINITION Label="FBT" Value="FBT"/>
   <DEFINITION Label="SGM" Value="SGM"/>
   <DEFINITION Label="GM" Value="GM"/>
