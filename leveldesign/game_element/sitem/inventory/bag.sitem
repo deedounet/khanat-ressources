@@ -6,12 +6,9 @@
       <ATOM Name="family" Value="bag"/>
     </STRUCT>
     <STRUCT Name="bag">
-      <ATOM Name="weight_max" Value="999999999999999"/>
-      <ATOM Name="bulk_max" Value="999999999999999"/>
-      <ATOM Name="slot_count" Value="800"/>
-    </STRUCT>
-    <STRUCT Name="3d">
-      <ATOM Name="shape" Value="FY_Acc_GrosPot_A_1.shape"/>
+      <ATOM Name="weight_max" Value="90000.0"/>
+      <ATOM Name="bulk_max" Value="90000.0"/>
+      <ATOM Name="slot_count" Value="900"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>

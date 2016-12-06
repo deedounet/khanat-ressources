@@ -61,7 +61,9 @@
     <STRUCT Name="Collision">
       <ATOM Name="CollisionRadius" Value="0.60"/>
     </STRUCT>
-    <ATOM Name="" Value=""/>
+    <STRUCT Name="animal_bag">
+      <ATOM Name="bag" Value="steed_inventory.sitem"/>
+    </STRUCT>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

@@ -9,7 +9,7 @@
       </PROPERTY>
       <PROPERTY TYPE="string">
         <NAME>name</NAME>
-        <STRING> starting_camp</STRING>
+        <STRING>starting_camp</STRING>
       </PROPERTY>
       <CHILD TYPE="CPrimAlias">
         <ALIAS VALUE="139"/>
