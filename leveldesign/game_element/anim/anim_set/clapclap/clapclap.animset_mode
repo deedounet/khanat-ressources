@@ -1,17 +1,10 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.1 $" State="modified">
-  <PARENT Filename="_pet.animset_mode"/>
-  <STRUCT>
-    <STRUCT Name="swim">
-      <ATOM Name="__" Value="true"/>
-    </STRUCT>
-    <STRUCT Name="swim_death">
-      <ATOM Name="__" Value="true"/>
-    </STRUCT>
-  </STRUCT>
+  <PARENT Filename="_creatures.animset_mode"/>
+  <STRUCT/>
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
   <STRUCT/>
   <LOG></LOG>
-</FORM>
+</FORM>

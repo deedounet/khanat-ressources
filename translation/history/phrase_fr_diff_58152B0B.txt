@@ -1,0 +1,98 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 2354
+/* OLD VALUE : [
+	qabb20161025a_DESC ()
+	{
+			qabb20161025a_DESC	[Trouvez des klums bien murs et ramassez les. Et ramenez les Ã  Sipvandil.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	qabb20161025a_DESC ()
+	{
+			qabb20161025a_DESC	[Trouvez des klums bien murs et ramassez les. Et ramenez les à Sipvandil.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 33A3E37DA6048B1E
+qabb20161025a_DESC ()
+{
+		qabb20161025a_DESC	[Trouvez des klums bien murs, ramassez les. Puis ramenez les à Sipvandil.]
+
+}
+
+// DIFF CHANGED 2360
+/* OLD VALUE : [
+	qabb20161025a_OBJ1 ()
+	{
+			qabb20161025a_OBJ1	[Chercher où pousse les arbres à Klums.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	qabb20161025a_OBJ1 ()
+	{
+			qabb20161025a_OBJ1	[Chercher où pousse les arbres à Klums.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE E691C4C6810881F8
+qabb20161025a_OBJ1 ()
+{
+		qabb20161025a_OBJ1	[Cherchez où pousse les arbres à Klums.]
+
+}
+
+// DIFF CHANGED 2361
+/* OLD VALUE : [
+	
+	qabb20161025a_OBJ2 ()
+	{
+			qabb20161025a_OBJ2	[Parlez à Sipvandil.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+/* OLD VALUE : [
+	
+	
+	qabb20161025a_OBJ2 ()
+	{
+			qabb20161025a_OBJ2	[Parlez à Sipvandil.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE FEAB7CDD385C5DF0
+qabb20161025a_OBJ2 ()
+{
+		qabb20161025a_OBJ2	[Cherchez les klums sur le sol.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 2CE6257A13C4AF9C
+qabb20161025a_OBJ3 ()
+{
+		qabb20161025a_OBJ3	[Parlez à Sipvandil.]
+
+}
+
+
+// REMOVE THE FOLOWING LINE WHEN TRANSLATION IS DONE

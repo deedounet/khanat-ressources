@@ -226,9 +226,9 @@ mpcatFaber	[Crafter]
 mpcatUpgrade	[Upgrade]
 
 // Player stats
-scoreHitPoints	[Hit Points]
-scoreSap	[Sap]
-scoreStamina	[Stamina]
+scoreHitPoints	[Trauma]
+scoreSap	[Oblivion]
+scoreStamina	[Pain]
 scoreWeight	[Weight]
 scoreDiseaseResist	[Disease resistance]
 scoreMagicResist	[Magic resistance]
@@ -708,7 +708,7 @@ uiDesertRawMats	[Desert Exotic Raw Materials]
 uiForestRawMats	[Forest Exotic Raw Materials]
 uiJungleRawMats	[Jungle Exotic Raw Materials]
 uiLakeRawMats	[Lakes Exotic Raw Materials]
-uiComStaminaCost	[Stamina Cost:]
+uiComStaminaCost	[Pain Cost:]
 uiCommerceTitle	[COMMERCE]
 uittEval	[Evaluate raw material price]
 
@@ -743,7 +743,7 @@ uiQuantity	[QUANTITY]
 uiTool	[TOOL]
 uiMaterials	[Materials]
 uiDifficulty	[DIFFICULTY]
-uiStaminaCost	[STAMINA COST]
+uiStaminaCost	[PAIN COST]
 uiResult	[RESULT]
 uiInventoryFull	[INVENTORY FULL]
 uiBonusURInAWorkshop	[Bonus: You are in a Workshop!]
@@ -1466,16 +1466,16 @@ uihHarvestTool	[Harvesting Tools]
 uihItemMisc	[Miscellaneous]
 
 // Stats
-uiLife	[Life]
-uiSap	[Sap]
-uiStamina	[Stamina]
+uiLife	[Trauma]
+uiSap	[Oblivion]
+uiStamina	[Pain]
 uiFocus	[Focus]
 uiActionProgression	[Action Progress]
 uiCurrentAction	[Current Action]
 uiHunger	[Hunger]
 uiActionStatus	[Current Action Progress]
-uiSapBarDisplay	[SAP DISPLAY]
-uiStaBarDisplay	[STAMINA DISPLAY]
+uiSapBarDisplay	[Oblivion DISPLAY]
+uiStaBarDisplay	[Pain DISPLAY]
 uiFocBarDisplay	[FOCUS DISPLAY]
 uiXpBonusInfo	[XP Bonus:    Level @{6F6F}%lvl@{FFFF} x @{6F6F}%count@{FFFF}]
 uittXpBonus	[An experience catalyzer is active; you receive a bonus to any XP you set using skills lower than the quality of the catalyzer.\n
@@ -1486,12 +1486,12 @@ uittDeathPenalty	[@{6F6F}You have a Death Penalty\n
 	From now on all XP that you earn will be used to reduce the penalty.\n
 	When the penalty reaches 0 you will start to gain XP normally.\n
 	Your Death Penalty is currently @{6F6F}%dp@{FFFF}%.]
-uiHpMax	[Hit Points Max]
-uiHpReg	[Hit Points Reg]
-uiStaMax	[Stamina Max]
-uiStaReg	[Stamina Reg]
-uiSapMax	[Sap Max]
-uiSapReg	[Sap Reg]
+uiHpMax	[Trauma Max]
+uiHpReg	[Trauma Reg]
+uiStaMax	[Pain Max]
+uiStaReg	[Pain Reg]
+uiSapMax	[Oblivion Max]
+uiSapReg	[Oblivion Reg]
 uiWishMax	[Focus Max]
 uiWishReg	[Focus Reg]
 
@@ -1500,26 +1500,26 @@ uitabFameYou	[YOU]
 uitabFameGuild	[GUILD]
 uitabFameTribes	[TRIBES]
 uitabFamePvp	[PVP]
-uiFameKami	[Kami]
-uiFameKaravan	[Karavan]
-uiFameTryton	[Tryton]
+uiFameKami	[khan]
+uiFameKaravan	[Khan]
+uiFameTryton	[khan]
 uiFameFyros	[Ucikara]
 uiFameMatis	[Tcara]
-uiFameTryker	[Tryker]
+uiFameTryker	[Child]
 uiFameZorai	[Zoraï]
 uiFameHominists	[Hominist]
-uiFameMarauders	[Marauder]
+uiFameMarauders	[PvP]
 uiFameAgnos	[Atheist]
 uiFameUrasies	[Theist]
 uiFameAllegianceCult	[Cult allegiance: ]
 uiFameAllegianceCiv	[Civilization allegiance: ]
 uiFameAllegiance0	[Undetermined]
 uiFameAllegiance1	[Neutral]
-uiFameAllegiance2	[Kami]
-uiFameAllegiance3	[Karavan]
+uiFameAllegiance2	[Khan]
+uiFameAllegiance3	[Khan]
 uiFameAllegiance4	[Ucikara]
 uiFameAllegiance5	[Tcara]
-uiFameAllegiance6	[Tryker]
+uiFameAllegiance6	[Child]
 uiFameAllegiance7	[Zoraï]
 uittFameAllegianceCiv0	[Your civilization allegiance is @{2F2F}undetermined@{FFFF}.\n
 	This can happen for instance if your guild lost its allegiance due to low fame.\n
@@ -1845,19 +1845,19 @@ uiPvPEffect_region_nexus_Malus	[@{FE7F}Nexus @{FFFF}:\n
 	No effect]
 
 // Stats
-uiHPDesc	[@{6F6F}HP@{FFFF}, \n
-	hit points measure the amount of damage a character can take before going into a coma.]
-uiStaDesc	[@{6F6F}Stamina@{FFFF}, \n
-	used by physical combat actions, stamina measures a character's current state of fatigue.]
-uiSapDesc	[@{6F6F}Sap@{FFFF}, \n
+uiHPDesc	[@{6F6F}Trauma@{FFFF}, \n
+	Trauma measure the amount of damage a character can take before going into a coma.]
+uiStaDesc	[@{6F6F}Pain@{FFFF}, \n
+	used by physical combat actions, pain measures a character's current state of fatigue.]
+uiSapDesc	[@{6F6F}Oblivion@{FFFF}, \n
 	the energy that allows a character to channel magical power.]
 uiFocDesc	[@{6F6F}Focus@{FFFF}, \n
 	measure the character's ability to concentrate.]
-uiConsDesc	[@{6F6F}Constitution@{FFFF}, \n
+uiConsDesc	[@{6F6F}Trauma@{FFFF}, \n
 	measure the character's ability to engage in long-term periods of strenuous physical activity.]
-uiIntDesc	[@{6F6F}Intelligence@{FFFF}, \n
+uiIntDesc	[@{6F6F}Oblivion@{FFFF}, \n
 	a measure of how well a character can focus their mental abilities.]
-uiStrDesc	[@{6F6F}Strength@{FFFF}, \n
+uiStrDesc	[@{6F6F}Pain@{FFFF}, \n
 	statistic measures the physical strength a character possess.]
 uiDexDesc	[@{6F6F}Dexterity@{FFFF}, \n
 	measure how skilled a character is at doing fine work with their hands.]
@@ -1871,19 +1871,19 @@ uiWillDesc	[@{6F6F}Will@{FFFF} \n
 	the ability to maintain a high level of concentration over longer periods of time.]
 uiValues	[VALUES]
 uiRegeneration	[REGENERATION]
-uiCarac_HpMax	[Constitution]
+uiCarac_HpMax	[Trauma]
 uiCarac_HpReg	[Metabolism]
-uiCarac_StaMax	[Strength]
+uiCarac_StaMax	[Pain]
 uiCarac_StaReg	[Balance]
-uiCarac_SapMax	[Intelligence]
+uiCarac_SapMax	[Oblivion]
 uiCarac_SapReg	[Wisdom]
 uiCarac_WishMax	[Dexterity]
 uiCarac_WishReg	[Will]
-uiCaracId0	[Constitution]
+uiCaracId0	[Trauma]
 uiCaracId1	[Metabolism]
-uiCaracId2	[Intelligence]
+uiCaracId2	[Oblivion]
 uiCaracId3	[Wisdom]
-uiCaracId4	[Strength]
+uiCaracId4	[Pain]
 uiCaracId5	[Balance]
 uiCaracId6	[Dexterity]
 uiCaracId7	[Will]
@@ -2326,13 +2326,13 @@ uittDecrementRow	[Decrement number of row]
 uiMagicCreateNewSpell	[NEW SPELL: ]
 uiMagicEditSpell	[EDIT SPELL]
 uiMagicEditSpellName	[Spell Name]
-uiMagicEditSapCost	[SAP COST]
+uiMagicEditSapCost	[OBLIVION COST]
 uiMagicEditDifficulty	[DIFFICULTY]
-uiMagicEditNotEnoughSap	[Warning! Not Enough Sap!]
+uiMagicEditNotEnoughSap	[Warning! Not Enough Oblivion!]
 uiTextHelpSelectRootBrick	[<- Click on the ROOT slot to define your ACTION TYPE.]
 uiTextHelpSelectEffectBrick	[<- Click to select EFFECT ]
 uiTextHelpSelectOtherBrick	[Your CREDIT must be equal or greater than your ACTION COST.]
-uiSpellSelectSapCost	[Sap Cost: ]
+uiSpellSelectSapCost	[Oblivion Cost: ]
 uiMagicSpellIcon	[Icon]
 uittMagicSpellNotFound	[Spell Not Found in the SpellBook]
 uiDefenseTitle	[DEFENSE]
@@ -2751,17 +2751,17 @@ uihelpItemMagicBonusDefAffliction	[@{FFF9}Bonus For Defensive Affliction Magic:\
 uihelpItemMagicBonusHeader	[\n
 	@{FFFF}Magic Bonus@{FFF9} if the spell has a Spell Level below or equal to @{FFFF}%mglvl@{FFF9}:\n
 	]
-uihelpItemHpBonus	[@{FFF9}HP Bonus:@{T16}@{2F2F}%val\n
+uihelpItemHpBonus	[@{FFF9}Trauma Bonus:@{T16}@{2F2F}%val\n
 	]
-uihelpItemHpMalus	[@{FFF9}HP Penalty:@{T16}@{F44F}%val\n
+uihelpItemHpMalus	[@{FFF9}Trauma Penalty:@{T16}@{F44F}%val\n
 	]
-uihelpItemSapBonus	[@{FFF9}Sap Bonus:@{T16}@{2F2F}%val\n
+uihelpItemSapBonus	[@{FFF9}Oblivion Bonus:@{T16}@{2F2F}%val\n
 	]
-uihelpItemSapMalus	[@{FFF9}Sap Penalty:@{T16}@{F44F}%val\n
+uihelpItemSapMalus	[@{FFF9}Oblivion Penalty:@{T16}@{F44F}%val\n
 	]
-uihelpItemStaBonus	[@{FFF9}Stamina Bonus:@{T16}@{2F2F}%val\n
+uihelpItemStaBonus	[@{FFF9}Pain Bonus:@{T16}@{2F2F}%val\n
 	]
-uihelpItemStaMalus	[@{FFF9}Stamina Penalty:@{T16}@{F44F}%val\n
+uihelpItemStaMalus	[@{FFF9}Pain Penalty:@{T16}@{F44F}%val\n
 	]
 uihelpItemFocusBonus	[@{FFF9}Focus Bonus:@{T16}@{2F2F}%val\n
 	]
@@ -2785,7 +2785,7 @@ uiItemRMClass2	[Choice]
 uiItemRMClass3	[Excellent]
 uiItemRMClass4	[Supreme]
 uiItemFX_ISE_FIGHT_ADD_CRITICAL	[@{2F2F}+%p%@{FFFF} chance of performing a critical hit.]
-uiItemFX_ISE_FIGHT_VAMPIRISM	[@{2F2F}%p%@{FFFF} chance of stealing life from the enemy (inflicted damage is added to your own hit points).]
+uiItemFX_ISE_FIGHT_VAMPIRISM	[@{2F2F}%p%@{FFFF} chance of stealing life from the enemy (inflicted damage is added to your own Trauma).]
 uiItemFX_ISE_MAGIC_DIVINE_INTERVENTION	[@{2F2F}%p%@{FFFF} chance that the cast will not apply action credits.]
 uiItemFX_ISE_MAGIC_SHOOT_AGAIN	[@{2F2F}%p%@{FFFF} chance that the next cast will not apply time credits, provided it is cast in less than @{2F2F}%r @{FFFF}sec.]
 uiItemFX_ISE_CRAFT_ADD_STAT_BONUS	[@{2F2F}%p%@{FFFF} chance of adding a @{2F2F}%r@{FFFF} bonus, plus a bonus related to the quality of the crafted item, to one of the stats of the item.]
@@ -2828,7 +2828,7 @@ uihelpItemArmorFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\
 	@{FFF9}@{HuittInfoArmorQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
 	\n
@@ -2845,7 +2845,7 @@ uihelpItemMeleeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%o
 	@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittInfoWeaponSapLoad}Sap Load:@{H}@{T10}@{FFFF}%sap/%sapmax\n
 	@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill\n
 	%cansell\n
@@ -2865,7 +2865,7 @@ uihelpItemRangeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%o
 	@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittInfoWeaponSapLoad}Sap Load:@{H}@{T10}@{FFFF}%sap/%sapmax\n
 	@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill\n
 	%cansell\n
@@ -2884,7 +2884,7 @@ uihelpItemAmmoFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\n
 	@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill\n
 	%cansell\n
 	\n
@@ -2928,7 +2928,7 @@ uihelpItemShieldFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
 	@{FFF9}@{HuittInfoArmorQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
 	\n
@@ -2945,7 +2945,7 @@ uihelpItemCraftingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%
 	@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittToolCraftType}Tool Type:@{H}@{T10}@{FFFF}%tool\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
@@ -2957,7 +2957,7 @@ uihelpItemHarvestToolFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%o
 	@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
 	%buffs\n
@@ -2968,7 +2968,7 @@ uihelpItemTamingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%or
 	@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill\n
 	%cansell\n
 	@{FFF9}Command Range:@{T12}@{FFFF}%cmdrange\n
@@ -2979,7 +2979,7 @@ uihelpItemJewelFormat	[@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin\
 	@{FFF9}@{HuittInfoJewelryQuality}Quality:@{H}@{T10}@{FFFF}%quality\n
 	@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg\n
 	@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax\n
+	@{FFF9}@{HuittInfoHP}Trauma:@{H}@{T10}@{FFFF}%hp/%hpmax\n
 	%cansell\n
 	@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
 	\n
@@ -3054,8 +3054,8 @@ uihelpPhraseCombatFormat	[@{FFF9}Action Name:@{T14}@{FFFF}%name\n
 	\n
 	%compostartThese stats depend on your equipped weapon.\n
 	@{FFF9}@{HuittActionSuccessRateSF}Success Rate:@{H}@{T20}@{FFFF}%success%\n
-	@{FFF9}Stamina Cost:@{T20}@{FFFF}%energy_cost\n
-	@{FFF9}HP Cost:@{T20}@{FFFF}%hp_cost\n
+	@{FFF9}pain Cost:@{T20}@{FFFF}%energy_cost\n
+	@{FFF9}Trauma Cost:@{T20}@{FFFF}%hp_cost\n
 	@{FFFF}%desc%req]
 uihelpPhraseMagicFormat	[@{FFF9}Action Name:@{T14}@{FFFF}%name\n
 	@{FFF9}Action Cost:@{T14}@{FFFF}%cost\n
@@ -3065,7 +3065,7 @@ uihelpPhraseMagicFormat	[@{FFF9}Action Name:@{T14}@{FFFF}%name\n
 	%compostart@{FFF9}@{HuittActionSuccessRateSM}Success Rate:@{H}@{T16}@{FFFF}%success%\n
 	@{FFF9}Cast Duration:@{T16}@{FFFF}%duration sec.\n
 	@{FFF9}Sap Cost:@{T16}@{FFFF}%energy_cost\n
-	@{FFF9}HP Cost:@{T16}@{FFFF}%hp_cost\n
+	@{FFF9}Trauma Cost:@{T16}@{FFFF}%hp_cost\n
 	@{FFF9}Range:@{T16}@{FFFF}%range\n
 	@{FFFF}%desc%req]
 uihelpPhraseMagicResist	[@{FFF9}Magic Domain:\n
@@ -3162,9 +3162,9 @@ uihelpPhraseProcEnchantment	[@{FFFF}With this action you activate the enchantmen
 	If your right hand item is not enchanted, this action cannot be executed.\n
 	]
 uihelpPactFormat	[@{FFF9}Level:@{T14}@{FFFF}%lvl\n
-	@{FFF9}Lost hit points:@{T14}@{FFFF}%hp\n
-	@{FFF9}Lost stamina:@{T14}@{FFFF}%sta\n
-	@{FFF9}Lost sap:@{T14}@{FFFF}%sap\n
+	@{FFF9}Lost trauma:@{T14}@{FFFF}%hp\n
+	@{FFF9}Lost pain:@{T14}@{FFFF}%sta\n
+	@{FFF9}Lost Oblivion:@{T14}@{FFFF}%sap\n
 	@{FFF9}Lost skills:@{T14}@{FFFF}%skill\n
 	]
 uihelpOBFormat_Empty	[@{FFFF}This is a building land.\n
@@ -3620,9 +3620,9 @@ uiSkipTryton	[Skip Intro]
 uiSumScore	[Score]
 uiSumMax	[Max]
 uiSumReg	[Reg]
-uiSumHp	[Hit Points]
-uiSumSta	[Stamina]
-uiSumSap	[Sap]
+uiSumHp	[Trauma]
+uiSumSta	[Pain]
+uiSumSap	[Oblivion]
 uiSumWish	[Focus]
 uiReplayIntro	[Back to Intro]
 uiSelPos	[Newbie Land]
@@ -3845,7 +3845,7 @@ uiSkillPointsBold2	[CRAFT SKILL POINTS:]
 uiSkillPointsBold3	[HARVEST SKILL POINTS:]
 uimGcmTradePhase	[DEVELOP SKILLS]
 uiNotEnoughSkillPoints	[NOT ENOUGH SKILL POINTS]
-uiHP	[HP]
+uiHP	[Trauma]
 uittHP	[Show the health points above the character]
 uiTeam	[TEAM]
 uiDebugCommand	[Debug command]
@@ -3876,10 +3876,10 @@ uiTitle	[Title]
 uittTitle	[Show the character's title above the character]
 uigcGuildName	[Guild Name]
 uittGuildName	[Show the guild name above the character]
-uiSTA	[Stamina]
-uittSTA	[Show the character stamina bar above the character]
-uiSAP	[Sap]
-uittSAP	[Show the character sap bar above the character]
+uiSTA	[Pain]
+uittSTA	[Show the character pain bar above the character]
+uiSAP	[Oblivion]
+uittSAP	[Show the character oblivion bar above the character]
 uiFOC	[Focus]
 uittFocus	[Show the character focus bar above the character]
 uiActionBar	[Character Action Bar]
@@ -4030,9 +4030,9 @@ uiCommandWrongArgumentCount	[Wrong argument count in the command.]
 uittRun	[Run Mode]
 uittWalk	[Walking Mode]
 uittSit	[Sit Mode]
-uittPlayerLifeFormat	[Life: %v/%m]
-uittPlayerStaminaFormat	[Stamina: %v/%m]
-uittPlayerSapFormat	[Sap: %v/%m]
+uittPlayerLifeFormat	[Trauma: %v/%m]
+uittPlayerStaminaFormat	[Pain: %v/%m]
+uittPlayerSapFormat	[Oblivion: %v/%m]
 uittPlayerFocusFormat	[Focus: %v/%m]
 uittBulkFormat	[@{6F6F}Bulk@{FFFF}: %v/%m]
 uittInvSlots	[Used @{6F6F}slots@{FFFF}/maximum]
@@ -4050,7 +4050,7 @@ uimEnterStable	[Enter Stable]
 uimLeaveStable	[Leave Stable]
 uiAnimals	[Animals]
 uiAnimalsTitle	[ANIMALS]
-uittSatiety	[Red: Hit Points; Orange: Bulk; White: Satiety. If this bar falls to zero, the animal is hungry.]
+uittSatiety	[Red: Trauma; Orange: Bulk; White: Satiety. If this bar falls to zero, the animal is hungry.]
 uittAliveLandscape	[The animal is alive and out of the stable.\n
 	@{6F6F}Left click @{FFFF}to select.\n
 	@{6F6F}Right click @{FFFF}to give an order.]
@@ -4892,11 +4892,11 @@ uiItemConsumableEffectModForestForageSuccess	[Modifies your Forest Forage skills
 uiItemConsumableEffectModLacustreForageSuccess	[Modifies your Lakes Forage skills by %modifier point(s) for %minutes min and %secondes sec.]
 uiItemConsumableEffectModJungleForageSuccess	[Modifies your Jungle Forage skills by %modifier point(s) for %minutes min and %secondes sec.]
 uiItemConsumableEffectModPrimaryRootForageSuccess	[Modifies your Prime Roots Forage skills by %modifier point(s) for %minutes min and %secondes sec.]
-uiItemConsumableEffectStaminaAura	[An @{2F2F}Aura of Stamina@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with a radius of %radius m.\n
+uiItemConsumableEffectStaminaAura	[An @{2F2F}Aura of Oblivion@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with a radius of %radius m.\n
 	Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.]
-uiItemConsumableEffectSapAura	[An @{2F2F}Aura of Sap@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.\n
+uiItemConsumableEffectSapAura	[An @{2F2F}Aura of Oblivion@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.\n
 	Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.]
-uiItemConsumableEffectLifeAura	[An @{2F2F}Aura of Life@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.\n
+uiItemConsumableEffectLifeAura	[An @{2F2F}Aura of Trauma@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.\n
 	Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.]
 uittModMeleeSuccess	[Your Melee Fight skill has been modified by %modifier point(s)]
 uittModRangeSuccess	[Your Ranged Fight skill has been modified by %modifier point(s)]
@@ -4953,11 +4953,11 @@ uiMk_action1_1_tt	[Click to @{6F6F}Stop@{FFFF}.\n
 	You can also click and release the 2 buttons of the mouse.]
 uiMk_action2_0	[Sitting]
 uiMk_action2_0_tt	[You are @{6F6F}Sitting@{FFFF}.\n
-	While you are sitting down, your hit points, stamina, sap and focus regenerate twice as fast.\n
+	While you are sitting down, your trauma, pain, oblivion and focus regenerate twice as fast.\n
 	Click to stand up.]
 uiMk_action2_1	[Standing]
 uiMk_action2_1_tt	[You are @{6F6F}Standing@{FFFF}.\n
-	Sitting regenerates your hit points, stamina, sap and focus twice as fast.\n
+	Sitting regenerates your trauma, pain, oblivion and focus twice as fast.\n
 	Click to sit down.]
 uiMk_action3_0	[Walking]
 uiMk_action3_0_tt	[You are in @{6F6F}Walking@{FFFF} mode.\n
@@ -5018,29 +5018,29 @@ uiWelcomeCS	[A dedicated team of customer support representatives (CSRs) keep a 
 uittIdentityTitle	[Click on the current @{6F6F}title @{FFFF}to display the list of the @{6F6F}titles @{FFFF}you have won and select the one you are most proud of.\n
 	As you progress in the game, you will obtain new @{6F6F}titles @{FFFF}which will automatically be added to this list.]
 uittIdentityInfo	[Shows the requirements for having obtained your current @{6F6F}title@{FFFF}.]
-uittIdentityHP	[@{6F6F}Hit Points@{FFFF} %n\n
-	When your hit points reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.]
-uittIdentitySap	[@{6F6F}Sap@{FFFF} %n\n
-	When your level of sap is too low, you cannot cast spells.]
-uittIdentitySta	[@{6F6F}Stamina@{FFFF} %n\n
-	When your level of stamina is too low, you cannot carry out special attacks any longer and must make do with the default attack until your stamina is regenerated.]
+uittIdentityHP	[@{6F6F}Trauma@{FFFF} %n\n
+	When your Trauma reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.]
+uittIdentitySap	[@{6F6F}Oblivion@{FFFF} %n\n
+	When your level of oblivion is too low, you cannot cast spells.]
+uittIdentitySta	[@{6F6F}Pain@{FFFF} %n\n
+	When your level of pain is too low, you cannot carry out special attacks any longer and must make do with the default attack until your pain is regenerated.]
 uittIdentityFoc	[@{6F6F}Focus@{FFFF} %n\n
 	When your level of focus is too low, you cannot carry out foraging actions or crafting actions with boost stanzas in them.]
-uittIdentityHPReg	[@{6F6F}HP Regeneration@{FFFF}: %n\n
-	Hit Points regenerated every 10 seconds.]
-uittIdentitySapReg	[@{6F6F}Sap Regeneration@{FFFF}: %n\n
-	Sap regenerated every 10 seconds.]
-uittIdentityStaReg	[@{6F6F}Stamina Regeneration@{FFFF}: %n\n
-	Stamina regenerated every 10 seconds.]
+uittIdentityHPReg	[@{6F6F}Trauma Regeneration@{FFFF}: %n\n
+	Trauma regenerated every 10 seconds.]
+uittIdentitySapReg	[@{6F6F}Oblivion Regeneration@{FFFF}: %n\n
+	Oblivion regenerated every 10 seconds.]
+uittIdentityStaReg	[@{6F6F}Pain Regeneration@{FFFF}: %n\n
+	Pain regenerated every 10 seconds.]
 uittIdentityFocReg	[@{6F6F}Focus regeneration@{FFFF}: %n\n
 	Focus regenerated every 10 seconds.]
-uittIdentityCons	[Determines the maximum value of your @{6F6F}Hit points@{FFFF}]
-uittIdentityInt	[Determines the maximum value of your @{6F6F}Sap@{FFFF}]
-uittIdentityStr	[Determines the maximum value of your @{6F6F}Stamina@{FFFF}]
+uittIdentityCons	[Determines the maximum value of your @{6F6F}Trauma@{FFFF}]
+uittIdentityInt	[Determines the maximum value of your @{6F6F}Oblivion@{FFFF}]
+uittIdentityStr	[Determines the maximum value of your @{6F6F}Pain@{FFFF}]
 uittIdentityDex	[Determines the maximum value of your @{6F6F}Focus@{FFFF}]
-uittIdentityMeta	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Hit points@{FFFF}]
-uittIdentityWis	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Sap@{FFFF}]
-uittIdentityWB	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Stamina@{FFFF}]
+uittIdentityMeta	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Trauma@{FFFF}]
+uittIdentityWis	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Oblivion@{FFFF}]
+uittIdentityWB	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Pain@{FFFF}]
 uittIdentityWill	[Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Focus@{FFFF}]
 uittIdentitySkillFight	[Points for developing skills with a @{6F6F}Fighter Trainer @{FFFF}(NPC). You earn points when you level skills in the @{6F6F}Fight@{FFFF} tree.]
 uittIdentitySkillMagic	[Points for developing skills with a @{6F6F}Magician Trainer @{FFFF}(NPC). You earn points when you level skills in the @{6F6F}Magic@{FFFF} tree.]
@@ -5058,12 +5058,12 @@ uittIdentityParry	[@{6F6F}Parry@{FFFF}: %n\n
 uittIdentityFaction	[Faction points are gained when you participate in @{6F6F}special events @{FFFF}such as the building of Kami or Karavan temples.]
 uittGaugesNameTitle	[Your @{6F6F}name @{FFFF}followed by the @{6F6F}title @{FFFF}you have chosen to display.]
 uittGaugesActionBar	[Indicates the progression of the @{6F6F}action @{FFFF}in execution.]
-uittGaugesHP	[@{6F6F}Hit Points@{FFFF}:\n
-	When your hit points reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.]
-uittGaugesSap	[@{6F6F}Sap@{FFFF}:\n
-	When your level of sap is too low, you cannot cast spells.]
-uittGaugesSta	[@{6F6F}Stamina@{FFFF}:\n
-	When your level of stamina is too low, you cannot carry out special attacks any longer and must make do with the default attack until your stamina is regenerated.]
+uittGaugesHP	[@{6F6F}Trauma@{FFFF}:\n
+	When your Trauma reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.]
+uittGaugesSap	[@{6F6F}Oblivion@{FFFF}:\n
+	When your level of oblivion is too low, you cannot cast spells.]
+uittGaugesSta	[@{6F6F}Pain@{FFFF}:\n
+	When your level of pain is too low, you cannot carry out special attacks any longer and must make do with the default attack until your pain is regenerated.]
 uittGaugesFoc	[@{6F6F}Focus@{FFFF}:\n
 	When your level of focus is too low, you cannot carry out foraging actions any longer.]
 uittHandR	[@{6F6F}Right Hand\n
@@ -5110,8 +5110,8 @@ uittFriendsOffline	[Not connected]
 uittGuildMemberOnline	[Connected on the same Mainland or Ring Scenario]
 uittGuildMemberOnlineAbroad	[Connected on another Mainland or Ring Scenario]
 uittGuildMemberOffline	[Not connected]
-uittTargetHp	[@{6F6F}Hit Points @{FFFF}of the target.\n
-	The target dies when its @{6F6F}hit points @{FFFF}reach 0.]
+uittTargetHp	[@{6F6F}Trauma @{FFFF}of the target.\n
+	The target dies when its @{6F6F}Trauma @{FFFF}reach 0.]
 uittTargetUnknown	[Level of the target unknown.]
 uittTargetLevel	[Level of the target:@{6F6F} %min @{FFFF}to @{6F6F}%max]
 uittTargetBoss	[Boss of level @{6F6F}%n]
@@ -5119,7 +5119,7 @@ uittTargetGuardBoss	[Guard or Boss of level @{6F6F}%n]
 uittTargetNamed	[Named creature of level @{6F6F}%n]
 uittInfoBulk	[@{6F6F}Bulk@{FFFF}:\n
 	Space occupied by the object in your inventory. The space of each inventory is limited, which means bulky items cannot be carried in great number.]
-uittInfoHP	[@{6F6F}Hit points@{FFFF}:\n
+uittInfoHP	[@{6F6F}Trauma@{FFFF}:\n
 	This value will decrease when using the item. When it reaches 0, the item is destroyed.]
 uittInfoWeight	[@{6F6F}Weight@{FFFF}:\n
 	If the total weight is too high, your moving speed may be reduced.]
@@ -5144,13 +5144,13 @@ uittInfoArmorQuality	[@{6F6F}Quality@{FFFF}:\n
 uittInfoArmorProtection	[@{6F6F}Protection@{FFFF}:\n
 	Damage inflicted by a hit is reduced by this factor, with a maximum of the values below.]
 uittInfoArmorSlash	[@{6F6F}Max. vs Slashing blow@{FFFF}:\n
-	Maximum hit points absorbed for a "slashing" hit.]
+	Maximum Trauma absorbed for a "slashing" hit.]
 uittInfoArmorPierc	[@{6F6F}Max. vs Piercing blow@{FFFF}:\n
-	Maximum hit points absorbed for a "piercing" hit.]
+	Maximum Trauma absorbed for a "piercing" hit.]
 uittInfoArmorBlunt	[@{6F6F}Max. vs Smashing blow@{FFFF}:\n
-	Maximum hit points absorbed for a "smashing" hit.]
+	Maximum Trauma absorbed for a "smashing" hit.]
 uittInfoArmorType	[@{6F6F}Armor Type@{FFFF}:\n
-	The armor type usually affects the action malus. Medium and heavy armor give additional HP bonuses.]
+	The armor type usually affects the action malus. Medium and heavy armor give additional Trauma bonuses.]
 uittInfoShieldCat	[@{6F6F}Category@{FFFF}:\n
 	Shields offer additional protection.\n
 	@{6F6F}Small shields@{FFFF} protect hands and sometimes chest and arms.\n
@@ -5782,7 +5782,7 @@ uiBGD_QuitInstallContent	[Do your realy want to quit the installation program.]
 uiBGD_QuitInstallRestart	[You will be able to to continue the install process where you have left it by clicking on the Khanat icon on your desktop.]
 uiBGD_QuitInstallTitle	[Quit?]
 uiBGD_ErrorSupportFormat	[Tips on solving common problems on the {0}]
-uiBGD_ErrorSupportUrl	[http://forums.Khanat.com/forum/showthread.php?t=29129]
+uiBGD_ErrorSupportUrl	[https://lirria.khaganat.net/]
 uiBGD_HandShaking	[Initiating communication with patcher (try %d/%d)]
 uiRyzomErrorMsgBoxHelp	[Help]
 uittBrowseFaq	[Help]

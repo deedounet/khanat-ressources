@@ -810,17 +810,23 @@ mpcatFaber	[Artisan]
 mpcatUpgrade	[Mise à niveau]
 
 // Player stats
-// HASH_VALUE D9A8E875D866AF80
+/* OLD VALUE : [Hit Points] */
+/* OLD VALUE : [Vie] */
+// HASH_VALUE AE47EC76ED76A88F
 // INDEX 197
-scoreHitPoints	[Vie]
+scoreHitPoints	[Trauma]
 
-// HASH_VALUE 1C591877A0875485
+/* OLD VALUE : [Sap] */
+/* OLD VALUE : [Sève] */
+// HASH_VALUE 6818243C6CD894D8
 // INDEX 198
-scoreSap	[Sève]
+scoreSap	[Oubli]
 
-// HASH_VALUE A868B095A4A85C8B
+/* OLD VALUE : [Stamina] */
+/* OLD VALUE : [Endurance] */
+// HASH_VALUE 6C5814406C581440
 // INDEX 199
-scoreStamina	[Endurance]
+scoreStamina	[Douleur]
 
 // HASH_VALUE 2827987FA806D490
 // INDEX 200
@@ -2662,9 +2668,11 @@ uiJungleRawMats	[Matières premières exotiques de la Jungle]
 // INDEX 656
 uiLakeRawMats	[Matières premières exotiques des Lacs]
 
-// HASH_VALUE ED681B77D7E9C824
+/* OLD VALUE : [Stamina Cost:] */
+/* OLD VALUE : [Coût en Endurance :] */
+// HASH_VALUE 5DD847539F93334D
 // INDEX 657
-uiComStaminaCost	[Coût en Endurance :]
+uiComStaminaCost	[Douleur Cost:]
 
 // HASH_VALUE 4C50F40C44D02414
 // INDEX 658
@@ -2796,9 +2804,11 @@ uiMaterials	[MATIÈRES]
 // INDEX 689
 uiDifficulty	[DIFFICULTÉ]
 
-// HASH_VALUE C371183278710028
+/* OLD VALUE : [STAMINA COST] */
+/* OLD VALUE : [COÛT EN ENDURANCE] */
+// HASH_VALUE 49F2E4467F0EEBF8
 // INDEX 690
-uiStaminaCost	[COÛT EN ENDURANCE]
+uiStaminaCost	[DOULEUR COST]
 
 // HASH_VALUE 1053D0430C430C3D
 // INDEX 691
@@ -5367,17 +5377,23 @@ uihHarvestTool	[Outils de Récolte]
 uihItemMisc	[Divers]
 
 // Stats
-// HASH_VALUE 6498943064989430
+/* OLD VALUE : [Life] */
+/* OLD VALUE : [Vie] */
+// HASH_VALUE AE47EC76ED76A88F
 // INDEX 1308
-uiLife	[Vie]
+uiLife	[Trauma]
 
-// HASH_VALUE 1C591877A0875485
+/* OLD VALUE : [Sap] */
+/* OLD VALUE : [Sève] */
+// HASH_VALUE 6818243C6CD894D8
 // INDEX 1309
-uiSap	[Sève]
+uiSap	[Oubli]
 
-// HASH_VALUE A868B095A4A85C8B
+/* OLD VALUE : [Stamina] */
+/* OLD VALUE : [Endurance] */
+// HASH_VALUE 6C5814406C581440
 // INDEX 1310
-uiStamina	[Endurance]
+uiStamina	[Douleur]
 
 // HASH_VALUE ECE7309DA1C77891
 // INDEX 1311
@@ -5399,13 +5415,17 @@ uiHunger	[Faim]
 // INDEX 1315
 uiActionStatus	[Évolution de l'Action en Cours]
 
-// HASH_VALUE 41E3D738C5300C19
+/* OLD VALUE : [SAP DISPLAY] */
+/* OLD VALUE : [AFFICHAGE SÈVE] */
+// HASH_VALUE 5CB434DEE214AC8C
 // INDEX 1316
-uiSapBarDisplay	[AFFICHAGE SÈVE]
+uiSapBarDisplay	[AFFICHAGE OUBLI]
 
-// HASH_VALUE CC22C83402E0A824
+/* OLD VALUE : [STAMINA DISPLAY] */
+/* OLD VALUE : [AFFICHAGE ENDURANCE] */
+// HASH_VALUE 60D44C1099D2D8E0
 // INDEX 1317
-uiStaBarDisplay	[AFFICHAGE ENDURANCE]
+uiStaBarDisplay	[AFFICHAGE DOULEUR]
 
 // HASH_VALUE 895E302F3D723B38
 // INDEX 1318
@@ -5427,29 +5447,41 @@ uittDeathPenalty	[@{6F6F}Vous avez une pénalité XP de Décès\n
 	Les prochains gains d'XP seront utilisés pour rembourser cette dette.\n
 	Il reste à rembourser @{6F6F}%dp@{FFFF}% de la dette.]
 
-// HASH_VALUE 54642750D9A8FC62
+/* OLD VALUE : [Hit Points Max] */
+/* OLD VALUE : [Vie Max] */
+// HASH_VALUE 6A736442A4330483
 // INDEX 1322
-uiHpMax	[Vie Max]
+uiHpMax	[Trauma Max]
 
-// HASH_VALUE 50A43B50D9A8B866
+/* OLD VALUE : [Hit Points Reg] */
+/* OLD VALUE : [Vie Rég] */
+// HASH_VALUE 66B33446E533C087
 // INDEX 1323
-uiHpReg	[Vie Rég]
+uiHpReg	[Trauma Reg]
 
-// HASH_VALUE 1D35906FD7F59F9F
+/* OLD VALUE : [Stamina Max] */
+/* OLD VALUE : [Endurance Max] */
+// HASH_VALUE 6C5814407858D480
 // INDEX 1324
-uiStaMax	[Endurance Max]
+uiStaMax	[Douleur Max]
 
-// HASH_VALUE 5E24A074D8465BA3
+/* OLD VALUE : [Stamina Reg] */
+/* OLD VALUE : [Endurance Rég] */
+// HASH_VALUE 6C58144064582480
 // INDEX 1325
-uiStaReg	[Endurance Rég]
+uiStaReg	[Douleur Reg]
 
-// HASH_VALUE D1F3FB4450D93879
+/* OLD VALUE : [Sap Max] */
+/* OLD VALUE : [Sève Max] */
+// HASH_VALUE 6D98EC34AEC8085B
 // INDEX 1326
-uiSapMax	[Sève Max]
+uiSapMax	[Oubli Max]
 
-// HASH_VALUE CE840F4450C80471
+/* OLD VALUE : [Sap Reg] */
+/* OLD VALUE : [Sève Rég] */
+// HASH_VALUE 28D8003469081C5B
 // INDEX 1327
-uiSapReg	[Sève Rég]
+uiSapReg	[Oubli Reg]
 
 // HASH_VALUE A1173C6C8F64AFBA
 // INDEX 1328
@@ -5476,17 +5508,23 @@ uitabFameTribes	[TRIBUS]
 // INDEX 1333
 uitabFamePvp	[PVP]
 
-// HASH_VALUE 6858142C6858142C
+/* OLD VALUE : [Kami] */
+/* OLD VALUE : [Kami] */
+// HASH_VALUE 6C5884AC6C5884AC
 // INDEX 1334
-uiFameKami	[Kami]
+uiFameKami	[khan]
 
-// HASH_VALUE E8BAAC7F1ED7F090
+/* OLD VALUE : [Karavan] */
+/* OLD VALUE : [Karavan] */
+// HASH_VALUE 6C58842C6C58842C
 // INDEX 1335
-uiFameKaravan	[Karavan]
+uiFameKaravan	[Khan]
 
-// HASH_VALUE 71691C90F0170CAB
+/* OLD VALUE : [Tryton] */
+/* OLD VALUE : [Tryton] */
+// HASH_VALUE 6C5884AC6C5884AC
 // INDEX 1336
-uiFameTryton	[Tryton]
+uiFameTryton	[khan]
 
 /* OLD VALUE : [Fyros] */
 /* OLD VALUE : [Fyros] */
@@ -5500,9 +5538,11 @@ uiFameFyros	[Ucikara]
 // INDEX 1338
 uiFameMatis	[Tcara]
 
-// HASH_VALUE ECC90886AE770897
+/* OLD VALUE : [Tryker] */
+/* OLD VALUE : [Tryker] */
+// HASH_VALUE A816E47B5F96F07C
 // INDEX 1339
-uiFameTryker	[Tryker]
+uiFameTryker	[Enfant]
 
 // HASH_VALUE CAD8AE1965C06A1C
 // INDEX 1340
@@ -5512,9 +5552,11 @@ uiFameZorai	[Zoraï]
 // INDEX 1341
 uiFameHominists	[Tenant]
 
-// HASH_VALUE 609C1434705844D4
+/* OLD VALUE : [Marauder] */
+/* OLD VALUE : [Maraudeur] */
+// HASH_VALUE D976346662769C8C
 // INDEX 1342
-uiFameMarauders	[Maraudeur]
+uiFameMarauders	[PvP]
 
 // HASH_VALUE ACA9AC82E0287491
 // INDEX 1343
@@ -5540,13 +5582,17 @@ uiFameAllegiance0	[Indéterminé]
 // INDEX 1348
 uiFameAllegiance1	[Neutre]
 
-// HASH_VALUE 6858142C6858142C
+/* OLD VALUE : [Kami] */
+/* OLD VALUE : [Kami] */
+// HASH_VALUE 6C58842C6C58842C
 // INDEX 1349
-uiFameAllegiance2	[Kami]
+uiFameAllegiance2	[Khan]
 
-// HASH_VALUE E8BAAC7F1ED7F090
+/* OLD VALUE : [Karavan] */
+/* OLD VALUE : [Karavan] */
+// HASH_VALUE 6C58842C6C58842C
 // INDEX 1350
-uiFameAllegiance3	[Karavan]
+uiFameAllegiance3	[Khan]
 
 /* OLD VALUE : [Fyros] */
 /* OLD VALUE : [Fyros] */
@@ -5560,9 +5606,11 @@ uiFameAllegiance4	[Ucikara]
 // INDEX 1352
 uiFameAllegiance5	[Tcara]
 
-// HASH_VALUE ECC90886AE770897
+/* OLD VALUE : [Tryker] */
+/* OLD VALUE : [Tryker] */
+// HASH_VALUE A816E47B5F96F07C
 // INDEX 1353
-uiFameAllegiance6	[Tryker]
+uiFameAllegiance6	[Enfant]
 
 // HASH_VALUE CAD8AE1965C06A1C
 // INDEX 1354
@@ -6448,19 +6496,31 @@ uiPvPEffect_region_nexus_Malus	[@{FE7F}Le foyer du Nexus @{FFFF}:\n
 	  Aucun effet]
 
 // Stats
-// HASH_VALUE A60FAAB9FBB2576B
+/* OLD VALUE : [@{6F6F}HP@{FFFF}, 
+hit points measure the amount of damage a character can take before going into a coma.] */
+/* OLD VALUE : [@{6F6F}HP@{FFFF},
+les Points de Vie mesurent le montant des dommages qu'un personnage peut supporter avant de mourir.] */
+// HASH_VALUE F3E4A7F829A3EE37
 // INDEX 1528
-uiHPDesc	[@{6F6F}HP@{FFFF},\n
-	les Points de Vie mesurent le montant des dommages qu'un personnage peut supporter avant de mourir.]
+uiHPDesc	[@{6F6F}Trauma@{FFFF}, \n
+	les Points de Trauma mesurent le montant des dommages qu'un personnage peut supporter avant de mourir.]
 
-// HASH_VALUE 0D14E198B9F62F63
+/* OLD VALUE : [@{6F6F}Stamina@{FFFF}, 
+used by physical combat actions, stamina measures a character's current state of fatigue.] */
+/* OLD VALUE : [@{6F6F}Endurance@{FFFF},
+utilisée par les actions de combat physique, l'Endurance mesure l'état de fatigue d'un personnage.] */
+// HASH_VALUE A603379B68415201
 // INDEX 1529
-uiStaDesc	[@{6F6F}Endurance@{FFFF},\n
+uiStaDesc	[@{6F6F}Douleur@{FFFF}, \n
 	utilisée par les actions de combat physique, l'Endurance mesure l'état de fatigue d'un personnage.]
 
-// HASH_VALUE 57516E1B1624B27C
+/* OLD VALUE : [@{6F6F}Sap@{FFFF}, 
+the energy that allows a character to channel magical power.] */
+/* OLD VALUE : [@{6F6F}Sap@{FFFF},
+l'énergie qui permet à un personnage de canaliser des forces magiques.] */
+// HASH_VALUE 6C6FBEC690CEC6B1
 // INDEX 1530
-uiSapDesc	[@{6F6F}Sap@{FFFF},\n
+uiSapDesc	[@{6F6F}Oubli@{FFFF}, \n
 	l'énergie qui permet à un personnage de canaliser des forces magiques.]
 
 // HASH_VALUE 0818382AFDB10CD9
@@ -6468,19 +6528,31 @@ uiSapDesc	[@{6F6F}Sap@{FFFF},\n
 uiFocDesc	[@{6F6F}Concentration@{FFFF},\n
 	mesure la capacité d'un personnage à se focaliser sur une tâche précise.]
 
-// HASH_VALUE C5C5AADDE9B1CB06
+/* OLD VALUE : [@{6F6F}Constitution@{FFFF}, 
+measure the character's ability to engage in long-term periods of strenuous physical activity.] */
+/* OLD VALUE : [@{6F6F}Constitution@{FFFF},
+mesure la résistance physique d'un personnage.] */
+// HASH_VALUE EC517A269E89D347
 // INDEX 1532
-uiConsDesc	[@{6F6F}Constitution@{FFFF},\n
+uiConsDesc	[@{6F6F}Trauma@{FFFF}, \n
 	mesure la résistance physique d'un personnage.]
 
-// HASH_VALUE D82B6F5A555A3242
+/* OLD VALUE : [@{6F6F}Intelligence@{FFFF}, 
+a measure of how well a character can focus their mental abilities.] */
+/* OLD VALUE : [@{6F6F}Intelligence@{FFFF},
+mesure les facultés d'abstraction et la force mentale d'un personnage.] */
+// HASH_VALUE D8061242FFD9FADD
 // INDEX 1533
-uiIntDesc	[@{6F6F}Intelligence@{FFFF},\n
+uiIntDesc	[@{6F6F}Oubli@{FFFF}, \n
 	mesure les facultés d'abstraction et la force mentale d'un personnage.]
 
-// HASH_VALUE 2D2E06E01D8CC946
+/* OLD VALUE : [@{6F6F}Strength@{FFFF}, 
+statistic measures the physical strength a character possess.] */
+/* OLD VALUE : [@{6F6F}Force@{FFFF},
+mesure la force physique d'un personnage.] */
+// HASH_VALUE DA78714A154C6962
 // INDEX 1534
-uiStrDesc	[@{6F6F}Force@{FFFF},\n
+uiStrDesc	[@{6F6F}Douleur@{FFFF}, \n
 	mesure la force physique d'un personnage.]
 
 // HASH_VALUE 2CBDF588F00F8902
@@ -6516,25 +6588,31 @@ uiValues	[VALEURS]
 // INDEX 1541
 uiRegeneration	[RÉGÉNÉRATION]
 
-// HASH_VALUE B009C46E316AAC9F
+/* OLD VALUE : [Constitution] */
+/* OLD VALUE : [Constitution] */
+// HASH_VALUE AE47EC76ED76A88F
 // INDEX 1542
-uiCarac_HpMax	[Constitution]
+uiCarac_HpMax	[Trauma]
 
 // HASH_VALUE 6618AC8EE6078C96
 // INDEX 1543
 uiCarac_HpReg	[Métabolisme]
 
-// HASH_VALUE 649C444C681C74B8
+/* OLD VALUE : [Strength] */
+/* OLD VALUE : [Force] */
+// HASH_VALUE 6C5814406C581440
 // INDEX 1544
-uiCarac_StaMax	[Force]
+uiCarac_StaMax	[Douleur]
 
 // HASH_VALUE 24F874705B56B078
 // INDEX 1545
 uiCarac_StaReg	[Équilibre]
 
-// HASH_VALUE E45ADC6364A9D486
+/* OLD VALUE : [Intelligence] */
+/* OLD VALUE : [Intelligence] */
+// HASH_VALUE 6818243C6CD894D8
 // INDEX 1546
-uiCarac_SapMax	[Intelligence]
+uiCarac_SapMax	[Oubli]
 
 // HASH_VALUE E7D990902817A0A8
 // INDEX 1547
@@ -6548,25 +6626,31 @@ uiCarac_WishMax	[Dextérité]
 // INDEX 1549
 uiCarac_WishReg	[Volonté]
 
-// HASH_VALUE B009C46E316AAC9F
+/* OLD VALUE : [Constitution] */
+/* OLD VALUE : [Constitution] */
+// HASH_VALUE AE47EC76ED76A88F
 // INDEX 1550
-uiCaracId0	[Constitution]
+uiCaracId0	[Trauma]
 
 // HASH_VALUE 6618AC8EE6078C96
 // INDEX 1551
 uiCaracId1	[Métabolisme]
 
-// HASH_VALUE E45ADC6364A9D486
+/* OLD VALUE : [Intelligence] */
+/* OLD VALUE : [Intelligence] */
+// HASH_VALUE 6818243C6CD894D8
 // INDEX 1552
-uiCaracId2	[Intelligence]
+uiCaracId2	[Oubli]
 
 // HASH_VALUE E7D990902817A0A8
 // INDEX 1553
 uiCaracId3	[Sagesse]
 
-// HASH_VALUE 649C444C681C74B8
+/* OLD VALUE : [Strength] */
+/* OLD VALUE : [Force] */
+// HASH_VALUE 6C5814406C581440
 // INDEX 1554
-uiCaracId4	[Force]
+uiCaracId4	[Douleur]
 
 // HASH_VALUE 24F874705B56B078
 // INDEX 1555
@@ -8309,17 +8393,21 @@ uiMagicEditSpell	[ÉDITER LE SORT]
 // INDEX 1987
 uiMagicEditSpellName	[Nom du Sort]
 
-// HASH_VALUE 2014144C54D4F40C
+/* OLD VALUE : [SAP COST] */
+/* OLD VALUE : [COÛT EN SÈVE] */
+// HASH_VALUE 8940C00BCBB10744
 // INDEX 1988
-uiMagicEditSapCost	[COÛT EN SÈVE]
+uiMagicEditSapCost	[COÛT EN OUBLI]
 
 // HASH_VALUE 4C42C836C691B027
 // INDEX 1989
 uiMagicEditDifficulty	[DIFFICULTÉ]
 
-// HASH_VALUE 5BCAE043B3D90C45
+/* OLD VALUE : [Warning! Not Enough Sap!] */
+/* OLD VALUE : [Attention ! Pas Assez de Sève !] */
+// HASH_VALUE 5B9900621938B4F9
 // INDEX 1990
-uiMagicEditNotEnoughSap	[Attention ! Pas Assez de Sève !]
+uiMagicEditNotEnoughSap	[Attention ! Pas Assez d' Oubli!]
 
 // HASH_VALUE 36B251FFFAE39E10
 // INDEX 1991
@@ -8333,9 +8421,11 @@ uiTextHelpSelectEffectBrick	[<- Cliquez pour choisir l'EFFET ]
 // INDEX 1993
 uiTextHelpSelectOtherBrick	[Votre CREDIT doit être égal ou supérieur aux COÛTS de vos ACTIONS.]
 
-// HASH_VALUE 8516934358A74240
+/* OLD VALUE : [Sap Cost: ] */
+/* OLD VALUE : [Coût en Sève : ] */
+// HASH_VALUE F08904140ED2CA8D
 // INDEX 1994
-uiSpellSelectSapCost	[Coût en Sève : ]
+uiSpellSelectSapCost	[Coût en Oubli: ]
 
 // HASH_VALUE 6CD834246CD83424
 // INDEX 1995
@@ -9922,34 +10012,58 @@ uihelpItemMagicBonusHeader	[\n
 	@{FFFF}Bonus de Magie @{FFF9}(seulement si le sort a un "Niveau de Sort" inférieur ou égal à @{FFFF}%mglvl@{FFF9}):\n
 	]
 
-// HASH_VALUE 49F09B6ED6794267
+/* OLD VALUE : [@{FFF9}HP Bonus:@{T16}@{2F2F}%val
+] */
+/* OLD VALUE : [@{FFF9}Bonus Vie :@{T12}@{2F2F}%val
+] */
+// HASH_VALUE B05DD0D3CD639285
 // INDEX 2363
-uihelpItemHpBonus	[@{FFF9}Bonus Vie :@{T12}@{2F2F}%val\n
+uihelpItemHpBonus	[@{FFF9}Bonus en Trauma :@{T16}@{2F2F}%val\n
 	]
 
-// HASH_VALUE 5797C7BFD7D7463C
+/* OLD VALUE : [@{FFF9}HP Penalty:@{T16}@{F44F}%val
+] */
+/* OLD VALUE : [@{FFF9}Pénalité Vie :@{T12}@{F44F}%val
+] */
+// HASH_VALUE B1BBD4A8DB0ABED6
 // INDEX 2364
-uihelpItemHpMalus	[@{FFF9}Pénalité Vie :@{T12}@{F44F}%val\n
+uihelpItemHpMalus	[@{FFF9}Pénalité de Trauma :@{T16}@{F44F}%val\n
 	]
 
-// HASH_VALUE C22128B75D576A2C
+/* OLD VALUE : [@{FFF9}Sap Bonus:@{T16}@{2F2F}%val
+] */
+/* OLD VALUE : [@{FFF9}Bonus en Sève :@{T12}@{2F2F}%val
+] */
+// HASH_VALUE 331A386ACCAAFBD8
 // INDEX 2365
-uihelpItemSapBonus	[@{FFF9}Bonus en Sève :@{T12}@{2F2F}%val\n
+uihelpItemSapBonus	[@{FFF9}Bonus Oubli :@{T16}@{2F2F}%val\n
 	]
 
-// HASH_VALUE 61D66DB7DB64BE64
+/* OLD VALUE : [@{FFF9}Sap Penalty:@{T16}@{F44F}%val
+] */
+/* OLD VALUE : [@{FFF9}Pénalité en Sève :@{T12}@{F44F}%val
+] */
+// HASH_VALUE 636818E49FBFFBCE
 // INDEX 2366
-uihelpItemSapMalus	[@{FFF9}Pénalité en Sève :@{T12}@{F44F}%val\n
+uihelpItemSapMalus	[@{FFF9}Pénalité d'Oubli :@{T16}@{F44F}%val\n
 	]
 
-// HASH_VALUE 74BAF89A0594E3CA
+/* OLD VALUE : [@{FFF9}Stamina Bonus:@{T16}@{2F2F}%val
+] */
+/* OLD VALUE : [@{FFF9}Bonus Endurance :@{T12}@{2F2F}%val
+] */
+// HASH_VALUE 8A37ECCA19F77E0E
 // INDEX 2367
-uihelpItemStaBonus	[@{FFF9}Bonus Endurance :@{T12}@{2F2F}%val\n
+uihelpItemStaBonus	[@{FFF9}Bonus Douleur :@{T16}@{2F2F}%val\n
 	]
 
-// HASH_VALUE F2C74CD2A44928CA
+/* OLD VALUE : [@{FFF9}Stamina Penalty:@{T16}@{F44F}%val
+] */
+/* OLD VALUE : [@{FFF9}Pénalité Endurance :@{T12}@{F44F}%val
+] */
+// HASH_VALUE 5D4CECC049455E88
 // INDEX 2368
-uihelpItemStaMalus	[@{FFF9}Pénalité Endurance :@{T12}@{F44F}%val\n
+uihelpItemStaMalus	[@{FFF9}Pénalité de Douleur :@{T16}@{F44F}%val\n
 	]
 
 // HASH_VALUE 242B21C618440631
@@ -10019,9 +10133,11 @@ uiItemRMClass4	[Suprême]
 // INDEX 2383
 uiItemFX_ISE_FIGHT_ADD_CRITICAL	[@{2F2F}+%p% @{FFFF}de chance de porter un coup critique]
 
-// HASH_VALUE FF351E30E935C4D9
+/* OLD VALUE : [@{2F2F}%p%@{FFFF} chance of stealing life from the enemy (inflicted damage is added to your own hit points).] */
+/* OLD VALUE : [@{2F2F}%p% @{FFFF}de chance de vampiriser l'ennemi (dégats infligés ajoutés à sa propre vie)] */
+// HASH_VALUE C97275A8D9318CD6
 // INDEX 2384
-uiItemFX_ISE_FIGHT_VAMPIRISM	[@{2F2F}%p% @{FFFF}de chance de vampiriser l'ennemi (dégats infligés ajoutés à sa propre vie)]
+uiItemFX_ISE_FIGHT_VAMPIRISM	[@{2F2F}%p%@{FFFF} de chance de vampiriser l'ennemi (dégats infligés ajoutés à son propre trauma).]
 
 // HASH_VALUE D3230E54633E06F5
 // INDEX 2385
@@ -10125,84 +10241,150 @@ uihelpItemCosmetic	[\n
 	\n
 	%cansell@{FFFF}%desc]
 
-// HASH_VALUE 2040D74B3622141D
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
+@{FFF9}@{HuittInfoArmorQuality}Quality:@{H}@{T10}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
+%cansell
+@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+@{FFF9}@{HuittInfoArmorType}Armor Type:@{H}@{T16}@{FFFF}%armor %armor_bonus
+@{FFF9}@{HuittInfoDodgeMod}Dodge Modifier:@{H}@{T16}@{FFFF}%dodge
+@{FFF9}@{HuittInfoParryMod}Parry Modifier:@{H}@{T16}@{FFFF}%parry
+@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T16}@{FFFF}+%actmalus
+@{FFF9}@{HuittInfoArmorProtection}Protection:@{H}@{T16}@{FFFF}%protect%
+@{FFF9}  @{HuittInfoArmorSlash}Max. vs Slash:@{H}@{T16}@{FFFF}%p_slash
+@{FFF9}  @{HuittInfoArmorBlunt}Max. vs Smash:@{H}@{T16}@{FFFF}%p_blunt
+@{FFF9}  @{HuittInfoArmorPierc}Max. vs Pierce:@{H}@{T16}@{FFFF}%p_pierce
+%buffs%special_effects%desc%custom_text] */
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin
+@{FFF9}@{HuittInfoArmorQuality}Qualité :@{H}@{T12}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax
+%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+@{FFF9}@{HuittInfoArmorType}Type d'Armure :@{H}@{T14}@{FFFF}%armor %armor_bonus
+@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T20}@{FFFF}%dodge
+@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T20}@{FFFF}%parry
+@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T20}@{FFFF}+%actmalus
+@{FFF9}@{HuittInfoArmorProtection}Protection :@{H}@{T20}@{FFFF}%protect%
+@{FFF9}  @{HuittInfoArmorSlash}Max / Cp Tranchant :@{H}@{T20}@{FFFF}%p_slash
+@{FFF9}  @{HuittInfoArmorBlunt}Max / Cp Contondant :@{H}@{T20}@{FFFF}%p_blunt
+@{FFF9}  @{HuittInfoArmorPierc}Max / Cp Perforant :@{H}@{T20}@{FFFF}%p_pierce
+%buffs%special_effects%desc%custom_text] */
+// HASH_VALUE DD3DFB625C708C8A
 // INDEX 2406
-uihelpItemArmorFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin\n
-	@{FFF9}@{HuittInfoArmorQuality}Qualité :@{H}@{T12}@{FFFF}%quality\n
-	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
-	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax\n
-	%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
-	\n
-	@{FFF9}@{HuittInfoArmorType}Type d'Armure :@{H}@{T14}@{FFFF}%armor %armor_bonus\n
-	@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T20}@{FFFF}%dodge\n
-	@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T20}@{FFFF}%parry\n
-	@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T20}@{FFFF}+%actmalus\n
-	@{FFF9}@{HuittInfoArmorProtection}Protection :@{H}@{T20}@{FFFF}%protect%\n
-	@{FFF9}  @{HuittInfoArmorSlash}Max / Cp Tranchant :@{H}@{T20}@{FFFF}%p_slash\n
-	@{FFF9}  @{HuittInfoArmorBlunt}Max / Cp Contondant :@{H}@{T20}@{FFFF}%p_blunt\n
-	@{FFF9}  @{HuittInfoArmorPierc}Max / Cp Perforant :@{H}@{T20}@{FFFF}%p_pierce\n
-	%buffs%special_effects%desc%custom_text]
+uihelpItemArmorFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin@{FFF9}@{HuittInfoArmorQuality}Qualité :@{H}@{T12}@{FFFF}%quality@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk@{FFF9}@{HuittInfoHP}Points de Trauma :@{H}@{T12}@{FFFF}%hp / %hpmax%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2@{FFF9}@{HuittInfoArmorType}Type d'Armure :@{H}@{T14}@{FFFF}%armor %armor_bonus@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T20}@{FFFF}%dodge@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T20}@{FFFF}%parry@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T20}@{FFFF}+%actmalus@{FFF9}@{HuittInfoArmorProtection}Protection :@{H}@{T20}@{FFFF}%protect%@{FFF9}  @{HuittInfoArmorSlash}Max / Cp Tranchant :@{H}@{T20}@{FFFF}%p_slash@{FFF9}  @{HuittInfoArmorBlunt}Max / Cp Contondant :@{H}@{T20}@{FFFF}%p_blunt@{FFF9}  @{HuittInfoArmorPierc}Max / Cp Perforant :@{H}@{T20}@{FFFF}%p_pierce%buffs%special_effects%desc%custom_text]
 
-// HASH_VALUE CD15213997EE5448
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
+@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
+@{FFF9}@{HuittInfoWeaponSapLoad}Sap Load:@{H}@{T10}@{FFFF}%sap/%sapmax
+@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill
+%cansell
+@{FFF9}@{HuittInfoRequirement}Requirements: @{H}@{T10}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+@{FFF9}@{HuittInfoDamageType}Damage Type:@{H}@{T16}@{FFFF}%dmtype
+@{FFF9}@{HuittInfoWeaponDamage}Damage:@{H}@{T16}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)
+@{FFF9}@{HuittInfoWeaponHitMin}Hit/Minute:@{H}@{T16}@{FFFF}%speed
+@{FFF9}@{HuittInfoWeaponReach}Reach:@{H}@{T16}@{FFFF}%reach
+@{FFF9}@{HuittInfoDodgeMod}Dodge Modifier:@{H}@{T20}@{FFFF}%dodge
+@{FFF9}@{HuittInfoParryMod}Parry Modifier:@{H}@{T20}@{FFFF}%parry
+@{FFF9}@{HuittInfoTargetDodgeMod}Adv. Dodge Modifier:@{H}@{T20}@{FFFF}%adv_dodge
+@{FFF9}@{HuittInfoTargetParryMod}Adv. Parry Modifier:@{H}@{T20}@{FFFF}%adv_parry
+@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T20}@{FFFF}+%actmalus
+%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment] */
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T14}@{FFFF}%origin
+@{FFF9}@{HuittInfoWeaponQuality}Qualité :@{H}@{T14}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T14}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T14}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T14}@{FFFF}%hp / %hpmax
+@{FFF9}@{HuittInfoWeaponSapLoad}Charge en Sève :@{H}@{T14}@{FFFF}%sap / %sapmax
+@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T14}@{FFFF}%skill
+%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+@{FFF9}@{HuittInfoDamageType}Type de Dégâts :@{H}@{T20}@{FFFF}%dmtype
+@{FFF9}@{HuittInfoWeaponDamage}Dégâts :@{H}@{T20}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)
+@{FFF9}@{HuittInfoWeaponHitMin}Coups/Minute :@{H}@{T20}@{FFFF}%speed
+@{FFF9}@{HuittInfoWeaponReach}Portée :@{H}@{T20}@{FFFF}%reach
+@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T20}@{FFFF}%dodge
+@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T20}@{FFFF}%parry
+@{FFF9}@{HuittInfoTargetDodgeMod}Modif. d'Esquive/Cible :@{H}@{T20}@{FFFF}%adv_dodge
+@{FFF9}@{HuittInfoTargetParryMod}Modif. de Parade/Cible :@{H}@{T20}@{FFFF}%adv_parry
+@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T20}@{FFFF}+%actmalus
+%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment] */
+// HASH_VALUE 6BDBBED72697C632
 // INDEX 2407
-uihelpItemMeleeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T14}@{FFFF}%origin\n
-	@{FFF9}@{HuittInfoWeaponQuality}Qualité :@{H}@{T14}@{FFFF}%quality\n
-	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T14}@{FFFF}%weight Kg\n
-	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T14}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T14}@{FFFF}%hp / %hpmax\n
-	@{FFF9}@{HuittInfoWeaponSapLoad}Charge en Sève :@{H}@{T14}@{FFFF}%sap / %sapmax\n
-	@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T14}@{FFFF}%skill\n
-	%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
-	\n
-	@{FFF9}@{HuittInfoDamageType}Type de Dégâts :@{H}@{T20}@{FFFF}%dmtype\n
-	@{FFF9}@{HuittInfoWeaponDamage}Dégâts :@{H}@{T20}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)\n
-	@{FFF9}@{HuittInfoWeaponHitMin}Coups/Minute :@{H}@{T20}@{FFFF}%speed\n
-	@{FFF9}@{HuittInfoWeaponReach}Portée :@{H}@{T20}@{FFFF}%reach\n
-	@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T20}@{FFFF}%dodge\n
-	@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T20}@{FFFF}%parry\n
-	@{FFF9}@{HuittInfoTargetDodgeMod}Modif. d'Esquive/Cible :@{H}@{T20}@{FFFF}%adv_dodge\n
-	@{FFF9}@{HuittInfoTargetParryMod}Modif. de Parade/Cible :@{H}@{T20}@{FFFF}%adv_parry\n
-	@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T20}@{FFFF}+%actmalus\n
-	%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment]
+uihelpItemMeleeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T14}@{FFFF}%origin@{FFF9}@{HuittInfoWeaponQuality}Qualité :@{H}@{T14}@{FFFF}%quality@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T14}@{FFFF}%weight Kg@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T14}@{FFFF}%bulk@{FFF9}@{HuittInfoHP}Points de Trauma :@{H}@{T14}@{FFFF}%hp / %hpmax@{FFF9}@{HuittInfoWeaponSapLoad}Charge en Sève :@{H}@{T14}@{FFFF}%sap / %sapmax@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T14}@{FFFF}%skill%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2@{FFF9}@{HuittInfoDamageType}Type de Dégâts :@{H}@{T20}@{FFFF}%dmtype@{FFF9}@{HuittInfoWeaponDamage}Dégâts :@{H}@{T20}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)@{FFF9}@{HuittInfoWeaponHitMin}Coups/Minute :@{H}@{T20}@{FFFF}%speed@{FFF9}@{HuittInfoWeaponReach}Portée :@{H}@{T20}@{FFFF}%reach@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T20}@{FFFF}%dodge@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T20}@{FFFF}%parry@{FFF9}@{HuittInfoTargetDodgeMod}Modif. d'Esquive/Cible :@{H}@{T20}@{FFFF}%adv_dodge@{FFF9}@{HuittInfoTargetParryMod}Modif. de Parade/Cible :@{H}@{T20}@{FFFF}%adv_parry@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T20}@{FFFF}+%actmalus%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment]
 
-// HASH_VALUE 42C819983A6170AE
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
+@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
+@{FFF9}@{HuittInfoWeaponSapLoad}Sap Load:@{H}@{T10}@{FFFF}%sap/%sapmax
+@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill
+%cansell
+@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T10}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+@{FFF9}@{HuittInfoWeaponRDamage}Damage:@{H}@{T14}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)
+@{FFF9}@{HuittInfoWeaponRHitMin}Hit/Minute:@{H}@{T14}@{FFFF}%speed
+@{FFF9}@{HuittInfoWeaponRange}Range:@{H}@{T14}@{FFFF}%range
+@{FFF9}@{HuittInfoDodgeMod}Dodge Modifier:@{H}@{T20}@{FFFF}%dodge
+@{FFF9}@{HuittInfoParryMod}Parry Modifier:@{H}@{T20}@{FFFF}%parry
+@{FFF9}@{HuittInfoTargetDodgeMod}Adv. Dodge Modifier:@{H}@{T20}@{FFFF}%adv_dodge
+@{FFF9}@{HuittInfoTargetParryMod}Adv. Parry Modifier:@{H}@{T20}@{FFFF}%adv_parry
+@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T20}@{FFFF}+%actmalus
+%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment] */
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin
+@{FFF9}@{HuittInfoWeaponQuality}Qualité :@{H}@{T12}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax
+@{FFF9}@{HuittInfoWeaponSapLoad}Charge en Sève :@{H}@{T12}@{FFFF}%sap / %sapmax
+@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T12}@{FFFF}%skill
+%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+@{FFF9}@{HuittInfoWeaponRDamage}Dégâts :@{H}@{T12}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)
+@{FFF9}@{HuittInfoWeaponRHitMin}Coups/Minute :@{H}@{T12}@{FFFF}%speed
+@{FFF9}@{HuittInfoWeaponRange}Portée :@{H}@{T12}@{FFFF}%range
+@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T12}@{FFFF}%dodge
+@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T12}@{FFFF}%parry
+@{FFF9}@{HuittInfoTargetDodgeMod}Modif. d'Esquive/Cible :@{H}@{T12}@{FFFF}%adv_dodge
+@{FFF9}@{HuittInfoTargetParryMod}Modif. de Parade/Cible :@{H}@{T12}@{FFFF}%adv_parry
+@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T12}@{FFFF}+%actmalus
+%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment] */
+// HASH_VALUE 0E4EDA3D9B4ABE91
 // INDEX 2408
-uihelpItemRangeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin\n
-	@{FFF9}@{HuittInfoWeaponQuality}Qualité :@{H}@{T12}@{FFFF}%quality\n
-	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
-	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax\n
-	@{FFF9}@{HuittInfoWeaponSapLoad}Charge en Sève :@{H}@{T12}@{FFFF}%sap / %sapmax\n
-	@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T12}@{FFFF}%skill\n
-	%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
-	\n
-	@{FFF9}@{HuittInfoWeaponRDamage}Dégâts :@{H}@{T12}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)\n
-	@{FFF9}@{HuittInfoWeaponRHitMin}Coups/Minute :@{H}@{T12}@{FFFF}%speed\n
-	@{FFF9}@{HuittInfoWeaponRange}Portée :@{H}@{T12}@{FFFF}%range\n
-	@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T12}@{FFFF}%dodge\n
-	@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T12}@{FFFF}%parry\n
-	@{FFF9}@{HuittInfoTargetDodgeMod}Modif. d'Esquive/Cible :@{H}@{T12}@{FFFF}%adv_dodge\n
-	@{FFF9}@{HuittInfoTargetParryMod}Modif. de Parade/Cible :@{H}@{T12}@{FFFF}%adv_parry\n
-	@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T12}@{FFFF}+%actmalus\n
-	%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment]
+uihelpItemRangeWeaponFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin@{FFF9}@{HuittInfoWeaponQuality}Qualité :@{H}@{T12}@{FFFF}%quality@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk@{FFF9}@{HuittInfoHP}Points de Trauma :@{H}@{T12}@{FFFF}%hp / %hpmax@{FFF9}@{HuittInfoWeaponSapLoad}Charge en Sève :@{H}@{T12}@{FFFF}%sap / %sapmax@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T12}@{FFFF}%skill%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2@{FFF9}@{HuittInfoWeaponRDamage}Dégâts :@{H}@{T12}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)@{FFF9}@{HuittInfoWeaponRHitMin}Coups/Minute :@{H}@{T12}@{FFFF}%speed@{FFF9}@{HuittInfoWeaponRange}Portée :@{H}@{T12}@{FFFF}%range@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T12}@{FFFF}%dodge@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T12}@{FFFF}%parry@{FFF9}@{HuittInfoTargetDodgeMod}Modif. d'Esquive/Cible :@{H}@{T12}@{FFFF}%adv_dodge@{FFF9}@{HuittInfoTargetParryMod}Modif. de Parade/Cible :@{H}@{T12}@{FFFF}%adv_parry@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T12}@{FFFF}+%actmalus%magic_bonus%buffs%special_effects%skill_mod_vs_type%desc%custom_text%enchantment]
 
-// HASH_VALUE 05FD8137AB197CB0
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
+@{FFF9}@{HuittInfoWeaponQuality}Quality:@{H}@{T10}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
+@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill
+%cansell
+@{FFF9}@{HuittInfoAmmoMagazine}Magazine:@{H}@{T16}@{FFFF}%magazine
+@{FFF9}@{HuittInfoDamageType}Damage Type:@{H}@{T16}@{FFFF}%dmtype
+@{FFF9}@{HuittInfoAmmoDamage}Damage:@{H}@{T16}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)
+@{FFF9}@{HuittInfoAmmoHitMin}Hit/Minute:@{H}@{T16}@{FFFF}%speed
+@{FFF9}@{HuittInfoAmmoRange}Range:@{H}@{T16}@{FFFF}%range
+@{FFFF}%desc] */
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin
+@{FFF9}@{HuittInfoWeaponQuality}Qualité :@{H}@{T12}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax
+@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T12}@{FFFF}%skill
+%cansell
+@{FFF9}@{HuittInfoAmmoMagazine}Chargeur :@{H}@{T12}@{FFFF}%magazine
+@{FFF9}@{HuittInfoDamageType}Type de Dégâts :@{H}@{T12}@{FFFF}%dmtype
+@{FFF9}@{HuittInfoAmmoDamage}Dégâts :@{H}@{T12}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)
+@{FFF9}@{HuittInfoAmmoHitMin}Coups/Minute :@{H}@{T12}@{FFFF}%speed
+@{FFF9}@{HuittInfoAmmoRange}Portée :@{H}@{T12}@{FFFF}%range
+@{FFFF}%desc] */
+// HASH_VALUE 7F06E63F5E7F2630
 // INDEX 2409
-uihelpItemAmmoFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin\n
-	@{FFF9}@{HuittInfoWeaponQuality}Qualité :@{H}@{T12}@{FFFF}%quality\n
-	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
-	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax\n
-	@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T12}@{FFFF}%skill\n
-	%cansell\n
-	@{FFF9}@{HuittInfoAmmoMagazine}Chargeur :@{H}@{T12}@{FFFF}%magazine\n
-	@{FFF9}@{HuittInfoDamageType}Type de Dégâts :@{H}@{T12}@{FFFF}%dmtype\n
-	@{FFF9}@{HuittInfoAmmoDamage}Dégâts :@{H}@{T12}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)\n
-	@{FFF9}@{HuittInfoAmmoHitMin}Coups/Minute :@{H}@{T12}@{FFFF}%speed\n
-	@{FFF9}@{HuittInfoAmmoRange}Portée :@{H}@{T12}@{FFFF}%range\n
-	\n
-	@{FFFF}%desc]
+uihelpItemAmmoFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin@{FFF9}@{HuittInfoWeaponQuality}Qualité :@{H}@{T12}@{FFFF}%quality@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk@{FFF9}@{HuittInfoHP}Points de Trauma :@{H}@{T12}@{FFFF}%hp / %hpmax@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T12}@{FFFF}%skill%cansell@{FFF9}@{HuittInfoAmmoMagazine}Chargeur :@{H}@{T12}@{FFFF}%magazine@{FFF9}@{HuittInfoDamageType}Type de Dégâts :@{H}@{T12}@{FFFF}%dmtype@{FFF9}@{HuittInfoAmmoDamage}Dégâts :@{H}@{T12}@{FFFF}%dmg (@{T12}@{FFFF}%max_dmg)@{FFF9}@{HuittInfoAmmoHitMin}Coups/Minute :@{H}@{T12}@{FFFF}%speed@{FFF9}@{HuittInfoAmmoRange}Portée :@{H}@{T12}@{FFFF}%range@{FFFF}%desc]
 
 // HASH_VALUE 42B42B43E8A80FD6
 // INDEX 2410
@@ -10285,78 +10467,133 @@ iompfRefugee	[Réfugié uniquement]
 // INDEX 2425
 iompfKaravan	[Karavan uniquement]
 
-// HASH_VALUE E21ED9EAB90D5B30
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
+@{FFF9}@{HuittInfoArmorQuality}Quality:@{H}@{T10}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
+%cansell
+@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+@{FFF9}@{HuittInfoShieldCat}Category:@{H}@{T16}@{FFFF}%cat
+@{FFF9}@{HuittInfoDodgeMod}Dodge Modifier:@{H}@{T16}@{FFFF}%dodge
+@{FFF9}@{HuittInfoParryMod}Parry Modifier:@{H}@{T16}@{FFFF}%parry
+@{FFF9}@{HuittInfoMalus}Action Malus:@{H}@{T16}@{FFFF}+%actmalus
+@{FFF9}@{HuittInfoArmorProtection}Protection:@{H}@{T16}@{FFFF}%protect%
+@{FFF9}  @{HuittInfoArmorSlash}Max. vs Slash:@{H}@{T16}@{FFFF}%p_slash
+@{FFF9}  @{HuittInfoArmorBlunt}Max. vs Smash:@{H}@{T16}@{FFFF}%p_blunt
+@{FFF9}  @{HuittInfoArmorPierc}Max. vs Pierce:@{H}@{T16}@{FFFF}%p_pierce
+%buffs%special_effects%desc%custom_text] */
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin
+@{FFF9}@{HuittInfoArmorQuality}Qualité :@{H}@{T12}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax
+%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+@{FFF9}@{HuittInfoShieldCat}Categorie :@{H}@{T12}@{FFFF}%cat
+@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T18}@{FFFF}%dodge
+@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T18}@{FFFF}%parry
+@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T18}@{FFFF}+%actmalus
+@{FFF9}@{HuittInfoArmorProtection}Protection :@{H}@{T12}@{FFFF}%protect%
+@{FFF9}  @{HuittInfoArmorSlash}Max / Cp Tranchant :@{H}@{T12}@{FFFF}%p_slash
+@{FFF9}  @{HuittInfoArmorBlunt}Max / Cp Contondant :@{H}@{T12}@{FFFF}%p_blunt
+@{FFF9}  @{HuittInfoArmorPierc}Max / Cp Perforant :@{H}@{T12}@{FFFF}%p_pierce
+%buffs%special_effects%desc%custom_text] */
+// HASH_VALUE 602842751E4E8E29
 // INDEX 2426
-uihelpItemShieldFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin\n
-	@{FFF9}@{HuittInfoArmorQuality}Qualité :@{H}@{T12}@{FFFF}%quality\n
-	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
-	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax\n
-	%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
-	\n
-	@{FFF9}@{HuittInfoShieldCat}Categorie :@{H}@{T12}@{FFFF}%cat\n
-	@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T18}@{FFFF}%dodge\n
-	@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T18}@{FFFF}%parry\n
-	@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T18}@{FFFF}+%actmalus\n
-	@{FFF9}@{HuittInfoArmorProtection}Protection :@{H}@{T12}@{FFFF}%protect%\n
-	@{FFF9}  @{HuittInfoArmorSlash}Max / Cp Tranchant :@{H}@{T12}@{FFFF}%p_slash\n
-	@{FFF9}  @{HuittInfoArmorBlunt}Max / Cp Contondant :@{H}@{T12}@{FFFF}%p_blunt\n
-	@{FFF9}  @{HuittInfoArmorPierc}Max / Cp Perforant :@{H}@{T12}@{FFFF}%p_pierce\n
-	%buffs%special_effects%desc%custom_text]
+uihelpItemShieldFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin@{FFF9}@{HuittInfoArmorQuality}Qualité :@{H}@{T12}@{FFFF}%quality@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk@{FFF9}@{HuittInfoHP}Points de Trauma :@{H}@{T12}@{FFFF}%hp / %hpmax%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2@{FFF9}@{HuittInfoShieldCat}Categorie :@{H}@{T12}@{FFFF}%cat@{FFF9}@{HuittInfoDodgeMod}Modif. d'Esquive :@{H}@{T18}@{FFFF}%dodge@{FFF9}@{HuittInfoParryMod}Modif. de Parade :@{H}@{T18}@{FFFF}%parry@{FFF9}@{HuittInfoMalus}Pénalité de l'Action :@{H}@{T18}@{FFFF}+%actmalus@{FFF9}@{HuittInfoArmorProtection}Protection :@{H}@{T12}@{FFFF}%protect%@{FFF9}  @{HuittInfoArmorSlash}Max / Cp Tranchant :@{H}@{T12}@{FFFF}%p_slash@{FFF9}  @{HuittInfoArmorBlunt}Max / Cp Contondant :@{H}@{T12}@{FFFF}%p_blunt@{FFF9}  @{HuittInfoArmorPierc}Max / Cp Perforant :@{H}@{T12}@{FFFF}%p_pierce%buffs%special_effects%desc%custom_text]
 
-// HASH_VALUE EB550CFCB7DDE436
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
+@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
+@{FFF9}@{HuittToolCraftType}Tool Type:@{H}@{T10}@{FFFF}%tool
+%cansell
+@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+%buffs
+%special_effects
+@{FFFF}%desc%custom_text] */
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin
+@{FFF9}@{HuittInfoToolQuality}Qualité :@{H}@{T12}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax
+@{FFF9}@{HuittToolCraftType}Type d'Outil :@{H}@{T12}@{FFFF}%tool
+%cansell
+@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+        %buffs
+%special_effects
+@{FFFF}%desc%custom_text] */
+// HASH_VALUE 706D8AAA133F396F
 // INDEX 2427
-uihelpItemCraftingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin\n
-	@{FFF9}@{HuittInfoToolQuality}Qualité :@{H}@{T12}@{FFFF}%quality\n
-	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
-	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax\n
-	@{FFF9}@{HuittToolCraftType}Type d'Outil :@{H}@{T12}@{FFFF}%tool\n
-	%cansell\n
-	@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
-	        %buffs\n
-	%special_effects\n
-	\n
-	@{FFFF}%desc%custom_text]
+uihelpItemCraftingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin@{FFF9}@{HuittInfoToolQuality}Qualité :@{H}@{T12}@{FFFF}%quality@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk@{FFF9}@{HuittInfoHP}Points de Trauma :@{H}@{T12}@{FFFF}%hp / %hpmax@{FFF9}@{HuittToolCraftType}Type d'Outil :@{H}@{T12}@{FFFF}%tool%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2        %buffs%special_effects@{FFFF}%desc%custom_text]
 
-// HASH_VALUE 72F238C8B88811D2
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
+@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
+%cansell
+@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+%buffs
+%special_effects
+@{FFFF}%desc%custom_text] */
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin
+@{FFF9}@{HuittInfoToolQuality}Qualité :@{H}@{T12}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax
+%cansell
+@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+%buffs
+%special_effects
+@{FFFF}%desc%custom_text] */
+// HASH_VALUE 7118B7469ADC653B
 // INDEX 2428
-uihelpItemHarvestToolFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin\n
-	@{FFF9}@{HuittInfoToolQuality}Qualité :@{H}@{T12}@{FFFF}%quality\n
-	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
-	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax\n
-	%cansell\n
-	@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
-	%buffs\n
-	%special_effects\n
-	\n
-	@{FFFF}%desc%custom_text]
+uihelpItemHarvestToolFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin@{FFF9}@{HuittInfoToolQuality}Qualité :@{H}@{T12}@{FFFF}%quality@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk@{FFF9}@{HuittInfoHP}Points de Trauma :@{H}@{T12}@{FFFF}%hp / %hpmax%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2%buffs%special_effects@{FFFF}%desc%custom_text]
 
-// HASH_VALUE CEE88F2B2F5991C9
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
+@{FFF9}@{HuittInfoToolQuality}Quality:@{H}@{T10}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
+@{FFF9}@{HuittInfoItemSkill}Skill:@{H}@{T10}@{FFFF}%skill
+%cansell
+@{FFF9}Command Range:@{T12}@{FFFF}%cmdrange
+@{FFF9}Max Packers:@{T12}@{FFFF}%maxpacker
+@{FFFF}%desc%custom_text] */
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin
+@{FFF9}@{HuittInfoToolQuality}Qualité :@{H}@{T12}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax
+@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T12}@{FFFF}%skill
+%cansell
+@{FFF9}Portée Commande :@{T12}@{FFFF}%cmdrange
+@{FFF9}Animaux de Bât Max :@{T12}@{FFFF}%maxpacker
+@{FFFF}%desc%custom_text] */
+// HASH_VALUE E8E9373DF6D2BC9E
 // INDEX 2429
-uihelpItemTamingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin\n
-	@{FFF9}@{HuittInfoToolQuality}Qualité :@{H}@{T12}@{FFFF}%quality\n
-	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
-	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax\n
-	@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T12}@{FFFF}%skill\n
-	%cansell\n
-	@{FFF9}Portée Commande :@{T12}@{FFFF}%cmdrange\n
-	@{FFF9}Animaux de Bât Max :@{T12}@{FFFF}%maxpacker\n
-	\n
-	@{FFFF}%desc%custom_text]
+uihelpItemTamingToolFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin@{FFF9}@{HuittInfoToolQuality}Qualité :@{H}@{T12}@{FFFF}%quality@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk@{FFF9}@{HuittInfoHP}Points de Trauma :@{H}@{T12}@{FFFF}%hp / %hpmax@{FFF9}@{HuittInfoItemSkill}Compétence :@{H}@{T12}@{FFFF}%skill%cansell@{FFF9}Portée Commande :@{T12}@{FFFF}%cmdrange@{FFF9}Animaux de Bât Max :@{T12}@{FFFF}%maxpacker@{FFFF}%desc%custom_text]
 
-// HASH_VALUE 33CC9534D6DE5706
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origin:@{H}@{T10}@{FFFF}%origin
+@{FFF9}@{HuittInfoJewelryQuality}Quality:@{H}@{T10}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Weight:@{H}@{T10}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Bulk:@{H}@{T10}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Hit Points:@{H}@{T10}@{FFFF}%hp/%hpmax
+%cansell
+@{FFF9}@{HuittInfoRequirement}Requirements:@{H}@{T16}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+%magic_protection%magic_resistance%buffs%desc%custom_text] */
+/* OLD VALUE : [@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin
+@{FFF9}@{HuittInfoJewelryQuality}Qualité :@{H}@{T12}@{FFFF}%quality
+@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg
+@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk
+@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax
+%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2
+%magic_protection%magic_resistance%buffs%desc%custom_text] */
+// HASH_VALUE AAC78B2A191C80C5
 // INDEX 2430
-uihelpItemJewelFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin\n
-	@{FFF9}@{HuittInfoJewelryQuality}Qualité :@{H}@{T12}@{FFFF}%quality\n
-	@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg\n
-	@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk\n
-	@{FFF9}@{HuittInfoHP}Points de Vie :@{H}@{T12}@{FFFF}%hp / %hpmax\n
-	%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2\n
-	\n
-	%magic_protection%magic_resistance%buffs%desc%custom_text]
+uihelpItemJewelFormat	[@{FFF9}@{HuittInfoOrigin}Origine :@{H}@{T12}@{FFFF}%origin@{FFF9}@{HuittInfoJewelryQuality}Qualité :@{H}@{T12}@{FFFF}%quality@{FFF9}@{HuittInfoWeight}Poids :@{H}@{T12}@{FFFF}%weight Kg@{FFF9}@{HuittInfoBulk}Volume :@{H}@{T12}@{FFFF}%bulk@{FFF9}@{HuittInfoHP}Points de Trauma :@{H}@{T12}@{FFFF}%hp / %hpmax%cansell@{FFF9}@{HuittInfoRequirement}Prérequis :@{H}@{T12}@{FFFF}%caracreq@{FFFF}%skillreq@{FFFF}%skillreq2%magic_protection%magic_resistance%buffs%desc%custom_text]
 
 // HASH_VALUE 7BB6EF2DCE7530CF
 // INDEX 2431
@@ -10460,32 +10697,53 @@ uittAuraDisabled	[ - Aura Désactivée]
 // INDEX 2444
 uihelpPhraseHeaderBricks	[@{FFFF}--- Briques ---]
 
-// HASH_VALUE CFCCA465B6742D46
+/* OLD VALUE : [@{FFF9}Action Name:@{T14}@{FFFF}%name
+@{FFF9}Action Cost:@{T14}@{FFFF}%cost
+@{FFF9}Action Credit:@{T14}@{FFFF}%credit
+@{FFF9}Usable With:@{T14}@{FFFF}%wcomp
+%compostartThese stats depend on your equipped weapon.
+@{FFF9}@{HuittActionSuccessRateSF}Success Rate:@{H}@{T20}@{FFFF}%success%
+@{FFF9}Stamina Cost:@{T20}@{FFFF}%energy_cost
+@{FFF9}HP Cost:@{T20}@{FFFF}%hp_cost
+@{FFFF}%desc%req] */
+/* OLD VALUE : [@{FFF9}Action :@{T12}@{FFFF}%name
+@{FFF9}Coût :@{T12}@{FFFF}%cost
+@{FFF9}Crédit :@{T12}@{FFFF}%credit
+@{FFF9}Utilisable avec :@{T12}@{FFFF}%wcomp
+%compostartCes caractéristiques dépendent de l'arme équipée.
+@{FFF9}@{HuittActionSuccessRateSF}Réussite :@{H}@{T16}@{FFFF}%success%
+@{FFF9}Douleur Consommée :@{T16}@{FFFF}%energy_cost
+@{FFF9}Vie Consommée :@{T16}@{FFFF}%hp_cost
+@{FFFF}%desc%req] */
+// HASH_VALUE F0C6A9FFE1E259FD
 // INDEX 2445
-uihelpPhraseCombatFormat	[@{FFF9}Action :@{T12}@{FFFF}%name\n
-	@{FFF9}Coût :@{T12}@{FFFF}%cost\n
-	@{FFF9}Crédit :@{T12}@{FFFF}%credit\n
-	@{FFF9}Utilisable avec :@{T12}@{FFFF}%wcomp\n
-	\n
-	%compostartCes caractéristiques dépendent de l'arme équipée.\n
-	@{FFF9}@{HuittActionSuccessRateSF}Réussite :@{H}@{T16}@{FFFF}%success%\n
-	@{FFF9}Endurance Consommée :@{T16}@{FFFF}%energy_cost\n
-	@{FFF9}Vie Consommée :@{T16}@{FFFF}%hp_cost\n
-	@{FFFF}%desc%req]
+uihelpPhraseCombatFormat	[@{FFF9}Action :@{T12}@{FFFF}%name@{FFF9}Coût :@{T12}@{FFFF}%cost@{FFF9}Crédit :@{T12}@{FFFF}%credit@{FFF9}Utilisable avec :@{T12}@{FFFF}%wcomp%compostartCes caractéristiques dépendent de l'arme équipée.@{FFF9}@{HuittActionSuccessRateSF}Réussite :@{H}@{T16}@{FFFF}%success%@{FFF9}Douleur Consommée :@{T16}@{FFFF}%energy_cost@{FFF9}Trauma Consommée :@{T16}@{FFFF}%hp_cost@{FFFF}%desc%req]
 
-// HASH_VALUE B08CA56DAFC43B3F
+/* OLD VALUE : [@{FFF9}Action Name:@{T14}@{FFFF}%name
+@{FFF9}Action Cost:@{T14}@{FFFF}%cost
+@{FFF9}Action Credit:@{T14}@{FFFF}%credit
+@{FFF9}@{HuittActionSpellLevel}Spell Level:@{H}@{T14}@{FFFF}%mglvl
+%magicresist
+%compostart@{FFF9}@{HuittActionSuccessRateSM}Success Rate:@{H}@{T16}@{FFFF}%success%
+@{FFF9}Cast Duration:@{T16}@{FFFF}%duration sec.
+@{FFF9}Sap Cost:@{T16}@{FFFF}%energy_cost
+@{FFF9}HP Cost:@{T16}@{FFFF}%hp_cost
+@{FFF9}Range:@{T16}@{FFFF}%range
+@{FFFF}%desc%req] */
+/* OLD VALUE : [@{FFF9}Action :@{T12}@{FFFF}%name
+@{FFF9}Coût :@{T12}@{FFFF}%cost
+@{FFF9}Crédit :@{T12}@{FFFF}%credit
+@{FFF9}@{HuittActionSpellLevel}Niveau du Sort :@{H}@{T12}@{FFFF}%mglvl
+%magicresist
+%compostart@{FFF9}@{HuittActionSuccessRateSM}Réussite :@{H}@{T12}@{FFFF}%success%
+@{FFF9}Temps d'incantation :@{T12}@{FFFF}%duration secondes
+@{FFF9}Sève Consommée :@{T12}@{FFFF}%energy_cost
+@{FFF9}Vie Consommée :@{T12}@{FFFF}%hp_cost
+@{FFF9}Portée :@{T12}@{FFFF}%range
+@{FFFF}%desc%req] */
+// HASH_VALUE 4422DD827366E89F
 // INDEX 2446
-uihelpPhraseMagicFormat	[@{FFF9}Action :@{T12}@{FFFF}%name\n
-	@{FFF9}Coût :@{T12}@{FFFF}%cost\n
-	@{FFF9}Crédit :@{T12}@{FFFF}%credit\n
-	@{FFF9}@{HuittActionSpellLevel}Niveau du Sort :@{H}@{T12}@{FFFF}%mglvl\n
-	%magicresist\n
-	%compostart@{FFF9}@{HuittActionSuccessRateSM}Réussite :@{H}@{T12}@{FFFF}%success%\n
-	@{FFF9}Temps d'incantation :@{T12}@{FFFF}%duration secondes\n
-	@{FFF9}Sève Consommée :@{T12}@{FFFF}%energy_cost\n
-	@{FFF9}Vie Consommée :@{T12}@{FFFF}%hp_cost\n
-	@{FFF9}Portée :@{T12}@{FFFF}%range\n
-	@{FFFF}%desc%req]
+uihelpPhraseMagicFormat	[@{FFF9}Action :@{T12}@{FFFF}%name@{FFF9}Coût :@{T12}@{FFFF}%cost@{FFF9}Crédit :@{T12}@{FFFF}%credit@{FFF9}@{HuittActionSpellLevel}Niveau du Sort :@{H}@{T12}@{FFFF}%mglvl%magicresist%compostart@{FFF9}@{HuittActionSuccessRateSM}Réussite :@{H}@{T12}@{FFFF}%success%@{FFF9}Temps d'incantation :@{T12}@{FFFF}%duration secondes@{FFF9}Oubli Consommée :@{T12}@{FFFF}%energy_cost@{FFF9}Trauma Consommée :@{T12}@{FFFF}%hp_cost@{FFF9}Portée :@{T12}@{FFFF}%range@{FFFF}%desc%req]
 
 // HASH_VALUE 572BB8B354E80FB6
 // INDEX 2447
@@ -10649,13 +10907,25 @@ uihelpPhraseProcEnchantment	[@{FFFF}Avec cette action, vous pouvez utiliser l'en
 	Si l'objet dans votre main droite n'est pas enchanté, cette action ne peut pas être executée.\n
 	]
 
-// HASH_VALUE 0B864B02E2BE27B2
+/* OLD VALUE : [@{FFF9}Level:@{T14}@{FFFF}%lvl
+@{FFF9}Lost hit points:@{T14}@{FFFF}%hp
+@{FFF9}Lost stamina:@{T14}@{FFFF}%sta
+@{FFF9}Lost sap:@{T14}@{FFFF}%sap
+@{FFF9}Lost skills:@{T14}@{FFFF}%skill
+] */
+/* OLD VALUE : [@{FFF9}Niveau :@{T12}@{FFFF}%lvl
+@{FFF9}Points de vie consommés :@{T12}@{FFFF}%hp
+@{FFF9}Endurance consommée :@{T12}@{FFFF}%sta
+@{FFF9}Sève consommée :@{T12}@{FFFF}%sap
+@{FFF9}Compétences consommés :@{T12}@{FFFF}%skill
+] */
+// HASH_VALUE 23B6EB7EA50E56A8
 // INDEX 2470
-uihelpPactFormat	[@{FFF9}Niveau :@{T12}@{FFFF}%lvl\n
-	@{FFF9}Points de vie consommés :@{T12}@{FFFF}%hp\n
-	@{FFF9}Endurance consommée :@{T12}@{FFFF}%sta\n
-	@{FFF9}Sève consommée :@{T12}@{FFFF}%sap\n
-	@{FFF9}Compétences consommés :@{T12}@{FFFF}%skill\n
+uihelpPactFormat	[@{FFF9}Niveau:@{T14}@{FFFF}%lvl\n
+	@{FFF9}Trauma consommé :@{T14}@{FFFF}%hp\n
+	@{FFF9}Douleur consommée :@{T14}@{FFFF}%sta\n
+	@{FFF9}Oubli consommé :@{T14}@{FFFF}%sap\n
+	@{FFF9}Compétences consommés :@{T14}@{FFFF}%skill\n
 	]
 
 // HASH_VALUE BD6CCA5768A2C841
@@ -12369,17 +12639,23 @@ uiSumMax	[Max]
 // INDEX 2889
 uiSumReg	[Rég]
 
-// HASH_VALUE D9A8E875D866AF80
+/* OLD VALUE : [Hit Points] */
+/* OLD VALUE : [Vie] */
+// HASH_VALUE AE47EC76ED76A88F
 // INDEX 2890
-uiSumHp	[Vie]
+uiSumHp	[Trauma]
 
-// HASH_VALUE A868B095A4A85C8B
+/* OLD VALUE : [Stamina] */
+/* OLD VALUE : [Endurance] */
+// HASH_VALUE 6C5814406C581440
 // INDEX 2891
-uiSumSta	[Endurance]
+uiSumSta	[Douleur]
 
-// HASH_VALUE 1C591877A0875485
+/* OLD VALUE : [Sap] */
+/* OLD VALUE : [Sève] */
+// HASH_VALUE 6818243C6CD894D8
 // INDEX 2892
-uiSumSap	[Sève]
+uiSumSap	[Oubli]
 
 // HASH_VALUE ECE7309DA1C77891
 // INDEX 2893
@@ -13238,9 +13514,11 @@ uimGcmTradePhase	[DEVELOPPER DES COMPÉTENCES]
 // INDEX 3101
 uiNotEnoughSkillPoints	[PAS ASSEZ DE PTS DE COMPÉTENCES]
 
-// HASH_VALUE 5010042050100420
+/* OLD VALUE : [HP] */
+/* OLD VALUE : [Vie] */
+// HASH_VALUE AE47EC76ED76A88F
 // INDEX 3102
-uiHP	[Vie]
+uiHP	[Trauma]
 
 // HASH_VALUE 81CF12CA2FCAC592
 // INDEX 3103
@@ -13362,21 +13640,29 @@ uigcGuildName	[Nom de la Guilde]
 // INDEX 3132
 uittGuildName	[Afficher le nom de la guilde au-dessus du personnage]
 
-// HASH_VALUE A868B095A4A85C8B
+/* OLD VALUE : [Stamina] */
+/* OLD VALUE : [Endurance du Personnage] */
+// HASH_VALUE 6C5814406C581440
 // INDEX 3133
-uiSTA	[Endurance du Personnage]
+uiSTA	[Douleur]
 
-// HASH_VALUE 5A6D8F2D9E50FAF9
+/* OLD VALUE : [Show the character stamina bar above the character] */
+/* OLD VALUE : [Afficher la barre d'Endurance du personnage au-dessus du personnage] */
+// HASH_VALUE 4B02C50035F5992D
 // INDEX 3134
-uittSTA	[Afficher la barre d'Endurance du personnage au-dessus du personnage]
+uittSTA	[Afficher la barre de Douleur du personnage au-dessus du personnage]
 
-// HASH_VALUE 1C591877A0875485
+/* OLD VALUE : [Sap] */
+/* OLD VALUE : [Sève] */
+// HASH_VALUE 6818243C6CD894D8
 // INDEX 3135
-uiSAP	[Sève]
+uiSAP	[Oubli]
 
-// HASH_VALUE DF3C16CBBFAB2ADA
+/* OLD VALUE : [Show the character sap bar above the character] */
+/* OLD VALUE : [Afficher la barre de sève du personnage au-dessus du personnage] */
+// HASH_VALUE CFB7527B0DD6D51C
 // INDEX 3136
-uittSAP	[Afficher la barre de sève du personnage au-dessus du personnage]
+uittSAP	[Afficher la barre d'oubli du personnage au-dessus du personnage]
 
 // HASH_VALUE ECE7309DA1C77891
 // INDEX 3137
@@ -13979,17 +14265,23 @@ uittWalk	[Marcher]
 // INDEX 3285
 uittSit	[S'asseoir]
 
-// HASH_VALUE 3F466201CE5EA7ED
+/* OLD VALUE : [Life: %v/%m] */
+/* OLD VALUE : [Vie : %v/%m] */
+// HASH_VALUE D0630C1383073F5B
 // INDEX 3286
-uittPlayerLifeFormat	[Vie : %v/%m]
+uittPlayerLifeFormat	[Trauma: %v/%m]
 
-// HASH_VALUE 1C65D64A4F632742
+/* OLD VALUE : [Stamina: %v/%m] */
+/* OLD VALUE : [Endurance : %v/%m] */
+// HASH_VALUE 82766608CC2FB3E5
 // INDEX 3287
-uittPlayerStaminaFormat	[Endurance : %v/%m]
+uittPlayerStaminaFormat	[Douleur: %v/%m]
 
-// HASH_VALUE 0CF58A0EFAA5B608
+/* OLD VALUE : [Sap: %v/%m] */
+/* OLD VALUE : [Sève : %v/%m] */
+// HASH_VALUE 5F154E0B94A6AB33
 // INDEX 3288
-uittPlayerSapFormat	[Sève : %v/%m]
+uittPlayerSapFormat	[Oubli: %v/%m]
 
 // HASH_VALUE 5EC01E754A8C49A2
 // INDEX 3289
@@ -14059,9 +14351,11 @@ uiAnimals	[Animaux]
 // INDEX 3305
 uiAnimalsTitle	[ANIMAUX]
 
-// HASH_VALUE 9AD98A72EA7AD055
+/* OLD VALUE : [Red: Hit Points; Orange: Bulk; White: Satiety. If this bar falls to zero, the animal is hungry.] */
+/* OLD VALUE : [Rouge : Vie / Orange : Volume / Blanc : Satiété. Si cette barre tombe à zéro, l'animal a faim.] */
+// HASH_VALUE 5B09288E0AC40520
 // INDEX 3306
-uittSatiety	[Rouge : Vie / Orange : Volume / Blanc : Satiété. Si cette barre tombe à zéro, l'animal a faim.]
+uittSatiety	[Rouge : Trauma / Orange : Volume / Blanc : Satiété. Si cette barre tombe à zéro, l'animal a faim.]
 
 // HASH_VALUE 4BD6B8130DA55CC6
 // INDEX 3307
@@ -17047,23 +17341,32 @@ uiItemConsumableEffectModJungleForageSuccess	[Modifie votre compétence de Réco
 // INDEX 4007
 uiItemConsumableEffectModPrimaryRootForageSuccess	[Modifie votre compétence de Récolte dans les Prime-Racines de %modifier point(s) pendant %minutes min et %secondes sec.]
 
-// HASH_VALUE 77953283043E9590
+/* OLD VALUE : [An @{2F2F}Aura of Stamina@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with a radius of %radius m.
+Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.] */
+/* OLD VALUE : [@{2F2F}Aura d'Endurance@{FFFF} de @{2F2F}%modifier@{FFFF}
+ %minutes:%secondes min sur %radius m
+Désactivations : Cibles = %targetDisableTime sec, Joueur = %userDisableTime sec.] */
+// HASH_VALUE 4D45CB7CE3470B29
 // INDEX 4008
-uiItemConsumableEffectStaminaAura	[@{2F2F}Aura d'Endurance@{FFFF} de @{2F2F}%modifier@{FFFF}\n
-	 %minutes:%secondes min sur %radius m\n
-	Désactivations : Cibles = %targetDisableTime sec, Joueur = %userDisableTime sec.]
+uiItemConsumableEffectStaminaAura	[@{2F2F}Aura de Douleur@{FFFF} de @{2F2F}%modifier@{FFFF} %minutes:%secondes min sur %radius mDésactivations : Cibles = %targetDisableTime sec, Joueur = %userDisableTime sec.]
 
-// HASH_VALUE CC535C907B507FE9
+/* OLD VALUE : [An @{2F2F}Aura of Sap@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.
+Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.] */
+/* OLD VALUE : [@{2F2F}Aura de Sève@{FFFF} de @{2F2F}%modifier@{FFFF}
+ %minutes:%secondes min sur %radius m
+Désactivations : Cibles = %targetDisableTime sec, Joueur = %userDisableTime sec.] */
+// HASH_VALUE C6002790F7B093C1
 // INDEX 4009
-uiItemConsumableEffectSapAura	[@{2F2F}Aura de Sève@{FFFF} de @{2F2F}%modifier@{FFFF}\n
-	 %minutes:%secondes min sur %radius m\n
-	Désactivations : Cibles = %targetDisableTime sec, Joueur = %userDisableTime sec.]
+uiItemConsumableEffectSapAura	[@{2F2F}Aura d'Oubli@{FFFF} de @{2F2F}%modifier@{FFFF} %minutes:%secondes min sur %radius mDésactivations : Cibles = %targetDisableTime sec, Joueur = %userDisableTime sec.]
 
-// HASH_VALUE FDBDCF55285C2287
+/* OLD VALUE : [An @{2F2F}Aura of Life@{FFFF} with a bonus of @{2F2F}%modifier@{FFFF} for %minutes min and %secondes sec with radius of %radius m.
+Disabled for target: %targetDisableTime sec, user: %userDisableTime sec.] */
+/* OLD VALUE : [@{2F2F}Aura de Vie@{FFFF} de @{2F2F}%modifier@{FFFF}
+ %minutes:%secondes min sur %radius m
+Désactivations : Cibles = %targetDisableTime sec, Joueur = %userDisableTime sec.] */
+// HASH_VALUE E958DCB59AF51AD6
 // INDEX 4010
-uiItemConsumableEffectLifeAura	[@{2F2F}Aura de Vie@{FFFF} de @{2F2F}%modifier@{FFFF}\n
-	 %minutes:%secondes min sur %radius m\n
-	Désactivations : Cibles = %targetDisableTime sec, Joueur = %userDisableTime sec.]
+uiItemConsumableEffectLifeAura	[@{2F2F}Aura de Trauma@{FFFF} de @{2F2F}%modifier@{FFFF} %minutes:%secondes min sur %radius mDésactivations : Cibles = %targetDisableTime sec, Joueur = %userDisableTime sec.]
 
 // HASH_VALUE E4CB849E671796CA
 // INDEX 4011
@@ -17275,20 +17578,28 @@ uiMk_action1_1_tt	[Cliquez pour vous @{6F6F}Arrêter@{FFFF}.\n
 // INDEX 4062
 uiMk_action2_0	[Assis]
 
-// HASH_VALUE 123C197F60B07B8D
+/* OLD VALUE : [You are @{6F6F}Sitting@{FFFF}.
+While you are sitting down, your hit points, stamina, sap and focus regenerate twice as fast.
+Click to stand up.] */
+/* OLD VALUE : [Vous êtes @{6F6F}Assis@{FFFF}.
+En étant assis, votre vie, Endurance, sève et concentration se régénèrent 2 fois plus vite.
+Cliquez pour vous lever] */
+// HASH_VALUE 09FEBA4E87D93FCE
 // INDEX 4063
-uiMk_action2_0_tt	[Vous êtes @{6F6F}Assis@{FFFF}.\n
-	En étant assis, votre vie, Endurance, sève et concentration se régénèrent 2 fois plus vite.\n
-	Cliquez pour vous lever]
+uiMk_action2_0_tt	[Vous êtes @{6F6F}Assis@{FFFF}.En étant assis, votre trauma, douleur, oubli et concentration se régénèrent 2 fois plus vite.Cliquez pour vous lever.]
 
 // HASH_VALUE 6C58444C64989490
 // INDEX 4064
 uiMk_action2_1	[Debout]
 
-// HASH_VALUE 331B49ECE57CE907
+/* OLD VALUE : [You are @{6F6F}Standing@{FFFF}.
+Sitting regenerates your hit points, stamina, sap and focus twice as fast.
+Click to sit down.] */
+/* OLD VALUE : [Vous êtes @{6F6F}Debout@{FFFF}.
+Cliquez pour vous asseoir et ainsi régénérer 2 fois plus vite votre vie, Endurance, sève et concentration] */
+// HASH_VALUE 4239A688409201E9
 // INDEX 4065
-uiMk_action2_1_tt	[Vous êtes @{6F6F}Debout@{FFFF}.\n
-	Cliquez pour vous asseoir et ainsi régénérer 2 fois plus vite votre vie, Endurance, sève et concentration]
+uiMk_action2_1_tt	[Vous êtes @{6F6F}Debout@{FFFF}.Cliquez pour vous asseoir et ainsi régénérer 2 fois plus vite votre trauma, douleur, oubli et concentration]
 
 // HASH_VALUE A8F8888F22C73895
 // INDEX 4066
@@ -17496,73 +17807,103 @@ uittIdentityTitle	[Cliquez sur le @{6F6F}titre @{FFFF}actuel pour afficher la li
 // INDEX 4112
 uittIdentityInfo	[Permet de connaître tout ce qui a été nécessaire pour débloquer le @{6F6F}titre @{FFFF}affiché actuellement.]
 
-// HASH_VALUE 865C9353DE82CF7D
+/* OLD VALUE : [@{6F6F}Hit Points@{FFFF} %n
+When your hit points reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.] */
+/* OLD VALUE : [@{6F6F}Points de vie@{FFFF}: %n
+Lorsque vos points de vie tombent à 0, vous sombrez dans le coma et, si vous n'êtes pas rapidement soigné par vos amis, vous mourez.] */
+// HASH_VALUE 181687445C7E8698
 // INDEX 4113
-uittIdentityHP	[@{6F6F}Points de vie@{FFFF}: %n\n
-	Lorsque vos points de vie tombent à 0, vous sombrez dans le coma et, si vous n'êtes pas rapidement soigné par vos amis, vous mourez.]
+uittIdentityHP	[@{6F6F}Points de trauma@{FFFF}: %nLorsque vos points de trauma tombent à 0, vous sombrez dans le coma et, si vous n'êtes pas rapidement soigné par vos amis, vous mourez.]
 
-// HASH_VALUE 1E5E182EA9FCDE23
+/* OLD VALUE : [@{6F6F}Sap@{FFFF} %n
+When your level of sap is too low, you cannot cast spells.] */
+/* OLD VALUE : [@{6F6F}Points de sève@{FFFF}: %n
+Lorsque votre niveau de sève est faible, vous ne pouvez pas jeter de sorts.] */
+// HASH_VALUE 443F972BC7ECC55E
 // INDEX 4114
-uittIdentitySap	[@{6F6F}Points de sève@{FFFF}: %n\n
-	Lorsque votre niveau de sève est faible, vous ne pouvez pas jeter de sorts.]
+uittIdentitySap	[@{6F6F}Points d'oublie@{FFFF}: %nLorsque votre niveau d'oubli est faible, vous ne pouvez pas jeter de sorts.]
 
-// HASH_VALUE E7BEEE9911DDA388
+/* OLD VALUE : [@{6F6F}Stamina@{FFFF} %n
+When your level of stamina is too low, you cannot carry out special attacks any longer and must make do with the default attack until your stamina is regenerated.] */
+/* OLD VALUE : [@{6F6F}Points d'Endurance@{FFFF}: %n
+Lorsque votre niveau d'Endurance est faible, vous ne pouvez plus réaliser de coups spéciaux et devez vous contenter de l'attaque par défaut jusqu'à la régénération de votre Endurance.] */
+// HASH_VALUE 4634C83F348BAF85
 // INDEX 4115
-uittIdentitySta	[@{6F6F}Points d'Endurance@{FFFF}: %n\n
-	Lorsque votre niveau d'Endurance est faible, vous ne pouvez plus réaliser de coups spéciaux et devez vous contenter de l'attaque par défaut jusqu'à la régénération de votre Endurance.]
+uittIdentitySta	[@{6F6F}Points d'Endurance@{FFFF}: %nLorsque votre niveau de douleur est faible, vous ne pouvez plus réaliser de coups spéciaux et devez vous contenter de l'attaque par défaut jusqu'à la régénération de votre douleur.]
 
 // HASH_VALUE 51C17335A2002073
 // INDEX 4116
 uittIdentityFoc	[@{6F6F}Points de concentration@{FFFF}: %n\n
 	Lorsque votre niveau de concentration est faible, vous ne pouvez plus réaliser d'actions de forage.]
 
-// HASH_VALUE 59F27247C45C0B53
+/* OLD VALUE : [@{6F6F}HP Regeneration@{FFFF}: %n
+Hit Points regenerated every 10 seconds.] */
+/* OLD VALUE : [@{6F6F}Régénération HP@{FFFF}: %n
+Points de vie régénérés en 10 secondes.] */
+// HASH_VALUE 1270038E4C809B13
 // INDEX 4117
-uittIdentityHPReg	[@{6F6F}Régénération HP@{FFFF}: %n\n
-	Points de vie régénérés en 10 secondes.]
+uittIdentityHPReg	[@{6F6F}Régénération de trauma@{FFFF}: %nPoints de trauma régénérés en 10 secondes.]
 
-// HASH_VALUE 2E11CCFE792B1CF9
+/* OLD VALUE : [@{6F6F}Sap Regeneration@{FFFF}: %n
+Sap regenerated every 10 seconds.] */
+/* OLD VALUE : [@{6F6F}Régénération Sap@{FFFF}: %n
+Points de sève régénérés en 10 secondes.] */
+// HASH_VALUE 6196B6532F18170B
 // INDEX 4118
-uittIdentitySapReg	[@{6F6F}Régénération Sap@{FFFF}: %n\n
-	Points de sève régénérés en 10 secondes.]
+uittIdentitySapReg	[@{6F6F}Régénération d'oubli@{FFFF}: %nPoints d'oubli régénérés en 10 secondes.]
 
-// HASH_VALUE 7F80C994DC68B165
+/* OLD VALUE : [@{6F6F}Stamina Regeneration@{FFFF}: %n
+Stamina regenerated every 10 seconds.] */
+/* OLD VALUE : [@{6F6F}Régénération Endurance@{FFFF}: %n
+Points d'Endurance régénérés en 10 secondes.] */
+// HASH_VALUE 5B4EE4C57FA477BA
 // INDEX 4119
-uittIdentityStaReg	[@{6F6F}Régénération Endurance@{FFFF}: %n\n
-	Points d'Endurance régénérés en 10 secondes.]
+uittIdentityStaReg	[@{6F6F}Régénération de la douleur@{FFFF}: %nPoints de douleur régénérés en 10 secondes.]
 
 // HASH_VALUE 278E747F03AF685F
 // INDEX 4120
 uittIdentityFocReg	[@{6F6F}Régénération Focus@{FFFF}: %n\n
 	Points de concentration régénérés en 10 secondes.]
 
-// HASH_VALUE 51EB5FE00E022FC8
+/* OLD VALUE : [Determines the maximum value of your @{6F6F}Hit points@{FFFF}] */
+/* OLD VALUE : [Détermine la valeur maximum de vos @{6F6F}Points de Vie@{FFFF}.] */
+// HASH_VALUE 03F50E1416319F29
 // INDEX 4121
-uittIdentityCons	[Détermine la valeur maximum de vos @{6F6F}Points de Vie@{FFFF}.]
+uittIdentityCons	[Détermine la valeur maximum de vos @{6F6F}Points de trauma@{FFFF}.]
 
-// HASH_VALUE B655A2A538BE3728
+/* OLD VALUE : [Determines the maximum value of your @{6F6F}Sap@{FFFF}] */
+/* OLD VALUE : [Détermine la valeur maximum de votre @{6F6F}Sève@{FFFF}.] */
+// HASH_VALUE C0BE47E613E1331E
 // INDEX 4122
-uittIdentityInt	[Détermine la valeur maximum de votre @{6F6F}Sève@{FFFF}.]
+uittIdentityInt	[Détermine la valeur maximum de votre @{6F6F}oublie@{FFFF}.]
 
-// HASH_VALUE 350737D91431A75D
+/* OLD VALUE : [Determines the maximum value of your @{6F6F}Stamina@{FFFF}] */
+/* OLD VALUE : [Détermine la valeur maximum de votre @{6F6F}Endurance@{FFFF}.] */
+// HASH_VALUE B655766AC3245B25
 // INDEX 4123
-uittIdentityStr	[Détermine la valeur maximum de votre @{6F6F}Endurance@{FFFF}.]
+uittIdentityStr	[Détermine la valeur maximum de votre @{6F6F}douleur@{FFFF}.]
 
 // HASH_VALUE B6A88A9DE451931B
 // INDEX 4124
 uittIdentityDex	[Détermine la valeur maximum de votre @{6F6F}Concentration@{FFFF}.]
 
-// HASH_VALUE 982242D5101002EB
+/* OLD VALUE : [Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Hit points@{FFFF}] */
+/* OLD VALUE : [Détermine le taux de @{6F6F}régénération @{FFFF}de vos @{6F6F}Points de Vie@{FFFF}.] */
+// HASH_VALUE 8464C3C807171D7C
 // INDEX 4125
-uittIdentityMeta	[Détermine le taux de @{6F6F}régénération @{FFFF}de vos @{6F6F}Points de Vie@{FFFF}.]
+uittIdentityMeta	[Détermine le taux de @{6F6F}régénération @{FFFF}de vos @{6F6F}Points de trauma@{FFFF}.]
 
-// HASH_VALUE BD6ED69191074982
+/* OLD VALUE : [Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Sap@{FFFF}] */
+/* OLD VALUE : [Détermine le taux de @{6F6F}régénération @{FFFF}de votre @{6F6F}Sève@{FFFF}.] */
+// HASH_VALUE 178293D35066E928
 // INDEX 4126
-uittIdentityWis	[Détermine le taux de @{6F6F}régénération @{FFFF}de votre @{6F6F}Sève@{FFFF}.]
+uittIdentityWis	[Détermine le taux de @{6F6F}régénération @{FFFF}de votre @{6F6F}oublie@{FFFF}.]
 
-// HASH_VALUE 26B1A3C8885A319D
+/* OLD VALUE : [Determines the @{6F6F}regeneration @{FFFF}rate of your @{6F6F}Stamina@{FFFF}] */
+/* OLD VALUE : [Détermine le taux de @{6F6F}régénération @{FFFF}de votre @{6F6F}Endurance@{FFFF}.] */
+// HASH_VALUE 0ABB8E07C3D74982
 // INDEX 4127
-uittIdentityWB	[Détermine le taux de @{6F6F}régénération @{FFFF}de votre @{6F6F}Endurance@{FFFF}.]
+uittIdentityWB	[Détermine le taux de @{6F6F}régénération @{FFFF}de votre @{6F6F}douleur@{FFFF}.]
 
 // HASH_VALUE 3CEE9FCA463649B7
 // INDEX 4128
@@ -17620,20 +17961,29 @@ uittGaugesNameTitle	[Votre @{6F6F}nom @{FFFF}suivi du @{6F6F}titre @{FFFF}que vo
 // INDEX 4140
 uittGaugesActionBar	[Indique la progression de l'@{6F6F}action @{FFFF}en cours d'exécution.]
 
-// HASH_VALUE 428F1B3820DC234D
+/* OLD VALUE : [@{6F6F}Hit Points@{FFFF}:
+When your hit points reach 0, you fall into a coma and, if you are not quickly healed by your friends, you die.] */
+/* OLD VALUE : [@{6F6F}Points de vie@{FFFF}:
+Lorsque vos points de vie tombent à 0, vous sombrez dans le coma et, si vous n'êtes pas rapidement soigné par vos amis, vous mourez.] */
+// HASH_VALUE 5577AFB4F49CBDCE
 // INDEX 4141
-uittGaugesHP	[@{6F6F}Points de vie@{FFFF}:\n
-	Lorsque vos points de vie tombent à 0, vous sombrez dans le coma et, si vous n'êtes pas rapidement soigné par vos amis, vous mourez.]
+uittGaugesHP	[@{6F6F}Points de trauma@{FFFF}:Lorsque vos points de trauma tombent à 0, vous sombrez dans le coma et, si vous n'êtes pas rapidement soigné par vos amis, vous mourez.]
 
-// HASH_VALUE 84FEF386516882C6
+/* OLD VALUE : [@{6F6F}Sap@{FFFF}:
+When your level of sap is too low, you cannot cast spells.] */
+/* OLD VALUE : [@{6F6F}Points de sève@{FFFF}:
+Lorsque votre niveau de sève est faible, vous ne pouvez pas jeter de sorts.] */
+// HASH_VALUE AC123A882F85BFE5
 // INDEX 4142
-uittGaugesSap	[@{6F6F}Points de sève@{FFFF}:\n
-	Lorsque votre niveau de sève est faible, vous ne pouvez pas jeter de sorts.]
+uittGaugesSap	[@{6F6F}Points d'oubli@{FFFF}:Lorsque votre niveau d'oubli est faible, vous ne pouvez pas jeter de sorts.]
 
-// HASH_VALUE 9D7C8575BE2E2475
+/* OLD VALUE : [@{6F6F}Stamina@{FFFF}:
+When your level of stamina is too low, you cannot carry out special attacks any longer and must make do with the default attack until your stamina is regenerated.] */
+/* OLD VALUE : [@{6F6F}Points d'Endurance@{FFFF}:
+Lorsque votre niveau d'Endurance est faible, vous ne pouvez plus réaliser de coups spéciaux et devez vous contenter de l'attaque par défaut jusqu'à la régénération de votre Endurance.] */
+// HASH_VALUE 34BBC0D0932A8F1F
 // INDEX 4143
-uittGaugesSta	[@{6F6F}Points d'Endurance@{FFFF}:\n
-	Lorsque votre niveau d'Endurance est faible, vous ne pouvez plus réaliser de coups spéciaux et devez vous contenter de l'attaque par défaut jusqu'à la régénération de votre Endurance.]
+uittGaugesSta	[@{6F6F}Points de douleur@{FFFF}:Lorsque votre niveau de douleur est faible, vous ne pouvez plus réaliser de coups spéciaux et devez vous contenter de l'attaque par défaut jusqu'à la régénération de votre douleur.]
 
 // HASH_VALUE 370F70F0CD9627F6
 // INDEX 4144
@@ -17762,10 +18112,13 @@ uittGuildMemberOnlineAbroad	[Connecté sur un autre scénario Ring ou terrain pr
 // INDEX 4170
 uittGuildMemberOffline	[Non connecté]
 
-// HASH_VALUE 1ECBB3AF9AE24353
+/* OLD VALUE : [@{6F6F}Hit Points @{FFFF}of the target.
+The target dies when its @{6F6F}hit points @{FFFF}reach 0.] */
+/* OLD VALUE : [@{6F6F}Points de vie @{FFFF}de la cible.
+La cible meurt lorsque ses @{6F6F}points de vie @{FFFF}tombent à 0.] */
+// HASH_VALUE 8C88C6F713CD5E08
 // INDEX 4171
-uittTargetHp	[@{6F6F}Points de vie @{FFFF}de la cible.\n
-	La cible meurt lorsque ses @{6F6F}points de vie @{FFFF}tombent à 0.]
+uittTargetHp	[@{6F6F}Points de trauma @{FFFF}de la cible.La cible meurt lorsque ses @{6F6F}points de trauma @{FFFF}tombent à 0.]
 
 // HASH_VALUE 451AD84229299F4D
 // INDEX 4172
@@ -17792,10 +18145,13 @@ uittTargetNamed	[Créature nommée de niveau @{6F6F}%n]
 uittInfoBulk	[@{6F6F}Volume @{FFFF}:\n
 	Espace occupé par l'objet dans votre inventaire. L'espace de chaque inventaire est limité, ce qui signifie que les objets volumineux ne peuvent pas être transportés en grand nombre.]
 
-// HASH_VALUE D3B7427064F695D3
+/* OLD VALUE : [@{6F6F}Hit points@{FFFF}:
+This value will decrease when using the item. When it reaches 0, the item is destroyed.] */
+/* OLD VALUE : [@{6F6F}Points de Vie @{FFFF}:
+Cette valeur se dégradera avec l'utilisation de l'objet. Quand elle atteint 0, l'objet est détruit.] */
+// HASH_VALUE 21F349E03B299DEB
 // INDEX 4178
-uittInfoHP	[@{6F6F}Points de Vie @{FFFF}:\n
-	Cette valeur se dégradera avec l'utilisation de l'objet. Quand elle atteint 0, l'objet est détruit.]
+uittInfoHP	[@{6F6F}Points de Vie @{FFFF}:Cette valeur se dégradera avec l'utilisation de l'objet. Quand elle atteint 0, l'objet est détruit.]
 
 // HASH_VALUE 94760A6F75DFA951
 // INDEX 4179
@@ -17852,25 +18208,37 @@ uittInfoArmorQuality	[@{6F6F}Qualité @{FFFF}:\n
 uittInfoArmorProtection	[@{6F6F}Protection @{FFFF}:\n
 	Les dégâts infligés par chaque coup reçu sont réduits de ce facteur, maximisé par les valeurs qui suivent.]
 
-// HASH_VALUE 805FE6547DD49E5B
+/* OLD VALUE : [@{6F6F}Max. vs Slashing blow@{FFFF}:
+Maximum hit points absorbed for a "slashing" hit.] */
+/* OLD VALUE : [@{6F6F}Max vs Coup Tranchant @{FFFF}:
+Points de vie max. absorbés pour un coup "tranchant".] */
+// HASH_VALUE FBF4F201E3B96595
 // INDEX 4190
-uittInfoArmorSlash	[@{6F6F}Max vs Coup Tranchant @{FFFF}:\n
-	Points de vie max. absorbés pour un coup "tranchant".]
+uittInfoArmorSlash	[@{6F6F}Max vs Coup Tranchant @{FFFF}:Points de trauma max. absorbés pour un coup "tranchant".]
 
-// HASH_VALUE FE8FEA4EBDD49E56
+/* OLD VALUE : [@{6F6F}Max. vs Piercing blow@{FFFF}:
+Maximum hit points absorbed for a "piercing" hit.] */
+/* OLD VALUE : [@{6F6F}Max vs Coup Perforant @{FFFF}:
+Points de vie max. absorbés pour un coup "perforant".] */
+// HASH_VALUE B9E402F9E3F95992
 // INDEX 4191
-uittInfoArmorPierc	[@{6F6F}Max vs Coup Perforant @{FFFF}:\n
-	Points de vie max. absorbés pour un coup "perforant".]
+uittInfoArmorPierc	[@{6F6F}Max vs Coup Perforant @{FFFF}:Points de trauma max. absorbés pour un coup "perforant".]
 
-// HASH_VALUE 805FEA557DD49E5B
+/* OLD VALUE : [@{6F6F}Max. vs Smashing blow@{FFFF}:
+Maximum hit points absorbed for a "smashing" hit.] */
+/* OLD VALUE : [@{6F6F}Max vs Coup Contondant @{FFFF}:
+Points de vie max. absorbés pour un coup "contondant".] */
+// HASH_VALUE FBF4F202E3B96995
 // INDEX 4192
-uittInfoArmorBlunt	[@{6F6F}Max vs Coup Contondant @{FFFF}:\n
-	Points de vie max. absorbés pour un coup "contondant".]
+uittInfoArmorBlunt	[@{6F6F}Max vs Coup Contondant @{FFFF}:Points de trauma max. absorbés pour un coup "contondant".]
 
-// HASH_VALUE 941ADF7F50C8E51F
+/* OLD VALUE : [@{6F6F}Armor Type@{FFFF}:
+The armor type usually affects the action malus. Medium and heavy armor give additional HP bonuses.] */
+/* OLD VALUE : [@{6F6F}Type d'Armure @{FFFF}:
+Le type d'armure affecte en général le malus d'action. Les armures moyennes et lourdes apportent des bonus de vie supplémentaires.] */
+// HASH_VALUE DB7B9B58E9FEFEA7
 // INDEX 4193
-uittInfoArmorType	[@{6F6F}Type d'Armure @{FFFF}:\n
-	Le type d'armure affecte en général le malus d'action. Les armures moyennes et lourdes apportent des bonus de vie supplémentaires.]
+uittInfoArmorType	[@{6F6F}Type d'Armure @{FFFF}:Le type d'armure affecte en général le malus d'action. Les armures moyennes et lourdes apportent des bonus de trauma supplémentaires.]
 
 // HASH_VALUE 9E450905DAB7401A
 // INDEX 4194
@@ -20068,9 +20436,11 @@ uiBGD_QuitInstallTitle	[Quitter ?]
 // INDEX 4700
 uiBGD_ErrorSupportFormat	[Des solutions pour les problèmes le plus commun peuvent se trouver sur {0}.]
 
-// HASH_VALUE F33B4565912B7B61
+/* OLD VALUE : [http://forums.Khanat.com/forum/showthread.php?t=29129] */
+/* OLD VALUE : [https://khaganat.net/wikhan/fr:error] */
+// HASH_VALUE DB2B90AA4C62C3B2
 // INDEX 4701
-uiBGD_ErrorSupportUrl	[https://khaganat.net/wikhan/fr:error]
+uiBGD_ErrorSupportUrl	[https://lirria.khaganat.net/]
 
 // HASH_VALUE 0CEC4A54E0EE9B8A
 // INDEX 4702

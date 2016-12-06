@@ -571,7 +571,7 @@
         <STRUCT Name="SCJ">
           <ATOM Name="Skill" Value="SCJ"/>
           <ATOM Name="SkillCode" Value="SCJ"/>
-          <ATOM Name="MaxSkillValue" Value="50"/>
+          <ATOM Name="MaxSkillValue" Value="80"/>
           <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SC"/>
           <ARRAY Name="ChildSkills">
@@ -808,7 +808,7 @@
         <STRUCT Name="SCM">
           <ATOM Name="Skill" Value="SCM"/>
           <ATOM Name="SkillCode" Value="SCM"/>
-          <ATOM Name="MaxSkillValue" Value="50"/>
+          <ATOM Name="MaxSkillValue" Value="80"/>
           <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SC"/>
           <ARRAY Name="ChildSkills">
@@ -1155,7 +1155,7 @@
         <STRUCT Name="SCR">
           <ATOM Name="Skill" Value="SCR"/>
           <ATOM Name="SkillCode" Value="SCR"/>
-          <ATOM Name="MaxSkillValue" Value="50"/>
+          <ATOM Name="MaxSkillValue" Value="80"/>
           <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SC"/>
           <ARRAY Name="ChildSkills">
@@ -1297,7 +1297,7 @@
           <ATOM Name="Skill" Value="SF"/>
           <ATOM Name="SkillCode" Value="SF"/>
           <ATOM Name="MaxSkillValue" Value="20"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value=""/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM" Value="SFM"/>
@@ -1307,8 +1307,8 @@
         <STRUCT Name="SFM">
           <ATOM Name="Skill" Value="SFM"/>
           <ATOM Name="SkillCode" Value="SFM"/>
-          <ATOM Name="MaxSkillValue" Value="50"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="MaxSkillValue" Value="80"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SF"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1" Value="SFM1"/>
@@ -1320,7 +1320,7 @@
           <ATOM Name="Skill" Value="SFM1"/>
           <ATOM Name="SkillCode" Value="SFM1"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1B" Value="SFM1B"/>
@@ -1332,7 +1332,7 @@
           <ATOM Name="Skill" Value="SFM1B"/>
           <ATOM Name="SkillCode" Value="SFM1B"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1BM" Value="SFM1BM"/>
@@ -1343,7 +1343,7 @@
           <ATOM Name="Skill" Value="SFM1BM"/>
           <ATOM Name="SkillCode" Value="SFM1BM"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1B"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1BMM" Value="SFM1BMM"/>
@@ -1353,14 +1353,14 @@
           <ATOM Name="Skill" Value="SFM1BMM"/>
           <ATOM Name="SkillCode" Value="SFM1BMM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1BM"/>
         </STRUCT>
         <STRUCT Name="SFM1BS">
           <ATOM Name="Skill" Value="SFM1BS"/>
           <ATOM Name="SkillCode" Value="SFM1BS"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1B"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1BSM" Value="SFM1BSM"/>
@@ -1370,14 +1370,14 @@
           <ATOM Name="Skill" Value="SFM1BSM"/>
           <ATOM Name="SkillCode" Value="SFM1BSM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1BS"/>
         </STRUCT>
         <STRUCT Name="SFM1P">
           <ATOM Name="Skill" Value="SFM1P"/>
           <ATOM Name="SkillCode" Value="SFM1P"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1PS" Value="SFM1PS"/>
@@ -1387,7 +1387,7 @@
           <ATOM Name="Skill" Value="SFM1PS"/>
           <ATOM Name="SkillCode" Value="SFM1PS"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1P"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1PSM" Value="SFM1PSM"/>
@@ -1397,14 +1397,14 @@
           <ATOM Name="Skill" Value="SFM1PSM"/>
           <ATOM Name="SkillCode" Value="SFM1PSM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1PS"/>
         </STRUCT>
         <STRUCT Name="SFM1S">
           <ATOM Name="Skill" Value="SFM1S"/>
           <ATOM Name="SkillCode" Value="SFM1S"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1SA" Value="SFM1SA"/>
@@ -1415,7 +1415,7 @@
           <ATOM Name="Skill" Value="SFM1SA"/>
           <ATOM Name="SkillCode" Value="SFM1SA"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1S"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1SAM" Value="SFM1SAM"/>
@@ -1425,14 +1425,14 @@
           <ATOM Name="Skill" Value="SFM1SAM"/>
           <ATOM Name="SkillCode" Value="SFM1SAM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1SA"/>
         </STRUCT>
         <STRUCT Name="SFM1SS">
           <ATOM Name="Skill" Value="SFM1SS"/>
           <ATOM Name="SkillCode" Value="SFM1SS"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1S"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM1SSM" Value="SFM1SSM"/>
@@ -1442,14 +1442,14 @@
           <ATOM Name="Skill" Value="SFM1SSM"/>
           <ATOM Name="SkillCode" Value="SFM1SSM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM1SS"/>
         </STRUCT>
         <STRUCT Name="SFM2">
           <ATOM Name="Skill" Value="SFM2"/>
           <ATOM Name="SkillCode" Value="SFM2"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM2B" Value="SFM2B"/>
@@ -1461,7 +1461,7 @@
           <ATOM Name="Skill" Value="SFM2B"/>
           <ATOM Name="SkillCode" Value="SFM2B"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM2BM" Value="SFM2BM"/>
@@ -1471,7 +1471,7 @@
           <ATOM Name="Skill" Value="SFM2BM"/>
           <ATOM Name="SkillCode" Value="SFM2BM"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2B"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM2BMM" Value="SFM2BMM"/>
@@ -1481,14 +1481,14 @@
           <ATOM Name="Skill" Value="SFM2BMM"/>
           <ATOM Name="SkillCode" Value="SFM2BMM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2BM"/>
         </STRUCT>
         <STRUCT Name="SFM2P">
           <ATOM Name="Skill" Value="SFM2P"/>
           <ATOM Name="SkillCode" Value="SFM2P"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM2PP" Value="SFM2PP"/>
@@ -1498,7 +1498,7 @@
           <ATOM Name="Skill" Value="SFM2PP"/>
           <ATOM Name="SkillCode" Value="SFM2PP"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2P"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM2PPM" Value="SFM2PPM"/>
@@ -1508,14 +1508,14 @@
           <ATOM Name="Skill" Value="SFM2PPM"/>
           <ATOM Name="SkillCode" Value="SFM2PPM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2PP"/>
         </STRUCT>
         <STRUCT Name="SFM2S">
           <ATOM Name="Skill" Value="SFM2S"/>
           <ATOM Name="SkillCode" Value="SFM2S"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM2SA" Value="SFM2SA"/>
@@ -1526,7 +1526,7 @@
           <ATOM Name="Skill" Value="SFM2SA"/>
           <ATOM Name="SkillCode" Value="SFM2SA"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2S"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM2SAM" Value="SFM2SAM"/>
@@ -1536,14 +1536,14 @@
           <ATOM Name="Skill" Value="SFM2SAM"/>
           <ATOM Name="SkillCode" Value="SFM2SAM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2SA"/>
         </STRUCT>
         <STRUCT Name="SFM2SS">
           <ATOM Name="Skill" Value="SFM2SS"/>
           <ATOM Name="SkillCode" Value="SFM2SS"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2S"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFM2SSM" Value="SFM2SSM"/>
@@ -1553,14 +1553,14 @@
           <ATOM Name="Skill" Value="SFM2SSM"/>
           <ATOM Name="SkillCode" Value="SFM2SSM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM2SS"/>
         </STRUCT>
         <STRUCT Name="SFMC">
           <ATOM Name="Skill" Value="SFMC"/>
           <ATOM Name="SkillCode" Value="SFMC"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFM"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFMCA" Value="SFMCA"/>
@@ -1570,7 +1570,7 @@
           <ATOM Name="Skill" Value="SFMCA"/>
           <ATOM Name="SkillCode" Value="SFMCA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFMC"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFMCAD" Value="SFMCAD"/>
@@ -1581,7 +1581,7 @@
           <ATOM Name="Skill" Value="SFMCAD"/>
           <ATOM Name="SkillCode" Value="SFMCAD"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFMCA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFMCADM" Value="SFMCADM"/>
@@ -1591,14 +1591,14 @@
           <ATOM Name="Skill" Value="SFMCADM"/>
           <ATOM Name="SkillCode" Value="SFMCADM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFMCAD"/>
         </STRUCT>
         <STRUCT Name="SFMCAH">
           <ATOM Name="Skill" Value="SFMCAH"/>
           <ATOM Name="SkillCode" Value="SFMCAH"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFMCA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFMCAHM" Value="SFMCAHM"/>
@@ -1608,14 +1608,14 @@
           <ATOM Name="Skill" Value="SFMCAHM"/>
           <ATOM Name="SkillCode" Value="SFMCAHM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFMCAH"/>
         </STRUCT>
         <STRUCT Name="SFR">
           <ATOM Name="Skill" Value="SFR"/>
           <ATOM Name="SkillCode" Value="SFR"/>
-          <ATOM Name="MaxSkillValue" Value="50"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="MaxSkillValue" Value="80"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SF"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFR1" Value="SFR1"/>
@@ -1626,7 +1626,7 @@
           <ATOM Name="Skill" Value="SFR1"/>
           <ATOM Name="SkillCode" Value="SFR1"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFR1A" Value="SFR1A"/>
@@ -1636,7 +1636,7 @@
           <ATOM Name="Skill" Value="SFR1A"/>
           <ATOM Name="SkillCode" Value="SFR1A"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR1"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFR1AP" Value="SFR1AP"/>
@@ -1646,7 +1646,7 @@
           <ATOM Name="Skill" Value="SFR1AP"/>
           <ATOM Name="SkillCode" Value="SFR1AP"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR1A"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFR1APM" Value="SFR1APM"/>
@@ -1656,14 +1656,14 @@
           <ATOM Name="Skill" Value="SFR1APM"/>
           <ATOM Name="SkillCode" Value="SFR1APM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR1AP"/>
         </STRUCT>
         <STRUCT Name="SFR2">
           <ATOM Name="Skill" Value="SFR2"/>
           <ATOM Name="SkillCode" Value="SFR2"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFR2A" Value="SFR2A"/>
@@ -1673,7 +1673,7 @@
           <ATOM Name="Skill" Value="SFR2A"/>
           <ATOM Name="SkillCode" Value="SFR2A"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR2"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFR2AA" Value="SFR2AA"/>
@@ -1685,7 +1685,7 @@
           <ATOM Name="Skill" Value="SFR2AA"/>
           <ATOM Name="SkillCode" Value="SFR2AA"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR2A"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFR2AAM" Value="SFR2AAM"/>
@@ -1695,14 +1695,14 @@
           <ATOM Name="Skill" Value="SFR2AAM"/>
           <ATOM Name="SkillCode" Value="SFR2AAM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR2AA"/>
         </STRUCT>
         <STRUCT Name="SFR2AL">
           <ATOM Name="Skill" Value="SFR2AL"/>
           <ATOM Name="SkillCode" Value="SFR2AL"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR2A"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFR2ALM" Value="SFR2ALM"/>
@@ -1712,14 +1712,14 @@
           <ATOM Name="Skill" Value="SFR2ALM"/>
           <ATOM Name="SkillCode" Value="SFR2ALM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR2AL"/>
         </STRUCT>
         <STRUCT Name="SFR2AR">
           <ATOM Name="Skill" Value="SFR2AR"/>
           <ATOM Name="SkillCode" Value="SFR2AR"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR2A"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SFR2ARM" Value="SFR2ARM"/>
@@ -1729,14 +1729,14 @@
           <ATOM Name="Skill" Value="SFR2ARM"/>
           <ATOM Name="SkillCode" Value="SFR2ARM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SFR2AR"/>
         </STRUCT>
         <STRUCT Name="SH">
           <ATOM Name="Skill" Value="SH"/>
           <ATOM Name="SkillCode" Value="SH"/>
           <ATOM Name="MaxSkillValue" Value="20"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value=""/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHF" Value="SHF"/>
@@ -1745,8 +1745,8 @@
         <STRUCT Name="SHF">
           <ATOM Name="Skill" Value="SHF"/>
           <ATOM Name="SkillCode" Value="SHF"/>
-          <ATOM Name="MaxSkillValue" Value="50"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="MaxSkillValue" Value="80"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SH"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFD" Value="SHFD"/>
@@ -1760,7 +1760,7 @@
           <ATOM Name="Skill" Value="SHFD"/>
           <ATOM Name="SkillCode" Value="SHFD"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHF"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFDA" Value="SHFDA"/>
@@ -1770,7 +1770,7 @@
           <ATOM Name="Skill" Value="SHFDA"/>
           <ATOM Name="SkillCode" Value="SHFDA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFD"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFDAE" Value="SHFDAE"/>
@@ -1780,7 +1780,7 @@
           <ATOM Name="Skill" Value="SHFDAE"/>
           <ATOM Name="SkillCode" Value="SHFDAE"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFDA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFDAEM" Value="SHFDAEM"/>
@@ -1790,14 +1790,14 @@
           <ATOM Name="Skill" Value="SHFDAEM"/>
           <ATOM Name="SkillCode" Value="SHFDAEM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFDAE"/>
         </STRUCT>
         <STRUCT Name="SHFF">
           <ATOM Name="Skill" Value="SHFF"/>
           <ATOM Name="SkillCode" Value="SHFF"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHF"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFFA" Value="SHFFA"/>
@@ -1807,7 +1807,7 @@
           <ATOM Name="Skill" Value="SHFFA"/>
           <ATOM Name="SkillCode" Value="SHFFA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFF"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFFAE" Value="SHFFAE"/>
@@ -1817,7 +1817,7 @@
           <ATOM Name="Skill" Value="SHFFAE"/>
           <ATOM Name="SkillCode" Value="SHFFAE"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFFA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFFAEM" Value="SHFFAEM"/>
@@ -1827,14 +1827,14 @@
           <ATOM Name="Skill" Value="SHFFAEM"/>
           <ATOM Name="SkillCode" Value="SHFFAEM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFFAE"/>
         </STRUCT>
         <STRUCT Name="SHFJ">
           <ATOM Name="Skill" Value="SHFJ"/>
           <ATOM Name="SkillCode" Value="SHFJ"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHF"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFJA" Value="SHFJA"/>
@@ -1844,7 +1844,7 @@
           <ATOM Name="Skill" Value="SHFJA"/>
           <ATOM Name="SkillCode" Value="SHFJA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFJ"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFJAE" Value="SHFJAE"/>
@@ -1854,7 +1854,7 @@
           <ATOM Name="Skill" Value="SHFJAE"/>
           <ATOM Name="SkillCode" Value="SHFJAE"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFJA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFJAEM" Value="SHFJAEM"/>
@@ -1864,14 +1864,14 @@
           <ATOM Name="Skill" Value="SHFJAEM"/>
           <ATOM Name="SkillCode" Value="SHFJAEM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFJAE"/>
         </STRUCT>
         <STRUCT Name="SHFL">
           <ATOM Name="Skill" Value="SHFL"/>
           <ATOM Name="SkillCode" Value="SHFL"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHF"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFLA" Value="SHFLA"/>
@@ -1881,7 +1881,7 @@
           <ATOM Name="Skill" Value="SHFLA"/>
           <ATOM Name="SkillCode" Value="SHFLA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFL"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFLAE" Value="SHFLAE"/>
@@ -1891,7 +1891,7 @@
           <ATOM Name="Skill" Value="SHFLAE"/>
           <ATOM Name="SkillCode" Value="SHFLAE"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFLA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFLAEM" Value="SHFLAEM"/>
@@ -1901,14 +1901,14 @@
           <ATOM Name="Skill" Value="SHFLAEM"/>
           <ATOM Name="SkillCode" Value="SHFLAEM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFLAE"/>
         </STRUCT>
         <STRUCT Name="SHFP">
           <ATOM Name="Skill" Value="SHFP"/>
           <ATOM Name="SkillCode" Value="SHFP"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHF"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFPA" Value="SHFPA"/>
@@ -1918,7 +1918,7 @@
           <ATOM Name="Skill" Value="SHFPA"/>
           <ATOM Name="SkillCode" Value="SHFPA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFP"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFPAE" Value="SHFPAE"/>
@@ -1928,7 +1928,7 @@
           <ATOM Name="Skill" Value="SHFPAE"/>
           <ATOM Name="SkillCode" Value="SHFPAE"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFPA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SHFPAEM" Value="SHFPAEM"/>
@@ -1938,14 +1938,14 @@
           <ATOM Name="Skill" Value="SHFPAEM"/>
           <ATOM Name="SkillCode" Value="SHFPAEM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SHFPAE"/>
         </STRUCT>
         <STRUCT Name="SM">
           <ATOM Name="Skill" Value="SM"/>
           <ATOM Name="SkillCode" Value="SM"/>
           <ATOM Name="MaxSkillValue" Value="20"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value=""/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMD" Value="SMD"/>
@@ -1955,8 +1955,8 @@
         <STRUCT Name="SMD">
           <ATOM Name="Skill" Value="SMD"/>
           <ATOM Name="SkillCode" Value="SMD"/>
-          <ATOM Name="MaxSkillValue" Value="50"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="MaxSkillValue" Value="80"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SM"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMDA" Value="SMDA"/>
@@ -1967,7 +1967,7 @@
           <ATOM Name="Skill" Value="SMDA"/>
           <ATOM Name="SkillCode" Value="SMDA"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMD"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMDAA" Value="SMDAA"/>
@@ -1977,7 +1977,7 @@
           <ATOM Name="Skill" Value="SMDAA"/>
           <ATOM Name="SkillCode" Value="SMDAA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMDA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMDAAE" Value="SMDAAE"/>
@@ -1987,7 +1987,7 @@
           <ATOM Name="Skill" Value="SMDAAE"/>
           <ATOM Name="SkillCode" Value="SMDAAE"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMDAA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMDAAEM" Value="SMDAAEM"/>
@@ -1997,14 +1997,14 @@
           <ATOM Name="Skill" Value="SMDAAEM"/>
           <ATOM Name="SkillCode" Value="SMDAAEM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMDAAE"/>
         </STRUCT>
         <STRUCT Name="SMDH">
           <ATOM Name="Skill" Value="SMDH"/>
           <ATOM Name="SkillCode" Value="SMDH"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMD"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMDHA" Value="SMDHA"/>
@@ -2014,7 +2014,7 @@
           <ATOM Name="Skill" Value="SMDHA"/>
           <ATOM Name="SkillCode" Value="SMDHA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMDH"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMDHAE" Value="SMDHAE"/>
@@ -2024,7 +2024,7 @@
           <ATOM Name="Skill" Value="SMDHAE"/>
           <ATOM Name="SkillCode" Value="SMDHAE"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMDHA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMDHAEM" Value="SMDHAEM"/>
@@ -2034,14 +2034,14 @@
           <ATOM Name="Skill" Value="SMDHAEM"/>
           <ATOM Name="SkillCode" Value="SMDHAEM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMDHAE"/>
         </STRUCT>
         <STRUCT Name="SMO">
           <ATOM Name="Skill" Value="SMO"/>
           <ATOM Name="SkillCode" Value="SMO"/>
-          <ATOM Name="MaxSkillValue" Value="50"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="MaxSkillValue" Value="80"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SM"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMOA" Value="SMOA"/>
@@ -2052,7 +2052,7 @@
           <ATOM Name="Skill" Value="SMOA"/>
           <ATOM Name="SkillCode" Value="SMOA"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMO"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMOAA" Value="SMOAA"/>
@@ -2062,7 +2062,7 @@
           <ATOM Name="Skill" Value="SMOAA"/>
           <ATOM Name="SkillCode" Value="SMOAA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMOA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMOAAE" Value="SMOAAE"/>
@@ -2072,7 +2072,7 @@
           <ATOM Name="Skill" Value="SMOAAE"/>
           <ATOM Name="SkillCode" Value="SMOAAE"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMOAA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMOAAEM" Value="SMOAAEM"/>
@@ -2082,14 +2082,14 @@
           <ATOM Name="Skill" Value="SMOAAEM"/>
           <ATOM Name="SkillCode" Value="SMOAAEM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMOAAE"/>
         </STRUCT>
         <STRUCT Name="SMOE">
           <ATOM Name="Skill" Value="SMOE"/>
           <ATOM Name="SkillCode" Value="SMOE"/>
           <ATOM Name="MaxSkillValue" Value="100"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMO"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMOEA" Value="SMOEA"/>
@@ -2099,7 +2099,7 @@
           <ATOM Name="Skill" Value="SMOEA"/>
           <ATOM Name="SkillCode" Value="SMOEA"/>
           <ATOM Name="MaxSkillValue" Value="150"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMOE"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMOEAE" Value="SMOEAE"/>
@@ -2109,7 +2109,7 @@
           <ATOM Name="Skill" Value="SMOEAE"/>
           <ATOM Name="SkillCode" Value="SMOEAE"/>
           <ATOM Name="MaxSkillValue" Value="200"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMOEA"/>
           <ARRAY Name="ChildSkills">
             <ATOM Name="SMOEAEM" Value="SMOEAEM"/>
@@ -2119,7 +2119,7 @@
           <ATOM Name="Skill" Value="SMOEAEM"/>
           <ATOM Name="SkillCode" Value="SMOEAEM"/>
           <ATOM Name="MaxSkillValue" Value="250"/>
-          <ATOM Name="Type of Stage" Value="0"/>
+          <ATOM Name="Type of Stage" Value="1"/>
           <ATOM Name="ParentSkill" Value="SMOEAE"/>
         </STRUCT>
 		</ARRAY>
