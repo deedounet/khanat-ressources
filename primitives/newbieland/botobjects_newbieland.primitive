@@ -724,7 +724,7 @@
       <CHILD TYPE="CPrimZone">
         <PROPERTY TYPE="string">
           <NAME>ai_activity</NAME>
-          <STRING>no_chan</STRING>
+          <STRING>no_change</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>class</NAME>
