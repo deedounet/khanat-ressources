@@ -10,13 +10,10 @@
       </STRUCT>
     </STRUCT>
     <STRUCT Name="Collision">
-      <ATOM Name="CollisionRadius" Value="1"/>
+      <ATOM Name="CollisionRadius" Value="0.8"/>
       <ATOM Name="Length" Value="0"/>
       <ATOM Name="Width" Value="0"/>
       <ATOM Name="Height" Value="0"/>
-    </STRUCT>
-    <STRUCT Name="Properties">
-      <ATOM Name="Selectable" Value="true"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>
