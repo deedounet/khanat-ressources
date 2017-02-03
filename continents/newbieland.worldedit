@@ -14,7 +14,5 @@
       </ROOT_PRIMITIVE>
     </PRIMITIVES>
   </DATABASE_ELEMENT>
-  <DATABASE_ELEMENT FILENAME="H:\khanat-ressources\primitives\newbieland\botobjects_newbieland.primitive" TYPE="primitive"/>
   <DATABASE_ELEMENT FILENAME="H:\khanat-ressources\primitives\newbieland\village1_lirria.primitive" TYPE="primitive"/>
-  <DATABASE_ELEMENT FILENAME="H:\khanat-ressources\primitives\newbieland\urban_newbieland.primitive" TYPE="primitive"/>
 </NEL_WORLD_EDITOR_PROJECT>
