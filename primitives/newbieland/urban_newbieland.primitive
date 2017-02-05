@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="1309"/>
+    <ALIAS LAST_GENERATED="1319"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -506,14 +506,6 @@
               <STRING>item : icravu.sitem 10</STRING>
               <STRING>item : icravv.sitem 10</STRING>
               <STRING>item : icravw.sitem 10</STRING>
-              <STRING>item : icrasa.sitem 10</STRING>
-              <STRING>item : icrase.sitem 10</STRING>
-              <STRING>item : icrasg.sitem 10</STRING>
-              <STRING>item : icrasr.sitem 10</STRING>
-              <STRING>item : icrast.sitem 10</STRING>
-              <STRING>item : icrasu.sitem 10</STRING>
-              <STRING>item : icrasv.sitem 10</STRING>
-              <STRING>item : icrasw.sitem 10</STRING>
               <STRING>item : icrapa.sitem 10</STRING>
               <STRING>item : icrape.sitem 10</STRING>
               <STRING>item : icrapg.sitem 10</STRING>
@@ -522,7 +514,11 @@
               <STRING>item : icrapu.sitem 10</STRING>
               <STRING>item : icrapv.sitem 10</STRING>
               <STRING>item : icrapw.sitem 10</STRING>
-              <STRING>item : itrtfo.sitem 1</STRING>
+              <STRING>item : iccalb.sitem 10</STRING>
+              <STRING>item : icfalb.sitem 10</STRING>
+              <STRING>item : ictalb.sitem 10</STRING>
+              <STRING>item : icmalb.sitem 10</STRING>
+              <STRING>item : iczalb.sitem 10</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
@@ -1501,6 +1497,356 @@
             <NAME>name</NAME>
             <STRING>alias</STRING>
           </PROPERTY>
+        </CHILD>
+      </CHILD>
+    </CHILD>
+    <CHILD TYPE="CPrimZone">
+      <PROPERTY TYPE="string">
+        <NAME>ai_manager_type</NAME>
+        <STRING>NPC</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>npc_manager</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>disp_itenerant</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimAlias">
+        <ALIAS VALUE="1"/>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>npc_folder</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>disp_itenerant_folder</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="872"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_folder</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>disp_itinerant_folder_1</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="398"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimPath">
+            <PT X="8838.248047" Y="-10637.232422" Z="0.000000"/>
+            <PT X="8815.148438" Y="-10668.859375" Z="0.000000"/>
+            <PT X="8812.402344" Y="-10741.995117" Z="0.000000"/>
+            <PT X="8825.601563" Y="-10814.310547" Z="0.000000"/>
+            <PT X="8822.853516" Y="-10894.063477" Z="0.000000"/>
+            <PT X="8814.603516" Y="-11046.956055" Z="0.000000"/>
+            <PT X="8810.755859" Y="-11181.699219" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>ai_movement</NAME>
+              <STRING>follow_route</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_route</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>route_1</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="397"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_state_event_handler</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>event</NAME>
+                <STRING>start_of_state</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="168"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>set_timer_t0</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING>daytime 1</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_state_event_handler</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>event</NAME>
+                <STRING>timer_t0_triggered</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="169"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>begin_state</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING>route_2</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_group</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>disp_itinerant_group</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="394"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_group_parameters</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>parameters</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimPoint">
+                <PT X="8838.358398" Y="-10637.129883" Z="0.000000"/>
+                <PROPERTY TYPE="string_array">
+                  <NAME>chat_parameters</NAME>
+                  <STRING>menu: MENU_WHOAMI WHOAMI_TASK_HAWKER</STRING>
+                  <STRING>op : PriceFactor : 1</STRING>
+                  <STRING>item :icrm1pd 1</STRING>
+                  <STRING>item :icrm2ms 1</STRING>
+                  <STRING>item :itrtfo 1</STRING>
+                  <STRING>item :itrtar 1</STRING>
+                  <STRING>item :itrtje 1</STRING>
+                  <STRING>item :itrtmw 1</STRING>
+                  <STRING>item :itrtrw 1</STRING>
+                  <STRING>item :itrtam 1</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_bot</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>disp_itenerant_1$fct_dispensary_hawker$</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>sheet_client</NAME>
+                  <STRING>welcome_ra</STRING>
+                </PROPERTY>
+                <CHILD TYPE="CPrimAlias">
+                  <ALIAS VALUE="393"/>
+                  <PROPERTY TYPE="string">
+                    <NAME>class</NAME>
+                    <STRING>alias</STRING>
+                  </PROPERTY>
+                  <PROPERTY TYPE="string">
+                    <NAME>name</NAME>
+                    <STRING>alias</STRING>
+                  </PROPERTY>
+                </CHILD>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPath">
+            <PT X="8811.571289" Y="-11182.251953" Z="0.000000"/>
+            <PT X="8830.822266" Y="-11149.527344" Z="0.000000"/>
+            <PT X="8874.825195" Y="-11101.125000" Z="0.000000" SELECTED="true"/>
+            <PT X="8910.849609" Y="-11069.774414" Z="0.000000"/>
+            <PT X="8932.025391" Y="-11022.200195" Z="0.000000"/>
+            <PT X="8957.588867" Y="-10961.152344" Z="0.000000"/>
+            <PT X="9005.162109" Y="-10881.951172" Z="0.000000"/>
+            <PT X="9016.712891" Y="-10822.826172" Z="0.000000"/>
+            <PT X="9011.486328" Y="-10766.998047" Z="0.000000"/>
+            <PT X="8982.612305" Y="-10715.298828" Z="0.000000"/>
+            <PT X="8998.559570" Y="-10654.524414" Z="0.000000"/>
+            <PT X="9031.834961" Y="-10586.598633" Z="0.000000"/>
+            <PT X="8977.111328" Y="-10573.124023" Z="0.000000"/>
+            <PT X="8919.361328" Y="-10585.498047" Z="0.000000"/>
+            <PT X="8870.684570" Y="-10606.947266" Z="0.000000"/>
+            <PT X="8838.577148" Y="-10636.920898" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>ai_movement</NAME>
+              <STRING>follow_route</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_route</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>route_2</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="391"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_state_event_handler</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>event</NAME>
+                <STRING>start_of_state</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="170"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>set_timer_t0</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING>daytime 3</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>npc_state_event_handler</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>event</NAME>
+                <STRING>timer_t0_triggered</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="171"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>action</NAME>
+                  <STRING>begin_state</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>npc_event_handler_action</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>parameters</NAME>
+                  <STRING>route_1</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+          </CHILD>
         </CHILD>
       </CHILD>
     </CHILD>
