@@ -498,30 +498,6 @@
               <STRING>item : pendo_toy1.sitem 1</STRING>
               <STRING>item : pendo_toy2.sitem 1</STRING>
               <STRING>item : pendo_toy3.sitem 1</STRING>
-              <STRING>item : icraba.sitem 10</STRING>
-              <STRING>item : icrabe.sitem 10</STRING>
-              <STRING>item : icrabg.sitem 10</STRING>
-              <STRING>item : icrabr.sitem 10</STRING>
-              <STRING>item : icrabt.sitem 10</STRING>
-              <STRING>item : icrabu.sitem 10</STRING>
-              <STRING>item : icrabv.sitem 10</STRING>
-              <STRING>item : icrabw.sitem 10</STRING>
-              <STRING>item : icraga.sitem 10</STRING>
-              <STRING>item : icrage.sitem 10</STRING>
-              <STRING>item : icragg.sitem 10</STRING>
-              <STRING>item : icragr.sitem 10</STRING>
-              <STRING>item : icragt.sitem 10</STRING>
-              <STRING>item : icragu.sitem 10</STRING>
-              <STRING>item : icragv.sitem 10</STRING>
-              <STRING>item : icragw.sitem 10</STRING>
-              <STRING>item : icrala.sitem 10</STRING>
-              <STRING>item : icrale.sitem 10</STRING>
-              <STRING>item : icralg.sitem 10</STRING>
-              <STRING>item : icralr.sitem 10</STRING>
-              <STRING>item : icralt.sitem 10</STRING>
-              <STRING>item : icralu.sitem 10</STRING>
-              <STRING>item : icralv.sitem 10</STRING>
-              <STRING>item : icralw.sitem 10</STRING>
               <STRING>item : icrava.sitem 10</STRING>
               <STRING>item : icrave.sitem 10</STRING>
               <STRING>item : icravg.sitem 10</STRING>
@@ -530,14 +506,6 @@
               <STRING>item : icravu.sitem 10</STRING>
               <STRING>item : icravv.sitem 10</STRING>
               <STRING>item : icravw.sitem 10</STRING>
-              <STRING>item : icrasa.sitem 10</STRING>
-              <STRING>item : icrase.sitem 10</STRING>
-              <STRING>item : icrasg.sitem 10</STRING>
-              <STRING>item : icrasr.sitem 10</STRING>
-              <STRING>item : icrast.sitem 10</STRING>
-              <STRING>item : icrasu.sitem 10</STRING>
-              <STRING>item : icrasv.sitem 10</STRING>
-              <STRING>item : icrasw.sitem 10</STRING>
               <STRING>item : icrapa.sitem 10</STRING>
               <STRING>item : icrape.sitem 10</STRING>
               <STRING>item : icrapg.sitem 10</STRING>
@@ -1741,9 +1709,6 @@
                   <STRING>item :itrtmw 1</STRING>
                   <STRING>item :itrtrw 1</STRING>
                   <STRING>item :itrtam 1</STRING>
-                  <STRING>item :</STRING>
-                  <STRING>item :</STRING>
-                  <STRING>item :</STRING>
                 </PROPERTY>
                 <PROPERTY TYPE="string">
                   <NAME>class</NAME>
