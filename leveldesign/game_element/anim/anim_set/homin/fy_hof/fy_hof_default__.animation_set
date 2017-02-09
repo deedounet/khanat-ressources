@@ -495,7 +495,16 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
-<STRUCT Name="agree">
+    <STRUCT Name="afk">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_AFK.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="agree">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_oui.anim"/>
@@ -503,7 +512,11 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="alert">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
     <STRUCT Name="angry">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_levee_poing.anim"/>
@@ -511,7 +524,16 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="apologize">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emote_Sorry.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
     <STRUCT Name="applaud">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_applaudire.anim"/>
@@ -519,7 +541,19 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="ashamed_disgusted_desillusioned_loathing_pitying">
+      <ATOM Name="Display Objects" Value="false"/>
+    </STRUCT>
+    <STRUCT Name="blush">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Blush.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
     <STRUCT Name="bow">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_salut_incline.anim"/>
@@ -527,7 +561,14 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="brave_great">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="burp">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
     <STRUCT Name="bye">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_salut.anim"/>
@@ -535,7 +576,46 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="calm">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Calm.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="cheer">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Cheer.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="cold_contemptuous_disdainful_haughty_megalomaniac_obnoxious">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="cry">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Cry.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="curious">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="dance">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_dance.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
     <STRUCT Name="disagree">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_non.anim"/>
@@ -543,7 +623,98 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="discreet_hardsilence">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="doubtful">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="dramatic">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="drunk">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="exercise">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="FBT">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="fearful_insecure_nervous_panic_scared">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="firm">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="follow">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_folow.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="forgive">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="gesture">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_gesture.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="giggle">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Giggle.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="go_away">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Laisse_moi.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="guilty">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="heroic">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="hungry">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="impatient">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Impatient.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="indifferent_neutral_noclue_resigned">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="interested">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="kiss">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Kiss.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
     <STRUCT Name="kneel">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_salut2.anim"/>
@@ -552,6 +723,7 @@
       </ARRAY>
     </STRUCT>
     <STRUCT Name="laugh">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_rire.anim"/>
@@ -559,7 +731,77 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="lol">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_rire.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="none">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="over">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="petulant">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="playful">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="point">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Pointer.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="pointback">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="pointleft">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="pointright">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="pompous">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="praying">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="puzzled_thoughtful_troubled">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="relaxed">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="relieved_sigh">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="revengeful_spitful">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="rice">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="righteous">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="roar">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Roar.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
     <STRUCT Name="sad">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_shoote_poussiere.anim"/>
@@ -567,7 +809,46 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="serious">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="shifty">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="shocked">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="silly">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="sincerely">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="sleepy_yawn_tired">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="smack">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="smile">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emot_Smile.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="squeamish">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="surprised">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="suspicious">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
     <STRUCT Name="thank">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_salut_incline.anim"/>
@@ -575,7 +856,11 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="thirsty">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
     <STRUCT Name="unhappy">
+      <ATOM Name="Display Objects" Value="true"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_poing_contre_poing.anim"/>
@@ -583,13 +868,34 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
+    <STRUCT Name="unwilling">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="victory">
+      <ATOM Name="Display Objects" Value="true"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOF_Emote_victory.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="wait">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
     <STRUCT Name="wave">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOF_salut.anim"/>
           <ATOM Name="head controlable" Value="false"/>
         </STRUCT>
       </ARRAY>
+    </STRUCT>
+    <STRUCT Name="wicked">
+      <ATOM Name="Display Objects" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="youandme">
+      <ATOM Name="Display Objects" Value="true"/>
     </STRUCT>
   </STRUCT>
   <STRUCT/>
