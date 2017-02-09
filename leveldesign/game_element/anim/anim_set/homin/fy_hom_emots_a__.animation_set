@@ -22,393 +22,1183 @@
         </STRUCT>
       </ARRAY>
     </STRUCT>
-  <STRUCT Name="firework_01">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="afk">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkA.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_AFK.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-  <STRUCT Name="firework_02">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="agree">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
           <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkB.ps"/>
-        </STRUCT>
-        </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-  <STRUCT Name="firework_03">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="alert">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkC.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Alert.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-  <STRUCT Name="firework_04">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="angry">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkD.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Angry.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_05">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="apologize">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkE.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Sorry.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_06">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="applaud">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkF.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_applause.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_07">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="ashamed_disgusted_desillusioned_loathing_pitying">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkG.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_ashemed.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_08">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="blush">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkH.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Blush.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_09">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="bow">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkI.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="fy_hom_salut_incline.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_10">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="brave_great">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkG.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Heroic.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_11">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="burp">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkK.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_burp.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_12">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="bye">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkL.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_BYE.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_13">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="calm">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkM.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Calm.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_14">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="cheer">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkN.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Cheer.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_15">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="cold_contemptuous_disdainful_haughty_megalomaniac_obnoxious">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkO.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Cold.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_16">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="cry">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkP.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Cry.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_17">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="curious">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkQ.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Puzzled.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_18">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="dance">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkR.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_dance.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_19">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="disagree">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value="FireWorkS.ps"/>
-        </STRUCT>
-        </STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_non.anim"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_20">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="discreet_hardsilence">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Discreet.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="doubtful">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_doubtful.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="dramatic">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_dramatic.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="drunk">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_drunk.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="exercise">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Exercise.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="FBT">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_BETA_testeur.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="fearful_insecure_nervous_panic_scared">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_fearful.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firm">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_firm.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="follow">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_follow.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="forgive">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Sorry.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="gesture">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_gesture.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="giggle">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Giggle.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="go_away">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_laisse_moi.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="guilty">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_guilty.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="heroic">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Heroic.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="hungry">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_hungry.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="impatient">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Impatient.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="indifferent_neutral_noclue_resigned">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Indifferent.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="interested">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_interested.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="kiss">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_kiss.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="kneel">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_kneel.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="laugh">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Rofl.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="lol">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Rofl.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="none">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Veto.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="over">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Over.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="petulant">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_petulant.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="playful">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_playfull.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="point">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_pointer.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="pointback">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_pointback.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="pointleft">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_pointleft.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="pointright">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_pointright.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="pompous">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Pompous.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="praying">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_praying.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="puzzled_thoughtful_troubled">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Puzzled.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="relaxed">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Relaxed.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="relieved_sigh">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Relieved.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="revengeful_spitful">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_revengeful.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="rice">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_rice.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="righteous">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_righteous.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="roar">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_roar.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="sad">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_shoot_poussiere.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="serious">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_serious.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="shifty">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_shifty.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="shocked">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Shocked.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="silly">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_silly.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="sincerely">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_sincerely.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="sleepy_yawn_tired">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_sleepy.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="smack">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_smack.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="smile">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Smile.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="squeamish">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_squeamish.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="surprised">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Surprised.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="suspicious">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Suspicious.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="thank">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Bow.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="thirsty">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_thirsty.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="unhappy">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Veto.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="unwilling">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_unwilling.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="victory">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_victory.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="wait">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Impatient.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="wave">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_salut.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="wicked">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_Wicked.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="youandme">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emote_youandme.anim"/>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_01">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkA.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkA.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_02">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkB.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkB.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_03">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkC.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkC.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_04">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkD.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkD.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_05">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkE.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkE.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_06">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkF.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkF.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_07">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkG.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkG.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_08">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkH.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkH.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_09">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkI.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkI.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_10">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkJ.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkJ.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_11">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkK.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkK.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_12">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkL.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkL.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_13">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkM.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkM.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_14">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkN.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkN.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_15">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkO.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkO.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_16">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkP.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkP.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_17">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkQ.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkQ.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_18">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkR.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkR.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_19">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value="fireworkS.ps"/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value="fireworkS.ps"/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
+        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_20">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
-        </STRUCT>
-      </ARRAY>
-    </STRUCT>
-   <STRUCT Name="firework_21">
-      <ATOM Name="Display Objects" Value="true"/>
-      <ARRAY Name="animations">
-        <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
-          <STRUCT Name="fx_set">
-            <STRUCT Name="FX0">
-              <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_22">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="firework_21">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_23">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="firework_22">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_24">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="firework_23">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_25">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="firework_24">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_26">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="firework_25">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_27">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="firework_26">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_28">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="firework_27">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_29">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="firework_28">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
-        </STRUCT>
-        </STRUCT>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
-   <STRUCT Name="firework_30">
-      <ATOM Name="Display Objects" Value="true"/>
+    <STRUCT Name="firework_29">
+      <ATOM Name="Display Objects" Value="false"/>
       <ARRAY Name="animations">
         <STRUCT>
-          <ATOM Name="filename" Value="FY_HOM_oui.anim"/>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
           <STRUCT Name="fx_set">
             <STRUCT Name="FX0">
               <ATOM Name="PSName" Value=""/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
-        </STRUCT>
+      </ARRAY>
+    </STRUCT>
+    <STRUCT Name="firework_30">
+      <ATOM Name="Display Objects" Value="false"/>
+      <ARRAY Name="animations">
+        <STRUCT>
+          <ATOM Name="filename" Value="FY_HOM_Emot_Kneel.anim"/>
+          <ATOM Name="fx" Value=""/>
+          <STRUCT Name="fx_set">
+            <STRUCT Name="FX0">
+              <ATOM Name="PSName" Value=""/>
+              <STRUCT Name="StickMode">
+                <ATOM Name="StickMode" Value="SpawnPermanent"/>
+              </STRUCT>
+              <ATOM Name="RepeatMode" Value="Respawn"/>
+            </STRUCT>
+          </STRUCT>
         </STRUCT>
       </ARRAY>
     </STRUCT>
