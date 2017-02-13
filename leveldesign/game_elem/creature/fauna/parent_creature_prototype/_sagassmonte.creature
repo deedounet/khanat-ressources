@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <FORM Revision="$Revision: 1.45 $" State="modified">
   <PARENT Filename="_formuli.creature"/>
   <PARENT Filename="_ai_herbivore_craintif.creature"/>
@@ -41,7 +41,7 @@
     </STRUCT>
     <STRUCT Name="3d data">
       <ATOM Name="Skel" Value="TR_MO_sagass_selle.skel"/>
-      <ATOM Name="AnimSetBaseName" Value="sagass"/>
+      <ATOM Name="AnimSetBaseName" Value="sagass_mount"/>
       <ATOM Name="LodCharacterName" Value="TR_MO_sagass_LOD"/>
       <ATOM Name="LodCharacterDistance" Value="50.0"/>
       <ATOM Name="NamePosZLow" Value="0.5"/>
