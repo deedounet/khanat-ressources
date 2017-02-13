@@ -72,7 +72,7 @@
       <ATOM Name="SoundVariation" Value="1"/>
       <ATOM Name="ForceDisplayCreatureName" Value="true"/>
       <ATOM Name="Skel" Value="TR_MO_sagass_selle.skel"/>
-      <ATOM Name="AnimSetBaseName" Value="sagass_selle"/>
+      <ATOM Name="AnimSetBaseName" Value="sagass_mount"/>
       <ATOM Name="LodCharacterName" Value="TR_MO_sagass_LOD"/>
       <ATOM Name="LodCharacterDistance" Value="50.0"/>
       <STRUCT Name="Shadow">
