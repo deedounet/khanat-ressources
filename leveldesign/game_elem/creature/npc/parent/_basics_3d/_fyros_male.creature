@@ -20,25 +20,25 @@
       <ATOM Name="Skin" Value="fyros"/>
       <ARRAY Name="HairItem">
         <STRUCT Name="artistic">
-          <ATOM Name="Item" Value="artistic01.item"/>
+          <ATOM Name="Item" Value="fy_cheveux_artistic01.item"/>
         </STRUCT>
         <STRUCT Name="basic">
-          <ATOM Name="Item" Value="basic01.item"/>
+          <ATOM Name="Item" Value="fy_cheveux_basic01.item"/>
         </STRUCT>
         <STRUCT Name="long">
-          <ATOM Name="Item" Value="long01.item"/>
+          <ATOM Name="Item" Value="fy_cheveux_long01.item"/>
         </STRUCT>
         <STRUCT Name="medium">
-          <ATOM Name="Item" Value="medium01.item"/>
+          <ATOM Name="Item" Value="fy_cheveux_medium01.item"/>
         </STRUCT>
         <STRUCT Name="shave">
-          <ATOM Name="Item" Value="shave01.item"/>
+          <ATOM Name="Item" Value="fy_cheveux_shave01.item"/>
         </STRUCT>
         <STRUCT Name="short">
-          <ATOM Name="Item" Value="short01.item"/>
+          <ATOM Name="Item" Value="fy_cheveux_short01.item"/>
         </STRUCT>
         <STRUCT Name="style">
-          <ATOM Name="Item" Value="style01.item"/>
+          <ATOM Name="Item" Value="fy_cheveux_style01.item"/>
         </STRUCT>
       </ARRAY>
     </STRUCT>
