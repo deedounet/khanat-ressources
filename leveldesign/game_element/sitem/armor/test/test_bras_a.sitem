@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.0 $" State="modified">
+  <PARENT Filename="_test_armor_01_.sitem"/>
+  <STRUCT>
+    <STRUCT Name="basics">
+      <ATOM Name="name" Value="arms"/>
+      <ATOM Name="ItemType" Value="Light Sleeves"/>
+      <STRUCT Name="EquipmentInfo">
+        <ARRAY Name="EquipmentSlots">
+          <ATOM Value="Arms"/>
+        </ARRAY>
+      </STRUCT>
+    </STRUCT>
+    <STRUCT Name="3d">
+      <ATOM Name="shape" Value="test_bras_a.shape"/> 
+      <ATOM Name="shape_female" Value="test_bras_a.shape"/>
+      <ATOM Name="icon" Value="ar_armpad.tga"/>
+      <ATOM Name="icon background" Value="BK_generic.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>
