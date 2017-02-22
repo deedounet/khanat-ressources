@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.0 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="basics">
+      <ATOM Name="name" Value="runzatra dress"/>
+      <ATOM Name="origin" Value="common"/>
+      <ATOM Name="family" Value="armor"/>
+      <ATOM Name="Bulk" Value="7"/>
+      <ATOM Name="Time to Equip In Ticks" Value="30"/>
+    </STRUCT>
+    <STRUCT Name="armor">
+      <ATOM Name="Armor category" Value="light"/>
+    </STRUCT>
+    <STRUCT Name="crafting tool">
+      <ATOM Name="type" Value="ArmorTool"/>
+    </STRUCT>
+    <STRUCT Name="3d">
+      <ATOM Name="map_variant" Value="Default"/>
+      <ATOM Name="icon overlay" Value="PW_light.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM> 
