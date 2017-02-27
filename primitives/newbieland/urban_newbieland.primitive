@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="1323"/>
+    <ALIAS LAST_GENERATED="1319"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -86,9 +86,6 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>VPA:0042060000103206</STRING>
-              <STRING>VPB:00000020F0000000</STRING>
-              <STRING>VPC:0021DDE4074DA8D4</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -96,7 +93,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>welcome_ra</STRING>
+              <STRING>disp_welcome_ra</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="158"/>
@@ -493,8 +490,7 @@
             <ANGLE VALUE="6.037747"/>
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
-              <STRING>shop : Matis:Fyros:Tryker:ZoraiHAIRDRESSING_FEMALE:HAIRDRESSING_MALE:TATOO_MALE:TATOO_FEMALE</STRING>
-              <STRING>shop : NEWBIELAND_LARMOR_ALL</STRING>
+              <STRING>shop : Matis:Fyros:HAIRDRESSING_FEMALE:TATOO_FEMALE</STRING>
               <STRING>item : pendo_toy1.sitem 1</STRING>
               <STRING>item : pendo_toy2.sitem 1</STRING>
               <STRING>item : pendo_toy3.sitem 1</STRING>
@@ -526,9 +522,6 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>VPA:212C120000901209</STRING>
-              <STRING>VPB:000000C0BC090000</STRING>
-              <STRING>VPC:000000381396B8AD</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -536,7 +529,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>welcome_ra_f</STRING>
+              <STRING>nbland_marchand_larmor</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="146"/>
@@ -563,9 +556,6 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>VPA:A08C14000010D21B</STRING>
-              <STRING>VPB:000000C0CC0A0000</STRING>
-              <STRING>VPC:001625F805C2E9B4</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -573,7 +563,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>dispensary_tcara_f</STRING>
+              <STRING>nbland_marchand_pet</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>vertical_pos</NAME>
@@ -634,9 +624,6 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>VPA:802C12000010D21B</STRING>
-              <STRING>VPB:C0BC090000</STRING>
-              <STRING>VPC:19695C3A52589A</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -644,7 +631,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>welcome_ra</STRING>
+              <STRING>disp_jimman</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="1284"/>
@@ -990,9 +977,6 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>VPA:723C12000010D21B</STRING>
-              <STRING>VPB:C0BC090000</STRING>
-              <STRING>VPC:19695C3A52589A</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -1000,7 +984,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>welcome_ra</STRING>
+              <STRING>disp_sipvandil</STRING>
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="1306"/>
@@ -1172,7 +1156,7 @@
             <PROPERTY TYPE="string_array">
               <NAME>chat_parameters</NAME>
               <STRING>menu: MENU_WHOAMI FREDI_SINGER</STRING>
-              <STRING>shop : Matis:Fyros:HAIRDRESSING_FEMALE:HAIRDRESSING_MALE:TATOO_MALE:TATOO_FEMALE</STRING>
+              <STRING>shop : Matis:Fyros:HAIRDRESSING_MALE:TATOO_MALE</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
@@ -1180,9 +1164,6 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING>VPA:A13C12000010D21A</STRING>
-              <STRING>VPB:000000C0BC090000</STRING>
-              <STRING>VPC:00127A38007A689A</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -1190,7 +1171,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
-              <STRING>welcome_ra</STRING>
+              <STRING>nbland_esthetics</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>vertical_pos</NAME>
@@ -1568,7 +1549,7 @@
             <PT X="8838.248047" Y="-10637.232422" Z="0.000000"/>
             <PT X="8815.148438" Y="-10668.859375" Z="0.000000"/>
             <PT X="8812.402344" Y="-10741.995117" Z="0.000000"/>
-            <PT X="8825.601562" Y="-10814.310547" Z="0.000000"/>
+            <PT X="8825.601563" Y="-10814.310547" Z="0.000000"/>
             <PT X="8822.853516" Y="-10894.063477" Z="0.000000"/>
             <PT X="8814.603516" Y="-11046.956055" Z="0.000000"/>
             <PT X="8810.755859" Y="-11181.699219" Z="0.000000"/>
@@ -1714,19 +1695,13 @@
                   <NAME>class</NAME>
                   <STRING>npc_bot</STRING>
                 </PROPERTY>
-                <PROPERTY TYPE="string_array">
-                  <NAME>equipment</NAME>
-                  <STRING>VPA:723D12000000D21B</STRING>
-                  <STRING>VPB:C0BC090000</STRING>
-                  <STRING>VPC:000000381396B8AD</STRING>
-                </PROPERTY>
                 <PROPERTY TYPE="string">
                   <NAME>name</NAME>
                   <STRING>disp_itenerant_1$fct_dispensary_hawker$</STRING>
                 </PROPERTY>
                 <PROPERTY TYPE="string">
                   <NAME>sheet_client</NAME>
-                  <STRING>welcome_ra</STRING>
+                  <STRING>disp_itenerant_1</STRING>
                 </PROPERTY>
                 <CHILD TYPE="CPrimAlias">
                   <ALIAS VALUE="393"/>
