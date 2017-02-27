@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.0 $" State="modified">
+  <PARENT Filename="_pendo_for.creature"/>
+  <PARENT Filename="dag_attack.creature"/>
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="Race" Value="mektoub Packer"/>
+      <ATOM Name="PlayerSkillLevel" Value="1"/>
+      <ATOM Name="NbPlayers" Value="1"/>
+      <ATOM Name="PlayerChaScore1Level" Value="1"/>
+      <ATOM Name="NbHitToKillPlayer" Value="15"/>
+      <STRUCT Name="Characteristics">
+        <ATOM Name="DynamicEnergyValue" Value="0.00126"/>
+      </STRUCT>
+      <STRUCT Name="MovementSpeeds">
+        <ATOM Name="WalkSpeed" Value="4"/>
+        <ATOM Name="RunSpeed" Value="7"/>
+        <ATOM Name="GroupDispersion" Value="0.7"/>
+      </STRUCT>
+      <ATOM Name="ChaScore1" Value="40"/>
+      <ATOM Name="AttackSpeed" Value="3"/>
+      <ATOM Name="ChaScore1Regen" Value="0.1"/>
+      <ATOM Name="AttackLevel" Value="1"/>
+      <ATOM Name="DefenseLevel" Value="1"/>
+      <ATOM Name="XPLevel" Value="1"/>
+      <ATOM Name="TauntLevel" Value="0"/>
+      <ATOM Name="MeleeReachValue" Value="0"/>
+      <ATOM Name="RegionForce" Value="1"/>
+      <ATOM Name="ForceLevel" Value="1"/>
+      <ATOM Name="LocalCode" Value="1"/>
+      <ATOM Name="DodgeAsDefense" Value="true"/>
+      <ATOM Name="type" Value="pet"/>
+    </STRUCT>
+    <STRUCT Name="3d data">
+      <ATOM Name="Scale" Value="0.9"/>
+      <ATOM Name="SoundFamily" Value="0"/>
+      <ATOM Name="SoundVariation" Value="0"/>
+      <ATOM Name="ForceDisplayCreatureName" Value="true"/>
+    </STRUCT>
+    <STRUCT Name="Properties">
+      <ATOM Name="LootHarvestState" Value="Harvestable"/>
+      <ATOM Name="Attackable" Value="false"/>
+      <ATOM Name="Curativable" Value="false"/>
+    </STRUCT>
+    <STRUCT Name="Combat">
+      <ATOM Name="AggroRadiusNotHungry" Value="15"/>
+      <ATOM Name="AggroRadiusHungry" Value="15"/>
+      <ATOM Name="AggroRadiusHunting" Value="15"/>
+      <ATOM Name="DistModulator" Value="0.2"/>
+      <ATOM Name="TargetModulator" Value="0.25"/>
+      <ATOM Name="LifeLevelModulator" Value="0.01"/>
+      <ATOM Name="CourageModulator" Value="1"/>
+      <ATOM Name="GroupCohesionModulator" Value="0.01"/>
+      <ATOM Name="AssistDist" Value="0"/>
+      <ATOM Name="AggroRadiusD1" Value="100"/>
+      <ATOM Name="AggroRadiusD2" Value="50"/>
+    </STRUCT>
+    <STRUCT Name="Protections">
+      <ATOM Name="PiercingMax" Value="50"/>
+      <ATOM Name="PiercingFactor" Value="50"/>
+      <ATOM Name="SlashingMax" Value="50"/>
+      <ATOM Name="SlashingFactor" Value="50"/>
+      <ATOM Name="BluntMax" Value="50"/>
+      <ATOM Name="BluntFactor" Value="50"/>
+      <ATOM Name="RotMax" Value="37.5"/>
+      <ATOM Name="RotFactor" Value="50"/>
+      <ATOM Name="AcidMax" Value="50"/>
+      <ATOM Name="AcidFactor" Value="50"/>
+      <ATOM Name="ColdMax" Value="50"/>
+      <ATOM Name="ColdFactor" Value="50"/>
+      <ATOM Name="FireMax" Value="50"/>
+      <ATOM Name="FireFactor" Value="50"/>
+      <ATOM Name="PoisonMax" Value="50"/>
+      <ATOM Name="PoisonFactor" Value="50"/>
+      <ATOM Name="ElectricityMax" Value="50"/>
+      <ATOM Name="ElectricityFactor" Value="50"/>
+      <ATOM Name="ShockMax" Value="50"/>
+      <ATOM Name="ShockFactor" Value="05"/>
+    </STRUCT>
+    <STRUCT Name="Resists">
+      <ATOM Name="Fear" Value="50"/>
+      <ATOM Name="Sleep" Value="50"/>
+      <ATOM Name="Stun" Value="50"/>
+      <ATOM Name="Root" Value="50"/>
+      <ATOM Name="Blind" Value="50"/>
+      <ATOM Name="Snare" Value="50"/>
+      <ATOM Name="Slow" Value="50"/>
+      <ATOM Name="Acid" Value="50"/>
+      <ATOM Name="Cold" Value="50"/>
+      <ATOM Name="Electricity" Value="50"/>
+      <ATOM Name="Fire" Value="50"/>
+      <ATOM Name="Poison" Value="00"/>
+      <ATOM Name="Rot" Value="50"/>
+    </STRUCT>
+    <STRUCT Name="Damage Shield">
+      <ATOM Name="Damage" Value="0"/>
+      <ATOM Name="Drained ChaScore1" Value="0"/>
+    </STRUCT>
+    <ATOM Name="category" Value="H"/>
+    <ATOM Name="race_code" Value="D"/>
+    <ATOM Name="group_assist" Value="hd"/>
+    <ATOM Name="creature_level" Value="0.5"/>
+    <ATOM Name="group_id" Value="HD"/>
+    <STRUCT Name="animal_bag">
+      <ATOM Name="bag" Value="bag.sitem"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

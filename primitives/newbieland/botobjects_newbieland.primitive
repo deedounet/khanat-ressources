@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="1061"/>
+    <ALIAS LAST_GENERATED="1168"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -89,6 +89,33 @@
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="490"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8873.810547" Y="-10597.110352" Z="0.000000"/>
+            <ANGLE VALUE="-9.994192"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>minaret</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>object_egg_revif_on</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1168"/>
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
                 <STRING>alias</STRING>
