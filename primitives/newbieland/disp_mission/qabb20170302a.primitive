@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<PRIMITIVES VERSION="1">
+  <ROOT_PRIMITIVE TYPE="CPrimNode">
+    <ALIAS LAST_GENERATED="0"/>
+    <CHILD TYPE="CPrimNode">
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>missions_editor</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>qabb20170302a</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>audience</NAME>
+          <STRING>solo</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>automatic</NAME>
+          <STRING>true</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>mission_tree</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>giver_primitive</NAME>
+          <STRING>urban_newbieland.primitive</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>mission_category</NAME>
+          <STRING>forage</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>mission_description</NAME>
+          <STRING>qabb20170302a_DESC</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>mission_giver</NAME>
+          <STRING>$givevar@fullname$</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>mission_icon</NAME>
+          <STRING>generic_forage</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>mission_title</NAME>
+          <STRING>qabb20170302a_TITLE</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>qabb20170302a</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>phrase_auto_menu</NAME>
+          <STRING>qabb20170302a_PHR</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>replayable</NAME>
+          <STRING>true</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>variables</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>variables</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>var_npc</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>givevar = disp_tydorss (fct_dispensary_miller)</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>npc_function</NAME>
+              <STRING>fct_dispensary_miller</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>npc_name</NAME>
+              <STRING>disp_tydorss</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>var_name</NAME>
+              <STRING>givevar</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>pre_requisite</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>pre_requisite</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="1"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>step</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>step_4</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>pre_actions</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>mission_objectives</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>objectives</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>forage</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>item/quantity/quality</NAME>
+                <STRING>mgedja 5 1</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>roleplay_objective</NAME>
+                <STRING>qabb20170302a_OBJ</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>give_item</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>item/quantity/quality</NAME>
+                <STRING>mgedja 12 1</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>npc_name</NAME>
+                <STRING>disp_bagflour</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>roleplay_objective</NAME>
+                <STRING>qabb20170302a_OBJ1</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>recv_item</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string_array">
+                  <NAME>item/quantity/quality</NAME>
+                  <STRING>mflour 3 1</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>npc_name</NAME>
+                  <STRING>disp_bagflour</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>give_item</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>item/quantity/quality</NAME>
+                <STRING>mflour 3 1</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>roleplay_objective</NAME>
+                <STRING>qabb20170302a_OBJ2</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>amount</NAME>
+                  <STRING>1000</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>recv_money</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>post_actions</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+    </CHILD>
+  </ROOT_PRIMITIVE>
+</PRIMITIVES>

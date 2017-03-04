@@ -1,0 +1,17 @@
+﻿// DIFF_VERSION 2
+// DIFF ADD
+// HASH_VALUE 41600732996CE5F4
+qabb20170302a_TITLE ()
+{
+		qabb20170302a_TITLE	[Donner de la farine de gedja]
+
+}
+
+// DIFF REMOVED
+// HASH_VALUE 41600732996CE5F4
+qabb20170302aa_TITLE ()
+{
+		qabb20170302a_TITLE	[Donner de la farine de gedja]
+
+}
+

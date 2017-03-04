@@ -1,0 +1,31 @@
+qabb20170302a_TITLE ()
+{
+		qabb20170302a_TITLE	[Donner de la farine de gedja]
+
+}
+
+qabb20170302a_DESC ()
+{
+		qabb20170302a_DESC    [Déterrer douze gedja, de délicieux tubercules, et les tranformer au moulin en farine.]
+
+}
+
+qabb20170302a_OBJ ()
+{
+		qabb20170302a_OBJ    [Récolter douze gedja]
+
+}
+
+qabb20170302a_OBJ1 ()
+{
+		qabb20170302a_OBJ1    [Transformer douze gedja au moulin en farine]
+
+}
+
+qabb20170302a_OBJ2 ()
+{
+		qabb20170302a_OBJ2    [Donner 3 sacs de farine de gedja]
+
+}
+
+
