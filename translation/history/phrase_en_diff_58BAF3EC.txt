@@ -1,0 +1,9 @@
+﻿// DIFF_VERSION 2
+// DIFF ADD
+// HASH_VALUE CE09BFDE6A1DEDD1
+qabb20160603b_OBJ4 ()
+{
+		qabb20160603b_OBJ4	[Give gedja to make flour at the mill]
+
+}
+

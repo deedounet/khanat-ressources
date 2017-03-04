@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="18"/>
+    <ALIAS LAST_GENERATED="30"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -9,7 +9,7 @@
       </PROPERTY>
       <PROPERTY TYPE="string">
         <NAME>name</NAME>
-        <STRING>housing_mairie</STRING>
+        <STRING>housing_manager</STRING>
       </PROPERTY>
       <CHILD TYPE="CPrimAlias">
         <ALIAS VALUE="1002"/>
@@ -89,7 +89,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>housing_mairie</STRING>
+              <STRING>tente_givre</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
@@ -150,7 +150,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>housing_feudecamp</STRING>
+              <STRING>feudecamp</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
@@ -176,7 +176,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>housing_feuxdecamp</STRING>
+              <STRING>feuxdecamp</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
@@ -202,7 +202,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>housing_firepit</STRING>
+              <STRING>ponant_firepit</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
@@ -210,6 +210,188 @@
             </PROPERTY>
             <CHILD TYPE="CPrimAlias">
               <ALIAS VALUE="1033"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9102.250977" Y="-10463.150391" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>cuhion</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>cushion_01</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1015"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9106.375977" Y="-10466.451172" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>cuhion</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>cushion_01</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="21"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9093.863281" Y="-10470.300781" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>cuhion</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>cushion_01</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="20"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9097.576172" Y="-10463.562500" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>cuhion</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>cushion_01</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="19"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9094.826172" Y="-10466.037109" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>cuhion</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>cushion_01</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="23"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9095.238281" Y="-10472.912109" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>cuhion</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>cushion_01</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="22"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="9107.476563" Y="-10471.399414" Z="0.000000"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>cuhion</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>cushion_01</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="24"/>
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
                 <STRING>alias</STRING>
@@ -229,7 +411,7 @@
         </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>name</NAME>
-          <STRING>housing_mairie</STRING>
+          <STRING>housing_zone_lyne</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>vertical_pos</NAME>
@@ -285,11 +467,10 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING></STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>housing_mairie</STRING>
+              <STRING>tente_givre</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
@@ -343,7 +524,7 @@
             </PROPERTY>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="9053.976562" Y="-10488.956055" Z="0.000000"/>
+            <PT X="9053.976563" Y="-10488.956055" Z="0.000000"/>
             <ANGLE VALUE="-1.325359"/>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
@@ -351,7 +532,7 @@
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>ni</STRING>
+              <STRING>nid_pendo</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
@@ -378,7 +559,7 @@
         </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>name</NAME>
-          <STRING>housing_mairie</STRING>
+          <STRING>housing_2</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>vertical_pos</NAME>
@@ -434,11 +615,10 @@
             </PROPERTY>
             <PROPERTY TYPE="string_array">
               <NAME>equipment</NAME>
-              <STRING></STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
-              <STRING>housing_mairie</STRING>
+              <STRING>tente_givre</STRING>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>sheet_client</NAME>
@@ -491,6 +671,220 @@
               <STRING>alias</STRING>
             </PROPERTY>
           </CHILD>
+        </CHILD>
+      </CHILD>
+    </CHILD>
+    <CHILD TYPE="CPrimZone">
+      <PROPERTY TYPE="string">
+        <NAME>class</NAME>
+        <STRING>fauna</STRING>
+      </PROPERTY>
+      <PROPERTY TYPE="string">
+        <NAME>name</NAME>
+        <STRING>housing_lyne</STRING>
+      </PROPERTY>
+      <CHILD TYPE="CPrimAlias">
+        <ALIAS VALUE="4197"/>
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>alias</STRING>
+        </PROPERTY>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>group_fauna</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>fauna_type</NAME>
+          <STRING>HERBIVORE</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>name</NAME>
+          <STRING>pendo_papa</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>solidarity</NAME>
+          <STRING>disabled</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>spawn_times</NAME>
+          <STRING>1 0 0</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>times</NAME>
+          <STRING>30 300</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimPoint">
+          <PT X="9056.438477" Y="-10496.838867" Z="0.000000"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>rest</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>rest</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>radius</NAME>
+            <STRING>4</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="4201"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimPoint">
+          <PT X="9050.938477" Y="-10493.122070" Z="0.000000" SELECTED="true"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>food</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>food</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>radius</NAME>
+            <STRING>10</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="4200"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimPoint">
+          <PT X="9054.272461" Y="-10489.241211" Z="0.000000"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>spawn</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>spawn</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>radius</NAME>
+            <STRING>5</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="4199"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="4198"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>population</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>pendo_papa</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>spawn_type</NAME>
+            <STRING>always</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="4202"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>people</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>count</NAME>
+              <STRING>1</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>creature_code</NAME>
+              <STRING>pendorid</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>pendo_papa</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+      </CHILD>
+      <CHILD TYPE="CPrimNode">
+        <PROPERTY TYPE="string">
+          <NAME>class</NAME>
+          <STRING>fauna_event_handler</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>event</NAME>
+          <STRING>start_of_state</STRING>
+        </PROPERTY>
+        <CHILD TYPE="CPrimAlias">
+          <ALIAS VALUE="30"/>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>action</NAME>
+            <STRING>code</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>fauna_event_handler_action</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>parameters</NAME>
+            <STRING>()rename("Papounet");</STRING>
+          </PROPERTY>
         </CHILD>
       </CHILD>
     </CHILD>

@@ -69,3 +69,9 @@ TEXT_qabb20160603b_3  ()
 		TEXT_qabb20160603b_3    [J'ai du levain dans ce bol, je vais lui ajouter de la farine. Quant à l'eau que tu m'as amené, je lui ajoute du sel. Je le dissous puis je le verse sur le levain et la farine. Ensuite il faut pétrir le pâton… Une fois qu'il a la bonne consistance, je vais le mettre à lever, là, au coin du feu. Dans 4 heures, je le pétrirai rapidement une seconde fois, pour le mettre en forme, puis il lèveras une seconde fois, juste une heure. Enfin, je le mettrai dans le four à pain. Donc, si tu reviens dans environ 5 à 6 heures, tu auras du pain tout chaud sorti du four !]
 
 }
+
+qabb20160603b_OBJ4 ()
+{
+		qabb20160603b_OBJ4    [Donnez des gedja pour faire de la farine au moulin]
+
+}

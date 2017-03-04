@@ -1,0 +1,77 @@
+﻿// DIFF CHANGED 1765 
+/* OLD VALUE : [Qu'est-ce que la Karavan ?] */
+// HASH_VALUE 2B4617FD9603DA73
+// INDEX 0
+menu_who_is_karavan	[Qu'est-ce que le Khan?]
+
+// DIFF CHANGED 3753 
+/* OLD VALUE : [Salutations, jeune homin. Si l'on vient vous importuner, venez me trouver et je rallierai votre défense.] */
+// HASH_VALUE 2DEF227EC2DF12C1
+// INDEX 1
+whoami_newbguard	[Salutations, jeune ra. Si l'on vient vous importuner, venez me trouver et je rallierai votre défense.]
+
+// DIFF ADD 3769 
+// HASH_VALUE 39F1D21C584DF17F
+// INDEX 2
+qabb20160603b_OBJ4	[Donnez des gedja pour faire de la farine au moulin]
+
+// DIFF ADD 3776 
+// HASH_VALUE 33E61FC267B5A707
+// INDEX 3
+qabb20161025a_DESC	[Trouvez des klums bien murs, ramassez les. Puis ramenez les à Sipvandil.]
+
+// DIFF ADD 3777 
+// HASH_VALUE F031448C71A57425
+// INDEX 4
+qabb20161025a_DSP1	[Vous devez trouver les klums.]
+
+// DIFF ADD 3778 
+// HASH_VALUE B3F24E923B1F8597
+// INDEX 5
+qabb20161025a_DSP2	[Regardez sur le sol pour trouver des klums.]
+
+// DIFF ADD 3779 
+// HASH_VALUE A467C75218DAD171
+// INDEX 6
+qabb20161025a_DSP3	[Vous êtes partis trop loin.]
+
+// DIFF ADD 3780 
+// HASH_VALUE 49605EC12AF7DC9A
+// INDEX 7
+qabb20161025a_DSP4	[Vous avez reussi à trouver les klums.]
+
+// DIFF ADD 3781 
+// HASH_VALUE 9CED2432E959CA55
+// INDEX 8
+qabb20161025a_INTRO	[J'ai envie d'une belle tarte aux klums, vous devez absolument m'en trouver des bien murs et ramenez les à Sipvandil pour qu'il me fasse une belle tarte *miam*.]
+
+// DIFF ADD 3782 
+// HASH_VALUE 73752D93DABD631E
+// INDEX 9
+qabb20161025a_OBJ1	[Cherchez où pousse les arbres à Klums.]
+
+// DIFF ADD 3783 
+// HASH_VALUE 2FE59F353052CF64
+// INDEX 10
+qabb20161025a_OBJ2	[Cherchez les klums sur le sol.]
+
+// DIFF ADD 3784 
+// HASH_VALUE 53AD035347B5DC8F
+// INDEX 11
+qabb20161025a_OBJ3	[Parlez à Sipvandil.]
+
+// DIFF ADD 3785 
+// HASH_VALUE 4DAE399A82C9F3A6
+// INDEX 12
+qabb20161025a_PHR1	[Bonjour, je vous ai ramené des klums de la part de Jimman.]
+
+// DIFF ADD 3786 
+// HASH_VALUE AED04D1FE58FC30F
+// INDEX 13
+qabb20161025a_PHR2	[Ah merci. Je vais lui préparer une bonne tarte. je vous donne ça pour vous remercier.]
+
+// DIFF ADD 3787 
+// HASH_VALUE 9879F4495C9AAC5E
+// INDEX 14
+qabb20161025a_TITLE	[Ramener des klums]
+

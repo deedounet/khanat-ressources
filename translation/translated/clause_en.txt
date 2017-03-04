@@ -6782,10 +6782,10 @@ magic_target_out_of_range	[&CHKCB&$e.da$ $e$ is out of range for your spell.]
 // INDEX 1539
 menu_who_am_i	[Who are you?]
 
-/* OLD VALUE : [What is the karavan?] */
-// HASH_VALUE FC896C6185CA6C36
+/* OLD VALUE : [What is the Karavan?] */
+// HASH_VALUE D678702AD769F3FF
 // INDEX 1540
-menu_who_is_karavan	[What is the Karavan?]
+menu_who_is_karavan	[What is the Khan?]
 
 // HASH_VALUE 1F434822151747E0
 // INDEX 1541
@@ -15133,9 +15133,10 @@ welcome_ra_8	[Glory to the K ! Glory to the K ! Ahem, to the Khan !]
 // INDEX 3365
 welcome_ra_welcome	[I am Uil'i, Fellow of the Dispensary, I take care of the Manret and the Reviv here.]
 
-// HASH_VALUE 496EBDD1F11D8F50
+/* OLD VALUE : [Greetings, young homin. If you get into bother come and find me and I shall rally to your defense.] */
+// HASH_VALUE 0CF459BC3D6D60E9
 // INDEX 3366
-whoami_newbguard	[Greetings, young homin. If you get into bother come and find me and I shall rally to your defense.]
+whoami_newbguard	[Greetings, young ra. If you get into bother come and find me and I shall rally to your defense.]
 
 // HASH_VALUE CE8BE46335B21A8A
 // INDEX 3367
@@ -15197,27 +15198,111 @@ qabb20160603b_OBJ2	[Fill a watertank]
 // INDEX 3381
 qabb20160603b_OBJ3	[Talk to Silvandil]
 
-// HASH_VALUE 56593B335FE6A059
+// HASH_VALUE 3278E9A915D97B6F
 // INDEX 3382
+qabb20160603b_OBJ4	[Give gedja to make flour at the mill]
+
+// HASH_VALUE 56593B335FE6A059
+// INDEX 3383
 qabb20160603b_TITLE	[Make some bread]
 
 // HASH_VALUE C4661B381D4F0DB8
-// INDEX 3383
+// INDEX 3384
 qabb20160607a_DESC	[Find a pendo's nest and get some eggs without being noticed. Beware, this task can be risky, even deadly. Bring the eggs back to Sipvandil.]
 
 // HASH_VALUE 2A02E8832EB0D8D5
-// INDEX 3384
+// INDEX 3385
 qabb20160607a_OBJ	[Find pendo's nests]
 
 // HASH_VALUE A8E738F06AB56B7F
-// INDEX 3385
+// INDEX 3386
 qabb20160607a_OBJ1	[Give the eggs to Sipvandil]
 
 // HASH_VALUE AE79C83356698F62
-// INDEX 3386
+// INDEX 3387
 qabb20160607a_OBJ2	[Talk to Sipvandil]
 
 // HASH_VALUE E980B78A9BB95F53
-// INDEX 3387
+// INDEX 3388
 qabb20160607a_TITLE	[Bring back pendos' eggs]
+
+// HASH_VALUE 33E61FC267B5A707
+// INDEX 3389
+qabb20161025a_DESC	[Trouvez des klums bien murs, ramassez les. Puis ramenez les à Sipvandil.]
+
+// HASH_VALUE F031448C71A57425
+// INDEX 3390
+qabb20161025a_DSP1	[Vous devez trouver les klums.]
+
+// HASH_VALUE B3F24E923B1F8597
+// INDEX 3391
+qabb20161025a_DSP2	[Regardez sur le sol pour trouver des klums.]
+
+// HASH_VALUE A467C75218DAD171
+// INDEX 3392
+qabb20161025a_DSP3	[Vous êtes partis trop loin.]
+
+// HASH_VALUE 49605EC12AF7DC9A
+// INDEX 3393
+qabb20161025a_DSP4	[Vous avez reussi à trouver les klums.]
+
+// HASH_VALUE 9CED2432E959CA55
+// INDEX 3394
+qabb20161025a_INTRO	[J'ai envie d'une belle tarte aux klums, vous devez absolument m'en trouver des bien murs et ramenez les à Sipvandil pour qu'il me fasse une belle tarte *miam*.]
+
+// HASH_VALUE 73752D93DABD631E
+// INDEX 3395
+qabb20161025a_OBJ1	[Cherchez où pousse les arbres à Klums.]
+
+// HASH_VALUE 2FE59F353052CF64
+// INDEX 3396
+qabb20161025a_OBJ2	[Cherchez les klums sur le sol.]
+
+// HASH_VALUE 53AD035347B5DC8F
+// INDEX 3397
+qabb20161025a_OBJ3	[Parlez à Sipvandil.]
+
+// HASH_VALUE 4DAE399A82C9F3A6
+// INDEX 3398
+qabb20161025a_PHR1	[Bonjour, je vous ai ramené des klums de la part de Jimman.]
+
+// HASH_VALUE AED04D1FE58FC30F
+// INDEX 3399
+qabb20161025a_PHR2	[Ah merci. Je vais lui préparer une bonne tarte. je vous donne ça pour vous remercier.]
+
+// HASH_VALUE 9879F4495C9AAC5E
+// INDEX 3400
+qabb20161025a_TITLE	[Ramener des klums]
+
+// HASH_VALUE 8DB42C91C7E61657
+// INDEX 3401
+qabb20170302a_DESC	[Déterrer douze gedja, de délicieux tubercules, et les tranformer au moulin en farine.]
+
+// HASH_VALUE 2C289A43AD849E58
+// INDEX 3402
+qabb20170302a_OBJ	[Récolter douze gedja]
+
+// HASH_VALUE F261EC5E383F6DCA
+// INDEX 3403
+qabb20170302a_OBJ1	[Transformer douze gedja au moulin en farine]
+
+// HASH_VALUE E814B8E8854493A6
+// INDEX 3404
+qabb20170302a_OBJ2	[Donner 3 sacs de farine de gedja]
+
+// HASH_VALUE 53A887772900B42D
+// INDEX 3405
+qabb20170302a_TITLE	[Donner de la farine de gedja]
+
+// HASH_VALUE 78A2B5450BB09C3C
+// INDEX 3406
+qabb20170303a_DESC	[Transformer 3 gedja en un sac de farine de gedja.]
+
+// HASH_VALUE 9FA020B3360A0BD7
+// INDEX 3407
+qabb20170303a_OBJ	[Transformer 3 gedja en un sac de farine.]
+
+// HASH_VALUE 9EEED7A275F3F599
+// INDEX 3408
+qabb20170303a_TITLE	[Transformer la racine de gedja en un sac de farine de gedja.]
 

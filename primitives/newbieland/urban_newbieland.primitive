@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
-    <ALIAS LAST_GENERATED="1319"/>
+    <ALIAS LAST_GENERATED="1322"/>
     <CHILD TYPE="CPrimZone">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -83,9 +83,6 @@
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
               <STRING>npc_bot</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string_array">
-              <NAME>equipment</NAME>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -203,7 +200,7 @@
                 <STRING>mission_title : qabb20160310a_TITLE</STRING>
                 <STRING>mission_desc : qabb20160310a_DESC</STRING>
                 <STRING># step_4</STRING>
-                <STRING>set_obj_rp : qabb20160310a_OBJ</STRING>
+                <STRING>set_obj : qabb20160310a_OBJ</STRING>
                 <STRING>talk_to : disp_jimman : TEXT_qabb20160310a</STRING>
                 <STRING></STRING>
               </PROPERTY>
@@ -520,9 +517,6 @@
               <NAME>class</NAME>
               <STRING>npc_bot</STRING>
             </PROPERTY>
-            <PROPERTY TYPE="string_array">
-              <NAME>equipment</NAME>
-            </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
               <STRING>nbland_marchand_larmor$fct_larmor_merchant$</STRING>
@@ -553,9 +547,6 @@
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
               <STRING>npc_bot</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string_array">
-              <NAME>equipment</NAME>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
@@ -622,9 +613,6 @@
               <NAME>class</NAME>
               <STRING>npc_bot</STRING>
             </PROPERTY>
-            <PROPERTY TYPE="string_array">
-              <NAME>equipment</NAME>
-            </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
               <STRING>disp_jimman$fct_dispensary_steward$</STRING>
@@ -675,10 +663,10 @@
                 <STRING>mission_title : qabb20160603a_TITLE</STRING>
                 <STRING>mission_desc : qabb20160603a_DESC</STRING>
                 <STRING># step_4</STRING>
-                <STRING>set_obj_rp : qabb20160603a_OBJ</STRING>
+                <STRING>set_obj : qabb20160603a_OBJ</STRING>
                 <STRING>forage : mgedja 20 5</STRING>
                 <STRING>add_compass_npc : disp_sipvandil</STRING>
-                <STRING>set_obj_rp : qabb20160603a_OBJ1</STRING>
+                <STRING>set_obj : qabb20160603a_OBJ1</STRING>
                 <STRING>give_item : mgedja 20 5 : disp_sipvandil</STRING>
                 <STRING>recv_item : conso_fireworks_a 3 1 : disp_sipvandil</STRING>
                 <STRING>recv_money : 1000</STRING>
@@ -729,38 +717,39 @@
                 <STRING>#script</STRING>
                 <STRING>mission_title : qabb20160603b_TITLE</STRING>
                 <STRING>mission_desc : qabb20160603b_DESC</STRING>
-                <STRING># INTRO</STRING>
-                <STRING>dyn_chat : disp_jimman : TEXT_qabb20160603b_0 : INTRO_resp ANSWER_OK</STRING>
-                <STRING>jump_point : INTRO_resp</STRING>
+                <STRING># give</STRING>
+                <STRING>set_obj : qabb20160603b_OBJ</STRING>
+                <STRING>talk_to : disp_jimman : qabb20160603b_PHR</STRING>
                 <STRING>recv_item : mgourd_empty 5 1 : disp_jimman</STRING>
-                <STRING>add_compass_npc : bag_flour</STRING>
-                <STRING>set_obj_rp : qabb20160603b_OBJ1</STRING>
-                <STRING>target_npc : bag_flour</STRING>
-                <STRING>recv_item : mflour 1 1 : bag_flour</STRING>
+                <STRING>add_compass_npc : disp_bagflour</STRING>
+                <STRING>forage : mgedja 3 1</STRING>
+                <STRING>set_obj : qabb20160603b_OBJ4</STRING>
+                <STRING>give_item : mgedja 3 1 : disp_bagflour</STRING>
+                <STRING>recv_item : mflour 3 1 : disp_bagflour</STRING>
                 <STRING>add_compass_npc : source1</STRING>
                 <STRING># search</STRING>
-                <STRING>set_obj_rp : qabb20160603b_OBJ2</STRING>
+                <STRING>set_obj : qabb20160603b_OBJ2</STRING>
                 <STRING>give_item : mgourd_empty 1 1 : source1</STRING>
                 <STRING>add_compass_npc : source2</STRING>
                 <STRING>recv_item : mgourd_full 1 1 : source1</STRING>
-                <STRING>set_obj_rp : qabb20160603b_OBJ2</STRING>
+                <STRING>set_obj : qabb20160603b_OBJ2</STRING>
                 <STRING>give_item : mgourd_empty 1 1 : source2</STRING>
                 <STRING>add_compass_npc : source3</STRING>
                 <STRING>recv_item : mgourd_full 1 1 : source2</STRING>
-                <STRING>set_obj_rp : qabb20160603b_OBJ2</STRING>
+                <STRING>set_obj : qabb20160603b_OBJ2</STRING>
                 <STRING>give_item : mgourd_empty 1 1 : source3</STRING>
                 <STRING>add_compass_npc : source2</STRING>
                 <STRING>recv_item : mgourd_full 1 1 : source3</STRING>
-                <STRING>set_obj_rp : qabb20160603b_OBJ2</STRING>
+                <STRING>set_obj : qabb20160603b_OBJ2</STRING>
                 <STRING>give_item : mgourd_empty 1 1 : source2</STRING>
                 <STRING>add_compass_npc : source1</STRING>
                 <STRING>recv_item : mgourd_full 1 1 : source2</STRING>
-                <STRING>set_obj_rp : qabb20160603b_OBJ2</STRING>
+                <STRING>set_obj : qabb20160603b_OBJ2</STRING>
                 <STRING>give_item : mgourd_empty 1 1 : source1</STRING>
                 <STRING>add_compass_npc : disp_sipvandil</STRING>
                 <STRING>recv_item : mgourd_full 1 1 : source1</STRING>
                 <STRING># thanks</STRING>
-                <STRING>set_obj_rp : qabb20160603b_OBJ3</STRING>
+                <STRING>set_obj : qabb20160603b_OBJ3</STRING>
                 <STRING>talk_to : disp_sipvandil : TEXT_qabb20160603b_1</STRING>
                 <STRING># cook</STRING>
                 <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160603b_2 : ANSWER1 ANSWER_qabb20160603b_1 : ANSWER2 ANSWER_qabb20160603b_2</STRING>
@@ -825,13 +814,13 @@
                 <STRING>jump_point : INTRO_resp</STRING>
                 <STRING># step_egg</STRING>
                 <STRING>add_compass_place : region_newbieland_shining_lake</STRING>
-                <STRING>set_obj_rp : qabb20160607a_OBJ</STRING>
+                <STRING>set_obj : qabb20160607a_OBJ</STRING>
                 <STRING>loot_mp : meggchdca01 10 5</STRING>
-                <STRING>set_obj_rp : qabb20160607a_OBJ2</STRING>
+                <STRING>set_obj : qabb20160607a_OBJ2</STRING>
                 <STRING>give_item : meggchdca01 10 5 : disp_sipvandil</STRING>
                 <STRING>remove_compass_place : region_newbieland_shining_lake</STRING>
                 <STRING># cadeau</STRING>
-                <STRING>set_obj_rp : qabb20160607a_OBJ3</STRING>
+                <STRING>set_obj : qabb20160607a_OBJ3</STRING>
                 <STRING>dyn_chat : disp_sipvandil : TEXT_qabb20160607a_2 : chat_end_resp ANSWER_OK</STRING>
                 <STRING>jump_point : chat_end_resp</STRING>
                 <STRING>recv_item : conso_fireworks_c 3 1 : disp_sipvandil</STRING>
@@ -975,9 +964,6 @@
               <NAME>class</NAME>
               <STRING>npc_bot</STRING>
             </PROPERTY>
-            <PROPERTY TYPE="string_array">
-              <NAME>equipment</NAME>
-            </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>
               <STRING>disp_sipvandil$fct_dispensary_cook$</STRING>
@@ -996,6 +982,118 @@
                 <NAME>name</NAME>
                 <STRING>alias</STRING>
               </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>npc_group</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>disp_tydorss_group</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_group_parameters</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>parameters</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimAlias">
+            <ALIAS VALUE="1320"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>alias</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimPoint">
+            <PT X="8763.083984" Y="-10672.821289" Z="0.000000"/>
+            <ANGLE VALUE="3.180863"/>
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>npc_bot</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>disp_tydorss$fct_dispensary_miller$</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>sheet_client</NAME>
+              <STRING>disp_tydorss</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimAlias">
+              <ALIAS VALUE="1321"/>
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>alias</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>mission</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>qabb20170302a</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>script</NAME>
+                <STRING># script generated from 'qabb20170302a.primitive'</STRING>
+                <STRING></STRING>
+                <STRING>#mission tags and pre-requisites</STRING>
+                <STRING>replayable</STRING>
+                <STRING>solo</STRING>
+                <STRING>mission_category : forage</STRING>
+                <STRING>auto : qabb20170302a_PHR</STRING>
+                <STRING>mission_icon : generic_forage</STRING>
+                <STRING>need_validation</STRING>
+                <STRING></STRING>
+                <STRING>#Variables declaration</STRING>
+                <STRING>decl : bot : giver</STRING>
+                <STRING>decl : bot : player</STRING>
+                <STRING>decl : bot : disp_tydorss</STRING>
+                <STRING></STRING>
+                <STRING>#pre-requisites</STRING>
+                <STRING></STRING>
+                <STRING>#script</STRING>
+                <STRING>mission_title : qabb20170302a_TITLE</STRING>
+                <STRING>mission_desc : qabb20170302a_DESC</STRING>
+                <STRING># step_4</STRING>
+                <STRING>set_obj : qabb20170302a_OBJ</STRING>
+                <STRING>forage : mgedja 5 1</STRING>
+                <STRING>set_obj : qabb20170302a_OBJ1</STRING>
+                <STRING>give_item : mgedja 12 1 : disp_bagflour</STRING>
+                <STRING>recv_item : mflour 3 1 : disp_bagflour</STRING>
+                <STRING>set_obj : qabb20170302a_OBJ2</STRING>
+                <STRING>give_item : mflour 3 1 : giver</STRING>
+                <STRING>recv_money : 1000</STRING>
+                <STRING></STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimAlias">
+                <ALIAS VALUE="1322"/>
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>name</NAME>
+                  <STRING>alias</STRING>
+                </PROPERTY>
+              </CHILD>
             </CHILD>
           </CHILD>
         </CHILD>
@@ -1161,9 +1259,6 @@
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
               <STRING>npc_bot</STRING>
-            </PROPERTY>
-            <PROPERTY TYPE="string_array">
-              <NAME>equipment</NAME>
             </PROPERTY>
             <PROPERTY TYPE="string">
               <NAME>name</NAME>

@@ -1,0 +1,19 @@
+qabb20170303a_TITLE ()
+{
+		qabb20170303a_TITLE	[Transformer la racine de gedja en un sac de farine de gedja.]
+
+}
+
+qabb20170303a_DESC ()
+{
+		qabb20170303a_DESC    [Transformer 3 gedja en un sac de farine de gedja.]
+
+}
+
+qabb20170303a_OBJ ()
+{
+		qabb20170303a_OBJ    [Transformer 3 gedja en un sac de farine.]
+
+}
+
+

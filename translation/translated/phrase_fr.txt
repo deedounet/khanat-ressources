@@ -27404,6 +27404,13 @@ qabb20160603b_OBJ3 ()
 
 }
 
+// HASH_VALUE CE09BFDE6A1DEDD1
+qabb20160603b_OBJ4 ()
+{
+		qabb20160603b_OBJ4	[Donnez des gedja pour faire de la farine au moulin]
+
+}
+
 // HASH_VALUE 52C30ED692B5A315
 qabb20160603b_TITLE ()
 {
@@ -27590,6 +27597,62 @@ qabb20161025a_PHR2 ()
 qabb20161025a_TITLE ()
 {
 		qabb20161025a_TITLE	[Ramener des klums]
+
+}
+
+// HASH_VALUE 5470147FDC073F2A
+qabb20170302a_DESC ()
+{
+		qabb20170302a_DESC	[Déterrer douze gedja, de délicieux tubercules, et les tranformer au moulin en farine.]
+
+}
+
+// HASH_VALUE 7153AFC4BEA4D7D8
+qabb20170302a_OBJ ()
+{
+		qabb20170302a_OBJ	[Récolter douze gedja]
+
+}
+
+// HASH_VALUE 212CB5FD61C279B7
+qabb20170302a_OBJ1 ()
+{
+		qabb20170302a_OBJ1	[Transformer douze gedja au moulin en farine]
+
+}
+
+// HASH_VALUE CDB77F3EB580E9E3
+qabb20170302a_OBJ2 ()
+{
+		qabb20170302a_OBJ2	[Donner 3 sacs de farine de gedja]
+
+}
+
+// HASH_VALUE 41600732996CE5F4
+qabb20170302a_TITLE ()
+{
+		qabb20170302a_TITLE	[Donner de la farine de gedja]
+
+}
+
+// HASH_VALUE ED9A2B1D1639E1BB
+qabb20170303a_DESC ()
+{
+		qabb20170303a_DESC	[Transformer 3 gedja en un sac de farine de gedja.]
+
+}
+
+// HASH_VALUE E4B421CA8B3D9D14
+qabb20170303a_OBJ ()
+{
+		qabb20170303a_OBJ	[Transformer 3 gedja en un sac de farine.]
+
+}
+
+// HASH_VALUE 8B99BB31037C3487
+qabb20170303a_TITLE ()
+{
+		qabb20170303a_TITLE	[Transformer la racine de gedja en un sac de farine de gedja.]
 
 }
 

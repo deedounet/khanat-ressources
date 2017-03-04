@@ -2,6 +2,10 @@
 <PRIMITIVES VERSION="1">
   <ROOT_PRIMITIVE TYPE="CPrimNode">
     <ALIAS LAST_GENERATED="1"/>
+    <PROPERTY TYPE="string">
+      <NAME>name</NAME>
+      <STRING></STRING>
+    </PROPERTY>
     <CHILD TYPE="CPrimNode">
       <PROPERTY TYPE="string">
         <NAME>class</NAME>
@@ -168,19 +172,43 @@
                   <STRING>disp_jimman</STRING>
                 </PROPERTY>
               </CHILD>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>add_compass</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>npc_to_add</NAME>
+                  <STRING>disp_bagflour</STRING>
+                </PROPERTY>
+              </CHILD>
             </CHILD>
             <CHILD TYPE="CPrimNode">
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
-                <STRING>target</STRING>
+                <STRING>forage</STRING>
               </PROPERTY>
               <PROPERTY TYPE="string_array">
-                <NAME>npcs_to_target</NAME>
-                <STRING>bag_flour</STRING>
+                <NAME>item/quantity/quality</NAME>
+                <STRING>mgedja 3 1</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>give_item</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>item/quantity/quality</NAME>
+                <STRING>mgedja 3 1</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>npc_name</NAME>
+                <STRING>disp_bagflour</STRING>
               </PROPERTY>
               <PROPERTY TYPE="string_array">
                 <NAME>roleplay_objective</NAME>
-                <STRING>qabb20160603b_OBJ1</STRING>
+                <STRING>qabb20160603b_OBJ4</STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimNode">
                 <PROPERTY TYPE="string">
@@ -189,11 +217,11 @@
                 </PROPERTY>
                 <PROPERTY TYPE="string_array">
                   <NAME>item/quantity/quality</NAME>
-                  <STRING>mflour 1 1</STRING>
+                  <STRING>mflour 3 1</STRING>
                 </PROPERTY>
                 <PROPERTY TYPE="string">
                   <NAME>npc_name</NAME>
-                  <STRING>bag_flour</STRING>
+                  <STRING>disp_bagflour</STRING>
                 </PROPERTY>
               </CHILD>
               <CHILD TYPE="CPrimNode">
