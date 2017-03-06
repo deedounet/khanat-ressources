@@ -6,7 +6,6 @@
       <ATOM Name="SabrinaCost"/>
       <ATOM Name="Property 0" Value="SP_FIRE_WALL_AURA:15:120:1200:1800:20"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
-      <ATOM Name="CivRestriction" Value="fyros"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_fire.tga"/>

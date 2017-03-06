@@ -8,7 +8,7 @@
       <ATOM Name="Property 0"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SFM 0"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
       <ATOM Name="Skill"/>
       <ATOM Name="ForbiddenDef"/>
       <ATOM Name="ForbiddenExclude"/>

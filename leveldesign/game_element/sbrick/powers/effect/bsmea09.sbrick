@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.5 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BSXEA"/>
+      <ATOM Name="SabrinaCost" Value="0"/>
+      <ATOM Name="Property 0"/>
+      <ATOM Name="Property 1" Value="NEEDED_BRICK_FLAG:Heal"/>
+      <ATOM Name="Property 2"/>
+      <ATOM Name="LearnRequiresOneOfSkills"/>
+      <ATOM Name="Skill"/>
+      <ATOM Name="ForbiddenDef" Value="HEAL"/>
+      <ATOM Name="ForbiddenExclude" Value="POWER"/>
+      <ATOM Name="LearnRequiresBricks"/>
+      <ATOM Name="MinRange" Value="0"/>
+      <ATOM Name="MaxRange" Value="0"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Sap.tga"/>
+      <ATOM Name="IconBack" Value="EF_Back.tga"/>
+      <ATOM Name="IconOver"/>
+    </STRUCT>
+    <STRUCT Name="Parameter">
+      <ATOM Name="f0" Value="BSMMD"/>
+      <ATOM Name="f1"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

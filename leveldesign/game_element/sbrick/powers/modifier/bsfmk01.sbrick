@@ -5,7 +5,6 @@
       <ATOM Name="FamilyId" Value="BSFMK"/>
       <ATOM Name="Property 0" Value="SP_WATER_WALL_AURA:15:120:1200:1800:6"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
-      <ATOM Name="CivRestriction" Value="tryker"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_shockwave.tga"/>

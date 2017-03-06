@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BHFECA"/>
       <ATOM Name="IndexInFamily" Value="2"/>
       <ATOM Name="SabrinaCost" Value="-15"/>
-      <ATOM Name="SPCost" Value="5"/>
+      <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="FOCUS: 3"/>
       <ATOM Name="Property 1" Value="BHFECA_TAG: -10"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>

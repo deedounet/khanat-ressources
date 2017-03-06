@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.6 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BFMC"/>
+      <ATOM Name="PowerValue" Value="30"/>
+      <ATOM Name="SabrinaCost" Value="15"/>
+      <ATOM Name="SPCost" Value="10"/>
+      <ATOM Name="Property 0" Value="ATT_SKILL_MOD:0:30"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
+      <ATOM Name="Skill" Value="SF"/>
+      <ATOM Name="LearnRequiresBricks" Value="BFMC01"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Accurate.tga"/>
+      <ATOM Name="IconBack" Value="PA_Back.tga"/>
+      <ATOM Name="IconOver" Value="PA_Over_More.tga"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

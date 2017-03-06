@@ -5,7 +5,7 @@
       <ATOM Name="FamilyId" Value="BSXEA"/>
       <ATOM Name="SabrinaCost" Value="0"/>
       <ATOM Name="Property 0"/>
-      <ATOM Name="Property 1" Value="NEEDED_BRICK_FLAG:BalanceHp"/>
+      <ATOM Name="Property 1" Value="NEEDED_BRICK_FLAG:BalanceChaScore1"/>
       <ATOM Name="Property 2"/>
       <ATOM Name="LearnRequiresOneOfSkills"/>
       <ATOM Name="Skill"/>

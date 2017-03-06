@@ -5,7 +5,6 @@
       <ATOM Name="FamilyId" Value="BSFML"/>
       <ATOM Name="Property 0" Value="SP_LIGHTNING_WALL_AURA:15:120:300:600:-15"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
-      <ATOM Name="CivRestriction" Value="zorai"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_electric.tga"/>

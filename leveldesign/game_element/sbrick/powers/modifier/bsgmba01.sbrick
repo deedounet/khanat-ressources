@@ -8,7 +8,7 @@
       <ATOM Name="Property 0" Value="SP_ENCHANT_WEAPON:10:60:ACID:10:10"/>
       <ATOM Name="Property 1"/>
       <ATOM Name="Property 2"/>
-      <ATOM Name="LearnRequiresOneOfSkills" Value="SFM 0"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
       <ATOM Name="Skill"/>
       <ATOM Name="ForbiddenDef"/>
       <ATOM Name="ForbiddenExclude"/>
