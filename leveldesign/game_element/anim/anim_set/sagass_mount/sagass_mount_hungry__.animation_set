@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <FORM Revision="$Revision: 1.1 $" State="modified">
-  <PARENT Filename="sagassmount_swim__.animation_set"/>
+  <PARENT Filename="sagass_mount_swim__.animation_set"/>
   <STRUCT>
   </STRUCT>
   <STRUCT/>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.8 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BFMF"/>
+      <ATOM Name="PowerValue" Value="90"/>
+      <ATOM Name="SabrinaCost" Value="75"/>
+      <ATOM Name="SPCost" Value="10"/>
+      <ATOM Name="Property 0" Value="HIT_ALL_AGGRESSORS:1.0:2.4"/>
+      <ATOM Name="Property 1" Value="SET_BEHAVIOUR:AREA_ATTACK"/>
+      <ATOM Name="Property 2"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
+      <ATOM Name="Skill" Value="SF"/>
+      <ATOM Name="ForbiddenDef"/>
+      <ATOM Name="ForbiddenExclude"/>
+      <ATOM Name="LearnRequiresBricks" Value="bfmf01"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Circular_Attack.tga"/>
+      <ATOM Name="IconBack" Value="PA_Back.tga"/>
+      <ATOM Name="IconOver" Value="PA_Over_More.tga"/>
+    </STRUCT>
+    <STRUCT Name="Parameter">
+      <ATOM Name="f0"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <LOG></LOG>
+</FORM>

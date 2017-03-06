@@ -6,7 +6,6 @@
       <ATOM Name="Property 0" Value="SP_THORN_WALL_AURA:15:70:1200:1800:50"/>
       <ATOM Name="Property 1" Value="INFO:1.5"/>
       <ATOM Name="LearnRequiresOneOfSkills" Value="SF 0"/>
-      <ATOM Name="CivRestriction" Value="matis"/>
     </STRUCT>
     <STRUCT Name="Client">
       <ATOM Name="Icon" Value="ICO_poison.tga"/>

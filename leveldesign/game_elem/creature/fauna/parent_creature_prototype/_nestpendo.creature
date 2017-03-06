@@ -5,7 +5,7 @@
   <PARENT Filename="_medium_slashing_armor_set.creature"/>
   <STRUCT>
     <STRUCT Name="Basics">
-      <ATOM Name="Race" Value="source"/>
+      <ATOM Name="Race" Value="dag"/>
       <ATOM Name="DamageLocalisationTable" Value="other"/>
       <ATOM Name="Size" Value="small"/>
       <ATOM Name="Profile" Value="caster healer"/>
@@ -35,8 +35,8 @@
         </STRUCT>
       </STRUCT>
       <STRUCT Name="MovementSpeeds">
-        <ATOM Name="WalkSpeed" Value="&quot;3d data.Scale&quot;*1.1"/>
-        <ATOM Name="RunSpeed" Value="&quot;3d data.Scale&quot;*3.536918"/>
+        <ATOM Name="WalkSpeed" Value="0"/>
+        <ATOM Name="RunSpeed" Value="0"/>
       </STRUCT>
     </STRUCT>
     <STRUCT Name="3d data">
@@ -48,20 +48,10 @@
       <ATOM Name="NamePosZNormal" Value="0.7"/>
     </STRUCT>
     <STRUCT Name="Harvest">
-      <STRUCT Name="MP1">
-        <ATOM Name="Name" Value="dag meat"/>
-      </STRUCT>
-      <STRUCT Name="MP2">
-        <ATOM Name="Name" Value="dag canines"/>
-      </STRUCT>
-      <STRUCT Name="MP3">
-        <ATOM Name="Name" Value="dag tongue"/>
-      </STRUCT>
     </STRUCT>
     <STRUCT Name="Collision">
       <ATOM Name="CollisionRadius" Value="0.4"/>
     </STRUCT>
-    <ATOM Name="attack_list1" Value="dag.attack_list"/>
   </STRUCT>
   <STRUCT/>
   <STRUCT/>

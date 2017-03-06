@@ -4,7 +4,7 @@
     <STRUCT Name="Basics">
       <ATOM Name="FamilyId" Value="BHFEEA"/>
       <ATOM Name="IndexInFamily" Value="2"/>
-      <ATOM Name="SabrinaCost" Value="6"/>
+      <ATOM Name="SabrinaCost" Value="2"/>
       <ATOM Name="SPCost" Value="0"/>
       <ATOM Name="Property 0" Value="FG_ABS_S: 0.1"/>
       <ATOM Name="Property 1" Value="FG_SRC_PRD: 5.0"/>

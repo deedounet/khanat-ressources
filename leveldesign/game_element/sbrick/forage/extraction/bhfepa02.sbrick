@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<FORM Revision="$Revision: 1.10 $" State="modified">
+  <STRUCT>
+    <STRUCT Name="Basics">
+      <ATOM Name="FamilyId" Value="BHFEPA"/>
+      <ATOM Name="IndexInFamily" Value="2"/>
+      <ATOM Name="SPCost" Value="20"/>
+      <ATOM Name="LearnRequiresOneOfSkills" Value="SH 0"/>
+      <ATOM Name="Skill" Value="SH"/>
+    </STRUCT>
+    <STRUCT Name="Client">
+      <ATOM Name="Icon" Value="ICO_Extracting.tga"/>
+      <ATOM Name="IconBack" Value="FO_Back.tga"/>
+    </STRUCT>
+    <STRUCT Name="Optional">
+      <ATOM Name="f0" Value="BHFEOA"/>
+      <ATOM Name="f1" Value="BHFEOB"/>
+      <ATOM Name="f2" Value="BHFEOC"/>
+      <ATOM Name="f3" Value="BHFEOD"/>
+      <ATOM Name="f4" Value="BHFEOE"/>
+      <ATOM Name="f5" Value="BHFEOG"/>
+      <ATOM Name="f6" Value="BHFEOH"/>
+    </STRUCT>
+    <STRUCT Name="Credit">
+      <ATOM Name="f0" Value="BHFECA"/>
+    </STRUCT>
+  </STRUCT>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+  <STRUCT/>
+</FORM>
