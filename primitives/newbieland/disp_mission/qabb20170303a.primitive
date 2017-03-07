@@ -17,8 +17,20 @@
           <STRING>solo</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
+          <NAME>auto_remove_from_journal</NAME>
+          <STRING>true</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>automatic</NAME>
+          <STRING>true</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
           <NAME>class</NAME>
           <STRING>mission_tree</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>fail_if_inventory_is_full</NAME>
+          <STRING>true</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>giver_primitive</NAME>
@@ -43,6 +55,18 @@
         <PROPERTY TYPE="string">
           <NAME>name</NAME>
           <STRING>qabb20170303a</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>not_in_journal</NAME>
+          <STRING>true</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string_array">
+          <NAME>phrase_auto_menu</NAME>
+          <STRING>qabb20170303a_PHR</STRING>
+        </PROPERTY>
+        <PROPERTY TYPE="string">
+          <NAME>player_replay_timer</NAME>
+          <STRING>100</STRING>
         </PROPERTY>
         <PROPERTY TYPE="string">
           <NAME>replayable</NAME>
