@@ -1016,7 +1016,7 @@
             </PROPERTY>
           </CHILD>
           <CHILD TYPE="CPrimPoint">
-            <PT X="8763.083984" Y="-10672.821289" Z="0.000000"/>
+            <PT X="8762.946289" Y="-10672.889648" Z="0.000000"/>
             <ANGLE VALUE="3.180863"/>
             <PROPERTY TYPE="string">
               <NAME>class</NAME>
@@ -1072,14 +1072,38 @@
                 <STRING>#script</STRING>
                 <STRING>mission_title : qabb20170302a_TITLE</STRING>
                 <STRING>mission_desc : qabb20170302a_DESC</STRING>
+                <STRING># linear_dyn_chat_continue_1</STRING>
+                <STRING>dyn_chat : giver : qabb20170302a_PHR1 : linear_dyn_chat_continue_1_resp ANSWER_OK</STRING>
+                <STRING>jump_point : linear_dyn_chat_continue_1_resp</STRING>
+                <STRING># step_2</STRING>
+                <STRING>set_obj_rp : qabb20170302a_OBJ</STRING>
+                <STRING>forage : mgedja 4 1</STRING>
+                <STRING>add_compass_npc : giver</STRING>
+                <STRING># step_3</STRING>
+                <STRING>jump_point : step_3</STRING>
+                <STRING>talk_to : giver : qabb20170302a_PHR2</STRING>
+                <STRING># Step_item_inv</STRING>
+                <STRING>if_item_in_inv : mflour : jump to linear_dyn_chat_continue_3</STRING>
+                <STRING># no: jump to linear_dyn_chat_continue_2</STRING>
+                <STRING>jump : linear_dyn_chat_continue_2</STRING>
+                <STRING>jump : Step_item_inv_endif</STRING>
+                <STRING># yes: jump to linear_dyn_chat_continue_3</STRING>
+                <STRING>jump_point : jump to linear_dyn_chat_continue_3</STRING>
+                <STRING>jump : linear_dyn_chat_continue_3</STRING>
+                <STRING>jump_point : Step_item_inv_endif</STRING>
+                <STRING># linear_dyn_chat_continue_2</STRING>
+                <STRING>jump_point : linear_dyn_chat_continue_2</STRING>
+                <STRING>dyn_chat : giver : qabb20170302a_PHR3 : linear_dyn_chat_continue_2_resp ANSWER_OK</STRING>
+                <STRING>jump_point : linear_dyn_chat_continue_2_resp</STRING>
+                <STRING># step_jump_test</STRING>
+                <STRING>jump : step_3</STRING>
+                <STRING># linear_dyn_chat_continue_3</STRING>
+                <STRING>jump_point : linear_dyn_chat_continue_3</STRING>
+                <STRING>dyn_chat : giver : qabb20170302a_PHR4 : linear_dyn_chat_continue_3_resp ANSWER_OK</STRING>
+                <STRING>jump_point : linear_dyn_chat_continue_3_resp</STRING>
                 <STRING># step_4</STRING>
-                <STRING>set_obj : qabb20170302a_OBJ</STRING>
-                <STRING>forage : mgedja 5 1</STRING>
-                <STRING>set_obj : qabb20170302a_OBJ1</STRING>
-                <STRING>give_item : mgedja 12 1 : disp_bagflour</STRING>
-                <STRING>recv_item : mflour 3 1 : disp_bagflour</STRING>
-                <STRING>set_obj : qabb20170302a_OBJ2</STRING>
-                <STRING>give_item : mflour 3 1 : giver</STRING>
+                <STRING>give_item : mflour 1 1 : giver</STRING>
+                <STRING>talk_to : giver : qabb20170302a_PHR5</STRING>
                 <STRING>recv_money : 1000</STRING>
                 <STRING></STRING>
               </PROPERTY>
@@ -1644,7 +1668,7 @@
             <PT X="8838.248047" Y="-10637.232422" Z="0.000000"/>
             <PT X="8815.148438" Y="-10668.859375" Z="0.000000"/>
             <PT X="8812.402344" Y="-10741.995117" Z="0.000000"/>
-            <PT X="8825.601563" Y="-10814.310547" Z="0.000000"/>
+            <PT X="8825.601562" Y="-10814.310547" Z="0.000000"/>
             <PT X="8822.853516" Y="-10894.063477" Z="0.000000"/>
             <PT X="8814.603516" Y="-11046.956055" Z="0.000000"/>
             <PT X="8810.755859" Y="-11181.699219" Z="0.000000"/>

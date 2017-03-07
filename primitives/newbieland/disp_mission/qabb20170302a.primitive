@@ -95,6 +95,20 @@
         <CHILD TYPE="CPrimNode">
           <PROPERTY TYPE="string">
             <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>linear_dyn_chat_continue_1</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>qabb20170302a_PHR1</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
             <STRING>pre_requisite</STRING>
           </PROPERTY>
           <PROPERTY TYPE="string">
@@ -111,6 +125,272 @@
           <PROPERTY TYPE="string">
             <NAME>name</NAME>
             <STRING>alias</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>step</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>step_2</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>pre_actions</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>mission_objectives</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>objectives</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>forage</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>item/quantity/quality</NAME>
+                <STRING>mgedja 12 1</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>roleplay_objective</NAME>
+                <STRING>qabb20170302a_OBJ</STRING>
+              </PROPERTY>
+              <CHILD TYPE="CPrimNode">
+                <PROPERTY TYPE="string">
+                  <NAME>class</NAME>
+                  <STRING>add_compass</STRING>
+                </PROPERTY>
+                <PROPERTY TYPE="string">
+                  <NAME>npc_to_add</NAME>
+                  <STRING>$giver$</STRING>
+                </PROPERTY>
+              </CHILD>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>post_actions</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>step</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>step_3</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>pre_actions</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>mission_objectives</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>objectives</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>talk_to</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>talk_to $giver$</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string_array">
+                <NAME>phrase</NAME>
+                <STRING>qabb20170302a_PHR2</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>post_actions</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>step_if</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>condition_type</NAME>
+            <STRING>test_item_in_inv</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>Step_item_inv</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>test_parameters</NAME>
+            <STRING>mflour</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>result_yes</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>yes</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>jump_to</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>jump to linear_dyn_chat_continue_3</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>target</NAME>
+                <STRING>linear_dyn_chat_continue_3</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>result_no</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>no</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>jump_to</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>jump to linear_dyn_chat_continue_2</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>target</NAME>
+                <STRING>linear_dyn_chat_continue_2</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>linear_dyn_chat_continue_2</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>qabb20170302a_PHR3</STRING>
+          </PROPERTY>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>step</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>step_jump_test</STRING>
+          </PROPERTY>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>pre_actions</STRING>
+            </PROPERTY>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>jump_to</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>jump to step_3</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>target</NAME>
+                <STRING>step_3</STRING>
+              </PROPERTY>
+            </CHILD>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>mission_objectives</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>objectives</STRING>
+            </PROPERTY>
+          </CHILD>
+          <CHILD TYPE="CPrimNode">
+            <PROPERTY TYPE="string">
+              <NAME>class</NAME>
+              <STRING>actions</STRING>
+            </PROPERTY>
+            <PROPERTY TYPE="string">
+              <NAME>name</NAME>
+              <STRING>post_actions</STRING>
+            </PROPERTY>
+          </CHILD>
+        </CHILD>
+        <CHILD TYPE="CPrimNode">
+          <PROPERTY TYPE="string">
+            <NAME>class</NAME>
+            <STRING>linear_dyn_chat_continue</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string">
+            <NAME>name</NAME>
+            <STRING>linear_dyn_chat_continue_3</STRING>
+          </PROPERTY>
+          <PROPERTY TYPE="string_array">
+            <NAME>phrase</NAME>
+            <STRING>qabb20170302a_PHR4</STRING>
           </PROPERTY>
         </CHILD>
         <CHILD TYPE="CPrimNode">
@@ -144,61 +424,29 @@
             <CHILD TYPE="CPrimNode">
               <PROPERTY TYPE="string">
                 <NAME>class</NAME>
-                <STRING>forage</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string_array">
-                <NAME>item/quantity/quality</NAME>
-                <STRING>mgedja 5 1</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string_array">
-                <NAME>roleplay_objective</NAME>
-                <STRING>qabb20170302a_OBJ</STRING>
-              </PROPERTY>
-            </CHILD>
-            <CHILD TYPE="CPrimNode">
-              <PROPERTY TYPE="string">
-                <NAME>class</NAME>
-                <STRING>give_item</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string_array">
-                <NAME>item/quantity/quality</NAME>
-                <STRING>mgedja 12 1</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string">
-                <NAME>npc_name</NAME>
-                <STRING>disp_bagflour</STRING>
-              </PROPERTY>
-              <PROPERTY TYPE="string_array">
-                <NAME>roleplay_objective</NAME>
-                <STRING>qabb20170302a_OBJ1</STRING>
-              </PROPERTY>
-              <CHILD TYPE="CPrimNode">
-                <PROPERTY TYPE="string">
-                  <NAME>class</NAME>
-                  <STRING>recv_item</STRING>
-                </PROPERTY>
-                <PROPERTY TYPE="string_array">
-                  <NAME>item/quantity/quality</NAME>
-                  <STRING>mflour 3 1</STRING>
-                </PROPERTY>
-                <PROPERTY TYPE="string">
-                  <NAME>npc_name</NAME>
-                  <STRING>disp_bagflour</STRING>
-                </PROPERTY>
-              </CHILD>
-            </CHILD>
-            <CHILD TYPE="CPrimNode">
-              <PROPERTY TYPE="string">
-                <NAME>class</NAME>
                 <STRING>give_item</STRING>
               </PROPERTY>
               <PROPERTY TYPE="string_array">
                 <NAME>item/quantity/quality</NAME>
                 <STRING>mflour 3 1</STRING>
               </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>give_item  to $giver$</STRING>
+              </PROPERTY>
+            </CHILD>
+            <CHILD TYPE="CPrimNode">
+              <PROPERTY TYPE="string">
+                <NAME>class</NAME>
+                <STRING>talk_to</STRING>
+              </PROPERTY>
+              <PROPERTY TYPE="string">
+                <NAME>name</NAME>
+                <STRING>talk_to $giver$</STRING>
+              </PROPERTY>
               <PROPERTY TYPE="string_array">
-                <NAME>roleplay_objective</NAME>
-                <STRING>qabb20170302a_OBJ2</STRING>
+                <NAME>phrase</NAME>
+                <STRING>qabb20170302a_PHR5</STRING>
               </PROPERTY>
               <CHILD TYPE="CPrimNode">
                 <PROPERTY TYPE="string">
