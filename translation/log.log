@@ -1,116 +1,222 @@
 
-Log Starting [2017/03/04 18:49:22]
-2017/03/04 18:49:22 INF 733603648 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
-2017/03/04 18:49:22 WRN 733603648 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
-2017/03/04 18:49:22 INF 733603648 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(1) : Including 'work/phrases/phrase_test_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(2) : Including 'work/phrases/generic_missions_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(3) : Including 'work/phrases/emotes_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(4) : Including 'work/phrases/encyclopedia/phrase_ency_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/encyclopedia/phrase_ency_wk.txt(2) : Including 'work/phrases/encyclopedia/phrase_ency_alb_00_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(5) : Including 'work/phrases/rites/phrase_rites_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/rites/phrase_rites_wk.txt(2) : Including 'work/phrases/rites/rite_00_01_first_rite_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(6) : Including 'work/phrases/whoami_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(7) : Including 'work/phrases/named_items_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(8) : Including 'work/phrases/mission_test_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(9) : Including 'work/phrases/nbland_missions_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(10) : Including 'work/phrases/generic_task_phrases_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(11) : Including 'work/phrases/phrase_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(12) : Including 'work/phrases/phrase_combat_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(13) : Including 'work/phrases/phrase_forage_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(14) : Including 'work/phrases/phrase_death_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(15) : Including 'work/phrases/phrase_magic_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(16) : Including 'work/phrases/phrase_xpgain_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(17) : Including 'work/phrases/phrase_faction_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(18) : Including 'work/phrases/phrase_loot_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(19) : Including 'work/phrases/phrase_ring_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(20) : Including 'work/phrases/phrase_target_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(21) : Including 'work/phrases/phrase_inventory_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(22) : Including 'work/phrases/phrase_sphrase_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(23) : Including 'work/phrases/phrase_mission_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(24) : Including 'work/phrases/phrase_craft_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(25) : Including 'work/phrases/phrase_effect_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(26) : Including 'work/phrases/phrase_team_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(27) : Including 'work/phrases/phrase_exchange_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(28) : Including 'work/phrases/phrase_zone_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(29) : Including 'work/phrases/phrase_power_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(30) : Including 'work/phrases/phrase_lift_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(31) : Including 'work/phrases/phrase_enchantment_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(32) : Including 'work/phrases/phrase_guild_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(33) : Including 'work/phrases/phrase_outpost_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(34) : Including 'work/phrases/phrase_pvp_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(35) : Including 'work/phrases/phrase_fame_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(36) : Including 'work/phrases/phrase_animal_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(37) : Including 'work/phrases/missions/qabb20160310a_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(38) : Including 'work/phrases/missions/qabb20160603a_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(39) : Including 'work/phrases/missions/qabb20160603b_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(40) : Including 'work/phrases/missions/qabb20160607a_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(41) : Including 'work/phrases/missions/qabb20161025a_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(42) : Including 'work/phrases/missions/qabb20170302a_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(43) : Including 'work/phrases/missions/qabb20170303a_wk.txt'
-2017/03/04 18:49:22 INF 733603648 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_TITLE at 2368
-2017/03/04 18:49:22 INF 733603648 <Unknown> main.cpp 2666 onRemove : Removed qabb20170302aa_TITLE at 0
+Log Starting [2017/03/24 21:35:13]
+2017/03/24 21:35:13 INF 3806402368 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2017/03/24 21:35:13 WRN 3806402368 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2017/03/24 21:35:13 INF 3806402368 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
 
-Log Starting [2017/03/04 18:49:44]
-2017/03/04 18:49:44 INF 78534464 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
-2017/03/04 18:49:44 WRN 78534464 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
-2017/03/04 18:49:44 INF 78534464 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+Log Starting [2017/03/24 21:35:31]
+2017/03/24 21:35:31 INF 878417728 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2017/03/24 21:35:31 WRN 878417728 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2017/03/24 21:35:31 INF 878417728 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
 
-Log Starting [2017/03/04 18:49:49]
-2017/03/04 18:49:49 INF 360085312 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
-2017/03/04 18:49:49 WRN 360085312 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
-2017/03/04 18:49:49 INF 360085312 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(1) : Including 'work/phrases/phrase_test_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(2) : Including 'work/phrases/generic_missions_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(3) : Including 'work/phrases/emotes_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(4) : Including 'work/phrases/encyclopedia/phrase_ency_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/encyclopedia/phrase_ency_wk.txt(2) : Including 'work/phrases/encyclopedia/phrase_ency_alb_00_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(5) : Including 'work/phrases/rites/phrase_rites_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/rites/phrase_rites_wk.txt(2) : Including 'work/phrases/rites/rite_00_01_first_rite_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(6) : Including 'work/phrases/whoami_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(7) : Including 'work/phrases/named_items_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(8) : Including 'work/phrases/mission_test_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(9) : Including 'work/phrases/nbland_missions_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(10) : Including 'work/phrases/generic_task_phrases_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(11) : Including 'work/phrases/phrase_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(12) : Including 'work/phrases/phrase_combat_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(13) : Including 'work/phrases/phrase_forage_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(14) : Including 'work/phrases/phrase_death_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(15) : Including 'work/phrases/phrase_magic_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(16) : Including 'work/phrases/phrase_xpgain_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(17) : Including 'work/phrases/phrase_faction_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(18) : Including 'work/phrases/phrase_loot_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(19) : Including 'work/phrases/phrase_ring_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(20) : Including 'work/phrases/phrase_target_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(21) : Including 'work/phrases/phrase_inventory_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(22) : Including 'work/phrases/phrase_sphrase_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(23) : Including 'work/phrases/phrase_mission_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(24) : Including 'work/phrases/phrase_craft_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(25) : Including 'work/phrases/phrase_effect_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(26) : Including 'work/phrases/phrase_team_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(27) : Including 'work/phrases/phrase_exchange_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(28) : Including 'work/phrases/phrase_zone_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(29) : Including 'work/phrases/phrase_power_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(30) : Including 'work/phrases/phrase_lift_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(31) : Including 'work/phrases/phrase_enchantment_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(32) : Including 'work/phrases/phrase_guild_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(33) : Including 'work/phrases/phrase_outpost_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(34) : Including 'work/phrases/phrase_pvp_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(35) : Including 'work/phrases/phrase_fame_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(36) : Including 'work/phrases/phrase_animal_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(37) : Including 'work/phrases/missions/qabb20160310a_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(38) : Including 'work/phrases/missions/qabb20160603a_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(39) : Including 'work/phrases/missions/qabb20160603b_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(40) : Including 'work/phrases/missions/qabb20160607a_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(41) : Including 'work/phrases/missions/qabb20161025a_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(42) : Including 'work/phrases/missions/qabb20170302a_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(43) : Including 'work/phrases/missions/qabb20170303a_wk.txt'
-2017/03/04 18:49:49 INF 360085312 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_TITLE at 2371
-2017/03/04 18:49:49 INF 360085312 <Unknown> main.cpp 2666 onRemove : Removed qabb20170302aa_TITLE at 0
-2017/03/04 18:49:49 INF 360085312 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_TITLE at 2371
-2017/03/04 18:49:49 INF 360085312 <Unknown> main.cpp 2666 onRemove : Removed qabb20170302aa_TITLE at 0
+Log Starting [2017/03/24 21:35:50]
+2017/03/24 21:35:50 INF 2906203968 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2017/03/24 21:35:50 WRN 2906203968 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2017/03/24 21:35:50 INF 2906203968 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(1) : Including 'work/phrases/phrase_test_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(2) : Including 'work/phrases/generic_missions_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(3) : Including 'work/phrases/emotes_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(4) : Including 'work/phrases/encyclopedia/phrase_ency_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/encyclopedia/phrase_ency_wk.txt(2) : Including 'work/phrases/encyclopedia/phrase_ency_alb_00_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(5) : Including 'work/phrases/rites/phrase_rites_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/rites/phrase_rites_wk.txt(2) : Including 'work/phrases/rites/rite_00_01_first_rite_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(6) : Including 'work/phrases/whoami_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(7) : Including 'work/phrases/named_items_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(8) : Including 'work/phrases/mission_test_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(9) : Including 'work/phrases/nbland_missions_wk.txt'
+2017/03/24 21:35:50 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(10) : Including 'work/phrases/generic_task_phrases_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(11) : Including 'work/phrases/phrase_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(12) : Including 'work/phrases/phrase_combat_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(13) : Including 'work/phrases/phrase_forage_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(14) : Including 'work/phrases/phrase_death_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(15) : Including 'work/phrases/phrase_magic_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(16) : Including 'work/phrases/phrase_xpgain_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(17) : Including 'work/phrases/phrase_faction_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(18) : Including 'work/phrases/phrase_loot_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(19) : Including 'work/phrases/phrase_ring_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(20) : Including 'work/phrases/phrase_target_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(21) : Including 'work/phrases/phrase_inventory_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(22) : Including 'work/phrases/phrase_sphrase_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(23) : Including 'work/phrases/phrase_mission_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(24) : Including 'work/phrases/phrase_craft_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(25) : Including 'work/phrases/phrase_effect_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(26) : Including 'work/phrases/phrase_team_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(27) : Including 'work/phrases/phrase_exchange_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(28) : Including 'work/phrases/phrase_zone_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(29) : Including 'work/phrases/phrase_power_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(30) : Including 'work/phrases/phrase_lift_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(31) : Including 'work/phrases/phrase_enchantment_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(32) : Including 'work/phrases/phrase_guild_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(33) : Including 'work/phrases/phrase_outpost_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(34) : Including 'work/phrases/phrase_pvp_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(35) : Including 'work/phrases/phrase_fame_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(36) : Including 'work/phrases/phrase_animal_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(37) : Including 'work/phrases/missions/qabb20160310a_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(38) : Including 'work/phrases/missions/qabb20160603a_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(39) : Including 'work/phrases/missions/qabb20160603b_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(40) : Including 'work/phrases/missions/qabb20160607a_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(41) : Including 'work/phrases/missions/qabb20161025a_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(42) : Including 'work/phrases/missions/qabb20170302a_wk.txt'
+2017/03/24 21:35:51 INF 2906203968 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(43) : Including 'work/phrases/missions/qabb20170303a_wk.txt'
+2017/03/24 21:35:51 WRN 2906203968 <Unknown> diff_tool.cpp 496 readPhraseFileFromString : DT: readPhraseFile : identifier 'qabb20170302a_PHR2' exist twice
 
-Log Starting [2017/03/04 18:50:05]
-2017/03/04 18:50:05 INF 1720969024 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
-2017/03/04 18:50:05 WRN 1720969024 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
-2017/03/04 18:50:05 INF 1720969024 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+Log Starting [2017/03/24 21:36:48]
+2017/03/24 21:36:48 INF 2100299584 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2017/03/24 21:36:48 WRN 2100299584 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2017/03/24 21:36:48 INF 2100299584 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(1) : Including 'work/phrases/phrase_test_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(2) : Including 'work/phrases/generic_missions_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(3) : Including 'work/phrases/emotes_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(4) : Including 'work/phrases/encyclopedia/phrase_ency_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/encyclopedia/phrase_ency_wk.txt(2) : Including 'work/phrases/encyclopedia/phrase_ency_alb_00_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(5) : Including 'work/phrases/rites/phrase_rites_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/rites/phrase_rites_wk.txt(2) : Including 'work/phrases/rites/rite_00_01_first_rite_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(6) : Including 'work/phrases/whoami_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(7) : Including 'work/phrases/named_items_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(8) : Including 'work/phrases/mission_test_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(9) : Including 'work/phrases/nbland_missions_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(10) : Including 'work/phrases/generic_task_phrases_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(11) : Including 'work/phrases/phrase_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(12) : Including 'work/phrases/phrase_combat_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(13) : Including 'work/phrases/phrase_forage_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(14) : Including 'work/phrases/phrase_death_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(15) : Including 'work/phrases/phrase_magic_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(16) : Including 'work/phrases/phrase_xpgain_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(17) : Including 'work/phrases/phrase_faction_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(18) : Including 'work/phrases/phrase_loot_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(19) : Including 'work/phrases/phrase_ring_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(20) : Including 'work/phrases/phrase_target_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(21) : Including 'work/phrases/phrase_inventory_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(22) : Including 'work/phrases/phrase_sphrase_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(23) : Including 'work/phrases/phrase_mission_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(24) : Including 'work/phrases/phrase_craft_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(25) : Including 'work/phrases/phrase_effect_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(26) : Including 'work/phrases/phrase_team_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(27) : Including 'work/phrases/phrase_exchange_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(28) : Including 'work/phrases/phrase_zone_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(29) : Including 'work/phrases/phrase_power_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(30) : Including 'work/phrases/phrase_lift_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(31) : Including 'work/phrases/phrase_enchantment_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(32) : Including 'work/phrases/phrase_guild_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(33) : Including 'work/phrases/phrase_outpost_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(34) : Including 'work/phrases/phrase_pvp_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(35) : Including 'work/phrases/phrase_fame_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(36) : Including 'work/phrases/phrase_animal_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(37) : Including 'work/phrases/missions/qabb20160310a_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(38) : Including 'work/phrases/missions/qabb20160603a_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(39) : Including 'work/phrases/missions/qabb20160603b_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(40) : Including 'work/phrases/missions/qabb20160607a_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(41) : Including 'work/phrases/missions/qabb20161025a_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(42) : Including 'work/phrases/missions/qabb20170302a_wk.txt'
+2017/03/24 21:36:48 INF 2100299584 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(43) : Including 'work/phrases/missions/qabb20170303a_wk.txt'
+2017/03/24 21:36:48 DBG 2100299584 <Unknown> main.cpp 2695 onChanged : Changed detected : // Clause 0 : text changed.
+
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2707 onChanged : Changed qabb20170302a_DESC at 2369
+2017/03/24 21:36:48 DBG 2100299584 <Unknown> main.cpp 2695 onChanged : Changed detected : // Clause 0 : text changed.
+
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2707 onChanged : Changed qabb20170302a_OBJ at 2371
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2666 onRemove : Removed qabb20170302a_OBJ1 at 0
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2666 onRemove : Removed qabb20170302a_OBJ2 at 0
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR at 2370
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR1 at 2372
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR2 at 2373
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR3 at 2374
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR4 at 2375
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR5 at 2376
+2017/03/24 21:36:48 DBG 2100299584 <Unknown> main.cpp 2695 onChanged : Changed detected : // Clause 0 : text changed.
+
+2017/03/24 21:36:48 INF 2100299584 <Unknown> main.cpp 2707 onChanged : Changed qabb20170302a_TITLE at 2368
+
+Log Starting [2017/03/24 21:37:35]
+2017/03/24 21:37:35 INF 3274106688 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2017/03/24 21:37:35 WRN 3274106688 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2017/03/24 21:37:35 INF 3274106688 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+
+Log Starting [2017/03/24 21:37:40]
+2017/03/24 21:37:40 INF 2603677504 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2017/03/24 21:37:40 WRN 2603677504 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2017/03/24 21:37:40 INF 2603677504 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(1) : Including 'work/phrases/phrase_test_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(2) : Including 'work/phrases/generic_missions_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(3) : Including 'work/phrases/emotes_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(4) : Including 'work/phrases/encyclopedia/phrase_ency_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/encyclopedia/phrase_ency_wk.txt(2) : Including 'work/phrases/encyclopedia/phrase_ency_alb_00_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(5) : Including 'work/phrases/rites/phrase_rites_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrases/rites/phrase_rites_wk.txt(2) : Including 'work/phrases/rites/rite_00_01_first_rite_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(6) : Including 'work/phrases/whoami_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(7) : Including 'work/phrases/named_items_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(8) : Including 'work/phrases/mission_test_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(9) : Including 'work/phrases/nbland_missions_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(10) : Including 'work/phrases/generic_task_phrases_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(11) : Including 'work/phrases/phrase_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(12) : Including 'work/phrases/phrase_combat_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(13) : Including 'work/phrases/phrase_forage_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(14) : Including 'work/phrases/phrase_death_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(15) : Including 'work/phrases/phrase_magic_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(16) : Including 'work/phrases/phrase_xpgain_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(17) : Including 'work/phrases/phrase_faction_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(18) : Including 'work/phrases/phrase_loot_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(19) : Including 'work/phrases/phrase_ring_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(20) : Including 'work/phrases/phrase_target_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(21) : Including 'work/phrases/phrase_inventory_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(22) : Including 'work/phrases/phrase_sphrase_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(23) : Including 'work/phrases/phrase_mission_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(24) : Including 'work/phrases/phrase_craft_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(25) : Including 'work/phrases/phrase_effect_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(26) : Including 'work/phrases/phrase_team_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(27) : Including 'work/phrases/phrase_exchange_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(28) : Including 'work/phrases/phrase_zone_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(29) : Including 'work/phrases/phrase_power_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(30) : Including 'work/phrases/phrase_lift_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(31) : Including 'work/phrases/phrase_enchantment_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(32) : Including 'work/phrases/phrase_guild_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(33) : Including 'work/phrases/phrase_outpost_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(34) : Including 'work/phrases/phrase_pvp_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(35) : Including 'work/phrases/phrase_fame_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(36) : Including 'work/phrases/phrase_animal_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(37) : Including 'work/phrases/missions/qabb20160310a_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(38) : Including 'work/phrases/missions/qabb20160603a_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(39) : Including 'work/phrases/missions/qabb20160603b_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(40) : Including 'work/phrases/missions/qabb20160607a_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(41) : Including 'work/phrases/missions/qabb20161025a_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(42) : Including 'work/phrases/missions/qabb20170302a_wk.txt'
+2017/03/24 21:37:40 INF 2603677504 <Unknown> i18n.cpp 817 _readTextFile : Preprocess: In file work/phrase_wk.txt(43) : Including 'work/phrases/missions/qabb20170303a_wk.txt'
+2017/03/24 21:37:40 DBG 2603677504 <Unknown> main.cpp 2695 onChanged : Changed detected : // Clause 0 : text changed.
+
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2707 onChanged : Changed qabb20170302a_DESC at 2367
+2017/03/24 21:37:40 DBG 2603677504 <Unknown> main.cpp 2695 onChanged : Changed detected : // Clause 0 : text changed.
+
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2707 onChanged : Changed qabb20170302a_OBJ at 2368
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2666 onRemove : Removed qabb20170302a_OBJ1 at 0
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2666 onRemove : Removed qabb20170302a_OBJ2 at 0
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR at 2369
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR1 at 2370
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR2 at 2371
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR3 at 2372
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR4 at 2373
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR5 at 2374
+2017/03/24 21:37:40 DBG 2603677504 <Unknown> main.cpp 2695 onChanged : Changed detected : // Clause 0 : text changed.
+
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2707 onChanged : Changed qabb20170302a_TITLE at 2375
+2017/03/24 21:37:40 DBG 2603677504 <Unknown> main.cpp 2695 onChanged : Changed detected : // Clause 0 : text changed.
+
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2707 onChanged : Changed qabb20170302a_DESC at 2367
+2017/03/24 21:37:40 DBG 2603677504 <Unknown> main.cpp 2695 onChanged : Changed detected : // Clause 0 : text changed.
+
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2707 onChanged : Changed qabb20170302a_OBJ at 2368
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2666 onRemove : Removed qabb20170302a_OBJ1 at 0
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2666 onRemove : Removed qabb20170302a_OBJ2 at 0
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR at 2369
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR1 at 2370
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR2 at 2371
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR3 at 2372
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR4 at 2373
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2652 onAdd : Added qabb20170302a_PHR5 at 2374
+2017/03/24 21:37:40 DBG 2603677504 <Unknown> main.cpp 2695 onChanged : Changed detected : // Clause 0 : text changed.
+
+2017/03/24 21:37:40 INF 2603677504 <Unknown> main.cpp 2707 onChanged : Changed qabb20170302a_TITLE at 2375
+
+Log Starting [2017/03/24 21:40:32]
+2017/03/24 21:40:32 INF 2758698816 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./work/, 1, 0): adding the path './work/'
+2017/03/24 21:40:32 WRN 2758698816 <Unknown> path.cpp 1531 insertFileInMap : PATH: CPath::insertFileInMap(phrase_wk.txt, ./work/phrases/phrase_wk.txt, 0, txt): already inserted from './work/', skip it
+2017/03/24 21:40:32 INF 2758698816 <Unknown> path.cpp 1020 addSearchPath : PATH: CPath::addSearchPath(./diff/, 1, 0): adding the path './diff/'

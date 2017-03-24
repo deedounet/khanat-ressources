@@ -1,0 +1,119 @@
+﻿// DIFF_VERSION 2
+// DIFF CHANGED 2369
+/* OLD VALUE : [
+	qabb20170302a_DESC ()
+	{
+			qabb20170302a_DESC	[Déterrer douze gedja, de délicieux tubercules, et les tranformer au moulin en farine.]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 93E456F40EF1FF67
+qabb20170302a_DESC ()
+{
+		qabb20170302a_DESC	[Apprendre Ã  faire de la farine de Gedja.]
+
+}
+
+// DIFF CHANGED 2371
+/* OLD VALUE : [
+	qabb20170302a_OBJ ()
+	{
+			qabb20170302a_OBJ	[Récolter douze gedja]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE B9E73E454764420C
+qabb20170302a_OBJ ()
+{
+		qabb20170302a_OBJ	[Trouver et rÃ©colter quatre gedja.]
+
+}
+
+// DIFF REMOVED
+// HASH_VALUE 212CB5FD61C279B7
+qabb20170302a_OBJ1 ()
+{
+		qabb20170302a_OBJ1	[Transformer douze gedja au moulin en farine]
+
+}
+
+// DIFF REMOVED
+// HASH_VALUE CDB77F3EB580E9E3
+qabb20170302a_OBJ2 ()
+{
+		qabb20170302a_OBJ2	[Donner 3 sacs de farine de gedja]
+
+}
+
+// DIFF ADD
+// HASH_VALUE 90EE345DC44C8C7B
+qabb20170302a_PHR ()
+{
+		qabb20170302a_PHR	[Apprendre Ã  faire de la farine.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE BD8B2364A51F4270
+qabb20170302a_PHR1 ()
+{
+		qabb20170302a_PHR1	[Je vais vous apprendre Ã  faire de la farine de Gedja. Trouver et dÃ©terrer quatre gedja, et les transformer au moulin en farine.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE BA8C48270E081931
+qabb20170302a_PHR2 ()
+{
+		qabb20170302a_PHR2	[J'ai rÃ©ussi Ã  faire la farine!]
+
+}
+
+// DIFF ADD
+// HASH_VALUE BB6301914B04C755
+qabb20170302a_PHR3 ()
+{
+		qabb20170302a_PHR3	[Non, vous me mentez, recommencer.]
+
+}
+
+// DIFF ADD
+// HASH_VALUE D62CF0EF1A9309AD
+qabb20170302a_PHR4 ()
+{
+		qabb20170302a_PHR4	[Oui, vous avez rÃ©ussi, donnez le moi !]
+
+}
+
+// DIFF ADD
+// HASH_VALUE F1259C35B17E86C2
+qabb20170302a_PHR5 ()
+{
+		qabb20170302a_PHR5	[Merci pour votre travail, je vous donne quelques dins pour vos efforts.]
+
+}
+
+// DIFF CHANGED 2368
+/* OLD VALUE : [
+	qabb20170302a_TITLE ()
+	{
+			qabb20170302a_TITLE	[Donner de la farine de gedja]
+	
+	}
+	
+
+] */
+// Clause 0 : text changed.
+// HASH_VALUE 91D2CDA437E68BA8
+qabb20170302a_TITLE ()
+{
+		qabb20170302a_TITLE	[Apprendre Ã  ce servir du moulin.]
+
+}
+
