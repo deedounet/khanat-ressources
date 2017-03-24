@@ -21331,7 +21331,69 @@ uiPlayerTitle	[TITLE >]
 // INDEX 4846
 uiBewareAlpha	[Pre-alpha version]
 
-// HASH_VALUE 041DCC660F16BEDC
+/* OLD VALUE : [Utilisez un mail jetable et un mot de passe simple. Votre compte peut être effacé/réinitialisé à tout moment. Venez sur IRC en cas de souci.] */
+/* OLD VALUE : [Use a not-so-important email and a simple password. Your account can be deleted/wiped at any moment. Come on IRC in case of trouble.] */
+// HASH_VALUE E1E61328589E0E61
 // INDEX 4847
-uiBewareAlphaText	[Use a not-so-important email and a simple password. Your account can be deleted/wiped at any moment. Come on IRC in case of trouble.]
+uiBewareAlphaText	[Use an trash email and a password that you do not use on other accounts, the security of such information is not guaranteed on our servers. Your account can be deleted/wiped at any moment. Come on IRC in case of trouble.]
+
+// HASH_VALUE 5854C7639701383B
+// INDEX 4848
+uiFXAA	[Enable FXAA]
+
+// HASH_VALUE 9C58F47FED081B8E
+// INDEX 4849
+uigcFxAnisotropicFilter	[Anisotropic Filtering:]
+
+// HASH_VALUE 6498F4386498F438
+// INDEX 4850
+uigcFxAnisotropicFilterNone	[None]
+
+// HASH_VALUE 050BB49718B1CAD4
+// INDEX 4851
+uiShowClock12h	[Use 12-hour clock]
+
+// HASH_VALUE BCF4DB5845BC4EDA
+// INDEX 4852
+uittShowClock12h	[If checked, use 12-hour clock in compass and in chat messages.]
+
+// HASH_VALUE 68F99C8C69A81273
+// INDEX 4853
+uiRadarUseCamera	[Radar follows camera rotation]
+
+// HASH_VALUE B83EBD58DE9C068F
+// INDEX 4854
+uittRadarUseCamera	[If checked, use camera rotation for radar view.]
+
+// HASH_VALUE E4B56C91D406BC55
+// INDEX 4855
+uiMouseTablet	[Mode tablet]
+
+// HASH_VALUE 4450141844501418
+// INDEX 4856
+uiFameTitle	[FAME]
+
+// HASH_VALUE 6878DC2CC23A6CB6
+// INDEX 4857
+uiDebugProfileFillRate	[Profile Fillrate]
+
+// HASH_VALUE 6588A87B1E781483
+// INDEX 4858
+uimwAppZone	[AppZone]
+
+// HASH_VALUE CAB123089C80B66B
+// INDEX 4859
+uiNoFiles	[No Files...]
+
+// HASH_VALUE 27273D41B0FA7DD2
+// INDEX 4860
+uiPlayedTime	[You played with this character for %time.]
+
+// HASH_VALUE EB1A8C8F22674C92
+// INDEX 4861
+uiPlaylistRefresh	[Refresh]
+
+// HASH_VALUE 6CEA439B43F4D45F
+// INDEX 4862
+uiFreeViewTablet	[Tablet or touch screen]
 

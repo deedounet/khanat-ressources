@@ -1,0 +1,81 @@
+﻿// DIFF CHANGED 4847 
+/* OLD VALUE : [Utilisez un mail jetable et un mot de passe simple. Votre compte peut être effacé/réinitialisé à tout moment. Venez sur IRC en cas de souci.] */
+/* OLD VALUE : [Utilisez un mail jetable et un mot de passe simple. Votre compte peut être effacé/réinitialisé à tout moment. Venez sur IRC en cas de souci.] */
+// HASH_VALUE E1E61328589E0E61
+// INDEX 0
+uiBewareAlphaText	[Utilisez un email jetable et un mot de passe que vous n'utilisez pas sur d'autres comptes, la sécurité de ces informations n'est pas garantie sur nos serveurs. Votre compte peut être effacé/réinitialisé à tout moment. Venez sur IRC en cas de souci.]
+
+// DIFF ADD 4848 
+// HASH_VALUE 5854C7639701383B
+// INDEX 1
+uiFXAA	[Enable FXAA]
+
+// DIFF ADD 4849 
+// HASH_VALUE 9C58F47FED081B8E
+// INDEX 2
+uigcFxAnisotropicFilter	[Filtrage anisotrope :]
+
+// DIFF ADD 4850 
+// HASH_VALUE 6498F4386498F438
+// INDEX 3
+uigcFxAnisotropicFilterNone	[None]
+
+// DIFF ADD 4851 
+// HASH_VALUE 050BB49718B1CAD4
+// INDEX 4
+uiShowClock12h	[Utiliser le système horaire sur 12 heures]
+
+// DIFF ADD 4852 
+// HASH_VALUE BCF4DB5845BC4EDA
+// INDEX 5
+uittShowClock12h	[Si coché, utilise le système horaire sur 12 heures dans le radar et les messages du chat.]
+
+// DIFF ADD 4853 
+// HASH_VALUE 68F99C8C69A81273
+// INDEX 6
+uiRadarUseCamera	[Le radar suit la rotation de la caméra.]
+
+// DIFF ADD 4854 
+// HASH_VALUE B83EBD58DE9C068F
+// INDEX 7
+uittRadarUseCamera	[Si coché, utilise la rotation de la caméra pour la vue du radar.]
+
+// DIFF ADD 4855 
+// HASH_VALUE E4B56C91D406BC55
+// INDEX 8
+uiMouseTablet	[Mode tablette]
+
+// DIFF ADD 4856 
+// HASH_VALUE 4450141844501418
+// INDEX 9
+uiFameTitle	[FAME]
+
+// DIFF ADD 4857 
+// HASH_VALUE 6878DC2CC23A6CB6
+// INDEX 10
+uiDebugProfileFillRate	[Profilage du taux de remplissage]
+
+// DIFF ADD 4858 
+// HASH_VALUE 6588A87B1E781483
+// INDEX 11
+uimwAppZone	[AppZone]
+
+// DIFF ADD 4859 
+// HASH_VALUE CAB123089C80B66B
+// INDEX 12
+uiNoFiles	[pas de fichier...]
+
+// DIFF ADD 4860 
+// HASH_VALUE 27273D41B0FA7DD2
+// INDEX 13
+uiPlayedTime	[Vous avez joué avec ce personnage pendant %time.]
+
+// DIFF ADD 4861 
+// HASH_VALUE EB1A8C8F22674C92
+// INDEX 14
+uiPlaylistRefresh	[Rafraîchir]
+
+// DIFF ADD 4862 
+// HASH_VALUE 6CEA439B43F4D45F
+// INDEX 15
+uiFreeViewTablet	[Tablette ou touch screen]
